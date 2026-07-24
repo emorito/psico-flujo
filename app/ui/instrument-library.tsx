@@ -63,6 +63,13 @@ export function InstrumentLibrary() {
           .includes(q))
     );
   });
+  const grouped = areas
+    .filter((item) => item !== "Todos")
+    .map((item) => ({
+      area: item,
+      items: filtered.filter((instrument) => instrument.area === item),
+    }))
+    .filter((group) => group.items.length > 0);
 
   return (
     <section className="library-section" aria-label="Biblioteca de instrumentos del Eje I">
@@ -98,61 +105,91 @@ export function InstrumentLibrary() {
         </label>
       </div>
 
+      <div className="area-tags" role="group" aria-label="Áreas de exploración">
+        {areas.map((item) => {
+          const count = item === "Todos"
+            ? instruments.length
+            : instruments.filter((instrument) => instrument.area === item).length;
+          return (
+            <button
+              className={area === item ? "active" : ""}
+              onClick={() => { setArea(item); setOpen(null); }}
+              aria-pressed={area === item}
+              key={item}
+            >
+              <span>{item}</span>
+              <small>{count}</small>
+            </button>
+          );
+        })}
+      </div>
+
       <div className="catalog-summary">
         <span>{filtered.length} {filtered.length === 1 ? "resultado" : "resultados"}</span>
-        <span>Orden alfabético</span>
+        <span>{area === "Todos" ? `${grouped.length} áreas de exploración` : area}</span>
       </div>
 
       {filtered.length ? (
-        <div className="instrument-list">
-          {filtered.map((item, index) => {
-            const isOpen = open === item.slug;
-            return (
-              <article className={`instrument-row ${isOpen ? "open" : ""}`} key={item.slug}>
-                <button
-                  className="instrument-main"
-                  onClick={() => setOpen(isOpen ? null : item.slug)}
-                  aria-expanded={isOpen}
-                >
-                  <span className="row-number">{String(index + 1).padStart(2, "0")}</span>
-                  <span className="code-badge">{item.code}</span>
-                  <span className="instrument-copy">
-                    <strong>{item.name}</strong>
-                    <small>{item.description}</small>
-                  </span>
-                  <span className="row-area">{item.area}</span>
-                  <span className="row-files">{item.files.length} {item.files.length === 1 ? "archivo" : "archivos"}</span>
-                  <span className="expand-icon"><ChevronDown size={17} /></span>
-                </button>
+        <div className="instrument-groups">
+          {grouped.map((group) => (
+            <section className="instrument-group" aria-labelledby={`area-${group.area}`} key={group.area}>
+              <div className="group-heading">
+                <span className="group-marker" />
+                <h3 id={`area-${group.area}`}>{group.area}</h3>
+                <span>{group.items.length} {group.items.length === 1 ? "instrumento" : "instrumentos"}</span>
+              </div>
+              <div className="instrument-list">
+                {group.items.map((item, index) => {
+                  const isOpen = open === item.slug;
+                  return (
+                    <article className={`instrument-row ${isOpen ? "open" : ""}`} key={item.slug}>
+                      <button
+                        className="instrument-main"
+                        onClick={() => setOpen(isOpen ? null : item.slug)}
+                        aria-expanded={isOpen}
+                      >
+                        <span className="row-number">{String(index + 1).padStart(2, "0")}</span>
+                        <span className="code-badge">{item.code}</span>
+                        <span className="instrument-copy">
+                          <strong>{item.name}</strong>
+                          <small>{item.description}</small>
+                        </span>
+                        <span className="row-area">{item.use}</span>
+                        <span className="row-files">{item.files.length} {item.files.length === 1 ? "archivo" : "archivos"}</span>
+                        <span className="expand-icon"><ChevronDown size={17} /></span>
+                      </button>
 
-                {isOpen && (
-                  <div className="instrument-detail">
-                    <div className="detail-context">
-                      <span>Uso sugerido</span>
-                      <strong>{item.use}</strong>
-                      <p>{item.description}</p>
-                    </div>
-                    <div className="file-list">
-                      {item.files.map((file) => (
-                        <a
-                          href={`/instrumentos/eje-1/${item.slug}/${encodeURIComponent(file)}`}
-                          download
-                          key={file}
-                        >
-                          <span className="file-icon"><FileText size={16} /></span>
-                          <span>
-                            <strong>{fileKind(file)}</strong>
-                            <small>{prettyFile(file)} · {file.split(".").pop()?.toUpperCase()}</small>
-                          </span>
-                          <Download size={16} />
-                        </a>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </article>
-            );
-          })}
+                      {isOpen && (
+                        <div className="instrument-detail">
+                          <div className="detail-context">
+                            <span>Uso sugerido</span>
+                            <strong>{item.use}</strong>
+                            <p>{item.description}</p>
+                          </div>
+                          <div className="file-list">
+                            {item.files.map((file) => (
+                              <a
+                                href={`/instrumentos/eje-1/${item.slug}/${encodeURIComponent(file)}`}
+                                download
+                                key={file}
+                              >
+                                <span className="file-icon"><FileText size={16} /></span>
+                                <span>
+                                  <strong>{fileKind(file)}</strong>
+                                  <small>{prettyFile(file)} · {file.split(".").pop()?.toUpperCase()}</small>
+                                </span>
+                                <Download size={16} />
+                              </a>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </article>
+                  );
+                })}
+              </div>
+            </section>
+          ))}
         </div>
       ) : (
         <div className="empty-state">

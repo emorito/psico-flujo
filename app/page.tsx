@@ -48,10 +48,7 @@ export default function Home() {
             <span />
             Biblioteca clínica en evolución
           </div>
-          <h1>
-            Evaluar es trazar<br />
-            <span>un mapa para comprender.</span>
-          </h1>
+          <h1>Evaluar es trazar <span>un mapa para comprender.</span></h1>
           <p>
             Instrumentos de evaluación psicológica organizados en una
             arquitectura clínica clara, accesible y en permanente construcción.
@@ -112,7 +109,7 @@ export default function Home() {
       <section className="collection-banner" id="biblioteca">
         <div>
           <span className="collection-number">EJE 01</span>
-          <h2>Problemas, síntomas<br />y riesgo</h2>
+          <h2>Problemas, síntomas y riesgo</h2>
         </div>
         <p>
           Recursos para reconocer manifestaciones clínicas, estimar severidad,
