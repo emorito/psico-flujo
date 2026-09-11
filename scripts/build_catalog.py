@@ -204,6 +204,15 @@ def main():
                 tema_to_sinonimos[t] = s
         print(f'Sinónimos cargados desde {sinonimos_csv_path}: {len(tema_to_sinonimos)} temas con términos de búsqueda.')
     
+    # 4. Cargar resumenes descriptivos
+    resumenes_csv_path = os.path.join(data_dir, 'resumenes.csv')
+    resumenes_map = {}
+    if os.path.exists(resumenes_csv_path):
+        with open(resumenes_csv_path, 'r', encoding='utf-8') as f:
+            for row in csv.DictReader(f):
+                resumenes_map[row['family_id'].strip()] = row['resumen'].strip()
+        print(f'Resúmenes cargados desde {resumenes_csv_path}: {len(resumenes_map)} entradas.')
+    
     # Validar que ningún constructo del catálogo maestro quede sin tema
     sin_tema = []
     for r in rows:
@@ -237,6 +246,7 @@ def main():
         acceso = r['acceso'].strip()
         proto_status = r['protocolo'].strip()
         carpeta = r['carpeta'].strip()
+        fuente_ref = r.get('fuente_referencia', '').strip()
         
         is_descargable = (proto_status in VALID_PROTOCOLS and sigla not in EXCLUDED_7)
         if poblacion in pob_franjas_map:
@@ -245,6 +255,28 @@ def main():
             franjas, _ = map_franjas(poblacion)
         
         tema_asignado = constructo_to_tema[constructo]
+        resumen_texto = resumenes_map.get(fid, '')
+        
+        # Etiqueta de protocolo según T3 §2
+        if not is_descargable:
+            if sigla in EXCLUDED_7:
+                proto_label = "Protocolo en verificación de condiciones de uso"
+            elif proto_status == "restringido_licencia":
+                proto_label = "Protocolo con derechos reservados"
+            elif proto_status == "restringido_registro":
+                proto_label = "Protocolo disponible con registro ante su titular"
+            elif proto_status in ["pendiente", "revisar"]:
+                proto_label = "Protocolo en verificación"
+            else:
+                proto_label = "Protocolo en verificación"
+        else:
+            proto_label = ""
+            
+        # Extraer URL de fuente_referencia si existe
+        fuente_url = ""
+        url_match = re.search(r"https?://[^\s,;)]+", fuente_ref)
+        if url_match:
+            fuente_url = url_match.group(0).rstrip(".")
         
         # Meta description and use
         norm_sigla = sigla.lower()
@@ -291,10 +323,14 @@ def main():
             'constructo': constructo,
             'temas': [tema_asignado],
             'sinonimos': sin_list,
+            'resumen': resumen_texto,
             'poblacion': poblacion,
             'franjas': franjas,
             'acceso': acceso,
             'descargable': is_descargable,
+            'protocolo_estado': proto_status,
+            'protocolo_etiqueta': proto_label,
+            'fuente_url': fuente_url,
             'archivos': archivos,
             'description': description,
             'use': use
