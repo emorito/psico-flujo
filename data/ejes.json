@@ -1,0 +1,50 @@
+[
+  {
+    "num": 1,
+    "label": "Eje I",
+    "nombre": "Problemas, síntomas y riesgo",
+    "subtitulo": "Clínica y riesgo",
+    "que_es": "Las manifestaciones clínicas que motivan la consulta, su intensidad y las situaciones de riesgo.",
+    "por_que": "Delimita el problema, estima su severidad y detecta a tiempo lo que requiere atención prioritaria."
+  },
+  {
+    "num": 2,
+    "label": "Eje II",
+    "nombre": "Procesos psicológicos",
+    "subtitulo": "Mecanismos que mantienen el malestar",
+    "que_es": "Los mecanismos que originan o mantienen el malestar: regulación emocional, evitación, flexibilidad, apego, afrontamiento.",
+    "por_que": "Permite pasar de describir síntomas a comprender cómo se sostienen."
+  },
+  {
+    "num": 3,
+    "label": "Eje III",
+    "nombre": "Personalidad, identidad y valores",
+    "subtitulo": "Rasgos e identidad",
+    "que_es": "Rasgos, identidad, valores y autoconcepto.",
+    "por_que": "Sitúa el problema en quien lo vive y anticipa recursos y dificultades del proceso."
+  },
+  {
+    "num": 4,
+    "label": "Eje IV",
+    "nombre": "Funcionamiento, bienestar y recursos",
+    "subtitulo": "Adaptación y calidad de vida",
+    "que_es": "El desempeño en la vida diaria, el estudio o el trabajo, y los apoyos disponibles.",
+    "por_que": "Muestra el impacto real del problema y con qué se cuenta para intervenir."
+  },
+  {
+    "num": 5,
+    "label": "Eje V",
+    "nombre": "Funcionamiento cognitivo",
+    "subtitulo": "Cribado y neuropsicología",
+    "que_es": "Atención, memoria, funciones ejecutivas, lenguaje y cognición social.",
+    "por_que": "Identifica fortalezas y dificultades que inciden en la comprensión del caso y en el diagnóstico diferencial."
+  },
+  {
+    "num": 6,
+    "label": "Eje VI",
+    "nombre": "Salud y estilo de vida",
+    "subtitulo": "Medicina conductual",
+    "que_es": "Sueño, sexualidad, conductas de salud, dolor y relación con la enfermedad y los tratamientos.",
+    "por_que": "Integra lo físico y los hábitos que interactúan con el malestar psicológico."
+  }
+]

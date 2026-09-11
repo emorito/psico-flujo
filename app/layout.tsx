@@ -17,19 +17,19 @@ const sans = Manrope({
 export const metadata: Metadata = {
   title: "Psico·Flujo | Biblioteca de evaluación psicológica",
   description:
-    "Portal en evolución para explorar y descargar instrumentos de evaluación psicológica organizados en seis ejes clínicos.",
+    "Instrumentos de evaluación psicológica de uso libre, organizados en seis ejes, con ficha técnica verificada.",
   metadataBase: new URL("https://psico-flujo.vercel.app"),
   openGraph: {
     title: "Psico·Flujo | Evaluar para comprender",
     description:
-      "Biblioteca de instrumentos de evaluación psicológica organizada en seis ejes clínicos.",
+      "Instrumentos de evaluación psicológica de uso libre, organizados en seis ejes, con ficha técnica verificada.",
     images: ["/hero-psicoflujo.jpg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Psico·Flujo | Evaluar para comprender",
     description:
-      "Biblioteca de instrumentos de evaluación psicológica organizada en seis ejes clínicos.",
+      "Instrumentos de evaluación psicológica de uso libre, organizados en seis ejes, con ficha técnica verificada.",
     images: ["/hero-psicoflujo.jpg"],
   },
 };

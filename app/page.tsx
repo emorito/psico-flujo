@@ -1,33 +1,47 @@
-import {
-  ArrowDown,
-  ArrowRight,
-  Check,
-  Compass,
-  FileCheck2,
-  Layers3,
-  Search,
-  ShieldCheck,
-} from "lucide-react";
-import { InstrumentLibrary } from "./ui/instrument-library";
-import catalog from "../data/catalog.json";
+"use client";
 
-const axes = [
-  { n: "01", title: "Problemas, síntomas y riesgo", short: "Clínica y riesgo", ready: true },
-  { n: "02", title: "Procesos psicológicos", short: "Mecanismos", ready: true },
-  { n: "03", title: "Características de la persona", short: "Rasgos e identidad", ready: true },
-  { n: "04", title: "Funcionamiento y recursos", short: "Adaptación", ready: true },
-  { n: "05", title: "Funcionamiento cognitivo", short: "Cognición", ready: true },
-  { n: "06", title: "Salud y estilo de vida", short: "Salud integral", ready: true },
-];
+import { useState, useEffect } from "react";
+import { Search, ShieldCheck, X } from "lucide-react";
+import { InstrumentLibrary, catalog } from "./ui/instrument-library";
+import { AxisCards } from "./ui/axis-cards";
+import acercaData from "../data/acerca.json";
 
 export default function Home() {
+  const [query, setQuery] = useState("");
+  const [selectedAxis, setSelectedAxis] = useState<number | "all">("all");
+  const [selectedFranja, setSelectedFranja] = useState<string>("all");
+  const [selectedTheme, setSelectedTheme] = useState<string>("all");
+  const [scrolled, setScrolled] = useState(false);
+
+  // Compact header on scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const totalFamilies = catalog.length;
   const totalDocs = catalog.reduce((acc, item) => acc + item.archivos.length, 0);
   const totalAxes = new Set(catalog.map((item) => item.eje_num)).size;
+  const totalThemes = useMemoThemeCount();
+
+  const handleSelectAxis = (axisNum: number) => {
+    setSelectedAxis(axisNum);
+    setSelectedTheme("all");
+  };
+
+  const handleSelectAxisAndTheme = (axisNum: number, theme: string) => {
+    setSelectedAxis(axisNum);
+    setSelectedTheme(theme);
+  };
 
   return (
     <main>
-      <header className="site-header">
+      {/* Encabezado: marca + "Instrumentos" (#biblioteca) + "Acerca de" (#acerca). Se compacta al desplazar. */}
+      <header className={`site-header ${scrolled ? "scrolled" : ""}`}>
         <a className="brand" href="#inicio" aria-label="Psico Flujo, inicio">
           <span className="brand-symbol" aria-hidden="true">
             <i />
@@ -37,108 +51,129 @@ export default function Home() {
           <span>psico<span>·</span>flujo</span>
         </a>
         <nav aria-label="Navegación principal">
-          <a href="#modelo">Modelo</a>
           <a href="#biblioteca">Instrumentos</a>
-          <a className="nav-action" href="#biblioteca">
-            Abrir biblioteca <ArrowDown size={15} />
-          </a>
+          <a href="#acerca">Acerca de</a>
         </nav>
       </header>
 
+      {/* Portada: título actual, frase de propósito, campo de búsqueda real y cifras en una sola línea de texto. Sin insignia ni botones. */}
       <section className="hero" id="inicio">
         <div className="hero-backdrop" />
         <div className="hero-content">
-          <div className="hero-badge">
-            <span />
-            Biblioteca clínica de seis ejes
-          </div>
           <h1>Evaluar es trazar <span>un mapa para comprender.</span></h1>
-          <p>
-            Instrumentos de evaluación psicológica organizados en una
-            arquitectura clínica clara, accesible y en permanente construcción.
+          <p className="hero-purpose">
+            Instrumentos de evaluación psicológica de uso libre, organizados en seis ejes, con ficha técnica verificada.
           </p>
-          <div className="hero-actions">
-            <a className="button button-primary" href="#biblioteca">
-              Explorar instrumentos <ArrowRight size={16} />
-            </a>
-            <a className="button button-ghost" href="#modelo">
-              Conocer los seis ejes
-            </a>
-          </div>
-        </div>
-        <div className="hero-stats" aria-label="Resumen de la colección">
-          <div><strong>{totalFamilies}</strong><span>instrumentos</span></div>
-          <div><strong>{totalDocs}</strong><span>documentos</span></div>
-          <div><strong>0{totalAxes}</strong><span>ejes clínicos</span></div>
-          <div className="hero-status"><i /><span>6 ejes disponibles</span></div>
-        </div>
-      </section>
 
-      <section className="model-section" id="modelo">
-        <div className="section-intro">
-          <div>
-            <span className="overline"><Compass size={14} /> Arquitectura Psico·Flujo</span>
-            <h2>Seis rutas para una mirada integral.</h2>
+          <div className="hero-search-wrapper">
+            <label className="search-box hero-search-box">
+              <Search size={18} />
+              <input
+                value={query}
+                onChange={(event) => setQuery(event.target.value)}
+                placeholder="Buscar por sigla, nombre, constructo o tema (ej. PHQ, BDI, TOC, TEPT, ansiedad, depresión)…"
+                aria-label="Buscar instrumentos en catálogo"
+              />
+              {query && (
+                <button
+                  type="button"
+                  onClick={() => setQuery("")}
+                  aria-label="Limpiar búsqueda"
+                  className="search-clear-btn"
+                >
+                  <X size={16} />
+                </button>
+              )}
+            </label>
           </div>
-          <p>
-            Un sistema que ordena la evaluación sin reducir su complejidad.
-            Cada eje reúne instrumentos relacionados con una dimensión esencial
-            de la formulación clínica.
+
+          <p className="hero-stats-line">
+            {totalFamilies} instrumentos · {totalDocs} documentos · {totalAxes} ejes · {totalThemes} temas
           </p>
         </div>
-
-        <div className="axes-list">
-          {axes.map((axis) => (
-            <a className="axis-row axis-row-ready" href="#biblioteca" key={axis.n}>
-              <span className="axis-index">{axis.n}</span>
-              <span className="axis-dot" />
-              <span className="axis-copy"><strong>{axis.title}</strong><small>{axis.short}</small></span>
-              <span className="axis-state"><Check size={13} /> Disponible</span>
-              <ArrowRight className="axis-arrow" size={18} />
-            </a>
-          ))}
-        </div>
       </section>
 
-      <section className="collection-banner" id="biblioteca">
-        <div>
-          <span className="collection-number">CATÁLOGO CLÍNICO</span>
-          <h2>Biblioteca de los seis ejes</h2>
-        </div>
-        <p>
-          Recursos ordenados para apoyar la formulación clínica: problemas y síntomas,
-          procesos, rasgos, funcionamiento adaptativo, cognición y salud integral.
-        </p>
-        <div className="collection-features">
-          <span><Search size={17} /> Búsqueda libre y combinada</span>
-          <span><Layers3 size={17} /> 6 ejes y 4 franjas de edad</span>
-          <span><FileCheck2 size={17} /> Fichas técnicas y protocolos</span>
-        </div>
-      </section>
+      {/* Seis rutas: Seis tarjetas de eje interactivas */}
+      <AxisCards
+        onSelectAxis={handleSelectAxis}
+        onSelectAxisAndTheme={handleSelectAxisAndTheme}
+      />
 
-      <InstrumentLibrary />
+      {/* Biblioteca con buscador y barra única de filtros */}
+      <InstrumentLibrary
+        query={query}
+        setQuery={setQuery}
+        selectedAxis={selectedAxis}
+        setSelectedAxis={setSelectedAxis}
+        selectedFranja={selectedFranja}
+        setSelectedFranja={setSelectedFranja}
+        selectedTheme={selectedTheme}
+        setSelectedTheme={setSelectedTheme}
+      />
 
-      <section className="responsible-use">
-        <ShieldCheck size={22} />
+      {/* Uso profesional responsable (una sola frase) */}
+      <section className="responsible-use" aria-label="Uso profesional responsable">
+        <ShieldCheck size={24} />
         <div>
           <strong>Uso profesional responsable</strong>
-          <p>
-            Los instrumentos complementan la entrevista y el juicio clínico.
-            Ninguna escala constituye, por sí sola, un diagnóstico.
-            La plataforma no puntúa ni diagnostica; los instrumentos son recursos
-            de apoyo para profesionales de la salud mental.
-          </p>
+          <p>{acercaData.uso_responsable}</p>
         </div>
       </section>
 
-      <footer>
-        <a className="brand footer-brand" href="#inicio">
+      {/* Sección nueva "Acerca de" antes del pie */}
+      <section className="about-section" id="acerca" aria-label="Acerca de Psico·Flujo">
+        <div className="about-container">
+          <div className="about-header">
+            <span className="overline">Marco institucional y metodológico</span>
+            <h2>Acerca de Psico·Flujo</h2>
+          </div>
+
+          <div className="about-grid">
+            <article className="about-card">
+              <h3>Propósito</h3>
+              <p>{acercaData.proposito}</p>
+            </article>
+
+            <article className="about-card">
+              <h3>Cómo se construyó</h3>
+              <p>{acercaData.como_se_construyo}</p>
+            </article>
+
+            <article className="about-card">
+              <h3>Marco académico</h3>
+              <p>{acercaData.marco_academico}</p>
+            </article>
+          </div>
+
+          <div className="about-author-line">
+            <p><strong>Autoría:</strong> {acercaData.autoria}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Pie con mención académica, versión y enlace a Acerca de */}
+      <footer className="site-footer">
+        <a className="brand footer-brand" href="#inicio" aria-label="Inicio">
           <span className="brand-symbol" aria-hidden="true"><i /><i /><i /></span>
           <span>psico<span>·</span>flujo</span>
         </a>
-        <p>Biblioteca de instrumentos de evaluación psicológica.</p>
-        <span>v1.2 · 2026-09-11</span>
+        <p className="footer-academic">Facultad de Filosofía · Universidad Nacional del Este</p>
+        <div className="footer-links">
+          <a href="#biblioteca">Instrumentos</a>
+          <a href="#acerca">Acerca de</a>
+        </div>
+        <span className="footer-version">v1.3 · 2026-09-11</span>
       </footer>
     </main>
   );
+}
+
+function useMemoThemeCount() {
+  const set = new Set<string>();
+  for (const it of catalog) {
+    if (it.temas && it.temas[0]) {
+      set.add(it.temas[0]);
+    }
+  }
+  return set.size;
 }
