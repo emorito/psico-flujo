@@ -2,7 +2,6 @@ import {
   ArrowDown,
   ArrowRight,
   Check,
-  Clock3,
   Compass,
   FileCheck2,
   Layers3,
@@ -10,17 +9,22 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { InstrumentLibrary } from "./ui/instrument-library";
+import catalog from "../data/catalog.json";
 
 const axes = [
   { n: "01", title: "Problemas, síntomas y riesgo", short: "Clínica y riesgo", ready: true },
-  { n: "02", title: "Procesos psicológicos", short: "Mecanismos", ready: false },
-  { n: "03", title: "Características de la persona", short: "Rasgos e identidad", ready: false },
-  { n: "04", title: "Funcionamiento y recursos", short: "Adaptación", ready: false },
-  { n: "05", title: "Funcionamiento cognitivo", short: "Cognición", ready: false },
-  { n: "06", title: "Salud y estilo de vida", short: "Salud integral", ready: false },
+  { n: "02", title: "Procesos psicológicos", short: "Mecanismos", ready: true },
+  { n: "03", title: "Características de la persona", short: "Rasgos e identidad", ready: true },
+  { n: "04", title: "Funcionamiento y recursos", short: "Adaptación", ready: true },
+  { n: "05", title: "Funcionamiento cognitivo", short: "Cognición", ready: true },
+  { n: "06", title: "Salud y estilo de vida", short: "Salud integral", ready: true },
 ];
 
 export default function Home() {
+  const totalFamilies = catalog.length;
+  const totalDocs = catalog.reduce((acc, item) => acc + item.archivos.length, 0);
+  const totalAxes = new Set(catalog.map((item) => item.eje_num)).size;
+
   return (
     <main>
       <header className="site-header">
@@ -46,7 +50,7 @@ export default function Home() {
         <div className="hero-content">
           <div className="hero-badge">
             <span />
-            Biblioteca clínica en evolución
+            Biblioteca clínica de seis ejes
           </div>
           <h1>Evaluar es trazar <span>un mapa para comprender.</span></h1>
           <p>
@@ -55,7 +59,7 @@ export default function Home() {
           </p>
           <div className="hero-actions">
             <a className="button button-primary" href="#biblioteca">
-              Explorar Eje I <ArrowRight size={16} />
+              Explorar instrumentos <ArrowRight size={16} />
             </a>
             <a className="button button-ghost" href="#modelo">
               Conocer los seis ejes
@@ -63,10 +67,10 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-stats" aria-label="Resumen de la colección">
-          <div><strong>43</strong><span>instrumentos</span></div>
-          <div><strong>104</strong><span>documentos</span></div>
-          <div><strong>09</strong><span>áreas clínicas</span></div>
-          <div className="hero-status"><i /><span>Eje I disponible</span></div>
+          <div><strong>{totalFamilies}</strong><span>instrumentos</span></div>
+          <div><strong>{totalDocs}</strong><span>documentos</span></div>
+          <div><strong>0{totalAxes}</strong><span>ejes clínicos</span></div>
+          <div className="hero-status"><i /><span>6 ejes disponibles</span></div>
         </div>
       </section>
 
@@ -84,41 +88,31 @@ export default function Home() {
         </div>
 
         <div className="axes-list">
-          {axes.map((axis) =>
-            axis.ready ? (
-              <a className="axis-row axis-row-ready" href="#biblioteca" key={axis.n}>
-                <span className="axis-index">{axis.n}</span>
-                <span className="axis-dot" />
-                <span className="axis-copy"><strong>{axis.title}</strong><small>{axis.short}</small></span>
-                <span className="axis-state"><Check size={13} /> Disponible</span>
-                <ArrowRight className="axis-arrow" size={18} />
-              </a>
-            ) : (
-              <div className="axis-row axis-row-muted" aria-disabled="true" key={axis.n}>
-                <span className="axis-index">{axis.n}</span>
-                <span className="axis-dot" />
-                <span className="axis-copy"><strong>{axis.title}</strong><small>{axis.short}</small></span>
-                <span className="axis-state"><Clock3 size={13} /> En construcción</span>
-                <span className="axis-arrow-placeholder" />
-              </div>
-            )
-          )}
+          {axes.map((axis) => (
+            <a className="axis-row axis-row-ready" href="#biblioteca" key={axis.n}>
+              <span className="axis-index">{axis.n}</span>
+              <span className="axis-dot" />
+              <span className="axis-copy"><strong>{axis.title}</strong><small>{axis.short}</small></span>
+              <span className="axis-state"><Check size={13} /> Disponible</span>
+              <ArrowRight className="axis-arrow" size={18} />
+            </a>
+          ))}
         </div>
       </section>
 
       <section className="collection-banner" id="biblioteca">
         <div>
-          <span className="collection-number">EJE 01</span>
-          <h2>Problemas, síntomas y riesgo</h2>
+          <span className="collection-number">CATÁLOGO CLÍNICO</span>
+          <h2>Biblioteca de los seis ejes</h2>
         </div>
         <p>
-          Recursos para reconocer manifestaciones clínicas, estimar severidad,
-          explorar riesgo y apoyar la formulación del caso.
+          Recursos ordenados para apoyar la formulación clínica: problemas y síntomas,
+          procesos, rasgos, funcionamiento adaptativo, cognición y salud integral.
         </p>
         <div className="collection-features">
-          <span><Search size={17} /> Tamizaje y selección inicial</span>
-          <span><Layers3 size={17} /> Seguimiento clínico</span>
-          <span><FileCheck2 size={17} /> Fichas y protocolos</span>
+          <span><Search size={17} /> Búsqueda libre y combinada</span>
+          <span><Layers3 size={17} /> 6 ejes y 4 franjas de edad</span>
+          <span><FileCheck2 size={17} /> Fichas técnicas y protocolos</span>
         </div>
       </section>
 
@@ -131,6 +125,8 @@ export default function Home() {
           <p>
             Los instrumentos complementan la entrevista y el juicio clínico.
             Ninguna escala constituye, por sí sola, un diagnóstico.
+            La plataforma no puntúa ni diagnostica; los instrumentos son recursos
+            de apoyo para profesionales de la salud mental.
           </p>
         </div>
       </section>
@@ -141,7 +137,7 @@ export default function Home() {
           <span>psico<span>·</span>flujo</span>
         </a>
         <p>Biblioteca de instrumentos de evaluación psicológica.</p>
-        <span>Portal en evolución · 2026</span>
+        <span>v1 · 2026-09-11</span>
       </footer>
     </main>
   );
