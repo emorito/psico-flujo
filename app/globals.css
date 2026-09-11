@@ -252,6 +252,202 @@ footer { min-height: 150px; padding: 35px clamp(22px, 7vw, 106px); color: white;
 .footer-brand { margin-right: auto; }
 footer p, footer > span { color: rgba(255,255,255,.45); font-size: 9px; }
 
+/* Bloque Explorar por tema (v1.1) */
+.theme-section {
+  margin-top: 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.theme-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.theme-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--muted);
+}
+.theme-title svg {
+  color: var(--indigo);
+}
+.theme-active-indicator {
+  font-size: 9.5px;
+  color: var(--indigo);
+  font-weight: 600;
+  background: #f0efff;
+  padding: 3px 9px;
+  border-radius: 999px;
+}
+.theme-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  align-items: center;
+}
+.theme-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fbfbfd;
+  color: #555567;
+  cursor: pointer;
+  transition: all .16s ease;
+  font-weight: 600;
+  line-height: 1;
+}
+.theme-tag:hover {
+  border-color: #a7a2ee;
+  color: var(--indigo);
+  background: #f7f6fe;
+}
+.theme-tag.active {
+  background: var(--indigo);
+  color: white;
+  border-color: var(--indigo);
+  box-shadow: 0 2px 8px rgba(81,70,229,.22);
+}
+.theme-tag.size-lg {
+  font-size: 10.5px;
+  padding: 7px 13px;
+  font-weight: 700;
+}
+.theme-tag.size-md {
+  font-size: 9.5px;
+  padding: 6px 11px;
+  font-weight: 600;
+}
+.theme-tag.size-sm {
+  font-size: 8.5px;
+  padding: 5px 9px;
+  font-weight: 500;
+  opacity: 0.92;
+}
+.theme-tag small {
+  display: inline-grid;
+  place-items: center;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: rgba(81,70,229,.09);
+  color: var(--indigo);
+  font-size: 8px;
+  font-weight: 750;
+}
+.theme-tag.active small {
+  background: rgba(255,255,255,.25);
+  color: white;
+}
+.theme-toggle-container {
+  display: none;
+  margin-top: 10px;
+}
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: 1px dashed #b9b6e5;
+  color: var(--indigo);
+  font-size: 9.5px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.theme-toggle-btn:hover {
+  background: #f0efff;
+}
+
+/* Banner de advertencia clínica (Personas mayores) */
+.clinical-warning-banner {
+  margin: 16px 0;
+  padding: 14px 18px;
+  background: #fffbf0;
+  border-left: 4px solid #d97706;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-shadow: 0 1px 3px rgba(0,0,0,.03);
+}
+.clinical-warning-icon {
+  flex-shrink: 0;
+  color: #d97706;
+  margin-top: 2px;
+}
+.clinical-warning-content strong {
+  display: block;
+  font-size: 11px;
+  color: #92400e;
+  margin-bottom: 3px;
+}
+.clinical-warning-content p {
+  margin: 0;
+  font-size: 10px;
+  line-height: 1.5;
+  color: #78350f;
+}
+
+/* Etiquetas temáticas dentro de cada instrumento */
+.row-theme-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 8px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: #f1f0fd;
+  color: var(--indigo);
+  border: 1px solid #e1dffa;
+  margin-left: 6px;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: all .15s;
+}
+.row-theme-chip:hover {
+  background: var(--indigo);
+  color: white;
+  border-color: var(--indigo);
+}
+.theme-badge-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 9px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: #eeedff;
+  border: 1px solid #d5d1fd;
+  color: var(--indigo);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .15s;
+}
+.theme-badge-btn:hover, .theme-badge-btn.active {
+  background: var(--indigo);
+  color: white;
+  border-color: var(--indigo);
+}
+.theme-badge-btn small {
+  font-size: 7.5px;
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+}
+
 @media (max-width: 980px) {
   .hero-stats { grid-template-columns: repeat(3, 120px) 1fr; }
   .section-intro { grid-template-columns: 1fr; gap: 20px; }
@@ -288,6 +484,9 @@ footer p, footer > span { color: rgba(255,255,255,.45); font-size: 9px; }
   .instrument-detail { grid-template-columns: 1fr; padding: 0 12px 18px; gap: 14px; }
   .detail-context { border-left: 2px solid #c5c1ff; padding: 6px 0 6px 12px; }
   .file-list { grid-template-columns: 1fr; }
+  .theme-toggle-container { display: block; }
+  .theme-cloud:not(.expanded) .theme-tag:nth-child(n+14) { display: none; }
+  .theme-section { padding: 14px 15px; }
   footer { align-items: flex-start; flex-direction: column; gap: 8px; }
   .footer-brand { margin-bottom: 15px; }
 }

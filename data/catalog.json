@@ -6,6 +6,16 @@
     "sigla": "STAI",
     "nombre": "Inventario de Ansiedad Estado-Rasgo",
     "constructo": "Ansiedad y miedo",
+    "temas": [
+      "Ansiedad y fobia"
+    ],
+    "sinonimos": [
+      "TAG",
+      "fobia social",
+      "crisis de angustia",
+      "pánico",
+      "agorafobia"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -26,6 +36,16 @@
     "sigla": "BAI",
     "nombre": "Inventario de Ansiedad de Beck",
     "constructo": "Ansiedad y miedo",
+    "temas": [
+      "Ansiedad y fobia"
+    ],
+    "sinonimos": [
+      "TAG",
+      "fobia social",
+      "crisis de angustia",
+      "pánico",
+      "agorafobia"
+    ],
     "poblacion": "Adultos y adolescentes (>13 años)",
     "franjas": [
       "adolescentes",
@@ -46,6 +66,16 @@
     "sigla": "GAD-7",
     "nombre": "Escala de Trastorno de Ansiedad Generalizada - 7",
     "constructo": "Ansiedad y miedo",
+    "temas": [
+      "Ansiedad y fobia"
+    ],
+    "sinonimos": [
+      "TAG",
+      "fobia social",
+      "crisis de angustia",
+      "pánico",
+      "agorafobia"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -67,6 +97,16 @@
     "sigla": "ISRA",
     "nombre": "Inventario de Situaciones y Respuestas de Ansiedad",
     "constructo": "Ansiedad y miedo",
+    "temas": [
+      "Ansiedad y fobia"
+    ],
+    "sinonimos": [
+      "TAG",
+      "fobia social",
+      "crisis de angustia",
+      "pánico",
+      "agorafobia"
+    ],
     "poblacion": "Adolescentes (>16 años) y adultos",
     "franjas": [
       "adolescentes",
@@ -87,6 +127,16 @@
     "sigla": "HADS",
     "nombre": "Escala de Ansiedad y Depresión Hospitalaria",
     "constructo": "Ansiedad y miedo",
+    "temas": [
+      "Ansiedad y fobia"
+    ],
+    "sinonimos": [
+      "TAG",
+      "fobia social",
+      "crisis de angustia",
+      "pánico",
+      "agorafobia"
+    ],
     "poblacion": "Adultos (originalmente en contexto hospitalario/médico, luego general)",
     "franjas": [
       "adultos"
@@ -106,6 +156,16 @@
     "sigla": "DASS-21",
     "nombre": "Escalas de Depresión, Ansiedad y Estrés - 21",
     "constructo": "Depresión, ansiedad y estrés",
+    "temas": [
+      "Depresión y estado de ánimo"
+    ],
+    "sinonimos": [
+      "depresión mayor",
+      "distimia",
+      "afecto negativo",
+      "anhedonia",
+      "ánimo bajo"
+    ],
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -127,6 +187,15 @@
     "sigla": "PSS",
     "nombre": "Escala de Estrés Percibido",
     "constructo": "Estrés psicológico",
+    "temas": [
+      "Trauma y estrés postraumático"
+    ],
+    "sinonimos": [
+      "TEPT",
+      "trauma complejo",
+      "estrés agudo",
+      "disociación"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -148,6 +217,15 @@
     "sigla": "TICS",
     "nombre": "Inventario de Estrés Crónico de Trier",
     "constructo": "Estrés psicológico",
+    "temas": [
+      "Trauma y estrés postraumático"
+    ],
+    "sinonimos": [
+      "TEPT",
+      "trauma complejo",
+      "estrés agudo",
+      "disociación"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -167,6 +245,15 @@
     "sigla": "PCL-5",
     "nombre": "Lista de Chequeo del TEPT para el DSM-5",
     "constructo": "Trauma y estrés postraumático",
+    "temas": [
+      "Trauma y estrés postraumático"
+    ],
+    "sinonimos": [
+      "TEPT",
+      "trauma complejo",
+      "estrés agudo",
+      "disociación"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -187,6 +274,15 @@
     "sigla": "CAPS-5",
     "nombre": "Escala Administrada por Clínico para el TEPT",
     "constructo": "Trauma y estrés postraumático",
+    "temas": [
+      "Trauma y estrés postraumático"
+    ],
+    "sinonimos": [
+      "TEPT",
+      "trauma complejo",
+      "estrés agudo",
+      "disociación"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -206,6 +302,15 @@
     "sigla": "IES-R",
     "nombre": "Escala de Impacto del Evento Revisada",
     "constructo": "Trauma y estrés postraumático",
+    "temas": [
+      "Trauma y estrés postraumático"
+    ],
+    "sinonimos": [
+      "TEPT",
+      "trauma complejo",
+      "estrés agudo",
+      "disociación"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -226,6 +331,15 @@
     "sigla": "DTS",
     "nombre": "Escala de Trauma de Davidson",
     "constructo": "Trauma y estrés postraumático",
+    "temas": [
+      "Trauma y estrés postraumático"
+    ],
+    "sinonimos": [
+      "TEPT",
+      "trauma complejo",
+      "estrés agudo",
+      "disociación"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -245,6 +359,16 @@
     "sigla": "BDI-II",
     "nombre": "Inventario de Depresión de Beck - II",
     "constructo": "Depresión y anhedonia",
+    "temas": [
+      "Depresión y estado de ánimo"
+    ],
+    "sinonimos": [
+      "depresión mayor",
+      "distimia",
+      "afecto negativo",
+      "anhedonia",
+      "ánimo bajo"
+    ],
     "poblacion": "Adolescentes (>13 años) y adultos",
     "franjas": [
       "adolescentes",
@@ -265,6 +389,16 @@
     "sigla": "PHQ-9",
     "nombre": "Cuestionario de Salud del Paciente - 9",
     "constructo": "Depresión y anhedonia",
+    "temas": [
+      "Depresión y estado de ánimo"
+    ],
+    "sinonimos": [
+      "depresión mayor",
+      "distimia",
+      "afecto negativo",
+      "anhedonia",
+      "ánimo bajo"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -286,6 +420,16 @@
     "sigla": "CES-D",
     "nombre": "Escala del Centro de Estudios Epidemiológicos de la Depresión",
     "constructo": "Depresión y anhedonia",
+    "temas": [
+      "Depresión y estado de ánimo"
+    ],
+    "sinonimos": [
+      "depresión mayor",
+      "distimia",
+      "afecto negativo",
+      "anhedonia",
+      "ánimo bajo"
+    ],
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -307,6 +451,16 @@
     "sigla": "SHAPS",
     "nombre": "Escala de Placer de Snaith-Hamilton",
     "constructo": "Depresión y anhedonia",
+    "temas": [
+      "Depresión y estado de ánimo"
+    ],
+    "sinonimos": [
+      "depresión mayor",
+      "distimia",
+      "afecto negativo",
+      "anhedonia",
+      "ánimo bajo"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -327,6 +481,16 @@
     "sigla": "HDRS / HAM-D",
     "nombre": "Escala de Calificación de la Depresión de Hamilton",
     "constructo": "Depresión y anhedonia",
+    "temas": [
+      "Depresión y estado de ánimo"
+    ],
+    "sinonimos": [
+      "depresión mayor",
+      "distimia",
+      "afecto negativo",
+      "anhedonia",
+      "ánimo bajo"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -347,6 +511,16 @@
     "sigla": "Y-BOCS",
     "nombre": "Escala de Obsesiones y Compulsiones de Yale-Brown",
     "constructo": "Obsesiones y compulsiones",
+    "temas": [
+      "Obsesiones y compulsiones"
+    ],
+    "sinonimos": [
+      "TOC",
+      "dudas obsesivas",
+      "comprobación",
+      "contaminación",
+      "rituales"
+    ],
     "poblacion": "Adultos (existe versión infantil: CY-BOCS)",
     "franjas": [
       "niños",
@@ -368,6 +542,16 @@
     "sigla": "OCI-R",
     "nombre": "Inventario Obsesivo-Compulsivo Revisado",
     "constructo": "Obsesiones y compulsiones",
+    "temas": [
+      "Obsesiones y compulsiones"
+    ],
+    "sinonimos": [
+      "TOC",
+      "dudas obsesivas",
+      "comprobación",
+      "contaminación",
+      "rituales"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -388,6 +572,16 @@
     "sigla": "PI-WSUR",
     "nombre": "Inventario de Padua Revisado - WSU",
     "constructo": "Obsesiones y compulsiones",
+    "temas": [
+      "Obsesiones y compulsiones"
+    ],
+    "sinonimos": [
+      "TOC",
+      "dudas obsesivas",
+      "comprobación",
+      "contaminación",
+      "rituales"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -407,6 +601,16 @@
     "sigla": "DOCS",
     "nombre": "Escala Dimensional Obsesivo-Compulsiva",
     "constructo": "Obsesiones y compulsiones",
+    "temas": [
+      "Obsesiones y compulsiones"
+    ],
+    "sinonimos": [
+      "TOC",
+      "dudas obsesivas",
+      "comprobación",
+      "contaminación",
+      "rituales"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -427,6 +631,15 @@
     "sigla": "PHQ-15",
     "nombre": "Cuestionario de Salud del Paciente - 15",
     "constructo": "Somatización y ansiedad por la salud",
+    "temas": [
+      "Dolor y síntomas somáticos"
+    ],
+    "sinonimos": [
+      "somatización",
+      "fatiga crónica",
+      "fibromialgia",
+      "dolor crónico"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -447,6 +660,15 @@
     "sigla": "WI",
     "nombre": "Índice de Whiteley",
     "constructo": "Somatización y ansiedad por la salud",
+    "temas": [
+      "Dolor y síntomas somáticos"
+    ],
+    "sinonimos": [
+      "somatización",
+      "fatiga crónica",
+      "fibromialgia",
+      "dolor crónico"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -467,6 +689,15 @@
     "sigla": "SHAI",
     "nombre": "Inventario Corto de Ansiedad por la Salud",
     "constructo": "Somatización y ansiedad por la salud",
+    "temas": [
+      "Dolor y síntomas somáticos"
+    ],
+    "sinonimos": [
+      "somatización",
+      "fatiga crónica",
+      "fibromialgia",
+      "dolor crónico"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -486,6 +717,15 @@
     "sigla": "SCL-90-R",
     "nombre": "Inventario de Síntomas SCL-90-R (Subescala Somatización)",
     "constructo": "Somatización y ansiedad por la salud",
+    "temas": [
+      "Dolor y síntomas somáticos"
+    ],
+    "sinonimos": [
+      "somatización",
+      "fatiga crónica",
+      "fibromialgia",
+      "dolor crónico"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -506,6 +746,18 @@
     "sigla": "BIS-11",
     "nombre": "Escala de Impulsividad de Barratt",
     "constructo": "Impulsividad",
+    "temas": [
+      "Impulsividad y conducta disruptiva"
+    ],
+    "sinonimos": [
+      "impulsividad",
+      "conducta antisocial",
+      "conducta disruptiva",
+      "trastorno de déficit de atención e hiperactividad",
+      "TDAH",
+      "conducta agresiva",
+      "conducta inadecuada"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -527,6 +779,18 @@
     "sigla": "UPPS-P",
     "nombre": "Escala de Comportamiento Impulsivo UPPS-P",
     "constructo": "Impulsividad",
+    "temas": [
+      "Impulsividad y conducta disruptiva"
+    ],
+    "sinonimos": [
+      "impulsividad",
+      "conducta antisocial",
+      "conducta disruptiva",
+      "trastorno de déficit de atención e hiperactividad",
+      "TDAH",
+      "conducta agresiva",
+      "conducta inadecuada"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -547,6 +811,18 @@
     "sigla": "DII",
     "nombre": "Inventario de Impulsividad de Dickman",
     "constructo": "Impulsividad",
+    "temas": [
+      "Impulsividad y conducta disruptiva"
+    ],
+    "sinonimos": [
+      "impulsividad",
+      "conducta antisocial",
+      "conducta disruptiva",
+      "trastorno de déficit de atención e hiperactividad",
+      "TDAH",
+      "conducta agresiva",
+      "conducta inadecuada"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -567,6 +843,15 @@
     "sigla": "AQ",
     "nombre": "Cuestionario de Agresión",
     "constructo": "Agresividad e ira",
+    "temas": [
+      "Agresividad, ira y violencia"
+    ],
+    "sinonimos": [
+      "hostilidad",
+      "rabia",
+      "agresión física",
+      "conducta violenta"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -588,6 +873,15 @@
     "sigla": "STAXI-2",
     "nombre": "Inventario de Expresión de Ira Estado-Rasgo 2",
     "constructo": "Agresividad e ira",
+    "temas": [
+      "Agresividad, ira y violencia"
+    ],
+    "sinonimos": [
+      "hostilidad",
+      "rabia",
+      "agresión física",
+      "conducta violenta"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -608,6 +902,15 @@
     "sigla": "RPQ",
     "nombre": "Cuestionario de Agresión Reactiva-Proactiva",
     "constructo": "Agresividad e ira",
+    "temas": [
+      "Agresividad, ira y violencia"
+    ],
+    "sinonimos": [
+      "hostilidad",
+      "rabia",
+      "agresión física",
+      "conducta violenta"
+    ],
     "poblacion": "Niños, adolescentes y jóvenes adultos",
     "franjas": [
       "niños",
@@ -630,6 +933,15 @@
     "sigla": "PCL-R",
     "nombre": "Escala de Calificación de Psicopatía Revisada",
     "constructo": "Conducta antisocial",
+    "temas": [
+      "Agresividad, ira y violencia"
+    ],
+    "sinonimos": [
+      "hostilidad",
+      "rabia",
+      "agresión física",
+      "conducta violenta"
+    ],
     "poblacion": "Adultos (contexto clínico y forense)",
     "franjas": [
       "adultos"
@@ -649,6 +961,15 @@
     "sigla": "SRP-IV",
     "nombre": "Escala de Autoinforme de Psicopatía - Versión IV",
     "constructo": "Conducta antisocial",
+    "temas": [
+      "Agresividad, ira y violencia"
+    ],
+    "sinonimos": [
+      "hostilidad",
+      "rabia",
+      "agresión física",
+      "conducta violenta"
+    ],
     "poblacion": "Adultos (general y clínica no reclusa)",
     "franjas": [
       "adultos"
@@ -668,6 +989,15 @@
     "sigla": "SCID-5-PD",
     "nombre": "SCID-5-PD (Trastorno de la Personalidad Antisocial)",
     "constructo": "Conducta antisocial",
+    "temas": [
+      "Agresividad, ira y violencia"
+    ],
+    "sinonimos": [
+      "hostilidad",
+      "rabia",
+      "agresión física",
+      "conducta violenta"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -687,6 +1017,18 @@
     "sigla": "CBCL",
     "nombre": "Inventario de Comportamiento Infantil (Subescalas Externalizantes)",
     "constructo": "Conducta disruptiva",
+    "temas": [
+      "Impulsividad y conducta disruptiva"
+    ],
+    "sinonimos": [
+      "impulsividad",
+      "conducta antisocial",
+      "conducta disruptiva",
+      "trastorno de déficit de atención e hiperactividad",
+      "TDAH",
+      "conducta agresiva",
+      "conducta inadecuada"
+    ],
     "poblacion": "Niños y adolescentes (1.5-5 años y 6-18 años)",
     "franjas": [
       "niños",
@@ -707,6 +1049,18 @@
     "sigla": "SDQ",
     "nombre": "Cuestionario de Capacidades y Dificultades",
     "constructo": "Conducta disruptiva",
+    "temas": [
+      "Impulsividad y conducta disruptiva"
+    ],
+    "sinonimos": [
+      "impulsividad",
+      "conducta antisocial",
+      "conducta disruptiva",
+      "trastorno de déficit de atención e hiperactividad",
+      "TDAH",
+      "conducta agresiva",
+      "conducta inadecuada"
+    ],
     "poblacion": "Niños y adolescentes (3-16 años)",
     "franjas": [
       "niños",
@@ -728,6 +1082,18 @@
     "sigla": "DBD",
     "nombre": "Escala de Trastornos de Comportamiento Perturbador",
     "constructo": "Conducta disruptiva",
+    "temas": [
+      "Impulsividad y conducta disruptiva"
+    ],
+    "sinonimos": [
+      "impulsividad",
+      "conducta antisocial",
+      "conducta disruptiva",
+      "trastorno de déficit de atención e hiperactividad",
+      "TDAH",
+      "conducta agresiva",
+      "conducta inadecuada"
+    ],
     "poblacion": "Niños y adolescentes",
     "franjas": [
       "niños",
@@ -749,6 +1115,16 @@
     "sigla": "ASSIST",
     "nombre": "Prueba de Detección de Consumo de Alcohol, Tabaco y Sustancias",
     "constructo": "Uso problemático de sustancias",
+    "temas": [
+      "Sustancias y alcoholismo"
+    ],
+    "sinonimos": [
+      "consumo problemático",
+      "AUDIT",
+      "abuso de drogas",
+      "dependencia",
+      "adicción"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -769,6 +1145,16 @@
     "sigla": "AUDIT",
     "nombre": "Prueba de Identificación de Trastornos Relacionados con el Alcohol",
     "constructo": "Uso problemático de sustancias",
+    "temas": [
+      "Sustancias y alcoholismo"
+    ],
+    "sinonimos": [
+      "consumo problemático",
+      "AUDIT",
+      "abuso de drogas",
+      "dependencia",
+      "adicción"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -790,6 +1176,16 @@
     "sigla": "DAST-10",
     "nombre": "Prueba de Detección de Abuso de Drogas",
     "constructo": "Uso problemático de sustancias",
+    "temas": [
+      "Sustancias y alcoholismo"
+    ],
+    "sinonimos": [
+      "consumo problemático",
+      "AUDIT",
+      "abuso de drogas",
+      "dependencia",
+      "adicción"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -810,6 +1206,15 @@
     "sigla": "IAT",
     "nombre": "Test de Adicción a Internet",
     "constructo": "Adicciones conductuales",
+    "temas": [
+      "Adicciones conductuales"
+    ],
+    "sinonimos": [
+      "juego patológico",
+      "ludopatía",
+      "uso de internet",
+      "apuestas"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -831,6 +1236,15 @@
     "sigla": "SOGS",
     "nombre": "Prueba de Detección de Juego Patológico de South Oaks",
     "constructo": "Adicciones conductuales",
+    "temas": [
+      "Adicciones conductuales"
+    ],
+    "sinonimos": [
+      "juego patológico",
+      "ludopatía",
+      "uso de internet",
+      "apuestas"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -850,6 +1264,15 @@
     "sigla": "PDI-21",
     "nombre": "Inventario de Delirios de Peters",
     "constructo": "Ideación delirante",
+    "temas": [
+      "Psicosis y experiencias delirantes"
+    ],
+    "sinonimos": [
+      "esquizofrenia",
+      "síntomas positivos",
+      "delirio",
+      "alucinación"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -870,6 +1293,15 @@
     "sigla": "CAPE-42",
     "nombre": "Evaluación Comunitaria de Experiencias Psíquicas",
     "constructo": "Experiencias perceptivas inusuales",
+    "temas": [
+      "Psicosis y experiencias delirantes"
+    ],
+    "sinonimos": [
+      "esquizofrenia",
+      "síntomas positivos",
+      "delirio",
+      "alucinación"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -891,6 +1323,15 @@
     "sigla": "PANSS",
     "nombre": "Escala de los Síndromes Positivo y Negativo",
     "constructo": "Desorganización cognitiva y conductual",
+    "temas": [
+      "Psicosis y experiencias delirantes"
+    ],
+    "sinonimos": [
+      "esquizofrenia",
+      "síntomas positivos",
+      "delirio",
+      "alucinación"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -910,6 +1351,15 @@
     "sigla": "C-SSRS",
     "nombre": "Escala Columbia para Evaluar el Riesgo de Suicidio",
     "constructo": "Ideación y Conducta suicida",
+    "temas": [
+      "Suicidio y autolesión"
+    ],
+    "sinonimos": [
+      "ideación suicida",
+      "riesgo de suicidio",
+      "NSSI",
+      "autolesiones"
+    ],
     "poblacion": "Todas las edades",
     "franjas": [
       "niños",
@@ -933,9 +1383,20 @@
     "sigla": "BSS",
     "nombre": "Escala de Ideación Suicida de Beck",
     "constructo": "Ideación y Conducta suicida",
+    "temas": [
+      "Suicidio y autolesión"
+    ],
+    "sinonimos": [
+      "ideación suicida",
+      "riesgo de suicidio",
+      "NSSI",
+      "autolesiones"
+    ],
     "poblacion": "",
     "franjas": [
-      "adultos"
+      "adolescentes",
+      "adultos",
+      "mayores"
     ],
     "acceso": "No (Pearson)",
     "descargable": false,
@@ -952,6 +1413,15 @@
     "sigla": "ISAS",
     "nombre": "Inventario de Declaraciones sobre Autolesiones",
     "constructo": "Autolesiones no suicidas",
+    "temas": [
+      "Suicidio y autolesión"
+    ],
+    "sinonimos": [
+      "ideación suicida",
+      "riesgo de suicidio",
+      "NSSI",
+      "autolesiones"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -973,6 +1443,15 @@
     "sigla": "HCR-20 v3",
     "nombre": "Guía de Evaluación del Riesgo de Violencia",
     "constructo": "Riesgo de violencia",
+    "temas": [
+      "Agresividad, ira y violencia"
+    ],
+    "sinonimos": [
+      "hostilidad",
+      "rabia",
+      "agresión física",
+      "conducta violenta"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -992,6 +1471,15 @@
     "sigla": "JVQ",
     "nombre": "Cuestionario de Victimización Juvenil",
     "constructo": "Vulnerabilidad y victimización",
+    "temas": [
+      "Trauma y estrés postraumático"
+    ],
+    "sinonimos": [
+      "TEPT",
+      "trauma complejo",
+      "estrés agudo",
+      "disociación"
+    ],
     "poblacion": "Niños y adolescentes",
     "franjas": [
       "niños",
@@ -1013,6 +1501,15 @@
     "sigla": "RRS",
     "nombre": "Escala de Respuestas Rumiativas",
     "constructo": "Rumiación",
+    "temas": [
+      "Esquemas y procesos cognitivos"
+    ],
+    "sinonimos": [
+      "creencias centrales",
+      "distorsiones cognitivas",
+      "rumiación",
+      "preocupación"
+    ],
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -1034,6 +1531,16 @@
     "sigla": "PSWQ",
     "nombre": "Cuestionario de Preocupación del Estado de Pensilvania",
     "constructo": "Preocupación crónica",
+    "temas": [
+      "Ansiedad y fobia"
+    ],
+    "sinonimos": [
+      "TAG",
+      "fobia social",
+      "crisis de angustia",
+      "pánico",
+      "agorafobia"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1054,6 +1561,16 @@
     "sigla": "IUS-12",
     "nombre": "Escala de Intolerancia a la Incertidumbre",
     "constructo": "Intolerancia a la incertidumbre",
+    "temas": [
+      "Ansiedad y fobia"
+    ],
+    "sinonimos": [
+      "TAG",
+      "fobia social",
+      "crisis de angustia",
+      "pánico",
+      "agorafobia"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1074,6 +1591,17 @@
     "sigla": "AAQ-II",
     "nombre": "Cuestionario de Aceptación y Acción II",
     "constructo": "Rigidez y Flexibilidad cognitiva",
+    "temas": [
+      "Flexibilidad psicológica y mindfulness"
+    ],
+    "sinonimos": [
+      "resiliencia",
+      "atención plena",
+      "adaptabilidad",
+      "flexibilidad cognitiva",
+      "percepción positiva",
+      "mindfulness"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1094,6 +1622,17 @@
     "sigla": "CFI",
     "nombre": "Inventario de Flexibilidad Cognitiva",
     "constructo": "Rigidez y Flexibilidad cognitiva",
+    "temas": [
+      "Flexibilidad psicológica y mindfulness"
+    ],
+    "sinonimos": [
+      "resiliencia",
+      "atención plena",
+      "adaptabilidad",
+      "flexibilidad cognitiva",
+      "percepción positiva",
+      "mindfulness"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1114,6 +1653,17 @@
     "sigla": "CFQ",
     "nombre": "Cuestionario de Fusión Cognitiva",
     "constructo": "Fusión cognitiva",
+    "temas": [
+      "Flexibilidad psicológica y mindfulness"
+    ],
+    "sinonimos": [
+      "resiliencia",
+      "atención plena",
+      "adaptabilidad",
+      "flexibilidad cognitiva",
+      "percepción positiva",
+      "mindfulness"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1134,6 +1684,15 @@
     "sigla": "MCQ-30",
     "nombre": "Cuestionario de Metacogniciones",
     "constructo": "Metacogniciones disfuncionales",
+    "temas": [
+      "Esquemas y procesos cognitivos"
+    ],
+    "sinonimos": [
+      "creencias centrales",
+      "distorsiones cognitivas",
+      "rumiación",
+      "preocupación"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1154,6 +1713,15 @@
     "sigla": "YSQ-S3",
     "nombre": "Cuestionario de Esquemas de Young",
     "constructo": "Esquemas maladaptativos",
+    "temas": [
+      "Esquemas y procesos cognitivos"
+    ],
+    "sinonimos": [
+      "creencias centrales",
+      "distorsiones cognitivas",
+      "rumiación",
+      "preocupación"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1173,6 +1741,17 @@
     "sigla": "DERS",
     "nombre": "Escala de Dificultades en la Regulación Emocional",
     "constructo": "Regulación y Desregulación emocional",
+    "temas": [
+      "Regulación emocional"
+    ],
+    "sinonimos": [
+      "regulación emocional",
+      "homeostasis emocional",
+      "estabilidad emocional",
+      "disfunción emocional",
+      "control emocional",
+      "regulación afectiva"
+    ],
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -1194,6 +1773,17 @@
     "sigla": "CERQ",
     "nombre": "Cuestionario de Regulación Cognitiva de las Emociones",
     "constructo": "Regulación y Desregulación emocional",
+    "temas": [
+      "Regulación emocional"
+    ],
+    "sinonimos": [
+      "regulación emocional",
+      "homeostasis emocional",
+      "estabilidad emocional",
+      "disfunción emocional",
+      "control emocional",
+      "regulación afectiva"
+    ],
     "poblacion": "Adultos, adolescentes y niños",
     "franjas": [
       "niños",
@@ -1216,6 +1806,17 @@
     "sigla": "LEAS",
     "nombre": "Escala de Niveles de Conciencia Emocional",
     "constructo": "Conciencia emocional",
+    "temas": [
+      "Regulación emocional"
+    ],
+    "sinonimos": [
+      "regulación emocional",
+      "homeostasis emocional",
+      "estabilidad emocional",
+      "disfunción emocional",
+      "control emocional",
+      "regulación afectiva"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1235,6 +1836,17 @@
     "sigla": "TAS-20",
     "nombre": "Escala de Alexitimia de Toronto",
     "constructo": "Claridad emocional y Alexitimia",
+    "temas": [
+      "Regulación emocional"
+    ],
+    "sinonimos": [
+      "regulación emocional",
+      "homeostasis emocional",
+      "estabilidad emocional",
+      "disfunción emocional",
+      "control emocional",
+      "regulación afectiva"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1254,6 +1866,17 @@
     "sigla": "MEAQ",
     "nombre": "Cuestionario Multidimensional de Evitación Experiencial",
     "constructo": "Evitación experiencial",
+    "temas": [
+      "Flexibilidad psicológica y mindfulness"
+    ],
+    "sinonimos": [
+      "resiliencia",
+      "atención plena",
+      "adaptabilidad",
+      "flexibilidad cognitiva",
+      "percepción positiva",
+      "mindfulness"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1273,6 +1896,16 @@
     "sigla": "BADS",
     "nombre": "Escala de Activación Conductual para la Depresión",
     "constructo": "Activación y Evitación conductual",
+    "temas": [
+      "Depresión y estado de ánimo"
+    ],
+    "sinonimos": [
+      "depresión mayor",
+      "distimia",
+      "afecto negativo",
+      "anhedonia",
+      "ánimo bajo"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1293,6 +1926,16 @@
     "sigla": "EROS",
     "nombre": "Escala de Observación de Recompensas Ambientales",
     "constructo": "Activación y Evitación conductual",
+    "temas": [
+      "Depresión y estado de ánimo"
+    ],
+    "sinonimos": [
+      "depresión mayor",
+      "distimia",
+      "afecto negativo",
+      "anhedonia",
+      "ánimo bajo"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1313,6 +1956,15 @@
     "sigla": "Brief COPE",
     "nombre": "Inventario Breve de Afrontamiento",
     "constructo": "Exposición y afrontamiento",
+    "temas": [
+      "Afrontamiento y resiliencia"
+    ],
+    "sinonimos": [
+      "coping",
+      "resiliencia",
+      "tolerancia a la frustración",
+      "adaptación"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1333,6 +1985,18 @@
     "sigla": "BIS/BAS",
     "nombre": "Escalas del Sistema de Inhibición y Aproximación Conductual",
     "constructo": "Búsqueda de recompensa",
+    "temas": [
+      "Impulsividad y conducta disruptiva"
+    ],
+    "sinonimos": [
+      "impulsividad",
+      "conducta antisocial",
+      "conducta disruptiva",
+      "trastorno de déficit de atención e hiperactividad",
+      "TDAH",
+      "conducta agresiva",
+      "conducta inadecuada"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1353,6 +2017,15 @@
     "sigla": "ECR-R",
     "nombre": "Experiencias en Relaciones Cercanas - Revisado",
     "constructo": "Apego",
+    "temas": [
+      "Apego y relaciones interpersonales"
+    ],
+    "sinonimos": [
+      "apego ansioso",
+      "apego evitativo",
+      "dependencia emocional",
+      "asertividad"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1373,6 +2046,15 @@
     "sigla": "IDI",
     "nombre": "Inventario de Dependencia Interpersonal",
     "constructo": "Dependencia interpersonal",
+    "temas": [
+      "Apego y relaciones interpersonales"
+    ],
+    "sinonimos": [
+      "apego ansioso",
+      "apego evitativo",
+      "dependencia emocional",
+      "asertividad"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1392,6 +2074,15 @@
     "sigla": "RSQ",
     "nombre": "Cuestionario de Sensibilidad al Rechazo",
     "constructo": "Sensibilidad al rechazo",
+    "temas": [
+      "Apego y relaciones interpersonales"
+    ],
+    "sinonimos": [
+      "apego ansioso",
+      "apego evitativo",
+      "dependencia emocional",
+      "asertividad"
+    ],
     "poblacion": "Adultos y universitarios",
     "franjas": [
       "adultos"
@@ -1411,6 +2102,15 @@
     "sigla": "IIP-32",
     "nombre": "Inventario de Problemas Interpersonales (Versión Breve)",
     "constructo": "Comunicación interpersonal y Asertividad",
+    "temas": [
+      "Apego y relaciones interpersonales"
+    ],
+    "sinonimos": [
+      "apego ansioso",
+      "apego evitativo",
+      "dependencia emocional",
+      "asertividad"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1430,6 +2130,15 @@
     "sigla": "RAS",
     "nombre": "Escala de Asertividad de Rathus",
     "constructo": "Comunicación interpersonal y Asertividad",
+    "temas": [
+      "Apego y relaciones interpersonales"
+    ],
+    "sinonimos": [
+      "apego ansioso",
+      "apego evitativo",
+      "dependencia emocional",
+      "asertividad"
+    ],
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -1450,6 +2159,14 @@
     "sigla": "UCLA-R",
     "nombre": "Escala de Soledad de UCLA Revisada",
     "constructo": "Soledad y aislamiento social",
+    "temas": [
+      "Apoyo social y familia"
+    ],
+    "sinonimos": [
+      "red de apoyo",
+      "funcionamiento familiar",
+      "dinámica de pareja"
+    ],
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -1471,6 +2188,14 @@
     "sigla": "DJGLS",
     "nombre": "Escala de Soledad de De Jong Gierveld",
     "constructo": "Soledad y aislamiento social",
+    "temas": [
+      "Apoyo social y familia"
+    ],
+    "sinonimos": [
+      "red de apoyo",
+      "funcionamiento familiar",
+      "dinámica de pareja"
+    ],
     "poblacion": "Adultos (especialmente mayores)",
     "franjas": [
       "adultos",
@@ -1492,6 +2217,16 @@
     "sigla": "NEO-PI-R",
     "nombre": "Inventario de Personalidad NEO Revisado",
     "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+    "temas": [
+      "Rasgos de personalidad"
+    ],
+    "sinonimos": [
+      "personalidad",
+      "rasgos de personalidad",
+      "trastorno de personalidad",
+      "personalidad antisocial",
+      "personalidad borderline"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1511,6 +2246,16 @@
     "sigla": "BFI-2",
     "nombre": "Inventario de los Cinco Grandes 2",
     "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+    "temas": [
+      "Rasgos de personalidad"
+    ],
+    "sinonimos": [
+      "personalidad",
+      "rasgos de personalidad",
+      "trastorno de personalidad",
+      "personalidad antisocial",
+      "personalidad borderline"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -1532,6 +2277,16 @@
     "sigla": "HEXACO-PI-R",
     "nombre": "Inventario de Personalidad HEXACO Revisado",
     "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+    "temas": [
+      "Rasgos de personalidad"
+    ],
+    "sinonimos": [
+      "personalidad",
+      "rasgos de personalidad",
+      "trastorno de personalidad",
+      "personalidad antisocial",
+      "personalidad borderline"
+    ],
     "poblacion": "Adultos y universitarios",
     "franjas": [
       "adultos"
@@ -1552,6 +2307,16 @@
     "sigla": "TCI-R",
     "nombre": "Inventario de Temperamento y Carácter Revisado",
     "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+    "temas": [
+      "Rasgos de personalidad"
+    ],
+    "sinonimos": [
+      "personalidad",
+      "rasgos de personalidad",
+      "trastorno de personalidad",
+      "personalidad antisocial",
+      "personalidad borderline"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1571,6 +2336,16 @@
     "sigla": "PID-5",
     "nombre": "Inventario de Personalidad para el DSM-5",
     "constructo": "Rasgos Patológicos de Personalidad (Afectividad Negativa, Desapego, Antagonismo, Desinhibición, Psicoticismo)",
+    "temas": [
+      "Personalidad patológica"
+    ],
+    "sinonimos": [
+      "TLP",
+      "narcisismo",
+      "psicopatía",
+      "tríada oscura",
+      "desapego"
+    ],
     "poblacion": "Adultos (existe versión PID-5-IRF para adolescentes)",
     "franjas": [
       "adolescentes",
@@ -1592,6 +2367,16 @@
     "sigla": "SD3",
     "nombre": "La Tríada Oscura Corta",
     "constructo": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+    "temas": [
+      "Personalidad patológica"
+    ],
+    "sinonimos": [
+      "TLP",
+      "narcisismo",
+      "psicopatía",
+      "tríada oscura",
+      "desapego"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1612,6 +2397,16 @@
     "sigla": "SD4",
     "nombre": "La Tétrada Oscura Corta",
     "constructo": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+    "temas": [
+      "Personalidad patológica"
+    ],
+    "sinonimos": [
+      "TLP",
+      "narcisismo",
+      "psicopatía",
+      "tríada oscura",
+      "desapego"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1632,6 +2427,16 @@
     "sigla": "LTS",
     "nombre": "Escala de la Tríada Luminosa",
     "constructo": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+    "temas": [
+      "Personalidad patológica"
+    ],
+    "sinonimos": [
+      "TLP",
+      "narcisismo",
+      "psicopatía",
+      "tríada oscura",
+      "desapego"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1652,6 +2457,14 @@
     "sigla": "RSES",
     "nombre": "Escala de Autoestima de Rosenberg",
     "constructo": "Autoestima",
+    "temas": [
+      "Autoestima y autoconcepto"
+    ],
+    "sinonimos": [
+      "valía personal",
+      "autoeficacia",
+      "autoimagen"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -1673,6 +2486,14 @@
     "sigla": "AF-5",
     "nombre": "Autoconcepto Forma 5",
     "constructo": "Autoconcepto",
+    "temas": [
+      "Autoestima y autoconcepto"
+    ],
+    "sinonimos": [
+      "valía personal",
+      "autoeficacia",
+      "autoimagen"
+    ],
     "poblacion": "Niños, adolescentes y adultos",
     "franjas": [
       "niños",
@@ -1694,6 +2515,14 @@
     "sigla": "GSE",
     "nombre": "Escala de Autoeficacia General",
     "constructo": "Autoeficacia",
+    "temas": [
+      "Autoestima y autoconcepto"
+    ],
+    "sinonimos": [
+      "valía personal",
+      "autoeficacia",
+      "autoimagen"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -1715,6 +2544,18 @@
     "sigla": "SCCS",
     "nombre": "Escala de Claridad del Autoconcepto",
     "constructo": "Claridad del self",
+    "temas": [
+      "Identidad y valores"
+    ],
+    "sinonimos": [
+      "identidad personal",
+      "valores morales",
+      "autoconcepto",
+      "autoestima",
+      "identidad social",
+      "identidad de género",
+      "valores éticos"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1734,6 +2575,18 @@
     "sigla": "EOM-EIS-2",
     "nombre": "Medida Objetiva Extendida del Estatus de Identidad del Ego",
     "constructo": "Identidad personal",
+    "temas": [
+      "Identidad y valores"
+    ],
+    "sinonimos": [
+      "identidad personal",
+      "valores morales",
+      "autoconcepto",
+      "autoestima",
+      "identidad social",
+      "identidad de género",
+      "valores éticos"
+    ],
     "poblacion": "Adolescentes y adultos jóvenes",
     "franjas": [
       "adolescentes",
@@ -1754,6 +2607,18 @@
     "sigla": "PVQ",
     "nombre": "Cuestionario de Valores de Retrato",
     "constructo": "Valores personales",
+    "temas": [
+      "Identidad y valores"
+    ],
+    "sinonimos": [
+      "identidad personal",
+      "valores morales",
+      "autoconcepto",
+      "autoestima",
+      "identidad social",
+      "identidad de género",
+      "valores éticos"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -1775,6 +2640,15 @@
     "sigla": "MLQ",
     "nombre": "Cuestionario de Significado de la Vida",
     "constructo": "Sentido de vida y Propósito vital",
+    "temas": [
+      "Bienestar y satisfacción vital"
+    ],
+    "sinonimos": [
+      "florecimiento",
+      "felicidad",
+      "satisfacción vital",
+      "afecto positivo"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -1795,6 +2669,18 @@
     "sigla": "IMI",
     "nombre": "Inventario de Motivación Intrínseca",
     "constructo": "Motivación y Orientación a metas",
+    "temas": [
+      "Identidad y valores"
+    ],
+    "sinonimos": [
+      "identidad personal",
+      "valores morales",
+      "autoconcepto",
+      "autoestima",
+      "identidad social",
+      "identidad de género",
+      "valores éticos"
+    ],
     "poblacion": "Todas las edades",
     "franjas": [
       "niños",
@@ -1818,9 +2704,23 @@
     "sigla": "AGQ-R",
     "nombre": "Cuestionario de Metas de Logro Revisado",
     "constructo": "Motivación y Orientación a metas",
+    "temas": [
+      "Identidad y valores"
+    ],
+    "sinonimos": [
+      "identidad personal",
+      "valores morales",
+      "autoconcepto",
+      "autoestima",
+      "identidad social",
+      "identidad de género",
+      "valores éticos"
+    ],
     "poblacion": "",
     "franjas": [
-      "adultos"
+      "adolescentes",
+      "adultos",
+      "mayores"
     ],
     "acceso": "Sí",
     "descargable": true,
@@ -1838,6 +2738,15 @@
     "sigla": "ACEQ",
     "nombre": "Cuestionario de Experiencias Adversas en la Infancia",
     "constructo": "Trauma acumulado y Adversidad temprana",
+    "temas": [
+      "Trauma y estrés postraumático"
+    ],
+    "sinonimos": [
+      "TEPT",
+      "trauma complejo",
+      "estrés agudo",
+      "disociación"
+    ],
     "poblacion": "Adultos (retrospectivo)",
     "franjas": [
       "adultos"
@@ -1858,6 +2767,15 @@
     "sigla": "CTQ-SF",
     "nombre": "Cuestionario de Trauma Infantil - Versión Breve",
     "constructo": "Trauma acumulado y Adversidad temprana",
+    "temas": [
+      "Trauma y estrés postraumático"
+    ],
+    "sinonimos": [
+      "TEPT",
+      "trauma complejo",
+      "estrés agudo",
+      "disociación"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -1878,6 +2796,18 @@
     "sigla": "MEIM",
     "nombre": "Multigroup Ethnic Identity Measure (Medida Multigrupo de Identidad Étnica)",
     "constructo": "Identidad étnica (Exploración y Compromiso/Pertenencia)",
+    "temas": [
+      "Identidad y valores"
+    ],
+    "sinonimos": [
+      "identidad personal",
+      "valores morales",
+      "autoconcepto",
+      "autoestima",
+      "identidad social",
+      "identidad de género",
+      "valores éticos"
+    ],
     "poblacion": "Adolescentes y jóvenes",
     "franjas": [
       "adolescentes"
@@ -1898,6 +2828,18 @@
     "sigla": "VIA",
     "nombre": "Índice de Aculturación de Vancouver",
     "constructo": "Identidad cultural y Aculturación",
+    "temas": [
+      "Identidad y valores"
+    ],
+    "sinonimos": [
+      "identidad personal",
+      "valores morales",
+      "autoconcepto",
+      "autoestima",
+      "identidad social",
+      "identidad de género",
+      "valores éticos"
+    ],
     "poblacion": "Migrantes y minorías étnicas",
     "franjas": [
       "adultos"
@@ -1917,6 +2859,14 @@
     "sigla": "ISMI",
     "nombre": "Escala de Estigma Internalizado de la Enfermedad Mental",
     "constructo": "Estigma y discriminación",
+    "temas": [
+      "Apoyo social y familia"
+    ],
+    "sinonimos": [
+      "red de apoyo",
+      "funcionamiento familiar",
+      "dinámica de pareja"
+    ],
     "poblacion": "Pacientes con trastornos psiquiátricos",
     "franjas": [
       "adultos"
@@ -1937,6 +2887,14 @@
     "sigla": "EOD",
     "nombre": "Escala de Experiencias de Discriminación",
     "constructo": "Estigma y discriminación",
+    "temas": [
+      "Apoyo social y familia"
+    ],
+    "sinonimos": [
+      "red de apoyo",
+      "funcionamiento familiar",
+      "dinámica de pareja"
+    ],
     "poblacion": "Adultos y minorías",
     "franjas": [
       "adultos"
@@ -1957,6 +2915,17 @@
     "sigla": "WHODAS 2.0",
     "nombre": "Cuestionario para la Evaluación de Discapacidad de la OMS 2.0",
     "constructo": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+    "temas": [
+      "Funcionamiento y discapacidad"
+    ],
+    "sinonimos": [
+      "funcionalidad",
+      "discapacidad intelectual",
+      "discapacidad física",
+      "discapacidad psíquica",
+      "adaptabilidad",
+      "autonomía"
+    ],
     "poblacion": "Adultos (≥18 años)",
     "franjas": [
       "adultos"
@@ -1977,6 +2946,17 @@
     "sigla": "BARTHEL",
     "nombre": "Índice de Barthel",
     "constructo": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+    "temas": [
+      "Funcionamiento y discapacidad"
+    ],
+    "sinonimos": [
+      "funcionalidad",
+      "discapacidad intelectual",
+      "discapacidad física",
+      "discapacidad psíquica",
+      "adaptabilidad",
+      "autonomía"
+    ],
     "poblacion": "Pacientes geriátricos o con afectación neurológica",
     "franjas": [
       "mayores"
@@ -1997,6 +2977,17 @@
     "sigla": "Escala de Lawton",
     "nombre": "Escala de Lawton y Brody",
     "constructo": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+    "temas": [
+      "Funcionamiento y discapacidad"
+    ],
+    "sinonimos": [
+      "funcionalidad",
+      "discapacidad intelectual",
+      "discapacidad física",
+      "discapacidad psíquica",
+      "adaptabilidad",
+      "autonomía"
+    ],
     "poblacion": "Mayores y pacientes cognitivos",
     "franjas": [
       "mayores"
@@ -2017,6 +3008,17 @@
     "sigla": "CHTE",
     "nombre": "Cuestionario de Hábitos y Técnicas de Estudio",
     "constructo": "Rendimiento académico, Hábitos de estudio y Adaptación escolar",
+    "temas": [
+      "Rendimiento académico"
+    ],
+    "sinonimos": [
+      "rendimiento académico",
+      "desempeño académico",
+      "aptitud académica",
+      "rendimiento escolar",
+      "rendimiento cognitivo",
+      "rendimiento intelectual"
+    ],
     "poblacion": "Estudiantes (Primaria a Secundaria)",
     "franjas": [
       "niños",
@@ -2037,6 +3039,17 @@
     "sigla": "BASC-3",
     "nombre": "Sistema de Evaluación de la Conducta de Niños y Adolescentes (Subescalas de Adaptación)",
     "constructo": "Rendimiento académico, Hábitos de estudio y Adaptación escolar",
+    "temas": [
+      "Rendimiento académico"
+    ],
+    "sinonimos": [
+      "rendimiento académico",
+      "desempeño académico",
+      "aptitud académica",
+      "rendimiento escolar",
+      "rendimiento cognitivo",
+      "rendimiento intelectual"
+    ],
     "poblacion": "3 a 18 años",
     "franjas": [
       "niños",
@@ -2057,6 +3070,14 @@
     "sigla": "MBI",
     "nombre": "Inventario de Burnout de Maslach",
     "constructo": "Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",
+    "temas": [
+      "Desempeño laboral y burnout"
+    ],
+    "sinonimos": [
+      "agotamiento laboral",
+      "engagement",
+      "estrés laboral"
+    ],
     "poblacion": "Trabajadores",
     "franjas": [
       "adultos"
@@ -2076,6 +3097,14 @@
     "sigla": "UWES",
     "nombre": "Escala de Engagement en el Trabajo de Utrecht",
     "constructo": "Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",
+    "temas": [
+      "Desempeño laboral y burnout"
+    ],
+    "sinonimos": [
+      "agotamiento laboral",
+      "engagement",
+      "estrés laboral"
+    ],
     "poblacion": "Trabajadores",
     "franjas": [
       "adultos"
@@ -2096,6 +3125,14 @@
     "sigla": "MOS-SSS",
     "nombre": "Cuestionario de Apoyo Social del Medical Outcomes Study",
     "constructo": "Apoyo social y Funcionamiento familiar",
+    "temas": [
+      "Apoyo social y familia"
+    ],
+    "sinonimos": [
+      "red de apoyo",
+      "funcionamiento familiar",
+      "dinámica de pareja"
+    ],
     "poblacion": "Adultos (frecuente en pacientes crónicos)",
     "franjas": [
       "adultos"
@@ -2116,6 +3153,14 @@
     "sigla": "FACES-IV",
     "nombre": "Escala de Cohesión y Adaptabilidad Familiar",
     "constructo": "Apoyo social y Funcionamiento familiar",
+    "temas": [
+      "Apoyo social y familia"
+    ],
+    "sinonimos": [
+      "red de apoyo",
+      "funcionamiento familiar",
+      "dinámica de pareja"
+    ],
     "poblacion": "Familias (padres, adolescentes)",
     "franjas": [
       "adolescentes",
@@ -2136,6 +3181,14 @@
     "sigla": "APGAR",
     "nombre": "APGAR Familiar",
     "constructo": "Apoyo social y Funcionamiento familiar",
+    "temas": [
+      "Apoyo social y familia"
+    ],
+    "sinonimos": [
+      "red de apoyo",
+      "funcionamiento familiar",
+      "dinámica de pareja"
+    ],
     "poblacion": "Familias, adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -2157,6 +3210,15 @@
     "sigla": "SWLS",
     "nombre": "Escala de Satisfacción con la Vida",
     "constructo": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+    "temas": [
+      "Bienestar y satisfacción vital"
+    ],
+    "sinonimos": [
+      "florecimiento",
+      "felicidad",
+      "satisfacción vital",
+      "afecto positivo"
+    ],
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -2178,6 +3240,15 @@
     "sigla": "PWB",
     "nombre": "Escalas de Bienestar Psicológico",
     "constructo": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+    "temas": [
+      "Bienestar y satisfacción vital"
+    ],
+    "sinonimos": [
+      "florecimiento",
+      "felicidad",
+      "satisfacción vital",
+      "afecto positivo"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -2198,6 +3269,15 @@
     "sigla": "FS",
     "nombre": "Escala de Florecimiento",
     "constructo": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+    "temas": [
+      "Bienestar y satisfacción vital"
+    ],
+    "sinonimos": [
+      "florecimiento",
+      "felicidad",
+      "satisfacción vital",
+      "afecto positivo"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -2218,6 +3298,18 @@
     "sigla": "SF-36",
     "nombre": "Cuestionario de Salud SF-36",
     "constructo": "Calidad de vida",
+    "temas": [
+      "Calidad de vida"
+    ],
+    "sinonimos": [
+      "Quality of life",
+      "QoL",
+      "Calidad de vida",
+      "Vida diaria",
+      "Bienestar",
+      "Salud mental",
+      "Salud física"
+    ],
     "poblacion": "Adultos (general y pacientes médicos/psiquiátricos)",
     "franjas": [
       "adultos"
@@ -2238,6 +3330,18 @@
     "sigla": "WHOQOL-BREF",
     "nombre": "Cuestionario de Calidad de Vida de la OMS - Versión Breve",
     "constructo": "Calidad de vida",
+    "temas": [
+      "Calidad de vida"
+    ],
+    "sinonimos": [
+      "Quality of life",
+      "QoL",
+      "Calidad de vida",
+      "Vida diaria",
+      "Bienestar",
+      "Salud mental",
+      "Salud física"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -2258,6 +3362,15 @@
     "sigla": "CD-RISC",
     "nombre": "Escala de Resiliencia de Connor-Davidson",
     "constructo": "Resiliencia, Afrontamiento y Fortalezas",
+    "temas": [
+      "Afrontamiento y resiliencia"
+    ],
+    "sinonimos": [
+      "coping",
+      "resiliencia",
+      "tolerancia a la frustración",
+      "adaptación"
+    ],
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -2278,6 +3391,15 @@
     "sigla": "LOT-R",
     "nombre": "Test de Orientación Vital Revisado (Optimismo)",
     "constructo": "Resiliencia, Afrontamiento y Fortalezas",
+    "temas": [
+      "Afrontamiento y resiliencia"
+    ],
+    "sinonimos": [
+      "coping",
+      "resiliencia",
+      "tolerancia a la frustración",
+      "adaptación"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -2298,6 +3420,15 @@
     "sigla": "VIA-IS",
     "nombre": "Inventario VIA de Fortalezas Personales",
     "constructo": "Resiliencia, Afrontamiento y Fortalezas",
+    "temas": [
+      "Afrontamiento y resiliencia"
+    ],
+    "sinonimos": [
+      "coping",
+      "resiliencia",
+      "tolerancia a la frustración",
+      "adaptación"
+    ],
     "poblacion": "Adultos (existe versión VIA-Youth para jóvenes)",
     "franjas": [
       "adolescentes",
@@ -2318,6 +3449,19 @@
     "sigla": "MMSE",
     "nombre": "Mini-Examen del Estado Cognitivo",
     "constructo": "Cribado Cognitivo Global (Estado Mental)",
+    "temas": [
+      "Cribado cognitivo y demencias"
+    ],
+    "sinonimos": [
+      "Cognitive screening",
+      "Cribado cognitivo",
+      "Demencia",
+      "Alzheimer",
+      "Enfermedad de Alzheimer",
+      "Deterioro cognitivo",
+      "Evaluación cognitiva",
+      "Prueba cognitiva"
+    ],
     "poblacion": "Adultos y adultos mayores",
     "franjas": [
       "adultos",
@@ -2338,6 +3482,19 @@
     "sigla": "MoCA",
     "nombre": "Evaluación Cognitiva de Montreal",
     "constructo": "Cribado Cognitivo Global (Estado Mental)",
+    "temas": [
+      "Cribado cognitivo y demencias"
+    ],
+    "sinonimos": [
+      "Cognitive screening",
+      "Cribado cognitivo",
+      "Demencia",
+      "Alzheimer",
+      "Enfermedad de Alzheimer",
+      "Deterioro cognitivo",
+      "Evaluación cognitiva",
+      "Prueba cognitiva"
+    ],
     "poblacion": "Adultos y adultos mayores",
     "franjas": [
       "adultos",
@@ -2359,6 +3516,15 @@
     "sigla": "d2-R",
     "nombre": "Test de Atención d2-R",
     "constructo": "Atención (Sostenida, Selectiva, Dividida y Vigilancia)",
+    "temas": [
+      "Atención y concentración"
+    ],
+    "sinonimos": [
+      "atención sostenida",
+      "vigilancia",
+      "atención dividida",
+      "concentración"
+    ],
     "poblacion": "8 a 80 años",
     "franjas": [
       "niños",
@@ -2381,6 +3547,15 @@
     "sigla": "TMT",
     "nombre": "Test del Trazo (Trail Making Test)",
     "constructo": "Atención (Sostenida, Selectiva, Dividida y Vigilancia)",
+    "temas": [
+      "Atención y concentración"
+    ],
+    "sinonimos": [
+      "atención sostenida",
+      "vigilancia",
+      "atención dividida",
+      "concentración"
+    ],
     "poblacion": "Niños, adultos y mayores",
     "franjas": [
       "niños",
@@ -2403,6 +3578,15 @@
     "sigla": "TAVEC",
     "nombre": "Test de Aprendizaje Verbal de España-Complutense",
     "constructo": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
+    "temas": [
+      "Memoria y aprendizaje"
+    ],
+    "sinonimos": [
+      "memoria de trabajo",
+      "memoria episódica",
+      "metamemoria",
+      "olvidos"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -2423,6 +3607,15 @@
     "sigla": "Figura de Rey",
     "nombre": "Test de Copia de una Figura Compleja",
     "constructo": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
+    "temas": [
+      "Memoria y aprendizaje"
+    ],
+    "sinonimos": [
+      "memoria de trabajo",
+      "memoria episódica",
+      "metamemoria",
+      "olvidos"
+    ],
     "poblacion": "Niños (figura B) y adultos (figura A)",
     "franjas": [
       "niños",
@@ -2444,6 +3637,18 @@
     "sigla": "WCST",
     "nombre": "Test de Clasificación de Tarjetas de Wisconsin",
     "constructo": "Funciones Ejecutivas",
+    "temas": [
+      "Funciones ejecutivas"
+    ],
+    "sinonimos": [
+      "control de la atención",
+      "planificación",
+      "organización",
+      "memoria de trabajo",
+      "resolución de problemas",
+      "inhibición",
+      "flexibilidad cognitiva"
+    ],
     "poblacion": "6 a 89 años",
     "franjas": [
       "niños",
@@ -2466,6 +3671,18 @@
     "sigla": "Stroop Test",
     "nombre": "Test de Colores y Palabras",
     "constructo": "Funciones Ejecutivas",
+    "temas": [
+      "Funciones ejecutivas"
+    ],
+    "sinonimos": [
+      "control de la atención",
+      "planificación",
+      "organización",
+      "memoria de trabajo",
+      "resolución de problemas",
+      "inhibición",
+      "flexibilidad cognitiva"
+    ],
     "poblacion": "Niños y adultos",
     "franjas": [
       "niños",
@@ -2487,6 +3704,18 @@
     "sigla": "IGT",
     "nombre": "Iowa Gambling Task",
     "constructo": "Funciones Ejecutivas",
+    "temas": [
+      "Funciones ejecutivas"
+    ],
+    "sinonimos": [
+      "control de la atención",
+      "planificación",
+      "organización",
+      "memoria de trabajo",
+      "resolución de problemas",
+      "inhibición",
+      "flexibilidad cognitiva"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -2507,6 +3736,18 @@
     "sigla": "BRIEF-2",
     "nombre": "Evaluación Conductual de la Función Ejecutiva",
     "constructo": "Funciones Ejecutivas",
+    "temas": [
+      "Funciones ejecutivas"
+    ],
+    "sinonimos": [
+      "control de la atención",
+      "planificación",
+      "organización",
+      "memoria de trabajo",
+      "resolución de problemas",
+      "inhibición",
+      "flexibilidad cognitiva"
+    ],
     "poblacion": "5 a 18 años (versión adulto disponible: BRIEF-A)",
     "franjas": [
       "niños",
@@ -2528,6 +3769,18 @@
     "sigla": "IFS",
     "nombre": "INECO Frontal Screening",
     "constructo": "Funciones Ejecutivas",
+    "temas": [
+      "Funciones ejecutivas"
+    ],
+    "sinonimos": [
+      "control de la atención",
+      "planificación",
+      "organización",
+      "memoria de trabajo",
+      "resolución de problemas",
+      "inhibición",
+      "flexibilidad cognitiva"
+    ],
     "poblacion": "Adultos y adultos mayores",
     "franjas": [
       "adultos",
@@ -2549,6 +3802,15 @@
     "sigla": "BNT",
     "nombre": "Test de Denominación de Boston",
     "constructo": "Comprensión, Expresión y Fluidez Verbal",
+    "temas": [
+      "Lenguaje y comunicación verbal"
+    ],
+    "sinonimos": [
+      "fluidez verbal",
+      "denominación",
+      "afasia",
+      "expresión verbal"
+    ],
     "poblacion": "Niños, adultos y mayores",
     "franjas": [
       "niños",
@@ -2570,6 +3832,15 @@
     "sigla": "TFV",
     "nombre": "Test de Fluidez Verbal (FAS y Animales)",
     "constructo": "Comprensión, Expresión y Fluidez Verbal",
+    "temas": [
+      "Lenguaje y comunicación verbal"
+    ],
+    "sinonimos": [
+      "fluidez verbal",
+      "denominación",
+      "afasia",
+      "expresión verbal"
+    ],
     "poblacion": "Todas las edades",
     "franjas": [
       "niños",
@@ -2593,6 +3864,17 @@
     "sigla": "RMET",
     "nombre": "Test de Leer la Mente en los Ojos",
     "constructo": "Cognición Social e Interocepción",
+    "temas": [
+      "Cognición social"
+    ],
+    "sinonimos": [
+      "Social cognition",
+      "Cognición social",
+      "Procesamiento social",
+      "Interacción social",
+      "Comunicación social",
+      "Atención social"
+    ],
     "poblacion": "Adultos y adolescentes (existe versión infantil)",
     "franjas": [
       "niños",
@@ -2614,6 +3896,17 @@
     "sigla": "MAIA",
     "nombre": "Evaluación Multidimensional de la Conciencia Interoceptiva",
     "constructo": "Cognición Social e Interocepción",
+    "temas": [
+      "Cognición social"
+    ],
+    "sinonimos": [
+      "Social cognition",
+      "Cognición social",
+      "Procesamiento social",
+      "Interacción social",
+      "Comunicación social",
+      "Atención social"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -2634,6 +3927,17 @@
     "sigla": "Faux Pas Test",
     "nombre": "Test de Meteduras de Pata",
     "constructo": "Cognición Social e Interocepción",
+    "temas": [
+      "Cognición social"
+    ],
+    "sinonimos": [
+      "Social cognition",
+      "Cognición social",
+      "Procesamiento social",
+      "Interacción social",
+      "Comunicación social",
+      "Atención social"
+    ],
     "poblacion": "Niños (versión infantil) y adultos",
     "franjas": [
       "niños",
@@ -2654,6 +3958,17 @@
     "sigla": "PSQI",
     "nombre": "Índice de Calidad de Sueño de Pittsburgh",
     "constructo": "Sueño y ritmos circadianos",
+    "temas": [
+      "Sueño y ritmos circadianos"
+    ],
+    "sinonimos": [
+      "sueño",
+      "ritmos circadianos",
+      "horquillas",
+      "desajuste circadiano",
+      "insomnio",
+      "somnolencia diurna"
+    ],
     "poblacion": "Adultos, adultos mayores y adolescentes",
     "franjas": [
       "adolescentes",
@@ -2676,6 +3991,17 @@
     "sigla": "ISI",
     "nombre": "Índice de Gravedad del Insomnio",
     "constructo": "Sueño y ritmos circadianos",
+    "temas": [
+      "Sueño y ritmos circadianos"
+    ],
+    "sinonimos": [
+      "sueño",
+      "ritmos circadianos",
+      "horquillas",
+      "desajuste circadiano",
+      "insomnio",
+      "somnolencia diurna"
+    ],
     "poblacion": "Adultos y adultos mayores",
     "franjas": [
       "adultos",
@@ -2697,6 +4023,17 @@
     "sigla": "ESS",
     "nombre": "Escala de Somnolencia de Epworth",
     "constructo": "Sueño y ritmos circadianos",
+    "temas": [
+      "Sueño y ritmos circadianos"
+    ],
+    "sinonimos": [
+      "sueño",
+      "ritmos circadianos",
+      "horquillas",
+      "desajuste circadiano",
+      "insomnio",
+      "somnolencia diurna"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -2717,6 +4054,15 @@
     "sigla": "BPI",
     "nombre": "Inventario Breve de Dolor",
     "constructo": "Dolor, fatiga y síntomas somáticos",
+    "temas": [
+      "Dolor y síntomas somáticos"
+    ],
+    "sinonimos": [
+      "somatización",
+      "fatiga crónica",
+      "fibromialgia",
+      "dolor crónico"
+    ],
     "poblacion": "Adultos con dolor clínico o crónico",
     "franjas": [
       "adultos"
@@ -2736,6 +4082,15 @@
     "sigla": "PCS",
     "nombre": "Escala de Catastrofización del Dolor",
     "constructo": "Dolor, fatiga y síntomas somáticos",
+    "temas": [
+      "Dolor y síntomas somáticos"
+    ],
+    "sinonimos": [
+      "somatización",
+      "fatiga crónica",
+      "fibromialgia",
+      "dolor crónico"
+    ],
     "poblacion": "Adultos (población clínica y sana)",
     "franjas": [
       "adultos"
@@ -2755,6 +4110,15 @@
     "sigla": "FSS",
     "nombre": "Escala de Gravedad de la Fatiga",
     "constructo": "Dolor, fatiga y síntomas somáticos",
+    "temas": [
+      "Dolor y síntomas somáticos"
+    ],
+    "sinonimos": [
+      "somatización",
+      "fatiga crónica",
+      "fibromialgia",
+      "dolor crónico"
+    ],
     "poblacion": "Adultos con condiciones médicas (EM, Lupus, fibromialgia, etc.)",
     "franjas": [
       "adultos"
@@ -2775,6 +4139,14 @@
     "sigla": "IPAQ",
     "nombre": "Cuestionario Internacional de Actividad Física",
     "constructo": "Conductas de salud",
+    "temas": [
+      "Alfabetización y conductas de salud"
+    ],
+    "sinonimos": [
+      "adherencia terapéutica",
+      "conductas de salud",
+      "autocuidado"
+    ],
     "poblacion": "Adolescentes y adultos (15-69 años)",
     "franjas": [
       "adolescentes",
@@ -2796,6 +4168,14 @@
     "sigla": "MGL o MMAS-4",
     "nombre": "Cuestionario de Adherencia a la Medicación de Morisky-Green-Levine",
     "constructo": "Conductas de salud",
+    "temas": [
+      "Alfabetización y conductas de salud"
+    ],
+    "sinonimos": [
+      "adherencia terapéutica",
+      "conductas de salud",
+      "autocuidado"
+    ],
     "poblacion": "Adultos con patología crónica",
     "franjas": [
       "adultos"
@@ -2815,9 +4195,19 @@
     "sigla": "BIPQ",
     "nombre": "Cuestionario Breve de Percepción de Enfermedad (incluye IPQ-R como versión anidada)",
     "constructo": "Enfermedad médica y afrontamiento",
+    "temas": [
+      "Afrontamiento y resiliencia"
+    ],
+    "sinonimos": [
+      "coping",
+      "resiliencia",
+      "tolerancia a la frustración",
+      "adaptación"
+    ],
     "poblacion": "Pacientes con enfermedades agudas o crónicas",
     "franjas": [
-      "adultos"
+      "adultos",
+      "mayores"
     ],
     "acceso": "Sí",
     "descargable": true,
@@ -2835,9 +4225,19 @@
     "sigla": "MAC",
     "nombre": "Escala de Ajuste Mental al Cáncer",
     "constructo": "Enfermedad médica y afrontamiento",
+    "temas": [
+      "Afrontamiento y resiliencia"
+    ],
+    "sinonimos": [
+      "coping",
+      "resiliencia",
+      "tolerancia a la frustración",
+      "adaptación"
+    ],
     "poblacion": "Pacientes oncológicos (y adaptaciones para otras enfermedades crónicas)",
     "franjas": [
-      "adultos"
+      "adultos",
+      "mayores"
     ],
     "acceso": "No (Bajo copyright de los autores originales, uso clínico restringido).",
     "descargable": false,
@@ -2854,6 +4254,14 @@
     "sigla": "HLS-EU-Q16",
     "nombre": "Cuestionario Europeo de Alfabetización en Salud - Versión Corta",
     "constructo": "Alfabetización en salud y relación con el sistema",
+    "temas": [
+      "Alfabetización y conductas de salud"
+    ],
+    "sinonimos": [
+      "adherencia terapéutica",
+      "conductas de salud",
+      "autocuidado"
+    ],
     "poblacion": "Adultos (Población general y clínica)",
     "franjas": [
       "adultos"
@@ -2874,6 +4282,14 @@
     "sigla": "SAHLSA-50",
     "nombre": "Evaluación Breve de Alfabetización en Salud para Adultos de Habla Hispana",
     "constructo": "Alfabetización en salud y relación con el sistema",
+    "temas": [
+      "Alfabetización y conductas de salud"
+    ],
+    "sinonimos": [
+      "adherencia terapéutica",
+      "conductas de salud",
+      "autocuidado"
+    ],
     "poblacion": "Adultos hispanohablantes",
     "franjas": [
       "adultos"
@@ -2894,6 +4310,18 @@
     "sigla": "DEX-Sp",
     "nombre": "Cuestionario Disejecutivo (versión española)",
     "constructo": "Síntomas disejecutivos conductuales",
+    "temas": [
+      "Funciones ejecutivas"
+    ],
+    "sinonimos": [
+      "control de la atención",
+      "planificación",
+      "organización",
+      "memoria de trabajo",
+      "resolución de problemas",
+      "inhibición",
+      "flexibilidad cognitiva"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -2914,6 +4342,18 @@
     "sigla": "EFECO",
     "nombre": "Escala EFECO para Valorar Funciones Ejecutivas",
     "constructo": "Funciones ejecutivas cotidianas (autoinforme)",
+    "temas": [
+      "Funciones ejecutivas"
+    ],
+    "sinonimos": [
+      "control de la atención",
+      "planificación",
+      "organización",
+      "memoria de trabajo",
+      "resolución de problemas",
+      "inhibición",
+      "flexibilidad cognitiva"
+    ],
     "poblacion": "Adultos hispanohablantes",
     "franjas": [
       "adultos"
@@ -2934,6 +4374,15 @@
     "sigla": "MFE",
     "nombre": "Cuestionario de Fallos de Memoria de la Vida Cotidiana",
     "constructo": "Fallos de memoria cotidiana (metamemoria)",
+    "temas": [
+      "Memoria y aprendizaje"
+    ],
+    "sinonimos": [
+      "memoria de trabajo",
+      "memoria episódica",
+      "metamemoria",
+      "olvidos"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -2954,6 +4403,15 @@
     "sigla": "CFQ-Fallos",
     "nombre": "Cognitive Failures Questionnaire (Cuestionario de Fallos Cognitivos)",
     "constructo": "Fallos cognitivos cotidianos",
+    "temas": [
+      "Memoria y aprendizaje"
+    ],
+    "sinonimos": [
+      "memoria de trabajo",
+      "memoria episódica",
+      "metamemoria",
+      "olvidos"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -2974,6 +4432,17 @@
     "sigla": "PRSexDQ-SALSEX",
     "nombre": "Cuestionario de Disfunción Sexual Secundaria al Tratamiento con Psicofármacos",
     "constructo": "Salud sexual (disfunción inducida por fármacos)",
+    "temas": [
+      "Salud sexual"
+    ],
+    "sinonimos": [
+      "salud sexual",
+      "sexualidad",
+      "salud reproductiva",
+      "sexualidad humana",
+      "salud sexual y reproductiva",
+      "salud sexual integral"
+    ],
     "poblacion": "Adultos en tratamiento psicofarmacológico",
     "franjas": [
       "adultos"
@@ -2994,6 +4463,17 @@
     "sigla": "SIS/SES-SF",
     "nombre": "Sexual Inhibition/Sexual Excitation Scales — Short Form",
     "constructo": "Salud sexual (propensión a inhibición/excitación)",
+    "temas": [
+      "Salud sexual"
+    ],
+    "sinonimos": [
+      "salud sexual",
+      "sexualidad",
+      "salud reproductiva",
+      "sexualidad humana",
+      "salud sexual y reproductiva",
+      "salud sexual integral"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -3014,6 +4494,17 @@
     "sigla": "MEQ-SA",
     "nombre": "Cuestionario de Matutinidad-Vespertinidad de Horne y Östberg (versión española)",
     "constructo": "Cronotipo/ritmo circadiano",
+    "temas": [
+      "Sueño y ritmos circadianos"
+    ],
+    "sinonimos": [
+      "sueño",
+      "ritmos circadianos",
+      "horquillas",
+      "desajuste circadiano",
+      "insomnio",
+      "somnolencia diurna"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -3034,6 +4525,17 @@
     "sigla": "STOP-Bang",
     "nombre": "Cuestionario STOP-Bang",
     "constructo": "Riesgo de apnea del sueño",
+    "temas": [
+      "Sueño y ritmos circadianos"
+    ],
+    "sinonimos": [
+      "sueño",
+      "ritmos circadianos",
+      "horquillas",
+      "desajuste circadiano",
+      "insomnio",
+      "somnolencia diurna"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -3054,6 +4556,16 @@
     "sigla": "CSI",
     "nombre": "Inventario de Sensibilización Central",
     "constructo": "Sensibilización central y carga de síntomas",
+    "temas": [
+      "Ansiedad y fobia"
+    ],
+    "sinonimos": [
+      "TAG",
+      "fobia social",
+      "crisis de angustia",
+      "pánico",
+      "agorafobia"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -3074,6 +4586,16 @@
     "sigla": "FTND",
     "nombre": "Test de Fagerström de Dependencia de la Nicotina",
     "constructo": "Tabaco",
+    "temas": [
+      "Sustancias y alcoholismo"
+    ],
+    "sinonimos": [
+      "consumo problemático",
+      "AUDIT",
+      "abuso de drogas",
+      "dependencia",
+      "adicción"
+    ],
     "poblacion": "Adultos fumadores",
     "franjas": [
       "adultos"
@@ -3094,6 +4616,14 @@
     "sigla": "SEMCD-S",
     "nombre": "Spanish Chronic Disease Self-Efficacy Scale",
     "constructo": "Autoeficacia/autocuidado en enfermedad crónica",
+    "temas": [
+      "Alfabetización y conductas de salud"
+    ],
+    "sinonimos": [
+      "adherencia terapéutica",
+      "conductas de salud",
+      "autocuidado"
+    ],
     "poblacion": "Adultos con enfermedad crónica",
     "franjas": [
       "adultos"
@@ -3114,6 +4644,14 @@
     "sigla": "eHEALS",
     "nombre": "eHealth Literacy Scale",
     "constructo": "Alfabetización digital en salud",
+    "temas": [
+      "Alfabetización y conductas de salud"
+    ],
+    "sinonimos": [
+      "adherencia terapéutica",
+      "conductas de salud",
+      "autocuidado"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -3134,6 +4672,15 @@
     "sigla": "CREM-P",
     "nombre": "Cuestionario de Relaciones Médico-Paciente (adaptación española del PDRQ)",
     "constructo": "Relación paciente-profesional",
+    "temas": [
+      "Apego y relaciones interpersonales"
+    ],
+    "sinonimos": [
+      "apego ansioso",
+      "apego evitativo",
+      "dependencia emocional",
+      "asertividad"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -3154,6 +4701,19 @@
     "sigla": "BSQ",
     "nombre": "Body Shape Questionnaire (Cuestionario sobre la Forma Corporal)",
     "constructo": "Insatisfacción con la forma y figura corporal",
+    "temas": [
+      "Conducta alimentaria e imagen corporal"
+    ],
+    "sinonimos": [
+      "Eating behavior",
+      "Conducta alimentaria",
+      "Imagen corporal",
+      "Autoimagen",
+      "Conducta alimentaria patológica",
+      "Anorexia",
+      "Bulimia",
+      "Disortodinia"
+    ],
     "poblacion": "Adultas (validación original en mujeres)",
     "franjas": [
       "adultos"
@@ -3174,6 +4734,19 @@
     "sigla": "MBA",
     "nombre": "Measure of Body Apperception (Medida de Percepción del Cuerpo)",
     "constructo": "Dependencia de la autoestima respecto a la apariencia/integridad corporal",
+    "temas": [
+      "Conducta alimentaria e imagen corporal"
+    ],
+    "sinonimos": [
+      "Eating behavior",
+      "Conducta alimentaria",
+      "Imagen corporal",
+      "Autoimagen",
+      "Conducta alimentaria patológica",
+      "Anorexia",
+      "Bulimia",
+      "Disortodinia"
+    ],
     "poblacion": "Adultos (desarrollado en mujeres con cáncer de mama en etapa temprana)",
     "franjas": [
       "adultos"
@@ -3194,6 +4767,17 @@
     "sigla": "ERSQ",
     "nombre": "Emotion-Regulation Skills Questionnaire (Cuestionario de Habilidades de Regulación Emocional)",
     "constructo": "Habilidades específicas de regulación emocional (modelo ACE)",
+    "temas": [
+      "Regulación emocional"
+    ],
+    "sinonimos": [
+      "regulación emocional",
+      "homeostasis emocional",
+      "estabilidad emocional",
+      "disfunción emocional",
+      "control emocional",
+      "regulación afectiva"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -3214,6 +4798,15 @@
     "sigla": "ERS",
     "nombre": "Escala para Evaluar el Riesgo Suicida",
     "constructo": "Riesgo suicida (desesperanza, ideacion/planeacion, aislamiento social, apoyo familiar)",
+    "temas": [
+      "Suicidio y autolesión"
+    ],
+    "sinonimos": [
+      "ideación suicida",
+      "riesgo de suicidio",
+      "NSSI",
+      "autolesiones"
+    ],
     "poblacion": "Adolescentes (desde 12 anos) y adultos",
     "franjas": [
       "adolescentes",
@@ -3235,6 +4828,16 @@
     "sigla": "IP",
     "nombre": "Inventario de Padua (Padua Inventory)",
     "constructo": "Sintomatologia obsesivo-compulsiva (perdida de control mental, contaminacion, comprobacion, impulsos)",
+    "temas": [
+      "Obsesiones y compulsiones"
+    ],
+    "sinonimos": [
+      "TOC",
+      "dudas obsesivas",
+      "comprobación",
+      "contaminación",
+      "rituales"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -3256,6 +4859,16 @@
     "sigla": "BSL-23",
     "nombre": "Borderline Symptom List-23",
     "constructo": "Sintomatologia limite (TLP): afecto negativo, autoimagen, autodestruccion, impulsividad, disociacion",
+    "temas": [
+      "Personalidad patológica"
+    ],
+    "sinonimos": [
+      "TLP",
+      "narcisismo",
+      "psicopatía",
+      "tríada oscura",
+      "desapego"
+    ],
     "poblacion": "Adolescentes y adultos con sospecha o diagnostico de TLP",
     "franjas": [
       "adolescentes",
@@ -3277,6 +4890,18 @@
     "sigla": "CUBI-18",
     "nombre": "Cuestionario de Urgencia, Busqueda de Sensaciones e Impulsividad-18",
     "constructo": "Impulsividad (urgencia compulsiva, busqueda de sensaciones, imprevision)",
+    "temas": [
+      "Impulsividad y conducta disruptiva"
+    ],
+    "sinonimos": [
+      "impulsividad",
+      "conducta antisocial",
+      "conducta disruptiva",
+      "trastorno de déficit de atención e hiperactividad",
+      "TDAH",
+      "conducta agresiva",
+      "conducta inadecuada"
+    ],
     "poblacion": "Adultos 18-65 anos",
     "franjas": [
       "adultos"
@@ -3297,6 +4922,15 @@
     "sigla": "EGS-R",
     "nombre": "Escala de Gravedad de Sintomas del TEPT-Revisada",
     "constructo": "Gravedad de sintomas de TEPT segun DSM-5 (intrusion, evitacion, cognicion/animo, hiperactivacion, disociacion, disfuncionalidad)",
+    "temas": [
+      "Trauma y estrés postraumático"
+    ],
+    "sinonimos": [
+      "TEPT",
+      "trauma complejo",
+      "estrés agudo",
+      "disociación"
+    ],
     "poblacion": "Adultos expuestos a sucesos traumaticos",
     "franjas": [
       "adultos"
@@ -3317,6 +4951,16 @@
     "sigla": "SIAS",
     "nombre": "Escala de Ansiedad ante la Interaccion Social",
     "constructo": "Ansiedad ante la interaccion social directa",
+    "temas": [
+      "Ansiedad y fobia"
+    ],
+    "sinonimos": [
+      "TAG",
+      "fobia social",
+      "crisis de angustia",
+      "pánico",
+      "agorafobia"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -3338,6 +4982,16 @@
     "sigla": "SADS",
     "nombre": "Escala de Estres y Evitacion Social (Social Avoidance and Distress Scale)",
     "constructo": "Malestar subjetivo y evitacion conductual en situaciones sociales",
+    "temas": [
+      "Ansiedad y fobia"
+    ],
+    "sinonimos": [
+      "TAG",
+      "fobia social",
+      "crisis de angustia",
+      "pánico",
+      "agorafobia"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -3359,6 +5013,15 @@
     "sigla": "PSS-14",
     "nombre": "Escala de Estres Percibido (version de 14 items)",
     "constructo": "Estres psicologico percibido (incontrolabilidad, autoeficacia/afrontamiento)",
+    "temas": [
+      "Afrontamiento y resiliencia"
+    ],
+    "sinonimos": [
+      "coping",
+      "resiliencia",
+      "tolerancia a la frustración",
+      "adaptación"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -3380,6 +5043,15 @@
     "sigla": "CAE",
     "nombre": "Cuestionario de Afrontamiento del Estres",
     "constructo": "Estrategias de afrontamiento del estres",
+    "temas": [
+      "Afrontamiento y resiliencia"
+    ],
+    "sinonimos": [
+      "coping",
+      "resiliencia",
+      "tolerancia a la frustración",
+      "adaptación"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -3399,6 +5071,14 @@
     "sigla": "EAS",
     "nombre": "Escala de Apoyo Social",
     "constructo": "Apoyo social percibido (familiar y de amistades)",
+    "temas": [
+      "Apoyo social y familia"
+    ],
+    "sinonimos": [
+      "red de apoyo",
+      "funcionamiento familiar",
+      "dinámica de pareja"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -3419,6 +5099,17 @@
     "sigla": "ERQ",
     "nombre": "Emotion Regulation Questionnaire - Cuestionario de Autorregulacion Emocional",
     "constructo": "Regulacion emocional (reevaluacion cognitiva, supresion expresiva)",
+    "temas": [
+      "Regulación emocional"
+    ],
+    "sinonimos": [
+      "regulación emocional",
+      "homeostasis emocional",
+      "estabilidad emocional",
+      "disfunción emocional",
+      "control emocional",
+      "regulación afectiva"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -3439,6 +5130,16 @@
     "sigla": "FMPS",
     "nombre": "Escala Multidimensional de Perfeccionismo",
     "constructo": "Perfeccionismo multidimensional",
+    "temas": [
+      "Rasgos de personalidad"
+    ],
+    "sinonimos": [
+      "personalidad",
+      "rasgos de personalidad",
+      "trastorno de personalidad",
+      "personalidad antisocial",
+      "personalidad borderline"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -3458,6 +5159,17 @@
     "sigla": "PANAS",
     "nombre": "Escala de Afecto Positivo y Negativo",
     "constructo": "Afecto positivo y negativo",
+    "temas": [
+      "Regulación emocional"
+    ],
+    "sinonimos": [
+      "regulación emocional",
+      "homeostasis emocional",
+      "estabilidad emocional",
+      "disfunción emocional",
+      "control emocional",
+      "regulación afectiva"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -3477,6 +5189,15 @@
     "sigla": "RS-14",
     "nombre": "Escala de Resiliencia de 14 items",
     "constructo": "Resiliencia",
+    "temas": [
+      "Afrontamiento y resiliencia"
+    ],
+    "sinonimos": [
+      "coping",
+      "resiliencia",
+      "tolerancia a la frustración",
+      "adaptación"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -3496,6 +5217,17 @@
     "sigla": "TMMS-24",
     "nombre": "Trait Meta-Mood Scale-24",
     "constructo": "Inteligencia emocional percibida (atencion, claridad, reparacion)",
+    "temas": [
+      "Regulación emocional"
+    ],
+    "sinonimos": [
+      "regulación emocional",
+      "homeostasis emocional",
+      "estabilidad emocional",
+      "disfunción emocional",
+      "control emocional",
+      "regulación afectiva"
+    ],
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -3516,6 +5248,17 @@
     "sigla": "BEAQ",
     "nombre": "Brief Experiential Avoidance Questionnaire",
     "constructo": "Evitacion experiencial",
+    "temas": [
+      "Flexibilidad psicológica y mindfulness"
+    ],
+    "sinonimos": [
+      "resiliencia",
+      "atención plena",
+      "adaptabilidad",
+      "flexibilidad cognitiva",
+      "percepción positiva",
+      "mindfulness"
+    ],
     "poblacion": "Adultos (muestra clinica de validacion)",
     "franjas": [
       "adultos"
@@ -3535,6 +5278,18 @@
     "sigla": "VQ",
     "nombre": "Valuing Questionnaire",
     "constructo": "Vida valiosa (Progreso vs Obstruccion) segun valores personales",
+    "temas": [
+      "Identidad y valores"
+    ],
+    "sinonimos": [
+      "identidad personal",
+      "valores morales",
+      "autoconcepto",
+      "autoestima",
+      "identidad social",
+      "identidad de género",
+      "valores éticos"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -3555,6 +5310,17 @@
     "sigla": "Psy-Flex",
     "nombre": "Cuestionario Psy-Flex (flexibilidad psicologica)",
     "constructo": "Flexibilidad psicologica (presencia, apertura, defusion, yo estable, valores, compromiso)",
+    "temas": [
+      "Flexibilidad psicológica y mindfulness"
+    ],
+    "sinonimos": [
+      "resiliencia",
+      "atención plena",
+      "adaptabilidad",
+      "flexibilidad cognitiva",
+      "percepción positiva",
+      "mindfulness"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -3575,6 +5341,15 @@
     "sigla": "COPE-48",
     "nombre": "Versión española del COPE-48 (adaptación clínica del COPE Inventory)",
     "constructo": "Afrontamiento (coping), 9 escalas clínicas",
+    "temas": [
+      "Afrontamiento y resiliencia"
+    ],
+    "sinonimos": [
+      "coping",
+      "resiliencia",
+      "tolerancia a la frustración",
+      "adaptación"
+    ],
     "poblacion": "Adultos (validado en población psiquiátrica ambulatoria)",
     "franjas": [
       "adultos"
@@ -3595,6 +5370,17 @@
     "sigla": "FFMQ-SF",
     "nombre": "Cuestionario de Cinco Facetas de Mindfulness - Forma Corta",
     "constructo": "Mindfulness y regulacion emocional (5 facetas: observar, describir, actuar con consciencia, no juzgar, no reactividad)",
+    "temas": [
+      "Flexibilidad psicológica y mindfulness"
+    ],
+    "sinonimos": [
+      "resiliencia",
+      "atención plena",
+      "adaptabilidad",
+      "flexibilidad cognitiva",
+      "percepción positiva",
+      "mindfulness"
+    ],
     "poblacion": "Adultos (poblacion general y laboral)",
     "franjas": [
       "adultos"
@@ -3615,6 +5401,17 @@
     "sigla": "SCS",
     "nombre": "Escala de Autocompasión (Self-Compassion Scale - Formas de 26 y 12 ítems)",
     "constructo": "Autocompasión y regulación afectiva (3 polaridades / 6 subescalas)",
+    "temas": [
+      "Regulación emocional"
+    ],
+    "sinonimos": [
+      "regulación emocional",
+      "homeostasis emocional",
+      "estabilidad emocional",
+      "disfunción emocional",
+      "control emocional",
+      "regulación afectiva"
+    ],
     "poblacion": "Adultos (universitarios y profesionales sanitarios)",
     "franjas": [
       "adultos"
@@ -3635,6 +5432,15 @@
     "sigla": "RAS-H",
     "nombre": "Escala de Valoración de la Relación (Relationship Assessment Scale - Hendrick)",
     "constructo": "Satisfacción diádica y calidad de la relación de pareja",
+    "temas": [
+      "Apego y relaciones interpersonales"
+    ],
+    "sinonimos": [
+      "apego ansioso",
+      "apego evitativo",
+      "dependencia emocional",
+      "asertividad"
+    ],
     "poblacion": "Adultos en pareja (matrimonio o unión libre)",
     "franjas": [
       "adultos"
@@ -3655,6 +5461,19 @@
     "sigla": "MEC",
     "nombre": "Mini-Examen Cognoscitivo de Lobo",
     "constructo": "Cribado cognitivo global",
+    "temas": [
+      "Cribado cognitivo y demencias"
+    ],
+    "sinonimos": [
+      "Cognitive screening",
+      "Cribado cognitivo",
+      "Demencia",
+      "Alzheimer",
+      "Enfermedad de Alzheimer",
+      "Deterioro cognitivo",
+      "Evaluación cognitiva",
+      "Prueba cognitiva"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3675,6 +5494,19 @@
     "sigla": "ADAS-Cog",
     "nombre": "Alzheimer's Disease Assessment Scale - Cognitiva",
     "constructo": "Deterioro cognitivo en demencia",
+    "temas": [
+      "Cribado cognitivo y demencias"
+    ],
+    "sinonimos": [
+      "Cognitive screening",
+      "Cribado cognitivo",
+      "Demencia",
+      "Alzheimer",
+      "Enfermedad de Alzheimer",
+      "Deterioro cognitivo",
+      "Evaluación cognitiva",
+      "Prueba cognitiva"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3695,6 +5527,15 @@
     "sigla": "BPRS",
     "nombre": "Brief Psychiatric Rating Scale",
     "constructo": "Psicopatología general (heteroaplicada)",
+    "temas": [
+      "Psicosis y experiencias delirantes"
+    ],
+    "sinonimos": [
+      "esquizofrenia",
+      "síntomas positivos",
+      "delirio",
+      "alucinación"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3715,6 +5556,15 @@
     "sigla": "SIPS",
     "nombre": "Entrevista Estructurada para Síndromes Prodrómicos",
     "constructo": "Riesgo de psicosis",
+    "temas": [
+      "Psicosis y experiencias delirantes"
+    ],
+    "sinonimos": [
+      "esquizofrenia",
+      "síntomas positivos",
+      "delirio",
+      "alucinación"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3735,6 +5585,15 @@
     "sigla": "SOPS",
     "nombre": "Scale of Prodromal Syndromes",
     "constructo": "Síntomas prodrómicos de psicosis",
+    "temas": [
+      "Psicosis y experiencias delirantes"
+    ],
+    "sinonimos": [
+      "esquizofrenia",
+      "síntomas positivos",
+      "delirio",
+      "alucinación"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3755,6 +5614,15 @@
     "sigla": "SUMD",
     "nombre": "Scale to Assess Unawareness of Mental Disorder",
     "constructo": "Insight/conciencia de enfermedad",
+    "temas": [
+      "Psicosis y experiencias delirantes"
+    ],
+    "sinonimos": [
+      "esquizofrenia",
+      "síntomas positivos",
+      "delirio",
+      "alucinación"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3775,6 +5643,15 @@
     "sigla": "OAS",
     "nombre": "Overt Aggression Scale",
     "constructo": "Agresividad manifiesta observada",
+    "temas": [
+      "Agresividad, ira y violencia"
+    ],
+    "sinonimos": [
+      "hostilidad",
+      "rabia",
+      "agresión física",
+      "conducta violenta"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3795,6 +5672,16 @@
     "sigla": "MADRS",
     "nombre": "Montgomery-Asberg Depression Rating Scale",
     "constructo": "Severidad depresiva (heteroaplicada)",
+    "temas": [
+      "Depresión y estado de ánimo"
+    ],
+    "sinonimos": [
+      "depresión mayor",
+      "distimia",
+      "afecto negativo",
+      "anhedonia",
+      "ánimo bajo"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3815,6 +5702,16 @@
     "sigla": "GDS",
     "nombre": "Geriatric Depression Scale (Yesavage, 30 items)",
     "constructo": "Depresión en adultos mayores",
+    "temas": [
+      "Depresión y estado de ánimo"
+    ],
+    "sinonimos": [
+      "depresión mayor",
+      "distimia",
+      "afecto negativo",
+      "anhedonia",
+      "ánimo bajo"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3835,6 +5732,16 @@
     "sigla": "CDS",
     "nombre": "Calgary Depression Scale for Schizophrenia",
     "constructo": "Depresión en esquizofrenia",
+    "temas": [
+      "Depresión y estado de ánimo"
+    ],
+    "sinonimos": [
+      "depresión mayor",
+      "distimia",
+      "afecto negativo",
+      "anhedonia",
+      "ánimo bajo"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3855,6 +5762,17 @@
     "sigla": "MDQ",
     "nombre": "Mood Disorder Questionnaire",
     "constructo": "Cribado de espectro bipolar",
+    "temas": [
+      "Bipolaridad y manía"
+    ],
+    "sinonimos": [
+      "Bipolar disorder",
+      "Manic episode",
+      "Manía",
+      "Psicosis maníca",
+      "Ciclotimia",
+      "Psicosis bipolar"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3875,6 +5793,17 @@
     "sigla": "YMRS",
     "nombre": "Young Mania Rating Scale",
     "constructo": "Severidad de manía",
+    "temas": [
+      "Bipolaridad y manía"
+    ],
+    "sinonimos": [
+      "Bipolar disorder",
+      "Manic episode",
+      "Manía",
+      "Psicosis maníca",
+      "Ciclotimia",
+      "Psicosis bipolar"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3895,6 +5824,17 @@
     "sigla": "EVMAC",
     "nombre": "Escala para la Valoración de la Manía por Clínicos",
     "constructo": "Severidad de manía (heteroaplicada)",
+    "temas": [
+      "Bipolaridad y manía"
+    ],
+    "sinonimos": [
+      "Bipolar disorder",
+      "Manic episode",
+      "Manía",
+      "Psicosis maníca",
+      "Ciclotimia",
+      "Psicosis bipolar"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3915,6 +5855,17 @@
     "sigla": "MAS",
     "nombre": "Escala de Manía de Bech-Rafaelsen",
     "constructo": "Severidad de manía",
+    "temas": [
+      "Bipolaridad y manía"
+    ],
+    "sinonimos": [
+      "Bipolar disorder",
+      "Manic episode",
+      "Manía",
+      "Psicosis maníca",
+      "Ciclotimia",
+      "Psicosis bipolar"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3935,6 +5886,15 @@
     "sigla": "RFL",
     "nombre": "Reasons for Living Inventory (Linehan)",
     "constructo": "Factores protectores frente al suicidio",
+    "temas": [
+      "Suicidio y autolesión"
+    ],
+    "sinonimos": [
+      "ideación suicida",
+      "riesgo de suicidio",
+      "NSSI",
+      "autolesiones"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3955,6 +5915,15 @@
     "sigla": "RV-Plutchik",
     "nombre": "Escala de Riesgo de Violencia de Plutchik",
     "constructo": "Riesgo de violencia autodirigida",
+    "temas": [
+      "Agresividad, ira y violencia"
+    ],
+    "sinonimos": [
+      "hostilidad",
+      "rabia",
+      "agresión física",
+      "conducta violenta"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3975,6 +5944,18 @@
     "sigla": "EI-Plutchik",
     "nombre": "Escala de Impulsividad de Plutchik",
     "constructo": "Impulsividad",
+    "temas": [
+      "Impulsividad y conducta disruptiva"
+    ],
+    "sinonimos": [
+      "impulsividad",
+      "conducta antisocial",
+      "conducta disruptiva",
+      "trastorno de déficit de atención e hiperactividad",
+      "TDAH",
+      "conducta agresiva",
+      "conducta inadecuada"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -3995,6 +5976,16 @@
     "sigla": "SPIN",
     "nombre": "Social Phobia Inventory",
     "constructo": "Fobia social",
+    "temas": [
+      "Ansiedad y fobia"
+    ],
+    "sinonimos": [
+      "TAG",
+      "fobia social",
+      "crisis de angustia",
+      "pánico",
+      "agorafobia"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4015,6 +6006,16 @@
     "sigla": "BSPS",
     "nombre": "Brief Social Phobia Scale (Davidson)",
     "constructo": "Fobia social (heteroaplicada)",
+    "temas": [
+      "Ansiedad y fobia"
+    ],
+    "sinonimos": [
+      "TAG",
+      "fobia social",
+      "crisis de angustia",
+      "pánico",
+      "agorafobia"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4035,6 +6036,16 @@
     "sigla": "BSA",
     "nombre": "Brief Scale for Anxiety (Tyrer)",
     "constructo": "Ansiedad general (heteroaplicada)",
+    "temas": [
+      "Ansiedad y fobia"
+    ],
+    "sinonimos": [
+      "TAG",
+      "fobia social",
+      "crisis de angustia",
+      "pánico",
+      "agorafobia"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4055,6 +6066,15 @@
     "sigla": "TQ",
     "nombre": "Trauma Questionnaire",
     "constructo": "Exposición a eventos traumáticos",
+    "temas": [
+      "Trauma y estrés postraumático"
+    ],
+    "sinonimos": [
+      "TEPT",
+      "trauma complejo",
+      "estrés agudo",
+      "disociación"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4075,6 +6095,15 @@
     "sigla": "DGRP",
     "nombre": "Duke Global Rating Scale for PTSD",
     "constructo": "Cambio global en TEPT",
+    "temas": [
+      "Trauma y estrés postraumático"
+    ],
+    "sinonimos": [
+      "TEPT",
+      "trauma complejo",
+      "estrés agudo",
+      "disociación"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4095,6 +6124,15 @@
     "sigla": "DAI",
     "nombre": "¡OJO! Archivo etiquetado DAI contiene la PANSS completa",
     "constructo": "Psicopatología general (positiva/negativa)",
+    "temas": [
+      "Psicosis y experiencias delirantes"
+    ],
+    "sinonimos": [
+      "esquizofrenia",
+      "síntomas positivos",
+      "delirio",
+      "alucinación"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4115,6 +6153,15 @@
     "sigla": "BDHI",
     "nombre": "Buss-Durkee Hostility Inventory",
     "constructo": "Hostilidad/agresividad",
+    "temas": [
+      "Agresividad, ira y violencia"
+    ],
+    "sinonimos": [
+      "hostilidad",
+      "rabia",
+      "agresión física",
+      "conducta violenta"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4135,6 +6182,16 @@
     "sigla": "MALT",
     "nombre": "Münchner Alkoholismustest",
     "constructo": "Diagnóstico de alcoholismo",
+    "temas": [
+      "Sustancias y alcoholismo"
+    ],
+    "sinonimos": [
+      "consumo problemático",
+      "AUDIT",
+      "abuso de drogas",
+      "dependencia",
+      "adicción"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4155,6 +6212,16 @@
     "sigla": "ISCA",
     "nombre": "Interrogatorio Sistematizado de Consumos Alcohólicos",
     "constructo": "Consumo de alcohol",
+    "temas": [
+      "Sustancias y alcoholismo"
+    ],
+    "sinonimos": [
+      "consumo problemático",
+      "AUDIT",
+      "abuso de drogas",
+      "dependencia",
+      "adicción"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4175,6 +6242,16 @@
     "sigla": "EuropASI",
     "nombre": "Índice Europeo de Gravedad de la Adicción",
     "constructo": "Gravedad multidimensional de adicción",
+    "temas": [
+      "Sustancias y alcoholismo"
+    ],
+    "sinonimos": [
+      "consumo problemático",
+      "AUDIT",
+      "abuso de drogas",
+      "dependencia",
+      "adicción"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4195,6 +6272,16 @@
     "sigla": "SADQ",
     "nombre": "Severity of Alcohol Dependence Questionnaire",
     "constructo": "Severidad de dependencia alcohólica",
+    "temas": [
+      "Sustancias y alcoholismo"
+    ],
+    "sinonimos": [
+      "consumo problemático",
+      "AUDIT",
+      "abuso de drogas",
+      "dependencia",
+      "adicción"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4215,6 +6302,16 @@
     "sigla": "EIDA",
     "nombre": "Escala de la Intensidad de la Dependencia al Alcohol",
     "constructo": "Dependencia alcohólica",
+    "temas": [
+      "Sustancias y alcoholismo"
+    ],
+    "sinonimos": [
+      "consumo problemático",
+      "AUDIT",
+      "abuso de drogas",
+      "dependencia",
+      "adicción"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4235,6 +6332,16 @@
     "sigla": "OCDS",
     "nombre": "Obsessive Compulsive Drinking Scale",
     "constructo": "Craving/compulsión por alcohol",
+    "temas": [
+      "Sustancias y alcoholismo"
+    ],
+    "sinonimos": [
+      "consumo problemático",
+      "AUDIT",
+      "abuso de drogas",
+      "dependencia",
+      "adicción"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4255,6 +6362,19 @@
     "sigla": "EDI-2",
     "nombre": "Inventario de Trastornos de la Conducta Alimentaria-2",
     "constructo": "Conducta alimentaria",
+    "temas": [
+      "Conducta alimentaria e imagen corporal"
+    ],
+    "sinonimos": [
+      "Eating behavior",
+      "Conducta alimentaria",
+      "Imagen corporal",
+      "Autoimagen",
+      "Conducta alimentaria patológica",
+      "Anorexia",
+      "Bulimia",
+      "Disortodinia"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4274,6 +6394,19 @@
     "sigla": "BITE",
     "nombre": "Bulimic Investigatory Test Edinburgh",
     "constructo": "Síntomas bulímicos",
+    "temas": [
+      "Conducta alimentaria e imagen corporal"
+    ],
+    "sinonimos": [
+      "Eating behavior",
+      "Conducta alimentaria",
+      "Imagen corporal",
+      "Autoimagen",
+      "Conducta alimentaria patológica",
+      "Anorexia",
+      "Bulimia",
+      "Disortodinia"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4294,6 +6427,17 @@
     "sigla": "COS",
     "nombre": "Cuestionario Oviedo de Calidad del Sueño",
     "constructo": "Calidad del sueño",
+    "temas": [
+      "Sueño y ritmos circadianos"
+    ],
+    "sinonimos": [
+      "sueño",
+      "ritmos circadianos",
+      "horquillas",
+      "desajuste circadiano",
+      "insomnio",
+      "somnolencia diurna"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4314,6 +6458,17 @@
     "sigla": "CSFQ",
     "nombre": "Changes in Sexual Functioning Questionnaire",
     "constructo": "Funcionamiento sexual",
+    "temas": [
+      "Salud sexual"
+    ],
+    "sinonimos": [
+      "salud sexual",
+      "sexualidad",
+      "salud reproductiva",
+      "sexualidad humana",
+      "salud sexual y reproductiva",
+      "salud sexual integral"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4334,6 +6489,17 @@
     "sigla": "IIEF",
     "nombre": "Índice Internacional de Función Eréctil",
     "constructo": "Función eréctil",
+    "temas": [
+      "Salud sexual"
+    ],
+    "sinonimos": [
+      "salud sexual",
+      "sexualidad",
+      "salud reproductiva",
+      "sexualidad humana",
+      "salud sexual y reproductiva",
+      "salud sexual integral"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4354,6 +6520,17 @@
     "sigla": "MGH-SFQ",
     "nombre": "Massachusetts General Hospital Sexual Functioning Q.",
     "constructo": "Funcionamiento sexual",
+    "temas": [
+      "Salud sexual"
+    ],
+    "sinonimos": [
+      "salud sexual",
+      "sexualidad",
+      "salud reproductiva",
+      "sexualidad humana",
+      "salud sexual y reproductiva",
+      "salud sexual integral"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4374,6 +6551,17 @@
     "sigla": "ASEX",
     "nombre": "Arizona Sexual Experience Scale",
     "constructo": "Funcionamiento sexual",
+    "temas": [
+      "Salud sexual"
+    ],
+    "sinonimos": [
+      "salud sexual",
+      "sexualidad",
+      "salud reproductiva",
+      "sexualidad humana",
+      "salud sexual y reproductiva",
+      "salud sexual integral"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4394,6 +6582,16 @@
     "sigla": "BWSQ",
     "nombre": "Benzodiazepine Withdrawal Symptom Questionnaire",
     "constructo": "Abstinencia de benzodiacepinas",
+    "temas": [
+      "Sustancias y alcoholismo"
+    ],
+    "sinonimos": [
+      "consumo problemático",
+      "AUDIT",
+      "abuso de drogas",
+      "dependencia",
+      "adicción"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4414,6 +6612,15 @@
     "sigla": "SAS",
     "nombre": "Simpson-Angus Scale",
     "constructo": "Parkinsonismo/extrapiramidalismo inducido",
+    "temas": [
+      "Efectos de psicofármacos"
+    ],
+    "sinonimos": [
+      "efectos secundarios",
+      "extrapiramidalismo",
+      "sedación",
+      "temblor"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4434,6 +6641,15 @@
     "sigla": "UKU",
     "nombre": "UKU Side Effect Rating Scale",
     "constructo": "Efectos secundarios de psicofármacos",
+    "temas": [
+      "Efectos de psicofármacos"
+    ],
+    "sinonimos": [
+      "efectos secundarios",
+      "extrapiramidalismo",
+      "sedación",
+      "temblor"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4454,6 +6670,17 @@
     "sigla": "EEAG-GAF",
     "nombre": "Escala de Evaluación de la Actividad Global",
     "constructo": "Funcionamiento global (eje V del DSM-IV)",
+    "temas": [
+      "Funcionamiento y discapacidad"
+    ],
+    "sinonimos": [
+      "funcionalidad",
+      "discapacidad intelectual",
+      "discapacidad física",
+      "discapacidad psíquica",
+      "adaptabilidad",
+      "autonomía"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4474,6 +6701,17 @@
     "sigla": "SDI",
     "nombre": "Sheehan Disability Inventory",
     "constructo": "Discapacidad funcional",
+    "temas": [
+      "Funcionamiento y discapacidad"
+    ],
+    "sinonimos": [
+      "funcionalidad",
+      "discapacidad intelectual",
+      "discapacidad física",
+      "discapacidad psíquica",
+      "adaptabilidad",
+      "autonomía"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4494,6 +6732,14 @@
     "sigla": "SASS",
     "nombre": "Social Adaptation Self-evaluation Scale",
     "constructo": "Adaptación social",
+    "temas": [
+      "Apoyo social y familia"
+    ],
+    "sinonimos": [
+      "red de apoyo",
+      "funcionamiento familiar",
+      "dinámica de pareja"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4514,6 +6760,18 @@
     "sigla": "QLS",
     "nombre": "Quality of Life Scale (Heinrichs)",
     "constructo": "Calidad de vida en esquizofrenia",
+    "temas": [
+      "Calidad de vida"
+    ],
+    "sinonimos": [
+      "Quality of life",
+      "QoL",
+      "Calidad de vida",
+      "Vida diaria",
+      "Bienestar",
+      "Salud mental",
+      "Salud física"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4534,6 +6792,18 @@
     "sigla": "CSCV",
     "nombre": "Cuestionario Sevilla de Calidad de Vida",
     "constructo": "Calidad de vida",
+    "temas": [
+      "Calidad de vida"
+    ],
+    "sinonimos": [
+      "Quality of life",
+      "QoL",
+      "Calidad de vida",
+      "Vida diaria",
+      "Bienestar",
+      "Salud mental",
+      "Salud física"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4554,6 +6824,16 @@
     "sigla": "QLDS",
     "nombre": "Quality of Life Depression Scale",
     "constructo": "Calidad de vida en depresión",
+    "temas": [
+      "Depresión y estado de ánimo"
+    ],
+    "sinonimos": [
+      "depresión mayor",
+      "distimia",
+      "afecto negativo",
+      "anhedonia",
+      "ánimo bajo"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4574,6 +6854,19 @@
     "sigla": "ADRQL",
     "nombre": "Alzheimer's Disease Related Quality of Life",
     "constructo": "Calidad de vida en demencia",
+    "temas": [
+      "Cribado cognitivo y demencias"
+    ],
+    "sinonimos": [
+      "Cognitive screening",
+      "Cribado cognitivo",
+      "Demencia",
+      "Alzheimer",
+      "Enfermedad de Alzheimer",
+      "Deterioro cognitivo",
+      "Evaluación cognitiva",
+      "Prueba cognitiva"
+    ],
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
@@ -4594,6 +6887,16 @@
     "sigla": "NPI-N",
     "nombre": "Narcissistic Personality Inventory",
     "constructo": "Rasgos de personalidad narcisista",
+    "temas": [
+      "Personalidad patológica"
+    ],
+    "sinonimos": [
+      "TLP",
+      "narcisismo",
+      "psicopatía",
+      "tríada oscura",
+      "desapego"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -4614,6 +6917,17 @@
     "sigla": "AIM-A",
     "nombre": "Affect Intensity Measure",
     "constructo": "Intensidad de la reactividad afectiva",
+    "temas": [
+      "Regulación emocional"
+    ],
+    "sinonimos": [
+      "regulación emocional",
+      "homeostasis emocional",
+      "estabilidad emocional",
+      "disfunción emocional",
+      "control emocional",
+      "regulación afectiva"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
@@ -4634,6 +6948,15 @@
     "sigla": "TOP-8",
     "nombre": "Escala de 8 ítems para los Resultados del Tratamiento del TEPT",
     "constructo": "Respuesta al tratamiento en TEPT",
+    "temas": [
+      "Trauma y estrés postraumático"
+    ],
+    "sinonimos": [
+      "TEPT",
+      "trauma complejo",
+      "estrés agudo",
+      "disociación"
+    ],
     "poblacion": "Adultos",
     "franjas": [
       "adultos"

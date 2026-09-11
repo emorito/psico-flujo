@@ -5,9 +5,12 @@ import {
   ChevronDown,
   Download,
   FileText,
+  Info,
+  Layers,
   Lock,
   Search,
-  SlidersHorizontal,
+  Sparkles,
+  Tag,
   X,
 } from "lucide-react";
 import rawCatalog from "../../data/catalog.json";
@@ -19,6 +22,8 @@ export interface CatalogItem {
   sigla: string;
   nombre: string;
   constructo: string;
+  temas?: string[];
+  sinonimos?: string[];
   poblacion: string;
   franjas: string[];
   acceso: string;
@@ -68,6 +73,8 @@ export function InstrumentLibrary() {
   const [query, setQuery] = useState("");
   const [selectedAxis, setSelectedAxis] = useState<number | "all">("all");
   const [selectedFranja, setSelectedFranja] = useState<string>("all");
+  const [selectedTheme, setSelectedTheme] = useState<string>("all");
+  const [showAllThemesMobile, setShowAllThemesMobile] = useState(false);
   const [open, setOpen] = useState<string | null>(null);
 
   // Total docs across catalog
@@ -75,6 +82,23 @@ export function InstrumentLibrary() {
     () => catalog.reduce((acc, item) => acc + item.archivos.length, 0),
     []
   );
+
+  // List of all 38 themes with family counts and 3 dynamic size categories
+  const themeList = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const item of catalog) {
+      for (const t of item.temas ?? []) {
+        counts[t] = (counts[t] || 0) + 1;
+      }
+    }
+    return Object.entries(counts)
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .map(([name, count]) => ({
+        name,
+        count,
+        size: count >= 8 ? "lg" : count >= 5 ? "md" : "sm",
+      }));
+  }, []);
 
   // Counters for Axis buttons
   const axisCounts = useMemo(() => {
@@ -110,10 +134,14 @@ export function InstrumentLibrary() {
       if (selectedFranja !== "all" && !item.franjas.includes(selectedFranja)) {
         return false;
       }
-      // Free search on sigla, nombre, constructo (and poblacion/description/use)
+      // Theme filter
+      if (selectedTheme !== "all" && (!item.temas || !item.temas.includes(selectedTheme))) {
+        return false;
+      }
+      // Free search on sigla, nombre, constructo, temas, sinonimos, poblacion, description, use
       if (queryWords.length > 0) {
         const searchable = normalizeText(
-          `${item.sigla} ${item.nombre} ${item.constructo} ${item.poblacion} ${item.description ?? ""} ${item.use ?? ""}`
+          `${item.sigla} ${item.nombre} ${item.constructo} ${item.temas?.join(" ") ?? ""} ${item.sinonimos?.join(" ") ?? ""} ${item.poblacion} ${item.description ?? ""} ${item.use ?? ""}`
         );
         const matchesAllWords = queryWords.every((word) => searchable.includes(word));
         if (!matchesAllWords) {
@@ -122,7 +150,7 @@ export function InstrumentLibrary() {
       }
       return true;
     });
-  }, [selectedAxis, selectedFranja, query]);
+  }, [selectedAxis, selectedFranja, selectedTheme, query]);
 
   // Group filtered results by Axis
   const groupedByAxis = useMemo(() => {
@@ -142,12 +170,17 @@ export function InstrumentLibrary() {
     return groups;
   }, [filtered, selectedAxis]);
 
-  const hasActiveFilters = query !== "" || selectedAxis !== "all" || selectedFranja !== "all";
+  const hasActiveFilters =
+    query !== "" ||
+    selectedAxis !== "all" ||
+    selectedFranja !== "all" ||
+    selectedTheme !== "all";
 
   const resetFilters = () => {
     setQuery("");
     setSelectedAxis("all");
     setSelectedFranja("all");
+    setSelectedTheme("all");
     setOpen(null);
   };
 
@@ -159,7 +192,7 @@ export function InstrumentLibrary() {
           <h2>Encuentra el instrumento adecuado.</h2>
         </div>
         <span className="catalog-count">
-          {catalog.length} instrumentos · {totalDocuments} documentos · 6 ejes
+          {catalog.length} instrumentos · {totalDocuments} documentos · 6 ejes · 38 temas
         </span>
       </div>
 
@@ -170,7 +203,7 @@ export function InstrumentLibrary() {
           <input
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Buscar por sigla, nombre o constructo (ej. PHQ, BDI, ansiedad, depresión)…"
+            placeholder="Buscar por sigla, nombre, constructo o tema (ej. PHQ, BDI, TOC, TEPT, ansiedad, depresión)…"
             aria-label="Buscar instrumentos"
           />
           {query && (
@@ -229,7 +262,87 @@ export function InstrumentLibrary() {
             ))}
           </div>
         </div>
+
+        {/* Bloque Explorar por tema (38 temas cerrados con 3 tamaños de etiquetas) */}
+        <section className="theme-section" aria-label="Explorar por tema clínico">
+          <div className="theme-header">
+            <div className="theme-title">
+              <Sparkles size={14} />
+              <span>Explorar por tema clínico</span>
+            </div>
+            {selectedTheme !== "all" && (
+              <span className="theme-active-indicator">
+                Tema activo: {selectedTheme}
+              </span>
+            )}
+          </div>
+          <div
+            className={`theme-cloud ${showAllThemesMobile ? "expanded" : ""}`}
+            role="group"
+            aria-label="Temas clínicos disponibles"
+          >
+            <button
+              type="button"
+              className={`theme-tag size-lg ${selectedTheme === "all" ? "active" : ""}`}
+              onClick={() => {
+                setSelectedTheme("all");
+                setOpen(null);
+              }}
+              aria-pressed={selectedTheme === "all"}
+            >
+              <span>Todos los temas</span>
+              <small>{catalog.length}</small>
+            </button>
+            {themeList.map((theme) => {
+              const isSelected = selectedTheme === theme.name;
+              return (
+                <button
+                  key={theme.name}
+                  type="button"
+                  className={`theme-tag size-${theme.size} ${isSelected ? "active" : ""}`}
+                  onClick={() => {
+                    setSelectedTheme(isSelected ? "all" : theme.name);
+                    setOpen(null);
+                  }}
+                  aria-pressed={isSelected}
+                  title={`${theme.name} (${theme.count} ${theme.count === 1 ? "instrumento" : "instrumentos"})`}
+                >
+                  <span>{theme.name}</span>
+                  <small>{theme.count}</small>
+                </button>
+              );
+            })}
+          </div>
+          <div className="theme-toggle-container">
+            <button
+              type="button"
+              className="theme-toggle-btn"
+              onClick={() => setShowAllThemesMobile((prev) => !prev)}
+              aria-expanded={showAllThemesMobile}
+            >
+              <Layers size={13} />
+              <span>
+                {showAllThemesMobile
+                  ? "Mostrar solo temas principales"
+                  : `Ver todos los temas (${themeList.length})`}
+              </span>
+            </button>
+          </div>
+        </section>
       </div>
+
+      {/* Banner clínico para personas mayores (Franja Mayores) */}
+      {selectedFranja === "mayores" && (
+        <div className="clinical-warning-banner" role="status" aria-live="polite">
+          <Info size={18} className="clinical-warning-icon" />
+          <div className="clinical-warning-content">
+            <strong>Criterio de evaluación en personas mayores</strong>
+            <p>
+              Esta selección reúne instrumentos validados, baremados o adaptados específicamente para población geriátrica y contexto psicogerontológico. La mayoría de las escalas de la franja <strong>Adultos</strong> también pueden ser aplicables según el criterio profesional y las capacidades funcionales o cognitivas de cada consultante.
+            </p>
+          </div>
+        </div>
+      )}
 
       {/* Resumen de resultados activos */}
       <div className="catalog-summary">
@@ -240,6 +353,7 @@ export function InstrumentLibrary() {
             {selectedFranja === "all"
               ? "Todas las edades"
               : AGE_FRANJAS.find((f) => f.id === selectedFranja)?.label}
+            {selectedTheme !== "all" ? ` · Tema: ${selectedTheme}` : ""}
           </span>
           {hasActiveFilters && (
             <button
@@ -256,7 +370,7 @@ export function InstrumentLibrary() {
                 padding: "0",
               }}
             >
-              Restablecer
+              Restablecer filtros
             </button>
           )}
         </div>
@@ -284,6 +398,7 @@ export function InstrumentLibrary() {
               <div className="instrument-list">
                 {group.items.map((item, index) => {
                   const isOpen = open === item.family_id;
+                  const itemTheme = item.temas?.[0];
                   return (
                     <article
                       className={`instrument-row ${isOpen ? "open" : ""}`}
@@ -300,7 +415,25 @@ export function InstrumentLibrary() {
                         <span className="code-badge">{item.sigla}</span>
                         <span className="instrument-copy">
                           <strong>{item.nombre}</strong>
-                          <small>{item.constructo}</small>
+                          <small>
+                            {item.constructo}
+                            {itemTheme && (
+                              <button
+                                type="button"
+                                className="row-theme-chip"
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  setSelectedTheme(itemTheme);
+                                  setOpen(null);
+                                }}
+                                title={`Filtrar por tema: ${itemTheme}`}
+                                aria-label={`Filtrar por tema ${itemTheme}`}
+                              >
+                                <Tag size={8} />
+                                <span>{itemTheme}</span>
+                              </button>
+                            )}
+                          </small>
                         </span>
                         <span className="row-eje">{item.eje}</span>
                         <span className="row-poblacion" title={item.poblacion}>
@@ -321,7 +454,31 @@ export function InstrumentLibrary() {
                             <span>Eje y constructo</span>
                             <strong>{item.eje} · {item.constructo}</strong>
 
-                            <span style={{ marginTop: "10px", display: "block" }}>Población objetivo</span>
+                            {/* Tema clínico asignado con botón clicable */}
+                            {item.temas && item.temas.length > 0 && (
+                              <div style={{ marginTop: "10px" }}>
+                                <span style={{ display: "block" }}>Tema clínico principal</span>
+                                <div style={{ display: "flex", gap: "6px", flexWrap: "wrap", marginTop: "5px" }}>
+                                  {item.temas.map((t) => (
+                                    <button
+                                      key={t}
+                                      type="button"
+                                      className={`theme-badge-btn ${selectedTheme === t ? "active" : ""}`}
+                                      onClick={() => {
+                                        setSelectedTheme(t);
+                                      }}
+                                      title={`Filtrar catálogo por tema: ${t}`}
+                                    >
+                                      <Tag size={11} />
+                                      <span>{t}</span>
+                                      <small>{selectedTheme === t ? "Filtro activo" : "Filtrar"}</small>
+                                    </button>
+                                  ))}
+                                </div>
+                              </div>
+                            )}
+
+                            <span style={{ marginTop: "12px", display: "block" }}>Población objetivo</span>
                             <p style={{ margin: "3px 0 8px" }}>
                               {item.poblacion || "Población general"}
                             </p>
