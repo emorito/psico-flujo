@@ -56,6 +56,14 @@ const AGE_FRANJAS = [
   { id: "mayores", label: "Mayores (65+)" },
 ];
 
+function normalizeText(text: string): string {
+  return text
+    .toLocaleLowerCase("es")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .trim();
+}
+
 export function InstrumentLibrary() {
   const [query, setQuery] = useState("");
   const [selectedAxis, setSelectedAxis] = useState<number | "all">("all");
@@ -90,7 +98,9 @@ export function InstrumentLibrary() {
 
   // Filtered instruments
   const filtered = useMemo(() => {
-    const q = query.trim().toLocaleLowerCase("es");
+    const normalizedQuery = normalizeText(query);
+    const queryWords = normalizedQuery.split(/\s+/).filter(Boolean);
+
     return catalog.filter((item) => {
       // Axis filter
       if (selectedAxis !== "all" && item.eje_num !== selectedAxis) {
@@ -101,9 +111,12 @@ export function InstrumentLibrary() {
         return false;
       }
       // Free search on sigla, nombre, constructo (and poblacion/description/use)
-      if (q) {
-        const searchable = `${item.sigla} ${item.nombre} ${item.constructo} ${item.poblacion} ${item.description ?? ""} ${item.use ?? ""}`.toLocaleLowerCase("es");
-        if (!searchable.includes(q)) {
+      if (queryWords.length > 0) {
+        const searchable = normalizeText(
+          `${item.sigla} ${item.nombre} ${item.constructo} ${item.poblacion} ${item.description ?? ""} ${item.use ?? ""}`
+        );
+        const matchesAllWords = queryWords.every((word) => searchable.includes(word));
+        if (!matchesAllWords) {
           return false;
         }
       }
