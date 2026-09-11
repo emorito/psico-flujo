@@ -21,14 +21,15 @@ CATALOGO_CSV = os.path.join(BASE_DIR, 'CATALOGO_MAESTRO.csv')
 VALID_PROTOCOLS = {'reconstruido_verificado', 'presente_fuente_local', 'presente_verificado'}
 EXCLUDED_7 = {'CAE', 'EAS', 'FMPS', 'PANAS', 'RS-14', 'TMMS-24', 'BEAQ'}
 
-EJE_MAP = {
-    'Eje I': 1,
-    'Eje II': 2,
-    'Eje III': 3,
-    'Eje IV': 4,
-    'Eje V': 5,
-    'Eje VI': 6,
-}
+
+def load_ejes():
+    ejes_path = os.path.join(REPO_DIR, 'data', 'ejes.json')
+    if not os.path.exists(ejes_path):
+        print(f'[ERROR CRÍTICO] Archivo de ejes no encontrado: {ejes_path}')
+        sys.exit(1)
+    with open(ejes_path, 'r', encoding='utf-8') as f:
+        ejes = json.load(f)
+    return {e['label']: e['num'] for e in ejes}
 
 EJE1_DESCRIPTIONS = {
   "assist": "Explora el consumo y el riesgo asociado a distintas sustancias psicoactivas.",
@@ -178,31 +179,45 @@ def main():
     else:
         print('Aviso: no se encontró poblacion_franjas.csv, se usará mapeo heurístico.')
     
-    # 2. Cargar mapeo aprobado de constructo -> tema
+    # 1. Cargar mapeo de ejes desde data/ejes.json
+    eje_map = load_ejes()
+    print(f'Mapeo de ejes cargado desde data/ejes.json: {len(eje_map)} ejes.')
+
+    # 2. Cargar mapeo aprobado de tema -> sinónimos
+    sinonimos_csv_path = os.path.join(data_dir, 'temas_sinonimos.csv')
+    if not os.path.exists(sinonimos_csv_path):
+        print(f'[ERROR CRÍTICO] Archivo de sinónimos no encontrado: {sinonimos_csv_path}')
+        sys.exit(1)
+    tema_to_sinonimos = {}
+    with open(sinonimos_csv_path, 'r', encoding='utf-8') as f:
+        for row in csv.DictReader(f):
+            t = row['tema'].strip()
+            s = row['sinonimos'].strip()
+            tema_to_sinonimos[t] = s
+    valid_themes = set(tema_to_sinonimos.keys())
+    print(f'Sinónimos cargados desde {sinonimos_csv_path}: {len(tema_to_sinonimos)} temas válidos.')
+
+    # 3. Cargar mapeo aprobado de constructo -> temas (principal y secundarios)
     temas_csv_path = os.path.join(data_dir, 'temas.csv')
     if not os.path.exists(temas_csv_path):
         print(f'[ERROR CRÍTICO] Archivo de temas no encontrado: {temas_csv_path}')
         sys.exit(1)
         
-    constructo_to_tema = {}
+    constructo_to_temas = {}
     with open(temas_csv_path, 'r', encoding='utf-8') as f:
         for row in csv.DictReader(f):
             c = row['constructo'].strip()
-            t = (row.get('tema') or row.get('tema_final') or '').strip()
-            if t:
-                constructo_to_tema[c] = t
-    print(f'Mapeo de temas cargado desde {temas_csv_path}: {len(constructo_to_tema)} constructos clasificados.')
-    
-    # 3. Cargar mapeo aprobado de tema -> sinónimos
-    sinonimos_csv_path = os.path.join(data_dir, 'temas_sinonimos.csv')
-    tema_to_sinonimos = {}
-    if os.path.exists(sinonimos_csv_path):
-        with open(sinonimos_csv_path, 'r', encoding='utf-8') as f:
-            for row in csv.DictReader(f):
-                t = row['tema'].strip()
-                s = row['sinonimos'].strip()
-                tema_to_sinonimos[t] = s
-        print(f'Sinónimos cargados desde {sinonimos_csv_path}: {len(tema_to_sinonimos)} temas con términos de búsqueda.')
+            t_principal = (row.get('tema') or row.get('tema_final') or '').strip()
+            sec_raw = (row.get('temas_secundarios') or '').strip()
+            sec_list = [x.strip() for x in sec_raw.split(';') if x.strip()]
+            
+            all_temas = [t_principal] + sec_list
+            for t_item in all_temas:
+                if t_item not in valid_themes:
+                    print(f"[ERROR COMPILACIÓN] El tema '{t_item}' (del constructo '{c}') no existe en temas_sinonimos.csv")
+                    sys.exit(1)
+            constructo_to_temas[c] = all_temas
+    print(f'Mapeo de temas cargado desde {temas_csv_path}: {len(constructo_to_temas)} constructos clasificados.')
     
     # 4. Cargar resumenes descriptivos
     resumenes_csv_path = os.path.join(data_dir, 'resumenes.csv')
@@ -217,7 +232,7 @@ def main():
     sin_tema = []
     for r in rows:
         c = r['constructo'].strip()
-        if c not in constructo_to_tema or not constructo_to_tema[c]:
+        if c not in constructo_to_temas or not constructo_to_temas[c]:
             sin_tema.append((r['sigla'].strip(), c))
     if sin_tema:
         print(f'[ERROR COMPILACIÓN] Hay {len(sin_tema)} familias cuyo constructo no tiene tema:')
@@ -238,7 +253,7 @@ def main():
     for r in rows:
         fid = r['family_id'].strip()
         eje_raw = r['eje'].strip()
-        eje_num = EJE_MAP.get(eje_raw, 1)
+        eje_num = eje_map.get(eje_raw, 1)
         sigla = r['sigla'].strip()
         nombre = r['nombre'].strip()
         constructo = r['constructo'].strip()
@@ -254,7 +269,7 @@ def main():
         else:
             franjas, _ = map_franjas(poblacion)
         
-        tema_asignado = constructo_to_tema[constructo]
+        temas_item = constructo_to_temas[constructo]
         resumen_texto = resumenes_map.get(fid, '')
         
         # Etiqueta de protocolo según T3 §2
@@ -311,8 +326,13 @@ def main():
             copied_protocolos += 1
             archivos.append('Protocolo.pdf')
             
-        sin_str = tema_to_sinonimos.get(tema_asignado, '')
-        sin_list = [x.strip() for x in sin_str.split(',') if x.strip()]
+        sin_list = []
+        for t in temas_item:
+            sin_str = tema_to_sinonimos.get(t, '')
+            for s in sin_str.split(','):
+                s_clean = s.strip()
+                if s_clean and s_clean not in sin_list:
+                    sin_list.append(s_clean)
         
         catalog_items.append({
             'family_id': fid,
@@ -321,7 +341,7 @@ def main():
             'sigla': sigla,
             'nombre': nombre,
             'constructo': constructo,
-            'temas': [tema_asignado],
+            'temas': temas_item,
             'sinonimos': sin_list,
             'resumen': resumen_texto,
             'poblacion': poblacion,

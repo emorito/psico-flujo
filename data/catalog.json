@@ -177,14 +177,26 @@
     "nombre": "Escalas de Depresión, Ansiedad y Estrés - 21",
     "constructo": "Depresión, ansiedad y estrés",
     "temas": [
-      "Depresión y estado de ánimo"
+      "Depresión y estado de ánimo",
+      "Ansiedad y fobia",
+      "Estrés y estrés percibido"
     ],
     "sinonimos": [
       "depresión mayor",
       "distimia",
       "afecto negativo",
       "anhedonia",
-      "ánimo bajo"
+      "ánimo bajo",
+      "TAG",
+      "fobia social",
+      "crisis de angustia",
+      "pánico",
+      "agorafobia",
+      "estrés",
+      "estrés percibido",
+      "tensión",
+      "sobrecarga",
+      "estrés crónico"
     ],
     "resumen": "Cuestionario de autoinforme · 21 ítems · Likert de 4 puntos · 3 dimensiones",
     "poblacion": "Adultos y adolescentes",
@@ -212,13 +224,24 @@
     "nombre": "Escala de Estrés Percibido",
     "constructo": "Estrés psicológico",
     "temas": [
-      "Trauma y estrés postraumático"
+      "Estrés y estrés percibido",
+      "Trauma y estrés postraumático",
+      "Afrontamiento y resiliencia"
     ],
     "sinonimos": [
+      "estrés",
+      "estrés percibido",
+      "tensión",
+      "sobrecarga",
+      "estrés crónico",
       "TEPT",
       "trauma complejo",
       "estrés agudo",
-      "disociación"
+      "disociación",
+      "coping",
+      "resiliencia",
+      "tolerancia a la frustración",
+      "adaptación"
     ],
     "resumen": "Cuestionario de autoinforme · 10 ítems · Likert de 5 puntos · 2 dimensiones",
     "poblacion": "Adolescentes y adultos",
@@ -246,13 +269,24 @@
     "nombre": "Inventario de Estrés Crónico de Trier",
     "constructo": "Estrés psicológico",
     "temas": [
-      "Trauma y estrés postraumático"
+      "Estrés y estrés percibido",
+      "Trauma y estrés postraumático",
+      "Afrontamiento y resiliencia"
     ],
     "sinonimos": [
+      "estrés",
+      "estrés percibido",
+      "tensión",
+      "sobrecarga",
+      "estrés crónico",
       "TEPT",
       "trauma complejo",
       "estrés agudo",
-      "disociación"
+      "disociación",
+      "coping",
+      "resiliencia",
+      "tolerancia a la frustración",
+      "adaptación"
     ],
     "resumen": "Cuestionario de autoinforme · 57 ítems · Likert de 5 puntos · 9 dimensiones",
     "poblacion": "Adultos",
@@ -5678,9 +5712,15 @@
     "nombre": "Escala de Estres Percibido (version de 14 items)",
     "constructo": "Estres psicologico percibido (incontrolabilidad, autoeficacia/afrontamiento)",
     "temas": [
+      "Estrés y estrés percibido",
       "Afrontamiento y resiliencia"
     ],
     "sinonimos": [
+      "estrés",
+      "estrés percibido",
+      "tensión",
+      "sobrecarga",
+      "estrés crónico",
       "coping",
       "resiliencia",
       "tolerancia a la frustración",
