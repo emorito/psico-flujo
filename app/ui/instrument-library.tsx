@@ -4,7 +4,9 @@ import { useMemo, useState } from "react";
 import {
   ChevronDown,
   Download,
+  ExternalLink,
   FileText,
+  HelpCircle,
   Info,
   Layers,
   Lock,
@@ -24,10 +26,14 @@ export interface CatalogItem {
   constructo: string;
   temas?: string[];
   sinonimos?: string[];
+  resumen?: string;
   poblacion: string;
   franjas: string[];
   acceso: string;
   descargable: boolean;
+  protocolo_estado?: string;
+  protocolo_etiqueta?: string;
+  fuente_url?: string;
   archivos: string[];
   description?: string;
   use?: string;
@@ -376,6 +382,20 @@ export function InstrumentLibrary() {
         </div>
       </div>
 
+      {/* Bloque desplegable: Aviso sobre protocolos no disponibles */}
+      <details className="protocols-notice-box">
+        <summary className="protocols-notice-summary">
+          <HelpCircle size={15} />
+          <span>¿Por qué algunos instrumentos no tienen protocolo descargable?</span>
+          <ChevronDown size={14} className="notice-chevron" />
+        </summary>
+        <div className="protocols-notice-body">
+          <p>
+            Algunos instrumentos tienen derechos de autor o se distribuyen bajo licencia de sus autores o editoriales; otros requieren registro ante su titular, y en otros casos todavía estamos verificando la fuente o las condiciones de uso. En esos casos publicamos solo la ficha técnica, con la referencia para obtener el instrumento por la vía oficial.
+          </p>
+        </div>
+      </details>
+
       {/* Listado de instrumentos agrupados por Eje */}
       {filtered.length ? (
         <div className="instrument-groups">
@@ -415,6 +435,11 @@ export function InstrumentLibrary() {
                         <span className="code-badge">{item.sigla}</span>
                         <span className="instrument-copy">
                           <strong>{item.nombre}</strong>
+                          {item.resumen && (
+                            <span className="row-resumen" title={item.resumen}>
+                              {item.resumen}
+                            </span>
+                          )}
                           <small>
                             {item.constructo}
                             {itemTheme && (
@@ -540,7 +565,7 @@ export function InstrumentLibrary() {
                               <Download size={16} />
                             </a>
 
-                            {/* Protocolo (si descargable) o Etiqueta Protocolo no publicable */}
+                            {/* Protocolo (si descargable) o Etiqueta Protocolo según condición */}
                             {item.descargable ? (
                               <a
                                 href={`/instrumentos/eje-${item.eje_num}/${item.family_id}/Protocolo.pdf`}
@@ -564,11 +589,22 @@ export function InstrumentLibrary() {
                                 </span>
                                 <div>
                                   <strong className="badge-no-protocol">
-                                    Protocolo no publicable
+                                    {item.protocolo_etiqueta || "Protocolo no disponible"}
                                   </strong>
                                   <small>
                                     Acceso restringido por licencia o verificación pendiente
                                   </small>
+                                  {item.fuente_url && (
+                                    <a
+                                      href={item.fuente_url}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="official-source-link"
+                                    >
+                                      <span>Fuente oficial</span>
+                                      <ExternalLink size={10} />
+                                    </a>
+                                  )}
                                 </div>
                               </div>
                             )}
@@ -582,6 +618,7 @@ export function InstrumentLibrary() {
             </section>
           ))}
         </div>
+
       ) : (
         <div className="empty-state">
           <Search size={26} />

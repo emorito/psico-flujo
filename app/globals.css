@@ -448,6 +448,83 @@ footer p, footer > span { color: rgba(255,255,255,.45); font-size: 9px; }
   letter-spacing: .4px;
 }
 
+/* Resumen descriptivo en fila de instrumento (v1.2) */
+.row-resumen {
+  display: block;
+  font-size: 9px;
+  color: #5c5c70;
+  margin: 3px 0 2px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.35;
+}
+
+/* Bloque desplegable de aviso de protocolos no disponibles (v1.2) */
+.protocols-notice-box {
+  margin: 18px 0 24px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: border-color .15s;
+}
+.protocols-notice-box:hover {
+  border-color: #cac7f2;
+}
+.protocols-notice-summary {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 18px;
+  font-size: 10px;
+  font-weight: 650;
+  color: #4b4b5d;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+.protocols-notice-summary::-webkit-details-marker {
+  display: none;
+}
+.protocols-notice-summary svg:first-child {
+  color: var(--indigo);
+  flex-shrink: 0;
+}
+.notice-chevron {
+  margin-left: auto;
+  color: #9292a2;
+  transition: transform .2s ease;
+}
+.protocols-notice-box[open] .notice-chevron {
+  transform: rotate(180deg);
+}
+.protocols-notice-body {
+  padding: 0 18px 14px 42px;
+  border-top: 1px solid #f0f0f8;
+}
+.protocols-notice-body p {
+  margin: 10px 0 0;
+  font-size: 9.5px;
+  line-height: 1.6;
+  color: #68687a;
+}
+.official-source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 8px;
+  font-weight: 700;
+  color: var(--indigo);
+  margin-top: 5px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.official-source-link:hover {
+  color: var(--indigo-dark);
+}
+
 @media (max-width: 980px) {
   .hero-stats { grid-template-columns: repeat(3, 120px) 1fr; }
   .section-intro { grid-template-columns: 1fr; gap: 20px; }
@@ -481,6 +558,7 @@ footer p, footer > span { color: rgba(255,255,255,.45); font-size: 9px; }
   .instrument-main { min-height: 75px; grid-template-columns: 60px 1fr 30px; gap: 10px; padding: 10px 12px; }
   .row-number, .row-eje, .row-poblacion, .row-files { display: none; }
   .instrument-copy small { max-width: 62vw; }
+  .row-resumen { max-width: 62vw; }
   .instrument-detail { grid-template-columns: 1fr; padding: 0 12px 18px; gap: 14px; }
   .detail-context { border-left: 2px solid #c5c1ff; padding: 6px 0 6px 12px; }
   .file-list { grid-template-columns: 1fr; }

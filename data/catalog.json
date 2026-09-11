@@ -16,6 +16,7 @@
       "pánico",
       "agorafobia"
     ],
+    "resumen": "Cuestionario de autoinforme · 40 ítems · Likert de 4 puntos · 2 dimensiones",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -23,6 +24,9 @@
     ],
     "acceso": "No (Sujeto a copyright, TEA Ediciones en España/Latam). Existen versiones de investigación.",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -46,6 +50,7 @@
       "pánico",
       "agorafobia"
     ],
+    "resumen": "Cuestionario de autoinforme · 21 ítems · Likert de 4 puntos · Unidimensional",
     "poblacion": "Adultos y adolescentes (>13 años)",
     "franjas": [
       "adolescentes",
@@ -53,6 +58,9 @@
     ],
     "acceso": "No (Copyright de Pearson). Usado ampliamente en investigación con permisos.",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -76,6 +84,7 @@
       "pánico",
       "agorafobia"
     ],
+    "resumen": "Cuestionario de autoinforme · 7 ítems · Likert de 4 puntos · Unidimensional",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -83,6 +92,9 @@
     ],
     "acceso": "Sí (Dominio público)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://www.phqscreeners.com/",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -107,6 +119,7 @@
       "pánico",
       "agorafobia"
     ],
+    "resumen": "Cuestionario de autoinforme · 22 respuestas ante 22 situaciones · Likert de 5 puntos · Triple sistema de respuesta y",
     "poblacion": "Adolescentes (>16 años) y adultos",
     "franjas": [
       "adolescentes",
@@ -114,6 +127,9 @@
     ],
     "acceso": "No (TEA Ediciones)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -137,12 +153,16 @@
       "pánico",
       "agorafobia"
     ],
+    "resumen": "Cuestionario de autoinforme · 14 ítems · Likert de 4 puntos · 2 dimensiones",
     "poblacion": "Adultos (originalmente en contexto hospitalario/médico, luego general)",
     "franjas": [
       "adultos"
     ],
     "acceso": "No estricto (tiene copyright de GL Assessment), pero ampliamente reproducido en literatura de acceso abierto para fines de investigación y uso clínico sin fines de lucro.",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -166,6 +186,7 @@
       "anhedonia",
       "ánimo bajo"
     ],
+    "resumen": "Cuestionario de autoinforme · 21 ítems · Likert de 4 puntos · 3 dimensiones",
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -173,6 +194,9 @@
     ],
     "acceso": "Sí (Dominio público, disponible en la web de la Universidad de New South Wales)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "http://www2.psy.unsw.edu.au/dass/",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -196,6 +220,7 @@
       "estrés agudo",
       "disociación"
     ],
+    "resumen": "Cuestionario de autoinforme · 10 ítems · Likert de 5 puntos · 2 dimensiones",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -203,6 +228,9 @@
     ],
     "acceso": "Sí (Dominio público para fines académicos y no comerciales)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/index.html",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -226,12 +254,16 @@
       "estrés agudo",
       "disociación"
     ],
+    "resumen": "Cuestionario de autoinforme · 57 ítems · Likert de 5 puntos · 9 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "No (Hogrefe)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -254,12 +286,16 @@
       "estrés agudo",
       "disociación"
     ],
+    "resumen": "Autoinforme · 20 ítems · Escala de 5 puntos · 5-10 min · Papel y lápiz o digital",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (Dominio público gubernamental de EE.UU. a través del National Center for PTSD)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -283,12 +319,16 @@
       "estrés agudo",
       "disociación"
     ],
+    "resumen": "Entrevista estructurada clínica · 30 ítems · Entrevista. El clínico puntúa cada · 4 dimensiones · 45–60 min · Entrevista clínica estructurad",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (Requiere registro y credenciales clínicas para descarga en el NCPTSD)",
     "descargable": false,
+    "protocolo_estado": "restringido_registro",
+    "protocolo_etiqueta": "Protocolo disponible con registro ante su titular",
+    "fuente_url": "https://www.ptsd.va.gov/",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -311,12 +351,16 @@
       "estrés agudo",
       "disociación"
     ],
+    "resumen": "Cuestionario de autoinforme · 22 ítems · Likert de 5 puntos · 3 dimensiones · 5 min · Autoadministrado, aproximadame",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -340,12 +384,16 @@
       "estrés agudo",
       "disociación"
     ],
+    "resumen": "Cuestionario de autoinforme · 17 ítems · Likert de 5 puntos · 3 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "No (Copyright MHS Assessments)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -369,6 +417,7 @@
       "anhedonia",
       "ánimo bajo"
     ],
+    "resumen": "Cuestionario de autoinforme · 21 ítems · Likert de 4 puntos · 2 dimensiones",
     "poblacion": "Adolescentes (>13 años) y adultos",
     "franjas": [
       "adolescentes",
@@ -376,6 +425,9 @@
     ],
     "acceso": "No (Copyright Pearson)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -399,6 +451,7 @@
       "anhedonia",
       "ánimo bajo"
     ],
+    "resumen": "Cuestionario de autoinforme · 9 ítems · Likert de 4 puntos · Unidimensional",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -406,6 +459,9 @@
     ],
     "acceso": "Sí (Dominio público)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://www.phqscreeners.com/",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -430,6 +486,7 @@
       "anhedonia",
       "ánimo bajo"
     ],
+    "resumen": "Cuestionario de autoinforme · 20 ítems · Likert de 4 puntos · 4 dimensiones",
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -437,6 +494,9 @@
     ],
     "acceso": "Sí (Dominio público)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -461,12 +521,16 @@
       "anhedonia",
       "ánimo bajo"
     ],
+    "resumen": "Cuestionario de autoinforme · 14 ítems · Likert de 4 puntos · Unidimensional",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -491,12 +555,16 @@
       "anhedonia",
       "ánimo bajo"
     ],
+    "resumen": "Entrevista heteroaplicada · 17 ítems · Evaluación clínica escalada. · Generalmente unidimensional · Entrevista clínica heteroaplic",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (Dominio público la versión original de 17 ítems)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -521,6 +589,7 @@
       "contaminación",
       "rituales"
     ],
+    "resumen": "Heteroaplicada — clínico · 10 ítems · Escala de 5 puntos · Entrevista clínica estructurad",
     "poblacion": "Adultos (existe versión infantil: CY-BOCS)",
     "franjas": [
       "niños",
@@ -528,6 +597,9 @@
     ],
     "acceso": "Sí (Dominio público para uso no comercial)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -552,12 +624,16 @@
       "contaminación",
       "rituales"
     ],
+    "resumen": "Cuestionario de autoinforme · 18 ítems · Likert de 5 puntos · 6 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (en anexos de publicaciones originales)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -582,12 +658,16 @@
       "contaminación",
       "rituales"
     ],
+    "resumen": "Cuestionario de autoinforme · 39 ítems · Likert de 5 puntos · 5 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "No (Depende de derechos de la publicación original, uso de investigación permitido).",
     "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -611,12 +691,16 @@
       "contaminación",
       "rituales"
     ],
+    "resumen": "Cuestionario de autoinforme · 20 ítems · Likert de 5 puntos · 4 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (Disponible por los autores)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://www.jabramowitz.com/",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -640,12 +724,16 @@
       "fibromialgia",
       "dolor crónico"
     ],
+    "resumen": "Cuestionario de autoinforme · 15 ítems · Likert de 3 puntos · Unidimensional",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (Dominio público)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://www.phqscreeners.com/",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -669,12 +757,16 @@
       "fibromialgia",
       "dolor crónico"
     ],
+    "resumen": "Cuestionario de autoinforme · 14 ítems · Dicotómica (Sí/No) · 3 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí — adaptación española de 14 ítems (Pilowsky 1967 / Avia 1993), verificada contra 2 fuentes clínicas independientes coincidentes.",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -698,12 +790,16 @@
       "fibromialgia",
       "dolor crónico"
     ],
+    "resumen": "Cuestionario de autoinforme · 18 ítems · Selección múltiple progresiva · 2 dimensiones · No promover como protocolo SHA",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (Uso académico)",
     "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -726,6 +822,7 @@
       "fibromialgia",
       "dolor crónico"
     ],
+    "resumen": "Cuestionario de autoinforme · 12 ítems · Likert de 5 puntos · 9 dimensiones",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -733,6 +830,9 @@
     ],
     "acceso": "No (Pearson)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -758,6 +858,7 @@
       "conducta agresiva",
       "conducta inadecuada"
     ],
+    "resumen": "Autoinforme · 30 ítems · Escala de 4 puntos · 10-30 min · Papel y lápiz o entrevista est",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -765,6 +866,9 @@
     ],
     "acceso": "Sí (Uso de investigación)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -791,6 +895,7 @@
       "conducta agresiva",
       "conducta inadecuada"
     ],
+    "resumen": "Cuestionario de autoinforme · 20 ítems · Likert de 4 puntos · 5 dimensiones",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -798,6 +903,9 @@
     ],
     "acceso": "Sí (Dominio público, UPPS website)",
     "descargable": false,
+    "protocolo_estado": "revisar",
+    "protocolo_etiqueta": "Protocolo en verificación",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -823,12 +931,16 @@
       "conducta agresiva",
       "conducta inadecuada"
     ],
+    "resumen": "Cuestionario de autoinforme · 23 ítems · Dicotómica (Sí/No) · 2 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (Revistas científicas)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -852,6 +964,7 @@
       "agresión física",
       "conducta violenta"
     ],
+    "resumen": "Cuestionario de autoinforme · 29 ítems · Likert de 5 puntos · 4 dimensiones",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -859,6 +972,9 @@
     ],
     "acceso": "Sí (Uso académico libre)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -882,6 +998,7 @@
       "agresión física",
       "conducta violenta"
     ],
+    "resumen": "Cuestionario de autoinforme · 49 ítems · Likert de 4 puntos · 3 dimensiones",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -889,6 +1006,9 @@
     ],
     "acceso": "No (Copyright PAR / TEA Ediciones)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -911,6 +1031,7 @@
       "agresión física",
       "conducta violenta"
     ],
+    "resumen": "Cuestionario de autoinforme · 23 ítems · Likert de 3 puntos · 2 dimensiones",
     "poblacion": "Niños, adolescentes y jóvenes adultos",
     "franjas": [
       "niños",
@@ -919,6 +1040,9 @@
     ],
     "acceso": "Sí (Uso investigativo)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -942,12 +1066,16 @@
       "agresión física",
       "conducta violenta"
     ],
+    "resumen": "Entrevista semiestructurada y · 20 ítems · Escala de 3 puntos · 2 dimensiones",
     "poblacion": "Adultos (contexto clínico y forense)",
     "franjas": [
       "adultos"
     ],
     "acceso": "No (Multi-Health Systems / TEA Ediciones)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -970,12 +1098,16 @@
       "agresión física",
       "conducta violenta"
     ],
+    "resumen": "Cuestionario de autoinforme · 64 ítems · Likert de 5 puntos · 4 dimensiones",
     "poblacion": "Adultos (general y clínica no reclusa)",
     "franjas": [
       "adultos"
     ],
     "acceso": "No (MHS)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -998,12 +1130,16 @@
       "agresión física",
       "conducta violenta"
     ],
+    "resumen": "Entrevista clínica estructurada · Evaluación de los 7 criterios A del DSM-5, más criterios B y C · Valoración clínica de criterios · 1 constructo",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "No (Copyright APA)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -1029,6 +1165,7 @@
       "conducta agresiva",
       "conducta inadecuada"
     ],
+    "resumen": "Cuestionario heteroaplicado · 35 ítems · Likert de 3 puntos · 2 dimensiones",
     "poblacion": "Niños y adolescentes (1.5-5 años y 6-18 años)",
     "franjas": [
       "niños",
@@ -1036,6 +1173,9 @@
     ],
     "acceso": "No (Achenbach System of Empirically Based Assessment - ASEBA)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -1061,6 +1201,7 @@
       "conducta agresiva",
       "conducta inadecuada"
     ],
+    "resumen": "Cuestionario autoinforme y · 25 ítems · Likert de 3 puntos · 5 dimensiones · Informante adulto",
     "poblacion": "Niños y adolescentes (3-16 años)",
     "franjas": [
       "niños",
@@ -1068,6 +1209,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://www.sdqinfo.org/",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1094,6 +1238,7 @@
       "conducta agresiva",
       "conducta inadecuada"
     ],
+    "resumen": "Cuestionario heteroaplicado · 45 ítems · Likert de 4 puntos · 3 constructos DSM · Informante adulto",
     "poblacion": "Niños y adolescentes",
     "franjas": [
       "niños",
@@ -1101,6 +1246,9 @@
     ],
     "acceso": "Sí (Dominio público)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1125,12 +1273,16 @@
       "dependencia",
       "adicción"
     ],
+    "resumen": "Cuestionario · 8 ítems · Escala Likert sobre frecuencia de · Evalúa cada tipo de sustancia · Entrevista estructurada",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (Dominio público, OMS)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://www.who.int/publications/i/item/9789241599382",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1155,6 +1307,7 @@
       "dependencia",
       "adicción"
     ],
+    "resumen": "Cuestionario de autoinforme · 10 ítems · Escala Likert de · 3 dimensiones",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -1162,6 +1315,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://www.who.int/publications/i/item/WHO-MSD-MSB-01.6a",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1186,12 +1342,16 @@
       "dependencia",
       "adicción"
     ],
+    "resumen": "Cuestionario de autoinforme · 10 ítems · Dicotómica (Sí/No) · Unidimensional · Autoinforme/entrevista breve",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1215,6 +1375,7 @@
       "uso de internet",
       "apuestas"
     ],
+    "resumen": "Cuestionario de autoinforme · 20 ítems · Likert de 5 puntos · 6 dimensiones",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -1222,6 +1383,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1245,12 +1409,16 @@
       "uso de internet",
       "apuestas"
     ],
+    "resumen": "Cuestionario de autoinforme · 20 ítems · Dicotómica (Sí/No) · Unidimensional · Autoinforme/entrevista breve",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -1273,12 +1441,16 @@
       "delirio",
       "alucinación"
     ],
+    "resumen": "Cuestionario de autoinforme · 21 ítems · Likert de 5 puntos · 3 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1302,6 +1474,7 @@
       "delirio",
       "alucinación"
     ],
+    "resumen": "Cuestionario de autoinforme · 42 ítems · Escala Likert doble: evalúa · 3 dimensiones",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -1309,6 +1482,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1332,12 +1508,16 @@
       "delirio",
       "alucinación"
     ],
+    "resumen": "Entrevista clínica estructurada · 30 ítems · Likert de 7 puntos · 3 dimensiones · Entrevista y observación clíni",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "No (MHS)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -1360,6 +1540,7 @@
       "NSSI",
       "autolesiones"
     ],
+    "resumen": "Entrevista estructurada clínica o · 10 ítems · Dicotómica (Sí/No) · 2 áreas primarias · Entrevista estructurada por pe",
     "poblacion": "Todas las edades",
     "franjas": [
       "niños",
@@ -1369,6 +1550,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://cssrs.columbia.edu/",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1392,6 +1576,7 @@
       "NSSI",
       "autolesiones"
     ],
+    "resumen": "21 ítems · Likert de 3 puntos · Unidimensional",
     "poblacion": "",
     "franjas": [
       "adolescentes",
@@ -1400,6 +1585,9 @@
     ],
     "acceso": "No (Pearson)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -1422,6 +1610,7 @@
       "NSSI",
       "autolesiones"
     ],
+    "resumen": "Autoinforme · Sección I: 7 preguntas sobre historia y características de la autolesión. Sección II: 39 afirmaciones sobre funciones · Escala de 3 puntos · Papel y lápiz o digital",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -1429,6 +1618,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1452,12 +1644,16 @@
       "agresión física",
       "conducta violenta"
     ],
+    "resumen": "Protocolo de juicio clínico · 20 ítems · Calificación forense de riesgo · 3 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "No (Requiere manual)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -1480,6 +1676,7 @@
       "estrés agudo",
       "disociación"
     ],
+    "resumen": "Cuestionario · 34 ítems · Dicotómica (Sí/No) · 5 dimensiones · Entrevista estructurada/autoin",
     "poblacion": "Niños y adolescentes",
     "franjas": [
       "niños",
@@ -1487,6 +1684,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://www.unh.edu/ccrc/",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1510,6 +1710,7 @@
       "rumiación",
       "preocupación"
     ],
+    "resumen": "Cuestionario de autoinforme · 22 ítems · Likert de 4 puntos · 2 dimensiones",
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -1517,6 +1718,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1541,12 +1745,16 @@
       "pánico",
       "agorafobia"
     ],
+    "resumen": "Cuestionario de autoinforme · 16 ítems · Likert de 5 puntos · Unidimensional · No promover hasta reemplazar p",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1571,12 +1779,16 @@
       "pánico",
       "agorafobia"
     ],
+    "resumen": "Cuestionario de autoinforme · 12 ítems · Likert de 5 puntos · 2 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1602,12 +1814,16 @@
       "percepción positiva",
       "mindfulness"
     ],
+    "resumen": "Cuestionario de autoinforme · 7 ítems · Likert de 7 puntos · Unidimensional",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://contextualscience.org/aaqii_spanish",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1633,12 +1849,16 @@
       "percepción positiva",
       "mindfulness"
     ],
+    "resumen": "Cuestionario de autoinforme · 20 ítems · Likert de 7 puntos · 2 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1664,12 +1884,16 @@
       "percepción positiva",
       "mindfulness"
     ],
+    "resumen": "7 ítems · Likert de 7 puntos",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1693,12 +1917,16 @@
       "rumiación",
       "preocupación"
     ],
+    "resumen": "Cuestionario de autoinforme · 30 ítems · Likert de 4 puntos · 5 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1722,12 +1950,16 @@
       "rumiación",
       "preocupación"
     ],
+    "resumen": "Cuestionario de autoinforme · 90 ítems · Likert de 6 puntos · 5 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (Versión de investigación)",
     "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
+    "fuente_url": "https://www.schematherapy.com/",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -1752,6 +1984,7 @@
       "control emocional",
       "regulación afectiva"
     ],
+    "resumen": "Cuestionario de autoinforme · 37 ítems · Likert de 5 puntos · 6 dimensiones · No promover como DERS validada",
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -1759,6 +1992,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1784,6 +2020,7 @@
       "control emocional",
       "regulación afectiva"
     ],
+    "resumen": "Cuestionario de autoinforme · 36 ítems · Likert de 5 puntos · 9 estrategias cognitivas",
     "poblacion": "Adultos, adolescentes y niños",
     "franjas": [
       "niños",
@@ -1792,6 +2029,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://www.cerq.leidenuniv.nl/",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1817,12 +2057,16 @@
       "control emocional",
       "regulación afectiva"
     ],
+    "resumen": "Prueba de ejecución/rendimiento · 20 escenarios cortos interpersonales · Respuesta abierta · Unidimensional",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (Manual disponible para investigación)",
     "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -1847,12 +2091,16 @@
       "control emocional",
       "regulación afectiva"
     ],
+    "resumen": "Cuestionario de autoinforme · 20 ítems · Likert de 5 puntos · 3 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -1877,12 +2125,16 @@
       "percepción positiva",
       "mindfulness"
     ],
+    "resumen": "Cuestionario de autoinforme · 62 ítems · Likert de 6 puntos · 6 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -1906,12 +2158,16 @@
       "anhedonia",
       "ánimo bajo"
     ],
+    "resumen": "Cuestionario de autoinforme · 25 ítems · Likert de 7 puntos · 4 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1936,12 +2192,16 @@
       "anhedonia",
       "ánimo bajo"
     ],
+    "resumen": "Cuestionario de autoinforme · 10 ítems · Likert de 4 puntos · Unidimensional",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1965,12 +2225,16 @@
       "tolerancia a la frustración",
       "adaptación"
     ],
+    "resumen": "Cuestionario de autoinforme · 24 ítems · Likert de 4 puntos · 14 estrategias · Autoinforme referido a una sit",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -1997,12 +2261,16 @@
       "conducta agresiva",
       "conducta inadecuada"
     ],
+    "resumen": "Cuestionario de autoinforme · 24 ítems · Likert de 4 puntos · 3 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2026,12 +2294,16 @@
       "dependencia emocional",
       "asertividad"
     ],
+    "resumen": "Cuestionario de autoinforme · 36 ítems · Likert de 7 puntos · 2 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2055,12 +2327,16 @@
       "dependencia emocional",
       "asertividad"
     ],
+    "resumen": "Cuestionario de autoinforme · 48 ítems · Likert de 4 puntos · 3 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -2083,12 +2359,16 @@
       "dependencia emocional",
       "asertividad"
     ],
+    "resumen": "Cuestionario de autoinforme · 27 ítems · Likert de 6 puntos · Unidimensional · No cotejable para RSQ-sensibil",
     "poblacion": "Adultos y universitarios",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -2111,12 +2391,16 @@
       "dependencia emocional",
       "asertividad"
     ],
+    "resumen": "Cuestionario de autoinforme · 32 ítems · Likert de 5 puntos · 8 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -2139,6 +2423,7 @@
       "dependencia emocional",
       "asertividad"
     ],
+    "resumen": "Cuestionario de autoinforme · 30 ítems · Likert de 6 puntos · Unidimensional",
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -2146,6 +2431,9 @@
     ],
     "acceso": "Sí",
     "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -2167,6 +2455,7 @@
       "funcionamiento familiar",
       "dinámica de pareja"
     ],
+    "resumen": "Cuestionario de autoinforme · 20 ítems · Likert de 4 puntos · Unidimensional",
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -2174,6 +2463,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2196,6 +2488,7 @@
       "funcionamiento familiar",
       "dinámica de pareja"
     ],
+    "resumen": "Cuestionario de autoinforme / · 11 ítems · Escala ordinal de 3 puntos, · 2 dimensiones · 5 min · Individual",
     "poblacion": "Adultos (especialmente mayores)",
     "franjas": [
       "adultos",
@@ -2203,6 +2496,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2227,12 +2523,16 @@
       "personalidad antisocial",
       "personalidad borderline"
     ],
+    "resumen": "Cuestionario de autoinforme · 240 ítems · Likert de 5 puntos · 5 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "No (Licencia comercial)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -2256,6 +2556,7 @@
       "personalidad antisocial",
       "personalidad borderline"
     ],
+    "resumen": "Autoinforme · 60 ítems · Likert de 5 puntos · Papel y lápiz o digital",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -2263,6 +2564,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2287,12 +2591,16 @@
       "personalidad antisocial",
       "personalidad borderline"
     ],
+    "resumen": "Cuestionario de autoinforme y · 60 ítems · Likert de 5 puntos · 6 dimensiones",
     "poblacion": "Adultos y universitarios",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (para uso no comercial e investigación)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "http://hexaco.org/",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2317,12 +2625,16 @@
       "personalidad antisocial",
       "personalidad borderline"
     ],
+    "resumen": "Cuestionario de autoinforme · 240 ítems · Likert de 5 puntos · 4 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Uso bajo licencia/permiso",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -2346,6 +2658,7 @@
       "tríada oscura",
       "desapego"
     ],
+    "resumen": "Cuestionario de autoinforme y · 220 ítems · Likert de 4 puntos · 5 dimensiones",
     "poblacion": "Adultos (existe versión PID-5-IRF para adolescentes)",
     "franjas": [
       "adolescentes",
@@ -2353,6 +2666,9 @@
     ],
     "acceso": "Sí (Disponible por la APA para uso clínico e investigación)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2377,12 +2693,16 @@
       "tríada oscura",
       "desapego"
     ],
+    "resumen": "Cuestionario de autoinforme · 27 ítems · Likert de 5 puntos · 3 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2407,12 +2727,16 @@
       "tríada oscura",
       "desapego"
     ],
+    "resumen": "Cuestionario de autoinforme · 28 ítems · Likert de 5 puntos · 4 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2437,12 +2761,16 @@
       "tríada oscura",
       "desapego"
     ],
+    "resumen": "Autoinforme · 12 ítems · Likert de 6 puntos · 5 min · Papel y lápiz o digital, autoa",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2465,6 +2793,7 @@
       "autoeficacia",
       "autoimagen"
     ],
+    "resumen": "Cuestionario de autoinforme · 10 ítems · Likert de 4 puntos · Unidimensional",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -2472,6 +2801,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2494,6 +2826,7 @@
       "autoeficacia",
       "autoimagen"
     ],
+    "resumen": "Cuestionario de autoinforme · 30 ítems · Escala de 1 a 99. En algunas · 5 dimensiones",
     "poblacion": "Niños, adolescentes y adultos",
     "franjas": [
       "niños",
@@ -2502,6 +2835,9 @@
     ],
     "acceso": "No (TEA Ediciones)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -2523,6 +2859,7 @@
       "autoeficacia",
       "autoimagen"
     ],
+    "resumen": "Cuestionario de autoinforme · 10 ítems · Likert de 4 puntos · Unidimensional",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -2530,6 +2867,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2556,12 +2896,16 @@
       "identidad de género",
       "valores éticos"
     ],
+    "resumen": "Cuestionario de autoinforme · 12 ítems · Likert de 5 puntos · Unidimensional",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -2587,6 +2931,7 @@
       "identidad de género",
       "valores éticos"
     ],
+    "resumen": "Cuestionario de autoinforme · 64 ítems · Likert de 6 puntos · 2 dimensiones",
     "poblacion": "Adolescentes y adultos jóvenes",
     "franjas": [
       "adolescentes",
@@ -2594,6 +2939,9 @@
     ],
     "acceso": "Sí",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -2619,6 +2967,7 @@
       "identidad de género",
       "valores éticos"
     ],
+    "resumen": "Cuestionario de autoinforme · 40 ítems · Likert de 6 puntos · 10 valores universales básicos",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -2626,6 +2975,9 @@
     ],
     "acceso": "Sí (Para investigación)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2649,12 +3001,16 @@
       "satisfacción vital",
       "afecto positivo"
     ],
+    "resumen": "Cuestionario de autoinforme · 10 ítems · Likert de 7 puntos · 2 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "http://www.michaelfsteger.com/",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2681,6 +3037,7 @@
       "identidad de género",
       "valores éticos"
     ],
+    "resumen": "Cuestionario de autoinforme · 45 ítems · Likert de 7 puntos · Habitualmente 5 o 6",
     "poblacion": "Todas las edades",
     "franjas": [
       "niños",
@@ -2690,6 +3047,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://selfdeterminationtheory.org/intrinsic-motivation-inventory/",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2716,6 +3076,7 @@
       "identidad de género",
       "valores éticos"
     ],
+    "resumen": "Cuestionario de autoinforme · 12 ítems · Likert de 5 puntos · 4 metas",
     "poblacion": "",
     "franjas": [
       "adolescentes",
@@ -2724,6 +3085,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2747,12 +3111,16 @@
       "estrés agudo",
       "disociación"
     ],
+    "resumen": "Cuestionario de autoinforme · Dicotómica (Sí/No) · 3 dimensiones · Entrevista/autoinforme asistid",
     "poblacion": "Adultos (retrospectivo)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2776,6 +3144,7 @@
       "estrés agudo",
       "disociación"
     ],
+    "resumen": "Cuestionario de autoinforme · 28 ítems · Likert de 5 puntos · 5 dimensiones",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -2783,6 +3152,9 @@
     ],
     "acceso": "No (NCS Pearson)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -2808,12 +3180,16 @@
       "identidad de género",
       "valores éticos"
     ],
+    "resumen": "Autoinforme · 12 ítems · Según el archivo fuente · Papel y lápiz o digital, autoa",
     "poblacion": "Adolescentes y jóvenes",
     "franjas": [
       "adolescentes"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2840,12 +3216,16 @@
       "identidad de género",
       "valores éticos"
     ],
+    "resumen": "Cuestionario de autoinforme · 20 ítems · Likert de 9 puntos · 2 dimensiones",
     "poblacion": "Migrantes y minorías étnicas",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -2867,12 +3247,16 @@
       "funcionamiento familiar",
       "dinámica de pareja"
     ],
+    "resumen": "Cuestionario de autoinforme · 29 ítems · Likert de 4 puntos · 5 dimensiones",
     "poblacion": "Pacientes con trastornos psiquiátricos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2895,12 +3279,16 @@
       "funcionamiento familiar",
       "dinámica de pareja"
     ],
+    "resumen": "Cuestionario de autoinforme · 9 ítems · Escala Likert de frecuencia · Unidimensional",
     "poblacion": "Adultos y minorías",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2926,12 +3314,16 @@
       "adaptabilidad",
       "autonomía"
     ],
+    "resumen": "Cuestionario de autoinforme o · 36 ítems · Likert de 5 puntos · 6 dimensiones",
     "poblacion": "Adultos (≥18 años)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2957,12 +3349,16 @@
       "adaptabilidad",
       "autonomía"
     ],
+    "resumen": "Escala heteroadministrada o por · 10 ítems · Puntuaciones ponderadas por ítem · Unidimensional",
     "poblacion": "Pacientes geriátricos o con afectación neurológica",
     "franjas": [
       "mayores"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -2988,12 +3384,16 @@
       "adaptabilidad",
       "autonomía"
     ],
+    "resumen": "Cuestionario heteroadministrada o · 8 ítems · Escala tricotómica adaptado · Unidimensional",
     "poblacion": "Mayores y pacientes cognitivos",
     "franjas": [
       "mayores"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3019,6 +3419,7 @@
       "rendimiento cognitivo",
       "rendimiento intelectual"
     ],
+    "resumen": "Cuestionario de autoinforme · 56 ítems · Dicotómica (Sí/No) · 7 dimensiones",
     "poblacion": "Estudiantes (Primaria a Secundaria)",
     "franjas": [
       "niños",
@@ -3026,6 +3427,9 @@
     ],
     "acceso": "No",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -3050,6 +3454,7 @@
       "rendimiento cognitivo",
       "rendimiento intelectual"
     ],
+    "resumen": "Cuestionario multimétodo · Variable según versión · Likert de 4 puntos · Varias escalas adaptativas",
     "poblacion": "3 a 18 años",
     "franjas": [
       "niños",
@@ -3057,6 +3462,9 @@
     ],
     "acceso": "No (Pearson)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -3078,12 +3486,16 @@
       "engagement",
       "estrés laboral"
     ],
+    "resumen": "Cuestionario de autoinforme · 22 ítems · Likert de 7 puntos · 3 dimensiones",
     "poblacion": "Trabajadores",
     "franjas": [
       "adultos"
     ],
     "acceso": "No (Licencia Mind Garden), aunque a menudo usado libremente en investigación con versiones reducidas.",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -3105,12 +3517,16 @@
       "engagement",
       "estrés laboral"
     ],
+    "resumen": "Cuestionario de autoinforme · 17 ítems · Likert de 7 puntos · 3 dimensiones",
     "poblacion": "Trabajadores",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3133,12 +3549,16 @@
       "funcionamiento familiar",
       "dinámica de pareja"
     ],
+    "resumen": "Cuestionario de autoinforme · 19 ítems · Likert de 5 puntos · 4 dimensiones",
     "poblacion": "Adultos (frecuente en pacientes crónicos)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3161,6 +3581,7 @@
       "funcionamiento familiar",
       "dinámica de pareja"
     ],
+    "resumen": "Cuestionario de autoinforme · 42 ítems · Likert de 5 puntos · 6 dimensiones",
     "poblacion": "Familias (padres, adolescentes)",
     "franjas": [
       "adolescentes",
@@ -3168,6 +3589,9 @@
     ],
     "acceso": "Sí/Restringido (Manuales disponibles por el autor).",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -3189,6 +3613,7 @@
       "funcionamiento familiar",
       "dinámica de pareja"
     ],
+    "resumen": "Cuestionario de autoinforme breve · 5 ítems · Likert de 3 puntos · Unidimensional",
     "poblacion": "Familias, adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -3196,6 +3621,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3219,6 +3647,7 @@
       "satisfacción vital",
       "afecto positivo"
     ],
+    "resumen": "Cuestionario de autoinforme · 5 ítems · Likert de 7 puntos · Unidimensional",
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -3226,6 +3655,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3249,12 +3681,16 @@
       "satisfacción vital",
       "afecto positivo"
     ],
+    "resumen": "Cuestionario de autoinforme · 29 ítems · Likert de 6 puntos · 6 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3278,12 +3714,16 @@
       "satisfacción vital",
       "afecto positivo"
     ],
+    "resumen": "Cuestionario de autoinforme · 8 ítems · Likert de 7 puntos · Unidimensional",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3310,12 +3750,16 @@
       "Salud mental",
       "Salud física"
     ],
+    "resumen": "Cuestionario de autoinforme · 36 ítems · Opciones según ítem: 5, 3, 2 y 6. · 8 dimensiones · Autoadministrada. Instrucción",
     "poblacion": "Adultos (general y pacientes médicos/psiquiátricos)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí: protocolo en español publicable (formulario difundido por SECOT) y RAND-36 en inglés de dominio público. SF-36v2® comercial no incluido.",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3342,12 +3786,16 @@
       "Salud mental",
       "Salud física"
     ],
+    "resumen": "Cuestionario de autoinforme · 26 ítems · Likert de 5 puntos · 4 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (Disponible por OMS)",
     "descargable": true,
+    "protocolo_estado": "presente_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3371,6 +3819,7 @@
       "tolerancia a la frustración",
       "adaptación"
     ],
+    "resumen": "Cuestionario de autoinforme · 25 ítems · Likert de 5 puntos · 5 dimensiones",
     "poblacion": "Adultos y adolescentes",
     "franjas": [
       "adolescentes",
@@ -3378,6 +3827,9 @@
     ],
     "acceso": "No (Licencia controlada por autores), aunque la versión de 10 ítems (CD-RISC 10) es muy accesible en investigación.",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -3400,12 +3852,16 @@
       "tolerancia a la frustración",
       "adaptación"
     ],
+    "resumen": "Cuestionario de autoinforme · 10 ítems · Likert de 5 puntos · 2 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3429,6 +3885,7 @@
       "tolerancia a la frustración",
       "adaptación"
     ],
+    "resumen": "Cuestionario de autoinforme · 240 ítems · Likert de 5 puntos · 24 fortalezas de carácter",
     "poblacion": "Adultos (existe versión VIA-Youth para jóvenes)",
     "franjas": [
       "adolescentes",
@@ -3436,6 +3893,9 @@
     ],
     "acceso": "Sí (Online vía VIA Institute on Character)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -3462,6 +3922,7 @@
       "Evaluación cognitiva",
       "Prueba cognitiva"
     ],
+    "resumen": "Prueba de cribado neuropsicológico · 11 ítems · Tareas verbales y de ejecución · 5 áreas cognitivas",
     "poblacion": "Adultos y adultos mayores",
     "franjas": [
       "adultos",
@@ -3469,6 +3930,9 @@
     ],
     "acceso": "No (Copyright vigente de PAR Inc.), aunque históricamente usado de forma muy extendida en la práctica clínica.",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -3495,6 +3959,7 @@
       "Evaluación cognitiva",
       "Prueba cognitiva"
     ],
+    "resumen": "Prueba de cribado neuropsicológico · Múltiples microtareas que totalizan 30 puntos · Tareas verbales y de ejecución · 7 áreas",
     "poblacion": "Adultos y adultos mayores",
     "franjas": [
       "adultos",
@@ -3502,6 +3967,9 @@
     ],
     "acceso": "Semilibre (Uso comercial/oficial requiere certificación y pago en la actualidad, pero existen versiones de investigación).",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3525,6 +3993,7 @@
       "atención dividida",
       "concentración"
     ],
+    "resumen": "Prueba de ejecución · 14 líneas con 47 caracteres cada una · Cancelación visual de estímulos · Atención selectiva, Velocidad",
     "poblacion": "8 a 80 años",
     "franjas": [
       "niños",
@@ -3534,6 +4003,9 @@
     ],
     "acceso": "No (Licencia comercial)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -3556,6 +4028,7 @@
       "atención dividida",
       "concentración"
     ],
+    "resumen": "Prueba neuropsicológica · 2 láminas · Tarea de unión de puntos · Parte A; Parte B",
     "poblacion": "Niños, adultos y mayores",
     "franjas": [
       "niños",
@@ -3564,6 +4037,9 @@
     ],
     "acceso": "Sí (Dominio público para uso clínico y de investigación, los baremos sí pueden ser comerciales)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3587,6 +4063,7 @@
       "metamemoria",
       "olvidos"
     ],
+    "resumen": "Prueba neuropsicológica · Listas de 16 palabras categorizadas · Recuerdo libre y reconocimiento · Aprendizaje verbal, Memoria",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -3594,6 +4071,9 @@
     ],
     "acceso": "No (Comercializado)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -3616,6 +4096,7 @@
       "metamemoria",
       "olvidos"
     ],
+    "resumen": "Prueba neuropsicológica de · 18 elementos estructurales en un solo dibujo complejo · Dibujo a mano alzada · Percepción visuoespacial y",
     "poblacion": "Niños (figura B) y adultos (figura A)",
     "franjas": [
       "niños",
@@ -3623,6 +4104,9 @@
     ],
     "acceso": "Sí (La figura y criterios de corrección son de amplio acceso en manuales neurológicos, aunque TEA vende protocolos).",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3649,6 +4133,7 @@
       "inhibición",
       "flexibilidad cognitiva"
     ],
+    "resumen": "Prueba neuropsicológica · 64 o 128 cartas · Emparejamiento de cartas según un · Flexibilidad cognitiva,",
     "poblacion": "6 a 89 años",
     "franjas": [
       "niños",
@@ -3658,6 +4143,9 @@
     ],
     "acceso": "No (Licencia comercial)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -3683,6 +4171,7 @@
       "inhibición",
       "flexibilidad cognitiva"
     ],
+    "resumen": "Prueba neuropsicológica · 100 ítems · Lectura o denominación en voz alta · Inhibición cognitiva,",
     "poblacion": "Niños y adultos",
     "franjas": [
       "niños",
@@ -3690,6 +4179,9 @@
     ],
     "acceso": "Dominio público (J. R. Stroop, 1935). Reconstrucción axiomática en español.",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3716,12 +4208,16 @@
       "inhibición",
       "flexibilidad cognitiva"
     ],
+    "resumen": "Tarea · 100 elecciones de cartas · Tarea conductual donde el sujeto · Toma de decisiones bajo",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (Software disponible gratuitamente en algunas plataformas académicas como PEBL).",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3748,6 +4244,7 @@
       "inhibición",
       "flexibilidad cognitiva"
     ],
+    "resumen": "Cuestionario de autoinforme y · 63 ítems · Likert de 3 puntos · 3 índices que forman un",
     "poblacion": "5 a 18 años (versión adulto disponible: BRIEF-A)",
     "franjas": [
       "niños",
@@ -3756,6 +4253,9 @@
     ],
     "acceso": "No (Licencia comercial)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -3781,6 +4281,7 @@
       "inhibición",
       "flexibilidad cognitiva"
     ],
+    "resumen": "Prueba de cribado ejecutivo breve · 8 subtests breves · Tareas conductuales cronometradas · Memoria de trabajo,",
     "poblacion": "Adultos y adultos mayores",
     "franjas": [
       "adultos",
@@ -3788,6 +4289,9 @@
     ],
     "acceso": "Sí (Disponible en literatura científica)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3811,6 +4315,7 @@
       "afasia",
       "expresión verbal"
     ],
+    "resumen": "Prueba neuropsicológica verbal · 60 ítems · Denominación de dibujos ordenados · Expresión verbal, Acceso",
     "poblacion": "Niños, adultos y mayores",
     "franjas": [
       "niños",
@@ -3819,6 +4324,9 @@
     ],
     "acceso": "No (Comercial, usualmente incluido en la Evaluación de Afasia de Boston).",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -3841,6 +4349,7 @@
       "afasia",
       "expresión verbal"
     ],
+    "resumen": "Prueba neuropsicológica · 3 ensayos de 1 minuto para letras y 1 ensayo de 1 minuto para categoría · Generación de palabras · Fluidez fonológica y Fluidez",
     "poblacion": "Todas las edades",
     "franjas": [
       "niños",
@@ -3850,6 +4359,9 @@
     ],
     "acceso": "Sí (La tarea es de dominio público, sujeta a disponibilidad de baremos locales).",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3875,6 +4387,7 @@
       "Comunicación social",
       "Atención social"
     ],
+    "resumen": "Prueba de · 36 ítems · Reconocimiento de estados mentales · Unidimensional",
     "poblacion": "Adultos y adolescentes (existe versión infantil)",
     "franjas": [
       "niños",
@@ -3883,6 +4396,9 @@
     ],
     "acceso": "Sí (Disponible por el Autism Research Centre)",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "https://www.autismresearchcentre.com/tests/",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -3907,12 +4423,16 @@
       "Comunicación social",
       "Atención social"
     ],
+    "resumen": "Cuestionario de autoinforme · 32 ítems · Likert de 6 puntos · 8 dimensiones",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -3938,6 +4458,7 @@
       "Comunicación social",
       "Atención social"
     ],
+    "resumen": "Prueba neuropsicológica · 20 historias breves · Comprensión de textos y respuesta · Teoría de la Mente cognitiva",
     "poblacion": "Niños (versión infantil) y adultos",
     "franjas": [
       "niños",
@@ -3945,6 +4466,9 @@
     ],
     "acceso": "Sí",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -3969,6 +4493,7 @@
       "insomnio",
       "somnolencia diurna"
     ],
+    "resumen": "Cuestionario de autoinforme · 19 ítems · Likert de 4 puntos · 7 dimensiones · 10 min",
     "poblacion": "Adultos, adultos mayores y adolescentes",
     "franjas": [
       "adolescentes",
@@ -3977,6 +4502,9 @@
     ],
     "acceso": "Sí (Licencia abierta para uso clínico y de investigación no comercial)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4002,6 +4530,7 @@
       "insomnio",
       "somnolencia diurna"
     ],
+    "resumen": "Cuestionario de autoinforme · 7 · Likert de 5 puntos · Unidimensional · 5 min",
     "poblacion": "Adultos y adultos mayores",
     "franjas": [
       "adultos",
@@ -4009,6 +4538,9 @@
     ],
     "acceso": "Sí (Uso clínico habitual)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4034,12 +4566,16 @@
       "insomnio",
       "somnolencia diurna"
     ],
+    "resumen": "Cuestionario de autoinforme · 8 · Likert de 4 puntos · Unidimensional · 5 min",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4063,12 +4599,16 @@
       "fibromialgia",
       "dolor crónico"
     ],
+    "resumen": "Cuestionario de autoinforme · 15 ítems · Escalas Numéricas de 0 a 10 y · 2 dimensiones · 10 min",
     "poblacion": "Adultos con dolor clínico o crónico",
     "franjas": [
       "adultos"
     ],
     "acceso": "No (Licencia administrada por la Universidad de Texas MD Anderson Cancer Center, pero gratuita para uso clínico e investigación sin financiamiento comercial).",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -4091,12 +4631,16 @@
       "fibromialgia",
       "dolor crónico"
     ],
+    "resumen": "Cuestionario de autoinforme · 13 · Likert de 5 puntos · 3 dimensiones · 5-10 min",
     "poblacion": "Adultos (población clínica y sana)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -4119,12 +4663,16 @@
       "fibromialgia",
       "dolor crónico"
     ],
+    "resumen": "Cuestionario de autoinforme · 9 ítems · Likert de 7 puntos · Unidimensional · 5 min",
     "poblacion": "Adultos con condiciones médicas (EM, Lupus, fibromialgia, etc.)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí — Duarte et al. (2019), Educación Médica, acceso abierto CC BY-NC-ND.",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4147,6 +4695,7 @@
       "conductas de salud",
       "autocuidado"
     ],
+    "resumen": "Cuestionario de autoinforme · 7 · Preguntas abiertas sobre días por · Actividad vigorosa, moderada,",
     "poblacion": "Adolescentes y adultos (15-69 años)",
     "franjas": [
       "adolescentes",
@@ -4154,6 +4703,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://sites.google.com/site/theipaq/](https://sites.google.com/site/theipaq/",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4176,12 +4728,16 @@
       "conductas de salud",
       "autocuidado"
     ],
+    "resumen": "Cuestionario de autoinforme · 4 · Dicotómica (Sí/No) · Unidimensional · 1-2 min",
     "poblacion": "Adultos con patología crónica",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (La versión original de 4 ítems; la de 8 ítems requiere licencia).",
     "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -4204,6 +4760,7 @@
       "tolerancia a la frustración",
       "adaptación"
     ],
+    "resumen": "Cuestionario de autoinforme · 9 ítems · Escala de 0 a 10 para ítems 1 al · 8 dimensiones · 5-10 min",
     "poblacion": "Pacientes con enfermedades agudas o crónicas",
     "franjas": [
       "adultos",
@@ -4211,6 +4768,9 @@
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "https://www.uib.no/en/bipq](https://www.uib.no/en/bipq",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4234,6 +4794,7 @@
       "tolerancia a la frustración",
       "adaptación"
     ],
+    "resumen": "Cuestionario de autoinforme · 40 · Likert de 4 puntos · 5 dimensiones",
     "poblacion": "Pacientes oncológicos (y adaptaciones para otras enfermedades crónicas)",
     "franjas": [
       "adultos",
@@ -4241,6 +4802,9 @@
     ],
     "acceso": "No (Bajo copyright de los autores originales, uso clínico restringido).",
     "descargable": false,
+    "protocolo_estado": "restringido_registro",
+    "protocolo_etiqueta": "Protocolo disponible con registro ante su titular",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -4262,12 +4826,16 @@
       "conductas de salud",
       "autocuidado"
     ],
+    "resumen": "16 ítems · Escala de 4 opciones: 1 = Muy",
     "poblacion": "Adultos (Población general y clínica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4290,12 +4858,16 @@
       "conductas de salud",
       "autocuidado"
     ],
+    "resumen": "Prueba de ejecución · 50 · Opción múltiple · Reconocimiento de lectura y · 6 min · Individual mediante entrevista",
     "poblacion": "Adultos hispanohablantes",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4322,12 +4894,16 @@
       "inhibición",
       "flexibilidad cognitiva"
     ],
+    "resumen": "Autoinforme · 20 ítems · Likert de 5 puntos · Papel y lápiz",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (uso académico/investigación)",
     "descargable": true,
+    "protocolo_estado": "presente_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4354,12 +4930,16 @@
       "inhibición",
       "flexibilidad cognitiva"
     ],
+    "resumen": "Autoinforme · 67 ítems · Likert de 5 puntos · Papel y lápiz o formato digita",
     "poblacion": "Adultos hispanohablantes",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4383,12 +4963,16 @@
       "metamemoria",
       "olvidos"
     ],
+    "resumen": "Autoinforme; también puede ser · 28 ítems · Likert de 3 puntos · Papel y lápiz",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4412,12 +4996,16 @@
       "metamemoria",
       "olvidos"
     ],
+    "resumen": "Autoinforme · 25 ítems · Escala de 5 puntos · Papel y lápiz",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4443,12 +5031,16 @@
       "salud sexual y reproductiva",
       "salud sexual integral"
     ],
+    "resumen": "Mixto: preguntas dirigidas al · 7 ítems · Likert de 4 puntos · 10 min · Entrevista clínica estructurad",
     "poblacion": "Adultos en tratamiento psicofarmacológico",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4474,12 +5066,16 @@
       "salud sexual y reproductiva",
       "salud sexual integral"
     ],
+    "resumen": "Autoinforme · 14 · Likert de 4 puntos · Papel y lápiz o formato electr",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4505,12 +5101,16 @@
       "insomnio",
       "somnolencia diurna"
     ],
+    "resumen": "Autoinforme · 19 · Opción múltiple · 10 min · Papel y lápiz",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (uso no comercial)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4536,12 +5136,16 @@
       "insomnio",
       "somnolencia diurna"
     ],
+    "resumen": "Autoinforme · 8 · Dicótoma · Papel y lápiz o formato electr",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4566,12 +5170,16 @@
       "pánico",
       "agorafobia"
     ],
+    "resumen": "Autoinforme · 25 + 10 · Likert de 5 puntos · 5 min · Papel y lápiz o formato electr",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4596,12 +5204,16 @@
       "dependencia",
       "adicción"
     ],
+    "resumen": "Heteroadministrado · 6 · Dicotómica (Sí/No) · 3 min · Papel y lápiz, en consulta clí",
     "poblacion": "Adultos fumadores",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4624,12 +5236,16 @@
       "conductas de salud",
       "autocuidado"
     ],
+    "resumen": "Autoinforme · 4 · Escala numérica 1-10 · Papel y lápiz o formato electr",
     "poblacion": "Adultos con enfermedad crónica",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (libre uso, Stanford Self-Management Resource Center)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4652,12 +5268,16 @@
       "conductas de salud",
       "autocuidado"
     ],
+    "resumen": "Autoinforme · 8 · Likert 5 puntos · Papel y lápiz o formato electr",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (CC-BY, original en inglés)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4681,12 +5301,16 @@
       "dependencia emocional",
       "asertividad"
     ],
+    "resumen": "Autoinforme del paciente · 13 · Likert de 5 puntos · Papel y lápiz",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí (acceso abierto)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4714,12 +5338,16 @@
       "Bulimia",
       "Disortodinia"
     ],
+    "resumen": "Autoinforme · 34 ítems · Escala de 6 puntos · Papel y lápiz",
     "poblacion": "Adultas (validación original en mujeres)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4747,12 +5375,16 @@
       "Bulimia",
       "Disortodinia"
     ],
+    "resumen": "Autoinforme · 10 ítems · Escala de acuerdo de 4 puntos: 1 = · Papel y lápiz",
     "poblacion": "Adultos (desarrollado en mujeres con cáncer de mama en etapa temprana)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4778,12 +5410,16 @@
       "control emocional",
       "regulación afectiva"
     ],
+    "resumen": "Autoinforme · 27 ítems · Escala de 5 puntos · Papel y lápiz",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "presente_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4807,6 +5443,7 @@
       "NSSI",
       "autolesiones"
     ],
+    "resumen": "Autoinforme; también aplicable en · 20 ítems · Likert de 6 puntos · 5 min · Papel y lápiz o entrevista bre",
     "poblacion": "Adolescentes (desde 12 anos) y adultos",
     "franjas": [
       "adolescentes",
@@ -4814,6 +5451,9 @@
     ],
     "acceso": "Si",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4838,6 +5478,7 @@
       "contaminación",
       "rituales"
     ],
+    "resumen": "Autoinforme · 60 ítems · Likert de 5 puntos · 20 min · Papel y lápiz",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -4845,6 +5486,9 @@
     ],
     "acceso": "Si",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4869,6 +5513,7 @@
       "tríada oscura",
       "desapego"
     ],
+    "resumen": "Autoinforme · 23 ítems · Likert de 5 puntos · 5 min · Papel y lápiz",
     "poblacion": "Adolescentes y adultos con sospecha o diagnostico de TLP",
     "franjas": [
       "adolescentes",
@@ -4876,6 +5521,9 @@
     ],
     "acceso": "Si",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4902,12 +5550,16 @@
       "conducta agresiva",
       "conducta inadecuada"
     ],
+    "resumen": "Autoinforme · 18 ítems · Likert de 4 puntos · 5 min · Papel y lápiz",
     "poblacion": "Adultos 18-65 anos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Si",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4931,12 +5583,16 @@
       "estrés agudo",
       "disociación"
     ],
+    "resumen": "Entrevista clínica estructurada o · 31 ítems · Likert de 4 puntos · 20 min · Entrevista o autoadministrado",
     "poblacion": "Adultos expuestos a sucesos traumaticos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Si",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4961,6 +5617,7 @@
       "pánico",
       "agorafobia"
     ],
+    "resumen": "Autoinforme · 20 ítems · Likert de 5 puntos · 5 min · Papel y lápiz",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -4968,6 +5625,9 @@
     ],
     "acceso": "Si",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -4992,6 +5652,7 @@
       "pánico",
       "agorafobia"
     ],
+    "resumen": "Autoinforme · 28 ítems · Dicotómica (Sí/No) · 10 min · Papel y lápiz",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -4999,6 +5660,9 @@
     ],
     "acceso": "Si",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5022,6 +5686,7 @@
       "tolerancia a la frustración",
       "adaptación"
     ],
+    "resumen": "Autoinforme · 14 ítems · Likert de 5 puntos · 5 min · Papel y lápiz",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -5029,6 +5694,9 @@
     ],
     "acceso": "Si",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5052,12 +5720,16 @@
       "tolerancia a la frustración",
       "adaptación"
     ],
+    "resumen": "Autoinforme · 42 ítems · Escala de 5 puntos · Papel y lápiz",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "No verificado",
     "descargable": false,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "Protocolo en verificación de condiciones de uso",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -5079,6 +5751,7 @@
       "funcionamiento familiar",
       "dinámica de pareja"
     ],
+    "resumen": "Autoinforme · 21 ítems · Likert de 4 puntos · Papel y lápiz",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -5086,6 +5759,9 @@
     ],
     "acceso": "No verificado",
     "descargable": false,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "Protocolo en verificación de condiciones de uso",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -5110,12 +5786,16 @@
       "control emocional",
       "regulación afectiva"
     ],
+    "resumen": "Autoinforme · 10 ítems · Likert de 7 puntos · Papel y lápiz",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Si (traduccion autorizada por autores originales)",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5140,12 +5820,16 @@
       "personalidad antisocial",
       "personalidad borderline"
     ],
+    "resumen": "Autoinforme · 35 ítems · Likert de 5 puntos · Papel y lápiz",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "No verificado",
     "descargable": false,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "Protocolo en verificación de condiciones de uso",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -5170,12 +5854,16 @@
       "control emocional",
       "regulación afectiva"
     ],
+    "resumen": "Autoinforme · 20 ítems · Likert de 5 puntos · Papel y lápiz",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "No verificado",
     "descargable": false,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "Protocolo en verificación de condiciones de uso",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -5198,12 +5886,16 @@
       "tolerancia a la frustración",
       "adaptación"
     ],
+    "resumen": "Autoinforme · 14 ítems · Likert de 7 puntos · Papel y lápiz",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "No verificado (instrumento comercial)",
     "descargable": false,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "Protocolo en verificación de condiciones de uso",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -5228,6 +5920,7 @@
       "control emocional",
       "regulación afectiva"
     ],
+    "resumen": "Autoinforme · 24 ítems · Likert de 5 puntos · Papel y lápiz",
     "poblacion": "Adolescentes y adultos",
     "franjas": [
       "adolescentes",
@@ -5235,6 +5928,9 @@
     ],
     "acceso": "No verificado",
     "descargable": false,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "Protocolo en verificación de condiciones de uso",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -5259,12 +5955,16 @@
       "percepción positiva",
       "mindfulness"
     ],
+    "resumen": "Autoinforme · 15 ítems · Likert de 6 puntos · 3 min · Papel y lápiz",
     "poblacion": "Adultos (muestra clinica de validacion)",
     "franjas": [
       "adultos"
     ],
     "acceso": "No verificado",
     "descargable": false,
+    "protocolo_estado": "presente_verificado",
+    "protocolo_etiqueta": "Protocolo en verificación de condiciones de uso",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -5290,12 +5990,16 @@
       "identidad de género",
       "valores éticos"
     ],
+    "resumen": "Autoinforme · 10 ítems · Likert de 7 puntos · Papel y lápiz o autoadministra",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Si, con restriccion de uso no comercial y sin obras derivadas",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5321,12 +6025,16 @@
       "percepción positiva",
       "mindfulness"
     ],
+    "resumen": "Autoinforme · 6 ítems · Escala de 5 puntos · Papel y lápiz o digital",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Apertura academica declarada, licencia exacta no verificada",
     "descargable": true,
+    "protocolo_estado": "presente_fuente_local",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5350,12 +6058,16 @@
       "tolerancia a la frustración",
       "adaptación"
     ],
+    "resumen": "Autoinforme · 48 ítems · Likert de 4 puntos · Papel y lápiz, autoadministrad",
     "poblacion": "Adultos (validado en población psiquiátrica ambulatoria)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Sí",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5381,12 +6093,16 @@
       "percepción positiva",
       "mindfulness"
     ],
+    "resumen": "24 ítems · Likert de 5 puntos",
     "poblacion": "Adultos (poblacion general y laboral)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Si (Open Access, CC BY 4.0)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5412,12 +6128,16 @@
       "control emocional",
       "regulación afectiva"
     ],
+    "resumen": "",
     "poblacion": "Adultos (universitarios y profesionales sanitarios)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Si (Open Access, CC BY 2.0)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5441,12 +6161,16 @@
       "dependencia emocional",
       "asertividad"
     ],
+    "resumen": "7 ítems · Likert de 5 puntos",
     "poblacion": "Adultos en pareja (matrimonio o unión libre)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Si",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5474,12 +6198,16 @@
       "Evaluación cognitiva",
       "Prueba cognitiva"
     ],
+    "resumen": "13 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "A verificar (adapt. española de MMSE, uso clínico extendido)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5507,12 +6235,16 @@
       "Evaluación cognitiva",
       "Prueba cognitiva"
     ],
+    "resumen": "21; 11 forman el ADAS cognitivo y 10 el ADAS no cognitivo · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Restringido (uso bajo licencia en ensayos clínicos)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5536,12 +6268,16 @@
       "delirio",
       "alucinación"
     ],
+    "resumen": "18 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Público (Overall & Gorham 1962)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5565,12 +6301,16 @@
       "delirio",
       "alucinación"
     ],
+    "resumen": "33 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, requiere permiso de autores (Yale PRIME)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5594,12 +6334,16 @@
       "delirio",
       "alucinación"
     ],
+    "resumen": "19 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, requiere permiso (Yale PRIME)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5623,12 +6367,16 @@
       "delirio",
       "alucinación"
     ],
+    "resumen": "9 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico (Amador)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5652,12 +6400,16 @@
       "agresión física",
       "conducta violenta"
     ],
+    "resumen": "4 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Público (Yudofsky et al. 1986)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5682,12 +6434,16 @@
       "anhedonia",
       "ánimo bajo"
     ],
+    "resumen": "10 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Público/libre uso académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5712,12 +6468,16 @@
       "anhedonia",
       "ánimo bajo"
     ],
+    "resumen": "30 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Público",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5742,12 +6502,16 @@
       "anhedonia",
       "ánimo bajo"
     ],
+    "resumen": "9 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, libre para uso clínico/investigación",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5773,12 +6537,16 @@
       "Ciclotimia",
       "Psicosis bipolar"
     ],
+    "resumen": "13 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Público (Hirschfeld, uso libre no comercial)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5804,12 +6572,16 @@
       "Ciclotimia",
       "Psicosis bipolar"
     ],
+    "resumen": "11 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Público/libre uso académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5835,12 +6607,16 @@
       "Ciclotimia",
       "Psicosis bipolar"
     ],
+    "resumen": "15 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "A verificar",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5866,12 +6642,16 @@
       "Ciclotimia",
       "Psicosis bipolar"
     ],
+    "resumen": "11 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5895,12 +6675,16 @@
       "NSSI",
       "autolesiones"
     ],
+    "resumen": "48 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, libre uso investigación/clínica",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5924,12 +6708,16 @@
       "agresión física",
       "conducta violenta"
     ],
+    "resumen": "12 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5956,12 +6744,16 @@
       "conducta agresiva",
       "conducta inadecuada"
     ],
+    "resumen": "15 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -5986,12 +6778,16 @@
       "pánico",
       "agorafobia"
     ],
+    "resumen": "17 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6016,12 +6812,16 @@
       "pánico",
       "agorafobia"
     ],
+    "resumen": "18 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6046,12 +6846,16 @@
       "pánico",
       "agorafobia"
     ],
+    "resumen": "10 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Público",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6075,12 +6879,16 @@
       "estrés agudo",
       "disociación"
     ],
+    "resumen": "44 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6104,12 +6912,16 @@
       "estrés agudo",
       "disociación"
     ],
+    "resumen": "4 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6133,12 +6945,16 @@
       "delirio",
       "alucinación"
     ],
+    "resumen": "10 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Restringido (PANSS es comercial, MHS)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6162,12 +6978,16 @@
       "agresión física",
       "conducta violenta"
     ],
+    "resumen": "75 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico clásico, uso extendido",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6192,12 +7012,16 @@
       "dependencia",
       "adicción"
     ],
+    "resumen": "MALT-O: 7; MALT-S: 27 · MALT-O: heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6222,12 +7046,16 @@
       "dependencia",
       "adicción"
     ],
+    "resumen": "3 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6252,12 +7080,16 @@
       "dependencia",
       "adicción"
     ],
+    "resumen": "141 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, libre uso investigación/clínica",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6282,12 +7114,16 @@
       "dependencia",
       "adicción"
     ],
+    "resumen": "33 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6312,12 +7148,16 @@
       "dependencia",
       "adicción"
     ],
+    "resumen": "30 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6342,12 +7182,16 @@
       "dependencia",
       "adicción"
     ],
+    "resumen": "14 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6375,12 +7219,16 @@
       "Bulimia",
       "Disortodinia"
     ],
+    "resumen": "64 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Restringido (Garner/PAR)",
     "descargable": false,
+    "protocolo_estado": "revisar",
+    "protocolo_etiqueta": "Protocolo en verificación",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
     ],
@@ -6407,12 +7255,16 @@
       "Bulimia",
       "Disortodinia"
     ],
+    "resumen": "33 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6438,12 +7290,16 @@
       "insomnio",
       "somnolencia diurna"
     ],
+    "resumen": "15 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6469,12 +7325,16 @@
       "salud sexual y reproductiva",
       "salud sexual integral"
     ],
+    "resumen": "36 para los varones y 34 para las mujeres · Heteroaplicada y autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6500,12 +7360,16 @@
       "salud sexual y reproductiva",
       "salud sexual integral"
     ],
+    "resumen": "15 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, libre uso clínico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6531,12 +7395,16 @@
       "salud sexual y reproductiva",
       "salud sexual integral"
     ],
+    "resumen": "5 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6562,12 +7430,16 @@
       "salud sexual y reproductiva",
       "salud sexual integral"
     ],
+    "resumen": "5 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6592,12 +7464,16 @@
       "dependencia",
       "adicción"
     ],
+    "resumen": "20 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6621,12 +7497,16 @@
       "sedación",
       "temblor"
     ],
+    "resumen": "10 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, libre uso clínico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6650,12 +7530,16 @@
       "sedación",
       "temblor"
     ],
+    "resumen": "56 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6681,12 +7565,16 @@
       "adaptabilidad",
       "autonomía"
     ],
+    "resumen": "1 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Público (derivado de criterios DSM)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6712,12 +7600,16 @@
       "adaptabilidad",
       "autonomía"
     ],
+    "resumen": "5 · Heteroaplicada y autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6740,12 +7632,16 @@
       "funcionamiento familiar",
       "dinámica de pareja"
     ],
+    "resumen": "21 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6772,12 +7668,16 @@
       "Salud mental",
       "Salud física"
     ],
+    "resumen": "21 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6804,12 +7704,16 @@
       "Salud mental",
       "Salud física"
     ],
+    "resumen": "59 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6834,12 +7738,16 @@
       "anhedonia",
       "ánimo bajo"
     ],
+    "resumen": "22 · Autoaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, licencia de autor",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6867,12 +7775,16 @@
       "Evaluación cognitiva",
       "Prueba cognitiva"
     ],
+    "resumen": "47 · Heteroaplicada",
     "poblacion": "Adultos (ver Ficha_Tecnica)",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6897,12 +7809,16 @@
       "tríada oscura",
       "desapego"
     ],
+    "resumen": "40 · Autoaplicada",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, uso libre investigación (sin traducción española verificada)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6928,12 +7844,16 @@
       "control emocional",
       "regulación afectiva"
     ],
+    "resumen": "40 · Autoaplicada",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, uso libre investigación (sin traducción española verificada)",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"
@@ -6957,12 +7877,16 @@
       "estrés agudo",
       "disociación"
     ],
+    "resumen": "8 · Heteroaplicada",
     "poblacion": "Adultos",
     "franjas": [
       "adultos"
     ],
     "acceso": "Académico, descarga oficial gratuita CIBERSAM",
     "descargable": true,
+    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf",
       "Protocolo.pdf"

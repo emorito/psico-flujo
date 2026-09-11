@@ -137,7 +137,7 @@ export default function Home() {
           <span>psico<span>·</span>flujo</span>
         </a>
         <p>Biblioteca de instrumentos de evaluación psicológica.</p>
-        <span>v1.1 · 2026-09-11</span>
+        <span>v1.2 · 2026-09-11</span>
       </footer>
     </main>
   );
