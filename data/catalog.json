@@ -1,0 +1,4650 @@
+[
+  {
+    "family_id": "stai_0",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "STAI",
+    "nombre": "Inventario de Ansiedad Estado-Rasgo",
+    "constructo": "Ansiedad y miedo",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "No (Sujeto a copyright, TEA Ediciones en España/Latam). Existen versiones de investigación.",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Ansiedad y miedo",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "bai_1",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "BAI",
+    "nombre": "Inventario de Ansiedad de Beck",
+    "constructo": "Ansiedad y miedo",
+    "poblacion": "Adultos y adolescentes (>13 años)",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "No (Copyright de Pearson). Usado ampliamente en investigación con permisos.",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Estima la intensidad de síntomas de ansiedad, con énfasis en manifestaciones somáticas.",
+    "use": "Severidad de ansiedad"
+  },
+  {
+    "family_id": "gad-7_2",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "GAD-7",
+    "nombre": "Escala de Trastorno de Ansiedad Generalizada - 7",
+    "constructo": "Ansiedad y miedo",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Detecta y gradúa síntomas centrales de ansiedad generalizada durante las últimas dos semanas.",
+    "use": "Tamizaje breve"
+  },
+  {
+    "family_id": "isra_3",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "ISRA",
+    "nombre": "Inventario de Situaciones y Respuestas de Ansiedad",
+    "constructo": "Ansiedad y miedo",
+    "poblacion": "Adolescentes (>16 años) y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "No (TEA Ediciones)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Ansiedad y miedo",
+    "use": "Adolescentes (>16 años) y adultos"
+  },
+  {
+    "family_id": "hads_4",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "HADS",
+    "nombre": "Escala de Ansiedad y Depresión Hospitalaria",
+    "constructo": "Ansiedad y miedo",
+    "poblacion": "Adultos (originalmente en contexto hospitalario/médico, luego general)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No estricto (tiene copyright de GL Assessment), pero ampliamente reproducido en literatura de acceso abierto para fines de investigación y uso clínico sin fines de lucro.",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Ansiedad y miedo",
+    "use": "Adultos (originalmente en contexto hospitalario/médico, luego general)"
+  },
+  {
+    "family_id": "dass-21_5",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "DASS-21",
+    "nombre": "Escalas de Depresión, Ansiedad y Estrés - 21",
+    "constructo": "Depresión, ansiedad y estrés",
+    "poblacion": "Adultos y adolescentes",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público, disponible en la web de la Universidad de New South Wales)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Ofrece una medida breve de tres dimensiones de malestar emocional.",
+    "use": "Perfil de malestar"
+  },
+  {
+    "family_id": "pss_6",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "PSS",
+    "nombre": "Escala de Estrés Percibido",
+    "constructo": "Estrés psicológico",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público para fines académicos y no comerciales)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Reúne versiones para valorar cuánto se perciben las situaciones recientes como impredecibles o desbordantes.",
+    "use": "Estrés percibido"
+  },
+  {
+    "family_id": "tics_8",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "TICS",
+    "nombre": "Inventario de Estrés Crónico de Trier",
+    "constructo": "Estrés psicológico",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Hogrefe)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Estrés psicológico",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "pcl-5_9",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "PCL-5",
+    "nombre": "Lista de Chequeo del TEPT para el DSM-5",
+    "constructo": "Trauma y estrés postraumático",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público gubernamental de EE.UU. a través del National Center for PTSD)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Explora los grupos sintomáticos del trastorno de estrés postraumático según DSM-5.",
+    "use": "Tamizaje de TEPT"
+  },
+  {
+    "family_id": "caps-5_10",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "CAPS-5",
+    "nombre": "Escala Administrada por Clínico para el TEPT",
+    "constructo": "Trauma y estrés postraumático",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Requiere registro y credenciales clínicas para descarga en el NCPTSD)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Trauma y estrés postraumático",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "ies-r_11",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "IES-R",
+    "nombre": "Escala de Impacto del Evento Revisada",
+    "constructo": "Trauma y estrés postraumático",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Trauma y estrés postraumático",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "dts_12",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "DTS",
+    "nombre": "Escala de Trauma de Davidson",
+    "constructo": "Trauma y estrés postraumático",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Copyright MHS Assessments)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Mide frecuencia y gravedad de síntomas postraumáticos.",
+    "use": "Severidad postraumática"
+  },
+  {
+    "family_id": "bdi-ii_13",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "BDI-II",
+    "nombre": "Inventario de Depresión de Beck - II",
+    "constructo": "Depresión y anhedonia",
+    "poblacion": "Adolescentes (>13 años) y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "No (Copyright Pearson)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Valora la presencia y severidad de síntomas cognitivos, afectivos y somáticos de depresión.",
+    "use": "Severidad depresiva"
+  },
+  {
+    "family_id": "phq-9_14",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "PHQ-9",
+    "nombre": "Cuestionario de Salud del Paciente - 9",
+    "constructo": "Depresión y anhedonia",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Detecta síntomas depresivos y permite seguir su severidad en las últimas dos semanas.",
+    "use": "Tamizaje depresivo"
+  },
+  {
+    "family_id": "ces-d_15",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "CES-D",
+    "nombre": "Escala del Centro de Estudios Epidemiológicos de la Depresión",
+    "constructo": "Depresión y anhedonia",
+    "poblacion": "Adultos y adolescentes",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Detecta frecuencia reciente de síntomas depresivos en población general.",
+    "use": "Tamizaje depresivo"
+  },
+  {
+    "family_id": "shaps_16",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SHAPS",
+    "nombre": "Escala de Placer de Snaith-Hamilton",
+    "constructo": "Depresión y anhedonia",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Evalúa la capacidad para experimentar placer y detectar anhedonia.",
+    "use": "Medición de anhedonia"
+  },
+  {
+    "family_id": "hdrs_17",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "HDRS / HAM-D",
+    "nombre": "Escala de Calificación de la Depresión de Hamilton",
+    "constructo": "Depresión y anhedonia",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público la versión original de 17 ítems)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Depresión y anhedonia",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "y-bocs_18",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "Y-BOCS",
+    "nombre": "Escala de Obsesiones y Compulsiones de Yale-Brown",
+    "constructo": "Obsesiones y compulsiones",
+    "poblacion": "Adultos (existe versión infantil: CY-BOCS)",
+    "franjas": [
+      "niños",
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público para uso no comercial)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Cuantifica severidad, interferencia, malestar, resistencia y control de obsesiones y compulsiones.",
+    "use": "Severidad de TOC"
+  },
+  {
+    "family_id": "oci-r_19",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "OCI-R",
+    "nombre": "Inventario Obsesivo-Compulsivo Revisado",
+    "constructo": "Obsesiones y compulsiones",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (en anexos de publicaciones originales)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Mide malestar asociado a seis grupos frecuentes de síntomas obsesivo-compulsivos.",
+    "use": "Tamizaje de TOC"
+  },
+  {
+    "family_id": "pi-wsur_20",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "PI-WSUR",
+    "nombre": "Inventario de Padua Revisado - WSU",
+    "constructo": "Obsesiones y compulsiones",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Depende de derechos de la publicación original, uso de investigación permitido).",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Obsesiones y compulsiones",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "docs_21",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "DOCS",
+    "nombre": "Escala Dimensional Obsesivo-Compulsiva",
+    "constructo": "Obsesiones y compulsiones",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Disponible por los autores)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Valora gravedad de contaminación, responsabilidad, pensamientos inaceptables y simetría.",
+    "use": "Severidad de TOC"
+  },
+  {
+    "family_id": "phq-15_22",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "PHQ-15",
+    "nombre": "Cuestionario de Salud del Paciente - 15",
+    "constructo": "Somatización y ansiedad por la salud",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Cuantifica la carga de síntomas somáticos frecuentes y su severidad.",
+    "use": "Tamizaje somático"
+  },
+  {
+    "family_id": "wi-7_23",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "WI",
+    "nombre": "Índice de Whiteley",
+    "constructo": "Somatización y ansiedad por la salud",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí — adaptación española de 14 ítems (Pilowsky 1967 / Avia 1993), verificada contra 2 fuentes clínicas independientes coincidentes.",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Somatización y ansiedad por la salud",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "shai_24",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SHAI",
+    "nombre": "Inventario Corto de Ansiedad por la Salud",
+    "constructo": "Somatización y ansiedad por la salud",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Uso académico)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Somatización y ansiedad por la salud",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "scl-90-r_25",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SCL-90-R",
+    "nombre": "Inventario de Síntomas SCL-90-R (Subescala Somatización)",
+    "constructo": "Somatización y ansiedad por la salud",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "No (Pearson)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Somatización y ansiedad por la salud",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "bis-11_26",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "BIS-11",
+    "nombre": "Escala de Impulsividad de Barratt",
+    "constructo": "Impulsividad",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí (Uso de investigación)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Evalúa impulsividad atencional, motora y no planificada.",
+    "use": "Perfil de impulsividad"
+  },
+  {
+    "family_id": "upps-p_27",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "UPPS-P",
+    "nombre": "Escala de Comportamiento Impulsivo UPPS-P",
+    "constructo": "Impulsividad",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público, UPPS website)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Perfila urgencia, falta de perseverancia, falta de premeditación y búsqueda de sensaciones.",
+    "use": "Perfil de impulsividad"
+  },
+  {
+    "family_id": "dii_28",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "DII",
+    "nombre": "Inventario de Impulsividad de Dickman",
+    "constructo": "Impulsividad",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Revistas científicas)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Evalúa intensidad, frecuencia y expresión problemática de la ira.",
+    "use": "Perfil de ira"
+  },
+  {
+    "family_id": "aq_29",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "AQ",
+    "nombre": "Cuestionario de Agresión",
+    "constructo": "Agresividad e ira",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí (Uso académico libre)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Agresividad e ira",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "staxi-2_30",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "STAXI-2",
+    "nombre": "Inventario de Expresión de Ira Estado-Rasgo 2",
+    "constructo": "Agresividad e ira",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "No (Copyright PAR / TEA Ediciones)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Agresividad e ira",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "rpq_31",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "RPQ",
+    "nombre": "Cuestionario de Agresión Reactiva-Proactiva",
+    "constructo": "Agresividad e ira",
+    "poblacion": "Niños, adolescentes y jóvenes adultos",
+    "franjas": [
+      "niños",
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí (Uso investigativo)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Agresividad e ira",
+    "use": "Niños, adolescentes y jóvenes adultos"
+  },
+  {
+    "family_id": "pcl-r_32",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "PCL-R",
+    "nombre": "Escala de Calificación de Psicopatía Revisada",
+    "constructo": "Conducta antisocial",
+    "poblacion": "Adultos (contexto clínico y forense)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Multi-Health Systems / TEA Ediciones)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Conducta antisocial",
+    "use": "Adultos (contexto clínico y forense)"
+  },
+  {
+    "family_id": "srp-iv_33",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "SRP-IV",
+    "nombre": "Escala de Autoinforme de Psicopatía - Versión IV",
+    "constructo": "Conducta antisocial",
+    "poblacion": "Adultos (general y clínica no reclusa)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (MHS)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Conducta antisocial",
+    "use": "Adultos (general y clínica no reclusa)"
+  },
+  {
+    "family_id": "scid-5-pd_34",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SCID-5-PD",
+    "nombre": "SCID-5-PD (Trastorno de la Personalidad Antisocial)",
+    "constructo": "Conducta antisocial",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Copyright APA)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Conducta antisocial",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "cbcl_35",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "CBCL",
+    "nombre": "Inventario de Comportamiento Infantil (Subescalas Externalizantes)",
+    "constructo": "Conducta disruptiva",
+    "poblacion": "Niños y adolescentes (1.5-5 años y 6-18 años)",
+    "franjas": [
+      "niños",
+      "adolescentes"
+    ],
+    "acceso": "No (Achenbach System of Empirically Based Assessment - ASEBA)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Conducta disruptiva",
+    "use": "Niños y adolescentes (1.5-5 años y 6-18 años)"
+  },
+  {
+    "family_id": "sdq_36",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SDQ",
+    "nombre": "Cuestionario de Capacidades y Dificultades",
+    "constructo": "Conducta disruptiva",
+    "poblacion": "Niños y adolescentes (3-16 años)",
+    "franjas": [
+      "niños",
+      "adolescentes"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Ofrece un perfil breve de dificultades emocionales y conductuales, pares y conducta prosocial.",
+    "use": "Tamizaje infantojuvenil"
+  },
+  {
+    "family_id": "dbd_37",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "DBD",
+    "nombre": "Escala de Trastornos de Comportamiento Perturbador",
+    "constructo": "Conducta disruptiva",
+    "poblacion": "Niños y adolescentes",
+    "franjas": [
+      "niños",
+      "adolescentes"
+    ],
+    "acceso": "Sí (Dominio público)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Explora síntomas de inatención, hiperactividad, oposicionismo y problemas de conducta.",
+    "use": "Tamizaje infantojuvenil"
+  },
+  {
+    "family_id": "assist_38",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "ASSIST",
+    "nombre": "Prueba de Detección de Consumo de Alcohol, Tabaco y Sustancias",
+    "constructo": "Uso problemático de sustancias",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público, OMS)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Explora el consumo y el riesgo asociado a distintas sustancias psicoactivas.",
+    "use": "Tamizaje de consumo"
+  },
+  {
+    "family_id": "audit_39",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "AUDIT",
+    "nombre": "Prueba de Identificación de Trastornos Relacionados con el Alcohol",
+    "constructo": "Uso problemático de sustancias",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Detecta patrones de consumo de alcohol de riesgo, perjudicial o con posible dependencia.",
+    "use": "Tamizaje de alcohol"
+  },
+  {
+    "family_id": "dast-10_40",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "DAST-10",
+    "nombre": "Prueba de Detección de Abuso de Drogas",
+    "constructo": "Uso problemático de sustancias",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Identifica consecuencias y problemas relacionados con el uso de drogas distintas del alcohol.",
+    "use": "Tamizaje de drogas"
+  },
+  {
+    "family_id": "iat_41",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "IAT",
+    "nombre": "Test de Adicción a Internet",
+    "constructo": "Adicciones conductuales",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Explora uso problemático de Internet y su interferencia en la vida cotidiana.",
+    "use": "Conducta adictiva"
+  },
+  {
+    "family_id": "sogs_42",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SOGS",
+    "nombre": "Prueba de Detección de Juego Patológico de South Oaks",
+    "constructo": "Adicciones conductuales",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Detecta patrones problemáticos de juego y sus consecuencias.",
+    "use": "Tamizaje de juego"
+  },
+  {
+    "family_id": "pdi-21_43",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "PDI-21",
+    "nombre": "Inventario de Delirios de Peters",
+    "constructo": "Ideación delirante",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Evalúa experiencias de tipo delirante y su malestar, preocupación y convicción asociados.",
+    "use": "Experiencias delirantes"
+  },
+  {
+    "family_id": "cape-42_44",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "CAPE-42",
+    "nombre": "Evaluación Comunitaria de Experiencias Psíquicas",
+    "constructo": "Experiencias perceptivas inusuales",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Explora experiencias psicóticas positivas, negativas y depresivas en población general.",
+    "use": "Tamizaje dimensional"
+  },
+  {
+    "family_id": "panss_45",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "PANSS",
+    "nombre": "Escala de los Síndromes Positivo y Negativo",
+    "constructo": "Desorganización cognitiva y conductual",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (MHS)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Valora síntomas positivos, negativos y psicopatología general en trastornos psicóticos.",
+    "use": "Perfil psicótico"
+  },
+  {
+    "family_id": "c-ssrs_46",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "C-SSRS",
+    "nombre": "Escala Columbia para Evaluar el Riesgo de Suicidio",
+    "constructo": "Ideación y Conducta suicida",
+    "poblacion": "Todas las edades",
+    "franjas": [
+      "niños",
+      "adolescentes",
+      "adultos",
+      "mayores"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Explora ideación, intensidad, conducta suicida y nivel de riesgo en distintos momentos clínicos.",
+    "use": "Evaluación de riesgo"
+  },
+  {
+    "family_id": "bss_47",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "BSS",
+    "nombre": "Escala de Ideación Suicida de Beck",
+    "constructo": "Ideación y Conducta suicida",
+    "poblacion": "",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Pearson)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Ideación y Conducta suicida",
+    "use": "Población general"
+  },
+  {
+    "family_id": "isas_48",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "ISAS",
+    "nombre": "Inventario de Declaraciones sobre Autolesiones",
+    "constructo": "Autolesiones no suicidas",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Indaga frecuencia, métodos y funciones de las autolesiones no suicidas.",
+    "use": "Evaluación de autolesión"
+  },
+  {
+    "family_id": "hcr-20_v3_49",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "HCR-20 v3",
+    "nombre": "Guía de Evaluación del Riesgo de Violencia",
+    "constructo": "Riesgo de violencia",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Requiere manual)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Riesgo de violencia",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "jvq_50",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "JVQ",
+    "nombre": "Cuestionario de Victimización Juvenil",
+    "constructo": "Vulnerabilidad y victimización",
+    "poblacion": "Niños y adolescentes",
+    "franjas": [
+      "niños",
+      "adolescentes"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Registra múltiples formas de victimización y exposición a violencia en jóvenes.",
+    "use": "Historia de victimización"
+  },
+  {
+    "family_id": "rrs_51",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "RRS",
+    "nombre": "Escala de Respuestas Rumiativas",
+    "constructo": "Rumiación",
+    "poblacion": "Adultos y adolescentes",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Rumiación",
+    "use": "Adultos y adolescentes"
+  },
+  {
+    "family_id": "pswq_52",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "PSWQ",
+    "nombre": "Cuestionario de Preocupación del Estado de Pensilvania",
+    "constructo": "Preocupación crónica",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Preocupación crónica",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "ius-12_53",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "IUS-12",
+    "nombre": "Escala de Intolerancia a la Incertidumbre",
+    "constructo": "Intolerancia a la incertidumbre",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Intolerancia a la incertidumbre",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "aaq-ii_54",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "AAQ-II",
+    "nombre": "Cuestionario de Aceptación y Acción II",
+    "constructo": "Rigidez y Flexibilidad cognitiva",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Rigidez y Flexibilidad cognitiva",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "cfi_55",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "CFI",
+    "nombre": "Inventario de Flexibilidad Cognitiva",
+    "constructo": "Rigidez y Flexibilidad cognitiva",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Rigidez y Flexibilidad cognitiva",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "cfq_56",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "CFQ",
+    "nombre": "Cuestionario de Fusión Cognitiva",
+    "constructo": "Fusión cognitiva",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Fusión cognitiva",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "mcq-30_57",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "MCQ-30",
+    "nombre": "Cuestionario de Metacogniciones",
+    "constructo": "Metacogniciones disfuncionales",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Metacogniciones disfuncionales",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "ysq-s3_58",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "YSQ-S3",
+    "nombre": "Cuestionario de Esquemas de Young",
+    "constructo": "Esquemas maladaptativos",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Versión de investigación)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Esquemas maladaptativos",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "ders_59",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "DERS",
+    "nombre": "Escala de Dificultades en la Regulación Emocional",
+    "constructo": "Regulación y Desregulación emocional",
+    "poblacion": "Adultos y adolescentes",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Regulación y Desregulación emocional",
+    "use": "Adultos y adolescentes"
+  },
+  {
+    "family_id": "cerq_60",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "CERQ",
+    "nombre": "Cuestionario de Regulación Cognitiva de las Emociones",
+    "constructo": "Regulación y Desregulación emocional",
+    "poblacion": "Adultos, adolescentes y niños",
+    "franjas": [
+      "niños",
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Regulación y Desregulación emocional",
+    "use": "Adultos, adolescentes y niños"
+  },
+  {
+    "family_id": "leas_61",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "LEAS",
+    "nombre": "Escala de Niveles de Conciencia Emocional",
+    "constructo": "Conciencia emocional",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Manual disponible para investigación)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Conciencia emocional",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "tas-20_62",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "TAS-20",
+    "nombre": "Escala de Alexitimia de Toronto",
+    "constructo": "Claridad emocional y Alexitimia",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Claridad emocional y Alexitimia",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "meaq_63",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "MEAQ",
+    "nombre": "Cuestionario Multidimensional de Evitación Experiencial",
+    "constructo": "Evitación experiencial",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Evitación experiencial",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "bads_64",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "BADS",
+    "nombre": "Escala de Activación Conductual para la Depresión",
+    "constructo": "Activación y Evitación conductual",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Activación y Evitación conductual",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "eros_65",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "EROS",
+    "nombre": "Escala de Observación de Recompensas Ambientales",
+    "constructo": "Activación y Evitación conductual",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Activación y Evitación conductual",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "brief_cope_66",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "Brief COPE",
+    "nombre": "Inventario Breve de Afrontamiento",
+    "constructo": "Exposición y afrontamiento",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Exposición y afrontamiento",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "bis_68",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "BIS/BAS",
+    "nombre": "Escalas del Sistema de Inhibición y Aproximación Conductual",
+    "constructo": "Búsqueda de recompensa",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Búsqueda de recompensa",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "ecr-r_69",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "ECR-R",
+    "nombre": "Experiencias en Relaciones Cercanas - Revisado",
+    "constructo": "Apego",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Apego",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "idi_70",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "IDI",
+    "nombre": "Inventario de Dependencia Interpersonal",
+    "constructo": "Dependencia interpersonal",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Dependencia interpersonal",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "rsq_71",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "RSQ",
+    "nombre": "Cuestionario de Sensibilidad al Rechazo",
+    "constructo": "Sensibilidad al rechazo",
+    "poblacion": "Adultos y universitarios",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Sensibilidad al rechazo",
+    "use": "Adultos y universitarios"
+  },
+  {
+    "family_id": "iip-32_72",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "IIP-32",
+    "nombre": "Inventario de Problemas Interpersonales (Versión Breve)",
+    "constructo": "Comunicación interpersonal y Asertividad",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Comunicación interpersonal y Asertividad",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "ras_73",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "RAS",
+    "nombre": "Escala de Asertividad de Rathus",
+    "constructo": "Comunicación interpersonal y Asertividad",
+    "poblacion": "Adultos y adolescentes",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Comunicación interpersonal y Asertividad",
+    "use": "Adultos y adolescentes"
+  },
+  {
+    "family_id": "ucla-r_74",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "UCLA-R",
+    "nombre": "Escala de Soledad de UCLA Revisada",
+    "constructo": "Soledad y aislamiento social",
+    "poblacion": "Adultos y adolescentes",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Soledad y aislamiento social",
+    "use": "Adultos y adolescentes"
+  },
+  {
+    "family_id": "djgls_75",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "DJGLS",
+    "nombre": "Escala de Soledad de De Jong Gierveld",
+    "constructo": "Soledad y aislamiento social",
+    "poblacion": "Adultos (especialmente mayores)",
+    "franjas": [
+      "adultos",
+      "mayores"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Soledad y aislamiento social",
+    "use": "Adultos (especialmente mayores)"
+  },
+  {
+    "family_id": "neo-pi-r_76",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "NEO-PI-R",
+    "nombre": "Inventario de Personalidad NEO Revisado",
+    "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Licencia comercial)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "bfi-2_77",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "BFI-2",
+    "nombre": "Inventario de los Cinco Grandes 2",
+    "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "hexaco-pi-r_78",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "HEXACO-PI-R",
+    "nombre": "Inventario de Personalidad HEXACO Revisado",
+    "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+    "poblacion": "Adultos y universitarios",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (para uso no comercial e investigación)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+    "use": "Adultos y universitarios"
+  },
+  {
+    "family_id": "tci-r_79",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "TCI-R",
+    "nombre": "Inventario de Temperamento y Carácter Revisado",
+    "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Uso bajo licencia/permiso",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "pid-5_80",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "PID-5",
+    "nombre": "Inventario de Personalidad para el DSM-5",
+    "constructo": "Rasgos Patológicos de Personalidad (Afectividad Negativa, Desapego, Antagonismo, Desinhibición, Psicoticismo)",
+    "poblacion": "Adultos (existe versión PID-5-IRF para adolescentes)",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí (Disponible por la APA para uso clínico e investigación)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Rasgos Patológicos de Personalidad (Afectividad Negativa, Desapego, Antagonismo, Desinhibición, Psicoticismo)",
+    "use": "Adultos (existe versión PID-5-IRF para adolescentes)"
+  },
+  {
+    "family_id": "sd3_81",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "SD3",
+    "nombre": "La Tríada Oscura Corta",
+    "constructo": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "sd4_82",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "SD4",
+    "nombre": "La Tétrada Oscura Corta",
+    "constructo": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "lts_83",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "LTS",
+    "nombre": "Escala de la Tríada Luminosa",
+    "constructo": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "rses_84",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "RSES",
+    "nombre": "Escala de Autoestima de Rosenberg",
+    "constructo": "Autoestima",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Autoestima",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "af-5_85",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "AF-5",
+    "nombre": "Autoconcepto Forma 5",
+    "constructo": "Autoconcepto",
+    "poblacion": "Niños, adolescentes y adultos",
+    "franjas": [
+      "niños",
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "No (TEA Ediciones)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Autoconcepto",
+    "use": "Niños, adolescentes y adultos"
+  },
+  {
+    "family_id": "gse_86",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "GSE",
+    "nombre": "Escala de Autoeficacia General",
+    "constructo": "Autoeficacia",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Autoeficacia",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "sccs_87",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "SCCS",
+    "nombre": "Escala de Claridad del Autoconcepto",
+    "constructo": "Claridad del self",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Claridad del self",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "eom-eis-2_88",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "EOM-EIS-2",
+    "nombre": "Medida Objetiva Extendida del Estatus de Identidad del Ego",
+    "constructo": "Identidad personal",
+    "poblacion": "Adolescentes y adultos jóvenes",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Identidad personal",
+    "use": "Adolescentes y adultos jóvenes"
+  },
+  {
+    "family_id": "pvq_89",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "PVQ",
+    "nombre": "Cuestionario de Valores de Retrato",
+    "constructo": "Valores personales",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí (Para investigación)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Valores personales",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "mlq_90",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "MLQ",
+    "nombre": "Cuestionario de Significado de la Vida",
+    "constructo": "Sentido de vida y Propósito vital",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Sentido de vida y Propósito vital",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "imi_91",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "IMI",
+    "nombre": "Inventario de Motivación Intrínseca",
+    "constructo": "Motivación y Orientación a metas",
+    "poblacion": "Todas las edades",
+    "franjas": [
+      "niños",
+      "adolescentes",
+      "adultos",
+      "mayores"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Motivación y Orientación a metas",
+    "use": "Todas las edades"
+  },
+  {
+    "family_id": "agq-r_92",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "AGQ-R",
+    "nombre": "Cuestionario de Metas de Logro Revisado",
+    "constructo": "Motivación y Orientación a metas",
+    "poblacion": "",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Motivación y Orientación a metas",
+    "use": "Población general"
+  },
+  {
+    "family_id": "aceq_93",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "ACEQ",
+    "nombre": "Cuestionario de Experiencias Adversas en la Infancia",
+    "constructo": "Trauma acumulado y Adversidad temprana",
+    "poblacion": "Adultos (retrospectivo)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Trauma acumulado y Adversidad temprana",
+    "use": "Adultos (retrospectivo)"
+  },
+  {
+    "family_id": "ctq-sf_94",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "CTQ-SF",
+    "nombre": "Cuestionario de Trauma Infantil - Versión Breve",
+    "constructo": "Trauma acumulado y Adversidad temprana",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "No (NCS Pearson)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Trauma acumulado y Adversidad temprana",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "meim_95",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "MEIM",
+    "nombre": "Multigroup Ethnic Identity Measure (Medida Multigrupo de Identidad Étnica)",
+    "constructo": "Identidad étnica (Exploración y Compromiso/Pertenencia)",
+    "poblacion": "Adolescentes y jóvenes",
+    "franjas": [
+      "adolescentes"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Identidad étnica (Exploración y Compromiso/Pertenencia)",
+    "use": "Adolescentes y jóvenes"
+  },
+  {
+    "family_id": "via_96",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "VIA",
+    "nombre": "Índice de Aculturación de Vancouver",
+    "constructo": "Identidad cultural y Aculturación",
+    "poblacion": "Migrantes y minorías étnicas",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Identidad cultural y Aculturación",
+    "use": "Migrantes y minorías étnicas"
+  },
+  {
+    "family_id": "ismi_98",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "ISMI",
+    "nombre": "Escala de Estigma Internalizado de la Enfermedad Mental",
+    "constructo": "Estigma y discriminación",
+    "poblacion": "Pacientes con trastornos psiquiátricos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Estigma y discriminación",
+    "use": "Pacientes con trastornos psiquiátricos"
+  },
+  {
+    "family_id": "eod_99",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "EOD",
+    "nombre": "Escala de Experiencias de Discriminación",
+    "constructo": "Estigma y discriminación",
+    "poblacion": "Adultos y minorías",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Estigma y discriminación",
+    "use": "Adultos y minorías"
+  },
+  {
+    "family_id": "whodas_2.0_100",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "WHODAS 2.0",
+    "nombre": "Cuestionario para la Evaluación de Discapacidad de la OMS 2.0",
+    "constructo": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+    "poblacion": "Adultos (≥18 años)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+    "use": "Adultos (≥18 años)"
+  },
+  {
+    "family_id": "indice_de_barth_101",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "BARTHEL",
+    "nombre": "Índice de Barthel",
+    "constructo": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+    "poblacion": "Pacientes geriátricos o con afectación neurológica",
+    "franjas": [
+      "mayores"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+    "use": "Pacientes geriátricos o con afectación neurológica"
+  },
+  {
+    "family_id": "escala_de_lawton_102",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "Escala de Lawton",
+    "nombre": "Escala de Lawton y Brody",
+    "constructo": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+    "poblacion": "Mayores y pacientes cognitivos",
+    "franjas": [
+      "mayores"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+    "use": "Mayores y pacientes cognitivos"
+  },
+  {
+    "family_id": "chte_103",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "CHTE",
+    "nombre": "Cuestionario de Hábitos y Técnicas de Estudio",
+    "constructo": "Rendimiento académico, Hábitos de estudio y Adaptación escolar",
+    "poblacion": "Estudiantes (Primaria a Secundaria)",
+    "franjas": [
+      "niños",
+      "adolescentes"
+    ],
+    "acceso": "No",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Rendimiento académico, Hábitos de estudio y Adaptación escolar",
+    "use": "Estudiantes (Primaria a Secundaria)"
+  },
+  {
+    "family_id": "basc-3_104",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "BASC-3",
+    "nombre": "Sistema de Evaluación de la Conducta de Niños y Adolescentes (Subescalas de Adaptación)",
+    "constructo": "Rendimiento académico, Hábitos de estudio y Adaptación escolar",
+    "poblacion": "3 a 18 años",
+    "franjas": [
+      "niños",
+      "adolescentes"
+    ],
+    "acceso": "No (Pearson)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Rendimiento académico, Hábitos de estudio y Adaptación escolar",
+    "use": "3 a 18 años"
+  },
+  {
+    "family_id": "mbi_105",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "MBI",
+    "nombre": "Inventario de Burnout de Maslach",
+    "constructo": "Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",
+    "poblacion": "Trabajadores",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Licencia Mind Garden), aunque a menudo usado libremente en investigación con versiones reducidas.",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",
+    "use": "Trabajadores"
+  },
+  {
+    "family_id": "uwes_106",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "UWES",
+    "nombre": "Escala de Engagement en el Trabajo de Utrecht",
+    "constructo": "Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",
+    "poblacion": "Trabajadores",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",
+    "use": "Trabajadores"
+  },
+  {
+    "family_id": "mos-sss_107",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "MOS-SSS",
+    "nombre": "Cuestionario de Apoyo Social del Medical Outcomes Study",
+    "constructo": "Apoyo social y Funcionamiento familiar",
+    "poblacion": "Adultos (frecuente en pacientes crónicos)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Apoyo social y Funcionamiento familiar",
+    "use": "Adultos (frecuente en pacientes crónicos)"
+  },
+  {
+    "family_id": "faces-iv_108",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "FACES-IV",
+    "nombre": "Escala de Cohesión y Adaptabilidad Familiar",
+    "constructo": "Apoyo social y Funcionamiento familiar",
+    "poblacion": "Familias (padres, adolescentes)",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí/Restringido (Manuales disponibles por el autor).",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Apoyo social y Funcionamiento familiar",
+    "use": "Familias (padres, adolescentes)"
+  },
+  {
+    "family_id": "apgar_109",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "APGAR",
+    "nombre": "APGAR Familiar",
+    "constructo": "Apoyo social y Funcionamiento familiar",
+    "poblacion": "Familias, adultos y adolescentes",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Apoyo social y Funcionamiento familiar",
+    "use": "Familias, adultos y adolescentes"
+  },
+  {
+    "family_id": "swls_110",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "SWLS",
+    "nombre": "Escala de Satisfacción con la Vida",
+    "constructo": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+    "poblacion": "Adultos y adolescentes",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+    "use": "Adultos y adolescentes"
+  },
+  {
+    "family_id": "pwb_111",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "PWB",
+    "nombre": "Escalas de Bienestar Psicológico",
+    "constructo": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "fs_112",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "FS",
+    "nombre": "Escala de Florecimiento",
+    "constructo": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "sf-36_113",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "SF-36",
+    "nombre": "Cuestionario de Salud SF-36",
+    "constructo": "Calidad de vida",
+    "poblacion": "Adultos (general y pacientes médicos/psiquiátricos)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí: protocolo en español publicable (formulario difundido por SECOT) y RAND-36 en inglés de dominio público. SF-36v2® comercial no incluido.",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Calidad de vida",
+    "use": "Adultos (general y pacientes médicos/psiquiátricos)"
+  },
+  {
+    "family_id": "whoqol-bref_114",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "WHOQOL-BREF",
+    "nombre": "Cuestionario de Calidad de Vida de la OMS - Versión Breve",
+    "constructo": "Calidad de vida",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Disponible por OMS)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Calidad de vida",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "cd-risc_115",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "CD-RISC",
+    "nombre": "Escala de Resiliencia de Connor-Davidson",
+    "constructo": "Resiliencia, Afrontamiento y Fortalezas",
+    "poblacion": "Adultos y adolescentes",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "No (Licencia controlada por autores), aunque la versión de 10 ítems (CD-RISC 10) es muy accesible en investigación.",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Resiliencia, Afrontamiento y Fortalezas",
+    "use": "Adultos y adolescentes"
+  },
+  {
+    "family_id": "lot-r_116",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "LOT-R",
+    "nombre": "Test de Orientación Vital Revisado (Optimismo)",
+    "constructo": "Resiliencia, Afrontamiento y Fortalezas",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Resiliencia, Afrontamiento y Fortalezas",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "via-is_118",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "VIA-IS",
+    "nombre": "Inventario VIA de Fortalezas Personales",
+    "constructo": "Resiliencia, Afrontamiento y Fortalezas",
+    "poblacion": "Adultos (existe versión VIA-Youth para jóvenes)",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí (Online vía VIA Institute on Character)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Resiliencia, Afrontamiento y Fortalezas",
+    "use": "Adultos (existe versión VIA-Youth para jóvenes)"
+  },
+  {
+    "family_id": "mmse_119",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "MMSE",
+    "nombre": "Mini-Examen del Estado Cognitivo",
+    "constructo": "Cribado Cognitivo Global (Estado Mental)",
+    "poblacion": "Adultos y adultos mayores",
+    "franjas": [
+      "adultos",
+      "mayores"
+    ],
+    "acceso": "No (Copyright vigente de PAR Inc.), aunque históricamente usado de forma muy extendida en la práctica clínica.",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Cribado Cognitivo Global (Estado Mental)",
+    "use": "Adultos y adultos mayores"
+  },
+  {
+    "family_id": "moca_120",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "MoCA",
+    "nombre": "Evaluación Cognitiva de Montreal",
+    "constructo": "Cribado Cognitivo Global (Estado Mental)",
+    "poblacion": "Adultos y adultos mayores",
+    "franjas": [
+      "adultos",
+      "mayores"
+    ],
+    "acceso": "Semilibre (Uso comercial/oficial requiere certificación y pago en la actualidad, pero existen versiones de investigación).",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Cribado Cognitivo Global (Estado Mental)",
+    "use": "Adultos y adultos mayores"
+  },
+  {
+    "family_id": "d2-r_121",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "d2-R",
+    "nombre": "Test de Atención d2-R",
+    "constructo": "Atención (Sostenida, Selectiva, Dividida y Vigilancia)",
+    "poblacion": "8 a 80 años",
+    "franjas": [
+      "niños",
+      "adolescentes",
+      "adultos",
+      "mayores"
+    ],
+    "acceso": "No (Licencia comercial)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Atención (Sostenida, Selectiva, Dividida y Vigilancia)",
+    "use": "8 a 80 años"
+  },
+  {
+    "family_id": "tmt_122",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "TMT",
+    "nombre": "Test del Trazo (Trail Making Test)",
+    "constructo": "Atención (Sostenida, Selectiva, Dividida y Vigilancia)",
+    "poblacion": "Niños, adultos y mayores",
+    "franjas": [
+      "niños",
+      "adultos",
+      "mayores"
+    ],
+    "acceso": "Sí (Dominio público para uso clínico y de investigación, los baremos sí pueden ser comerciales)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Atención (Sostenida, Selectiva, Dividida y Vigilancia)",
+    "use": "Niños, adultos y mayores"
+  },
+  {
+    "family_id": "tavec_123",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "TAVEC",
+    "nombre": "Test de Aprendizaje Verbal de España-Complutense",
+    "constructo": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "No (Comercializado)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "figura_de_rey_124",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "Figura de Rey",
+    "nombre": "Test de Copia de una Figura Compleja",
+    "constructo": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
+    "poblacion": "Niños (figura B) y adultos (figura A)",
+    "franjas": [
+      "niños",
+      "adultos"
+    ],
+    "acceso": "Sí (La figura y criterios de corrección son de amplio acceso en manuales neurológicos, aunque TEA vende protocolos).",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
+    "use": "Niños (figura B) y adultos (figura A)"
+  },
+  {
+    "family_id": "wcst_125",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "WCST",
+    "nombre": "Test de Clasificación de Tarjetas de Wisconsin",
+    "constructo": "Funciones Ejecutivas",
+    "poblacion": "6 a 89 años",
+    "franjas": [
+      "niños",
+      "adolescentes",
+      "adultos",
+      "mayores"
+    ],
+    "acceso": "No (Licencia comercial)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Funciones Ejecutivas",
+    "use": "6 a 89 años"
+  },
+  {
+    "family_id": "stroop_test_126",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "Stroop Test",
+    "nombre": "Test de Colores y Palabras",
+    "constructo": "Funciones Ejecutivas",
+    "poblacion": "Niños y adultos",
+    "franjas": [
+      "niños",
+      "adultos"
+    ],
+    "acceso": "Dominio público (J. R. Stroop, 1935). Reconstrucción axiomática en español.",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Funciones Ejecutivas",
+    "use": "Niños y adultos"
+  },
+  {
+    "family_id": "igt_127",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "IGT",
+    "nombre": "Iowa Gambling Task",
+    "constructo": "Funciones Ejecutivas",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Software disponible gratuitamente en algunas plataformas académicas como PEBL).",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Funciones Ejecutivas",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "brief-2_128",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "BRIEF-2",
+    "nombre": "Evaluación Conductual de la Función Ejecutiva",
+    "constructo": "Funciones Ejecutivas",
+    "poblacion": "5 a 18 años (versión adulto disponible: BRIEF-A)",
+    "franjas": [
+      "niños",
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "No (Licencia comercial)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Funciones Ejecutivas",
+    "use": "5 a 18 años (versión adulto disponible: BRIEF-A)"
+  },
+  {
+    "family_id": "ifs_129",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "IFS",
+    "nombre": "INECO Frontal Screening",
+    "constructo": "Funciones Ejecutivas",
+    "poblacion": "Adultos y adultos mayores",
+    "franjas": [
+      "adultos",
+      "mayores"
+    ],
+    "acceso": "Sí (Disponible en literatura científica)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Funciones Ejecutivas",
+    "use": "Adultos y adultos mayores"
+  },
+  {
+    "family_id": "bnt_130",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "BNT",
+    "nombre": "Test de Denominación de Boston",
+    "constructo": "Comprensión, Expresión y Fluidez Verbal",
+    "poblacion": "Niños, adultos y mayores",
+    "franjas": [
+      "niños",
+      "adultos",
+      "mayores"
+    ],
+    "acceso": "No (Comercial, usualmente incluido en la Evaluación de Afasia de Boston).",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Comprensión, Expresión y Fluidez Verbal",
+    "use": "Niños, adultos y mayores"
+  },
+  {
+    "family_id": "tfv_131",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "TFV",
+    "nombre": "Test de Fluidez Verbal (FAS y Animales)",
+    "constructo": "Comprensión, Expresión y Fluidez Verbal",
+    "poblacion": "Todas las edades",
+    "franjas": [
+      "niños",
+      "adolescentes",
+      "adultos",
+      "mayores"
+    ],
+    "acceso": "Sí (La tarea es de dominio público, sujeta a disponibilidad de baremos locales).",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Comprensión, Expresión y Fluidez Verbal",
+    "use": "Todas las edades"
+  },
+  {
+    "family_id": "rmet_132",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "RMET",
+    "nombre": "Test de Leer la Mente en los Ojos",
+    "constructo": "Cognición Social e Interocepción",
+    "poblacion": "Adultos y adolescentes (existe versión infantil)",
+    "franjas": [
+      "niños",
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí (Disponible por el Autism Research Centre)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Cognición Social e Interocepción",
+    "use": "Adultos y adolescentes (existe versión infantil)"
+  },
+  {
+    "family_id": "maia_133",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "MAIA",
+    "nombre": "Evaluación Multidimensional de la Conciencia Interoceptiva",
+    "constructo": "Cognición Social e Interocepción",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Cognición Social e Interocepción",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "faux_pas_test_134",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "Faux Pas Test",
+    "nombre": "Test de Meteduras de Pata",
+    "constructo": "Cognición Social e Interocepción",
+    "poblacion": "Niños (versión infantil) y adultos",
+    "franjas": [
+      "niños",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Cognición Social e Interocepción",
+    "use": "Niños (versión infantil) y adultos"
+  },
+  {
+    "family_id": "psqi_135",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "PSQI",
+    "nombre": "Índice de Calidad de Sueño de Pittsburgh",
+    "constructo": "Sueño y ritmos circadianos",
+    "poblacion": "Adultos, adultos mayores y adolescentes",
+    "franjas": [
+      "adolescentes",
+      "adultos",
+      "mayores"
+    ],
+    "acceso": "Sí (Licencia abierta para uso clínico y de investigación no comercial)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Sueño y ritmos circadianos",
+    "use": "Adultos, adultos mayores y adolescentes"
+  },
+  {
+    "family_id": "isi_136",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "ISI",
+    "nombre": "Índice de Gravedad del Insomnio",
+    "constructo": "Sueño y ritmos circadianos",
+    "poblacion": "Adultos y adultos mayores",
+    "franjas": [
+      "adultos",
+      "mayores"
+    ],
+    "acceso": "Sí (Uso clínico habitual)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Sueño y ritmos circadianos",
+    "use": "Adultos y adultos mayores"
+  },
+  {
+    "family_id": "ess_137",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "ESS",
+    "nombre": "Escala de Somnolencia de Epworth",
+    "constructo": "Sueño y ritmos circadianos",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Sueño y ritmos circadianos",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "bpi_138",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "BPI",
+    "nombre": "Inventario Breve de Dolor",
+    "constructo": "Dolor, fatiga y síntomas somáticos",
+    "poblacion": "Adultos con dolor clínico o crónico",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Licencia administrada por la Universidad de Texas MD Anderson Cancer Center, pero gratuita para uso clínico e investigación sin financiamiento comercial).",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Dolor, fatiga y síntomas somáticos",
+    "use": "Adultos con dolor clínico o crónico"
+  },
+  {
+    "family_id": "pcs_139",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "PCS",
+    "nombre": "Escala de Catastrofización del Dolor",
+    "constructo": "Dolor, fatiga y síntomas somáticos",
+    "poblacion": "Adultos (población clínica y sana)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Dolor, fatiga y síntomas somáticos",
+    "use": "Adultos (población clínica y sana)"
+  },
+  {
+    "family_id": "fss_140",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "FSS",
+    "nombre": "Escala de Gravedad de la Fatiga",
+    "constructo": "Dolor, fatiga y síntomas somáticos",
+    "poblacion": "Adultos con condiciones médicas (EM, Lupus, fibromialgia, etc.)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí — Duarte et al. (2019), Educación Médica, acceso abierto CC BY-NC-ND.",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Dolor, fatiga y síntomas somáticos",
+    "use": "Adultos con condiciones médicas (EM, Lupus, fibromialgia, etc.)"
+  },
+  {
+    "family_id": "ipaq_141",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "IPAQ",
+    "nombre": "Cuestionario Internacional de Actividad Física",
+    "constructo": "Conductas de salud",
+    "poblacion": "Adolescentes y adultos (15-69 años)",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Conductas de salud",
+    "use": "Adolescentes y adultos (15-69 años)"
+  },
+  {
+    "family_id": "mgl_o_mmas-4_142",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "MGL o MMAS-4",
+    "nombre": "Cuestionario de Adherencia a la Medicación de Morisky-Green-Levine",
+    "constructo": "Conductas de salud",
+    "poblacion": "Adultos con patología crónica",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (La versión original de 4 ítems; la de 8 ítems requiere licencia).",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Conductas de salud",
+    "use": "Adultos con patología crónica"
+  },
+  {
+    "family_id": "bipq_143",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "BIPQ",
+    "nombre": "Cuestionario Breve de Percepción de Enfermedad (incluye IPQ-R como versión anidada)",
+    "constructo": "Enfermedad médica y afrontamiento",
+    "poblacion": "Pacientes con enfermedades agudas o crónicas",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Enfermedad médica y afrontamiento",
+    "use": "Pacientes con enfermedades agudas o crónicas"
+  },
+  {
+    "family_id": "mac_144",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "MAC",
+    "nombre": "Escala de Ajuste Mental al Cáncer",
+    "constructo": "Enfermedad médica y afrontamiento",
+    "poblacion": "Pacientes oncológicos (y adaptaciones para otras enfermedades crónicas)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Bajo copyright de los autores originales, uso clínico restringido).",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Enfermedad médica y afrontamiento",
+    "use": "Pacientes oncológicos (y adaptaciones para otras enfermedades crónicas)"
+  },
+  {
+    "family_id": "hls-eu-q16_145",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "HLS-EU-Q16",
+    "nombre": "Cuestionario Europeo de Alfabetización en Salud - Versión Corta",
+    "constructo": "Alfabetización en salud y relación con el sistema",
+    "poblacion": "Adultos (Población general y clínica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Alfabetización en salud y relación con el sistema",
+    "use": "Adultos (Población general y clínica)"
+  },
+  {
+    "family_id": "sahlsa-50_146",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "SAHLSA-50",
+    "nombre": "Evaluación Breve de Alfabetización en Salud para Adultos de Habla Hispana",
+    "constructo": "Alfabetización en salud y relación con el sistema",
+    "poblacion": "Adultos hispanohablantes",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Alfabetización en salud y relación con el sistema",
+    "use": "Adultos hispanohablantes"
+  },
+  {
+    "family_id": "dex-sp_new1",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "DEX-Sp",
+    "nombre": "Cuestionario Disejecutivo (versión española)",
+    "constructo": "Síntomas disejecutivos conductuales",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (uso académico/investigación)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Síntomas disejecutivos conductuales",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "efeco_new1",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "EFECO",
+    "nombre": "Escala EFECO para Valorar Funciones Ejecutivas",
+    "constructo": "Funciones ejecutivas cotidianas (autoinforme)",
+    "poblacion": "Adultos hispanohablantes",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Funciones ejecutivas cotidianas (autoinforme)",
+    "use": "Adultos hispanohablantes"
+  },
+  {
+    "family_id": "mfe_new1",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "MFE",
+    "nombre": "Cuestionario de Fallos de Memoria de la Vida Cotidiana",
+    "constructo": "Fallos de memoria cotidiana (metamemoria)",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Fallos de memoria cotidiana (metamemoria)",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "cfq_new1",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "CFQ-Fallos",
+    "nombre": "Cognitive Failures Questionnaire (Cuestionario de Fallos Cognitivos)",
+    "constructo": "Fallos cognitivos cotidianos",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Fallos cognitivos cotidianos",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "prsexdq_new1",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "PRSexDQ-SALSEX",
+    "nombre": "Cuestionario de Disfunción Sexual Secundaria al Tratamiento con Psicofármacos",
+    "constructo": "Salud sexual (disfunción inducida por fármacos)",
+    "poblacion": "Adultos en tratamiento psicofarmacológico",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Salud sexual (disfunción inducida por fármacos)",
+    "use": "Adultos en tratamiento psicofarmacológico"
+  },
+  {
+    "family_id": "sisses_new1",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "SIS/SES-SF",
+    "nombre": "Sexual Inhibition/Sexual Excitation Scales — Short Form",
+    "constructo": "Salud sexual (propensión a inhibición/excitación)",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Salud sexual (propensión a inhibición/excitación)",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "meqsa_new1",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "MEQ-SA",
+    "nombre": "Cuestionario de Matutinidad-Vespertinidad de Horne y Östberg (versión española)",
+    "constructo": "Cronotipo/ritmo circadiano",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (uso no comercial)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Cronotipo/ritmo circadiano",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "stopbang_new1",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "STOP-Bang",
+    "nombre": "Cuestionario STOP-Bang",
+    "constructo": "Riesgo de apnea del sueño",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Riesgo de apnea del sueño",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "csi_new1",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "CSI",
+    "nombre": "Inventario de Sensibilización Central",
+    "constructo": "Sensibilización central y carga de síntomas",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Sensibilización central y carga de síntomas",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "ftnd_new1",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "FTND",
+    "nombre": "Test de Fagerström de Dependencia de la Nicotina",
+    "constructo": "Tabaco",
+    "poblacion": "Adultos fumadores",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Tabaco",
+    "use": "Adultos fumadores"
+  },
+  {
+    "family_id": "semcds_new1",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "SEMCD-S",
+    "nombre": "Spanish Chronic Disease Self-Efficacy Scale",
+    "constructo": "Autoeficacia/autocuidado en enfermedad crónica",
+    "poblacion": "Adultos con enfermedad crónica",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (libre uso, Stanford Self-Management Resource Center)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Autoeficacia/autocuidado en enfermedad crónica",
+    "use": "Adultos con enfermedad crónica"
+  },
+  {
+    "family_id": "eheals_new1",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "eHEALS",
+    "nombre": "eHealth Literacy Scale",
+    "constructo": "Alfabetización digital en salud",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (CC-BY, original en inglés)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Alfabetización digital en salud",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "cremp_new1",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "CREM-P",
+    "nombre": "Cuestionario de Relaciones Médico-Paciente (adaptación española del PDRQ)",
+    "constructo": "Relación paciente-profesional",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (acceso abierto)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Relación paciente-profesional",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "bsq_new1",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "BSQ",
+    "nombre": "Body Shape Questionnaire (Cuestionario sobre la Forma Corporal)",
+    "constructo": "Insatisfacción con la forma y figura corporal",
+    "poblacion": "Adultas (validación original en mujeres)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Insatisfacción con la forma y figura corporal",
+    "use": "Adultas (validación original en mujeres)"
+  },
+  {
+    "family_id": "mba_new1",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "MBA",
+    "nombre": "Measure of Body Apperception (Medida de Percepción del Cuerpo)",
+    "constructo": "Dependencia de la autoestima respecto a la apariencia/integridad corporal",
+    "poblacion": "Adultos (desarrollado en mujeres con cáncer de mama en etapa temprana)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Dependencia de la autoestima respecto a la apariencia/integridad corporal",
+    "use": "Adultos (desarrollado en mujeres con cáncer de mama en etapa temprana)"
+  },
+  {
+    "family_id": "ersq_new1",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "ERSQ",
+    "nombre": "Emotion-Regulation Skills Questionnaire (Cuestionario de Habilidades de Regulación Emocional)",
+    "constructo": "Habilidades específicas de regulación emocional (modelo ACE)",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Habilidades específicas de regulación emocional (modelo ACE)",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "ers_147",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "ERS",
+    "nombre": "Escala para Evaluar el Riesgo Suicida",
+    "constructo": "Riesgo suicida (desesperanza, ideacion/planeacion, aislamiento social, apoyo familiar)",
+    "poblacion": "Adolescentes (desde 12 anos) y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Si",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Apoya la exploración estructurada de factores asociados al riesgo de conducta violenta.",
+    "use": "Valoración de riesgo"
+  },
+  {
+    "family_id": "ip_148",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "IP",
+    "nombre": "Inventario de Padua (Padua Inventory)",
+    "constructo": "Sintomatologia obsesivo-compulsiva (perdida de control mental, contaminacion, comprobacion, impulsos)",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Si",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Evalúa pensamientos intrusivos, impulsos, comprobación, contaminación y compulsiones.",
+    "use": "Síntomas obsesivos"
+  },
+  {
+    "family_id": "bsl23_149",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "BSL-23",
+    "nombre": "Borderline Symptom List-23",
+    "constructo": "Sintomatologia limite (TLP): afecto negativo, autoimagen, autodestruccion, impulsividad, disociacion",
+    "poblacion": "Adolescentes y adultos con sospecha o diagnostico de TLP",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Si",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Cuantifica el malestar y los síntomas asociados al trastorno límite de la personalidad.",
+    "use": "Monitoreo sintomático"
+  },
+  {
+    "family_id": "cubi18_150",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "CUBI-18",
+    "nombre": "Cuestionario de Urgencia, Busqueda de Sensaciones e Impulsividad-18",
+    "constructo": "Impulsividad (urgencia compulsiva, busqueda de sensaciones, imprevision)",
+    "poblacion": "Adultos 18-65 anos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Si",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Indaga experiencias vinculadas con intimidación, victimización y violencia entre pares.",
+    "use": "Detección de bullying"
+  },
+  {
+    "family_id": "egsr_151",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "EGS-R",
+    "nombre": "Escala de Gravedad de Sintomas del TEPT-Revisada",
+    "constructo": "Gravedad de sintomas de TEPT segun DSM-5 (intrusion, evitacion, cognicion/animo, hiperactivacion, disociacion, disfuncionalidad)",
+    "poblacion": "Adultos expuestos a sucesos traumaticos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Si",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Explora síntomas de estrés postraumático y afectación asociada tras un evento traumático.",
+    "use": "Evaluación postraumática"
+  },
+  {
+    "family_id": "sias_152",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SIAS",
+    "nombre": "Escala de Ansiedad ante la Interaccion Social",
+    "constructo": "Ansiedad ante la interaccion social directa",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Si",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Mide temor y malestar durante interacciones y encuentros sociales.",
+    "use": "Ansiedad social"
+  },
+  {
+    "family_id": "sads_153",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SADS",
+    "nombre": "Escala de Estres y Evitacion Social (Social Avoidance and Distress Scale)",
+    "constructo": "Malestar subjetivo y evitacion conductual en situaciones sociales",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Si",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Explora malestar y evitación en situaciones de interacción social.",
+    "use": "Ansiedad social"
+  },
+  {
+    "family_id": "pss14_155",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "PSS-14",
+    "nombre": "Escala de Estres Percibido (version de 14 items)",
+    "constructo": "Estres psicologico percibido (incontrolabilidad, autoeficacia/afrontamiento)",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "Si",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Evalúa estrés percibido mediante la versión extensa de catorce reactivos.",
+    "use": "Evaluación de estrés"
+  },
+  {
+    "family_id": "cae_156",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "CAE",
+    "nombre": "Cuestionario de Afrontamiento del Estres",
+    "constructo": "Estrategias de afrontamiento del estres",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No verificado",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Estrategias de afrontamiento del estres",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "eas_157",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "EAS",
+    "nombre": "Escala de Apoyo Social",
+    "constructo": "Apoyo social percibido (familiar y de amistades)",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "No verificado",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Apoyo social percibido (familiar y de amistades)",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "erq_158",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "ERQ",
+    "nombre": "Emotion Regulation Questionnaire - Cuestionario de Autorregulacion Emocional",
+    "constructo": "Regulacion emocional (reevaluacion cognitiva, supresion expresiva)",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Si (traduccion autorizada por autores originales)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Regulacion emocional (reevaluacion cognitiva, supresion expresiva)",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "fmps_159",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "FMPS",
+    "nombre": "Escala Multidimensional de Perfeccionismo",
+    "constructo": "Perfeccionismo multidimensional",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No verificado",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Perfeccionismo multidimensional",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "panas_161",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "PANAS",
+    "nombre": "Escala de Afecto Positivo y Negativo",
+    "constructo": "Afecto positivo y negativo",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No verificado",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Afecto positivo y negativo",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "rs14_162",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "RS-14",
+    "nombre": "Escala de Resiliencia de 14 items",
+    "constructo": "Resiliencia",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No verificado (instrumento comercial)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Resiliencia",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "tmms24_163",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "TMMS-24",
+    "nombre": "Trait Meta-Mood Scale-24",
+    "constructo": "Inteligencia emocional percibida (atencion, claridad, reparacion)",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adolescentes",
+      "adultos"
+    ],
+    "acceso": "No verificado",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Inteligencia emocional percibida (atencion, claridad, reparacion)",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "beaq_164",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "BEAQ",
+    "nombre": "Brief Experiential Avoidance Questionnaire",
+    "constructo": "Evitacion experiencial",
+    "poblacion": "Adultos (muestra clinica de validacion)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No verificado",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Evitacion experiencial",
+    "use": "Adultos (muestra clinica de validacion)"
+  },
+  {
+    "family_id": "vq_165",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "VQ",
+    "nombre": "Valuing Questionnaire",
+    "constructo": "Vida valiosa (Progreso vs Obstruccion) segun valores personales",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Si, con restriccion de uso no comercial y sin obras derivadas",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Vida valiosa (Progreso vs Obstruccion) segun valores personales",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "psyflex_166",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "Psy-Flex",
+    "nombre": "Cuestionario Psy-Flex (flexibilidad psicologica)",
+    "constructo": "Flexibilidad psicologica (presencia, apertura, defusion, yo estable, valores, compromiso)",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Apertura academica declarada, licencia exacta no verificada",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Flexibilidad psicologica (presencia, apertura, defusion, yo estable, valores, compromiso)",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "cope48_167",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "COPE-48",
+    "nombre": "Versión española del COPE-48 (adaptación clínica del COPE Inventory)",
+    "constructo": "Afrontamiento (coping), 9 escalas clínicas",
+    "poblacion": "Adultos (validado en población psiquiátrica ambulatoria)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Afrontamiento (coping), 9 escalas clínicas",
+    "use": "Adultos (validado en población psiquiátrica ambulatoria)"
+  },
+  {
+    "family_id": "ffmq-sf_168",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "FFMQ-SF",
+    "nombre": "Cuestionario de Cinco Facetas de Mindfulness - Forma Corta",
+    "constructo": "Mindfulness y regulacion emocional (5 facetas: observar, describir, actuar con consciencia, no juzgar, no reactividad)",
+    "poblacion": "Adultos (poblacion general y laboral)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Si (Open Access, CC BY 4.0)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Mindfulness y regulacion emocional (5 facetas: observar, describir, actuar con consciencia, no juzgar, no reactividad)",
+    "use": "Adultos (poblacion general y laboral)"
+  },
+  {
+    "family_id": "scs_169",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "SCS",
+    "nombre": "Escala de Autocompasión (Self-Compassion Scale - Formas de 26 y 12 ítems)",
+    "constructo": "Autocompasión y regulación afectiva (3 polaridades / 6 subescalas)",
+    "poblacion": "Adultos (universitarios y profesionales sanitarios)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Si (Open Access, CC BY 2.0)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Autocompasión y regulación afectiva (3 polaridades / 6 subescalas)",
+    "use": "Adultos (universitarios y profesionales sanitarios)"
+  },
+  {
+    "family_id": "ras-h_170",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "RAS-H",
+    "nombre": "Escala de Valoración de la Relación (Relationship Assessment Scale - Hendrick)",
+    "constructo": "Satisfacción diádica y calidad de la relación de pareja",
+    "poblacion": "Adultos en pareja (matrimonio o unión libre)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Si",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Satisfacción diádica y calidad de la relación de pareja",
+    "use": "Adultos en pareja (matrimonio o unión libre)"
+  },
+  {
+    "family_id": "mec_171",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "MEC",
+    "nombre": "Mini-Examen Cognoscitivo de Lobo",
+    "constructo": "Cribado cognitivo global",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "A verificar (adapt. española de MMSE, uso clínico extendido)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Cribado cognitivo global",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "adascog_172",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "ADAS-Cog",
+    "nombre": "Alzheimer's Disease Assessment Scale - Cognitiva",
+    "constructo": "Deterioro cognitivo en demencia",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Restringido (uso bajo licencia en ensayos clínicos)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Deterioro cognitivo en demencia",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "bprs_173",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "BPRS",
+    "nombre": "Brief Psychiatric Rating Scale",
+    "constructo": "Psicopatología general (heteroaplicada)",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Público (Overall & Gorham 1962)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Psicopatología general (heteroaplicada)",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "sips_174",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SIPS",
+    "nombre": "Entrevista Estructurada para Síndromes Prodrómicos",
+    "constructo": "Riesgo de psicosis",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, requiere permiso de autores (Yale PRIME)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Riesgo de psicosis",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "sops_175",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SOPS",
+    "nombre": "Scale of Prodromal Syndromes",
+    "constructo": "Síntomas prodrómicos de psicosis",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, requiere permiso (Yale PRIME)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Síntomas prodrómicos de psicosis",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "sumd_176",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SUMD",
+    "nombre": "Scale to Assess Unawareness of Mental Disorder",
+    "constructo": "Insight/conciencia de enfermedad",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico (Amador)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Insight/conciencia de enfermedad",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "oas_177",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "OAS",
+    "nombre": "Overt Aggression Scale",
+    "constructo": "Agresividad manifiesta observada",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Público (Yudofsky et al. 1986)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Agresividad manifiesta observada",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "madrs_178",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "MADRS",
+    "nombre": "Montgomery-Asberg Depression Rating Scale",
+    "constructo": "Severidad depresiva (heteroaplicada)",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Público/libre uso académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Severidad depresiva (heteroaplicada)",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "gds_179",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "GDS",
+    "nombre": "Geriatric Depression Scale (Yesavage, 30 items)",
+    "constructo": "Depresión en adultos mayores",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Público",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Depresión en adultos mayores",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "cds_180",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "CDS",
+    "nombre": "Calgary Depression Scale for Schizophrenia",
+    "constructo": "Depresión en esquizofrenia",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, libre para uso clínico/investigación",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Depresión en esquizofrenia",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "mdq_181",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "MDQ",
+    "nombre": "Mood Disorder Questionnaire",
+    "constructo": "Cribado de espectro bipolar",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Público (Hirschfeld, uso libre no comercial)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Cribado de espectro bipolar",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "ymrs_182",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "YMRS",
+    "nombre": "Young Mania Rating Scale",
+    "constructo": "Severidad de manía",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Público/libre uso académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Severidad de manía",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "evmac_183",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "EVMAC",
+    "nombre": "Escala para la Valoración de la Manía por Clínicos",
+    "constructo": "Severidad de manía (heteroaplicada)",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "A verificar",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Severidad de manía (heteroaplicada)",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "mas_184",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "MAS",
+    "nombre": "Escala de Manía de Bech-Rafaelsen",
+    "constructo": "Severidad de manía",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, libre uso",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Severidad de manía",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "rfl_185",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "RFL",
+    "nombre": "Reasons for Living Inventory (Linehan)",
+    "constructo": "Factores protectores frente al suicidio",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, libre uso investigación/clínica",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Factores protectores frente al suicidio",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "rvplutchik_186",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "RV-Plutchik",
+    "nombre": "Escala de Riesgo de Violencia de Plutchik",
+    "constructo": "Riesgo de violencia autodirigida",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, libre uso",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Riesgo de violencia autodirigida",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "eiplutchik_187",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "EI-Plutchik",
+    "nombre": "Escala de Impulsividad de Plutchik",
+    "constructo": "Impulsividad",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, libre uso",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Impulsividad",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "spin_188",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SPIN",
+    "nombre": "Social Phobia Inventory",
+    "constructo": "Fobia social",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, libre uso",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Fobia social",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "bsps_189",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "BSPS",
+    "nombre": "Brief Social Phobia Scale (Davidson)",
+    "constructo": "Fobia social (heteroaplicada)",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, libre uso",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Fobia social (heteroaplicada)",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "bsa_190",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "BSA",
+    "nombre": "Brief Scale for Anxiety (Tyrer)",
+    "constructo": "Ansiedad general (heteroaplicada)",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Público",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Ansiedad general (heteroaplicada)",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "tq_191",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "TQ",
+    "nombre": "Trauma Questionnaire",
+    "constructo": "Exposición a eventos traumáticos",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Exposición a eventos traumáticos",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "dgrp_192",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "DGRP",
+    "nombre": "Duke Global Rating Scale for PTSD",
+    "constructo": "Cambio global en TEPT",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Cambio global en TEPT",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "dai_193",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "DAI",
+    "nombre": "¡OJO! Archivo etiquetado DAI contiene la PANSS completa",
+    "constructo": "Psicopatología general (positiva/negativa)",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Restringido (PANSS es comercial, MHS)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Psicopatología general (positiva/negativa)",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "bdhi_194",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "BDHI",
+    "nombre": "Buss-Durkee Hostility Inventory",
+    "constructo": "Hostilidad/agresividad",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico clásico, uso extendido",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Hostilidad/agresividad",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "malt_195",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "MALT",
+    "nombre": "Münchner Alkoholismustest",
+    "constructo": "Diagnóstico de alcoholismo",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Diagnóstico de alcoholismo",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "isca_196",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "ISCA",
+    "nombre": "Interrogatorio Sistematizado de Consumos Alcohólicos",
+    "constructo": "Consumo de alcohol",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Consumo de alcohol",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "europasi_197",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "EuropASI",
+    "nombre": "Índice Europeo de Gravedad de la Adicción",
+    "constructo": "Gravedad multidimensional de adicción",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, libre uso investigación/clínica",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Gravedad multidimensional de adicción",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "sadq_198",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SADQ",
+    "nombre": "Severity of Alcohol Dependence Questionnaire",
+    "constructo": "Severidad de dependencia alcohólica",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Severidad de dependencia alcohólica",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "eida_199",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "EIDA",
+    "nombre": "Escala de la Intensidad de la Dependencia al Alcohol",
+    "constructo": "Dependencia alcohólica",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Dependencia alcohólica",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "ocds_200",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "OCDS",
+    "nombre": "Obsessive Compulsive Drinking Scale",
+    "constructo": "Craving/compulsión por alcohol",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Craving/compulsión por alcohol",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "edi2_201",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "EDI-2",
+    "nombre": "Inventario de Trastornos de la Conducta Alimentaria-2",
+    "constructo": "Conducta alimentaria",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Restringido (Garner/PAR)",
+    "descargable": false,
+    "archivos": [
+      "Ficha_Tecnica.pdf"
+    ],
+    "description": "Conducta alimentaria",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "bite_202",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "BITE",
+    "nombre": "Bulimic Investigatory Test Edinburgh",
+    "constructo": "Síntomas bulímicos",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Síntomas bulímicos",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "cos_203",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "COS",
+    "nombre": "Cuestionario Oviedo de Calidad del Sueño",
+    "constructo": "Calidad del sueño",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, libre uso",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Calidad del sueño",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "csfq_204",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "CSFQ",
+    "nombre": "Changes in Sexual Functioning Questionnaire",
+    "constructo": "Funcionamiento sexual",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Funcionamiento sexual",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "iief_205",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "IIEF",
+    "nombre": "Índice Internacional de Función Eréctil",
+    "constructo": "Función eréctil",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, libre uso clínico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Función eréctil",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "mghsfq_206",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "MGH-SFQ",
+    "nombre": "Massachusetts General Hospital Sexual Functioning Q.",
+    "constructo": "Funcionamiento sexual",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Funcionamiento sexual",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "asex_207",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "ASEX",
+    "nombre": "Arizona Sexual Experience Scale",
+    "constructo": "Funcionamiento sexual",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, libre uso",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Funcionamiento sexual",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "bwsq_208",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "BWSQ",
+    "nombre": "Benzodiazepine Withdrawal Symptom Questionnaire",
+    "constructo": "Abstinencia de benzodiacepinas",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Abstinencia de benzodiacepinas",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "sas_209",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "SAS",
+    "nombre": "Simpson-Angus Scale",
+    "constructo": "Parkinsonismo/extrapiramidalismo inducido",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, libre uso clínico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Parkinsonismo/extrapiramidalismo inducido",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "uku_210",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "UKU",
+    "nombre": "UKU Side Effect Rating Scale",
+    "constructo": "Efectos secundarios de psicofármacos",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Efectos secundarios de psicofármacos",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "eeaggaf_211",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "EEAG-GAF",
+    "nombre": "Escala de Evaluación de la Actividad Global",
+    "constructo": "Funcionamiento global (eje V del DSM-IV)",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Público (derivado de criterios DSM)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Funcionamiento global (eje V del DSM-IV)",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "sdi_212",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "SDI",
+    "nombre": "Sheehan Disability Inventory",
+    "constructo": "Discapacidad funcional",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, libre uso",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Discapacidad funcional",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "sass_213",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "SASS",
+    "nombre": "Social Adaptation Self-evaluation Scale",
+    "constructo": "Adaptación social",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Adaptación social",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "qls_214",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "QLS",
+    "nombre": "Quality of Life Scale (Heinrichs)",
+    "constructo": "Calidad de vida en esquizofrenia",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Calidad de vida en esquizofrenia",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "cscv_215",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "CSCV",
+    "nombre": "Cuestionario Sevilla de Calidad de Vida",
+    "constructo": "Calidad de vida",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Calidad de vida",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "qlds_216",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "QLDS",
+    "nombre": "Quality of Life Depression Scale",
+    "constructo": "Calidad de vida en depresión",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, licencia de autor",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Calidad de vida en depresión",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "adrql_217",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "ADRQL",
+    "nombre": "Alzheimer's Disease Related Quality of Life",
+    "constructo": "Calidad de vida en demencia",
+    "poblacion": "Adultos (ver Ficha_Tecnica)",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Calidad de vida en demencia",
+    "use": "Adultos (ver Ficha_Tecnica)"
+  },
+  {
+    "family_id": "npi-n_218",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "NPI-N",
+    "nombre": "Narcissistic Personality Inventory",
+    "constructo": "Rasgos de personalidad narcisista",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, uso libre investigación (sin traducción española verificada)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Rasgos de personalidad narcisista",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "aim-a_219",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "AIM-A",
+    "nombre": "Affect Intensity Measure",
+    "constructo": "Intensidad de la reactividad afectiva",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, uso libre investigación (sin traducción española verificada)",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Intensidad de la reactividad afectiva",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "top-8_220",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "TOP-8",
+    "nombre": "Escala de 8 ítems para los Resultados del Tratamiento del TEPT",
+    "constructo": "Respuesta al tratamiento en TEPT",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Académico, descarga oficial gratuita CIBERSAM",
+    "descargable": true,
+    "archivos": [
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
+    ],
+    "description": "Respuesta al tratamiento en TEPT",
+    "use": "Adultos"
+  }
+]

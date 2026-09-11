@@ -1,0 +1,73 @@
+poblacion_original,franjas,revisar
+,adultos,1
+3 a 18 años,niños;adolescentes,0
+5 a 18 años (versión adulto disponible: BRIEF-A),niños;adolescentes;adultos,0
+6 a 89 años,niños;adolescentes;adultos;mayores,0
+8 a 80 años,niños;adolescentes;adultos;mayores,0
+Adolescentes (>13 años) y adultos,adolescentes;adultos,0
+Adolescentes (>16 años) y adultos,adolescentes;adultos,0
+Adolescentes (desde 12 anos) y adultos,adolescentes;adultos,0
+Adolescentes y adultos,adolescentes;adultos,0
+Adolescentes y adultos (15-69 años),adolescentes;adultos,0
+Adolescentes y adultos con sospecha o diagnostico de TLP,adolescentes;adultos,0
+Adolescentes y adultos jóvenes,adolescentes;adultos,0
+Adolescentes y jóvenes,adolescentes,0
+Adultas (validación original en mujeres),adultos,0
+Adultos,adultos,0
+Adultos (Población general y clínica),adultos,0
+Adultos (contexto clínico y forense),adultos,0
+Adultos (desarrollado en mujeres con cáncer de mama en etapa temprana),adultos,0
+Adultos (especialmente mayores),adultos;mayores,0
+Adultos (existe versión PID-5-IRF para adolescentes),adolescentes;adultos,0
+Adultos (existe versión VIA-Youth para jóvenes),adolescentes;adultos,0
+Adultos (existe versión infantil: CY-BOCS),niños;adultos,0
+Adultos (frecuente en pacientes crónicos),adultos,0
+Adultos (general y clínica no reclusa),adultos,0
+Adultos (general y pacientes médicos/psiquiátricos),adultos,0
+Adultos (muestra clinica de validacion),adultos,0
+"Adultos (originalmente en contexto hospitalario/médico, luego general)",adultos,0
+Adultos (poblacion general y laboral),adultos,0
+Adultos (población clínica y sana),adultos,0
+Adultos (retrospectivo),adultos,0
+Adultos (universitarios y profesionales sanitarios),adultos,0
+Adultos (validado en población psiquiátrica ambulatoria),adultos,0
+Adultos (ver Ficha_Tecnica),adultos,0
+Adultos (≥18 años),adultos,0
+Adultos 18-65 anos,adultos,0
+"Adultos con condiciones médicas (EM, Lupus, fibromialgia, etc.)",adultos,0
+Adultos con dolor clínico o crónico,adultos,0
+Adultos con enfermedad crónica,adultos,0
+Adultos con patología crónica,adultos,0
+Adultos en pareja (matrimonio o unión libre),adultos,0
+Adultos en tratamiento psicofarmacológico,adultos,0
+Adultos expuestos a sucesos traumaticos,adultos,0
+Adultos fumadores,adultos,0
+Adultos hispanohablantes,adultos,0
+Adultos y adolescentes,adolescentes;adultos,0
+Adultos y adolescentes (>13 años),adolescentes;adultos,0
+Adultos y adolescentes (existe versión infantil),niños;adolescentes;adultos,0
+Adultos y adultos mayores,adultos;mayores,0
+Adultos y minorías,adultos,0
+Adultos y universitarios,adultos,0
+"Adultos, adolescentes y niños",niños;adolescentes;adultos,0
+"Adultos, adultos mayores y adolescentes",adolescentes;adultos;mayores,0
+Estudiantes (Primaria a Secundaria),niños;adolescentes,0
+"Familias (padres, adolescentes)",adolescentes;adultos,0
+"Familias, adultos y adolescentes",adolescentes;adultos,0
+Mayores y pacientes cognitivos,mayores,0
+Migrantes y minorías étnicas,adultos,1
+Niños (figura B) y adultos (figura A),niños;adultos,0
+Niños (versión infantil) y adultos,niños;adultos,0
+Niños y adolescentes,niños;adolescentes,0
+Niños y adolescentes (1.5-5 años y 6-18 años),niños;adolescentes,0
+Niños y adolescentes (3-16 años),niños;adolescentes,0
+Niños y adultos,niños;adultos,0
+"Niños, adolescentes y adultos",niños;adolescentes;adultos,0
+"Niños, adolescentes y jóvenes adultos",niños;adolescentes;adultos,0
+"Niños, adultos y mayores",niños;adultos;mayores,0
+Pacientes con enfermedades agudas o crónicas,adultos,1
+Pacientes con trastornos psiquiátricos,adultos,1
+Pacientes geriátricos o con afectación neurológica,mayores,0
+Pacientes oncológicos (y adaptaciones para otras enfermedades crónicas),adultos,1
+Todas las edades,niños;adolescentes;adultos;mayores,0
+Trabajadores,adultos,0
