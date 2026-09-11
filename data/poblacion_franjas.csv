@@ -1,5 +1,5 @@
 poblacion_original,franjas,revisar
-,adultos,1
+,adolescentes;adultos;mayores,0
 3 a 18 años,niños;adolescentes,0
 5 a 18 años (versión adulto disponible: BRIEF-A),niños;adolescentes;adultos,0
 6 a 89 años,niños;adolescentes;adultos;mayores,0
@@ -55,7 +55,7 @@ Estudiantes (Primaria a Secundaria),niños;adolescentes,0
 "Familias (padres, adolescentes)",adolescentes;adultos,0
 "Familias, adultos y adolescentes",adolescentes;adultos,0
 Mayores y pacientes cognitivos,mayores,0
-Migrantes y minorías étnicas,adultos,1
+Migrantes y minorías étnicas,adultos,0
 Niños (figura B) y adultos (figura A),niños;adultos,0
 Niños (versión infantil) y adultos,niños;adultos,0
 Niños y adolescentes,niños;adolescentes,0
@@ -65,9 +65,9 @@ Niños y adultos,niños;adultos,0
 "Niños, adolescentes y adultos",niños;adolescentes;adultos,0
 "Niños, adolescentes y jóvenes adultos",niños;adolescentes;adultos,0
 "Niños, adultos y mayores",niños;adultos;mayores,0
-Pacientes con enfermedades agudas o crónicas,adultos,1
-Pacientes con trastornos psiquiátricos,adultos,1
+Pacientes con enfermedades agudas o crónicas,adultos;mayores,0
+Pacientes con trastornos psiquiátricos,adultos,0
 Pacientes geriátricos o con afectación neurológica,mayores,0
-Pacientes oncológicos (y adaptaciones para otras enfermedades crónicas),adultos,1
+Pacientes oncológicos (y adaptaciones para otras enfermedades crónicas),adultos;mayores,0
 Todas las edades,niños;adolescentes;adultos;mayores,0
 Trabajadores,adultos,0

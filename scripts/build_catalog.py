@@ -8,6 +8,7 @@ Lee BASE_INSTRUMENTAL_FINAL/CATALOGO_MAESTRO.csv y genera:
 """
 
 import os
+import sys
 import csv
 import json
 import shutil
@@ -163,25 +164,57 @@ def main():
     eje1_desc, eje1_use = EJE1_DESCRIPTIONS, EJE1_USES
     print(f'Metadatos existentes de Eje 1 cargados: {len(eje1_desc)}')
     
-    # Preparamos data/poblacion_franjas.csv
-    unique_pobs = sorted(list(set(r['poblacion'].strip() for r in rows)))
-    pob_csv_rows = []
-    for p in unique_pobs:
-        frs, rev = map_franjas(p)
-        pob_csv_rows.append({
-            'poblacion_original': p,
-            'franjas': ';'.join(frs),
-            'revisar': rev
-        })
-    
     data_dir = os.path.join(REPO_DIR, 'data')
     os.makedirs(data_dir, exist_ok=True)
+    
+    # 1. Cargar mapeo aprobado de población -> franjas
     pob_csv_path = os.path.join(data_dir, 'poblacion_franjas.csv')
-    with open(pob_csv_path, 'w', encoding='utf-8', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=['poblacion_original', 'franjas', 'revisar'], lineterminator='\n')
-        writer.writeheader()
-        writer.writerows(pob_csv_rows)
-    print(f'Guardado: {pob_csv_path} ({len(pob_csv_rows)} filas)')
+    pob_franjas_map = {}
+    if os.path.exists(pob_csv_path):
+        with open(pob_csv_path, 'r', encoding='utf-8') as f:
+            for row in csv.DictReader(f):
+                pob_franjas_map[row['poblacion_original'].strip()] = [x.strip() for x in row['franjas'].split(';') if x.strip()]
+        print(f'Mapeo de población cargado desde {pob_csv_path}: {len(pob_franjas_map)} entradas.')
+    else:
+        print('Aviso: no se encontró poblacion_franjas.csv, se usará mapeo heurístico.')
+    
+    # 2. Cargar mapeo aprobado de constructo -> tema
+    temas_csv_path = os.path.join(data_dir, 'temas.csv')
+    if not os.path.exists(temas_csv_path):
+        print(f'[ERROR CRÍTICO] Archivo de temas no encontrado: {temas_csv_path}')
+        sys.exit(1)
+        
+    constructo_to_tema = {}
+    with open(temas_csv_path, 'r', encoding='utf-8') as f:
+        for row in csv.DictReader(f):
+            c = row['constructo'].strip()
+            t = (row.get('tema') or row.get('tema_final') or '').strip()
+            if t:
+                constructo_to_tema[c] = t
+    print(f'Mapeo de temas cargado desde {temas_csv_path}: {len(constructo_to_tema)} constructos clasificados.')
+    
+    # 3. Cargar mapeo aprobado de tema -> sinónimos
+    sinonimos_csv_path = os.path.join(data_dir, 'temas_sinonimos.csv')
+    tema_to_sinonimos = {}
+    if os.path.exists(sinonimos_csv_path):
+        with open(sinonimos_csv_path, 'r', encoding='utf-8') as f:
+            for row in csv.DictReader(f):
+                t = row['tema'].strip()
+                s = row['sinonimos'].strip()
+                tema_to_sinonimos[t] = s
+        print(f'Sinónimos cargados desde {sinonimos_csv_path}: {len(tema_to_sinonimos)} temas con términos de búsqueda.')
+    
+    # Validar que ningún constructo del catálogo maestro quede sin tema
+    sin_tema = []
+    for r in rows:
+        c = r['constructo'].strip()
+        if c not in constructo_to_tema or not constructo_to_tema[c]:
+            sin_tema.append((r['sigla'].strip(), c))
+    if sin_tema:
+        print(f'[ERROR COMPILACIÓN] Hay {len(sin_tema)} familias cuyo constructo no tiene tema:')
+        for sig, c in sin_tema[:10]:
+            print(f'  - {sig}: "{c}"')
+        sys.exit(1)
     
     # Limpiar public/instrumentos
     pub_inst = os.path.join(REPO_DIR, 'public/instrumentos')
@@ -206,7 +239,12 @@ def main():
         carpeta = r['carpeta'].strip()
         
         is_descargable = (proto_status in VALID_PROTOCOLS and sigla not in EXCLUDED_7)
-        franjas, _ = map_franjas(poblacion)
+        if poblacion in pob_franjas_map:
+            franjas = pob_franjas_map[poblacion]
+        else:
+            franjas, _ = map_franjas(poblacion)
+        
+        tema_asignado = constructo_to_tema[constructo]
         
         # Meta description and use
         norm_sigla = sigla.lower()
@@ -241,6 +279,9 @@ def main():
             copied_protocolos += 1
             archivos.append('Protocolo.pdf')
             
+        sin_str = tema_to_sinonimos.get(tema_asignado, '')
+        sin_list = [x.strip() for x in sin_str.split(',') if x.strip()]
+        
         catalog_items.append({
             'family_id': fid,
             'eje': eje_raw,
@@ -248,6 +289,8 @@ def main():
             'sigla': sigla,
             'nombre': nombre,
             'constructo': constructo,
+            'temas': [tema_asignado],
+            'sinonimos': sin_list,
             'poblacion': poblacion,
             'franjas': franjas,
             'acceso': acceso,
