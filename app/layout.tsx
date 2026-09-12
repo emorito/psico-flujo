@@ -15,9 +15,8 @@ const sans = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Psico·Flujo | Biblioteca de evaluación psicológica",
-  description:
-    "Instrumentos de evaluación psicológica de uso libre, organizados en seis ejes, con ficha técnica verificada.",
+  title: "Psico·Flujo | Página en mantenimiento",
+  description: "Plataforma en mantenimiento temporal.",
   metadataBase: new URL("https://psico-flujo.vercel.app"),
   openGraph: {
     title: "Psico·Flujo | Evaluar para comprender",
