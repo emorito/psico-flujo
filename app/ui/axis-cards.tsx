@@ -12,7 +12,6 @@ interface AxisCardsProps {
 export function AxisCards({ onSelectAxis, onSelectAxisAndTheme }: AxisCardsProps) {
   const [activeAxis, setActiveAxis] = useState<number | null>(null);
   const triggerRefs = useRef<Record<number, HTMLButtonElement | null>>({});
-  const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   // Axis item counts
   const axisCounts = useMemo(() => {
@@ -64,36 +63,18 @@ export function AxisCards({ onSelectAxis, onSelectAxisAndTheme }: AxisCardsProps
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [activeAxis, closeAxisModal]);
 
-  const handleMouseEnter = (num: number) => {
-    // Only on non-touch screens (hover)
-    if (typeof window !== "undefined" && window.matchMedia("(hover: hover)").matches) {
-      if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
-      setActiveAxis(num);
-    }
+  const handleCardClick = (axisNum: number) => {
+    onSelectAxis(axisNum);
+    const el = document.getElementById("biblioteca");
+    if (el) el.scrollIntoView({ behavior: "smooth" });
   };
 
-  const handleMouseLeave = () => {
-    if (typeof window !== "undefined" && window.matchMedia("(hover: hover)").matches) {
-      if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
-      hoverTimeoutRef.current = setTimeout(() => {
-        setActiveAxis(null);
-      }, 250);
-    }
-  };
-
-  const handlePanelMouseEnter = () => {
-    if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current);
-  };
-
-  const handlePanelMouseLeave = () => {
-    handleMouseLeave();
-  };
-
-  const handleCardClick = (num: number) => {
-    if (activeAxis === num) {
-      setActiveAxis(null);
+  const handleArrowClick = (e: React.MouseEvent, axisNum: number) => {
+    e.stopPropagation();
+    if (activeAxis === axisNum) {
+      closeAxisModal(true);
     } else {
-      setActiveAxis(num);
+      setActiveAxis(axisNum);
     }
   };
 
@@ -134,18 +115,19 @@ export function AxisCards({ onSelectAxis, onSelectAxisAndTheme }: AxisCardsProps
             <div
               key={axis.num}
               className={`axis-card-wrapper ${isOpen ? "open" : ""}`}
-              onMouseEnter={() => handleMouseEnter(axis.num)}
-              onMouseLeave={handleMouseLeave}
               role="listitem"
             >
-              <button
-                type="button"
+              <div
                 className="axis-card-trigger"
-                ref={(el) => { triggerRefs.current[axis.num] = el; }}
                 onClick={() => handleCardClick(axis.num)}
-                aria-expanded={isOpen}
-                aria-haspopup="dialog"
-                aria-controls={`axis-panel-${axis.num}`}
+                role="button"
+                tabIndex={0}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    handleCardClick(axis.num);
+                  }
+                }}
                 data-axis={axis.num}
               >
                 <div className="axis-card-top">
@@ -158,9 +140,21 @@ export function AxisCards({ onSelectAxis, onSelectAxisAndTheme }: AxisCardsProps
                   <span className="axis-card-status">
                     <Check size={14} /> Disponible
                   </span>
-                  <ArrowRight size={16} className="axis-card-arrow" />
+                  <button
+                    type="button"
+                    className="axis-card-arrow-btn"
+                    ref={(el) => { triggerRefs.current[axis.num] = el; }}
+                    onClick={(e) => handleArrowClick(e, axis.num)}
+                    aria-expanded={isOpen}
+                    aria-haspopup="dialog"
+                    aria-controls={`axis-panel-${axis.num}`}
+                    aria-label={`Ver información detallada del ${axis.label}`}
+                    title="Ver información del eje"
+                  >
+                    <ArrowRight size={16} className="axis-card-arrow" />
+                  </button>
                 </div>
-              </button>
+              </div>
 
               {/* Panel / Pestaña interactiva de eje */}
               {isOpen && (
@@ -176,8 +170,6 @@ export function AxisCards({ onSelectAxis, onSelectAxisAndTheme }: AxisCardsProps
                     aria-modal="true"
                     aria-labelledby={`axis-panel-title-${axis.num}`}
                     onClick={(e) => e.stopPropagation()}
-                    onMouseEnter={handlePanelMouseEnter}
-                    onMouseLeave={handlePanelMouseLeave}
                   >
                     <div className="axis-panel-header">
                       <div>

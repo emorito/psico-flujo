@@ -335,12 +335,36 @@ nav a:hover {
   color: var(--indigo);
   font-weight: 600;
 }
+.axis-card-arrow-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--indigo);
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.18s ease, transform 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+}
+.axis-card-arrow-btn:hover {
+  background: var(--indigo-light);
+  border-color: #c7d2fe;
+  color: var(--indigo-dark);
+  transform: scale(1.1);
+}
+.axis-card-arrow-btn:focus-visible {
+  outline: 2px solid var(--indigo);
+  outline-offset: 2px;
+}
 .axis-card-arrow {
   color: var(--indigo);
   transition: transform 0.18s ease;
 }
-.axis-card-trigger:hover .axis-card-arrow {
-  transform: translateX(3px);
+.axis-card-arrow-btn:hover .axis-card-arrow {
+  transform: translateX(2px);
 }
 
 /* Panel flotante de eje (Desktop popover dialog) */
