@@ -360,8 +360,8 @@
     ],
     "acceso": "Sí (Requiere registro y credenciales clínicas para descarga en el NCPTSD)",
     "descargable": false,
-    "protocolo_estado": "restringido_registro",
-    "protocolo_etiqueta": "Protocolo disponible con registro ante su titular",
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "https://www.ptsd.va.gov/",
     "archivos": [
       "Ficha_Tecnica.pdf"
@@ -698,12 +698,13 @@
       "adultos"
     ],
     "acceso": "No (Depende de derechos de la publicación original, uso de investigación permitido).",
-    "descargable": false,
+    "descargable": true,
     "protocolo_estado": "pendiente",
-    "protocolo_etiqueta": "Protocolo en verificación",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
     ],
     "description": "Obsesiones y compulsiones",
     "use": "Adultos"
@@ -830,12 +831,13 @@
       "adultos"
     ],
     "acceso": "Sí (Uso académico)",
-    "descargable": false,
+    "descargable": true,
     "protocolo_estado": "pendiente",
-    "protocolo_etiqueta": "Protocolo en verificación",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
     ],
     "description": "Somatización y ansiedad por la salud",
     "use": "Adultos"
@@ -936,12 +938,13 @@
       "adultos"
     ],
     "acceso": "Sí (Dominio público, UPPS website)",
-    "descargable": false,
+    "descargable": true,
     "protocolo_estado": "revisar",
-    "protocolo_etiqueta": "Protocolo en verificación",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
     ],
     "description": "Perfila urgencia, falta de perseverancia, falta de premeditación y búsqueda de sensaciones.",
     "use": "Perfil de impulsividad"
@@ -1449,12 +1452,13 @@
       "adultos"
     ],
     "acceso": "Sí",
-    "descargable": false,
+    "descargable": true,
     "protocolo_estado": "pendiente",
-    "protocolo_etiqueta": "Protocolo en verificación",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
     ],
     "description": "Detecta patrones problemáticos de juego y sus consecuencias.",
     "use": "Tamizaje de juego"
@@ -1819,13 +1823,12 @@
       "adultos"
     ],
     "acceso": "Sí",
-    "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
-    "protocolo_etiqueta": "",
+    "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "Ficha_Tecnica.pdf"
     ],
     "description": "Intolerancia a la incertidumbre",
     "use": "Adultos"
@@ -2097,12 +2100,13 @@
       "adultos"
     ],
     "acceso": "Sí (Manual disponible para investigación)",
-    "descargable": false,
+    "descargable": true,
     "protocolo_estado": "pendiente",
-    "protocolo_etiqueta": "Protocolo en verificación",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
     ],
     "description": "Conciencia emocional",
     "use": "Adultos"
@@ -2334,13 +2338,12 @@
       "adultos"
     ],
     "acceso": "Sí",
-    "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
-    "protocolo_etiqueta": "",
+    "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "Ficha_Tecnica.pdf"
     ],
     "description": "Apego",
     "use": "Adultos"
@@ -2496,13 +2499,12 @@
       "adultos"
     ],
     "acceso": "Sí",
-    "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
-    "protocolo_etiqueta": "",
+    "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "Ficha_Tecnica.pdf"
     ],
     "description": "Soledad y aislamiento social",
     "use": "Adultos y adolescentes"
@@ -2699,13 +2701,12 @@
       "adultos"
     ],
     "acceso": "Sí (Disponible por la APA para uso clínico e investigación)",
-    "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
-    "protocolo_etiqueta": "",
+    "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "Ficha_Tecnica.pdf"
     ],
     "description": "Rasgos Patológicos de Personalidad (Afectividad Negativa, Desapego, Antagonismo, Desinhibición, Psicoticismo)",
     "use": "Adultos (existe versión PID-5-IRF para adolescentes)"
@@ -4137,13 +4138,12 @@
       "adultos"
     ],
     "acceso": "Sí (La figura y criterios de corrección son de amplio acceso en manuales neurológicos, aunque TEA vende protocolos).",
-    "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
-    "protocolo_etiqueta": "",
+    "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "Ficha_Tecnica.pdf"
     ],
     "description": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
     "use": "Niños (figura B) y adultos (figura A)"
@@ -4836,8 +4836,8 @@
     ],
     "acceso": "No (Bajo copyright de los autores originales, uso clínico restringido).",
     "descargable": false,
-    "protocolo_estado": "restringido_registro",
-    "protocolo_etiqueta": "Protocolo disponible con registro ante su titular",
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
@@ -5766,12 +5766,13 @@
       "adultos"
     ],
     "acceso": "No verificado",
-    "descargable": false,
+    "descargable": true,
     "protocolo_estado": "presente_fuente_local",
-    "protocolo_etiqueta": "Protocolo en verificación de condiciones de uso",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
     ],
     "description": "Estrategias de afrontamiento del estres",
     "use": "Adultos"
@@ -5798,12 +5799,13 @@
       "adultos"
     ],
     "acceso": "No verificado",
-    "descargable": false,
+    "descargable": true,
     "protocolo_estado": "presente_fuente_local",
-    "protocolo_etiqueta": "Protocolo en verificación de condiciones de uso",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
     ],
     "description": "Apoyo social percibido (familiar y de amistades)",
     "use": "Adolescentes y adultos"
@@ -5866,12 +5868,13 @@
       "adultos"
     ],
     "acceso": "No verificado",
-    "descargable": false,
+    "descargable": true,
     "protocolo_estado": "presente_fuente_local",
-    "protocolo_etiqueta": "Protocolo en verificación de condiciones de uso",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
     ],
     "description": "Perfeccionismo multidimensional",
     "use": "Adultos"
@@ -5900,12 +5903,13 @@
       "adultos"
     ],
     "acceso": "No verificado",
-    "descargable": false,
+    "descargable": true,
     "protocolo_estado": "presente_fuente_local",
-    "protocolo_etiqueta": "Protocolo en verificación de condiciones de uso",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
     ],
     "description": "Afecto positivo y negativo",
     "use": "Adultos"
@@ -5932,12 +5936,13 @@
       "adultos"
     ],
     "acceso": "No verificado (instrumento comercial)",
-    "descargable": false,
+    "descargable": true,
     "protocolo_estado": "presente_fuente_local",
-    "protocolo_etiqueta": "Protocolo en verificación de condiciones de uso",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
     ],
     "description": "Resiliencia",
     "use": "Adultos"
@@ -5967,12 +5972,13 @@
       "adultos"
     ],
     "acceso": "No verificado",
-    "descargable": false,
+    "descargable": true,
     "protocolo_estado": "presente_fuente_local",
-    "protocolo_etiqueta": "Protocolo en verificación de condiciones de uso",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
     ],
     "description": "Inteligencia emocional percibida (atencion, claridad, reparacion)",
     "use": "Adolescentes y adultos"
@@ -6001,12 +6007,13 @@
       "adultos"
     ],
     "acceso": "No verificado",
-    "descargable": false,
+    "descargable": true,
     "protocolo_estado": "presente_verificado",
-    "protocolo_etiqueta": "Protocolo en verificación de condiciones de uso",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "Ficha_Tecnica.pdf",
+      "Protocolo.pdf"
     ],
     "description": "Evitacion experiencial",
     "use": "Adultos (muestra clinica de validacion)"
@@ -6991,13 +6998,12 @@
       "adultos"
     ],
     "acceso": "Restringido (PANSS es comercial, MHS)",
-    "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
-    "protocolo_etiqueta": "",
+    "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "Ficha_Tecnica.pdf"
     ],
     "description": "Psicopatología general (positiva/negativa)",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7266,8 +7272,8 @@
     ],
     "acceso": "Restringido (Garner/PAR)",
     "descargable": false,
-    "protocolo_estado": "revisar",
-    "protocolo_etiqueta": "Protocolo en verificación",
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
       "Ficha_Tecnica.pdf"
@@ -7855,13 +7861,12 @@
       "adultos"
     ],
     "acceso": "Académico, uso libre investigación (sin traducción española verificada)",
-    "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
-    "protocolo_etiqueta": "",
+    "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "Ficha_Tecnica.pdf"
     ],
     "description": "Rasgos de personalidad narcisista",
     "use": "Adultos"
@@ -7890,13 +7895,12 @@
       "adultos"
     ],
     "acceso": "Académico, uso libre investigación (sin traducción española verificada)",
-    "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
-    "protocolo_etiqueta": "",
+    "descargable": false,
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "Ficha_Tecnica.pdf"
     ],
     "description": "Intensidad de la reactividad afectiva",
     "use": "Adultos"
