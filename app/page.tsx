@@ -1,8 +1,9 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { Search, ShieldCheck, X } from "lucide-react";
-import { InstrumentLibrary, catalog, indiceData } from "./ui/instrument-library";
+import { useState, useEffect, useMemo } from "react";
+import { Search, ShieldCheck, X, ArrowDown } from "lucide-react";
+import { InstrumentLibrary, catalog, indiceData, searchIndex } from "./ui/instrument-library";
+import { buscar } from "../buscador_indice";
 import { AxisCards } from "./ui/axis-cards";
 import { GuiaOrientacion } from "./ui/guia-orientacion";
 import { FiltrosGuia } from "./lib/guia";
@@ -19,7 +20,7 @@ export default function Home() {
   const [showGuia, setShowGuia] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState(false);
 
-  // Compact header on scroll y lectura inicial de guia=1
+  // Compact header on scroll y lectura inicial de guia=1 y q
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
@@ -32,10 +33,29 @@ export default function Home() {
       if (params.get("guia") === "1") {
         setShowGuia(true);
       }
+      const initialQ = params.get("q");
+      if (initialQ) {
+        setQuery(initialQ);
+      }
     }
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const heroSearchCount = useMemo(() => {
+    const trimmed = query.trim();
+    if (!trimmed) return null;
+    const hits = buscar(searchIndex, trimmed, { limite: catalog.length });
+    return hits.length;
+  }, [query]);
+
+  const handleHeroSearchSubmit = (event?: React.FormEvent) => {
+    if (event) event.preventDefault();
+    const el = document.getElementById("biblioteca");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   const totalFamilies = catalog.length;
   const totalDocs = catalog.reduce((acc, item) => acc + item.archivos.length, 0);
@@ -119,12 +139,18 @@ export default function Home() {
             Instrumentos de evaluación psicológica de uso libre, organizados en seis ejes, con ficha técnica verificada.
           </p>
 
-          <div className="hero-search-wrapper">
+          <form role="search" className="hero-search-wrapper" onSubmit={handleHeroSearchSubmit}>
             <label className="search-box hero-search-box">
-              <Search size={18} />
+              <Search size={18} className="hero-search-icon" />
               <input
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
+                onKeyDown={(event) => {
+                  if (event.key === "Enter") {
+                    event.preventDefault();
+                    handleHeroSearchSubmit();
+                  }
+                }}
                 placeholder="Buscar por sigla, nombre, constructo o tema (ej. PHQ, BDI, TOC, TEPT, ansiedad, depresión)…"
                 aria-label="Buscar instrumentos en catálogo"
               />
@@ -138,8 +164,33 @@ export default function Home() {
                   <X size={16} />
                 </button>
               )}
+              <button
+                type="submit"
+                className="hero-search-submit-btn"
+                aria-label="Buscar en biblioteca de instrumentos"
+              >
+                Buscar
+              </button>
             </label>
-          </div>
+
+            {query.trim() && (
+              <div className="hero-search-feedback">
+                <button
+                  type="button"
+                  className="hero-search-results-btn"
+                  onClick={() => handleHeroSearchSubmit()}
+                  aria-label={`Ver resultados de búsqueda (${heroSearchCount ?? 0} instrumentos)`}
+                >
+                  <span>
+                    {heroSearchCount === 0
+                      ? `Sin coincidencias directas para “${query.trim()}” — Ver catálogo completo`
+                      : `Ver ${heroSearchCount} ${heroSearchCount === 1 ? "instrumento encontrado" : "instrumentos encontrados"} ↓`}
+                  </span>
+                  <ArrowDown size={14} />
+                </button>
+              </div>
+            )}
+          </form>
 
           {/* Recorrido guiado de orientación clínica (?guia=1) */}
           {showGuia && (

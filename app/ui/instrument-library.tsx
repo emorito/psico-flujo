@@ -936,20 +936,29 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                           <small>
                             {item.constructo}
                             {primaryThemeName && (
-                              <button
-                                type="button"
+                              <span
+                                role="button"
+                                tabIndex={0}
                                 className="row-theme-chip"
                                 onClick={(e) => {
                                   e.stopPropagation();
                                   setSelectedTheme(primaryThemeName);
                                   setOpen(null);
                                 }}
+                                onKeyDown={(e) => {
+                                  if (e.key === "Enter" || e.key === " ") {
+                                    e.preventDefault();
+                                    e.stopPropagation();
+                                    setSelectedTheme(primaryThemeName);
+                                    setOpen(null);
+                                  }
+                                }}
                                 title={`Filtrar por tema: ${primaryThemeName}`}
                                 aria-label={`Filtrar por tema ${primaryThemeName}`}
                               >
                                 <Tag size={12} />
                                 <span>{primaryThemeName}</span>
-                              </button>
+                              </span>
                             )}
                           </small>
                           {/* Segunda línea para móvil: población y cantidad de archivos */}
