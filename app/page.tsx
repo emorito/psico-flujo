@@ -113,6 +113,10 @@ export default function Home() {
 
   return (
     <main>
+      <a href="#biblioteca" className="skip-link">
+        Saltar al contenido
+      </a>
+
       {/* Encabezado: marca + "Instrumentos" (#biblioteca) + "Acerca de" (#acerca). Se compacta al desplazar. */}
       <header className={`site-header ${scrolled ? "scrolled" : ""}`}>
         <a className="brand" href="#inicio" aria-label="Psico Flujo, inicio">
