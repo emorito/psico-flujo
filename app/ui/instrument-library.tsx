@@ -4,7 +4,6 @@ import { useMemo, useState, useEffect, useRef, useCallback, useDeferredValue } f
 import {
   ChevronDown,
   Download,
-  ExternalLink,
   FileText,
   HelpCircle,
   Info,
@@ -192,7 +191,7 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
       }
     }
     return Object.entries(counts)
-      .filter(([_, count]) => count > 0)
+      .filter(([, count]) => count > 0)
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
       .map(([name, count]) => ({
         name,

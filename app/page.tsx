@@ -10,34 +10,33 @@ import { FiltrosGuia } from "./lib/guia";
 import acercaData from "../data/acerca.json";
 
 export default function Home() {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState<string>(() => {
+    if (typeof window !== "undefined") {
+      return new URLSearchParams(window.location.search).get("q") || "";
+    }
+    return "";
+  });
   const [selectedAxis, setSelectedAxis] = useState<number | "all">("all");
   const [selectedFranja, setSelectedFranja] = useState<string>("all");
   const [selectedTheme, setSelectedTheme] = useState<string>("all");
   const [selectedFuncion, setSelectedFuncion] = useState<string>("all");
   const [selectedTipo, setSelectedTipo] = useState<string>("all");
   const [selectedLibre, setSelectedLibre] = useState<boolean>(false);
-  const [showGuia, setShowGuia] = useState<boolean>(false);
+  const [showGuia] = useState<boolean>(() => {
+    if (typeof window !== "undefined") {
+      return new URLSearchParams(window.location.search).get("guia") === "1";
+    }
+    return false;
+  });
   const [scrolled, setScrolled] = useState(false);
 
-  // Compact header on scroll y lectura inicial de guia=1 y q
+  // Compact header on scroll
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
     };
     window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
-
-    if (typeof window !== "undefined") {
-      const params = new URLSearchParams(window.location.search);
-      if (params.get("guia") === "1") {
-        setShowGuia(true);
-      }
-      const initialQ = params.get("q");
-      if (initialQ) {
-        setQuery(initialQ);
-      }
-    }
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);

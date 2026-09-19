@@ -371,7 +371,7 @@ export function sugerirTemasPorTexto(
   }
 
   const suggested: { id: string; nombre: string; conteo: number }[] = [];
-  for (const [nombre, hits] of themeCounts.entries()) {
+  for (const nombre of themeCounts.keys()) {
     // Conteo total en el catálogo con los filtros actuales + este tema
     const realConteo = contar({ ...filtros, tema: nombre });
     if (realConteo > 0) {

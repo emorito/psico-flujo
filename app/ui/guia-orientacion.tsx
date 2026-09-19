@@ -1,17 +1,14 @@
 "use client";
 
-import { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { ArrowLeft, ChevronRight, RotateCcw, Search, Sparkles, X, Check } from "lucide-react";
 import {
   FiltrosGuia,
-  OpcionGuia,
   contar,
   opciones,
   siguientePaso,
   sugerirTemasPorTexto,
   guiaConfig,
-  claMap,
-  indexThemeMap,
 } from "../lib/guia";
 
 export interface GuiaOrientacionProps {
@@ -31,31 +28,35 @@ export function GuiaOrientacion({
   const [pasoActivo, setPasoActivo] = useState<string>("edad");
   const [pasosOmitidos, setPasosOmitidos] = useState<string[]>([]);
   const [historialPasos, setHistorialPasos] = useState<string[]>([]);
-  const [historialFiltros, setHistorialFiltros] = useState<{ param: keyof FiltrosGuia; valor: any }[]>([]);
+  const [historialFiltros, setHistorialFiltros] = useState<
+    { param: keyof FiltrosGuia; valor: string | number | boolean | undefined }[]
+  >([]);
 
   // Búsqueda libre en tema ("Lo cuento con mis palabras")
   const [textoLibre, setTextoLibre] = useState<string>(filtros.q || "");
 
   // Indicador de "escribiendo" (400 ms solo la primera vez por sesión)
-  const [typing, setTyping] = useState(false);
+  const [typing, setTyping] = useState<boolean>(() => {
+    if (typeof window === "undefined") return false;
+    try {
+      return !sessionStorage.getItem("guia_typing_shown");
+    } catch {
+      return false;
+    }
+  });
 
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    try {
-      const yaMostrado = sessionStorage.getItem("guia_typing_shown");
-      if (!yaMostrado) {
-        setTyping(true);
-        const timer = setTimeout(() => {
-          setTyping(false);
-          sessionStorage.setItem("guia_typing_shown", "1");
-        }, 400);
-        return () => clearTimeout(timer);
-      }
-    } catch {
-      // Fallback si sessionStorage no está disponible
+    if (!typing) return;
+    const timer = setTimeout(() => {
       setTyping(false);
-    }
-  }, []);
+      try {
+        sessionStorage.setItem("guia_typing_shown", "1");
+      } catch {
+        // Fallback si sessionStorage no está disponible
+      }
+    }, 400);
+    return () => clearTimeout(timer);
+  }, [typing]);
 
   // Total de instrumentos actual según filtros
   const totalActual = useMemo(() => contar(filtros), [filtros]);
@@ -74,7 +75,10 @@ export function GuiaOrientacion({
         (pasoActivo === "quien" && filtros.quien !== undefined) ||
         (pasoActivo === "libre" && filtros.libre !== undefined)
       ) {
-        setPasoActivo(sig);
+        const timer = setTimeout(() => {
+          setPasoActivo(sig);
+        }, 0);
+        return () => clearTimeout(timer);
       }
     }
   }, [filtros, pasoActivo, pasosOmitidos, historialPasos]);
@@ -164,7 +168,7 @@ export function GuiaOrientacion({
   }, [filtros]);
 
   // Manejo de seleccionar opción
-  const handleSelectOption = (param: keyof FiltrosGuia, valor: any) => {
+  const handleSelectOption = (param: keyof FiltrosGuia, valor: string | number | boolean | undefined) => {
     setHistorialPasos((prev) => [...prev, pasoActivo]);
     setHistorialFiltros((prev) => [...prev, { param, valor }]);
 
