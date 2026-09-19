@@ -175,19 +175,19 @@ export default function Home() {
 
             {query.trim() && (
               <div className="hero-search-feedback">
-                <button
-                  type="button"
+                <a
+                  href="#biblioteca"
                   className="hero-search-results-btn"
-                  onClick={() => handleHeroSearchSubmit()}
-                  aria-label={`Ver resultados de búsqueda (${heroSearchCount ?? 0} instrumentos)`}
+                  onClick={handleHeroSearchSubmit}
+                  aria-label={`Ver resultados de búsqueda (${heroSearchCount ?? 0} resultados)`}
                 >
                   <span>
                     {heroSearchCount === 0
-                      ? `Sin coincidencias directas para “${query.trim()}” — Ver catálogo completo`
-                      : `Ver ${heroSearchCount} ${heroSearchCount === 1 ? "instrumento encontrado" : "instrumentos encontrados"} ↓`}
+                      ? `Sin resultados para “${query.trim()}” — Ver biblioteca`
+                      : `Ver ${heroSearchCount} ${heroSearchCount === 1 ? "resultado" : "resultados"}`}
                   </span>
                   <ArrowDown size={14} />
-                </button>
+                </a>
               </div>
             )}
           </form>

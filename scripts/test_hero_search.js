@@ -61,7 +61,7 @@ server.listen(3459, async () => {
     // Verify feedback button appears
     const feedbackText = await page.$eval('.hero-search-results-btn', el => el.innerText.trim());
     console.log('✓ [OK] Hero search feedback:', feedbackText);
-    if (!feedbackText.includes('2') || !feedbackText.includes('instrumentos encontrados')) {
+    if (!feedbackText.includes('2') || !feedbackText.includes('resultados')) {
       throw new Error('Unexpected feedback text: ' + feedbackText);
     }
 
