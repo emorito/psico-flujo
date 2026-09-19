@@ -1,0 +1,67 @@
+{
+  "titulo_guia": "¿Buscas algo específico? Te ayudo a orientarte",
+  "descripcion": "Encuentra el instrumento adecuado respondiendo unas breves preguntas.",
+  "orden_pasos": ["edad", "area", "tema", "afinar"],
+  "umbral_afinar": 8,
+  "pasos": {
+    "edad": {
+      "id": "edad",
+      "pregunta": "¿Para qué franja de edad buscas el instrumento?",
+      "opciones": [
+        { "id": "niños", "label": "Niñez", "franja": "niños", "descripcion": "Menores de 13 años" },
+        { "id": "adolescentes", "label": "Adolescencia", "franja": "adolescentes", "descripcion": "13 a 17 años" },
+        { "id": "adultos", "label": "Adultez", "franja": "adultos", "descripcion": "18 a 64 años" },
+        { "id": "mayores", "label": "Adultos mayores", "franja": "mayores", "descripcion": "65 años en adelante" },
+        { "id": "all", "label": "No sé / varias", "franja": "all", "descripcion": "Todas las edades" }
+      ]
+    },
+    "area": {
+      "id": "area",
+      "pregunta": "¿En qué área o ámbito clínico se centra la evaluación?",
+      "opciones": [
+        { "id": 1, "eje": 1, "label": "Problemas, síntomas y riesgo", "subtitulo": "Clínica y riesgo (Eje I)" },
+        { "id": 2, "eje": 2, "label": "Procesos psicológicos", "subtitulo": "Mecanismos que mantienen el malestar (Eje II)" },
+        { "id": 3, "eje": 3, "label": "Personalidad, identidad y valores", "subtitulo": "Rasgos e identidad (Eje III)" },
+        { "id": 4, "eje": 4, "label": "Funcionamiento, bienestar y recursos", "subtitulo": "Adaptación y calidad de vida (Eje IV)" },
+        { "id": 5, "eje": 5, "label": "Funcionamiento cognitivo", "subtitulo": "Cribado y neuropsicología (Eje V)" },
+        { "id": 6, "eje": 6, "label": "Salud y estilo de vida", "subtitulo": "Medicina conductual y hábitos (Eje VI)" }
+      ]
+    },
+    "tema": {
+      "id": "tema",
+      "pregunta": "¿Qué tema específico te interesa evaluar?",
+      "placeholder_libre": "O cuéntalo con tus palabras (ej. no duerme, pánico, memoria)..."
+    },
+    "afinar": {
+      "id": "afinar",
+      "pregunta": "Afina los resultados para encontrar el instrumento ideal:",
+      "criterios": {
+        "funcion": {
+          "id": "fn",
+          "label": "Función clínica",
+          "opciones": [
+            { "id": "Diagnóstico y severidad", "label": "Diagnóstico y severidad" },
+            { "id": "Cribado / Triaje rápido", "label": "Cribado / Triaje rápido" },
+            { "id": "Monitoreo de proceso / Evolución", "label": "Monitoreo de evolución" },
+            { "id": "Evaluación pericial forense / Riesgo", "label": "Pericial / Riesgo forense" }
+          ]
+        },
+        "quien": {
+          "id": "quien",
+          "label": "Quién responde / Modalidad",
+          "opciones": [
+            { "id": "Autoinforme", "label": "Autoinforme (el propio consultante)" },
+            { "id": "Heteroaplicado / Entrevista clínica", "label": "Entrevista clínica / Heteroaplicado" },
+            { "id": "Rendimiento neurocognitivo / Tarea de ejecución", "label": "Rendimiento neurocognitivo" },
+            { "id": "Observacional / Registro conductual", "label": "Observacional / Registro conductual" }
+          ]
+        },
+        "libre": {
+          "id": "libre",
+          "label": "Régimen de acceso",
+          "opcion_libre": { "id": "abierto", "label": "Solo uso libre (acceso abierto)" }
+        }
+      }
+    }
+  }
+}

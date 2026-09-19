@@ -28,7 +28,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "STAI_ficha_tecnica.pdf"
     ],
     "description": "Ansiedad y miedo",
     "use": "Adolescentes y adultos"
@@ -62,7 +62,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "BAI_ficha_tecnica.pdf"
     ],
     "description": "Estima la intensidad de síntomas de ansiedad, con énfasis en manifestaciones somáticas.",
     "use": "Severidad de ansiedad"
@@ -92,12 +92,12 @@
     ],
     "acceso": "Sí (Dominio público)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://www.phqscreeners.com/",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "GAD-7_ficha_tecnica.pdf",
+      "GAD-7_protocolo.pdf"
     ],
     "description": "Detecta y gradúa síntomas centrales de ansiedad generalizada durante las últimas dos semanas.",
     "use": "Tamizaje breve"
@@ -131,7 +131,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "ISRA_ficha_tecnica.pdf"
     ],
     "description": "Ansiedad y miedo",
     "use": "Adolescentes (>16 años) y adultos"
@@ -164,7 +164,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "HADS_ficha_tecnica.pdf"
     ],
     "description": "Ansiedad y miedo",
     "use": "Adultos (originalmente en contexto hospitalario/médico, luego general)"
@@ -206,12 +206,14 @@
     ],
     "acceso": "Sí (Dominio público, disponible en la web de la Universidad de New South Wales)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "http://www2.psy.unsw.edu.au/dass/",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "DASS-21_ficha_tecnica.pdf",
+      "DASS-21_protocolo.pdf",
+      "DASS-42_ficha_tecnica.pdf",
+      "DASS-42_protocolo.pdf"
     ],
     "description": "Ofrece una medida breve de tres dimensiones de malestar emocional.",
     "use": "Perfil de malestar"
@@ -251,12 +253,12 @@
     ],
     "acceso": "Sí (Dominio público para fines académicos y no comerciales)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/index.html",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "PSS_ficha_tecnica.pdf",
+      "PSS_protocolo.pdf"
     ],
     "description": "Reúne versiones para valorar cuánto se perciben las situaciones recientes como impredecibles o desbordantes.",
     "use": "Estrés percibido"
@@ -299,7 +301,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "TICS_ficha_tecnica.pdf"
     ],
     "description": "Estrés psicológico",
     "use": "Adultos"
@@ -327,12 +329,12 @@
     ],
     "acceso": "Sí (Dominio público gubernamental de EE.UU. a través del National Center for PTSD)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "PCL-5_ficha_tecnica.pdf",
+      "PCL-5_protocolo.pdf"
     ],
     "description": "Explora los grupos sintomáticos del trastorno de estrés postraumático según DSM-5.",
     "use": "Tamizaje de TEPT"
@@ -359,12 +361,13 @@
       "adultos"
     ],
     "acceso": "Sí (Requiere registro y credenciales clínicas para descarga en el NCPTSD)",
-    "descargable": false,
-    "protocolo_estado": "pendiente",
-    "protocolo_etiqueta": "Protocolo en verificación",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
     "fuente_url": "https://www.ptsd.va.gov/",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "CAPS-5_ficha_tecnica.pdf",
+      "CAPS-5_protocolo.pdf"
     ],
     "description": "Trauma y estrés postraumático",
     "use": "Adultos"
@@ -392,12 +395,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "IES-R_ficha_tecnica.pdf",
+      "IES-R_protocolo.pdf"
     ],
     "description": "Trauma y estrés postraumático",
     "use": "Adultos"
@@ -429,7 +432,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "DTS_ficha_tecnica.pdf"
     ],
     "description": "Mide frecuencia y gravedad de síntomas postraumáticos.",
     "use": "Severidad postraumática"
@@ -458,12 +461,14 @@
       "adultos"
     ],
     "acceso": "No (Copyright Pearson)",
-    "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "Protocolo clínico disponible",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "BDI-II_ficha_tecnica.pdf",
+      "BDI-II_protocolo.pdf",
+      "BDI-21_protocolo.pdf"
     ],
     "description": "Valora la presencia y severidad de síntomas cognitivos, afectivos y somáticos de depresión.",
     "use": "Severidad depresiva"
@@ -493,12 +498,12 @@
     ],
     "acceso": "Sí (Dominio público)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://www.phqscreeners.com/",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "PHQ-9_ficha_tecnica.pdf",
+      "PHQ-9_protocolo.pdf"
     ],
     "description": "Detecta síntomas depresivos y permite seguir su severidad en las últimas dos semanas.",
     "use": "Tamizaje depresivo"
@@ -528,12 +533,12 @@
     ],
     "acceso": "Sí (Dominio público)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "CES-D_ficha_tecnica.pdf",
+      "CES-D_protocolo.pdf"
     ],
     "description": "Detecta frecuencia reciente de síntomas depresivos en población general.",
     "use": "Tamizaje depresivo"
@@ -562,12 +567,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SHAPS_ficha_tecnica.pdf",
+      "SHAPS_protocolo.pdf"
     ],
     "description": "Evalúa la capacidad para experimentar placer y detectar anhedonia.",
     "use": "Medición de anhedonia"
@@ -596,12 +601,12 @@
     ],
     "acceso": "Sí (Dominio público la versión original de 17 ítems)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "HDRS_-_HAM-D_ficha_tecnica.pdf",
+      "HDRS_-_HAM-D_protocolo.pdf"
     ],
     "description": "Depresión y anhedonia",
     "use": "Adultos"
@@ -631,12 +636,12 @@
     ],
     "acceso": "Sí (Dominio público para uso no comercial)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "Y-BOCS_ficha_tecnica.pdf",
+      "Y-BOCS_protocolo.pdf"
     ],
     "description": "Cuantifica severidad, interferencia, malestar, resistencia y control de obsesiones y compulsiones.",
     "use": "Severidad de TOC"
@@ -665,12 +670,12 @@
     ],
     "acceso": "Sí (en anexos de publicaciones originales)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "OCI-R_ficha_tecnica.pdf",
+      "OCI-R_protocolo.pdf"
     ],
     "description": "Mide malestar asociado a seis grupos frecuentes de síntomas obsesivo-compulsivos.",
     "use": "Tamizaje de TOC"
@@ -698,13 +703,12 @@
       "adultos"
     ],
     "acceso": "No (Depende de derechos de la publicación original, uso de investigación permitido).",
-    "descargable": true,
-    "protocolo_estado": "pendiente",
-    "protocolo_etiqueta": "",
+    "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "PI-WSUR_ficha_tecnica.pdf"
     ],
     "description": "Obsesiones y compulsiones",
     "use": "Adultos"
@@ -733,12 +737,12 @@
     ],
     "acceso": "Sí (Disponible por los autores)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://www.jabramowitz.com/",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "DOCS_ficha_tecnica.pdf",
+      "DOCS_protocolo.pdf"
     ],
     "description": "Valora gravedad de contaminación, responsabilidad, pensamientos inaceptables y simetría.",
     "use": "Severidad de TOC"
@@ -766,12 +770,12 @@
     ],
     "acceso": "Sí (Dominio público)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://www.phqscreeners.com/",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "PHQ-15_ficha_tecnica.pdf",
+      "PHQ-15_protocolo.pdf"
     ],
     "description": "Cuantifica la carga de síntomas somáticos frecuentes y su severidad.",
     "use": "Tamizaje somático"
@@ -799,12 +803,12 @@
     ],
     "acceso": "Sí — adaptación española de 14 ítems (Pilowsky 1967 / Avia 1993), verificada contra 2 fuentes clínicas independientes coincidentes.",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "WI_ficha_tecnica.pdf",
+      "WI_protocolo.pdf"
     ],
     "description": "Somatización y ansiedad por la salud",
     "use": "Adultos"
@@ -832,12 +836,12 @@
     ],
     "acceso": "Sí (Uso académico)",
     "descargable": true,
-    "protocolo_estado": "pendiente",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SHAI_ficha_tecnica.pdf",
+      "SHAI_protocolo.pdf"
     ],
     "description": "Somatización y ansiedad por la salud",
     "use": "Adultos"
@@ -870,7 +874,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "SCL-90-R_ficha_tecnica.pdf"
     ],
     "description": "Somatización y ansiedad por la salud",
     "use": "Adolescentes y adultos"
@@ -902,12 +906,12 @@
     ],
     "acceso": "Sí (Uso de investigación)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BIS-11_ficha_tecnica.pdf",
+      "BIS-11_protocolo.pdf"
     ],
     "description": "Evalúa impulsividad atencional, motora y no planificada.",
     "use": "Perfil de impulsividad"
@@ -939,12 +943,12 @@
     ],
     "acceso": "Sí (Dominio público, UPPS website)",
     "descargable": true,
-    "protocolo_estado": "revisar",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "UPPS-P_ficha_tecnica.pdf",
+      "UPPS-P_protocolo.pdf"
     ],
     "description": "Perfila urgencia, falta de perseverancia, falta de premeditación y búsqueda de sensaciones.",
     "use": "Perfil de impulsividad"
@@ -975,12 +979,12 @@
     ],
     "acceso": "Sí (Revistas científicas)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "DII_ficha_tecnica.pdf",
+      "DII_protocolo.pdf"
     ],
     "description": "Evalúa intensidad, frecuencia y expresión problemática de la ira.",
     "use": "Perfil de ira"
@@ -1009,12 +1013,12 @@
     ],
     "acceso": "Sí (Uso académico libre)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "AQ_ficha_tecnica.pdf",
+      "AQ_protocolo.pdf"
     ],
     "description": "Agresividad e ira",
     "use": "Adolescentes y adultos"
@@ -1047,7 +1051,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "STAXI-2_ficha_tecnica.pdf"
     ],
     "description": "Agresividad e ira",
     "use": "Adolescentes y adultos"
@@ -1077,12 +1081,12 @@
     ],
     "acceso": "Sí (Uso investigativo)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "RPQ_ficha_tecnica.pdf",
+      "RPQ_protocolo.pdf"
     ],
     "description": "Agresividad e ira",
     "use": "Niños, adolescentes y jóvenes adultos"
@@ -1114,7 +1118,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "PCL-R_ficha_tecnica.pdf"
     ],
     "description": "Conducta antisocial",
     "use": "Adultos (contexto clínico y forense)"
@@ -1146,7 +1150,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "SRP-IV_ficha_tecnica.pdf"
     ],
     "description": "Conducta antisocial",
     "use": "Adultos (general y clínica no reclusa)"
@@ -1178,7 +1182,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "SCID-5-PD_ficha_tecnica.pdf"
     ],
     "description": "Conducta antisocial",
     "use": "Adultos"
@@ -1214,7 +1218,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "CBCL_ficha_tecnica.pdf"
     ],
     "description": "Conducta disruptiva",
     "use": "Niños y adolescentes (1.5-5 años y 6-18 años)"
@@ -1246,12 +1250,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://www.sdqinfo.org/",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SDQ_ficha_tecnica.pdf",
+      "SDQ_protocolo.pdf"
     ],
     "description": "Ofrece un perfil breve de dificultades emocionales y conductuales, pares y conducta prosocial.",
     "use": "Tamizaje infantojuvenil"
@@ -1283,12 +1287,12 @@
     ],
     "acceso": "Sí (Dominio público)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "DBD_ficha_tecnica.pdf",
+      "DBD_protocolo.pdf"
     ],
     "description": "Explora síntomas de inatención, hiperactividad, oposicionismo y problemas de conducta.",
     "use": "Tamizaje infantojuvenil"
@@ -1317,12 +1321,12 @@
     ],
     "acceso": "Sí (Dominio público, OMS)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://www.who.int/publications/i/item/9789241599382",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "ASSIST_ficha_tecnica.pdf",
+      "ASSIST_protocolo.pdf"
     ],
     "description": "Explora el consumo y el riesgo asociado a distintas sustancias psicoactivas.",
     "use": "Tamizaje de consumo"
@@ -1352,12 +1356,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://www.who.int/publications/i/item/WHO-MSD-MSB-01.6a",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "AUDIT_ficha_tecnica.pdf",
+      "AUDIT_protocolo.pdf"
     ],
     "description": "Detecta patrones de consumo de alcohol de riesgo, perjudicial o con posible dependencia.",
     "use": "Tamizaje de alcohol"
@@ -1386,12 +1390,13 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "DAST-10_ficha_tecnica.pdf",
+      "DAST-10_protocolo.pdf",
+      "DAST-20_protocolo.pdf"
     ],
     "description": "Identifica consecuencias y problemas relacionados con el uso de drogas distintas del alcohol.",
     "use": "Tamizaje de drogas"
@@ -1420,12 +1425,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "IAT_ficha_tecnica.pdf",
+      "IAT_protocolo.pdf"
     ],
     "description": "Explora uso problemático de Internet y su interferencia en la vida cotidiana.",
     "use": "Conducta adictiva"
@@ -1453,12 +1458,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "pendiente",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SOGS_ficha_tecnica.pdf",
+      "SOGS_protocolo.pdf"
     ],
     "description": "Detecta patrones problemáticos de juego y sus consecuencias.",
     "use": "Tamizaje de juego"
@@ -1486,12 +1491,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "PDI-21_ficha_tecnica.pdf",
+      "PDI-21_protocolo.pdf"
     ],
     "description": "Evalúa experiencias de tipo delirante y su malestar, preocupación y convicción asociados.",
     "use": "Experiencias delirantes"
@@ -1520,12 +1525,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "CAPE-42_ficha_tecnica.pdf",
+      "CAPE-42_protocolo.pdf"
     ],
     "description": "Explora experiencias psicóticas positivas, negativas y depresivas en población general.",
     "use": "Tamizaje dimensional"
@@ -1557,7 +1562,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "PANSS_ficha_tecnica.pdf"
     ],
     "description": "Valora síntomas positivos, negativos y psicopatología general en trastornos psicóticos.",
     "use": "Perfil psicótico"
@@ -1588,12 +1593,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://cssrs.columbia.edu/",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "C-SSRS_ficha_tecnica.pdf",
+      "C-SSRS_protocolo.pdf"
     ],
     "description": "Explora ideación, intensidad, conducta suicida y nivel de riesgo en distintos momentos clínicos.",
     "use": "Evaluación de riesgo"
@@ -1627,7 +1632,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "BSS_ficha_tecnica.pdf"
     ],
     "description": "Ideación y Conducta suicida",
     "use": "Población general"
@@ -1656,12 +1661,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "ISAS_ficha_tecnica.pdf",
+      "ISAS_protocolo.pdf"
     ],
     "description": "Indaga frecuencia, métodos y funciones de las autolesiones no suicidas.",
     "use": "Evaluación de autolesión"
@@ -1693,7 +1698,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "HCR-20_v3_ficha_tecnica.pdf"
     ],
     "description": "Riesgo de violencia",
     "use": "Adultos"
@@ -1722,12 +1727,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://www.unh.edu/ccrc/",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "JVQ_ficha_tecnica.pdf",
+      "JVQ_protocolo.pdf"
     ],
     "description": "Registra múltiples formas de victimización y exposición a violencia en jóvenes.",
     "use": "Historia de victimización"
@@ -1756,12 +1761,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "RRS_ficha_tecnica.pdf",
+      "RRS_protocolo.pdf"
     ],
     "description": "Rumiación",
     "use": "Adultos y adolescentes"
@@ -1790,12 +1795,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "PSWQ_ficha_tecnica.pdf",
+      "PSWQ_protocolo.pdf"
     ],
     "description": "Preocupación crónica",
     "use": "Adultos"
@@ -1823,12 +1828,13 @@
       "adultos"
     ],
     "acceso": "Sí",
-    "descargable": false,
-    "protocolo_estado": "pendiente",
-    "protocolo_etiqueta": "Protocolo en verificación",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "IUS-12_ficha_tecnica.pdf",
+      "IUS-12_protocolo.pdf"
     ],
     "description": "Intolerancia a la incertidumbre",
     "use": "Adultos"
@@ -1858,12 +1864,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://contextualscience.org/aaqii_spanish",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "AAQ-II_ficha_tecnica.pdf",
+      "AAQ-II_protocolo.pdf"
     ],
     "description": "Rigidez y Flexibilidad cognitiva",
     "use": "Adultos"
@@ -1893,12 +1899,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "CFI_ficha_tecnica.pdf",
+      "CFI_protocolo.pdf"
     ],
     "description": "Rigidez y Flexibilidad cognitiva",
     "use": "Adultos"
@@ -1928,12 +1934,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "CFQ_ficha_tecnica.pdf",
+      "CFQ_protocolo.pdf"
     ],
     "description": "Fusión cognitiva",
     "use": "Adultos"
@@ -1961,12 +1967,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MCQ-30_ficha_tecnica.pdf",
+      "MCQ-30_protocolo.pdf"
     ],
     "description": "Metacogniciones disfuncionales",
     "use": "Adultos"
@@ -1998,7 +2004,7 @@
     "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "https://www.schematherapy.com/",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "YSQ-S3_ficha_tecnica.pdf"
     ],
     "description": "Esquemas maladaptativos",
     "use": "Adultos"
@@ -2029,12 +2035,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "DERS_ficha_tecnica.pdf",
+      "DERS_protocolo.pdf"
     ],
     "description": "Regulación y Desregulación emocional",
     "use": "Adultos y adolescentes"
@@ -2066,12 +2072,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://www.cerq.leidenuniv.nl/",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "CERQ_ficha_tecnica.pdf",
+      "CERQ_protocolo.pdf"
     ],
     "description": "Regulación y Desregulación emocional",
     "use": "Adultos, adolescentes y niños"
@@ -2101,12 +2107,12 @@
     ],
     "acceso": "Sí (Manual disponible para investigación)",
     "descargable": true,
-    "protocolo_estado": "pendiente",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "LEAS_ficha_tecnica.pdf",
+      "LEAS_protocolo.pdf"
     ],
     "description": "Conciencia emocional",
     "use": "Adultos"
@@ -2136,11 +2142,11 @@
     ],
     "acceso": "Sí",
     "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "TAS-20_ficha_tecnica.pdf"
     ],
     "description": "Claridad emocional y Alexitimia",
     "use": "Adultos"
@@ -2174,7 +2180,7 @@
     "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "MEAQ_ficha_tecnica.pdf"
     ],
     "description": "Evitación experiencial",
     "use": "Adultos"
@@ -2203,12 +2209,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BADS_ficha_tecnica.pdf",
+      "BADS_protocolo.pdf"
     ],
     "description": "Activación y Evitación conductual",
     "use": "Adultos"
@@ -2237,12 +2243,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "EROS_ficha_tecnica.pdf",
+      "EROS_protocolo.pdf"
     ],
     "description": "Activación y Evitación conductual",
     "use": "Adultos"
@@ -2270,12 +2276,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "Brief_COPE_ficha_tecnica.pdf",
+      "Brief_COPE_protocolo.pdf"
     ],
     "description": "Exposición y afrontamiento",
     "use": "Adultos"
@@ -2306,12 +2312,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BIS-BAS_ficha_tecnica.pdf",
+      "BIS-BAS_protocolo.pdf"
     ],
     "description": "Búsqueda de recompensa",
     "use": "Adultos"
@@ -2338,12 +2344,13 @@
       "adultos"
     ],
     "acceso": "Sí",
-    "descargable": false,
-    "protocolo_estado": "pendiente",
-    "protocolo_etiqueta": "Protocolo en verificación",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "ECR-R_ficha_tecnica.pdf",
+      "ECR-R_protocolo.pdf"
     ],
     "description": "Apego",
     "use": "Adultos"
@@ -2375,7 +2382,7 @@
     "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "IDI_ficha_tecnica.pdf"
     ],
     "description": "Dependencia interpersonal",
     "use": "Adultos"
@@ -2407,7 +2414,7 @@
     "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "RSQ_ficha_tecnica.pdf"
     ],
     "description": "Sensibilidad al rechazo",
     "use": "Adultos y universitarios"
@@ -2439,7 +2446,7 @@
     "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "IIP-32_ficha_tecnica.pdf"
     ],
     "description": "Comunicación interpersonal y Asertividad",
     "use": "Adultos"
@@ -2472,7 +2479,7 @@
     "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "RAS_ficha_tecnica.pdf"
     ],
     "description": "Comunicación interpersonal y Asertividad",
     "use": "Adultos y adolescentes"
@@ -2499,12 +2506,13 @@
       "adultos"
     ],
     "acceso": "Sí",
-    "descargable": false,
-    "protocolo_estado": "pendiente",
-    "protocolo_etiqueta": "Protocolo en verificación",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "UCLA-R_ficha_tecnica.pdf",
+      "UCLA-R_protocolo.pdf"
     ],
     "description": "Soledad y aislamiento social",
     "use": "Adultos y adolescentes"
@@ -2532,12 +2540,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "DJGLS_ficha_tecnica.pdf",
+      "DJGLS_protocolo.pdf"
     ],
     "description": "Soledad y aislamiento social",
     "use": "Adultos (especialmente mayores)"
@@ -2570,7 +2578,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "NEO-PI-R_ficha_tecnica.pdf"
     ],
     "description": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
     "use": "Adultos"
@@ -2600,12 +2608,13 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BFI-2_ficha_tecnica.pdf",
+      "BFI-2_protocolo.pdf",
+      "BFI-44_protocolo.pdf"
     ],
     "description": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
     "use": "Adolescentes y adultos"
@@ -2634,12 +2643,15 @@
     ],
     "acceso": "Sí (para uso no comercial e investigación)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "http://hexaco.org/",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "HEXACO-PI-R_ficha_tecnica.pdf",
+      "HEXACO-PI-R_protocolo.pdf",
+      "HEXACO-100_protocolo.pdf",
+      "HEXACO-60_protocolo.pdf",
+      "IPIP-R-50_protocolo.pdf"
     ],
     "description": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
     "use": "Adultos y universitarios"
@@ -2668,11 +2680,11 @@
     ],
     "acceso": "Uso bajo licencia/permiso",
     "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "TCI-R_ficha_tecnica.pdf"
     ],
     "description": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
     "use": "Adultos"
@@ -2701,12 +2713,13 @@
       "adultos"
     ],
     "acceso": "Sí (Disponible por la APA para uso clínico e investigación)",
-    "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
     "fuente_url": "https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "PID-5_ficha_tecnica.pdf",
+      "PID-5_protocolo.pdf"
     ],
     "description": "Rasgos Patológicos de Personalidad (Afectividad Negativa, Desapego, Antagonismo, Desinhibición, Psicoticismo)",
     "use": "Adultos (existe versión PID-5-IRF para adolescentes)"
@@ -2735,12 +2748,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SD3_ficha_tecnica.pdf",
+      "SD3_protocolo.pdf"
     ],
     "description": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
     "use": "Adultos"
@@ -2769,12 +2782,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SD4_ficha_tecnica.pdf",
+      "SD4_protocolo.pdf"
     ],
     "description": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
     "use": "Adultos"
@@ -2803,12 +2816,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "LTS_ficha_tecnica.pdf",
+      "LTS_protocolo.pdf"
     ],
     "description": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
     "use": "Adultos"
@@ -2836,12 +2849,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "RSES_ficha_tecnica.pdf",
+      "RSES_protocolo.pdf"
     ],
     "description": "Autoestima",
     "use": "Adolescentes y adultos"
@@ -2874,7 +2887,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "AF-5_ficha_tecnica.pdf"
     ],
     "description": "Autoconcepto",
     "use": "Niños, adolescentes y adultos"
@@ -2902,12 +2915,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "GSE_ficha_tecnica.pdf",
+      "GSE_protocolo.pdf"
     ],
     "description": "Autoeficacia",
     "use": "Adolescentes y adultos"
@@ -2938,11 +2951,11 @@
     ],
     "acceso": "Sí",
     "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "SCCS_ficha_tecnica.pdf"
     ],
     "description": "Claridad del self",
     "use": "Adultos"
@@ -2974,11 +2987,11 @@
     ],
     "acceso": "Sí",
     "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "EOM-EIS-2_ficha_tecnica.pdf"
     ],
     "description": "Identidad personal",
     "use": "Adolescentes y adultos jóvenes"
@@ -3010,12 +3023,12 @@
     ],
     "acceso": "Sí (Para investigación)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "PVQ_ficha_tecnica.pdf",
+      "PVQ_protocolo.pdf"
     ],
     "description": "Valores personales",
     "use": "Adolescentes y adultos"
@@ -3043,12 +3056,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "http://www.michaelfsteger.com/",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MLQ_ficha_tecnica.pdf",
+      "MLQ_protocolo.pdf"
     ],
     "description": "Sentido de vida y Propósito vital",
     "use": "Adultos"
@@ -3082,12 +3095,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://selfdeterminationtheory.org/intrinsic-motivation-inventory/",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "IMI_ficha_tecnica.pdf",
+      "IMI_protocolo.pdf"
     ],
     "description": "Motivación y Orientación a metas",
     "use": "Todas las edades"
@@ -3120,12 +3133,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "AGQ-R_ficha_tecnica.pdf",
+      "AGQ-R_protocolo.pdf"
     ],
     "description": "Motivación y Orientación a metas",
     "use": "Población general"
@@ -3153,12 +3166,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "ACEQ_ficha_tecnica.pdf",
+      "ACEQ_protocolo.pdf"
     ],
     "description": "Trauma acumulado y Adversidad temprana",
     "use": "Adultos (retrospectivo)"
@@ -3191,7 +3204,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "CTQ-SF_ficha_tecnica.pdf"
     ],
     "description": "Trauma acumulado y Adversidad temprana",
     "use": "Adolescentes y adultos"
@@ -3222,12 +3235,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MEIM_ficha_tecnica.pdf",
+      "MEIM_protocolo.pdf"
     ],
     "description": "Identidad étnica (Exploración y Compromiso/Pertenencia)",
     "use": "Adolescentes y jóvenes"
@@ -3258,11 +3271,11 @@
     ],
     "acceso": "Sí",
     "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "VIA_ficha_tecnica.pdf"
     ],
     "description": "Identidad cultural y Aculturación",
     "use": "Migrantes y minorías étnicas"
@@ -3289,12 +3302,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "ISMI_ficha_tecnica.pdf",
+      "ISMI_protocolo.pdf"
     ],
     "description": "Estigma y discriminación",
     "use": "Pacientes con trastornos psiquiátricos"
@@ -3321,12 +3334,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "EOD_ficha_tecnica.pdf",
+      "EOD_protocolo.pdf"
     ],
     "description": "Estigma y discriminación",
     "use": "Adultos y minorías"
@@ -3356,12 +3369,13 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "WHODAS_2.0_ficha_tecnica.pdf",
+      "WHODAS_2.0_protocolo.pdf",
+      "WHODAS-II-36_protocolo.pdf"
     ],
     "description": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
     "use": "Adultos (≥18 años)"
@@ -3391,12 +3405,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BARTHEL_ficha_tecnica.pdf",
+      "BARTHEL_protocolo.pdf"
     ],
     "description": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
     "use": "Pacientes geriátricos o con afectación neurológica"
@@ -3426,12 +3440,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "Escala_de_Lawton_ficha_tecnica.pdf",
+      "Escala_de_Lawton_protocolo.pdf"
     ],
     "description": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
     "use": "Mayores y pacientes cognitivos"
@@ -3462,11 +3476,11 @@
     ],
     "acceso": "No",
     "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "CHTE_ficha_tecnica.pdf"
     ],
     "description": "Rendimiento académico, Hábitos de estudio y Adaptación escolar",
     "use": "Estudiantes (Primaria a Secundaria)"
@@ -3501,7 +3515,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "BASC-3_ficha_tecnica.pdf"
     ],
     "description": "Rendimiento académico, Hábitos de estudio y Adaptación escolar",
     "use": "3 a 18 años"
@@ -3532,7 +3546,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "MBI_ficha_tecnica.pdf"
     ],
     "description": "Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",
     "use": "Trabajadores"
@@ -3559,12 +3573,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "UWES_ficha_tecnica.pdf",
+      "UWES_protocolo.pdf"
     ],
     "description": "Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",
     "use": "Trabajadores"
@@ -3591,12 +3605,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MOS-SSS_ficha_tecnica.pdf",
+      "MOS-SSS_protocolo.pdf"
     ],
     "description": "Apoyo social y Funcionamiento familiar",
     "use": "Adultos (frecuente en pacientes crónicos)"
@@ -3624,11 +3638,11 @@
     ],
     "acceso": "Sí/Restringido (Manuales disponibles por el autor).",
     "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "FACES-IV_ficha_tecnica.pdf"
     ],
     "description": "Apoyo social y Funcionamiento familiar",
     "use": "Familias (padres, adolescentes)"
@@ -3656,12 +3670,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "APGAR_ficha_tecnica.pdf",
+      "APGAR_protocolo.pdf"
     ],
     "description": "Apoyo social y Funcionamiento familiar",
     "use": "Familias, adultos y adolescentes"
@@ -3690,12 +3704,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SWLS_ficha_tecnica.pdf",
+      "SWLS_protocolo.pdf"
     ],
     "description": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
     "use": "Adultos y adolescentes"
@@ -3723,12 +3737,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "PWB_ficha_tecnica.pdf",
+      "PWB_protocolo.pdf"
     ],
     "description": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
     "use": "Adultos"
@@ -3756,12 +3770,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "FS_ficha_tecnica.pdf",
+      "FS_protocolo.pdf"
     ],
     "description": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
     "use": "Adultos"
@@ -3792,12 +3806,12 @@
     ],
     "acceso": "Sí: protocolo en español publicable (formulario difundido por SECOT) y RAND-36 en inglés de dominio público. SF-36v2® comercial no incluido.",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SF-36_ficha_tecnica.pdf",
+      "SF-36_protocolo.pdf"
     ],
     "description": "Calidad de vida",
     "use": "Adultos (general y pacientes médicos/psiquiátricos)"
@@ -3828,12 +3842,12 @@
     ],
     "acceso": "Sí (Disponible por OMS)",
     "descargable": true,
-    "protocolo_estado": "presente_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "WHOQOL-BREF_ficha_tecnica.pdf",
+      "WHOQOL-BREF_protocolo.pdf"
     ],
     "description": "Calidad de vida",
     "use": "Adultos"
@@ -3866,7 +3880,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "CD-RISC_ficha_tecnica.pdf"
     ],
     "description": "Resiliencia, Afrontamiento y Fortalezas",
     "use": "Adultos y adolescentes"
@@ -3894,12 +3908,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "LOT-R_ficha_tecnica.pdf",
+      "LOT-R_protocolo.pdf"
     ],
     "description": "Resiliencia, Afrontamiento y Fortalezas",
     "use": "Adultos"
@@ -3928,11 +3942,11 @@
     ],
     "acceso": "Sí (Online vía VIA Institute on Character)",
     "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "VIA-IS_ficha_tecnica.pdf"
     ],
     "description": "Resiliencia, Afrontamiento y Fortalezas",
     "use": "Adultos (existe versión VIA-Youth para jóvenes)"
@@ -3969,7 +3983,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "MMSE_ficha_tecnica.pdf"
     ],
     "description": "Cribado Cognitivo Global (Estado Mental)",
     "use": "Adultos y adultos mayores"
@@ -4002,12 +4016,14 @@
     ],
     "acceso": "Semilibre (Uso comercial/oficial requiere certificación y pago en la actualidad, pero existen versiones de investigación).",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MoCA_ficha_tecnica.pdf",
+      "MoCA_protocolo.pdf",
+      "MoCA-8.2_protocolo.pdf",
+      "MoCA-8.3_protocolo.pdf"
     ],
     "description": "Cribado Cognitivo Global (Estado Mental)",
     "use": "Adultos y adultos mayores"
@@ -4042,7 +4058,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "d2-R_ficha_tecnica.pdf"
     ],
     "description": "Atención (Sostenida, Selectiva, Dividida y Vigilancia)",
     "use": "8 a 80 años"
@@ -4072,12 +4088,12 @@
     ],
     "acceso": "Sí (Dominio público para uso clínico y de investigación, los baremos sí pueden ser comerciales)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "TMT_ficha_tecnica.pdf",
+      "TMT_protocolo.pdf"
     ],
     "description": "Atención (Sostenida, Selectiva, Dividida y Vigilancia)",
     "use": "Niños, adultos y mayores"
@@ -4110,7 +4126,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "TAVEC_ficha_tecnica.pdf"
     ],
     "description": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
     "use": "Adolescentes y adultos"
@@ -4138,12 +4154,14 @@
       "adultos"
     ],
     "acceso": "Sí (La figura y criterios de corrección son de amplio acceso en manuales neurológicos, aunque TEA vende protocolos).",
-    "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "Figura_de_Rey_ficha_tecnica.pdf",
+      "Figura_de_Rey_protocolo.pdf",
+      "Tarjetas_Estimulo.pdf"
     ],
     "description": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
     "use": "Niños (figura B) y adultos (figura A)"
@@ -4181,7 +4199,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "WCST_ficha_tecnica.pdf"
     ],
     "description": "Funciones Ejecutivas",
     "use": "6 a 89 años"
@@ -4213,12 +4231,12 @@
     ],
     "acceso": "Dominio público (J. R. Stroop, 1935). Reconstrucción axiomática en español.",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "Stroop_Test_ficha_tecnica.pdf",
+      "Stroop_Test_protocolo.pdf"
     ],
     "description": "Funciones Ejecutivas",
     "use": "Niños y adultos"
@@ -4249,12 +4267,12 @@
     ],
     "acceso": "Sí (Software disponible gratuitamente en algunas plataformas académicas como PEBL).",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "IGT_ficha_tecnica.pdf",
+      "IGT_protocolo.pdf"
     ],
     "description": "Funciones Ejecutivas",
     "use": "Adultos"
@@ -4291,7 +4309,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "BRIEF-2_ficha_tecnica.pdf"
     ],
     "description": "Funciones Ejecutivas",
     "use": "5 a 18 años (versión adulto disponible: BRIEF-A)"
@@ -4323,12 +4341,12 @@
     ],
     "acceso": "Sí (Disponible en literatura científica)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "IFS_ficha_tecnica.pdf",
+      "IFS_protocolo.pdf"
     ],
     "description": "Funciones Ejecutivas",
     "use": "Adultos y adultos mayores"
@@ -4362,7 +4380,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "BNT_ficha_tecnica.pdf"
     ],
     "description": "Comprensión, Expresión y Fluidez Verbal",
     "use": "Niños, adultos y mayores"
@@ -4393,12 +4411,12 @@
     ],
     "acceso": "Sí (La tarea es de dominio público, sujeta a disponibilidad de baremos locales).",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "TFV_ficha_tecnica.pdf",
+      "TFV_protocolo.pdf"
     ],
     "description": "Comprensión, Expresión y Fluidez Verbal",
     "use": "Todas las edades"
@@ -4430,11 +4448,11 @@
     ],
     "acceso": "Sí (Disponible por el Autism Research Centre)",
     "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "https://www.autismresearchcentre.com/tests/",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "RMET_ficha_tecnica.pdf"
     ],
     "description": "Cognición Social e Interocepción",
     "use": "Adultos y adolescentes (existe versión infantil)"
@@ -4464,12 +4482,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MAIA_ficha_tecnica.pdf",
+      "MAIA_protocolo.pdf"
     ],
     "description": "Cognición Social e Interocepción",
     "use": "Adultos"
@@ -4500,11 +4518,11 @@
     ],
     "acceso": "Sí",
     "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "Faux_Pas_Test_ficha_tecnica.pdf"
     ],
     "description": "Cognición Social e Interocepción",
     "use": "Niños (versión infantil) y adultos"
@@ -4536,12 +4554,12 @@
     ],
     "acceso": "Sí (Licencia abierta para uso clínico y de investigación no comercial)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "PSQI_ficha_tecnica.pdf",
+      "PSQI_protocolo.pdf"
     ],
     "description": "Sueño y ritmos circadianos",
     "use": "Adultos, adultos mayores y adolescentes"
@@ -4572,12 +4590,12 @@
     ],
     "acceso": "Sí (Uso clínico habitual)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "ISI_ficha_tecnica.pdf",
+      "ISI_protocolo.pdf"
     ],
     "description": "Sueño y ritmos circadianos",
     "use": "Adultos y adultos mayores"
@@ -4607,12 +4625,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "ESS_ficha_tecnica.pdf",
+      "ESS_protocolo.pdf"
     ],
     "description": "Sueño y ritmos circadianos",
     "use": "Adultos"
@@ -4644,7 +4662,7 @@
     "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "BPI_ficha_tecnica.pdf"
     ],
     "description": "Dolor, fatiga y síntomas somáticos",
     "use": "Adultos con dolor clínico o crónico"
@@ -4672,11 +4690,11 @@
     ],
     "acceso": "Sí",
     "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "PCS_ficha_tecnica.pdf"
     ],
     "description": "Dolor, fatiga y síntomas somáticos",
     "use": "Adultos (población clínica y sana)"
@@ -4704,12 +4722,12 @@
     ],
     "acceso": "Sí — Duarte et al. (2019), Educación Médica, acceso abierto CC BY-NC-ND.",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "FSS_ficha_tecnica.pdf",
+      "FSS_protocolo.pdf"
     ],
     "description": "Dolor, fatiga y síntomas somáticos",
     "use": "Adultos con condiciones médicas (EM, Lupus, fibromialgia, etc.)"
@@ -4737,12 +4755,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://sites.google.com/site/theipaq/](https://sites.google.com/site/theipaq/",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "IPAQ_ficha_tecnica.pdf",
+      "IPAQ_protocolo.pdf"
     ],
     "description": "Conductas de salud",
     "use": "Adolescentes y adultos (15-69 años)"
@@ -4769,11 +4787,11 @@
     ],
     "acceso": "Sí (La versión original de 4 ítems; la de 8 ítems requiere licencia).",
     "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "protocolo_estado": "pendiente",
+    "protocolo_etiqueta": "Protocolo en verificación",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "MGL_o_MMAS-4_ficha_tecnica.pdf"
     ],
     "description": "Conductas de salud",
     "use": "Adultos con patología crónica"
@@ -4802,12 +4820,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "https://www.uib.no/en/bipq](https://www.uib.no/en/bipq",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BIPQ_ficha_tecnica.pdf",
+      "BIPQ_protocolo.pdf"
     ],
     "description": "Enfermedad médica y afrontamiento",
     "use": "Pacientes con enfermedades agudas o crónicas"
@@ -4836,11 +4854,11 @@
     ],
     "acceso": "No (Bajo copyright de los autores originales, uso clínico restringido).",
     "descargable": false,
-    "protocolo_estado": "pendiente",
-    "protocolo_etiqueta": "Protocolo en verificación",
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "MAC_ficha_tecnica.pdf"
     ],
     "description": "Enfermedad médica y afrontamiento",
     "use": "Pacientes oncológicos (y adaptaciones para otras enfermedades crónicas)"
@@ -4867,12 +4885,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "HLS-EU-Q16_ficha_tecnica.pdf",
+      "HLS-EU-Q16_protocolo.pdf"
     ],
     "description": "Alfabetización en salud y relación con el sistema",
     "use": "Adultos (Población general y clínica)"
@@ -4899,12 +4917,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SAHLSA-50_ficha_tecnica.pdf",
+      "SAHLSA-50_protocolo.pdf"
     ],
     "description": "Alfabetización en salud y relación con el sistema",
     "use": "Adultos hispanohablantes"
@@ -4935,12 +4953,12 @@
     ],
     "acceso": "Sí (uso académico/investigación)",
     "descargable": true,
-    "protocolo_estado": "presente_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "DEX-Sp_ficha_tecnica.pdf",
+      "DEX-Sp_protocolo.pdf"
     ],
     "description": "Síntomas disejecutivos conductuales",
     "use": "Adultos"
@@ -4971,12 +4989,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "EFECO_ficha_tecnica.pdf",
+      "EFECO_protocolo.pdf"
     ],
     "description": "Funciones ejecutivas cotidianas (autoinforme)",
     "use": "Adultos hispanohablantes"
@@ -5004,12 +5022,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MFE_ficha_tecnica.pdf",
+      "MFE_protocolo.pdf"
     ],
     "description": "Fallos de memoria cotidiana (metamemoria)",
     "use": "Adultos"
@@ -5037,12 +5055,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "CFQ-Fallos_ficha_tecnica.pdf",
+      "CFQ-Fallos_protocolo.pdf"
     ],
     "description": "Fallos cognitivos cotidianos",
     "use": "Adultos"
@@ -5072,12 +5090,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "PRSexDQ-SALSEX_ficha_tecnica.pdf",
+      "PRSexDQ-SALSEX_protocolo.pdf"
     ],
     "description": "Salud sexual (disfunción inducida por fármacos)",
     "use": "Adultos en tratamiento psicofarmacológico"
@@ -5107,12 +5125,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SIS-SES-SF_ficha_tecnica.pdf",
+      "SIS-SES-SF_protocolo.pdf"
     ],
     "description": "Salud sexual (propensión a inhibición/excitación)",
     "use": "Adultos"
@@ -5142,12 +5160,12 @@
     ],
     "acceso": "Sí (uso no comercial)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MEQ-SA_ficha_tecnica.pdf",
+      "MEQ-SA_protocolo.pdf"
     ],
     "description": "Cronotipo/ritmo circadiano",
     "use": "Adultos"
@@ -5177,12 +5195,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "STOP-Bang_ficha_tecnica.pdf",
+      "STOP-Bang_protocolo.pdf"
     ],
     "description": "Riesgo de apnea del sueño",
     "use": "Adultos"
@@ -5211,12 +5229,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "CSI_ficha_tecnica.pdf",
+      "CSI_protocolo.pdf"
     ],
     "description": "Sensibilización central y carga de síntomas",
     "use": "Adultos"
@@ -5245,12 +5263,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "FTND_ficha_tecnica.pdf",
+      "FTND_protocolo.pdf"
     ],
     "description": "Tabaco",
     "use": "Adultos fumadores"
@@ -5277,12 +5295,12 @@
     ],
     "acceso": "Sí (libre uso, Stanford Self-Management Resource Center)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SEMCD-S_ficha_tecnica.pdf",
+      "SEMCD-S_protocolo.pdf"
     ],
     "description": "Autoeficacia/autocuidado en enfermedad crónica",
     "use": "Adultos con enfermedad crónica"
@@ -5309,12 +5327,12 @@
     ],
     "acceso": "Sí (CC-BY, original en inglés)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "eHEALS_ficha_tecnica.pdf",
+      "eHEALS_protocolo.pdf"
     ],
     "description": "Alfabetización digital en salud",
     "use": "Adultos"
@@ -5342,12 +5360,12 @@
     ],
     "acceso": "Sí (acceso abierto)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "CREM-P_ficha_tecnica.pdf",
+      "CREM-P_protocolo.pdf"
     ],
     "description": "Relación paciente-profesional",
     "use": "Adultos"
@@ -5379,12 +5397,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BSQ_ficha_tecnica.pdf",
+      "BSQ_protocolo.pdf"
     ],
     "description": "Insatisfacción con la forma y figura corporal",
     "use": "Adultas (validación original en mujeres)"
@@ -5416,12 +5434,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MBA_ficha_tecnica.pdf",
+      "MBA_protocolo.pdf"
     ],
     "description": "Dependencia de la autoestima respecto a la apariencia/integridad corporal",
     "use": "Adultos (desarrollado en mujeres con cáncer de mama en etapa temprana)"
@@ -5451,12 +5469,12 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "presente_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "ERSQ_ficha_tecnica.pdf",
+      "ERSQ_protocolo.pdf"
     ],
     "description": "Habilidades específicas de regulación emocional (modelo ACE)",
     "use": "Adultos"
@@ -5485,12 +5503,12 @@
     ],
     "acceso": "Si",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "ERS_ficha_tecnica.pdf",
+      "ERS_protocolo.pdf"
     ],
     "description": "Apoya la exploración estructurada de factores asociados al riesgo de conducta violenta.",
     "use": "Valoración de riesgo"
@@ -5520,12 +5538,12 @@
     ],
     "acceso": "Si",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "IP_ficha_tecnica.pdf",
+      "IP_protocolo.pdf"
     ],
     "description": "Evalúa pensamientos intrusivos, impulsos, comprobación, contaminación y compulsiones.",
     "use": "Síntomas obsesivos"
@@ -5555,12 +5573,12 @@
     ],
     "acceso": "Si",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BSL-23_ficha_tecnica.pdf",
+      "BSL-23_protocolo.pdf"
     ],
     "description": "Cuantifica el malestar y los síntomas asociados al trastorno límite de la personalidad.",
     "use": "Monitoreo sintomático"
@@ -5591,12 +5609,12 @@
     ],
     "acceso": "Si",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "CUBI-18_ficha_tecnica.pdf",
+      "CUBI-18_protocolo.pdf"
     ],
     "description": "Indaga experiencias vinculadas con intimidación, victimización y violencia entre pares.",
     "use": "Detección de bullying"
@@ -5624,12 +5642,12 @@
     ],
     "acceso": "Si",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "EGS-R_ficha_tecnica.pdf",
+      "EGS-R_protocolo.pdf"
     ],
     "description": "Explora síntomas de estrés postraumático y afectación asociada tras un evento traumático.",
     "use": "Evaluación postraumática"
@@ -5659,12 +5677,12 @@
     ],
     "acceso": "Si",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SIAS_ficha_tecnica.pdf",
+      "SIAS_protocolo.pdf"
     ],
     "description": "Mide temor y malestar durante interacciones y encuentros sociales.",
     "use": "Ansiedad social"
@@ -5694,12 +5712,12 @@
     ],
     "acceso": "Si",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SADS_ficha_tecnica.pdf",
+      "SADS_protocolo.pdf"
     ],
     "description": "Explora malestar y evitación en situaciones de interacción social.",
     "use": "Ansiedad social"
@@ -5734,12 +5752,12 @@
     ],
     "acceso": "Si",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "PSS-14_ficha_tecnica.pdf",
+      "PSS-14_protocolo.pdf"
     ],
     "description": "Evalúa estrés percibido mediante la versión extensa de catorce reactivos.",
     "use": "Evaluación de estrés"
@@ -5767,12 +5785,12 @@
     ],
     "acceso": "No verificado",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "CAE_ficha_tecnica.pdf",
+      "CAE_protocolo.pdf"
     ],
     "description": "Estrategias de afrontamiento del estres",
     "use": "Adultos"
@@ -5800,12 +5818,12 @@
     ],
     "acceso": "No verificado",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "EAS_ficha_tecnica.pdf",
+      "EAS_protocolo.pdf"
     ],
     "description": "Apoyo social percibido (familiar y de amistades)",
     "use": "Adolescentes y adultos"
@@ -5835,12 +5853,12 @@
     ],
     "acceso": "Si (traduccion autorizada por autores originales)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "ERQ_ficha_tecnica.pdf",
+      "ERQ_protocolo.pdf"
     ],
     "description": "Regulacion emocional (reevaluacion cognitiva, supresion expresiva)",
     "use": "Adultos"
@@ -5869,12 +5887,12 @@
     ],
     "acceso": "No verificado",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "FMPS_ficha_tecnica.pdf",
+      "FMPS_protocolo.pdf"
     ],
     "description": "Perfeccionismo multidimensional",
     "use": "Adultos"
@@ -5904,12 +5922,12 @@
     ],
     "acceso": "No verificado",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "PANAS_ficha_tecnica.pdf",
+      "PANAS_protocolo.pdf"
     ],
     "description": "Afecto positivo y negativo",
     "use": "Adultos"
@@ -5937,12 +5955,12 @@
     ],
     "acceso": "No verificado (instrumento comercial)",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "RS-14_ficha_tecnica.pdf",
+      "RS-14_protocolo.pdf"
     ],
     "description": "Resiliencia",
     "use": "Adultos"
@@ -5973,12 +5991,12 @@
     ],
     "acceso": "No verificado",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "TMMS-24_ficha_tecnica.pdf",
+      "TMMS-24_protocolo.pdf"
     ],
     "description": "Inteligencia emocional percibida (atencion, claridad, reparacion)",
     "use": "Adolescentes y adultos"
@@ -6008,12 +6026,12 @@
     ],
     "acceso": "No verificado",
     "descargable": true,
-    "protocolo_estado": "presente_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BEAQ_ficha_tecnica.pdf",
+      "BEAQ_protocolo.pdf"
     ],
     "description": "Evitacion experiencial",
     "use": "Adultos (muestra clinica de validacion)"
@@ -6044,12 +6062,12 @@
     ],
     "acceso": "Si, con restriccion de uso no comercial y sin obras derivadas",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "VQ_ficha_tecnica.pdf",
+      "VQ_protocolo.pdf"
     ],
     "description": "Vida valiosa (Progreso vs Obstruccion) segun valores personales",
     "use": "Adultos"
@@ -6079,12 +6097,12 @@
     ],
     "acceso": "Apertura academica declarada, licencia exacta no verificada",
     "descargable": true,
-    "protocolo_estado": "presente_fuente_local",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "Psy-Flex_ficha_tecnica.pdf",
+      "Psy-Flex_protocolo.pdf"
     ],
     "description": "Flexibilidad psicologica (presencia, apertura, defusion, yo estable, valores, compromiso)",
     "use": "Adultos"
@@ -6112,12 +6130,13 @@
     ],
     "acceso": "Sí",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "COPE-48_ficha_tecnica.pdf",
+      "COPE-48_protocolo.pdf",
+      "COPE-24_protocolo.pdf"
     ],
     "description": "Afrontamiento (coping), 9 escalas clínicas",
     "use": "Adultos (validado en población psiquiátrica ambulatoria)"
@@ -6147,12 +6166,12 @@
     ],
     "acceso": "Si (Open Access, CC BY 4.0)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "FFMQ-SF_ficha_tecnica.pdf",
+      "FFMQ-SF_protocolo.pdf"
     ],
     "description": "Mindfulness y regulacion emocional (5 facetas: observar, describir, actuar con consciencia, no juzgar, no reactividad)",
     "use": "Adultos (poblacion general y laboral)"
@@ -6182,12 +6201,12 @@
     ],
     "acceso": "Si (Open Access, CC BY 2.0)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SCS_ficha_tecnica.pdf",
+      "SCS_protocolo.pdf"
     ],
     "description": "Autocompasión y regulación afectiva (3 polaridades / 6 subescalas)",
     "use": "Adultos (universitarios y profesionales sanitarios)"
@@ -6215,12 +6234,12 @@
     ],
     "acceso": "Si",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "RAS-H_ficha_tecnica.pdf",
+      "RAS-H_protocolo.pdf"
     ],
     "description": "Satisfacción diádica y calidad de la relación de pareja",
     "use": "Adultos en pareja (matrimonio o unión libre)"
@@ -6252,12 +6271,12 @@
     ],
     "acceso": "A verificar (adapt. española de MMSE, uso clínico extendido)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MEC_ficha_tecnica.pdf",
+      "MEC_protocolo.pdf"
     ],
     "description": "Cribado cognitivo global",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6289,12 +6308,12 @@
     ],
     "acceso": "Restringido (uso bajo licencia en ensayos clínicos)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "ADAS-Cog_ficha_tecnica.pdf",
+      "ADAS-Cog_protocolo.pdf"
     ],
     "description": "Deterioro cognitivo en demencia",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6322,12 +6341,12 @@
     ],
     "acceso": "Público (Overall & Gorham 1962)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BPRS_ficha_tecnica.pdf",
+      "BPRS_protocolo.pdf"
     ],
     "description": "Psicopatología general (heteroaplicada)",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6355,12 +6374,12 @@
     ],
     "acceso": "Académico, requiere permiso de autores (Yale PRIME)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SIPS_ficha_tecnica.pdf",
+      "SIPS_protocolo.pdf"
     ],
     "description": "Riesgo de psicosis",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6388,12 +6407,12 @@
     ],
     "acceso": "Académico, requiere permiso (Yale PRIME)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SOPS_ficha_tecnica.pdf",
+      "SOPS_protocolo.pdf"
     ],
     "description": "Síntomas prodrómicos de psicosis",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6421,12 +6440,12 @@
     ],
     "acceso": "Académico (Amador)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SUMD_ficha_tecnica.pdf",
+      "SUMD_protocolo.pdf"
     ],
     "description": "Insight/conciencia de enfermedad",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6454,12 +6473,12 @@
     ],
     "acceso": "Público (Yudofsky et al. 1986)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "OAS_ficha_tecnica.pdf",
+      "OAS_protocolo.pdf"
     ],
     "description": "Agresividad manifiesta observada",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6488,12 +6507,12 @@
     ],
     "acceso": "Público/libre uso académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MADRS_ficha_tecnica.pdf",
+      "MADRS_protocolo.pdf"
     ],
     "description": "Severidad depresiva (heteroaplicada)",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6522,12 +6541,12 @@
     ],
     "acceso": "Público",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "GDS_ficha_tecnica.pdf",
+      "GDS_protocolo.pdf"
     ],
     "description": "Depresión en adultos mayores",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6556,12 +6575,12 @@
     ],
     "acceso": "Académico, libre para uso clínico/investigación",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "CDS_ficha_tecnica.pdf",
+      "CDS_protocolo.pdf"
     ],
     "description": "Depresión en esquizofrenia",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6591,12 +6610,12 @@
     ],
     "acceso": "Público (Hirschfeld, uso libre no comercial)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MDQ_ficha_tecnica.pdf",
+      "MDQ_protocolo.pdf"
     ],
     "description": "Cribado de espectro bipolar",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6626,12 +6645,12 @@
     ],
     "acceso": "Público/libre uso académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "YMRS_ficha_tecnica.pdf",
+      "YMRS_protocolo.pdf"
     ],
     "description": "Severidad de manía",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6661,12 +6680,12 @@
     ],
     "acceso": "A verificar",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "EVMAC_ficha_tecnica.pdf",
+      "EVMAC_protocolo.pdf"
     ],
     "description": "Severidad de manía (heteroaplicada)",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6696,12 +6715,12 @@
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MAS_ficha_tecnica.pdf",
+      "MAS_protocolo.pdf"
     ],
     "description": "Severidad de manía",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6729,12 +6748,12 @@
     ],
     "acceso": "Académico, libre uso investigación/clínica",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "RFL_ficha_tecnica.pdf",
+      "RFL_protocolo.pdf"
     ],
     "description": "Factores protectores frente al suicidio",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6762,12 +6781,12 @@
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "RV-Plutchik_ficha_tecnica.pdf",
+      "RV-Plutchik_protocolo.pdf"
     ],
     "description": "Riesgo de violencia autodirigida",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6798,12 +6817,12 @@
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "EI-Plutchik_ficha_tecnica.pdf",
+      "EI-Plutchik_protocolo.pdf"
     ],
     "description": "Impulsividad",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6832,12 +6851,12 @@
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SPIN_ficha_tecnica.pdf",
+      "SPIN_protocolo.pdf"
     ],
     "description": "Fobia social",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6866,12 +6885,12 @@
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BSPS_ficha_tecnica.pdf",
+      "BSPS_protocolo.pdf"
     ],
     "description": "Fobia social (heteroaplicada)",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6900,12 +6919,12 @@
     ],
     "acceso": "Público",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BSA_ficha_tecnica.pdf",
+      "BSA_protocolo.pdf"
     ],
     "description": "Ansiedad general (heteroaplicada)",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6933,12 +6952,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "TQ_ficha_tecnica.pdf",
+      "TQ_protocolo.pdf"
     ],
     "description": "Exposición a eventos traumáticos",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6966,12 +6985,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "DGRP_ficha_tecnica.pdf",
+      "DGRP_protocolo.pdf"
     ],
     "description": "Cambio global en TEPT",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -6998,12 +7017,13 @@
       "adultos"
     ],
     "acceso": "Restringido (PANSS es comercial, MHS)",
-    "descargable": false,
-    "protocolo_estado": "pendiente",
-    "protocolo_etiqueta": "Protocolo en verificación",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "DAI_ficha_tecnica.pdf",
+      "DAI_protocolo.pdf"
     ],
     "description": "Psicopatología general (positiva/negativa)",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7031,12 +7051,12 @@
     ],
     "acceso": "Académico clásico, uso extendido",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BDHI_ficha_tecnica.pdf",
+      "BDHI_protocolo.pdf"
     ],
     "description": "Hostilidad/agresividad",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7065,12 +7085,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MALT_ficha_tecnica.pdf",
+      "MALT_protocolo.pdf"
     ],
     "description": "Diagnóstico de alcoholismo",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7099,12 +7119,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "ISCA_ficha_tecnica.pdf",
+      "ISCA_protocolo.pdf"
     ],
     "description": "Consumo de alcohol",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7133,12 +7153,12 @@
     ],
     "acceso": "Académico, libre uso investigación/clínica",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "EuropASI_ficha_tecnica.pdf",
+      "EuropASI_protocolo.pdf"
     ],
     "description": "Gravedad multidimensional de adicción",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7167,12 +7187,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SADQ_ficha_tecnica.pdf",
+      "SADQ_protocolo.pdf"
     ],
     "description": "Severidad de dependencia alcohólica",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7201,12 +7221,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "EIDA_ficha_tecnica.pdf",
+      "EIDA_protocolo.pdf"
     ],
     "description": "Dependencia alcohólica",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7235,12 +7255,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "OCDS_ficha_tecnica.pdf",
+      "OCDS_protocolo.pdf"
     ],
     "description": "Craving/compulsión por alcohol",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7271,12 +7291,13 @@
       "adultos"
     ],
     "acceso": "Restringido (Garner/PAR)",
-    "descargable": false,
-    "protocolo_estado": "restringido_licencia",
-    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "EDI-2_ficha_tecnica.pdf",
+      "EDI-2_protocolo.pdf"
     ],
     "description": "Conducta alimentaria",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7308,12 +7329,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BITE_ficha_tecnica.pdf",
+      "BITE_protocolo.pdf"
     ],
     "description": "Síntomas bulímicos",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7343,12 +7364,12 @@
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "COS_ficha_tecnica.pdf",
+      "COS_protocolo.pdf"
     ],
     "description": "Calidad del sueño",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7378,12 +7399,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "CSFQ_ficha_tecnica.pdf",
+      "CSFQ_protocolo.pdf"
     ],
     "description": "Funcionamiento sexual",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7413,12 +7434,12 @@
     ],
     "acceso": "Académico, libre uso clínico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "IIEF_ficha_tecnica.pdf",
+      "IIEF_protocolo.pdf"
     ],
     "description": "Función eréctil",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7448,12 +7469,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "MGH-SFQ_ficha_tecnica.pdf",
+      "MGH-SFQ_protocolo.pdf"
     ],
     "description": "Funcionamiento sexual",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7483,12 +7504,12 @@
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "ASEX_ficha_tecnica.pdf",
+      "ASEX_protocolo.pdf"
     ],
     "description": "Funcionamiento sexual",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7517,12 +7538,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "BWSQ_ficha_tecnica.pdf",
+      "BWSQ_protocolo.pdf"
     ],
     "description": "Abstinencia de benzodiacepinas",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7550,12 +7571,12 @@
     ],
     "acceso": "Académico, libre uso clínico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SAS_ficha_tecnica.pdf",
+      "SAS_protocolo.pdf"
     ],
     "description": "Parkinsonismo/extrapiramidalismo inducido",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7583,12 +7604,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "UKU_ficha_tecnica.pdf",
+      "UKU_protocolo.pdf"
     ],
     "description": "Efectos secundarios de psicofármacos",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7618,12 +7639,12 @@
     ],
     "acceso": "Público (derivado de criterios DSM)",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "EEAG-GAF_ficha_tecnica.pdf",
+      "EEAG-GAF_protocolo.pdf"
     ],
     "description": "Funcionamiento global (eje V del DSM-IV)",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7653,12 +7674,12 @@
     ],
     "acceso": "Académico, libre uso",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SDI_ficha_tecnica.pdf",
+      "SDI_protocolo.pdf"
     ],
     "description": "Discapacidad funcional",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7685,12 +7706,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "SASS_ficha_tecnica.pdf",
+      "SASS_protocolo.pdf"
     ],
     "description": "Adaptación social",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7721,12 +7742,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "QLS_ficha_tecnica.pdf",
+      "QLS_protocolo.pdf"
     ],
     "description": "Calidad de vida en esquizofrenia",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7757,12 +7778,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "CSCV_ficha_tecnica.pdf",
+      "CSCV_protocolo.pdf"
     ],
     "description": "Calidad de vida",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7791,12 +7812,12 @@
     ],
     "acceso": "Académico, licencia de autor",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "QLDS_ficha_tecnica.pdf",
+      "QLDS_protocolo.pdf"
     ],
     "description": "Calidad de vida en depresión",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7828,12 +7849,12 @@
     ],
     "acceso": "Académico",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "ADRQL_ficha_tecnica.pdf",
+      "ADRQL_protocolo.pdf"
     ],
     "description": "Calidad de vida en demencia",
     "use": "Adultos (ver Ficha_Tecnica)"
@@ -7861,12 +7882,13 @@
       "adultos"
     ],
     "acceso": "Académico, uso libre investigación (sin traducción española verificada)",
-    "descargable": false,
-    "protocolo_estado": "pendiente",
-    "protocolo_etiqueta": "Protocolo en verificación",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "NPI-N_ficha_tecnica.pdf",
+      "NPI-N_protocolo.pdf"
     ],
     "description": "Rasgos de personalidad narcisista",
     "use": "Adultos"
@@ -7895,12 +7917,13 @@
       "adultos"
     ],
     "acceso": "Académico, uso libre investigación (sin traducción española verificada)",
-    "descargable": false,
-    "protocolo_estado": "pendiente",
-    "protocolo_etiqueta": "Protocolo en verificación",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf"
+      "AIM-A_ficha_tecnica.pdf",
+      "AIM-A_protocolo.pdf"
     ],
     "description": "Intensidad de la reactividad afectiva",
     "use": "Adultos"
@@ -7928,14 +7951,1218 @@
     ],
     "acceso": "Académico, descarga oficial gratuita CIBERSAM",
     "descargable": true,
-    "protocolo_estado": "reconstruido_verificado",
+    "protocolo_estado": "disponible",
     "protocolo_etiqueta": "",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "TOP-8_ficha_tecnica.pdf",
+      "TOP-8_protocolo.pdf"
     ],
     "description": "Respuesta al tratamiento en TEPT",
     "use": "Adultos"
+  },
+  {
+    "family_id": "eat-40_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "EAT-40",
+    "nombre": "Test de Actitudes hacia la Alimentación (40 ítems)",
+    "constructo": "Trastornos de la conducta alimentaria",
+    "temas": [
+      "Trastornos de la conducta alimentaria"
+    ],
+    "sinonimos": [
+      "EAT-40",
+      "Test de Actitudes hacia la Alimentación (40 ítems)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · EAT-40",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Investigación y clínica sin fines de lucro)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "EAT-40_ficha_tecnica.pdf",
+      "EAT-40_protocolo.pdf"
+    ],
+    "description": "Trastornos de la conducta alimentaria",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "eat-26_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "EAT-26",
+    "nombre": "Test de Actitudes hacia la Alimentación - Versión Abreviada (26 ítems)",
+    "constructo": "Trastornos de la conducta alimentaria",
+    "temas": [
+      "Trastornos de la conducta alimentaria"
+    ],
+    "sinonimos": [
+      "EAT-26",
+      "Test de Actitudes hacia la Alimentación - Versión Abreviada (26 ítems)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · EAT-26",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre uso clínico e investigación)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "EAT-26_ficha_tecnica.pdf",
+      "EAT-26_protocolo.pdf"
+    ],
+    "description": "Trastornos de la conducta alimentaria",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "eat-40-sergas_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "EAT-40-SERGAS",
+    "nombre": "Test de Actitudes hacia la Alimentación (Formato SERGAS)",
+    "constructo": "Trastornos de la conducta alimentaria",
+    "temas": [
+      "Trastornos de la conducta alimentaria"
+    ],
+    "sinonimos": [
+      "EAT-40-SERGAS",
+      "Test de Actitudes hacia la Alimentación (Formato SERGAS)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · EAT-40-SERGAS",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Sanitario público SNS)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "EAT-40-SERGAS_ficha_tecnica.pdf",
+      "EAT-40-SERGAS_protocolo.pdf"
+    ],
+    "description": "Trastornos de la conducta alimentaria",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "cage_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "CAGE",
+    "nombre": "Cuestionario CAGE para Detección de Alcoholismo",
+    "constructo": "Consumo de alcohol y adicciones",
+    "temas": [
+      "Consumo de alcohol y adicciones"
+    ],
+    "sinonimos": [
+      "CAGE",
+      "Cuestionario CAGE para Detección de Alcoholismo"
+    ],
+    "resumen": "Protocolo clínico de evaluación · CAGE",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "CAGE_ficha_tecnica.pdf",
+      "CAGE_protocolo.pdf"
+    ],
+    "description": "Consumo de alcohol y adicciones",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "abs_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "ABS",
+    "nombre": "Escala de Comportamiento Agitado de Corrigan (ABS)",
+    "constructo": "Agitación psicomotriz e impulsividad aguda",
+    "temas": [
+      "Agitación psicomotriz e impulsividad aguda"
+    ],
+    "sinonimos": [
+      "ABS",
+      "Escala de Comportamiento Agitado de Corrigan (ABS)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · ABS",
+    "poblacion": "Pacientes hospitalizados y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre asistencial / Ohio State Univ.)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "ABS_ficha_tecnica.pdf",
+      "ABS_protocolo.pdf"
+    ],
+    "description": "Agitación psicomotriz e impulsividad aguda",
+    "use": "Pacientes hospitalizados y adultos"
+  },
+  {
+    "family_id": "scps_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SCPS",
+    "nombre": "Escala Pronóstica para la Esquizofrenia de Strauss y Carpenter",
+    "constructo": "Psicosis y curso pronóstico",
+    "temas": [
+      "Psicosis y curso pronóstico"
+    ],
+    "sinonimos": [
+      "SCPS",
+      "Escala Pronóstica para la Esquizofrenia de Strauss y Carpenter"
+    ],
+    "resumen": "Protocolo clínico de evaluación · SCPS",
+    "poblacion": "Adultos con esquizofrenia",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público OMS)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "SCPS_ficha_tecnica.pdf",
+      "SCPS_protocolo.pdf"
+    ],
+    "description": "Psicosis y curso pronóstico",
+    "use": "Adultos con esquizofrenia"
+  },
+  {
+    "family_id": "sds_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SDS",
+    "nombre": "Escala de Autoevaluación de la Depresión de Zung y Conde (SDS)",
+    "constructo": "Depresión y estado de ánimo",
+    "temas": [
+      "Depresión y estado de ánimo"
+    ],
+    "sinonimos": [
+      "SDS",
+      "Escala de Autoevaluación de la Depresión de Zung y Conde (SDS)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · SDS",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "SDS_ficha_tecnica.pdf",
+      "SDS_protocolo.pdf"
+    ],
+    "description": "Depresión y estado de ánimo",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "sis_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "SIS",
+    "nombre": "Escala de Intencionalidad Suicida de Beck (SIS)",
+    "constructo": "Riesgo y conducta suicida",
+    "temas": [
+      "Riesgo y conducta suicida"
+    ],
+    "sinonimos": [
+      "SIS",
+      "Escala de Intencionalidad Suicida de Beck (SIS)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · SIS",
+    "poblacion": "Pacientes con tentativas autolíticas",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Uso clínico y hospitalario)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "SIS_ficha_tecnica.pdf",
+      "SIS_protocolo.pdf"
+    ],
+    "description": "Riesgo y conducta suicida",
+    "use": "Pacientes con tentativas autolíticas"
+  },
+  {
+    "family_id": "rs-plutchik_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "RS-Plutchik",
+    "nombre": "Escala de Riesgo Suicida de Plutchik",
+    "constructo": "Riesgo y conducta suicida",
+    "temas": [
+      "Riesgo y conducta suicida"
+    ],
+    "sinonimos": [
+      "RS-Plutchik",
+      "Escala de Riesgo Suicida de Plutchik"
+    ],
+    "resumen": "Protocolo clínico de evaluación · RS-Plutchik",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Académico y clínico)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "RS-Plutchik_ficha_tecnica.pdf",
+      "RS-Plutchik_protocolo.pdf"
+    ],
+    "description": "Riesgo y conducta suicida",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "bsds_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "BSDS",
+    "nombre": "Escala Diagnóstica del Espectro Bipolar de Ghaemi",
+    "constructo": "Trastorno bipolar y ciclotimia",
+    "temas": [
+      "Trastorno bipolar y ciclotimia"
+    ],
+    "sinonimos": [
+      "BSDS",
+      "Escala Diagnóstica del Espectro Bipolar de Ghaemi"
+    ],
+    "resumen": "Protocolo clínico de evaluación · BSDS",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre uso asistencial)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "BSDS_ficha_tecnica.pdf",
+      "BSDS_protocolo.pdf"
+    ],
+    "description": "Trastorno bipolar y ciclotimia",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "hars_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "HARS",
+    "nombre": "Escala de Hamilton para la Ansiedad (HAM-A)",
+    "constructo": "Ansiedad psíquica y somática",
+    "temas": [
+      "Ansiedad psíquica y somática"
+    ],
+    "sinonimos": [
+      "HARS",
+      "Escala de Hamilton para la Ansiedad (HAM-A)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · HARS",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "HARS_ficha_tecnica.pdf",
+      "HARS_protocolo.pdf"
+    ],
+    "description": "Ansiedad psíquica y somática",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "pas_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "PAS",
+    "nombre": "Escala de Pánico y Agorafobia de Bandelow (PAS)",
+    "constructo": "Pánico y agorafobia",
+    "temas": [
+      "Pánico y agorafobia"
+    ],
+    "sinonimos": [
+      "PAS",
+      "Escala de Pánico y Agorafobia de Bandelow (PAS)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · PAS",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Académico e investigación clínica)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "PAS_ficha_tecnica.pdf",
+      "PAS_protocolo.pdf"
+    ],
+    "description": "Pánico y agorafobia",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "diario-panico_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "Diario-Panico",
+    "nombre": "Trastorno de Pánico: Diario del Paciente (Autorregistro TCC)",
+    "constructo": "Crisis de angustia y pánico",
+    "temas": [
+      "Crisis de angustia y pánico"
+    ],
+    "sinonimos": [
+      "Diario-Panico",
+      "Trastorno de Pánico: Diario del Paciente (Autorregistro TCC)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · Diario-Panico",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre uso clínico)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "Diario-Panico_ficha_tecnica.pdf",
+      "Diario-Panico_protocolo.pdf"
+    ],
+    "description": "Crisis de angustia y pánico",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "lsas_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "LSAS",
+    "nombre": "Escala de Ansiedad Social de Liebowitz (LSAS)",
+    "constructo": "Fobia social y ansiedad de desempeño",
+    "temas": [
+      "Fobia social y ansiedad de desempeño"
+    ],
+    "sinonimos": [
+      "LSAS",
+      "Escala de Ansiedad Social de Liebowitz (LSAS)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · LSAS",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre investigación / Clínica)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "LSAS_ficha_tecnica.pdf",
+      "LSAS_protocolo.pdf"
+    ],
+    "description": "Fobia social y ansiedad de desempeño",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "carroll-tag_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "Carroll-TAG",
+    "nombre": "Escala de Detección del TAG de Carroll y Davidson",
+    "constructo": "Ansiedad generalizada",
+    "temas": [
+      "Ansiedad generalizada"
+    ],
+    "sinonimos": [
+      "Carroll-TAG",
+      "Escala de Detección del TAG de Carroll y Davidson"
+    ],
+    "resumen": "Protocolo clínico de evaluación · Carroll-TAG",
+    "poblacion": "Adultos en atención médica primaria",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre investigación)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "Carroll-TAG_ficha_tecnica.pdf",
+      "Carroll-TAG_protocolo.pdf"
+    ],
+    "description": "Ansiedad generalizada",
+    "use": "Adultos en atención médica primaria"
+  },
+  {
+    "family_id": "asq-15_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "ASQ-15",
+    "nombre": "Cuestionario de Screening de Ansiedad de Wittchen (ASQ-15)",
+    "constructo": "Cribado multitrastorno de ansiedad",
+    "temas": [
+      "Cribado multitrastorno de ansiedad"
+    ],
+    "sinonimos": [
+      "ASQ-15",
+      "Cuestionario de Screening de Ansiedad de Wittchen (ASQ-15)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · ASQ-15",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Max Planck Institute)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "ASQ-15_ficha_tecnica.pdf",
+      "ASQ-15_protocolo.pdf"
+    ],
+    "description": "Cribado multitrastorno de ansiedad",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "mini_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "MINI",
+    "nombre": "Entrevista Neuropsiquiátrica Internacional (MINI 5.0.0)",
+    "constructo": "Evaluación diagnóstica multiaxial DSM-IV/CIE-10",
+    "temas": [
+      "Evaluación diagnóstica multiaxial DSM-IV/CIE-10"
+    ],
+    "sinonimos": [
+      "MINI",
+      "Entrevista Neuropsiquiátrica Internacional (MINI 5.0.0)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · MINI",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Sujeto a copyright Harm Research / D. Sheehan)",
+    "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
+    "archivos": [
+      "MINI_ficha_tecnica.pdf"
+    ],
+    "description": "Evaluación diagnóstica multiaxial DSM-IV/CIE-10",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "bhs_new",
+    "eje": "Eje I",
+    "eje_num": 1,
+    "sigla": "BHS",
+    "nombre": "Escala de Desesperanza de Beck (BHS)",
+    "constructo": "Desesperanza y riesgo suicida",
+    "temas": [
+      "Desesperanza y riesgo suicida"
+    ],
+    "sinonimos": [
+      "BHS",
+      "Escala de Desesperanza de Beck (BHS)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · BHS",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Copyright Pearson Clinical / TEA Ediciones)",
+    "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
+    "archivos": [
+      "BHS_ficha_tecnica.pdf"
+    ],
+    "description": "Desesperanza y riesgo suicida",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "empc_new",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "EMPC",
+    "nombre": "Escala Motivacional de Pensamiento Crítico (EMPC)",
+    "constructo": "Estilos de pensamiento y metacognición",
+    "temas": [
+      "Estilos de pensamiento y metacognición"
+    ],
+    "sinonimos": [
+      "EMPC",
+      "Escala Motivacional de Pensamiento Crítico (EMPC)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · EMPC",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre académico)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "EMPC_ficha_tecnica.pdf",
+      "EMPC_protocolo.pdf"
+    ],
+    "description": "Estilos de pensamiento y metacognición",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "tsi_new",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "TSI",
+    "nombre": "Inventario de Estilos de Pensamiento de Sternberg (TSI)",
+    "constructo": "Estilos cognitivos y autogobierno mental",
+    "temas": [
+      "Estilos cognitivos y autogobierno mental"
+    ],
+    "sinonimos": [
+      "TSI",
+      "Inventario de Estilos de Pensamiento de Sternberg (TSI)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · TSI",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Uso clínico y académico)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "TSI_ficha_tecnica.pdf",
+      "TSI_protocolo.pdf"
+    ],
+    "description": "Estilos cognitivos y autogobierno mental",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "sseit_new",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "SSEIT",
+    "nombre": "Escala de Inteligencia Emocional de Schutte (SSEIT)",
+    "constructo": "Inteligencia emocional autopercibida",
+    "temas": [
+      "Inteligencia emocional autopercibida"
+    ],
+    "sinonimos": [
+      "SSEIT",
+      "Escala de Inteligencia Emocional de Schutte (SSEIT)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · SSEIT",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio académico libre)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "SSEIT_ficha_tecnica.pdf",
+      "SSEIT_protocolo.pdf"
+    ],
+    "description": "Inteligencia emocional autopercibida",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "iss_new",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "ISS",
+    "nombre": "Inventario de Situaciones Sociales (ISS)",
+    "constructo": "Afrontamiento interpersonal y asertividad",
+    "temas": [
+      "Afrontamiento interpersonal y asertividad"
+    ],
+    "sinonimos": [
+      "ISS",
+      "Inventario de Situaciones Sociales (ISS)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · ISS",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre académico)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "ISS_ficha_tecnica.pdf",
+      "ISS_protocolo.pdf"
+    ],
+    "description": "Afrontamiento interpersonal y asertividad",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "hsq-24_new",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "HSQ-24",
+    "nombre": "Cuestionario de Estilos de Humor (HSQ-24)",
+    "constructo": "Regulación afectiva y mecanismos de humor",
+    "temas": [
+      "Regulación afectiva y mecanismos de humor"
+    ],
+    "sinonimos": [
+      "HSQ-24",
+      "Cuestionario de Estilos de Humor (HSQ-24)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · HSQ-24",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre académico)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "HSQ-24_ficha_tecnica.pdf",
+      "HSQ-24_protocolo.pdf"
+    ],
+    "description": "Regulación afectiva y mecanismos de humor",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "er-25_new",
+    "eje": "Eje II",
+    "eje_num": 2,
+    "sigla": "ER-25",
+    "nombre": "Escala de Resiliencia de Wagnild y Young (25 ítems)",
+    "constructo": "Resiliencia y superación de adversidades",
+    "temas": [
+      "Resiliencia y superación de adversidades"
+    ],
+    "sinonimos": [
+      "ER-25",
+      "Escala de Resiliencia de Wagnild y Young (25 ítems)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · ER-25",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Copyright The Resilience Center)",
+    "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
+    "archivos": [
+      "ER-25_ficha_tecnica.pdf"
+    ],
+    "description": "Resiliencia y superación de adversidades",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "crea-24_new",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "CREA-24",
+    "nombre": "Escala de Autopercepción de Creatividad (CREA-24)",
+    "constructo": "Autoconcepto y autoeficacia creativa",
+    "temas": [
+      "Autoconcepto y autoeficacia creativa"
+    ],
+    "sinonimos": [
+      "CREA-24",
+      "Escala de Autopercepción de Creatividad (CREA-24)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · CREA-24",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre educativo y clínico)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "CREA-24_ficha_tecnica.pdf",
+      "CREA-24_protocolo.pdf"
+    ],
+    "description": "Autoconcepto y autoeficacia creativa",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "sss-v_new",
+    "eje": "Eje III",
+    "eje_num": 3,
+    "sigla": "SSS-V",
+    "nombre": "Escala de Búsqueda de Sensaciones de Zuckerman (Forma V)",
+    "constructo": "Rasgo disposicional de personalidad",
+    "temas": [
+      "Rasgo disposicional de personalidad"
+    ],
+    "sinonimos": [
+      "SSS-V",
+      "Escala de Búsqueda de Sensaciones de Zuckerman (Forma V)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · SSS-V",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre investigación)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "SSS-V_ficha_tecnica.pdf",
+      "SSS-V_protocolo.pdf"
+    ],
+    "description": "Rasgo disposicional de personalidad",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "katz_new",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "KATZ",
+    "nombre": "Índice de Katz de Actividades Básicas de la Vida Diaria (ABVD)",
+    "constructo": "Autonomía funcional y dependencia biológica",
+    "temas": [
+      "Autonomía funcional y dependencia biológica"
+    ],
+    "sinonimos": [
+      "KATZ",
+      "Índice de Katz de Actividades Básicas de la Vida Diaria (ABVD)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · KATZ",
+    "poblacion": "Adultos mayores y pacientes neurológicos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "KATZ_ficha_tecnica.pdf",
+      "KATZ_protocolo.pdf"
+    ],
+    "description": "Autonomía funcional y dependencia biológica",
+    "use": "Adultos mayores y pacientes neurológicos"
+  },
+  {
+    "family_id": "swbs_new",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "SWBS",
+    "nombre": "Escala de Bienestar Social de Keyes",
+    "constructo": "Bienestar social y ajuste comunitario",
+    "temas": [
+      "Bienestar social y ajuste comunitario"
+    ],
+    "sinonimos": [
+      "SWBS",
+      "Escala de Bienestar Social de Keyes"
+    ],
+    "resumen": "Protocolo clínico de evaluación · SWBS",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre académico)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "SWBS_ficha_tecnica.pdf",
+      "SWBS_protocolo.pdf"
+    ],
+    "description": "Bienestar social y ajuste comunitario",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "cgi_new",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "CGI",
+    "nombre": "Escala de Impresión Clínica Global de Guy (CGI)",
+    "constructo": "Funcionamiento global y severidad transdiagnóstica",
+    "temas": [
+      "Funcionamiento global y severidad transdiagnóstica"
+    ],
+    "sinonimos": [
+      "CGI",
+      "Escala de Impresión Clínica Global de Guy (CGI)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · CGI",
+    "poblacion": "Población clínica general",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público NIMH)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "CGI_ficha_tecnica.pdf",
+      "CGI_protocolo.pdf"
+    ],
+    "description": "Funcionamiento global y severidad transdiagnóstica",
+    "use": "Población clínica general"
+  },
+  {
+    "family_id": "q-les-q_new",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "Q-LES-Q",
+    "nombre": "Cuestionario de Calidad de Vida: Satisfacción y Placer de Endicott",
+    "constructo": "Calidad de vida y satisfacción vital",
+    "temas": [
+      "Calidad de vida y satisfacción vital"
+    ],
+    "sinonimos": [
+      "Q-LES-Q",
+      "Cuestionario de Calidad de Vida: Satisfacción y Placer de Endicott"
+    ],
+    "resumen": "Protocolo clínico de evaluación · Q-LES-Q",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Uso académico y clínico)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "Q-LES-Q_ficha_tecnica.pdf",
+      "Q-LES-Q_protocolo.pdf"
+    ],
+    "description": "Calidad de vida y satisfacción vital",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "eq-5d_new",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "EQ-5D",
+    "nombre": "Cuestionario de Salud EuroQoL-5D",
+    "constructo": "Calidad de vida relacionada con la salud",
+    "temas": [
+      "Calidad de vida relacionada con la salud"
+    ],
+    "sinonimos": [
+      "EQ-5D",
+      "Cuestionario de Salud EuroQoL-5D"
+    ],
+    "resumen": "Protocolo clínico de evaluación · EQ-5D",
+    "poblacion": "Población general y clínica",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Copyright EuroQol Research Foundation)",
+    "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
+    "archivos": [
+      "EQ-5D_ficha_tecnica.pdf"
+    ],
+    "description": "Calidad de vida relacionada con la salud",
+    "use": "Población general y clínica"
+  },
+  {
+    "family_id": "zbi_new",
+    "eje": "Eje IV",
+    "eje_num": 4,
+    "sigla": "ZBI",
+    "nombre": "Escala de Sobrecarga del Cuidador de Zarit (ZBI)",
+    "constructo": "Sobrecarga familiar y dinámica de cuidados",
+    "temas": [
+      "Sobrecarga familiar y dinámica de cuidados"
+    ],
+    "sinonimos": [
+      "ZBI",
+      "Escala de Sobrecarga del Cuidador de Zarit (ZBI)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · ZBI",
+    "poblacion": "Cuidadores principales informales",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "No (Copyright Mapi Research Trust)",
+    "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
+    "fuente_url": "",
+    "archivos": [
+      "ZBI_ficha_tecnica.pdf"
+    ],
+    "description": "Sobrecarga familiar y dinámica de cuidados",
+    "use": "Cuidadores principales informales"
+  },
+  {
+    "family_id": "his_new",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "HIS",
+    "nombre": "Escala de Isquemia de Hachinski (HIS)",
+    "constructo": "Diagnóstico diferencial de demencias",
+    "temas": [
+      "Diagnóstico diferencial de demencias"
+    ],
+    "sinonimos": [
+      "HIS",
+      "Escala de Isquemia de Hachinski (HIS)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · HIS",
+    "poblacion": "Adultos mayores con sospecha de demencia",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "HIS_ficha_tecnica.pdf",
+      "HIS_protocolo.pdf"
+    ],
+    "description": "Diagnóstico diferencial de demencias",
+    "use": "Adultos mayores con sospecha de demencia"
+  },
+  {
+    "family_id": "cfss_new",
+    "eje": "Eje V",
+    "eje_num": 5,
+    "sigla": "CFSS",
+    "nombre": "Escala de Autoevaluación del Funcionamiento Cognitivo (CFSS)",
+    "constructo": "Quejas cognitivas subjetivas cotidianas",
+    "temas": [
+      "Quejas cognitivas subjetivas cotidianas"
+    ],
+    "sinonimos": [
+      "CFSS",
+      "Escala de Autoevaluación del Funcionamiento Cognitivo (CFSS)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · CFSS",
+    "poblacion": "Adolescentes y adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre clínico)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "CFSS_ficha_tecnica.pdf",
+      "CFSS_protocolo.pdf"
+    ],
+    "description": "Quejas cognitivas subjetivas cotidianas",
+    "use": "Adolescentes y adultos"
+  },
+  {
+    "family_id": "gsqs_new",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "GSQS",
+    "nombre": "Escala Groningen de la Calidad del Sueño (GSQS)",
+    "constructo": "Calidad de descanso e insomnio agudo",
+    "temas": [
+      "Calidad de descanso e insomnio agudo"
+    ],
+    "sinonimos": [
+      "GSQS",
+      "Escala Groningen de la Calidad del Sueño (GSQS)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · GSQS",
+    "poblacion": "Adultos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre académico Univ. Groningen)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "GSQS_ficha_tecnica.pdf",
+      "GSQS_protocolo.pdf"
+    ],
+    "description": "Calidad de descanso e insomnio agudo",
+    "use": "Adultos"
+  },
+  {
+    "family_id": "othmer-desouza_new",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "Othmer-DeSouza",
+    "nombre": "Test de Detección de Somatización de Othmer y DeSouza",
+    "constructo": "Síntomas somatomorfos y somatización",
+    "temas": [
+      "Síntomas somatomorfos y somatización"
+    ],
+    "sinonimos": [
+      "Othmer-DeSouza",
+      "Test de Detección de Somatización de Othmer y DeSouza"
+    ],
+    "resumen": "Protocolo clínico de evaluación · Othmer-DeSouza",
+    "poblacion": "Adultos policonsultantes",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre clínico)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "Othmer-DeSouza_ficha_tecnica.pdf",
+      "Othmer-DeSouza_protocolo.pdf"
+    ],
+    "description": "Síntomas somatomorfos y somatización",
+    "use": "Adultos policonsultantes"
+  },
+  {
+    "family_id": "laxitud-hdm_new",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "Laxitud-HdM",
+    "nombre": "Criterios de Laxitud Articular del Hospital del Mar (Bulbena)",
+    "constructo": "Marcador somático de hiperlaxitud y pánico",
+    "temas": [
+      "Marcador somático de hiperlaxitud y pánico"
+    ],
+    "sinonimos": [
+      "Laxitud-HdM",
+      "Criterios de Laxitud Articular del Hospital del Mar (Bulbena)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · Laxitud-HdM",
+    "poblacion": "Población general y clínica de ansiedad",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre científico IMIM Barcelona)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "Laxitud-HdM_ficha_tecnica.pdf",
+      "Laxitud-HdM_protocolo.pdf"
+    ],
+    "description": "Marcador somático de hiperlaxitud y pánico",
+    "use": "Población general y clínica de ansiedad"
+  },
+  {
+    "family_id": "bars_new",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "BARS",
+    "nombre": "Escala de Acatisia de Barnes (BARS)",
+    "constructo": "Efectos extrapiramidales y farmacovigilancia",
+    "temas": [
+      "Efectos extrapiramidales y farmacovigilancia"
+    ],
+    "sinonimos": [
+      "BARS",
+      "Escala de Acatisia de Barnes (BARS)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · BARS",
+    "poblacion": "Pacientes bajo psicofármacos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Libre práctica médica)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "BARS_ficha_tecnica.pdf",
+      "BARS_protocolo.pdf"
+    ],
+    "description": "Efectos extrapiramidales y farmacovigilancia",
+    "use": "Pacientes bajo psicofármacos"
+  },
+  {
+    "family_id": "aims_new",
+    "eje": "Eje VI",
+    "eje_num": 6,
+    "sigla": "AIMS",
+    "nombre": "Escala de Movimientos Involuntarios Anormales de Guy (AIMS)",
+    "constructo": "Farmacovigilancia y discinesia tardía",
+    "temas": [
+      "Farmacovigilancia y discinesia tardía"
+    ],
+    "sinonimos": [
+      "AIMS",
+      "Escala de Movimientos Involuntarios Anormales de Guy (AIMS)"
+    ],
+    "resumen": "Protocolo clínico de evaluación · AIMS",
+    "poblacion": "Pacientes bajo antipsicóticos",
+    "franjas": [
+      "adultos"
+    ],
+    "acceso": "Sí (Dominio público NIMH)",
+    "descargable": true,
+    "protocolo_estado": "disponible",
+    "protocolo_etiqueta": "",
+    "fuente_url": "",
+    "archivos": [
+      "AIMS_ficha_tecnica.pdf",
+      "AIMS_protocolo.pdf"
+    ],
+    "description": "Farmacovigilancia y discinesia tardía",
+    "use": "Pacientes bajo antipsicóticos"
   }
 ]

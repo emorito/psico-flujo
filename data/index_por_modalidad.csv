@@ -1,0 +1,271 @@
+modalidad,total_instrumentos,id_test,sigla_test,nombre_test,eje_test,constructo,tiempo_administracion,acceso
+Autoinforme,196,stai_0,STAI,Inventario de Ansiedad Estado-Rasgo,Eje I,Ansiedad y miedo,12 a 18 minutos (40 ítems en total; aprox. 7 minutos por subescala),comercial
+Autoinforme,196,bai_1,BAI,Inventario de Ansiedad de Beck,Eje I,Ansiedad y miedo,5 a 10 minutos en autoadministración.,comercial
+Autoinforme,196,gad-7_2,GAD-7,Escala de Trastorno de Ansiedad Generalizada - 7,Eje I,Ansiedad y miedo,1 a 2 minutos en autoadministración; muy ágil para triaje clínico.,abierto
+Autoinforme,196,isra_3,ISRA,Inventario de Situaciones y Respuestas de Ansiedad,Eje I,Ansiedad y miedo,Forma completa: 30 a 50 minutos; Forma abreviada ISRA-B: 15 minutos,comercial
+Autoinforme,196,hads_4,HADS,Escala de Ansiedad y Depresión Hospitalaria,Eje I,Ansiedad y miedo,4 a 6 minutos (14 reactivos tipo Likert de 4 opciones),comercial
+Autoinforme,196,dass-21_5,DASS-21,"Escalas de Depresión, Ansiedad y Estrés - 21",Eje I,"Depresión, ansiedad y estrés",8 a 12 minutos (autoadministrado o aplicado en entrevista clínica guiada).,abierto
+Autoinforme,196,pss_6,PSS,Escala de Estrés Percibido,Eje I,Estrés psicológico,3 a 5 minutos.,abierto
+Autoinforme,196,tics_8,TICS,Inventario de Estrés Crónico de Trier,Eje I,Estrés psicológico,10 a 15 minutos (versión estándar de 57 ítems) o 3 a 5 min (escala de cribado SSCS de 12 ítems),comercial
+Autoinforme,196,pcl-5_9,PCL-5,Lista de Chequeo del TEPT para el DSM-5,Eje I,Trauma y estrés postraumático,5 a 10 minutos.,abierto
+Autoinforme,196,ies-r_11,IES-R,Escala de Impacto del Evento Revisada,Eje I,Trauma y estrés postraumático,6 a 10 minutos.,abierto
+Autoinforme,196,dts_12,DTS,Escala de Trauma de Davidson,Eje I,Trauma y estrés postraumático,8 a 12 minutos (17 reactivos dobles: 34 valoraciones),comercial
+Autoinforme,196,bdi-ii_13,BDI-II,Inventario de Depresión de Beck - II,Eje I,Depresión y anhedonia,5 a 10 minutos (autoadministrado o mediante lectura asistida en deterioro motor),comercial
+Autoinforme,196,phq-9_14,PHQ-9,Cuestionario de Salud del Paciente - 9,Eje I,Depresión y anhedonia,2 a 3 minutos en autoadministración; 3 a 5 minutos asistido.,abierto
+Autoinforme,196,ces-d_15,CES-D,Escala del Centro de Estudios Epidemiológicos de la Depresión,Eje I,Depresión y anhedonia,4 a 7 minutos.,abierto
+Autoinforme,196,shaps_16,SHAPS,Escala de Placer de Snaith-Hamilton,Eje I,Depresión y anhedonia,3 a 5 minutos.,abierto
+Autoinforme,196,oci-r_19,OCI-R,Inventario Obsesivo-Compulsivo Revisado,Eje I,Obsesiones y compulsiones,3 a 5 minutos.,abierto
+Autoinforme,196,pi-wsur_20,PI-WSUR,Inventario de Padua Revisado - WSU,Eje I,Obsesiones y compulsiones,8 a 12 minutos.,comercial
+Autoinforme,196,docs_21,DOCS,Escala Dimensional Obsesivo-Compulsiva,Eje I,Obsesiones y compulsiones,10 a 15 minutos.,abierto
+Autoinforme,196,phq-15_22,PHQ-15,Cuestionario de Salud del Paciente - 15,Eje I,Somatización y ansiedad por la salud,3 a 5 minutos.,abierto
+Autoinforme,196,wi-7_23,WI,Índice de Whiteley,Eje I,Somatización y ansiedad por la salud,3 a 5 minutos.,abierto
+Autoinforme,196,shai_24,SHAI,Inventario Corto de Ansiedad por la Salud,Eje I,Somatización y ansiedad por la salud,5 a 9 minutos.,abierto
+Autoinforme,196,scl-90-r_25,SCL-90-R,Inventario de Síntomas SCL-90-R (Subescala Somatización),Eje I,Somatización y ansiedad por la salud,12 a 15 minutos (90 ítems referidos a los últimos 7 días),comercial
+Autoinforme,196,bis-11_26,BIS-11,Escala de Impulsividad de Barratt,Eje I,Impulsividad,5 a 8 minutos (autoadministrado),abierto
+Autoinforme,196,upps-p_27,UPPS-P,Escala de Comportamiento Impulsivo UPPS-P,Eje I,Impulsividad,5 a 8 minutos (20 ítems),abierto
+Autoinforme,196,dii_28,DII,Inventario de Impulsividad de Dickman,Eje I,Impulsividad,4 a 6 minutos.,abierto
+Autoinforme,196,aq_29,AQ,Cuestionario de Agresión,Eje I,Agresividad e ira,8 a 12 minutos en autoadministración guiada o lectura asistida.,abierto
+Autoinforme,196,staxi-2_30,STAXI-2,Inventario de Expresión de Ira Estado-Rasgo 2,Eje I,Agresividad e ira,10 a 15 minutos (49 ítems),comercial
+Autoinforme,196,rpq_31,RPQ,Cuestionario de Agresión Reactiva-Proactiva,Eje I,Agresividad e ira,5 a 8 minutos.,abierto
+Autoinforme,196,srp-iv_33,SRP-IV,Escala de Autoinforme de Psicopatía - Versión IV,Eje III,Conducta antisocial,15 a 20 minutos en administración individual o colectiva.,comercial
+Autoinforme,196,cbcl_35,CBCL,Inventario de Comportamiento Infantil (Subescalas Externalizantes),Eje I,Conducta disruptiva,15 a 20 minutos (autoadministrado por los progenitores),comercial
+Autoinforme,196,sdq_36,SDQ,Cuestionario de Capacidades y Dificultades,Eje I,Conducta disruptiva,5 a 8 minutos.,abierto
+Autoinforme,196,dbd_37,DBD,Escala de Trastornos de Comportamiento Perturbador,Eje I,Conducta disruptiva,10 a 15 minutos por informante.,abierto
+Autoinforme,196,iat_41,IAT,Test de Adicción a Internet,Eje I,Adicciones conductuales,5 a 8 minutos.,abierto
+Autoinforme,196,pdi-21_43,PDI-21,Inventario de Delirios de Peters,Eje I,Ideación delirante,8 a 15 minutos.,abierto
+Autoinforme,196,cape-42_44,CAPE-42,Evaluación Comunitaria de Experiencias Psíquicas,Eje I,Experiencias perceptivas inusuales,10 a 15 minutos en autoaplicación guiada.,abierto
+Autoinforme,196,bss_47,BSS,Escala de Ideación Suicida de Beck,Eje I,Ideación y Conducta suicida,5 a 10 minutos (mediante entrevista clínica semiestructurada o autoinforme supervisado),comercial
+Autoinforme,196,isas_48,ISAS,Inventario de Declaraciones sobre Autolesiones,Eje I,Autolesiones no suicidas,10 a 15 minutos.,abierto
+Autoinforme,196,hcr-20_v3_49,HCR-20 v3,Guía de Evaluación del Riesgo de Violencia,Eje I,Riesgo de violencia,"1.5 a 3 horas (revisión documental exhaustiva, entrevista clínica y contraste con informantes)",comercial
+Autoinforme,196,jvq_50,JVQ,Cuestionario de Victimización Juvenil,Eje I,Vulnerabilidad y victimización,15 a 25 minutos.,abierto
+Autoinforme,196,rrs_51,RRS,Escala de Respuestas Rumiativas,Eje II,Rumiación,3 a 5 minutos en autoadministración; 6 minutos asistido.,abierto
+Autoinforme,196,pswq_52,PSWQ,Cuestionario de Preocupación del Estado de Pensilvania,Eje II,Preocupación crónica,3 a 5 minutos en autoadministración; 6 minutos asistido.,abierto
+Autoinforme,196,ius-12_53,IUS-12,Escala de Intolerancia a la Incertidumbre,Eje II,Intolerancia a la incertidumbre,2 a 4 minutos en autoadministración; 5 minutos asistido.,abierto
+Autoinforme,196,aaq-ii_54,AAQ-II,Cuestionario de Aceptación y Acción II,Eje II,Rigidez y Flexibilidad cognitiva,1 a 3 minutos en autoadministración; 3 a 5 minutos asistido.,abierto
+Autoinforme,196,cfi_55,CFI,Inventario de Flexibilidad Cognitiva,Eje II,Rigidez y Flexibilidad cognitiva,4 a 6 minutos en autoadministración.,abierto
+Autoinforme,196,cfq_56,CFQ,Cuestionario de Fusión Cognitiva,Eje II,Fusión cognitiva,2 a 3 minutos en autoadministración.,abierto
+Autoinforme,196,mcq-30_57,MCQ-30,Cuestionario de Metacogniciones,Eje II,Metacogniciones disfuncionales,5 a 8 minutos en autoadministración; 10 minutos asistido.,abierto
+Autoinforme,196,ysq-s3_58,YSQ-S3,Cuestionario de Esquemas de Young,Eje II,Esquemas maladaptativos,15 a 20 minutos en autoadministración.,abierto
+Autoinforme,196,ders_59,DERS,Escala de Dificultades en la Regulación Emocional,Eje II,Regulación y Desregulación emocional,5 a 8 minutos en autoadministración; 10 minutos asistido.,abierto
+Autoinforme,196,cerq_60,CERQ,Cuestionario de Regulación Cognitiva de las Emociones,Eje II,Regulación y Desregulación emocional,6 a 10 minutos en autoadministración; 12 minutos asistido.,abierto
+Autoinforme,196,tas-20_62,TAS-20,Escala de Alexitimia de Toronto,Eje II,Claridad emocional y Alexitimia,3 a 5 minutos en autoadministración; 6 minutos asistido.,abierto
+Autoinforme,196,meaq_63,MEAQ,Cuestionario Multidimensional de Evitación Experiencial,Eje II,Evitación experiencial,12 a 15 minutos en autoadministración.,abierto
+Autoinforme,196,bads_64,BADS,Escala de Activación Conductual para la Depresión,Eje II,Activación y Evitación conductual,5 a 8 minutos en autoadministración; 10 minutos asistido.,abierto
+Autoinforme,196,eros_65,EROS,Escala de Observación de Recompensas Ambientales,Eje II,Activación y Evitación conductual,1 a 3 minutos en autoadministración; 3 a 4 minutos asistido.,abierto
+Autoinforme,196,brief_cope_66,Brief COPE,Inventario Breve de Afrontamiento,Eje II,Exposición y afrontamiento,4 a 7 minutos en autoadministración; 8 minutos asistido.,abierto
+Autoinforme,196,bis_68,BIS/BAS,Escalas del Sistema de Inhibición y Aproximación Conductual,Eje II,Búsqueda de recompensa,4 a 6 minutos en autoadministración.,abierto
+Autoinforme,196,ecr-r_69,ECR-R,Experiencias en Relaciones Cercanas - Revisado,Eje II,Apego,6 a 10 minutos en autoadministración; 12 minutos asistido.,abierto
+Autoinforme,196,idi_70,IDI,Inventario de Dependencia Interpersonal,Eje II,Dependencia interpersonal,8 a 12 minutos en autoadministración.,abierto
+Autoinforme,196,rsq_71,RSQ,Cuestionario de Sensibilidad al Rechazo,Eje II,Sensibilidad al rechazo,8 a 12 minutos en autoadministración.,abierto
+Autoinforme,196,iip-32_72,IIP-32,Inventario de Problemas Interpersonales (Versión Breve),Eje II,Comunicación interpersonal y Asertividad,6 a 8 minutos en autoadministración.,abierto
+Autoinforme,196,ras_73,RAS,Escala de Asertividad de Rathus,Eje II,Comunicación interpersonal y Asertividad,6 a 10 minutos en autoadministración.,abierto
+Autoinforme,196,ucla-r_74,UCLA-R,Escala de Soledad de UCLA Revisada,Eje II,Soledad y aislamiento social,3 a 5 minutos en autoadministración; 6 minutos asistido.,abierto
+Autoinforme,196,djgls_75,DJGLS,Escala de Soledad de De Jong Gierveld,Eje II,Soledad y aislamiento social,3 a 5 minutos (forma completa); 2 minutos (forma breve DJGLS-6).,abierto
+Autoinforme,196,neo-pi-r_76,NEO-PI-R,Inventario de Personalidad NEO Revisado,Eje III,"Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",35 a 50 minutos de respuesta pausada y supervisada.,comercial
+Autoinforme,196,bfi-2_77,BFI-2,Inventario de los Cinco Grandes 2,Eje III,"Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",8 a 12 minutos en autoadministración.,abierto
+Autoinforme,196,hexaco-pi-r_78,HEXACO-PI-R,Inventario de Personalidad HEXACO Revisado,Eje III,"Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",8 a 12 minutos en autoadministración.,abierto
+Autoinforme,196,tci-r_79,TCI-R,Inventario de Temperamento y Carácter Revisado,Eje III,"Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",35 a 50 minutos de autoadministración supervisada.,academico
+Autoinforme,196,pid-5_80,PID-5,Inventario de Personalidad para el DSM-5,Eje III,"Rasgos Patológicos de Personalidad (Afectividad Negativa, Desapego, Antagonismo, Desinhibición, Psicoticismo)",25 a 40 minutos en autoadministración.,abierto
+Autoinforme,196,sd3_81,SD3,La Tríada Oscura Corta,Eje III,Personalidad Oscura y Luminosa (Tríadas y Tétradas),5 a 8 minutos en autoadministración.,abierto
+Autoinforme,196,sd4_82,SD4,La Tétrada Oscura Corta,Eje III,Personalidad Oscura y Luminosa (Tríadas y Tétradas),5 a 8 minutos en autoadministración.,abierto
+Autoinforme,196,lts_83,LTS,Escala de la Tríada Luminosa,Eje III,Personalidad Oscura y Luminosa (Tríadas y Tétradas),3 a 5 minutos en autoadministración.,abierto
+Autoinforme,196,rses_84,RSES,Escala de Autoestima de Rosenberg,Eje III,Autoestima,2 a 4 minutos en autoadministración.,abierto
+Autoinforme,196,af-5_85,AF-5,Autoconcepto Forma 5,Eje III,Autoconcepto,10 a 15 minutos en autoadministración.,comercial
+Autoinforme,196,gse_86,GSE,Escala de Autoeficacia General,Eje III,Autoeficacia,2 a 4 minutos en autoadministración.,abierto
+Autoinforme,196,sccs_87,SCCS,Escala de Claridad del Autoconcepto,Eje III,Claridad del self,3 a 5 minutos en autoadministración.,abierto
+Autoinforme,196,eom-eis-2_88,EOM-EIS-2,Medida Objetiva Extendida del Estatus de Identidad del Ego,Eje III,Identidad personal,15 a 20 minutos de autoadministración individual o grupal.,abierto
+Autoinforme,196,pvq_89,PVQ,Cuestionario de Valores de Retrato,Eje III,Valores personales,6 a 10 minutos en autoadministración.,abierto
+Autoinforme,196,mlq_90,MLQ,Cuestionario de Significado de la Vida,Eje III,Sentido de vida y Propósito vital,3 a 5 minutos en autoadministración.,abierto
+Autoinforme,196,imi_91,IMI,Inventario de Motivación Intrínseca,Eje III,Motivación y Orientación a metas,5 a 8 minutos en autoadministración.,abierto
+Autoinforme,196,agq-r_92,AGQ-R,Cuestionario de Metas de Logro Revisado,Eje III,Motivación y Orientación a metas,3 a 5 minutos en autoadministración.,abierto
+Autoinforme,196,aceq_93,ACEQ,Cuestionario de Experiencias Adversas en la Infancia,Eje I,Trauma acumulado y Adversidad temprana,Aproximadamente 3 a 5 minutos (prueba de cribado ultrarrápida y no invasiva).,abierto
+Autoinforme,196,ctq-sf_94,CTQ-SF,Cuestionario de Trauma Infantil - Versión Breve,Eje I,Trauma acumulado y Adversidad temprana,5 a 8 minutos (autoadministrado en entorno protegido y confidencial),comercial
+Autoinforme,196,meim_95,MEIM,Multigroup Ethnic Identity Measure (Medida Multigrupo de Identidad Étnica),Eje III,Identidad étnica (Exploración y Compromiso/Pertenencia),3 a 5 minutos en autoadministración.,abierto
+Autoinforme,196,via_96,VIA,Índice de Aculturación de Vancouver,Eje III,Identidad cultural y Aculturación,5 a 8 minutos de autoadministración sencilla.,abierto
+Autoinforme,196,ismi_98,ISMI,Escala de Estigma Internalizado de la Enfermedad Mental,Eje III,Estigma y discriminación,8 a 12 minutos en autoadministración.,abierto
+Autoinforme,196,eod_99,EOD,Escala de Experiencias de Discriminación,Eje III,Estigma y discriminación,5 a 8 minutos en autoadministración.,abierto
+Autoinforme,196,whodas_2.0_100,WHODAS 2.0,Cuestionario para la Evaluación de Discapacidad de la OMS 2.0,Eje IV,"Funcionamiento general, Discapacidad y Actividades de la vida diaria",15 a 20 minutos (versión 36 ítems) o 5 minutos (versión 12 ítems).,abierto
+Autoinforme,196,chte_103,CHTE,Cuestionario de Hábitos y Técnicas de Estudio,Eje IV,"Rendimiento académico, Hábitos de estudio y Adaptación escolar",15 a 25 minutos de autoadministración individual o colectiva en aula.,academico
+Autoinforme,196,basc-3_104,BASC-3,Sistema de Evaluación de la Conducta de Niños y Adolescentes (Subescalas de Adaptación),Eje IV,"Rendimiento académico, Hábitos de estudio y Adaptación escolar",15 a 25 minutos por cuestionario (aproximadamente 100 a 190 reactivos según forma).,comercial
+Autoinforme,196,mbi_105,MBI,Inventario de Burnout de Maslach,Eje IV,"Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",10 a 15 minutos en autoadministración individual o cribados laborales colectivos.,comercial
+Autoinforme,196,uwes_106,UWES,Escala de Engagement en el Trabajo de Utrecht,Eje IV,"Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",5 a 8 minutos (UWES-17) o 2 a 3 minutos (UWES-9).,abierto
+Autoinforme,196,mos-sss_107,MOS-SSS,Cuestionario de Apoyo Social del Medical Outcomes Study,Eje IV,Apoyo social y Funcionamiento familiar,5 a 8 minutos de autoadministración sencilla.,abierto
+Autoinforme,196,faces-iv_108,FACES-IV,Escala de Cohesión y Adaptabilidad Familiar,Eje IV,Apoyo social y Funcionamiento familiar,15 a 20 minutos de autoadministración individual por miembros de la familia.,abierto
+Autoinforme,196,apgar_109,APGAR,APGAR Familiar,Eje IV,Apoyo social y Funcionamiento familiar,2 a 3 minutos en administración autoadministrada o heteroaplicada.,abierto
+Autoinforme,196,swls_110,SWLS,Escala de Satisfacción con la Vida,Eje IV,"Bienestar subjetivo, Bienestar psicológico y Florecimiento",1 a 2 minutos de rápida autoadministración.,abierto
+Autoinforme,196,pwb_111,PWB,Escalas de Bienestar Psicológico,Eje IV,"Bienestar subjetivo, Bienestar psicológico y Florecimiento",8 a 12 minutos de autoadministración guiada.,abierto
+Autoinforme,196,fs_112,FS,Escala de Florecimiento,Eje IV,"Bienestar subjetivo, Bienestar psicológico y Florecimiento",2 a 4 minutos en administración autoadministrada rápida.,abierto
+Autoinforme,196,sf-36_113,SF-36,Cuestionario de Salud SF-36,Eje IV,Calidad de vida,8 a 12 minutos de cumplimentación autónoma o guiada.,abierto
+Autoinforme,196,whoqol-bref_114,WHOQOL-BREF,Cuestionario de Calidad de Vida de la OMS - Versión Breve,Eje IV,Calidad de vida,8 a 12 minutos de cumplimentación autónoma.,abierto
+Autoinforme,196,cd-risc_115,CD-RISC,Escala de Resiliencia de Connor-Davidson,Eje IV,"Resiliencia, Afrontamiento y Fortalezas",3 a 5 minutos (CD-RISC-10) o 8 a 10 minutos (CD-RISC-25).,comercial
+Autoinforme,196,lot-r_116,LOT-R,Test de Orientación Vital Revisado (Optimismo),Eje III,"Resiliencia, Afrontamiento y Fortalezas",2 a 3 minutos en autoadministración.,abierto
+Autoinforme,196,via-is_118,VIA-IS,Inventario VIA de Fortalezas Personales,Eje IV,"Resiliencia, Afrontamiento y Fortalezas",25 a 35 minutos (versión 120 ítems) o 10 a 15 minutos (versión 72 ítems).,abierto
+Autoinforme,196,maia_133,MAIA,Evaluación Multidimensional de la Conciencia Interoceptiva,Eje II,Cognición Social e Interocepción,6 a 10 minutos en autoadministración; 12 minutos asistido.,abierto
+Autoinforme,196,psqi_135,PSQI,Índice de Calidad de Sueño de Pittsburgh,Eje VI,Sueño y ritmos circadianos,5 a 10 minutos (autoinforme estructurado con preguntas abiertas y cerradas),abierto
+Autoinforme,196,isi_136,ISI,Índice de Gravedad del Insomnio,Eje VI,Sueño y ritmos circadianos,3 a 5 minutos (autoadministrado),abierto
+Autoinforme,196,ess_137,ESS,Escala de Somnolencia de Epworth,Eje VI,Sueño y ritmos circadianos,2 a 4 minutos (autoadministrada o heteroadministrada en consulta),abierto
+Autoinforme,196,bpi_138,BPI,Inventario Breve de Dolor,Eje VI,"Dolor, fatiga y síntomas somáticos",5 a 8 minutos (autoadministrado o mediante entrevista clínica asistida),comercial
+Autoinforme,196,pcs_139,PCS,Escala de Catastrofización del Dolor,Eje VI,"Dolor, fatiga y síntomas somáticos",3 a 5 minutos (autoadministrado),abierto
+Autoinforme,196,fss_140,FSS,Escala de Gravedad de la Fatiga,Eje VI,"Dolor, fatiga y síntomas somáticos",2 a 4 minutos (autoadministrado),abierto
+Autoinforme,196,ipaq_141,IPAQ,Cuestionario Internacional de Actividad Física,Eje VI,Conductas de salud,3 a 5 minutos (autoadministrado o mediante entrevista clínica),abierto
+Autoinforme,196,mgl_o_mmas-4_142,MGL o MMAS-4,Cuestionario de Adherencia a la Medicación de Morisky-Green-Levine,Eje VI,Conductas de salud,1 a 2 minutos (administrado por médico o personal de enfermería / farmacéutico),abierto
+Autoinforme,196,bipq_143,BIPQ,Cuestionario Breve de Percepción de Enfermedad (incluye IPQ-R como versión anidada),Eje VI,Enfermedad médica y afrontamiento,3 a 5 minutos (autoadministrado o en entrevista clínica asistida),abierto
+Autoinforme,196,mac_144,MAC,Escala de Ajuste Mental al Cáncer,Eje VI,Enfermedad médica y afrontamiento,8 a 12 minutos (versión 40 ítems) o 5 a 7 minutos (Mini-MAC de 29 ítems),comercial
+Autoinforme,196,hls-eu-q16_145,HLS-EU-Q16,Cuestionario Europeo de Alfabetización en Salud - Versión Corta,Eje VI,Alfabetización en salud y relación con el sistema,4 a 6 minutos (autoadministrado o mediante entrevista personal o telefónica),abierto
+Autoinforme,196,sahlsa-50_146,SAHLSA-50,Evaluación Breve de Alfabetización en Salud para Adultos de Habla Hispana,Eje VI,Alfabetización en salud y relación con el sistema,3 a 6 minutos (heteroadministrado mediante prueba estructurada con tarjetas o láminas),abierto
+Autoinforme,196,cfq_new1,CFQ-Fallos,Cognitive Failures Questionnaire (Cuestionario de Fallos Cognitivos),Eje V,Fallos cognitivos cotidianos,6 a 10 minutos de cumplimentación autónoma presencial o telemática.,abierto
+Autoinforme,196,sisses_new1,SIS/SES-SF,Sexual Inhibition/Sexual Excitation Scales — Short Form,Eje VI,Salud sexual (propensión a inhibición/excitación),5 a 7 minutos de cumplimentación autónoma presencial o telemática.,abierto
+Autoinforme,196,stopbang_new1,STOP-Bang,Cuestionario STOP-Bang,Eje VI,Riesgo de apnea del sueño,1 a 2 minutos (autoadministrado o administrado por personal sanitario),abierto
+Autoinforme,196,csi_new1,CSI,Inventario de Sensibilización Central,Eje VI,Sensibilización central y carga de síntomas,5 a 8 minutos (autoadministrado),abierto
+Autoinforme,196,ftnd_new1,FTND,Test de Fagerström de Dependencia de la Nicotina,Eje VI,Tabaco,2 a 3 minutos de rápida cumplimentación en cualquier ámbito asistencial.,abierto
+Autoinforme,196,semcds_new1,SEMCD-S,Spanish Chronic Disease Self-Efficacy Scale,Eje VI,Autoeficacia/autocuidado en enfermedad crónica,2 a 4 minutos (autoadministrado o administrado en talleres de autocuidado),abierto
+Autoinforme,196,eheals_new1,eHEALS,eHealth Literacy Scale,Eje VI,Alfabetización digital en salud,2 a 4 minutos (autoadministrado vía telemática o presencial),abierto
+Autoinforme,196,cremp_new1,CREM-P,Cuestionario de Relaciones Médico-Paciente (adaptación española del PDRQ),Eje VI,Relación paciente-profesional,3 a 5 minutos de cumplimentación autónoma post-consulta médica.,abierto
+Autoinforme,196,bsq_new1,BSQ,Body Shape Questionnaire (Cuestionario sobre la Forma Corporal),Eje I,Insatisfacción con la forma y figura corporal,8 a 12 minutos (autoadministrado),abierto
+Autoinforme,196,mba_new1,MBA,Measure of Body Apperception (Medida de Percepción del Cuerpo),Eje I,Dependencia de la autoestima respecto a la apariencia/integridad corporal,3 a 5 minutos (10 reactivos estructurados),abierto
+Autoinforme,196,ersq_new1,ERSQ,Emotion-Regulation Skills Questionnaire (Cuestionario de Habilidades de Regulación Emocional),Eje II,Habilidades específicas de regulación emocional (modelo ACE),4 a 6 minutos en autoadministración.,abierto
+Autoinforme,196,ers_147,ERS,Escala para Evaluar el Riesgo Suicida,Eje I,"Riesgo suicida (desesperanza, ideacion/planeacion, aislamiento social, apoyo familiar)",4 a 7 minutos (20 reactivos estructurados),academico
+Autoinforme,196,ip_148,IP,Inventario de Padua (Padua Inventory),Eje I,"Sintomatologia obsesivo-compulsiva (perdida de control mental, contaminacion, comprobacion, impulsos)",15 a 20 minutos.,academico
+Autoinforme,196,bsl23_149,BSL-23,Borderline Symptom List-23,Eje I,"Sintomatologia limite (TLP): afecto negativo, autoimagen, autodestruccion, impulsividad, disociacion",4 a 7 minutos (autoadministrado),academico
+Autoinforme,196,cubi18_150,CUBI-18,"Cuestionario de Urgencia, Busqueda de Sensaciones e Impulsividad-18",Eje I,"Impulsividad (urgencia compulsiva, busqueda de sensaciones, imprevision)",4 a 7 minutos (18 ítems autoadministrados),academico
+Autoinforme,196,egsr_151,EGS-R,Escala de Gravedad de Sintomas del TEPT-Revisada,Eje I,"Gravedad de sintomas de TEPT segun DSM-5 (intrusion, evitacion, cognicion/animo, hiperactivacion, disociacion, disfuncionalidad)",10 a 15 minutos (21 ítems clínicos de gravedad),academico
+Autoinforme,196,sias_152,SIAS,Escala de Ansiedad ante la Interaccion Social,Eje I,Ansiedad ante la interaccion social directa,5 a 10 minutos (20 ítems),academico
+Autoinforme,196,sads_153,SADS,Escala de Estres y Evitacion Social (Social Avoidance and Distress Scale),Eje I,Malestar subjetivo y evitacion conductual en situaciones sociales,8 a 12 minutos (28 ítems),academico
+Autoinforme,196,pss14_155,PSS-14,Escala de Estres Percibido (version de 14 items),Eje I,"Estres psicologico percibido (incontrolabilidad, autoeficacia/afrontamiento)",5 a 8 minutos.,academico
+Autoinforme,196,cae_156,CAE,Cuestionario de Afrontamiento del Estres,Eje II,Estrategias de afrontamiento del estres,8 a 12 minutos en autoadministración.,academico
+Autoinforme,196,eas_157,EAS,Escala de Apoyo Social,Eje II,Apoyo social percibido (familiar y de amistades),4 a 6 minutos en autoadministración.,academico
+Autoinforme,196,erq_158,ERQ,Emotion Regulation Questionnaire - Cuestionario de Autorregulacion Emocional,Eje II,"Regulacion emocional (reevaluacion cognitiva, supresion expresiva)",2 a 4 minutos en autoadministración; 5 minutos asistido.,abierto
+Autoinforme,196,fmps_159,FMPS,Escala Multidimensional de Perfeccionismo,Eje II,Perfeccionismo multidimensional,6 a 10 minutos en autoadministración; 12 minutos asistido.,academico
+Autoinforme,196,panas_161,PANAS,Escala de Afecto Positivo y Negativo,Eje II,Afecto positivo y negativo,2 a 3 minutos en autoadministración; 4 minutos asistido.,academico
+Autoinforme,196,rs14_162,RS-14,Escala de Resiliencia de 14 items,Eje II,Resiliencia,3 a 5 minutos en autoadministración.,academico
+Autoinforme,196,tmms24_163,TMMS-24,Trait Meta-Mood Scale-24,Eje II,"Inteligencia emocional percibida (atencion, claridad, reparacion)",4 a 6 minutos en autoadministración; 7 minutos asistido.,academico
+Autoinforme,196,beaq_164,BEAQ,Brief Experiential Avoidance Questionnaire,Eje II,Evitacion experiencial,2 a 4 minutos en autoadministración.,academico
+Autoinforme,196,vq_165,VQ,Valuing Questionnaire,Eje II,Vida valiosa (Progreso vs Obstruccion) segun valores personales,2 a 3 minutos en autoadministración; 4 minutos asistido.,academico
+Autoinforme,196,psyflex_166,Psy-Flex,Cuestionario Psy-Flex (flexibilidad psicologica),Eje II,"Flexibilidad psicologica (presencia, apertura, defusion, yo estable, valores, compromiso)",1 minuto en autoadministración; 2 minutos asistido.,academico
+Autoinforme,196,cope48_167,COPE-48,Versión española del COPE-48 (adaptación clínica del COPE Inventory),Eje II,"Afrontamiento (coping), 9 escalas clínicas",10 a 14 minutos en autoadministración.,abierto
+Autoinforme,196,ffmq-sf_168,FFMQ-SF,Cuestionario de Cinco Facetas de Mindfulness - Forma Corta,Eje II,"Mindfulness y regulacion emocional (5 facetas: observar, describir, actuar con consciencia, no juzgar, no reactividad)",4 a 6 minutos en autoadministración; 7 minutos asistido.,abierto
+Autoinforme,196,scs_169,SCS,Escala de Autocompasión (Self-Compassion Scale - Formas de 26 y 12 ítems),Eje II,Autocompasión y regulación afectiva (3 polaridades / 6 subescalas),SCS completa: 6 a 8 minutos; SCS-SF: 2 a 3 minutos.,abierto
+Autoinforme,196,ras-h_170,RAS-H,Escala de Valoración de la Relación (Relationship Assessment Scale - Hendrick),Eje IV,Satisfacción diádica y calidad de la relación de pareja,2 a 3 minutos en administración autónoma expedita.,academico
+Autoinforme,196,gds_179,GDS,"Geriatric Depression Scale (Yesavage, 30 items)",Eje I,Depresión en adultos mayores,8 a 12 minutos (30 reactivos de respuesta dicotómica),academico
+Autoinforme,196,cds_180,CDS,Calgary Depression Scale for Schizophrenia,Eje I,Depresión en esquizofrenia,10 a 15 minutos (heteroadministrada mediante entrevista clínica guiada y observación),academico
+Autoinforme,196,mdq_181,MDQ,Mood Disorder Questionnaire,Eje I,Cribado de espectro bipolar,5 a 7 minutos.,academico
+Autoinforme,196,rfl_185,RFL,Reasons for Living Inventory (Linehan),Eje I,Factores protectores frente al suicidio,10 a 15 minutos (48 ítems autoadministrados),academico
+Autoinforme,196,rvplutchik_186,RV-Plutchik,Escala de Riesgo de Violencia de Plutchik,Eje I,Riesgo de violencia autodirigida,3 a 5 minutos (12 ítems),academico
+Autoinforme,196,eiplutchik_187,EI-Plutchik,Escala de Impulsividad de Plutchik,Eje I,Impulsividad,3 a 5 minutos (15 ítems autoadministrados),academico
+Autoinforme,196,spin_188,SPIN,Social Phobia Inventory,Eje I,Fobia social,5 a 8 minutos (17 ítems referidos a la última semana),academico
+Autoinforme,196,bsps_189,BSPS,Brief Social Phobia Scale (Davidson),Eje I,Fobia social (heteroaplicada),8 a 12 minutos (heteroadministrado mediante entrevista clínica semiestructurada),academico
+Autoinforme,196,bsa_190,BSA,Brief Scale for Anxiety (Tyrer),Eje I,Ansiedad general (heteroaplicada),10 a 15 minutos (heteroadministrada mediante entrevista clínica semiestructurada),academico
+Autoinforme,196,tq_191,TQ,Trauma Questionnaire,Eje I,Exposición a eventos traumáticos,8 a 12 minutos (18 acontecimientos traumáticos potenciales),academico
+Autoinforme,196,dai_193,DAI,¡OJO! Archivo etiquetado DAI contiene la PANSS completa,Eje I,Psicopatología general (positiva/negativa),2 a 4 minutos (10 reactivos dicotómicos),academico
+Autoinforme,196,bdhi_194,BDHI,Buss-Durkee Hostility Inventory,Eje I,Hostilidad/agresividad,10 a 15 minutos (autoadministrado),academico
+Autoinforme,196,malt_195,MALT,Münchner Alkoholismustest,Eje I,Diagnóstico de alcoholismo,"10 a 15 minutos en total (5 min parte médica, 8 min autoinforme)",academico
+Autoinforme,196,ocds_200,OCDS,Obsessive Compulsive Drinking Scale,Eje I,Craving/compulsión por alcohol,5 a 8 minutos (14 reactivos tipo Likert de 5 opciones),academico
+Autoinforme,196,edi2_201,EDI-2,Inventario de Trastornos de la Conducta Alimentaria-2,Eje I,Conducta alimentaria,15 a 25 minutos (91 ítems EDI-2 o 64 ítems nucleares EDI),academico
+Autoinforme,196,bite_202,BITE,Bulimic Investigatory Test Edinburgh,Eje I,Síntomas bulímicos,8 a 12 minutos.,academico
+Autoinforme,196,csfq_204,CSFQ,Changes in Sexual Functioning Questionnaire,Eje VI,Funcionamiento sexual,5 a 7 minutos de cumplimentación autónoma con instrucciones claras.,academico
+Autoinforme,196,iief_205,IIEF,Índice Internacional de Función Eréctil,Eje VI,Función eréctil,8 a 10 minutos de cumplimentación autónoma presencial o telemática.,academico
+Autoinforme,196,mghsfq_206,MGH-SFQ,Massachusetts General Hospital Sexual Functioning Q.,Eje VI,Funcionamiento sexual,1 a 2 minutos de respuesta ágil en la sala de espera o entrevista médica.,academico
+Autoinforme,196,bwsq_208,BWSQ,Benzodiazepine Withdrawal Symptom Questionnaire,Eje VI,Abstinencia de benzodiacepinas,5 a 8 minutos de cumplimentación autónoma o guiada en consulta médica/psicológica.,academico
+Autoinforme,196,eeaggaf_211,EEAG-GAF,Escala de Evaluación de la Actividad Global,Eje IV,Funcionamiento global (eje V del DSM-IV),2 a 3 minutos de juicio profesional tras la entrevista clínica diagnóstica.,academico
+Autoinforme,196,sass_213,SASS,Social Adaptation Self-evaluation Scale,Eje IV,Adaptación social,8 a 12 minutos de cumplimentación autónoma.,academico
+Autoinforme,196,cscv_215,CSCV,Cuestionario Sevilla de Calidad de Vida,Eje IV,Calidad de vida,15 a 25 minutos en administración supervisada o autoadministrada asistida.,academico
+Autoinforme,196,qlds_216,QLDS,Quality of Life Depression Scale,Eje IV,Calidad de vida en depresión,5 a 8 minutos de cumplimentación autónoma.,academico
+Autoinforme,196,npi-n_218,NPI-N,Narcissistic Personality Inventory,Eje III,Rasgos de personalidad narcisista,10 a 15 minutos en autoadministración.,academico
+Autoinforme,196,aim-a_219,AIM-A,Affect Intensity Measure,Eje II,Intensidad de la reactividad afectiva,3 a 5 minutos en autoadministración; 6 minutos asistido.,academico
+Autoinforme,196,eat-40_new,EAT-40,Test de Actitudes hacia la Alimentación (40 ítems),Eje I,Trastornos de la conducta alimentaria,10 a 15 minutos.,abierto
+Autoinforme,196,eat-26_new,EAT-26,Test de Actitudes hacia la Alimentación - Versión Abreviada (26 ítems),Eje I,Trastornos de la conducta alimentaria,5 a 8 minutos.,abierto
+Autoinforme,196,eat-40-sergas_new,EAT-40-SERGAS,Test de Actitudes hacia la Alimentación (Formato SERGAS),Eje I,Trastornos de la conducta alimentaria,7 a 10 minutos (40 reactivos tipo Likert de 6 opciones),abierto
+Autoinforme,196,cage_new,CAGE,Cuestionario CAGE para Detección de Alcoholismo,Eje I,Consumo de alcohol y adicciones,1 a 2 minutos (administrado verbalmente en la entrevista o autoadministrado),abierto
+Autoinforme,196,sds_new,SDS,Escala de Autoevaluación de la Depresión de Zung y Conde (SDS),Eje I,Depresión y estado de ánimo,5 a 8 minutos (20 ítems),abierto
+Autoinforme,196,rs-plutchik_new,RS-Plutchik,Escala de Riesgo Suicida de Plutchik,Eje I,Riesgo y conducta suicida,3 a 5 minutos (15 ítems),abierto
+Autoinforme,196,bsds_new,BSDS,Escala Diagnóstica del Espectro Bipolar de Ghaemi,Eje I,Trastorno bipolar y ciclotimia,6 a 10 minutos.,abierto
+Autoinforme,196,asq-15_new,ASQ-15,Cuestionario de Screening de Ansiedad de Wittchen (ASQ-15),Eje I,Cribado multitrastorno de ansiedad,3 a 5 minutos (autoadministrado o administrado en el triaje de enfermería),abierto
+Autoinforme,196,bhs_new,BHS,Escala de Desesperanza de Beck (BHS),Eje I,Desesperanza y riesgo suicida,3 a 5 minutos (autoadministrado),comercial
+Autoinforme,196,empc_new,EMPC,Escala Motivacional de Pensamiento Crítico (EMPC),Eje II,Estilos de pensamiento y metacognición,3 a 5 minutos en autoadministración.,abierto
+Autoinforme,196,tsi_new,TSI,Inventario de Estilos de Pensamiento de Sternberg (TSI),Eje II,Estilos cognitivos y autogobierno mental,15 a 20 minutos en autoadministración.,abierto
+Autoinforme,196,sseit_new,SSEIT,Escala de Inteligencia Emocional de Schutte (SSEIT),Eje II,Inteligencia emocional autopercibida,6 a 10 minutos en autoadministración.,abierto
+Autoinforme,196,iss_new,ISS,Inventario de Situaciones Sociales (ISS),Eje II,Afrontamiento interpersonal y asertividad,6 a 10 minutos en autoadministración.,abierto
+Autoinforme,196,hsq-24_new,HSQ-24,Cuestionario de Estilos de Humor (HSQ-24),Eje II,Regulación afectiva y mecanismos de humor,4 a 6 minutos en autoadministración.,abierto
+Autoinforme,196,er-25_new,ER-25,Escala de Resiliencia de Wagnild y Young (25 ítems),Eje II,Resiliencia y superación de adversidades,5 a 8 minutos en autoadministración.,comercial
+Autoinforme,196,crea-24_new,CREA-24,Escala de Autopercepción de Creatividad (CREA-24),Eje III,Autoconcepto y autoeficacia creativa,5 a 8 minutos en autoadministración.,abierto
+Autoinforme,196,sss-v_new,SSS-V,Escala de Búsqueda de Sensaciones de Zuckerman (Forma V),Eje III,Rasgo disposicional de personalidad,10 a 15 minutos en autoadministración.,abierto
+Autoinforme,196,swbs_new,SWBS,Escala de Bienestar Social de Keyes,Eje IV,Bienestar social y ajuste comunitario,8 a 10 minutos de administración autónoma.,abierto
+Autoinforme,196,q-les-q_new,Q-LES-Q,Cuestionario de Calidad de Vida: Satisfacción y Placer de Endicott,Eje IV,Calidad de vida y satisfacción vital,3 a 5 minutos en administración breve y sencilla.,abierto
+Autoinforme,196,eq-5d_new,EQ-5D,Cuestionario de Salud EuroQoL-5D,Eje IV,Calidad de vida relacionada con la salud,2 a 4 minutos de respuesta sencilla y rápida.,comercial
+Autoinforme,196,gsqs_new,GSQS,Escala Groningen de la Calidad del Sueño (GSQS),Eje VI,Calidad de descanso e insomnio agudo,2 a 3 minutos (administración matutina inmediata),abierto
+Autoinforme,196,othmer-desouza_new,Othmer-DeSouza,Test de Detección de Somatización de Othmer y DeSouza,Eje VI,Síntomas somatomorfos y somatización,2 a 3 minutos (heteroadministrado o autoadministrado en sala de espera),abierto
+Autoinforme,196,laxitud-hdm_new,Laxitud-HdM,Criterios de Laxitud Articular del Hospital del Mar (Bulbena),Eje VI,Marcador somático de hiperlaxitud y pánico,5 a 8 minutos (exploración física articular estandarizada en camilla/consulta),abierto
+Heteroaplicado / Entrevista clínica,48,caps-5_10,CAPS-5,Escala Administrada por Clínico para el TEPT,Eje I,Trauma y estrés postraumático,45 a 60 minutos (entrevista clínica estructurada integral conducida por profesional cualificado),abierto
+Heteroaplicado / Entrevista clínica,48,hdrs_17,HDRS / HAM-D,Escala de Calificación de la Depresión de Hamilton,Eje I,Depresión y anhedonia,20 a 30 minutos (administrada por clínico entrenado),abierto
+Heteroaplicado / Entrevista clínica,48,y-bocs_18,Y-BOCS,Escala de Obsesiones y Compulsiones de Yale-Brown,Eje I,Obsesiones y compulsiones,20 a 30 minutos (10 ítems clínicos nucleares precedidos por el inventario de síntomas),abierto
+Heteroaplicado / Entrevista clínica,48,pcl-r_32,PCL-R,Escala de Calificación de Psicopatía Revisada,Eje III,Conducta antisocial,90 a 120 minutos de entrevista clínica + revisión exhaustiva de antecedentes colaterales.,comercial
+Heteroaplicado / Entrevista clínica,48,scid-5-pd_34,SCID-5-PD,SCID-5-PD (Trastorno de la Personalidad Antisocial),Eje I,Conducta antisocial,45 a 90 minutos (entrevista completa) o 15 a 30 min (tras cribado previo SCID-5-SPQ),comercial
+Heteroaplicado / Entrevista clínica,48,assist_38,ASSIST,"Prueba de Detección de Consumo de Alcohol, Tabaco y Sustancias",Eje I,Uso problemático de sustancias,5 a 10 minutos (más breve si el consumo es exclusivo de una o dos sustancias).,abierto
+Heteroaplicado / Entrevista clínica,48,audit_39,AUDIT,Prueba de Identificación de Trastornos Relacionados con el Alcohol,Eje I,Uso problemático de sustancias,3 a 5 minutos en formato autoinforme o cribado breve asistido.,abierto
+Heteroaplicado / Entrevista clínica,48,dast-10_40,DAST-10,Prueba de Detección de Abuso de Drogas,Eje I,Uso problemático de sustancias,3 a 5 minutos (10 preguntas dicotómicas),abierto
+Heteroaplicado / Entrevista clínica,48,panss_45,PANSS,Escala de los Síndromes Positivo y Negativo,Eje I,Desorganización cognitiva y conductual,40 a 50 minutos (30 a 40 min entrevista semiestructurada SCI-PANSS + 10 min calificación),comercial
+Heteroaplicado / Entrevista clínica,48,c-ssrs_46,C-SSRS,Escala Columbia para Evaluar el Riesgo de Suicidio,Eje I,Ideación y Conducta suicida,2 a 5 minutos en versión cribado (_Screener_); 10 a 15 minutos en versión completa.,abierto
+Heteroaplicado / Entrevista clínica,48,mmse_119,MMSE,Mini-Examen del Estado Cognitivo,Eje V,Cribado Cognitivo Global (Estado Mental),8 a 10 minutos de rápida administración clínica.,comercial
+Heteroaplicado / Entrevista clínica,48,rmet_132,RMET,Test de Leer la Mente en los Ojos,Eje V,Cognición Social e Interocepción,10 a 15 minutos; incluye un glosario con definiciones breves de cada estado mental.,abierto
+Heteroaplicado / Entrevista clínica,48,faux_pas_test_134,Faux Pas Test,Test de Meteduras de Pata,Eje V,Cognición Social e Interocepción,15 a 20 minutos de lectura compartida y preguntas de comprensión estructuradas.,abierto
+Heteroaplicado / Entrevista clínica,48,prsexdq_new1,PRSexDQ-SALSEX,Cuestionario de Disfunción Sexual Secundaria al Tratamiento con Psicofármacos,Eje VI,Salud sexual (disfunción inducida por fármacos),3 a 5 minutos de administración dinámica e integrada en la entrevista médica.,abierto
+Heteroaplicado / Entrevista clínica,48,mec_171,MEC,Mini-Examen Cognoscitivo de Lobo,Eje V,Cribado cognitivo global,8 a 12 minutos de rápida aplicación clínica en consulta o cabecera de cama.,academico
+Heteroaplicado / Entrevista clínica,48,bprs_173,BPRS,Brief Psychiatric Rating Scale,Eje I,Psicopatología general (heteroaplicada),15 a 25 minutos (heteroadministrada mediante entrevista clínica y observación directa),academico
+Heteroaplicado / Entrevista clínica,48,sips_174,SIPS,Entrevista Estructurada para Síndromes Prodrómicos,Eje I,Riesgo de psicosis,45 a 75 minutos (entrevista diagnóstica exhaustiva),academico
+Heteroaplicado / Entrevista clínica,48,sops_175,SOPS,Scale of Prodromal Syndromes,Eje I,Síntomas prodrómicos de psicosis,30 a 45 minutos (19 ítems clínicos),academico
+Heteroaplicado / Entrevista clínica,48,sumd_176,SUMD,Scale to Assess Unawareness of Mental Disorder,Eje I,Insight/conciencia de enfermedad,15 a 25 minutos (versión abreviada de 6 a 9 ítems) o 45 min (versión completa de 20 síntomas),academico
+Heteroaplicado / Entrevista clínica,48,oas_177,OAS,Overt Aggression Scale,Eje I,Agresividad manifiesta observada,2 a 3 minutos por cada episodio agresivo registrado de forma inmediata,academico
+Heteroaplicado / Entrevista clínica,48,madrs_178,MADRS,Montgomery-Asberg Depression Rating Scale,Eje I,Severidad depresiva (heteroaplicada),12 a 20 minutos (administrada por clínico entrenado),academico
+Heteroaplicado / Entrevista clínica,48,ymrs_182,YMRS,Young Mania Rating Scale,Eje I,Severidad de manía,15 a 20 minutos (11 ítems con ponderación clínica específica),academico
+Heteroaplicado / Entrevista clínica,48,evmac_183,EVMAC,Escala para la Valoración de la Manía por Clínicos,Eje I,Severidad de manía (heteroaplicada),15 a 25 minutos (15 reactivos valorados por un psiquiatra o psicólogo),academico
+Heteroaplicado / Entrevista clínica,48,mas_184,MAS,Escala de Manía de Bech-Rafaelsen,Eje I,Severidad de manía,12 a 18 minutos (cumplimentada por clínico entrenado),academico
+Heteroaplicado / Entrevista clínica,48,dgrp_192,DGRP,Duke Global Rating Scale for PTSD,Eje I,Cambio global en TEPT,3 a 5 minutos (cumplimentada por el profesional de salud mental),academico
+Heteroaplicado / Entrevista clínica,48,isca_196,ISCA,Interrogatorio Sistematizado de Consumos Alcohólicos,Eje I,Consumo de alcohol,2 a 3 minutos (integrado en la anamnesis clínica habitual),academico
+Heteroaplicado / Entrevista clínica,48,europasi_197,EuropASI,Índice Europeo de Gravedad de la Adicción,Eje I,Gravedad multidimensional de adicción,45 a 60 minutos en la evaluación basal (20-30 min en seguimientos evolutivos),academico
+Heteroaplicado / Entrevista clínica,48,sadq_198,SADQ,Severity of Alcohol Dependence Questionnaire,Eje I,Severidad de dependencia alcohólica,10 a 15 minutos (33 ítems referidos al periodo de mayor consumo en los últimos 6 meses),academico
+Heteroaplicado / Entrevista clínica,48,eida_199,EIDA,Escala de la Intensidad de la Dependencia al Alcohol,Eje I,Dependencia alcohólica,8 a 12 minutos (30 reactivos clínicos),academico
+Heteroaplicado / Entrevista clínica,48,cos_203,COS,Cuestionario Oviedo de Calidad del Sueño,Eje VI,Calidad del sueño,5 a 8 minutos de cumplimentación y valoración de las últimas 4 semanas de sueño.,academico
+Heteroaplicado / Entrevista clínica,48,asex_207,ASEX,Arizona Sexual Experience Scale,Eje VI,Funcionamiento sexual,2 a 3 minutos de rápida cumplimentación en consulta ambulatoria o de hospitalización.,academico
+Heteroaplicado / Entrevista clínica,48,sas_209,SAS,Simpson-Angus Scale,Eje VI,Parkinsonismo/extrapiramidalismo inducido,8 a 10 minutos de exploración física reglada en camilla y bipedestación.,academico
+Heteroaplicado / Entrevista clínica,48,uku_210,UKU,UKU Side Effect Rating Scale,Eje VI,Efectos secundarios de psicofármacos,15 a 20 minutos de revisión sistemática estructurada en consulta clínica.,academico
+Heteroaplicado / Entrevista clínica,48,sdi_212,SDI,Sheehan Disability Inventory,Eje IV,Discapacidad funcional,2 a 4 minutos de rápida cumplimentación.,academico
+Heteroaplicado / Entrevista clínica,48,qls_214,QLS,Quality of Life Scale (Heinrichs),Eje IV,Calidad de vida en esquizofrenia,30 a 45 minutos de entrevista clínica detallada con paciente y allegados.,academico
+Heteroaplicado / Entrevista clínica,48,top-8_220,TOP-8,Escala de 8 ítems para los Resultados del Tratamiento del TEPT,Eje I,Respuesta al tratamiento en TEPT,3 a 5 minutos (8 ítems referidos a la última semana),academico
+Heteroaplicado / Entrevista clínica,48,scps_new,SCPS,Escala Pronóstica para la Esquizofrenia de Strauss y Carpenter,Eje I,Psicosis y curso pronóstico,15 a 25 minutos (revisión de historia clínica y anamnesis de 12 dimensiones),abierto
+Heteroaplicado / Entrevista clínica,48,sis_new,SIS,Escala de Intencionalidad Suicida de Beck (SIS),Eje I,Riesgo y conducta suicida,10 a 15 minutos (20 ítems puntuados de 0 a 2),abierto
+Heteroaplicado / Entrevista clínica,48,hars_new,HARS,Escala de Hamilton para la Ansiedad (HAM-A),Eje I,Ansiedad psíquica y somática,15 a 20 minutos (administrada por clínico entrenado),abierto
+Heteroaplicado / Entrevista clínica,48,pas_new,PAS,Escala de Pánico y Agorafobia de Bandelow (PAS),Eje I,Pánico y agorafobia,8 a 12 minutos (13 reactivos estructurados),abierto
+Heteroaplicado / Entrevista clínica,48,lsas_new,LSAS,Escala de Ansiedad Social de Liebowitz (LSAS),Eje I,Fobia social y ansiedad de desempeño,15 a 25 minutos (24 reactivos pareados en miedo y evitación: 48 respuestas),abierto
+Heteroaplicado / Entrevista clínica,48,carroll-tag_new,Carroll-TAG,Escala de Detección del TAG de Carroll y Davidson,Eje I,Ansiedad generalizada,3 a 5 minutos (12 reactivos de cribado sintomático),abierto
+Heteroaplicado / Entrevista clínica,48,mini_new,MINI,Entrevista Neuropsiquiátrica Internacional (MINI 5.0.0),Eje I,Evaluación diagnóstica multiaxial DSM-IV/CIE-10,15 a 25 minutos (frente a las 2-3 horas de la SCID o CIDI),comercial
+Heteroaplicado / Entrevista clínica,48,cgi_new,CGI,Escala de Impresión Clínica Global de Guy (CGI),Eje IV,Funcionamiento global y severidad transdiagnóstica,1 a 2 minutos inmediatamente tras la entrevista clínica habitual.,abierto
+Heteroaplicado / Entrevista clínica,48,zbi_new,ZBI,Escala de Sobrecarga del Cuidador de Zarit (ZBI),Eje IV,Sobrecarga familiar y dinámica de cuidados,8 a 12 minutos de cumplimentación autónoma o guiada.,comercial
+Heteroaplicado / Entrevista clínica,48,his_new,HIS,Escala de Isquemia de Hachinski (HIS),Eje V,Diagnóstico diferencial de demencias,5 a 10 minutos de cumplimentación tras historia clínica y examen neurológico.,abierto
+Heteroaplicado / Entrevista clínica,48,bars_new,BARS,Escala de Acatisia de Barnes (BARS),Eje VI,Efectos extrapiramidales y farmacovigilancia,5 a 8 minutos de observación directa (sentado y de pie) y entrevista dirigida.,abierto
+Heteroaplicado / Entrevista clínica,48,aims_new,AIMS,Escala de Movimientos Involuntarios Anormales de Guy (AIMS),Eje VI,Farmacovigilancia y discinesia tardía,10 a 12 minutos de exploración médica neurológica interactiva en consulta.,abierto
+Observacional / Registro conductual,7,sogs_42,SOGS,Prueba de Detección de Juego Patológico de South Oaks,Eje I,Adicciones conductuales,6 a 10 minutos.,abierto
+Observacional / Registro conductual,7,indice_de_barth_101,BARTHEL,Índice de Barthel,Eje IV,"Funcionamiento general, Discapacidad y Actividades de la vida diaria",5 a 10 minutos de administración por profesional sanitario o cuidador formado.,abierto
+Observacional / Registro conductual,7,escala_de_lawton_102,Escala de Lawton,Escala de Lawton y Brody,Eje IV,"Funcionamiento general, Discapacidad y Actividades de la vida diaria",5 a 10 minutos de administración semiestructurada.,abierto
+Observacional / Registro conductual,7,adrql_217,ADRQL,Alzheimer's Disease Related Quality of Life,Eje IV,Calidad de vida en demencia,15 a 20 minutos de administración por el cuidador primario o profesional.,academico
+Observacional / Registro conductual,7,abs_new,ABS,Escala de Comportamiento Agitado de Corrigan (ABS),Eje I,Agitación psicomotriz e impulsividad aguda,5 a 15 minutos,abierto
+Observacional / Registro conductual,7,diario-panico_new,Diario-Panico,Trastorno de Pánico: Diario del Paciente (Autorregistro TCC),Eje I,Crisis de angustia y pánico,2 a 3 minutos por cada crisis registrada inmediatamente tras el episodio,abierto
+Observacional / Registro conductual,7,katz_new,KATZ,Índice de Katz de Actividades Básicas de la Vida Diaria (ABVD),Eje IV,Autonomía funcional y dependencia biológica,3 a 5 minutos de juicio profesional tras entrevista al paciente o cuidador.,abierto
+Rendimiento neurocognitivo / Tarea de ejecución,19,leas_61,LEAS,Escala de Niveles de Conciencia Emocional,Eje II,Conciencia emocional,10 a 15 minutos (versión 10 escenarios); 20 a 25 minutos (versión 20 escenarios).,abierto
+Rendimiento neurocognitivo / Tarea de ejecución,19,moca_120,MoCA,Evaluación Cognitiva de Montreal,Eje V,Cribado Cognitivo Global (Estado Mental),10 a 12 minutos de administración ágil y dinámica.,academico
+Rendimiento neurocognitivo / Tarea de ejecución,19,d2-r_121,d2-R,Test de Atención d2-R,Eje V,"Atención (Sostenida, Selectiva, Dividida y Vigilancia)","Aproximadamente 8 minutos (20 segundos cronometrados por línea, 14 líneas consecutivas).",comercial
+Rendimiento neurocognitivo / Tarea de ejecución,19,tmt_122,TMT,Test del Trazo (Trail Making Test),Eje V,"Atención (Sostenida, Selectiva, Dividida y Vigilancia)",5 a 10 minutos (incluye láminas breves de entrenamiento previo para cada parte).,abierto
+Rendimiento neurocognitivo / Tarea de ejecución,19,tavec_123,TAVEC,Test de Aprendizaje Verbal de España-Complutense,Eje V,"Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",30 a 35 min de aplicación activa (más 20 minutos de intervalo demorado libre).,comercial
+Rendimiento neurocognitivo / Tarea de ejecución,19,figura_de_rey_124,Figura de Rey,Test de Copia de una Figura Compleja,Eje V,"Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",Copia: 5-15 min; Recuerdo Inm./Dem.: 3-5 min c/u; Duración total de la sesión: 35-45 minutos.,abierto
+Rendimiento neurocognitivo / Tarea de ejecución,19,wcst_125,WCST,Test de Clasificación de Tarjetas de Wisconsin,Eje V,Funciones Ejecutivas,20 a 30 minutos según la velocidad de resolución y perseveración del evaluado.,comercial
+Rendimiento neurocognitivo / Tarea de ejecución,19,stroop_test_126,Stroop Test,Test de Colores y Palabras,Eje V,Funciones Ejecutivas,Aproximadamente 5 minutos (exactamente 45 segundos cronometrados por cada una de las 3 láminas).,abierto
+Rendimiento neurocognitivo / Tarea de ejecución,19,igt_127,IGT,Iowa Gambling Task,Eje V,Funciones Ejecutivas,15 a 20 minutos en formato informatizado estandarizado (o manual con barajas).,abierto
+Rendimiento neurocognitivo / Tarea de ejecución,19,brief-2_128,BRIEF-2,Evaluación Conductual de la Función Ejecutiva,Eje V,Funciones Ejecutivas,10 a 15 minutos por cuestionario; corrección informatizada o manual por plantilla.,comercial
+Rendimiento neurocognitivo / Tarea de ejecución,19,ifs_129,IFS,INECO Frontal Screening,Eje V,Funciones Ejecutivas,10 a 12 minutos de administración ágil en el examen neurológico o neuropsicológico.,abierto
+Rendimiento neurocognitivo / Tarea de ejecución,19,bnt_130,BNT,Test de Denominación de Boston,Eje V,"Comprensión, Expresión y Fluidez Verbal",10 a 20 minutos (forma completa) o 5 minutos (formas abreviadas).,comercial
+Rendimiento neurocognitivo / Tarea de ejecución,19,tfv_131,TFV,Test de Fluidez Verbal (FAS y Animales),Eje V,"Comprensión, Expresión y Fluidez Verbal",5 a 6 minutos de aplicación interactiva ágil con cronómetro en mano.,abierto
+Rendimiento neurocognitivo / Tarea de ejecución,19,dex-sp_new1,DEX-Sp,Cuestionario Disejecutivo (versión española),Eje V,Síntomas disejecutivos conductuales,5 a 8 minutos de cumplimentación autónoma o guiada por examinador.,abierto
+Rendimiento neurocognitivo / Tarea de ejecución,19,efeco_new1,EFECO,Escala EFECO para Valorar Funciones Ejecutivas,Eje V,Funciones ejecutivas cotidianas (autoinforme),12 a 15 minutos en versión completa; 6 a 8 minutos en versión abreviada.,abierto
+Rendimiento neurocognitivo / Tarea de ejecución,19,mfe_new1,MFE,Cuestionario de Fallos de Memoria de la Vida Cotidiana,Eje V,Fallos de memoria cotidiana (metamemoria),8 a 10 minutos de cumplimentación autónoma o guiada por examinador.,abierto
+Rendimiento neurocognitivo / Tarea de ejecución,19,meqsa_new1,MEQ-SA,Cuestionario de Matutinidad-Vespertinidad de Horne y Östberg (versión española),Eje VI,Cronotipo/ritmo circadiano,8 a 12 minutos (autoadministrado),abierto
+Rendimiento neurocognitivo / Tarea de ejecución,19,adascog_172,ADAS-Cog,Alzheimer's Disease Assessment Scale - Cognitiva,Eje V,Deterioro cognitivo en demencia,30 a 45 minutos de evaluación interactiva presencial.,academico
+Rendimiento neurocognitivo / Tarea de ejecución,19,cfss_new,CFSS,Escala de Autoevaluación del Funcionamiento Cognitivo (CFSS),Eje V,Quejas cognitivas subjetivas cotidianas,3 a 5 minutos de rápida cumplimentación por el propio paciente o informante.,abierto

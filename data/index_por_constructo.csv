@@ -1,0 +1,271 @@
+constructo,eje,tema_principal,total_instrumentos,id_test,sigla_test,nombre_test,tipo_instrumento,acceso
+Abstinencia de benzodiacepinas,Eje VI,Sustancias y alcoholismo,1,bwsq_208,BWSQ,Benzodiazepine Withdrawal Symptom Questionnaire,Autoinforme,academico
+Activación y Evitación conductual,Eje II,Depresión y estado de ánimo,2,bads_64,BADS,Escala de Activación Conductual para la Depresión,Autoinforme,abierto
+Activación y Evitación conductual,Eje II,Depresión y estado de ánimo,2,eros_65,EROS,Escala de Observación de Recompensas Ambientales,Autoinforme,abierto
+Adaptación social,Eje IV,Apoyo social y familia,1,sass_213,SASS,Social Adaptation Self-evaluation Scale,Autoinforme,academico
+Adicciones conductuales,Eje I,Adicciones conductuales,2,iat_41,IAT,Test de Adicción a Internet,Autoinforme,abierto
+Adicciones conductuales,Eje I,Adicciones conductuales,2,sogs_42,SOGS,Prueba de Detección de Juego Patológico de South Oaks,Observacional / Registro conductual,abierto
+Afecto positivo y negativo,Eje II,Regulación emocional,1,panas_161,PANAS,Escala de Afecto Positivo y Negativo,Autoinforme,academico
+"Afrontamiento (coping), 9 escalas clínicas",Eje II,Afrontamiento y resiliencia,1,cope48_167,COPE-48,Versión española del COPE-48 (adaptación clínica del COPE Inventory),Autoinforme,abierto
+Afrontamiento interpersonal y asertividad,Eje II,Afrontamiento interpersonal y asertividad,1,iss_new,ISS,Inventario de Situaciones Sociales (ISS),Autoinforme,abierto
+Agitación psicomotriz e impulsividad aguda,Eje I,Agitación psicomotriz e impulsividad aguda,1,abs_new,ABS,Escala de Comportamiento Agitado de Corrigan (ABS),Observacional / Registro conductual,abierto
+Agresividad e ira,Eje I,"Agresividad, ira y violencia",3,aq_29,AQ,Cuestionario de Agresión,Autoinforme,abierto
+Agresividad e ira,Eje I,"Agresividad, ira y violencia",3,staxi-2_30,STAXI-2,Inventario de Expresión de Ira Estado-Rasgo 2,Autoinforme,comercial
+Agresividad e ira,Eje I,"Agresividad, ira y violencia",3,rpq_31,RPQ,Cuestionario de Agresión Reactiva-Proactiva,Autoinforme,abierto
+Agresividad manifiesta observada,Eje I,"Agresividad, ira y violencia",1,oas_177,OAS,Overt Aggression Scale,Heteroaplicado / Entrevista clínica,academico
+Alfabetización digital en salud,Eje VI,Alfabetización y conductas de salud,1,eheals_new1,eHEALS,eHealth Literacy Scale,Autoinforme,abierto
+Alfabetización en salud y relación con el sistema,Eje VI,Alfabetización y conductas de salud,2,hls-eu-q16_145,HLS-EU-Q16,Cuestionario Europeo de Alfabetización en Salud - Versión Corta,Autoinforme,abierto
+Alfabetización en salud y relación con el sistema,Eje VI,Alfabetización y conductas de salud,2,sahlsa-50_146,SAHLSA-50,Evaluación Breve de Alfabetización en Salud para Adultos de Habla Hispana,Autoinforme,abierto
+Ansiedad ante la interaccion social directa,Eje I,Ansiedad y fobia,1,sias_152,SIAS,Escala de Ansiedad ante la Interaccion Social,Autoinforme,academico
+Ansiedad general (heteroaplicada),Eje I,Ansiedad y fobia,1,bsa_190,BSA,Brief Scale for Anxiety (Tyrer),Autoinforme,academico
+Ansiedad generalizada,Eje I,Ansiedad generalizada,1,carroll-tag_new,Carroll-TAG,Escala de Detección del TAG de Carroll y Davidson,Heteroaplicado / Entrevista clínica,abierto
+Ansiedad psíquica y somática,Eje I,Ansiedad psíquica y somática,1,hars_new,HARS,Escala de Hamilton para la Ansiedad (HAM-A),Heteroaplicado / Entrevista clínica,abierto
+Ansiedad y miedo,Eje I,Ansiedad y fobia,5,stai_0,STAI,Inventario de Ansiedad Estado-Rasgo,Autoinforme,comercial
+Ansiedad y miedo,Eje I,Ansiedad y fobia,5,bai_1,BAI,Inventario de Ansiedad de Beck,Autoinforme,comercial
+Ansiedad y miedo,Eje I,Ansiedad y fobia,5,gad-7_2,GAD-7,Escala de Trastorno de Ansiedad Generalizada - 7,Autoinforme,abierto
+Ansiedad y miedo,Eje I,Ansiedad y fobia,5,isra_3,ISRA,Inventario de Situaciones y Respuestas de Ansiedad,Autoinforme,comercial
+Ansiedad y miedo,Eje I,Ansiedad y fobia,5,hads_4,HADS,Escala de Ansiedad y Depresión Hospitalaria,Autoinforme,comercial
+Apego,Eje II,Apego y relaciones interpersonales,1,ecr-r_69,ECR-R,Experiencias en Relaciones Cercanas - Revisado,Autoinforme,abierto
+Apoyo social percibido (familiar y de amistades),Eje II,Apoyo social y familia,1,eas_157,EAS,Escala de Apoyo Social,Autoinforme,academico
+Apoyo social y Funcionamiento familiar,Eje IV,Apoyo social y familia,3,mos-sss_107,MOS-SSS,Cuestionario de Apoyo Social del Medical Outcomes Study,Autoinforme,abierto
+Apoyo social y Funcionamiento familiar,Eje IV,Apoyo social y familia,3,faces-iv_108,FACES-IV,Escala de Cohesión y Adaptabilidad Familiar,Autoinforme,abierto
+Apoyo social y Funcionamiento familiar,Eje IV,Apoyo social y familia,3,apgar_109,APGAR,APGAR Familiar,Autoinforme,abierto
+"Atención (Sostenida, Selectiva, Dividida y Vigilancia)",Eje V,Atención y concentración,2,d2-r_121,d2-R,Test de Atención d2-R,Rendimiento neurocognitivo / Tarea de ejecución,comercial
+"Atención (Sostenida, Selectiva, Dividida y Vigilancia)",Eje V,Atención y concentración,2,tmt_122,TMT,Test del Trazo (Trail Making Test),Rendimiento neurocognitivo / Tarea de ejecución,abierto
+Autocompasión y regulación afectiva (3 polaridades / 6 subescalas),Eje II,Regulación emocional,1,scs_169,SCS,Escala de Autocompasión (Self-Compassion Scale - Formas de 26 y 12 ítems),Autoinforme,abierto
+Autoconcepto,Eje III,Autoestima y autoconcepto,1,af-5_85,AF-5,Autoconcepto Forma 5,Autoinforme,comercial
+Autoconcepto y autoeficacia creativa,Eje III,Autoconcepto y autoeficacia creativa,1,crea-24_new,CREA-24,Escala de Autopercepción de Creatividad (CREA-24),Autoinforme,abierto
+Autoeficacia,Eje III,Autoestima y autoconcepto,1,gse_86,GSE,Escala de Autoeficacia General,Autoinforme,abierto
+Autoeficacia/autocuidado en enfermedad crónica,Eje VI,Alfabetización y conductas de salud,1,semcds_new1,SEMCD-S,Spanish Chronic Disease Self-Efficacy Scale,Autoinforme,abierto
+Autoestima,Eje III,Autoestima y autoconcepto,1,rses_84,RSES,Escala de Autoestima de Rosenberg,Autoinforme,abierto
+Autolesiones no suicidas,Eje I,Suicidio y autolesión,1,isas_48,ISAS,Inventario de Declaraciones sobre Autolesiones,Autoinforme,abierto
+Autonomía funcional y dependencia biológica,Eje IV,Autonomía funcional y dependencia biológica,1,katz_new,KATZ,Índice de Katz de Actividades Básicas de la Vida Diaria (ABVD),Observacional / Registro conductual,abierto
+Bienestar social y ajuste comunitario,Eje IV,Bienestar social y ajuste comunitario,1,swbs_new,SWBS,Escala de Bienestar Social de Keyes,Autoinforme,abierto
+"Bienestar subjetivo, Bienestar psicológico y Florecimiento",Eje IV,Bienestar y satisfacción vital,3,swls_110,SWLS,Escala de Satisfacción con la Vida,Autoinforme,abierto
+"Bienestar subjetivo, Bienestar psicológico y Florecimiento",Eje IV,Bienestar y satisfacción vital,3,pwb_111,PWB,Escalas de Bienestar Psicológico,Autoinforme,abierto
+"Bienestar subjetivo, Bienestar psicológico y Florecimiento",Eje IV,Bienestar y satisfacción vital,3,fs_112,FS,Escala de Florecimiento,Autoinforme,abierto
+Búsqueda de recompensa,Eje II,Impulsividad y conducta disruptiva,1,bis_68,BIS/BAS,Escalas del Sistema de Inhibición y Aproximación Conductual,Autoinforme,abierto
+Calidad de descanso e insomnio agudo,Eje VI,Calidad de descanso e insomnio agudo,1,gsqs_new,GSQS,Escala Groningen de la Calidad del Sueño (GSQS),Autoinforme,abierto
+Calidad de vida,Eje IV,Calidad de vida,3,sf-36_113,SF-36,Cuestionario de Salud SF-36,Autoinforme,abierto
+Calidad de vida,Eje IV,Calidad de vida,3,whoqol-bref_114,WHOQOL-BREF,Cuestionario de Calidad de Vida de la OMS - Versión Breve,Autoinforme,abierto
+Calidad de vida,Eje IV,Calidad de vida,3,cscv_215,CSCV,Cuestionario Sevilla de Calidad de Vida,Autoinforme,academico
+Calidad de vida en demencia,Eje IV,Cribado cognitivo y demencias,1,adrql_217,ADRQL,Alzheimer's Disease Related Quality of Life,Observacional / Registro conductual,academico
+Calidad de vida en depresión,Eje IV,Depresión y estado de ánimo,1,qlds_216,QLDS,Quality of Life Depression Scale,Autoinforme,academico
+Calidad de vida en esquizofrenia,Eje IV,Calidad de vida,1,qls_214,QLS,Quality of Life Scale (Heinrichs),Heteroaplicado / Entrevista clínica,academico
+Calidad de vida relacionada con la salud,Eje IV,Calidad de vida relacionada con la salud,1,eq-5d_new,EQ-5D,Cuestionario de Salud EuroQoL-5D,Autoinforme,comercial
+Calidad de vida y satisfacción vital,Eje IV,Calidad de vida y satisfacción vital,1,q-les-q_new,Q-LES-Q,Cuestionario de Calidad de Vida: Satisfacción y Placer de Endicott,Autoinforme,abierto
+Calidad del sueño,Eje VI,Sueño y ritmos circadianos,1,cos_203,COS,Cuestionario Oviedo de Calidad del Sueño,Heteroaplicado / Entrevista clínica,academico
+Cambio global en TEPT,Eje I,Trauma y estrés postraumático,1,dgrp_192,DGRP,Duke Global Rating Scale for PTSD,Heteroaplicado / Entrevista clínica,academico
+Claridad del self,Eje III,Identidad y valores,1,sccs_87,SCCS,Escala de Claridad del Autoconcepto,Autoinforme,abierto
+Claridad emocional y Alexitimia,Eje II,Regulación emocional,1,tas-20_62,TAS-20,Escala de Alexitimia de Toronto,Autoinforme,abierto
+Cognición Social e Interocepción,Eje V,Cognición social,3,rmet_132,RMET,Test de Leer la Mente en los Ojos,Heteroaplicado / Entrevista clínica,abierto
+Cognición Social e Interocepción,Eje V,Cognición social,3,maia_133,MAIA,Evaluación Multidimensional de la Conciencia Interoceptiva,Autoinforme,abierto
+Cognición Social e Interocepción,Eje V,Cognición social,3,faux_pas_test_134,Faux Pas Test,Test de Meteduras de Pata,Heteroaplicado / Entrevista clínica,abierto
+"Comprensión, Expresión y Fluidez Verbal",Eje V,Lenguaje y comunicación verbal,2,bnt_130,BNT,Test de Denominación de Boston,Rendimiento neurocognitivo / Tarea de ejecución,comercial
+"Comprensión, Expresión y Fluidez Verbal",Eje V,Lenguaje y comunicación verbal,2,tfv_131,TFV,Test de Fluidez Verbal (FAS y Animales),Rendimiento neurocognitivo / Tarea de ejecución,abierto
+Comunicación interpersonal y Asertividad,Eje II,Apego y relaciones interpersonales,2,iip-32_72,IIP-32,Inventario de Problemas Interpersonales (Versión Breve),Autoinforme,abierto
+Comunicación interpersonal y Asertividad,Eje II,Apego y relaciones interpersonales,2,ras_73,RAS,Escala de Asertividad de Rathus,Autoinforme,abierto
+Conciencia emocional,Eje II,Regulación emocional,1,leas_61,LEAS,Escala de Niveles de Conciencia Emocional,Rendimiento neurocognitivo / Tarea de ejecución,abierto
+Conducta alimentaria,Eje I,Conducta alimentaria e imagen corporal,1,edi2_201,EDI-2,Inventario de Trastornos de la Conducta Alimentaria-2,Autoinforme,academico
+Conducta antisocial,Eje III,"Agresividad, ira y violencia",3,pcl-r_32,PCL-R,Escala de Calificación de Psicopatía Revisada,Heteroaplicado / Entrevista clínica,comercial
+Conducta antisocial,Eje III,"Agresividad, ira y violencia",3,srp-iv_33,SRP-IV,Escala de Autoinforme de Psicopatía - Versión IV,Autoinforme,comercial
+Conducta antisocial,Eje III,"Agresividad, ira y violencia",3,scid-5-pd_34,SCID-5-PD,SCID-5-PD (Trastorno de la Personalidad Antisocial),Heteroaplicado / Entrevista clínica,comercial
+Conducta disruptiva,Eje I,Impulsividad y conducta disruptiva,3,cbcl_35,CBCL,Inventario de Comportamiento Infantil (Subescalas Externalizantes),Autoinforme,comercial
+Conducta disruptiva,Eje I,Impulsividad y conducta disruptiva,3,sdq_36,SDQ,Cuestionario de Capacidades y Dificultades,Autoinforme,abierto
+Conducta disruptiva,Eje I,Impulsividad y conducta disruptiva,3,dbd_37,DBD,Escala de Trastornos de Comportamiento Perturbador,Autoinforme,abierto
+Conductas de salud,Eje VI,Alfabetización y conductas de salud,2,ipaq_141,IPAQ,Cuestionario Internacional de Actividad Física,Autoinforme,abierto
+Conductas de salud,Eje VI,Alfabetización y conductas de salud,2,mgl_o_mmas-4_142,MGL o MMAS-4,Cuestionario de Adherencia a la Medicación de Morisky-Green-Levine,Autoinforme,abierto
+Consumo de alcohol,Eje I,Sustancias y alcoholismo,1,isca_196,ISCA,Interrogatorio Sistematizado de Consumos Alcohólicos,Heteroaplicado / Entrevista clínica,academico
+Consumo de alcohol y adicciones,Eje I,Consumo de alcohol y adicciones,1,cage_new,CAGE,Cuestionario CAGE para Detección de Alcoholismo,Autoinforme,abierto
+Craving/compulsión por alcohol,Eje I,Sustancias y alcoholismo,1,ocds_200,OCDS,Obsessive Compulsive Drinking Scale,Autoinforme,academico
+Cribado Cognitivo Global (Estado Mental),Eje V,Cribado cognitivo y demencias,2,mmse_119,MMSE,Mini-Examen del Estado Cognitivo,Heteroaplicado / Entrevista clínica,comercial
+Cribado Cognitivo Global (Estado Mental),Eje V,Cribado cognitivo y demencias,2,moca_120,MoCA,Evaluación Cognitiva de Montreal,Rendimiento neurocognitivo / Tarea de ejecución,academico
+Cribado cognitivo global,Eje V,Cribado cognitivo y demencias,1,mec_171,MEC,Mini-Examen Cognoscitivo de Lobo,Heteroaplicado / Entrevista clínica,academico
+Cribado de espectro bipolar,Eje I,Bipolaridad y manía,1,mdq_181,MDQ,Mood Disorder Questionnaire,Autoinforme,academico
+Cribado multitrastorno de ansiedad,Eje I,Cribado multitrastorno de ansiedad,1,asq-15_new,ASQ-15,Cuestionario de Screening de Ansiedad de Wittchen (ASQ-15),Autoinforme,abierto
+Crisis de angustia y pánico,Eje I,Crisis de angustia y pánico,1,diario-panico_new,Diario-Panico,Trastorno de Pánico: Diario del Paciente (Autorregistro TCC),Observacional / Registro conductual,abierto
+Cronotipo/ritmo circadiano,Eje VI,Sueño y ritmos circadianos,1,meqsa_new1,MEQ-SA,Cuestionario de Matutinidad-Vespertinidad de Horne y Östberg (versión española),Rendimiento neurocognitivo / Tarea de ejecución,abierto
+Dependencia alcohólica,Eje I,Sustancias y alcoholismo,1,eida_199,EIDA,Escala de la Intensidad de la Dependencia al Alcohol,Heteroaplicado / Entrevista clínica,academico
+Dependencia de la autoestima respecto a la apariencia/integridad corporal,Eje I,Conducta alimentaria e imagen corporal,1,mba_new1,MBA,Measure of Body Apperception (Medida de Percepción del Cuerpo),Autoinforme,abierto
+Dependencia interpersonal,Eje II,Apego y relaciones interpersonales,1,idi_70,IDI,Inventario de Dependencia Interpersonal,Autoinforme,abierto
+Depresión en adultos mayores,Eje I,Depresión y estado de ánimo,1,gds_179,GDS,"Geriatric Depression Scale (Yesavage, 30 items)",Autoinforme,academico
+Depresión en esquizofrenia,Eje I,Depresión y estado de ánimo,1,cds_180,CDS,Calgary Depression Scale for Schizophrenia,Autoinforme,academico
+Depresión y anhedonia,Eje I,Depresión y estado de ánimo,5,bdi-ii_13,BDI-II,Inventario de Depresión de Beck - II,Autoinforme,comercial
+Depresión y anhedonia,Eje I,Depresión y estado de ánimo,5,phq-9_14,PHQ-9,Cuestionario de Salud del Paciente - 9,Autoinforme,abierto
+Depresión y anhedonia,Eje I,Depresión y estado de ánimo,5,ces-d_15,CES-D,Escala del Centro de Estudios Epidemiológicos de la Depresión,Autoinforme,abierto
+Depresión y anhedonia,Eje I,Depresión y estado de ánimo,5,shaps_16,SHAPS,Escala de Placer de Snaith-Hamilton,Autoinforme,abierto
+Depresión y anhedonia,Eje I,Depresión y estado de ánimo,5,hdrs_17,HDRS / HAM-D,Escala de Calificación de la Depresión de Hamilton,Heteroaplicado / Entrevista clínica,abierto
+Depresión y estado de ánimo,Eje I,Depresión y estado de ánimo,1,sds_new,SDS,Escala de Autoevaluación de la Depresión de Zung y Conde (SDS),Autoinforme,abierto
+"Depresión, ansiedad y estrés",Eje I,Depresión y estado de ánimo,1,dass-21_5,DASS-21,"Escalas de Depresión, Ansiedad y Estrés - 21",Autoinforme,abierto
+"Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",Eje IV,Desempeño laboral y burnout,2,mbi_105,MBI,Inventario de Burnout de Maslach,Autoinforme,comercial
+"Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",Eje IV,Desempeño laboral y burnout,2,uwes_106,UWES,Escala de Engagement en el Trabajo de Utrecht,Autoinforme,abierto
+Desesperanza y riesgo suicida,Eje I,Desesperanza y riesgo suicida,1,bhs_new,BHS,Escala de Desesperanza de Beck (BHS),Autoinforme,comercial
+Desorganización cognitiva y conductual,Eje I,Psicosis y experiencias delirantes,1,panss_45,PANSS,Escala de los Síndromes Positivo y Negativo,Heteroaplicado / Entrevista clínica,comercial
+Deterioro cognitivo en demencia,Eje V,Cribado cognitivo y demencias,1,adascog_172,ADAS-Cog,Alzheimer's Disease Assessment Scale - Cognitiva,Rendimiento neurocognitivo / Tarea de ejecución,academico
+Diagnóstico de alcoholismo,Eje I,Sustancias y alcoholismo,1,malt_195,MALT,Münchner Alkoholismustest,Autoinforme,academico
+Diagnóstico diferencial de demencias,Eje V,Diagnóstico diferencial de demencias,1,his_new,HIS,Escala de Isquemia de Hachinski (HIS),Heteroaplicado / Entrevista clínica,abierto
+Discapacidad funcional,Eje IV,Funcionamiento y discapacidad,1,sdi_212,SDI,Sheehan Disability Inventory,Heteroaplicado / Entrevista clínica,academico
+"Dolor, fatiga y síntomas somáticos",Eje VI,Dolor y síntomas somáticos,3,bpi_138,BPI,Inventario Breve de Dolor,Autoinforme,comercial
+"Dolor, fatiga y síntomas somáticos",Eje VI,Dolor y síntomas somáticos,3,pcs_139,PCS,Escala de Catastrofización del Dolor,Autoinforme,abierto
+"Dolor, fatiga y síntomas somáticos",Eje VI,Dolor y síntomas somáticos,3,fss_140,FSS,Escala de Gravedad de la Fatiga,Autoinforme,abierto
+Efectos extrapiramidales y farmacovigilancia,Eje VI,Efectos extrapiramidales y farmacovigilancia,1,bars_new,BARS,Escala de Acatisia de Barnes (BARS),Heteroaplicado / Entrevista clínica,abierto
+Efectos secundarios de psicofármacos,Eje VI,Efectos de psicofármacos,1,uku_210,UKU,UKU Side Effect Rating Scale,Heteroaplicado / Entrevista clínica,academico
+Enfermedad médica y afrontamiento,Eje VI,Afrontamiento y resiliencia,2,bipq_143,BIPQ,Cuestionario Breve de Percepción de Enfermedad (incluye IPQ-R como versión anidada),Autoinforme,abierto
+Enfermedad médica y afrontamiento,Eje VI,Afrontamiento y resiliencia,2,mac_144,MAC,Escala de Ajuste Mental al Cáncer,Autoinforme,comercial
+Esquemas maladaptativos,Eje II,Esquemas y procesos cognitivos,1,ysq-s3_58,YSQ-S3,Cuestionario de Esquemas de Young,Autoinforme,abierto
+Estigma y discriminación,Eje III,Apoyo social y familia,2,ismi_98,ISMI,Escala de Estigma Internalizado de la Enfermedad Mental,Autoinforme,abierto
+Estigma y discriminación,Eje III,Apoyo social y familia,2,eod_99,EOD,Escala de Experiencias de Discriminación,Autoinforme,abierto
+Estilos cognitivos y autogobierno mental,Eje II,Estilos cognitivos y autogobierno mental,1,tsi_new,TSI,Inventario de Estilos de Pensamiento de Sternberg (TSI),Autoinforme,abierto
+Estilos de pensamiento y metacognición,Eje II,Estilos de pensamiento y metacognición,1,empc_new,EMPC,Escala Motivacional de Pensamiento Crítico (EMPC),Autoinforme,abierto
+Estrategias de afrontamiento del estres,Eje II,Afrontamiento y resiliencia,1,cae_156,CAE,Cuestionario de Afrontamiento del Estres,Autoinforme,academico
+"Estres psicologico percibido (incontrolabilidad, autoeficacia/afrontamiento)",Eje I,Estrés y estrés percibido,1,pss14_155,PSS-14,Escala de Estres Percibido (version de 14 items),Autoinforme,academico
+Estrés psicológico,Eje I,Estrés y estrés percibido,2,pss_6,PSS,Escala de Estrés Percibido,Autoinforme,abierto
+Estrés psicológico,Eje I,Estrés y estrés percibido,2,tics_8,TICS,Inventario de Estrés Crónico de Trier,Autoinforme,comercial
+Evaluación diagnóstica multiaxial DSM-IV/CIE-10,Eje I,Evaluación diagnóstica multiaxial DSM-IV/CIE-10,1,mini_new,MINI,Entrevista Neuropsiquiátrica Internacional (MINI 5.0.0),Heteroaplicado / Entrevista clínica,comercial
+Evitacion experiencial,Eje II,Flexibilidad psicológica y mindfulness,1,beaq_164,BEAQ,Brief Experiential Avoidance Questionnaire,Autoinforme,academico
+Evitación experiencial,Eje II,Flexibilidad psicológica y mindfulness,1,meaq_63,MEAQ,Cuestionario Multidimensional de Evitación Experiencial,Autoinforme,abierto
+Experiencias perceptivas inusuales,Eje I,Psicosis y experiencias delirantes,1,cape-42_44,CAPE-42,Evaluación Comunitaria de Experiencias Psíquicas,Autoinforme,abierto
+Exposición a eventos traumáticos,Eje I,Trauma y estrés postraumático,1,tq_191,TQ,Trauma Questionnaire,Autoinforme,academico
+Exposición y afrontamiento,Eje II,Afrontamiento y resiliencia,1,brief_cope_66,Brief COPE,Inventario Breve de Afrontamiento,Autoinforme,abierto
+Factores protectores frente al suicidio,Eje I,Suicidio y autolesión,1,rfl_185,RFL,Reasons for Living Inventory (Linehan),Autoinforme,academico
+Fallos cognitivos cotidianos,Eje V,Memoria y aprendizaje,1,cfq_new1,CFQ-Fallos,Cognitive Failures Questionnaire (Cuestionario de Fallos Cognitivos),Autoinforme,abierto
+Fallos de memoria cotidiana (metamemoria),Eje V,Memoria y aprendizaje,1,mfe_new1,MFE,Cuestionario de Fallos de Memoria de la Vida Cotidiana,Rendimiento neurocognitivo / Tarea de ejecución,abierto
+Farmacovigilancia y discinesia tardía,Eje VI,Farmacovigilancia y discinesia tardía,1,aims_new,AIMS,Escala de Movimientos Involuntarios Anormales de Guy (AIMS),Heteroaplicado / Entrevista clínica,abierto
+"Flexibilidad psicologica (presencia, apertura, defusion, yo estable, valores, compromiso)",Eje II,Flexibilidad psicológica y mindfulness,1,psyflex_166,Psy-Flex,Cuestionario Psy-Flex (flexibilidad psicologica),Autoinforme,academico
+Fobia social,Eje I,Ansiedad y fobia,1,spin_188,SPIN,Social Phobia Inventory,Autoinforme,academico
+Fobia social (heteroaplicada),Eje I,Ansiedad y fobia,1,bsps_189,BSPS,Brief Social Phobia Scale (Davidson),Autoinforme,academico
+Fobia social y ansiedad de desempeño,Eje I,Fobia social y ansiedad de desempeño,1,lsas_new,LSAS,Escala de Ansiedad Social de Liebowitz (LSAS),Heteroaplicado / Entrevista clínica,abierto
+"Funcionamiento general, Discapacidad y Actividades de la vida diaria",Eje IV,Funcionamiento y discapacidad,3,whodas_2.0_100,WHODAS 2.0,Cuestionario para la Evaluación de Discapacidad de la OMS 2.0,Autoinforme,abierto
+"Funcionamiento general, Discapacidad y Actividades de la vida diaria",Eje IV,Funcionamiento y discapacidad,3,indice_de_barth_101,BARTHEL,Índice de Barthel,Observacional / Registro conductual,abierto
+"Funcionamiento general, Discapacidad y Actividades de la vida diaria",Eje IV,Funcionamiento y discapacidad,3,escala_de_lawton_102,Escala de Lawton,Escala de Lawton y Brody,Observacional / Registro conductual,abierto
+Funcionamiento global (eje V del DSM-IV),Eje IV,Funcionamiento y discapacidad,1,eeaggaf_211,EEAG-GAF,Escala de Evaluación de la Actividad Global,Autoinforme,academico
+Funcionamiento global y severidad transdiagnóstica,Eje IV,Funcionamiento global y severidad transdiagnóstica,1,cgi_new,CGI,Escala de Impresión Clínica Global de Guy (CGI),Heteroaplicado / Entrevista clínica,abierto
+Funcionamiento sexual,Eje VI,Salud sexual,3,csfq_204,CSFQ,Changes in Sexual Functioning Questionnaire,Autoinforme,academico
+Funcionamiento sexual,Eje VI,Salud sexual,3,mghsfq_206,MGH-SFQ,Massachusetts General Hospital Sexual Functioning Q.,Autoinforme,academico
+Funcionamiento sexual,Eje VI,Salud sexual,3,asex_207,ASEX,Arizona Sexual Experience Scale,Heteroaplicado / Entrevista clínica,academico
+Funciones Ejecutivas,Eje V,Funciones ejecutivas,5,wcst_125,WCST,Test de Clasificación de Tarjetas de Wisconsin,Rendimiento neurocognitivo / Tarea de ejecución,comercial
+Funciones Ejecutivas,Eje V,Funciones ejecutivas,5,stroop_test_126,Stroop Test,Test de Colores y Palabras,Rendimiento neurocognitivo / Tarea de ejecución,abierto
+Funciones Ejecutivas,Eje V,Funciones ejecutivas,5,igt_127,IGT,Iowa Gambling Task,Rendimiento neurocognitivo / Tarea de ejecución,abierto
+Funciones Ejecutivas,Eje V,Funciones ejecutivas,5,brief-2_128,BRIEF-2,Evaluación Conductual de la Función Ejecutiva,Rendimiento neurocognitivo / Tarea de ejecución,comercial
+Funciones Ejecutivas,Eje V,Funciones ejecutivas,5,ifs_129,IFS,INECO Frontal Screening,Rendimiento neurocognitivo / Tarea de ejecución,abierto
+Funciones ejecutivas cotidianas (autoinforme),Eje V,Funciones ejecutivas,1,efeco_new1,EFECO,Escala EFECO para Valorar Funciones Ejecutivas,Rendimiento neurocognitivo / Tarea de ejecución,abierto
+Función eréctil,Eje VI,Salud sexual,1,iief_205,IIEF,Índice Internacional de Función Eréctil,Autoinforme,academico
+Fusión cognitiva,Eje II,Flexibilidad psicológica y mindfulness,1,cfq_56,CFQ,Cuestionario de Fusión Cognitiva,Autoinforme,abierto
+"Gravedad de sintomas de TEPT segun DSM-5 (intrusion, evitacion, cognicion/animo, hiperactivacion, disociacion, disfuncionalidad)",Eje I,Trauma y estrés postraumático,1,egsr_151,EGS-R,Escala de Gravedad de Sintomas del TEPT-Revisada,Autoinforme,academico
+Gravedad multidimensional de adicción,Eje I,Sustancias y alcoholismo,1,europasi_197,EuropASI,Índice Europeo de Gravedad de la Adicción,Heteroaplicado / Entrevista clínica,academico
+Habilidades específicas de regulación emocional (modelo ACE),Eje II,Regulación emocional,1,ersq_new1,ERSQ,Emotion-Regulation Skills Questionnaire (Cuestionario de Habilidades de Regulación Emocional),Autoinforme,abierto
+Hostilidad/agresividad,Eje I,"Agresividad, ira y violencia",1,bdhi_194,BDHI,Buss-Durkee Hostility Inventory,Autoinforme,academico
+Ideación delirante,Eje I,Psicosis y experiencias delirantes,1,pdi-21_43,PDI-21,Inventario de Delirios de Peters,Autoinforme,abierto
+Ideación y Conducta suicida,Eje I,Suicidio y autolesión,2,c-ssrs_46,C-SSRS,Escala Columbia para Evaluar el Riesgo de Suicidio,Heteroaplicado / Entrevista clínica,abierto
+Ideación y Conducta suicida,Eje I,Suicidio y autolesión,2,bss_47,BSS,Escala de Ideación Suicida de Beck,Autoinforme,comercial
+Identidad cultural y Aculturación,Eje III,Identidad y valores,1,via_96,VIA,Índice de Aculturación de Vancouver,Autoinforme,abierto
+Identidad personal,Eje III,Identidad y valores,1,eom-eis-2_88,EOM-EIS-2,Medida Objetiva Extendida del Estatus de Identidad del Ego,Autoinforme,abierto
+Identidad étnica (Exploración y Compromiso/Pertenencia),Eje III,Identidad y valores,1,meim_95,MEIM,Multigroup Ethnic Identity Measure (Medida Multigrupo de Identidad Étnica),Autoinforme,abierto
+Impulsividad,Eje I,Impulsividad y conducta disruptiva,4,bis-11_26,BIS-11,Escala de Impulsividad de Barratt,Autoinforme,abierto
+Impulsividad,Eje I,Impulsividad y conducta disruptiva,4,upps-p_27,UPPS-P,Escala de Comportamiento Impulsivo UPPS-P,Autoinforme,abierto
+Impulsividad,Eje I,Impulsividad y conducta disruptiva,4,dii_28,DII,Inventario de Impulsividad de Dickman,Autoinforme,abierto
+Impulsividad,Eje I,Impulsividad y conducta disruptiva,4,eiplutchik_187,EI-Plutchik,Escala de Impulsividad de Plutchik,Autoinforme,academico
+"Impulsividad (urgencia compulsiva, busqueda de sensaciones, imprevision)",Eje I,Impulsividad y conducta disruptiva,1,cubi18_150,CUBI-18,"Cuestionario de Urgencia, Busqueda de Sensaciones e Impulsividad-18",Autoinforme,academico
+Insatisfacción con la forma y figura corporal,Eje I,Conducta alimentaria e imagen corporal,1,bsq_new1,BSQ,Body Shape Questionnaire (Cuestionario sobre la Forma Corporal),Autoinforme,abierto
+Insight/conciencia de enfermedad,Eje I,Psicosis y experiencias delirantes,1,sumd_176,SUMD,Scale to Assess Unawareness of Mental Disorder,Heteroaplicado / Entrevista clínica,academico
+Inteligencia emocional autopercibida,Eje II,Inteligencia emocional autopercibida,1,sseit_new,SSEIT,Escala de Inteligencia Emocional de Schutte (SSEIT),Autoinforme,abierto
+"Inteligencia emocional percibida (atencion, claridad, reparacion)",Eje II,Regulación emocional,1,tmms24_163,TMMS-24,Trait Meta-Mood Scale-24,Autoinforme,academico
+Intensidad de la reactividad afectiva,Eje II,Regulación emocional,1,aim-a_219,AIM-A,Affect Intensity Measure,Autoinforme,academico
+Intolerancia a la incertidumbre,Eje II,Ansiedad y fobia,1,ius-12_53,IUS-12,Escala de Intolerancia a la Incertidumbre,Autoinforme,abierto
+Malestar subjetivo y evitacion conductual en situaciones sociales,Eje I,Ansiedad y fobia,1,sads_153,SADS,Escala de Estres y Evitacion Social (Social Avoidance and Distress Scale),Autoinforme,academico
+Marcador somático de hiperlaxitud y pánico,Eje VI,Marcador somático de hiperlaxitud y pánico,1,laxitud-hdm_new,Laxitud-HdM,Criterios de Laxitud Articular del Hospital del Mar (Bulbena),Autoinforme,abierto
+"Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",Eje V,Memoria y aprendizaje,2,tavec_123,TAVEC,Test de Aprendizaje Verbal de España-Complutense,Rendimiento neurocognitivo / Tarea de ejecución,comercial
+"Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",Eje V,Memoria y aprendizaje,2,figura_de_rey_124,Figura de Rey,Test de Copia de una Figura Compleja,Rendimiento neurocognitivo / Tarea de ejecución,abierto
+Metacogniciones disfuncionales,Eje II,Esquemas y procesos cognitivos,1,mcq-30_57,MCQ-30,Cuestionario de Metacogniciones,Autoinforme,abierto
+"Mindfulness y regulacion emocional (5 facetas: observar, describir, actuar con consciencia, no juzgar, no reactividad)",Eje II,Flexibilidad psicológica y mindfulness,1,ffmq-sf_168,FFMQ-SF,Cuestionario de Cinco Facetas de Mindfulness - Forma Corta,Autoinforme,abierto
+Motivación y Orientación a metas,Eje III,Identidad y valores,2,imi_91,IMI,Inventario de Motivación Intrínseca,Autoinforme,abierto
+Motivación y Orientación a metas,Eje III,Identidad y valores,2,agq-r_92,AGQ-R,Cuestionario de Metas de Logro Revisado,Autoinforme,abierto
+Obsesiones y compulsiones,Eje I,Obsesiones y compulsiones,4,y-bocs_18,Y-BOCS,Escala de Obsesiones y Compulsiones de Yale-Brown,Heteroaplicado / Entrevista clínica,abierto
+Obsesiones y compulsiones,Eje I,Obsesiones y compulsiones,4,oci-r_19,OCI-R,Inventario Obsesivo-Compulsivo Revisado,Autoinforme,abierto
+Obsesiones y compulsiones,Eje I,Obsesiones y compulsiones,4,pi-wsur_20,PI-WSUR,Inventario de Padua Revisado - WSU,Autoinforme,comercial
+Obsesiones y compulsiones,Eje I,Obsesiones y compulsiones,4,docs_21,DOCS,Escala Dimensional Obsesivo-Compulsiva,Autoinforme,abierto
+Parkinsonismo/extrapiramidalismo inducido,Eje VI,Efectos de psicofármacos,1,sas_209,SAS,Simpson-Angus Scale,Heteroaplicado / Entrevista clínica,academico
+Perfeccionismo multidimensional,Eje II,Rasgos de personalidad,1,fmps_159,FMPS,Escala Multidimensional de Perfeccionismo,Autoinforme,academico
+Personalidad Oscura y Luminosa (Tríadas y Tétradas),Eje III,Personalidad patológica,3,sd3_81,SD3,La Tríada Oscura Corta,Autoinforme,abierto
+Personalidad Oscura y Luminosa (Tríadas y Tétradas),Eje III,Personalidad patológica,3,sd4_82,SD4,La Tétrada Oscura Corta,Autoinforme,abierto
+Personalidad Oscura y Luminosa (Tríadas y Tétradas),Eje III,Personalidad patológica,3,lts_83,LTS,Escala de la Tríada Luminosa,Autoinforme,abierto
+Preocupación crónica,Eje II,Ansiedad y fobia,1,pswq_52,PSWQ,Cuestionario de Preocupación del Estado de Pensilvania,Autoinforme,abierto
+Psicopatología general (heteroaplicada),Eje I,Psicosis y experiencias delirantes,1,bprs_173,BPRS,Brief Psychiatric Rating Scale,Heteroaplicado / Entrevista clínica,academico
+Psicopatología general (positiva/negativa),Eje I,Psicosis y experiencias delirantes,1,dai_193,DAI,¡OJO! Archivo etiquetado DAI contiene la PANSS completa,Autoinforme,academico
+Psicosis y curso pronóstico,Eje I,Psicosis y curso pronóstico,1,scps_new,SCPS,Escala Pronóstica para la Esquizofrenia de Strauss y Carpenter,Heteroaplicado / Entrevista clínica,abierto
+Pánico y agorafobia,Eje I,Pánico y agorafobia,1,pas_new,PAS,Escala de Pánico y Agorafobia de Bandelow (PAS),Heteroaplicado / Entrevista clínica,abierto
+Quejas cognitivas subjetivas cotidianas,Eje V,Quejas cognitivas subjetivas cotidianas,1,cfss_new,CFSS,Escala de Autoevaluación del Funcionamiento Cognitivo (CFSS),Rendimiento neurocognitivo / Tarea de ejecución,abierto
+Rasgo disposicional de personalidad,Eje III,Rasgo disposicional de personalidad,1,sss-v_new,SSS-V,Escala de Búsqueda de Sensaciones de Zuckerman (Forma V),Autoinforme,abierto
+"Rasgos Patológicos de Personalidad (Afectividad Negativa, Desapego, Antagonismo, Desinhibición, Psicoticismo)",Eje III,Personalidad patológica,1,pid-5_80,PID-5,Inventario de Personalidad para el DSM-5,Autoinforme,abierto
+"Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",Eje III,Rasgos de personalidad,4,neo-pi-r_76,NEO-PI-R,Inventario de Personalidad NEO Revisado,Autoinforme,comercial
+"Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",Eje III,Rasgos de personalidad,4,bfi-2_77,BFI-2,Inventario de los Cinco Grandes 2,Autoinforme,abierto
+"Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",Eje III,Rasgos de personalidad,4,hexaco-pi-r_78,HEXACO-PI-R,Inventario de Personalidad HEXACO Revisado,Autoinforme,abierto
+"Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",Eje III,Rasgos de personalidad,4,tci-r_79,TCI-R,Inventario de Temperamento y Carácter Revisado,Autoinforme,academico
+Rasgos de personalidad narcisista,Eje III,Personalidad patológica,1,npi-n_218,NPI-N,Narcissistic Personality Inventory,Autoinforme,academico
+"Regulacion emocional (reevaluacion cognitiva, supresion expresiva)",Eje II,Regulación emocional,1,erq_158,ERQ,Emotion Regulation Questionnaire - Cuestionario de Autorregulacion Emocional,Autoinforme,abierto
+Regulación afectiva y mecanismos de humor,Eje II,Regulación afectiva y mecanismos de humor,1,hsq-24_new,HSQ-24,Cuestionario de Estilos de Humor (HSQ-24),Autoinforme,abierto
+Regulación y Desregulación emocional,Eje II,Regulación emocional,2,ders_59,DERS,Escala de Dificultades en la Regulación Emocional,Autoinforme,abierto
+Regulación y Desregulación emocional,Eje II,Regulación emocional,2,cerq_60,CERQ,Cuestionario de Regulación Cognitiva de las Emociones,Autoinforme,abierto
+Relación paciente-profesional,Eje VI,Apego y relaciones interpersonales,1,cremp_new1,CREM-P,Cuestionario de Relaciones Médico-Paciente (adaptación española del PDRQ),Autoinforme,abierto
+"Rendimiento académico, Hábitos de estudio y Adaptación escolar",Eje IV,Rendimiento académico,2,chte_103,CHTE,Cuestionario de Hábitos y Técnicas de Estudio,Autoinforme,academico
+"Rendimiento académico, Hábitos de estudio y Adaptación escolar",Eje IV,Rendimiento académico,2,basc-3_104,BASC-3,Sistema de Evaluación de la Conducta de Niños y Adolescentes (Subescalas de Adaptación),Autoinforme,comercial
+Resiliencia,Eje II,Afrontamiento y resiliencia,1,rs14_162,RS-14,Escala de Resiliencia de 14 items,Autoinforme,academico
+Resiliencia y superación de adversidades,Eje II,Resiliencia y superación de adversidades,1,er-25_new,ER-25,Escala de Resiliencia de Wagnild y Young (25 ítems),Autoinforme,comercial
+"Resiliencia, Afrontamiento y Fortalezas",Eje IV,Afrontamiento y resiliencia,3,cd-risc_115,CD-RISC,Escala de Resiliencia de Connor-Davidson,Autoinforme,comercial
+"Resiliencia, Afrontamiento y Fortalezas",Eje IV,Afrontamiento y resiliencia,3,lot-r_116,LOT-R,Test de Orientación Vital Revisado (Optimismo),Autoinforme,abierto
+"Resiliencia, Afrontamiento y Fortalezas",Eje IV,Afrontamiento y resiliencia,3,via-is_118,VIA-IS,Inventario VIA de Fortalezas Personales,Autoinforme,abierto
+Respuesta al tratamiento en TEPT,Eje I,Trauma y estrés postraumático,1,top-8_220,TOP-8,Escala de 8 ítems para los Resultados del Tratamiento del TEPT,Heteroaplicado / Entrevista clínica,academico
+Riesgo de apnea del sueño,Eje VI,Sueño y ritmos circadianos,1,stopbang_new1,STOP-Bang,Cuestionario STOP-Bang,Autoinforme,abierto
+Riesgo de psicosis,Eje I,Psicosis y experiencias delirantes,1,sips_174,SIPS,Entrevista Estructurada para Síndromes Prodrómicos,Heteroaplicado / Entrevista clínica,academico
+Riesgo de violencia,Eje I,"Agresividad, ira y violencia",1,hcr-20_v3_49,HCR-20 v3,Guía de Evaluación del Riesgo de Violencia,Autoinforme,comercial
+Riesgo de violencia autodirigida,Eje I,"Agresividad, ira y violencia",1,rvplutchik_186,RV-Plutchik,Escala de Riesgo de Violencia de Plutchik,Autoinforme,academico
+"Riesgo suicida (desesperanza, ideacion/planeacion, aislamiento social, apoyo familiar)",Eje I,Suicidio y autolesión,1,ers_147,ERS,Escala para Evaluar el Riesgo Suicida,Autoinforme,academico
+Riesgo y conducta suicida,Eje I,Riesgo y conducta suicida,2,sis_new,SIS,Escala de Intencionalidad Suicida de Beck (SIS),Heteroaplicado / Entrevista clínica,abierto
+Riesgo y conducta suicida,Eje I,Riesgo y conducta suicida,2,rs-plutchik_new,RS-Plutchik,Escala de Riesgo Suicida de Plutchik,Autoinforme,abierto
+Rigidez y Flexibilidad cognitiva,Eje II,Flexibilidad psicológica y mindfulness,2,aaq-ii_54,AAQ-II,Cuestionario de Aceptación y Acción II,Autoinforme,abierto
+Rigidez y Flexibilidad cognitiva,Eje II,Flexibilidad psicológica y mindfulness,2,cfi_55,CFI,Inventario de Flexibilidad Cognitiva,Autoinforme,abierto
+Rumiación,Eje II,Esquemas y procesos cognitivos,1,rrs_51,RRS,Escala de Respuestas Rumiativas,Autoinforme,abierto
+Salud sexual (disfunción inducida por fármacos),Eje VI,Salud sexual,1,prsexdq_new1,PRSexDQ-SALSEX,Cuestionario de Disfunción Sexual Secundaria al Tratamiento con Psicofármacos,Heteroaplicado / Entrevista clínica,abierto
+Salud sexual (propensión a inhibición/excitación),Eje VI,Salud sexual,1,sisses_new1,SIS/SES-SF,Sexual Inhibition/Sexual Excitation Scales — Short Form,Autoinforme,abierto
+Satisfacción diádica y calidad de la relación de pareja,Eje IV,Apego y relaciones interpersonales,1,ras-h_170,RAS-H,Escala de Valoración de la Relación (Relationship Assessment Scale - Hendrick),Autoinforme,academico
+Sensibilidad al rechazo,Eje II,Apego y relaciones interpersonales,1,rsq_71,RSQ,Cuestionario de Sensibilidad al Rechazo,Autoinforme,abierto
+Sensibilización central y carga de síntomas,Eje VI,Ansiedad y fobia,1,csi_new1,CSI,Inventario de Sensibilización Central,Autoinforme,abierto
+Sentido de vida y Propósito vital,Eje III,Bienestar y satisfacción vital,1,mlq_90,MLQ,Cuestionario de Significado de la Vida,Autoinforme,abierto
+Severidad de dependencia alcohólica,Eje I,Sustancias y alcoholismo,1,sadq_198,SADQ,Severity of Alcohol Dependence Questionnaire,Heteroaplicado / Entrevista clínica,academico
+Severidad de manía,Eje I,Bipolaridad y manía,2,ymrs_182,YMRS,Young Mania Rating Scale,Heteroaplicado / Entrevista clínica,academico
+Severidad de manía,Eje I,Bipolaridad y manía,2,mas_184,MAS,Escala de Manía de Bech-Rafaelsen,Heteroaplicado / Entrevista clínica,academico
+Severidad de manía (heteroaplicada),Eje I,Bipolaridad y manía,1,evmac_183,EVMAC,Escala para la Valoración de la Manía por Clínicos,Heteroaplicado / Entrevista clínica,academico
+Severidad depresiva (heteroaplicada),Eje I,Depresión y estado de ánimo,1,madrs_178,MADRS,Montgomery-Asberg Depression Rating Scale,Heteroaplicado / Entrevista clínica,academico
+"Sintomatologia limite (TLP): afecto negativo, autoimagen, autodestruccion, impulsividad, disociacion",Eje I,Personalidad patológica,1,bsl23_149,BSL-23,Borderline Symptom List-23,Autoinforme,academico
+"Sintomatologia obsesivo-compulsiva (perdida de control mental, contaminacion, comprobacion, impulsos)",Eje I,Obsesiones y compulsiones,1,ip_148,IP,Inventario de Padua (Padua Inventory),Autoinforme,academico
+Sobrecarga familiar y dinámica de cuidados,Eje IV,Sobrecarga familiar y dinámica de cuidados,1,zbi_new,ZBI,Escala de Sobrecarga del Cuidador de Zarit (ZBI),Heteroaplicado / Entrevista clínica,comercial
+Soledad y aislamiento social,Eje II,Apoyo social y familia,2,ucla-r_74,UCLA-R,Escala de Soledad de UCLA Revisada,Autoinforme,abierto
+Soledad y aislamiento social,Eje II,Apoyo social y familia,2,djgls_75,DJGLS,Escala de Soledad de De Jong Gierveld,Autoinforme,abierto
+Somatización y ansiedad por la salud,Eje I,Dolor y síntomas somáticos,4,phq-15_22,PHQ-15,Cuestionario de Salud del Paciente - 15,Autoinforme,abierto
+Somatización y ansiedad por la salud,Eje I,Dolor y síntomas somáticos,4,wi-7_23,WI,Índice de Whiteley,Autoinforme,abierto
+Somatización y ansiedad por la salud,Eje I,Dolor y síntomas somáticos,4,shai_24,SHAI,Inventario Corto de Ansiedad por la Salud,Autoinforme,abierto
+Somatización y ansiedad por la salud,Eje I,Dolor y síntomas somáticos,4,scl-90-r_25,SCL-90-R,Inventario de Síntomas SCL-90-R (Subescala Somatización),Autoinforme,comercial
+Sueño y ritmos circadianos,Eje VI,Sueño y ritmos circadianos,3,psqi_135,PSQI,Índice de Calidad de Sueño de Pittsburgh,Autoinforme,abierto
+Sueño y ritmos circadianos,Eje VI,Sueño y ritmos circadianos,3,isi_136,ISI,Índice de Gravedad del Insomnio,Autoinforme,abierto
+Sueño y ritmos circadianos,Eje VI,Sueño y ritmos circadianos,3,ess_137,ESS,Escala de Somnolencia de Epworth,Autoinforme,abierto
+Síntomas bulímicos,Eje I,Conducta alimentaria e imagen corporal,1,bite_202,BITE,Bulimic Investigatory Test Edinburgh,Autoinforme,academico
+Síntomas disejecutivos conductuales,Eje V,Funciones ejecutivas,1,dex-sp_new1,DEX-Sp,Cuestionario Disejecutivo (versión española),Rendimiento neurocognitivo / Tarea de ejecución,abierto
+Síntomas prodrómicos de psicosis,Eje I,Psicosis y experiencias delirantes,1,sops_175,SOPS,Scale of Prodromal Syndromes,Heteroaplicado / Entrevista clínica,academico
+Síntomas somatomorfos y somatización,Eje VI,Síntomas somatomorfos y somatización,1,othmer-desouza_new,Othmer-DeSouza,Test de Detección de Somatización de Othmer y DeSouza,Autoinforme,abierto
+Tabaco,Eje VI,Sustancias y alcoholismo,1,ftnd_new1,FTND,Test de Fagerström de Dependencia de la Nicotina,Autoinforme,abierto
+Trastorno bipolar y ciclotimia,Eje I,Trastorno bipolar y ciclotimia,1,bsds_new,BSDS,Escala Diagnóstica del Espectro Bipolar de Ghaemi,Autoinforme,abierto
+Trastornos de la conducta alimentaria,Eje I,Trastornos de la conducta alimentaria,3,eat-40_new,EAT-40,Test de Actitudes hacia la Alimentación (40 ítems),Autoinforme,abierto
+Trastornos de la conducta alimentaria,Eje I,Trastornos de la conducta alimentaria,3,eat-26_new,EAT-26,Test de Actitudes hacia la Alimentación - Versión Abreviada (26 ítems),Autoinforme,abierto
+Trastornos de la conducta alimentaria,Eje I,Trastornos de la conducta alimentaria,3,eat-40-sergas_new,EAT-40-SERGAS,Test de Actitudes hacia la Alimentación (Formato SERGAS),Autoinforme,abierto
+Trauma acumulado y Adversidad temprana,Eje I,Trauma y estrés postraumático,2,aceq_93,ACEQ,Cuestionario de Experiencias Adversas en la Infancia,Autoinforme,abierto
+Trauma acumulado y Adversidad temprana,Eje I,Trauma y estrés postraumático,2,ctq-sf_94,CTQ-SF,Cuestionario de Trauma Infantil - Versión Breve,Autoinforme,comercial
+Trauma y estrés postraumático,Eje I,Trauma y estrés postraumático,4,pcl-5_9,PCL-5,Lista de Chequeo del TEPT para el DSM-5,Autoinforme,abierto
+Trauma y estrés postraumático,Eje I,Trauma y estrés postraumático,4,caps-5_10,CAPS-5,Escala Administrada por Clínico para el TEPT,Heteroaplicado / Entrevista clínica,abierto
+Trauma y estrés postraumático,Eje I,Trauma y estrés postraumático,4,ies-r_11,IES-R,Escala de Impacto del Evento Revisada,Autoinforme,abierto
+Trauma y estrés postraumático,Eje I,Trauma y estrés postraumático,4,dts_12,DTS,Escala de Trauma de Davidson,Autoinforme,comercial
+Uso problemático de sustancias,Eje I,Sustancias y alcoholismo,3,assist_38,ASSIST,"Prueba de Detección de Consumo de Alcohol, Tabaco y Sustancias",Heteroaplicado / Entrevista clínica,abierto
+Uso problemático de sustancias,Eje I,Sustancias y alcoholismo,3,audit_39,AUDIT,Prueba de Identificación de Trastornos Relacionados con el Alcohol,Heteroaplicado / Entrevista clínica,abierto
+Uso problemático de sustancias,Eje I,Sustancias y alcoholismo,3,dast-10_40,DAST-10,Prueba de Detección de Abuso de Drogas,Heteroaplicado / Entrevista clínica,abierto
+Valores personales,Eje III,Identidad y valores,1,pvq_89,PVQ,Cuestionario de Valores de Retrato,Autoinforme,abierto
+Vida valiosa (Progreso vs Obstruccion) segun valores personales,Eje II,Identidad y valores,1,vq_165,VQ,Valuing Questionnaire,Autoinforme,academico
+Vulnerabilidad y victimización,Eje I,Trauma y estrés postraumático,1,jvq_50,JVQ,Cuestionario de Victimización Juvenil,Autoinforme,abierto

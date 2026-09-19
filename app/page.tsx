@@ -2,8 +2,10 @@
 
 import { useState, useEffect } from "react";
 import { Search, ShieldCheck, X } from "lucide-react";
-import { InstrumentLibrary, catalog } from "./ui/instrument-library";
+import { InstrumentLibrary, catalog, indiceData } from "./ui/instrument-library";
 import { AxisCards } from "./ui/axis-cards";
+import { GuiaOrientacion } from "./ui/guia-orientacion";
+import { FiltrosGuia } from "./lib/guia";
 import acercaData from "../data/acerca.json";
 
 export default function Home() {
@@ -11,15 +13,27 @@ export default function Home() {
   const [selectedAxis, setSelectedAxis] = useState<number | "all">("all");
   const [selectedFranja, setSelectedFranja] = useState<string>("all");
   const [selectedTheme, setSelectedTheme] = useState<string>("all");
+  const [selectedFuncion, setSelectedFuncion] = useState<string>("all");
+  const [selectedTipo, setSelectedTipo] = useState<string>("all");
+  const [selectedLibre, setSelectedLibre] = useState<boolean>(false);
+  const [showGuia, setShowGuia] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState(false);
 
-  // Compact header on scroll
+  // Compact header on scroll y lectura inicial de guia=1
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
     };
     window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
+
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get("guia") === "1") {
+        setShowGuia(true);
+      }
+    }
+
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -36,6 +50,46 @@ export default function Home() {
   const handleSelectAxisAndTheme = (axisNum: number, theme: string) => {
     setSelectedAxis(axisNum);
     setSelectedTheme(theme);
+  };
+
+  const filtrosActuales: FiltrosGuia = {
+    edad: selectedFranja,
+    eje: selectedAxis,
+    tema: selectedTheme,
+    fn: selectedFuncion,
+    quien: selectedTipo,
+    libre: selectedLibre,
+    q: query,
+  };
+
+  const handleFilterChange = (nuevos: Partial<FiltrosGuia>) => {
+    if (nuevos.edad !== undefined) setSelectedFranja(nuevos.edad);
+    if (nuevos.eje !== undefined) setSelectedAxis(nuevos.eje);
+    if (nuevos.tema !== undefined) setSelectedTheme(nuevos.tema);
+    if (nuevos.fn !== undefined) setSelectedFuncion(nuevos.fn);
+    if (nuevos.quien !== undefined) setSelectedTipo(nuevos.quien);
+    if (nuevos.libre !== undefined) setSelectedLibre(nuevos.libre);
+    if (nuevos.q !== undefined) setQuery(nuevos.q);
+  };
+
+  const handleClearFilter = (param: keyof FiltrosGuia) => {
+    if (param === "edad") setSelectedFranja("all");
+    else if (param === "eje") setSelectedAxis("all");
+    else if (param === "tema") setSelectedTheme("all");
+    else if (param === "fn") setSelectedFuncion("all");
+    else if (param === "quien") setSelectedTipo("all");
+    else if (param === "libre") setSelectedLibre(false);
+    else if (param === "q") setQuery("");
+  };
+
+  const handleResetAll = () => {
+    setSelectedFranja("all");
+    setSelectedAxis("all");
+    setSelectedTheme("all");
+    setSelectedFuncion("all");
+    setSelectedTipo("all");
+    setSelectedLibre(false);
+    setQuery("");
   };
 
   return (
@@ -87,17 +141,29 @@ export default function Home() {
             </label>
           </div>
 
+          {/* Recorrido guiado de orientación clínica (?guia=1) */}
+          {showGuia && (
+            <GuiaOrientacion
+              filtros={filtrosActuales}
+              onFilterChange={handleFilterChange}
+              onClearFilter={handleClearFilter}
+              onResetAll={handleResetAll}
+            />
+          )}
+
           <p className="hero-stats-line">
             {totalFamilies} instrumentos · {totalDocs} documentos · {totalAxes} ejes · {totalThemes} temas
           </p>
         </div>
       </section>
 
-      {/* Seis rutas: Seis tarjetas de eje interactivas */}
-      <AxisCards
-        onSelectAxis={handleSelectAxis}
-        onSelectAxisAndTheme={handleSelectAxisAndTheme}
-      />
+      {/* Seis rutas: Seis tarjetas de eje interactivas (cuando la guía está activa, la biblioteca va de inmediato para actualizar en vivo) */}
+      {!showGuia && (
+        <AxisCards
+          onSelectAxis={handleSelectAxis}
+          onSelectAxisAndTheme={handleSelectAxisAndTheme}
+        />
+      )}
 
       {/* Biblioteca con buscador y barra única de filtros */}
       <InstrumentLibrary
@@ -109,7 +175,20 @@ export default function Home() {
         setSelectedFranja={setSelectedFranja}
         selectedTheme={selectedTheme}
         setSelectedTheme={setSelectedTheme}
+        selectedFuncion={selectedFuncion}
+        setSelectedFuncion={setSelectedFuncion}
+        selectedTipo={selectedTipo}
+        setSelectedTipo={setSelectedTipo}
+        selectedLibre={selectedLibre}
+        setSelectedLibre={setSelectedLibre}
       />
+
+      {showGuia && (
+        <AxisCards
+          onSelectAxis={handleSelectAxis}
+          onSelectAxisAndTheme={handleSelectAxisAndTheme}
+        />
+      )}
 
       {/* Uso profesional responsable (una sola frase) */}
       <section className="responsible-use" aria-label="Uso profesional responsable">
@@ -169,11 +248,5 @@ export default function Home() {
 }
 
 function useMemoThemeCount() {
-  const set = new Set<string>();
-  for (const it of catalog) {
-    if (it.temas && it.temas[0]) {
-      set.add(it.temas[0]);
-    }
-  }
-  return set.size;
+  return indiceData.temas.length;
 }

@@ -1,0 +1,3558 @@
+[
+  {
+    "tema": "Adicciones conductuales",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "apuestas",
+      "juego patológico",
+      "ludopatía",
+      "uso de internet"
+    ],
+    "total_instrumentos": 2,
+    "instrumentos": [
+      {
+        "id": "iat_41",
+        "sigla": "IAT",
+        "nombre": "Test de Adicción a Internet",
+        "eje": "Eje I",
+        "constructo": "Adicciones conductuales",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sogs_42",
+        "sigla": "SOGS",
+        "nombre": "Prueba de Detección de Juego Patológico de South Oaks",
+        "eje": "Eje I",
+        "constructo": "Adicciones conductuales",
+        "tipo_instrumento": "Observacional / Registro conductual",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Afrontamiento interpersonal y asertividad",
+    "ejes_asociados": [
+      "Eje II"
+    ],
+    "sinonimos_descriptores": [
+      "ISS",
+      "Inventario de Situaciones Sociales (ISS)"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "iss_new",
+        "sigla": "ISS",
+        "nombre": "Inventario de Situaciones Sociales (ISS)",
+        "eje": "Eje II",
+        "constructo": "Afrontamiento interpersonal y asertividad",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Afrontamiento y resiliencia",
+    "ejes_asociados": [
+      "Eje II",
+      "Eje III",
+      "Eje IV",
+      "Eje VI"
+    ],
+    "sinonimos_descriptores": [
+      "adaptación",
+      "coping",
+      "resiliencia",
+      "tolerancia a la frustración"
+    ],
+    "total_instrumentos": 9,
+    "instrumentos": [
+      {
+        "id": "brief_cope_66",
+        "sigla": "Brief COPE",
+        "nombre": "Inventario Breve de Afrontamiento",
+        "eje": "Eje II",
+        "constructo": "Exposición y afrontamiento",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cd-risc_115",
+        "sigla": "CD-RISC",
+        "nombre": "Escala de Resiliencia de Connor-Davidson",
+        "eje": "Eje IV",
+        "constructo": "Resiliencia, Afrontamiento y Fortalezas",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "lot-r_116",
+        "sigla": "LOT-R",
+        "nombre": "Test de Orientación Vital Revisado (Optimismo)",
+        "eje": "Eje III",
+        "constructo": "Resiliencia, Afrontamiento y Fortalezas",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "via-is_118",
+        "sigla": "VIA-IS",
+        "nombre": "Inventario VIA de Fortalezas Personales",
+        "eje": "Eje IV",
+        "constructo": "Resiliencia, Afrontamiento y Fortalezas",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bipq_143",
+        "sigla": "BIPQ",
+        "nombre": "Cuestionario Breve de Percepción de Enfermedad (incluye IPQ-R como versión anidada)",
+        "eje": "Eje VI",
+        "constructo": "Enfermedad médica y afrontamiento",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mac_144",
+        "sigla": "MAC",
+        "nombre": "Escala de Ajuste Mental al Cáncer",
+        "eje": "Eje VI",
+        "constructo": "Enfermedad médica y afrontamiento",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "cae_156",
+        "sigla": "CAE",
+        "nombre": "Cuestionario de Afrontamiento del Estres",
+        "eje": "Eje II",
+        "constructo": "Estrategias de afrontamiento del estres",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "rs14_162",
+        "sigla": "RS-14",
+        "nombre": "Escala de Resiliencia de 14 items",
+        "eje": "Eje II",
+        "constructo": "Resiliencia",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "cope48_167",
+        "sigla": "COPE-48",
+        "nombre": "Versión española del COPE-48 (adaptación clínica del COPE Inventory)",
+        "eje": "Eje II",
+        "constructo": "Afrontamiento (coping), 9 escalas clínicas",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Agitación psicomotriz e impulsividad aguda",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "ABS",
+      "Escala de Comportamiento Agitado de Corrigan (ABS)"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "abs_new",
+        "sigla": "ABS",
+        "nombre": "Escala de Comportamiento Agitado de Corrigan (ABS)",
+        "eje": "Eje I",
+        "constructo": "Agitación psicomotriz e impulsividad aguda",
+        "tipo_instrumento": "Observacional / Registro conductual",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Agresividad, ira y violencia",
+    "ejes_asociados": [
+      "Eje I",
+      "Eje III"
+    ],
+    "sinonimos_descriptores": [
+      "agresión física",
+      "conducta violenta",
+      "hostilidad",
+      "rabia"
+    ],
+    "total_instrumentos": 10,
+    "instrumentos": [
+      {
+        "id": "aq_29",
+        "sigla": "AQ",
+        "nombre": "Cuestionario de Agresión",
+        "eje": "Eje I",
+        "constructo": "Agresividad e ira",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "staxi-2_30",
+        "sigla": "STAXI-2",
+        "nombre": "Inventario de Expresión de Ira Estado-Rasgo 2",
+        "eje": "Eje I",
+        "constructo": "Agresividad e ira",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "rpq_31",
+        "sigla": "RPQ",
+        "nombre": "Cuestionario de Agresión Reactiva-Proactiva",
+        "eje": "Eje I",
+        "constructo": "Agresividad e ira",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "pcl-r_32",
+        "sigla": "PCL-R",
+        "nombre": "Escala de Calificación de Psicopatía Revisada",
+        "eje": "Eje III",
+        "constructo": "Conducta antisocial",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "comercial"
+      },
+      {
+        "id": "srp-iv_33",
+        "sigla": "SRP-IV",
+        "nombre": "Escala de Autoinforme de Psicopatía - Versión IV",
+        "eje": "Eje III",
+        "constructo": "Conducta antisocial",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "scid-5-pd_34",
+        "sigla": "SCID-5-PD",
+        "nombre": "SCID-5-PD (Trastorno de la Personalidad Antisocial)",
+        "eje": "Eje I",
+        "constructo": "Conducta antisocial",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "comercial"
+      },
+      {
+        "id": "hcr-20_v3_49",
+        "sigla": "HCR-20 v3",
+        "nombre": "Guía de Evaluación del Riesgo de Violencia",
+        "eje": "Eje I",
+        "constructo": "Riesgo de violencia",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "oas_177",
+        "sigla": "OAS",
+        "nombre": "Overt Aggression Scale",
+        "eje": "Eje I",
+        "constructo": "Agresividad manifiesta observada",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "rvplutchik_186",
+        "sigla": "RV-Plutchik",
+        "nombre": "Escala de Riesgo de Violencia de Plutchik",
+        "eje": "Eje I",
+        "constructo": "Riesgo de violencia autodirigida",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "bdhi_194",
+        "sigla": "BDHI",
+        "nombre": "Buss-Durkee Hostility Inventory",
+        "eje": "Eje I",
+        "constructo": "Hostilidad/agresividad",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Alfabetización y conductas de salud",
+    "ejes_asociados": [
+      "Eje VI"
+    ],
+    "sinonimos_descriptores": [
+      "adherencia terapéutica",
+      "autocuidado",
+      "conductas de salud"
+    ],
+    "total_instrumentos": 6,
+    "instrumentos": [
+      {
+        "id": "ipaq_141",
+        "sigla": "IPAQ",
+        "nombre": "Cuestionario Internacional de Actividad Física",
+        "eje": "Eje VI",
+        "constructo": "Conductas de salud",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mgl_o_mmas-4_142",
+        "sigla": "MGL o MMAS-4",
+        "nombre": "Cuestionario de Adherencia a la Medicación de Morisky-Green-Levine",
+        "eje": "Eje VI",
+        "constructo": "Conductas de salud",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "hls-eu-q16_145",
+        "sigla": "HLS-EU-Q16",
+        "nombre": "Cuestionario Europeo de Alfabetización en Salud - Versión Corta",
+        "eje": "Eje VI",
+        "constructo": "Alfabetización en salud y relación con el sistema",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sahlsa-50_146",
+        "sigla": "SAHLSA-50",
+        "nombre": "Evaluación Breve de Alfabetización en Salud para Adultos de Habla Hispana",
+        "eje": "Eje VI",
+        "constructo": "Alfabetización en salud y relación con el sistema",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "semcds_new1",
+        "sigla": "SEMCD-S",
+        "nombre": "Spanish Chronic Disease Self-Efficacy Scale",
+        "eje": "Eje VI",
+        "constructo": "Autoeficacia/autocuidado en enfermedad crónica",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eheals_new1",
+        "sigla": "eHEALS",
+        "nombre": "eHealth Literacy Scale",
+        "eje": "Eje VI",
+        "constructo": "Alfabetización digital en salud",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Ansiedad generalizada",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "Carroll-TAG",
+      "Escala de Detección del TAG de Carroll y Davidson"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "carroll-tag_new",
+        "sigla": "Carroll-TAG",
+        "nombre": "Escala de Detección del TAG de Carroll y Davidson",
+        "eje": "Eje I",
+        "constructo": "Ansiedad generalizada",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Ansiedad psíquica y somática",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "Escala de Hamilton para la Ansiedad (HAM-A)",
+      "HARS"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "hars_new",
+        "sigla": "HARS",
+        "nombre": "Escala de Hamilton para la Ansiedad (HAM-A)",
+        "eje": "Eje I",
+        "constructo": "Ansiedad psíquica y somática",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Ansiedad y fobia",
+    "ejes_asociados": [
+      "Eje I",
+      "Eje II",
+      "Eje VI"
+    ],
+    "sinonimos_descriptores": [
+      "TAG",
+      "agorafobia",
+      "crisis de angustia",
+      "fobia social",
+      "pánico"
+    ],
+    "total_instrumentos": 13,
+    "instrumentos": [
+      {
+        "id": "stai_0",
+        "sigla": "STAI",
+        "nombre": "Inventario de Ansiedad Estado-Rasgo",
+        "eje": "Eje I",
+        "constructo": "Ansiedad y miedo",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "bai_1",
+        "sigla": "BAI",
+        "nombre": "Inventario de Ansiedad de Beck",
+        "eje": "Eje I",
+        "constructo": "Ansiedad y miedo",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "gad-7_2",
+        "sigla": "GAD-7",
+        "nombre": "Escala de Trastorno de Ansiedad Generalizada - 7",
+        "eje": "Eje I",
+        "constructo": "Ansiedad y miedo",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "isra_3",
+        "sigla": "ISRA",
+        "nombre": "Inventario de Situaciones y Respuestas de Ansiedad",
+        "eje": "Eje I",
+        "constructo": "Ansiedad y miedo",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "hads_4",
+        "sigla": "HADS",
+        "nombre": "Escala de Ansiedad y Depresión Hospitalaria",
+        "eje": "Eje I",
+        "constructo": "Ansiedad y miedo",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "pswq_52",
+        "sigla": "PSWQ",
+        "nombre": "Cuestionario de Preocupación del Estado de Pensilvania",
+        "eje": "Eje II",
+        "constructo": "Preocupación crónica",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ius-12_53",
+        "sigla": "IUS-12",
+        "nombre": "Escala de Intolerancia a la Incertidumbre",
+        "eje": "Eje II",
+        "constructo": "Intolerancia a la incertidumbre",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "csi_new1",
+        "sigla": "CSI",
+        "nombre": "Inventario de Sensibilización Central",
+        "eje": "Eje VI",
+        "constructo": "Sensibilización central y carga de síntomas",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sias_152",
+        "sigla": "SIAS",
+        "nombre": "Escala de Ansiedad ante la Interaccion Social",
+        "eje": "Eje I",
+        "constructo": "Ansiedad ante la interaccion social directa",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "sads_153",
+        "sigla": "SADS",
+        "nombre": "Escala de Estres y Evitacion Social (Social Avoidance and Distress Scale)",
+        "eje": "Eje I",
+        "constructo": "Malestar subjetivo y evitacion conductual en situaciones sociales",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "spin_188",
+        "sigla": "SPIN",
+        "nombre": "Social Phobia Inventory",
+        "eje": "Eje I",
+        "constructo": "Fobia social",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "bsps_189",
+        "sigla": "BSPS",
+        "nombre": "Brief Social Phobia Scale (Davidson)",
+        "eje": "Eje I",
+        "constructo": "Fobia social (heteroaplicada)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "bsa_190",
+        "sigla": "BSA",
+        "nombre": "Brief Scale for Anxiety (Tyrer)",
+        "eje": "Eje I",
+        "constructo": "Ansiedad general (heteroaplicada)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Apego y relaciones interpersonales",
+    "ejes_asociados": [
+      "Eje II",
+      "Eje IV",
+      "Eje VI"
+    ],
+    "sinonimos_descriptores": [
+      "apego ansioso",
+      "apego evitativo",
+      "asertividad",
+      "dependencia emocional"
+    ],
+    "total_instrumentos": 7,
+    "instrumentos": [
+      {
+        "id": "ecr-r_69",
+        "sigla": "ECR-R",
+        "nombre": "Experiencias en Relaciones Cercanas - Revisado",
+        "eje": "Eje II",
+        "constructo": "Apego",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "idi_70",
+        "sigla": "IDI",
+        "nombre": "Inventario de Dependencia Interpersonal",
+        "eje": "Eje II",
+        "constructo": "Dependencia interpersonal",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "rsq_71",
+        "sigla": "RSQ",
+        "nombre": "Cuestionario de Sensibilidad al Rechazo",
+        "eje": "Eje II",
+        "constructo": "Sensibilidad al rechazo",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "iip-32_72",
+        "sigla": "IIP-32",
+        "nombre": "Inventario de Problemas Interpersonales (Versión Breve)",
+        "eje": "Eje II",
+        "constructo": "Comunicación interpersonal y Asertividad",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ras_73",
+        "sigla": "RAS",
+        "nombre": "Escala de Asertividad de Rathus",
+        "eje": "Eje II",
+        "constructo": "Comunicación interpersonal y Asertividad",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cremp_new1",
+        "sigla": "CREM-P",
+        "nombre": "Cuestionario de Relaciones Médico-Paciente (adaptación española del PDRQ)",
+        "eje": "Eje VI",
+        "constructo": "Relación paciente-profesional",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ras-h_170",
+        "sigla": "RAS-H",
+        "nombre": "Escala de Valoración de la Relación (Relationship Assessment Scale - Hendrick)",
+        "eje": "Eje IV",
+        "constructo": "Satisfacción diádica y calidad de la relación de pareja",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Apoyo social y familia",
+    "ejes_asociados": [
+      "Eje II",
+      "Eje III",
+      "Eje IV"
+    ],
+    "sinonimos_descriptores": [
+      "dinámica de pareja",
+      "funcionamiento familiar",
+      "red de apoyo"
+    ],
+    "total_instrumentos": 9,
+    "instrumentos": [
+      {
+        "id": "ucla-r_74",
+        "sigla": "UCLA-R",
+        "nombre": "Escala de Soledad de UCLA Revisada",
+        "eje": "Eje II",
+        "constructo": "Soledad y aislamiento social",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "djgls_75",
+        "sigla": "DJGLS",
+        "nombre": "Escala de Soledad de De Jong Gierveld",
+        "eje": "Eje II",
+        "constructo": "Soledad y aislamiento social",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ismi_98",
+        "sigla": "ISMI",
+        "nombre": "Escala de Estigma Internalizado de la Enfermedad Mental",
+        "eje": "Eje III",
+        "constructo": "Estigma y discriminación",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eod_99",
+        "sigla": "EOD",
+        "nombre": "Escala de Experiencias de Discriminación",
+        "eje": "Eje III",
+        "constructo": "Estigma y discriminación",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mos-sss_107",
+        "sigla": "MOS-SSS",
+        "nombre": "Cuestionario de Apoyo Social del Medical Outcomes Study",
+        "eje": "Eje IV",
+        "constructo": "Apoyo social y Funcionamiento familiar",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "faces-iv_108",
+        "sigla": "FACES-IV",
+        "nombre": "Escala de Cohesión y Adaptabilidad Familiar",
+        "eje": "Eje IV",
+        "constructo": "Apoyo social y Funcionamiento familiar",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "apgar_109",
+        "sigla": "APGAR",
+        "nombre": "APGAR Familiar",
+        "eje": "Eje IV",
+        "constructo": "Apoyo social y Funcionamiento familiar",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eas_157",
+        "sigla": "EAS",
+        "nombre": "Escala de Apoyo Social",
+        "eje": "Eje II",
+        "constructo": "Apoyo social percibido (familiar y de amistades)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "sass_213",
+        "sigla": "SASS",
+        "nombre": "Social Adaptation Self-evaluation Scale",
+        "eje": "Eje IV",
+        "constructo": "Adaptación social",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Atención y concentración",
+    "ejes_asociados": [
+      "Eje V"
+    ],
+    "sinonimos_descriptores": [
+      "atención dividida",
+      "atención sostenida",
+      "concentración",
+      "vigilancia"
+    ],
+    "total_instrumentos": 2,
+    "instrumentos": [
+      {
+        "id": "d2-r_121",
+        "sigla": "d2-R",
+        "nombre": "Test de Atención d2-R",
+        "eje": "Eje V",
+        "constructo": "Atención (Sostenida, Selectiva, Dividida y Vigilancia)",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "comercial"
+      },
+      {
+        "id": "tmt_122",
+        "sigla": "TMT",
+        "nombre": "Test del Trazo (Trail Making Test)",
+        "eje": "Eje V",
+        "constructo": "Atención (Sostenida, Selectiva, Dividida y Vigilancia)",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Autoconcepto y autoeficacia creativa",
+    "ejes_asociados": [
+      "Eje III"
+    ],
+    "sinonimos_descriptores": [
+      "CREA-24",
+      "Escala de Autopercepción de Creatividad (CREA-24)"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "crea-24_new",
+        "sigla": "CREA-24",
+        "nombre": "Escala de Autopercepción de Creatividad (CREA-24)",
+        "eje": "Eje III",
+        "constructo": "Autoconcepto y autoeficacia creativa",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Autoestima y autoconcepto",
+    "ejes_asociados": [
+      "Eje III"
+    ],
+    "sinonimos_descriptores": [
+      "autoeficacia",
+      "autoimagen",
+      "valía personal"
+    ],
+    "total_instrumentos": 3,
+    "instrumentos": [
+      {
+        "id": "rses_84",
+        "sigla": "RSES",
+        "nombre": "Escala de Autoestima de Rosenberg",
+        "eje": "Eje III",
+        "constructo": "Autoestima",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "af-5_85",
+        "sigla": "AF-5",
+        "nombre": "Autoconcepto Forma 5",
+        "eje": "Eje III",
+        "constructo": "Autoconcepto",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "gse_86",
+        "sigla": "GSE",
+        "nombre": "Escala de Autoeficacia General",
+        "eje": "Eje III",
+        "constructo": "Autoeficacia",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Autonomía funcional y dependencia biológica",
+    "ejes_asociados": [
+      "Eje IV"
+    ],
+    "sinonimos_descriptores": [
+      "KATZ",
+      "Índice de Katz de Actividades Básicas de la Vida Diaria (ABVD)"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "katz_new",
+        "sigla": "KATZ",
+        "nombre": "Índice de Katz de Actividades Básicas de la Vida Diaria (ABVD)",
+        "eje": "Eje IV",
+        "constructo": "Autonomía funcional y dependencia biológica",
+        "tipo_instrumento": "Observacional / Registro conductual",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Bienestar social y ajuste comunitario",
+    "ejes_asociados": [
+      "Eje IV"
+    ],
+    "sinonimos_descriptores": [
+      "Escala de Bienestar Social de Keyes",
+      "SWBS"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "swbs_new",
+        "sigla": "SWBS",
+        "nombre": "Escala de Bienestar Social de Keyes",
+        "eje": "Eje IV",
+        "constructo": "Bienestar social y ajuste comunitario",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Bienestar y satisfacción vital",
+    "ejes_asociados": [
+      "Eje III",
+      "Eje IV"
+    ],
+    "sinonimos_descriptores": [
+      "afecto positivo",
+      "felicidad",
+      "florecimiento",
+      "satisfacción vital"
+    ],
+    "total_instrumentos": 4,
+    "instrumentos": [
+      {
+        "id": "mlq_90",
+        "sigla": "MLQ",
+        "nombre": "Cuestionario de Significado de la Vida",
+        "eje": "Eje III",
+        "constructo": "Sentido de vida y Propósito vital",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "swls_110",
+        "sigla": "SWLS",
+        "nombre": "Escala de Satisfacción con la Vida",
+        "eje": "Eje IV",
+        "constructo": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "pwb_111",
+        "sigla": "PWB",
+        "nombre": "Escalas de Bienestar Psicológico",
+        "eje": "Eje IV",
+        "constructo": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "fs_112",
+        "sigla": "FS",
+        "nombre": "Escala de Florecimiento",
+        "eje": "Eje IV",
+        "constructo": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Bipolaridad y manía",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "Bipolar disorder",
+      "Ciclotimia",
+      "Manic episode",
+      "Manía",
+      "Psicosis bipolar",
+      "Psicosis maníca"
+    ],
+    "total_instrumentos": 4,
+    "instrumentos": [
+      {
+        "id": "mdq_181",
+        "sigla": "MDQ",
+        "nombre": "Mood Disorder Questionnaire",
+        "eje": "Eje I",
+        "constructo": "Cribado de espectro bipolar",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "ymrs_182",
+        "sigla": "YMRS",
+        "nombre": "Young Mania Rating Scale",
+        "eje": "Eje I",
+        "constructo": "Severidad de manía",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "evmac_183",
+        "sigla": "EVMAC",
+        "nombre": "Escala para la Valoración de la Manía por Clínicos",
+        "eje": "Eje I",
+        "constructo": "Severidad de manía (heteroaplicada)",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "mas_184",
+        "sigla": "MAS",
+        "nombre": "Escala de Manía de Bech-Rafaelsen",
+        "eje": "Eje I",
+        "constructo": "Severidad de manía",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Calidad de descanso e insomnio agudo",
+    "ejes_asociados": [
+      "Eje VI"
+    ],
+    "sinonimos_descriptores": [
+      "Escala Groningen de la Calidad del Sueño (GSQS)",
+      "GSQS"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "gsqs_new",
+        "sigla": "GSQS",
+        "nombre": "Escala Groningen de la Calidad del Sueño (GSQS)",
+        "eje": "Eje VI",
+        "constructo": "Calidad de descanso e insomnio agudo",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Calidad de vida",
+    "ejes_asociados": [
+      "Eje IV"
+    ],
+    "sinonimos_descriptores": [
+      "Bienestar",
+      "Calidad de vida",
+      "QoL",
+      "Quality of life",
+      "Salud física",
+      "Salud mental",
+      "Vida diaria"
+    ],
+    "total_instrumentos": 4,
+    "instrumentos": [
+      {
+        "id": "sf-36_113",
+        "sigla": "SF-36",
+        "nombre": "Cuestionario de Salud SF-36",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "whoqol-bref_114",
+        "sigla": "WHOQOL-BREF",
+        "nombre": "Cuestionario de Calidad de Vida de la OMS - Versión Breve",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "qls_214",
+        "sigla": "QLS",
+        "nombre": "Quality of Life Scale (Heinrichs)",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida en esquizofrenia",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "cscv_215",
+        "sigla": "CSCV",
+        "nombre": "Cuestionario Sevilla de Calidad de Vida",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Calidad de vida relacionada con la salud",
+    "ejes_asociados": [
+      "Eje IV"
+    ],
+    "sinonimos_descriptores": [
+      "Cuestionario de Salud EuroQoL-5D",
+      "EQ-5D"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "eq-5d_new",
+        "sigla": "EQ-5D",
+        "nombre": "Cuestionario de Salud EuroQoL-5D",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida relacionada con la salud",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      }
+    ]
+  },
+  {
+    "tema": "Calidad de vida y satisfacción vital",
+    "ejes_asociados": [
+      "Eje IV"
+    ],
+    "sinonimos_descriptores": [
+      "Cuestionario de Calidad de Vida: Satisfacción y Placer de Endicott",
+      "Q-LES-Q"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "q-les-q_new",
+        "sigla": "Q-LES-Q",
+        "nombre": "Cuestionario de Calidad de Vida: Satisfacción y Placer de Endicott",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida y satisfacción vital",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Cognición social",
+    "ejes_asociados": [
+      "Eje II",
+      "Eje V"
+    ],
+    "sinonimos_descriptores": [
+      "Atención social",
+      "Cognición social",
+      "Comunicación social",
+      "Interacción social",
+      "Procesamiento social",
+      "Social cognition"
+    ],
+    "total_instrumentos": 3,
+    "instrumentos": [
+      {
+        "id": "rmet_132",
+        "sigla": "RMET",
+        "nombre": "Test de Leer la Mente en los Ojos",
+        "eje": "Eje V",
+        "constructo": "Cognición Social e Interocepción",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      },
+      {
+        "id": "maia_133",
+        "sigla": "MAIA",
+        "nombre": "Evaluación Multidimensional de la Conciencia Interoceptiva",
+        "eje": "Eje II",
+        "constructo": "Cognición Social e Interocepción",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "faux_pas_test_134",
+        "sigla": "Faux Pas Test",
+        "nombre": "Test de Meteduras de Pata",
+        "eje": "Eje V",
+        "constructo": "Cognición Social e Interocepción",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Conducta alimentaria e imagen corporal",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "Anorexia",
+      "Autoimagen",
+      "Bulimia",
+      "Conducta alimentaria",
+      "Conducta alimentaria patológica",
+      "Disortodinia",
+      "Eating behavior",
+      "Imagen corporal"
+    ],
+    "total_instrumentos": 4,
+    "instrumentos": [
+      {
+        "id": "bsq_new1",
+        "sigla": "BSQ",
+        "nombre": "Body Shape Questionnaire (Cuestionario sobre la Forma Corporal)",
+        "eje": "Eje I",
+        "constructo": "Insatisfacción con la forma y figura corporal",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mba_new1",
+        "sigla": "MBA",
+        "nombre": "Measure of Body Apperception (Medida de Percepción del Cuerpo)",
+        "eje": "Eje I",
+        "constructo": "Dependencia de la autoestima respecto a la apariencia/integridad corporal",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "edi2_201",
+        "sigla": "EDI-2",
+        "nombre": "Inventario de Trastornos de la Conducta Alimentaria-2",
+        "eje": "Eje I",
+        "constructo": "Conducta alimentaria",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "bite_202",
+        "sigla": "BITE",
+        "nombre": "Bulimic Investigatory Test Edinburgh",
+        "eje": "Eje I",
+        "constructo": "Síntomas bulímicos",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Consumo de alcohol y adicciones",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "CAGE",
+      "Cuestionario CAGE para Detección de Alcoholismo"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "cage_new",
+        "sigla": "CAGE",
+        "nombre": "Cuestionario CAGE para Detección de Alcoholismo",
+        "eje": "Eje I",
+        "constructo": "Consumo de alcohol y adicciones",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Cribado cognitivo y demencias",
+    "ejes_asociados": [
+      "Eje IV",
+      "Eje V"
+    ],
+    "sinonimos_descriptores": [
+      "Alzheimer",
+      "Cognitive screening",
+      "Cribado cognitivo",
+      "Demencia",
+      "Deterioro cognitivo",
+      "Enfermedad de Alzheimer",
+      "Evaluación cognitiva",
+      "Prueba cognitiva"
+    ],
+    "total_instrumentos": 5,
+    "instrumentos": [
+      {
+        "id": "mmse_119",
+        "sigla": "MMSE",
+        "nombre": "Mini-Examen del Estado Cognitivo",
+        "eje": "Eje V",
+        "constructo": "Cribado Cognitivo Global (Estado Mental)",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "comercial"
+      },
+      {
+        "id": "moca_120",
+        "sigla": "MoCA",
+        "nombre": "Evaluación Cognitiva de Montreal",
+        "eje": "Eje V",
+        "constructo": "Cribado Cognitivo Global (Estado Mental)",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "academico"
+      },
+      {
+        "id": "mec_171",
+        "sigla": "MEC",
+        "nombre": "Mini-Examen Cognoscitivo de Lobo",
+        "eje": "Eje V",
+        "constructo": "Cribado cognitivo global",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "adascog_172",
+        "sigla": "ADAS-Cog",
+        "nombre": "Alzheimer's Disease Assessment Scale - Cognitiva",
+        "eje": "Eje V",
+        "constructo": "Deterioro cognitivo en demencia",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "academico"
+      },
+      {
+        "id": "adrql_217",
+        "sigla": "ADRQL",
+        "nombre": "Alzheimer's Disease Related Quality of Life",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida en demencia",
+        "tipo_instrumento": "Observacional / Registro conductual",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Cribado multitrastorno de ansiedad",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "ASQ-15",
+      "Cuestionario de Screening de Ansiedad de Wittchen (ASQ-15)"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "asq-15_new",
+        "sigla": "ASQ-15",
+        "nombre": "Cuestionario de Screening de Ansiedad de Wittchen (ASQ-15)",
+        "eje": "Eje I",
+        "constructo": "Cribado multitrastorno de ansiedad",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Crisis de angustia y pánico",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "Diario-Panico",
+      "Trastorno de Pánico: Diario del Paciente (Autorregistro TCC)"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "diario-panico_new",
+        "sigla": "Diario-Panico",
+        "nombre": "Trastorno de Pánico: Diario del Paciente (Autorregistro TCC)",
+        "eje": "Eje I",
+        "constructo": "Crisis de angustia y pánico",
+        "tipo_instrumento": "Observacional / Registro conductual",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Depresión y estado de ánimo",
+    "ejes_asociados": [
+      "Eje I",
+      "Eje II",
+      "Eje IV"
+    ],
+    "sinonimos_descriptores": [
+      "Escala de Autoevaluación de la Depresión de Zung y Conde (SDS)",
+      "SDS",
+      "TAG",
+      "afecto negativo",
+      "agorafobia",
+      "anhedonia",
+      "crisis de angustia",
+      "depresión mayor",
+      "distimia",
+      "estrés",
+      "estrés crónico",
+      "estrés percibido",
+      "fobia social",
+      "pánico",
+      "sobrecarga",
+      "tensión",
+      "ánimo bajo"
+    ],
+    "total_instrumentos": 13,
+    "instrumentos": [
+      {
+        "id": "dass-21_5",
+        "sigla": "DASS-21",
+        "nombre": "Escalas de Depresión, Ansiedad y Estrés - 21",
+        "eje": "Eje I",
+        "constructo": "Depresión, ansiedad y estrés",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bdi-ii_13",
+        "sigla": "BDI-II",
+        "nombre": "Inventario de Depresión de Beck - II",
+        "eje": "Eje I",
+        "constructo": "Depresión y anhedonia",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "phq-9_14",
+        "sigla": "PHQ-9",
+        "nombre": "Cuestionario de Salud del Paciente - 9",
+        "eje": "Eje I",
+        "constructo": "Depresión y anhedonia",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ces-d_15",
+        "sigla": "CES-D",
+        "nombre": "Escala del Centro de Estudios Epidemiológicos de la Depresión",
+        "eje": "Eje I",
+        "constructo": "Depresión y anhedonia",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "shaps_16",
+        "sigla": "SHAPS",
+        "nombre": "Escala de Placer de Snaith-Hamilton",
+        "eje": "Eje I",
+        "constructo": "Depresión y anhedonia",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "hdrs_17",
+        "sigla": "HDRS / HAM-D",
+        "nombre": "Escala de Calificación de la Depresión de Hamilton",
+        "eje": "Eje I",
+        "constructo": "Depresión y anhedonia",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bads_64",
+        "sigla": "BADS",
+        "nombre": "Escala de Activación Conductual para la Depresión",
+        "eje": "Eje II",
+        "constructo": "Activación y Evitación conductual",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eros_65",
+        "sigla": "EROS",
+        "nombre": "Escala de Observación de Recompensas Ambientales",
+        "eje": "Eje II",
+        "constructo": "Activación y Evitación conductual",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "madrs_178",
+        "sigla": "MADRS",
+        "nombre": "Montgomery-Asberg Depression Rating Scale",
+        "eje": "Eje I",
+        "constructo": "Severidad depresiva (heteroaplicada)",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "gds_179",
+        "sigla": "GDS",
+        "nombre": "Geriatric Depression Scale (Yesavage, 30 items)",
+        "eje": "Eje I",
+        "constructo": "Depresión en adultos mayores",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "cds_180",
+        "sigla": "CDS",
+        "nombre": "Calgary Depression Scale for Schizophrenia",
+        "eje": "Eje I",
+        "constructo": "Depresión en esquizofrenia",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "qlds_216",
+        "sigla": "QLDS",
+        "nombre": "Quality of Life Depression Scale",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida en depresión",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "sds_new",
+        "sigla": "SDS",
+        "nombre": "Escala de Autoevaluación de la Depresión de Zung y Conde (SDS)",
+        "eje": "Eje I",
+        "constructo": "Depresión y estado de ánimo",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Desempeño laboral y burnout",
+    "ejes_asociados": [
+      "Eje IV"
+    ],
+    "sinonimos_descriptores": [
+      "agotamiento laboral",
+      "engagement",
+      "estrés laboral"
+    ],
+    "total_instrumentos": 2,
+    "instrumentos": [
+      {
+        "id": "mbi_105",
+        "sigla": "MBI",
+        "nombre": "Inventario de Burnout de Maslach",
+        "eje": "Eje IV",
+        "constructo": "Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "uwes_106",
+        "sigla": "UWES",
+        "nombre": "Escala de Engagement en el Trabajo de Utrecht",
+        "eje": "Eje IV",
+        "constructo": "Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Desesperanza y riesgo suicida",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "BHS",
+      "Escala de Desesperanza de Beck (BHS)"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "bhs_new",
+        "sigla": "BHS",
+        "nombre": "Escala de Desesperanza de Beck (BHS)",
+        "eje": "Eje I",
+        "constructo": "Desesperanza y riesgo suicida",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      }
+    ]
+  },
+  {
+    "tema": "Diagnóstico diferencial de demencias",
+    "ejes_asociados": [
+      "Eje V"
+    ],
+    "sinonimos_descriptores": [
+      "Escala de Isquemia de Hachinski (HIS)",
+      "HIS"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "his_new",
+        "sigla": "HIS",
+        "nombre": "Escala de Isquemia de Hachinski (HIS)",
+        "eje": "Eje V",
+        "constructo": "Diagnóstico diferencial de demencias",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Dolor y síntomas somáticos",
+    "ejes_asociados": [
+      "Eje I",
+      "Eje VI"
+    ],
+    "sinonimos_descriptores": [
+      "dolor crónico",
+      "fatiga crónica",
+      "fibromialgia",
+      "somatización"
+    ],
+    "total_instrumentos": 7,
+    "instrumentos": [
+      {
+        "id": "phq-15_22",
+        "sigla": "PHQ-15",
+        "nombre": "Cuestionario de Salud del Paciente - 15",
+        "eje": "Eje I",
+        "constructo": "Somatización y ansiedad por la salud",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "wi-7_23",
+        "sigla": "WI",
+        "nombre": "Índice de Whiteley",
+        "eje": "Eje I",
+        "constructo": "Somatización y ansiedad por la salud",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "shai_24",
+        "sigla": "SHAI",
+        "nombre": "Inventario Corto de Ansiedad por la Salud",
+        "eje": "Eje I",
+        "constructo": "Somatización y ansiedad por la salud",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "scl-90-r_25",
+        "sigla": "SCL-90-R",
+        "nombre": "Inventario de Síntomas SCL-90-R (Subescala Somatización)",
+        "eje": "Eje I",
+        "constructo": "Somatización y ansiedad por la salud",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "bpi_138",
+        "sigla": "BPI",
+        "nombre": "Inventario Breve de Dolor",
+        "eje": "Eje VI",
+        "constructo": "Dolor, fatiga y síntomas somáticos",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "pcs_139",
+        "sigla": "PCS",
+        "nombre": "Escala de Catastrofización del Dolor",
+        "eje": "Eje VI",
+        "constructo": "Dolor, fatiga y síntomas somáticos",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "fss_140",
+        "sigla": "FSS",
+        "nombre": "Escala de Gravedad de la Fatiga",
+        "eje": "Eje VI",
+        "constructo": "Dolor, fatiga y síntomas somáticos",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Efectos de psicofármacos",
+    "ejes_asociados": [
+      "Eje VI"
+    ],
+    "sinonimos_descriptores": [
+      "efectos secundarios",
+      "extrapiramidalismo",
+      "sedación",
+      "temblor"
+    ],
+    "total_instrumentos": 2,
+    "instrumentos": [
+      {
+        "id": "sas_209",
+        "sigla": "SAS",
+        "nombre": "Simpson-Angus Scale",
+        "eje": "Eje VI",
+        "constructo": "Parkinsonismo/extrapiramidalismo inducido",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "uku_210",
+        "sigla": "UKU",
+        "nombre": "UKU Side Effect Rating Scale",
+        "eje": "Eje VI",
+        "constructo": "Efectos secundarios de psicofármacos",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Efectos extrapiramidales y farmacovigilancia",
+    "ejes_asociados": [
+      "Eje VI"
+    ],
+    "sinonimos_descriptores": [
+      "BARS",
+      "Escala de Acatisia de Barnes (BARS)"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "bars_new",
+        "sigla": "BARS",
+        "nombre": "Escala de Acatisia de Barnes (BARS)",
+        "eje": "Eje VI",
+        "constructo": "Efectos extrapiramidales y farmacovigilancia",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Esquemas y procesos cognitivos",
+    "ejes_asociados": [
+      "Eje II"
+    ],
+    "sinonimos_descriptores": [
+      "creencias centrales",
+      "distorsiones cognitivas",
+      "preocupación",
+      "rumiación"
+    ],
+    "total_instrumentos": 3,
+    "instrumentos": [
+      {
+        "id": "rrs_51",
+        "sigla": "RRS",
+        "nombre": "Escala de Respuestas Rumiativas",
+        "eje": "Eje II",
+        "constructo": "Rumiación",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mcq-30_57",
+        "sigla": "MCQ-30",
+        "nombre": "Cuestionario de Metacogniciones",
+        "eje": "Eje II",
+        "constructo": "Metacogniciones disfuncionales",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ysq-s3_58",
+        "sigla": "YSQ-S3",
+        "nombre": "Cuestionario de Esquemas de Young",
+        "eje": "Eje II",
+        "constructo": "Esquemas maladaptativos",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Estilos cognitivos y autogobierno mental",
+    "ejes_asociados": [
+      "Eje II"
+    ],
+    "sinonimos_descriptores": [
+      "Inventario de Estilos de Pensamiento de Sternberg (TSI)",
+      "TSI"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "tsi_new",
+        "sigla": "TSI",
+        "nombre": "Inventario de Estilos de Pensamiento de Sternberg (TSI)",
+        "eje": "Eje II",
+        "constructo": "Estilos cognitivos y autogobierno mental",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Estilos de pensamiento y metacognición",
+    "ejes_asociados": [
+      "Eje II"
+    ],
+    "sinonimos_descriptores": [
+      "EMPC",
+      "Escala Motivacional de Pensamiento Crítico (EMPC)"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "empc_new",
+        "sigla": "EMPC",
+        "nombre": "Escala Motivacional de Pensamiento Crítico (EMPC)",
+        "eje": "Eje II",
+        "constructo": "Estilos de pensamiento y metacognición",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Estrés y estrés percibido",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "TEPT",
+      "adaptación",
+      "coping",
+      "disociación",
+      "estrés",
+      "estrés agudo",
+      "estrés crónico",
+      "estrés percibido",
+      "resiliencia",
+      "sobrecarga",
+      "tensión",
+      "tolerancia a la frustración",
+      "trauma complejo"
+    ],
+    "total_instrumentos": 3,
+    "instrumentos": [
+      {
+        "id": "pss_6",
+        "sigla": "PSS",
+        "nombre": "Escala de Estrés Percibido",
+        "eje": "Eje I",
+        "constructo": "Estrés psicológico",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "tics_8",
+        "sigla": "TICS",
+        "nombre": "Inventario de Estrés Crónico de Trier",
+        "eje": "Eje I",
+        "constructo": "Estrés psicológico",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "pss14_155",
+        "sigla": "PSS-14",
+        "nombre": "Escala de Estres Percibido (version de 14 items)",
+        "eje": "Eje I",
+        "constructo": "Estres psicologico percibido (incontrolabilidad, autoeficacia/afrontamiento)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Evaluación diagnóstica multiaxial DSM-IV/CIE-10",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "Entrevista Neuropsiquiátrica Internacional (MINI 5.0.0)",
+      "MINI"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "mini_new",
+        "sigla": "MINI",
+        "nombre": "Entrevista Neuropsiquiátrica Internacional (MINI 5.0.0)",
+        "eje": "Eje I",
+        "constructo": "Evaluación diagnóstica multiaxial DSM-IV/CIE-10",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "comercial"
+      }
+    ]
+  },
+  {
+    "tema": "Farmacovigilancia y discinesia tardía",
+    "ejes_asociados": [
+      "Eje VI"
+    ],
+    "sinonimos_descriptores": [
+      "AIMS",
+      "Escala de Movimientos Involuntarios Anormales de Guy (AIMS)"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "aims_new",
+        "sigla": "AIMS",
+        "nombre": "Escala de Movimientos Involuntarios Anormales de Guy (AIMS)",
+        "eje": "Eje VI",
+        "constructo": "Farmacovigilancia y discinesia tardía",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Flexibilidad psicológica y mindfulness",
+    "ejes_asociados": [
+      "Eje II"
+    ],
+    "sinonimos_descriptores": [
+      "adaptabilidad",
+      "atención plena",
+      "flexibilidad cognitiva",
+      "mindfulness",
+      "percepción positiva",
+      "resiliencia"
+    ],
+    "total_instrumentos": 7,
+    "instrumentos": [
+      {
+        "id": "aaq-ii_54",
+        "sigla": "AAQ-II",
+        "nombre": "Cuestionario de Aceptación y Acción II",
+        "eje": "Eje II",
+        "constructo": "Rigidez y Flexibilidad cognitiva",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cfi_55",
+        "sigla": "CFI",
+        "nombre": "Inventario de Flexibilidad Cognitiva",
+        "eje": "Eje II",
+        "constructo": "Rigidez y Flexibilidad cognitiva",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cfq_56",
+        "sigla": "CFQ",
+        "nombre": "Cuestionario de Fusión Cognitiva",
+        "eje": "Eje II",
+        "constructo": "Fusión cognitiva",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "meaq_63",
+        "sigla": "MEAQ",
+        "nombre": "Cuestionario Multidimensional de Evitación Experiencial",
+        "eje": "Eje II",
+        "constructo": "Evitación experiencial",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "beaq_164",
+        "sigla": "BEAQ",
+        "nombre": "Brief Experiential Avoidance Questionnaire",
+        "eje": "Eje II",
+        "constructo": "Evitacion experiencial",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "psyflex_166",
+        "sigla": "Psy-Flex",
+        "nombre": "Cuestionario Psy-Flex (flexibilidad psicologica)",
+        "eje": "Eje II",
+        "constructo": "Flexibilidad psicologica (presencia, apertura, defusion, yo estable, valores, compromiso)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "ffmq-sf_168",
+        "sigla": "FFMQ-SF",
+        "nombre": "Cuestionario de Cinco Facetas de Mindfulness - Forma Corta",
+        "eje": "Eje II",
+        "constructo": "Mindfulness y regulacion emocional (5 facetas: observar, describir, actuar con consciencia, no juzgar, no reactividad)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Fobia social y ansiedad de desempeño",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "Escala de Ansiedad Social de Liebowitz (LSAS)",
+      "LSAS"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "lsas_new",
+        "sigla": "LSAS",
+        "nombre": "Escala de Ansiedad Social de Liebowitz (LSAS)",
+        "eje": "Eje I",
+        "constructo": "Fobia social y ansiedad de desempeño",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Funcionamiento global y severidad transdiagnóstica",
+    "ejes_asociados": [
+      "Eje IV"
+    ],
+    "sinonimos_descriptores": [
+      "CGI",
+      "Escala de Impresión Clínica Global de Guy (CGI)"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "cgi_new",
+        "sigla": "CGI",
+        "nombre": "Escala de Impresión Clínica Global de Guy (CGI)",
+        "eje": "Eje IV",
+        "constructo": "Funcionamiento global y severidad transdiagnóstica",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Funcionamiento y discapacidad",
+    "ejes_asociados": [
+      "Eje IV"
+    ],
+    "sinonimos_descriptores": [
+      "adaptabilidad",
+      "autonomía",
+      "discapacidad física",
+      "discapacidad intelectual",
+      "discapacidad psíquica",
+      "funcionalidad"
+    ],
+    "total_instrumentos": 5,
+    "instrumentos": [
+      {
+        "id": "whodas_2.0_100",
+        "sigla": "WHODAS 2.0",
+        "nombre": "Cuestionario para la Evaluación de Discapacidad de la OMS 2.0",
+        "eje": "Eje IV",
+        "constructo": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "indice_de_barth_101",
+        "sigla": "BARTHEL",
+        "nombre": "Índice de Barthel",
+        "eje": "Eje IV",
+        "constructo": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+        "tipo_instrumento": "Observacional / Registro conductual",
+        "acceso": "abierto"
+      },
+      {
+        "id": "escala_de_lawton_102",
+        "sigla": "Escala de Lawton",
+        "nombre": "Escala de Lawton y Brody",
+        "eje": "Eje IV",
+        "constructo": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+        "tipo_instrumento": "Observacional / Registro conductual",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eeaggaf_211",
+        "sigla": "EEAG-GAF",
+        "nombre": "Escala de Evaluación de la Actividad Global",
+        "eje": "Eje IV",
+        "constructo": "Funcionamiento global (eje V del DSM-IV)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "sdi_212",
+        "sigla": "SDI",
+        "nombre": "Sheehan Disability Inventory",
+        "eje": "Eje IV",
+        "constructo": "Discapacidad funcional",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Funciones ejecutivas",
+    "ejes_asociados": [
+      "Eje V"
+    ],
+    "sinonimos_descriptores": [
+      "control de la atención",
+      "flexibilidad cognitiva",
+      "inhibición",
+      "memoria de trabajo",
+      "organización",
+      "planificación",
+      "resolución de problemas"
+    ],
+    "total_instrumentos": 7,
+    "instrumentos": [
+      {
+        "id": "wcst_125",
+        "sigla": "WCST",
+        "nombre": "Test de Clasificación de Tarjetas de Wisconsin",
+        "eje": "Eje V",
+        "constructo": "Funciones Ejecutivas",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "comercial"
+      },
+      {
+        "id": "stroop_test_126",
+        "sigla": "Stroop Test",
+        "nombre": "Test de Colores y Palabras",
+        "eje": "Eje V",
+        "constructo": "Funciones Ejecutivas",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "abierto"
+      },
+      {
+        "id": "igt_127",
+        "sigla": "IGT",
+        "nombre": "Iowa Gambling Task",
+        "eje": "Eje V",
+        "constructo": "Funciones Ejecutivas",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "abierto"
+      },
+      {
+        "id": "brief-2_128",
+        "sigla": "BRIEF-2",
+        "nombre": "Evaluación Conductual de la Función Ejecutiva",
+        "eje": "Eje V",
+        "constructo": "Funciones Ejecutivas",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "comercial"
+      },
+      {
+        "id": "ifs_129",
+        "sigla": "IFS",
+        "nombre": "INECO Frontal Screening",
+        "eje": "Eje V",
+        "constructo": "Funciones Ejecutivas",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "abierto"
+      },
+      {
+        "id": "dex-sp_new1",
+        "sigla": "DEX-Sp",
+        "nombre": "Cuestionario Disejecutivo (versión española)",
+        "eje": "Eje V",
+        "constructo": "Síntomas disejecutivos conductuales",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "abierto"
+      },
+      {
+        "id": "efeco_new1",
+        "sigla": "EFECO",
+        "nombre": "Escala EFECO para Valorar Funciones Ejecutivas",
+        "eje": "Eje V",
+        "constructo": "Funciones ejecutivas cotidianas (autoinforme)",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Identidad y valores",
+    "ejes_asociados": [
+      "Eje II",
+      "Eje III"
+    ],
+    "sinonimos_descriptores": [
+      "autoconcepto",
+      "autoestima",
+      "identidad de género",
+      "identidad personal",
+      "identidad social",
+      "valores morales",
+      "valores éticos"
+    ],
+    "total_instrumentos": 8,
+    "instrumentos": [
+      {
+        "id": "sccs_87",
+        "sigla": "SCCS",
+        "nombre": "Escala de Claridad del Autoconcepto",
+        "eje": "Eje III",
+        "constructo": "Claridad del self",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eom-eis-2_88",
+        "sigla": "EOM-EIS-2",
+        "nombre": "Medida Objetiva Extendida del Estatus de Identidad del Ego",
+        "eje": "Eje III",
+        "constructo": "Identidad personal",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "pvq_89",
+        "sigla": "PVQ",
+        "nombre": "Cuestionario de Valores de Retrato",
+        "eje": "Eje III",
+        "constructo": "Valores personales",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "imi_91",
+        "sigla": "IMI",
+        "nombre": "Inventario de Motivación Intrínseca",
+        "eje": "Eje III",
+        "constructo": "Motivación y Orientación a metas",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "agq-r_92",
+        "sigla": "AGQ-R",
+        "nombre": "Cuestionario de Metas de Logro Revisado",
+        "eje": "Eje III",
+        "constructo": "Motivación y Orientación a metas",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "meim_95",
+        "sigla": "MEIM",
+        "nombre": "Multigroup Ethnic Identity Measure (Medida Multigrupo de Identidad Étnica)",
+        "eje": "Eje III",
+        "constructo": "Identidad étnica (Exploración y Compromiso/Pertenencia)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "via_96",
+        "sigla": "VIA",
+        "nombre": "Índice de Aculturación de Vancouver",
+        "eje": "Eje III",
+        "constructo": "Identidad cultural y Aculturación",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "vq_165",
+        "sigla": "VQ",
+        "nombre": "Valuing Questionnaire",
+        "eje": "Eje II",
+        "constructo": "Vida valiosa (Progreso vs Obstruccion) segun valores personales",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Impulsividad y conducta disruptiva",
+    "ejes_asociados": [
+      "Eje I",
+      "Eje II"
+    ],
+    "sinonimos_descriptores": [
+      "TDAH",
+      "conducta agresiva",
+      "conducta antisocial",
+      "conducta disruptiva",
+      "conducta inadecuada",
+      "impulsividad",
+      "trastorno de déficit de atención e hiperactividad"
+    ],
+    "total_instrumentos": 9,
+    "instrumentos": [
+      {
+        "id": "bis-11_26",
+        "sigla": "BIS-11",
+        "nombre": "Escala de Impulsividad de Barratt",
+        "eje": "Eje I",
+        "constructo": "Impulsividad",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "upps-p_27",
+        "sigla": "UPPS-P",
+        "nombre": "Escala de Comportamiento Impulsivo UPPS-P",
+        "eje": "Eje I",
+        "constructo": "Impulsividad",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "dii_28",
+        "sigla": "DII",
+        "nombre": "Inventario de Impulsividad de Dickman",
+        "eje": "Eje I",
+        "constructo": "Impulsividad",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cbcl_35",
+        "sigla": "CBCL",
+        "nombre": "Inventario de Comportamiento Infantil (Subescalas Externalizantes)",
+        "eje": "Eje I",
+        "constructo": "Conducta disruptiva",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "sdq_36",
+        "sigla": "SDQ",
+        "nombre": "Cuestionario de Capacidades y Dificultades",
+        "eje": "Eje I",
+        "constructo": "Conducta disruptiva",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "dbd_37",
+        "sigla": "DBD",
+        "nombre": "Escala de Trastornos de Comportamiento Perturbador",
+        "eje": "Eje I",
+        "constructo": "Conducta disruptiva",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bis_68",
+        "sigla": "BIS/BAS",
+        "nombre": "Escalas del Sistema de Inhibición y Aproximación Conductual",
+        "eje": "Eje II",
+        "constructo": "Búsqueda de recompensa",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cubi18_150",
+        "sigla": "CUBI-18",
+        "nombre": "Cuestionario de Urgencia, Busqueda de Sensaciones e Impulsividad-18",
+        "eje": "Eje I",
+        "constructo": "Impulsividad (urgencia compulsiva, busqueda de sensaciones, imprevision)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "eiplutchik_187",
+        "sigla": "EI-Plutchik",
+        "nombre": "Escala de Impulsividad de Plutchik",
+        "eje": "Eje I",
+        "constructo": "Impulsividad",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Inteligencia emocional autopercibida",
+    "ejes_asociados": [
+      "Eje II"
+    ],
+    "sinonimos_descriptores": [
+      "Escala de Inteligencia Emocional de Schutte (SSEIT)",
+      "SSEIT"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "sseit_new",
+        "sigla": "SSEIT",
+        "nombre": "Escala de Inteligencia Emocional de Schutte (SSEIT)",
+        "eje": "Eje II",
+        "constructo": "Inteligencia emocional autopercibida",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Lenguaje y comunicación verbal",
+    "ejes_asociados": [
+      "Eje V"
+    ],
+    "sinonimos_descriptores": [
+      "afasia",
+      "denominación",
+      "expresión verbal",
+      "fluidez verbal"
+    ],
+    "total_instrumentos": 2,
+    "instrumentos": [
+      {
+        "id": "bnt_130",
+        "sigla": "BNT",
+        "nombre": "Test de Denominación de Boston",
+        "eje": "Eje V",
+        "constructo": "Comprensión, Expresión y Fluidez Verbal",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "comercial"
+      },
+      {
+        "id": "tfv_131",
+        "sigla": "TFV",
+        "nombre": "Test de Fluidez Verbal (FAS y Animales)",
+        "eje": "Eje V",
+        "constructo": "Comprensión, Expresión y Fluidez Verbal",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Marcador somático de hiperlaxitud y pánico",
+    "ejes_asociados": [
+      "Eje VI"
+    ],
+    "sinonimos_descriptores": [
+      "Criterios de Laxitud Articular del Hospital del Mar (Bulbena)",
+      "Laxitud-HdM"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "laxitud-hdm_new",
+        "sigla": "Laxitud-HdM",
+        "nombre": "Criterios de Laxitud Articular del Hospital del Mar (Bulbena)",
+        "eje": "Eje VI",
+        "constructo": "Marcador somático de hiperlaxitud y pánico",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Memoria y aprendizaje",
+    "ejes_asociados": [
+      "Eje V"
+    ],
+    "sinonimos_descriptores": [
+      "memoria de trabajo",
+      "memoria episódica",
+      "metamemoria",
+      "olvidos"
+    ],
+    "total_instrumentos": 4,
+    "instrumentos": [
+      {
+        "id": "tavec_123",
+        "sigla": "TAVEC",
+        "nombre": "Test de Aprendizaje Verbal de España-Complutense",
+        "eje": "Eje V",
+        "constructo": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "comercial"
+      },
+      {
+        "id": "figura_de_rey_124",
+        "sigla": "Figura de Rey",
+        "nombre": "Test de Copia de una Figura Compleja",
+        "eje": "Eje V",
+        "constructo": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mfe_new1",
+        "sigla": "MFE",
+        "nombre": "Cuestionario de Fallos de Memoria de la Vida Cotidiana",
+        "eje": "Eje V",
+        "constructo": "Fallos de memoria cotidiana (metamemoria)",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cfq_new1",
+        "sigla": "CFQ-Fallos",
+        "nombre": "Cognitive Failures Questionnaire (Cuestionario de Fallos Cognitivos)",
+        "eje": "Eje V",
+        "constructo": "Fallos cognitivos cotidianos",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Obsesiones y compulsiones",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "TOC",
+      "comprobación",
+      "contaminación",
+      "dudas obsesivas",
+      "rituales"
+    ],
+    "total_instrumentos": 5,
+    "instrumentos": [
+      {
+        "id": "y-bocs_18",
+        "sigla": "Y-BOCS",
+        "nombre": "Escala de Obsesiones y Compulsiones de Yale-Brown",
+        "eje": "Eje I",
+        "constructo": "Obsesiones y compulsiones",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      },
+      {
+        "id": "oci-r_19",
+        "sigla": "OCI-R",
+        "nombre": "Inventario Obsesivo-Compulsivo Revisado",
+        "eje": "Eje I",
+        "constructo": "Obsesiones y compulsiones",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "pi-wsur_20",
+        "sigla": "PI-WSUR",
+        "nombre": "Inventario de Padua Revisado - WSU",
+        "eje": "Eje I",
+        "constructo": "Obsesiones y compulsiones",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "docs_21",
+        "sigla": "DOCS",
+        "nombre": "Escala Dimensional Obsesivo-Compulsiva",
+        "eje": "Eje I",
+        "constructo": "Obsesiones y compulsiones",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ip_148",
+        "sigla": "IP",
+        "nombre": "Inventario de Padua (Padua Inventory)",
+        "eje": "Eje I",
+        "constructo": "Sintomatologia obsesivo-compulsiva (perdida de control mental, contaminacion, comprobacion, impulsos)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Personalidad patológica",
+    "ejes_asociados": [
+      "Eje I",
+      "Eje III"
+    ],
+    "sinonimos_descriptores": [
+      "TLP",
+      "desapego",
+      "narcisismo",
+      "psicopatía",
+      "tríada oscura"
+    ],
+    "total_instrumentos": 6,
+    "instrumentos": [
+      {
+        "id": "pid-5_80",
+        "sigla": "PID-5",
+        "nombre": "Inventario de Personalidad para el DSM-5",
+        "eje": "Eje III",
+        "constructo": "Rasgos Patológicos de Personalidad (Afectividad Negativa, Desapego, Antagonismo, Desinhibición, Psicoticismo)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sd3_81",
+        "sigla": "SD3",
+        "nombre": "La Tríada Oscura Corta",
+        "eje": "Eje III",
+        "constructo": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sd4_82",
+        "sigla": "SD4",
+        "nombre": "La Tétrada Oscura Corta",
+        "eje": "Eje III",
+        "constructo": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "lts_83",
+        "sigla": "LTS",
+        "nombre": "Escala de la Tríada Luminosa",
+        "eje": "Eje III",
+        "constructo": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bsl23_149",
+        "sigla": "BSL-23",
+        "nombre": "Borderline Symptom List-23",
+        "eje": "Eje I",
+        "constructo": "Sintomatologia limite (TLP): afecto negativo, autoimagen, autodestruccion, impulsividad, disociacion",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "npi-n_218",
+        "sigla": "NPI-N",
+        "nombre": "Narcissistic Personality Inventory",
+        "eje": "Eje III",
+        "constructo": "Rasgos de personalidad narcisista",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Psicosis y curso pronóstico",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "Escala Pronóstica para la Esquizofrenia de Strauss y Carpenter",
+      "SCPS"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "scps_new",
+        "sigla": "SCPS",
+        "nombre": "Escala Pronóstica para la Esquizofrenia de Strauss y Carpenter",
+        "eje": "Eje I",
+        "constructo": "Psicosis y curso pronóstico",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Psicosis y experiencias delirantes",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "alucinación",
+      "delirio",
+      "esquizofrenia",
+      "síntomas positivos"
+    ],
+    "total_instrumentos": 8,
+    "instrumentos": [
+      {
+        "id": "pdi-21_43",
+        "sigla": "PDI-21",
+        "nombre": "Inventario de Delirios de Peters",
+        "eje": "Eje I",
+        "constructo": "Ideación delirante",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cape-42_44",
+        "sigla": "CAPE-42",
+        "nombre": "Evaluación Comunitaria de Experiencias Psíquicas",
+        "eje": "Eje I",
+        "constructo": "Experiencias perceptivas inusuales",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "panss_45",
+        "sigla": "PANSS",
+        "nombre": "Escala de los Síndromes Positivo y Negativo",
+        "eje": "Eje I",
+        "constructo": "Desorganización cognitiva y conductual",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "comercial"
+      },
+      {
+        "id": "bprs_173",
+        "sigla": "BPRS",
+        "nombre": "Brief Psychiatric Rating Scale",
+        "eje": "Eje I",
+        "constructo": "Psicopatología general (heteroaplicada)",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "sips_174",
+        "sigla": "SIPS",
+        "nombre": "Entrevista Estructurada para Síndromes Prodrómicos",
+        "eje": "Eje I",
+        "constructo": "Riesgo de psicosis",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "sops_175",
+        "sigla": "SOPS",
+        "nombre": "Scale of Prodromal Syndromes",
+        "eje": "Eje I",
+        "constructo": "Síntomas prodrómicos de psicosis",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "sumd_176",
+        "sigla": "SUMD",
+        "nombre": "Scale to Assess Unawareness of Mental Disorder",
+        "eje": "Eje I",
+        "constructo": "Insight/conciencia de enfermedad",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "dai_193",
+        "sigla": "DAI",
+        "nombre": "¡OJO! Archivo etiquetado DAI contiene la PANSS completa",
+        "eje": "Eje I",
+        "constructo": "Psicopatología general (positiva/negativa)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Pánico y agorafobia",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "Escala de Pánico y Agorafobia de Bandelow (PAS)",
+      "PAS"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "pas_new",
+        "sigla": "PAS",
+        "nombre": "Escala de Pánico y Agorafobia de Bandelow (PAS)",
+        "eje": "Eje I",
+        "constructo": "Pánico y agorafobia",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Quejas cognitivas subjetivas cotidianas",
+    "ejes_asociados": [
+      "Eje V"
+    ],
+    "sinonimos_descriptores": [
+      "CFSS",
+      "Escala de Autoevaluación del Funcionamiento Cognitivo (CFSS)"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "cfss_new",
+        "sigla": "CFSS",
+        "nombre": "Escala de Autoevaluación del Funcionamiento Cognitivo (CFSS)",
+        "eje": "Eje V",
+        "constructo": "Quejas cognitivas subjetivas cotidianas",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Rasgo disposicional de personalidad",
+    "ejes_asociados": [
+      "Eje III"
+    ],
+    "sinonimos_descriptores": [
+      "Escala de Búsqueda de Sensaciones de Zuckerman (Forma V)",
+      "SSS-V"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "sss-v_new",
+        "sigla": "SSS-V",
+        "nombre": "Escala de Búsqueda de Sensaciones de Zuckerman (Forma V)",
+        "eje": "Eje III",
+        "constructo": "Rasgo disposicional de personalidad",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Rasgos de personalidad",
+    "ejes_asociados": [
+      "Eje II",
+      "Eje III"
+    ],
+    "sinonimos_descriptores": [
+      "personalidad",
+      "personalidad antisocial",
+      "personalidad borderline",
+      "rasgos de personalidad",
+      "trastorno de personalidad"
+    ],
+    "total_instrumentos": 5,
+    "instrumentos": [
+      {
+        "id": "neo-pi-r_76",
+        "sigla": "NEO-PI-R",
+        "nombre": "Inventario de Personalidad NEO Revisado",
+        "eje": "Eje III",
+        "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "bfi-2_77",
+        "sigla": "BFI-2",
+        "nombre": "Inventario de los Cinco Grandes 2",
+        "eje": "Eje III",
+        "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "hexaco-pi-r_78",
+        "sigla": "HEXACO-PI-R",
+        "nombre": "Inventario de Personalidad HEXACO Revisado",
+        "eje": "Eje III",
+        "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "tci-r_79",
+        "sigla": "TCI-R",
+        "nombre": "Inventario de Temperamento y Carácter Revisado",
+        "eje": "Eje III",
+        "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "fmps_159",
+        "sigla": "FMPS",
+        "nombre": "Escala Multidimensional de Perfeccionismo",
+        "eje": "Eje II",
+        "constructo": "Perfeccionismo multidimensional",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Regulación afectiva y mecanismos de humor",
+    "ejes_asociados": [
+      "Eje II"
+    ],
+    "sinonimos_descriptores": [
+      "Cuestionario de Estilos de Humor (HSQ-24)",
+      "HSQ-24"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "hsq-24_new",
+        "sigla": "HSQ-24",
+        "nombre": "Cuestionario de Estilos de Humor (HSQ-24)",
+        "eje": "Eje II",
+        "constructo": "Regulación afectiva y mecanismos de humor",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Regulación emocional",
+    "ejes_asociados": [
+      "Eje II"
+    ],
+    "sinonimos_descriptores": [
+      "control emocional",
+      "disfunción emocional",
+      "estabilidad emocional",
+      "homeostasis emocional",
+      "regulación afectiva",
+      "regulación emocional"
+    ],
+    "total_instrumentos": 10,
+    "instrumentos": [
+      {
+        "id": "ders_59",
+        "sigla": "DERS",
+        "nombre": "Escala de Dificultades en la Regulación Emocional",
+        "eje": "Eje II",
+        "constructo": "Regulación y Desregulación emocional",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cerq_60",
+        "sigla": "CERQ",
+        "nombre": "Cuestionario de Regulación Cognitiva de las Emociones",
+        "eje": "Eje II",
+        "constructo": "Regulación y Desregulación emocional",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "leas_61",
+        "sigla": "LEAS",
+        "nombre": "Escala de Niveles de Conciencia Emocional",
+        "eje": "Eje II",
+        "constructo": "Conciencia emocional",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "abierto"
+      },
+      {
+        "id": "tas-20_62",
+        "sigla": "TAS-20",
+        "nombre": "Escala de Alexitimia de Toronto",
+        "eje": "Eje II",
+        "constructo": "Claridad emocional y Alexitimia",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ersq_new1",
+        "sigla": "ERSQ",
+        "nombre": "Emotion-Regulation Skills Questionnaire (Cuestionario de Habilidades de Regulación Emocional)",
+        "eje": "Eje II",
+        "constructo": "Habilidades específicas de regulación emocional (modelo ACE)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "erq_158",
+        "sigla": "ERQ",
+        "nombre": "Emotion Regulation Questionnaire - Cuestionario de Autorregulacion Emocional",
+        "eje": "Eje II",
+        "constructo": "Regulacion emocional (reevaluacion cognitiva, supresion expresiva)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "panas_161",
+        "sigla": "PANAS",
+        "nombre": "Escala de Afecto Positivo y Negativo",
+        "eje": "Eje II",
+        "constructo": "Afecto positivo y negativo",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "tmms24_163",
+        "sigla": "TMMS-24",
+        "nombre": "Trait Meta-Mood Scale-24",
+        "eje": "Eje II",
+        "constructo": "Inteligencia emocional percibida (atencion, claridad, reparacion)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "scs_169",
+        "sigla": "SCS",
+        "nombre": "Escala de Autocompasión (Self-Compassion Scale - Formas de 26 y 12 ítems)",
+        "eje": "Eje II",
+        "constructo": "Autocompasión y regulación afectiva (3 polaridades / 6 subescalas)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "aim-a_219",
+        "sigla": "AIM-A",
+        "nombre": "Affect Intensity Measure",
+        "eje": "Eje II",
+        "constructo": "Intensidad de la reactividad afectiva",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Rendimiento académico",
+    "ejes_asociados": [
+      "Eje IV"
+    ],
+    "sinonimos_descriptores": [
+      "aptitud académica",
+      "desempeño académico",
+      "rendimiento académico",
+      "rendimiento cognitivo",
+      "rendimiento escolar",
+      "rendimiento intelectual"
+    ],
+    "total_instrumentos": 2,
+    "instrumentos": [
+      {
+        "id": "chte_103",
+        "sigla": "CHTE",
+        "nombre": "Cuestionario de Hábitos y Técnicas de Estudio",
+        "eje": "Eje IV",
+        "constructo": "Rendimiento académico, Hábitos de estudio y Adaptación escolar",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "basc-3_104",
+        "sigla": "BASC-3",
+        "nombre": "Sistema de Evaluación de la Conducta de Niños y Adolescentes (Subescalas de Adaptación)",
+        "eje": "Eje IV",
+        "constructo": "Rendimiento académico, Hábitos de estudio y Adaptación escolar",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      }
+    ]
+  },
+  {
+    "tema": "Resiliencia y superación de adversidades",
+    "ejes_asociados": [
+      "Eje II"
+    ],
+    "sinonimos_descriptores": [
+      "ER-25",
+      "Escala de Resiliencia de Wagnild y Young (25 ítems)"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "er-25_new",
+        "sigla": "ER-25",
+        "nombre": "Escala de Resiliencia de Wagnild y Young (25 ítems)",
+        "eje": "Eje II",
+        "constructo": "Resiliencia y superación de adversidades",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      }
+    ]
+  },
+  {
+    "tema": "Riesgo y conducta suicida",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "Escala de Intencionalidad Suicida de Beck (SIS)",
+      "Escala de Riesgo Suicida de Plutchik",
+      "RS-Plutchik",
+      "SIS"
+    ],
+    "total_instrumentos": 2,
+    "instrumentos": [
+      {
+        "id": "sis_new",
+        "sigla": "SIS",
+        "nombre": "Escala de Intencionalidad Suicida de Beck (SIS)",
+        "eje": "Eje I",
+        "constructo": "Riesgo y conducta suicida",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      },
+      {
+        "id": "rs-plutchik_new",
+        "sigla": "RS-Plutchik",
+        "nombre": "Escala de Riesgo Suicida de Plutchik",
+        "eje": "Eje I",
+        "constructo": "Riesgo y conducta suicida",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Salud sexual",
+    "ejes_asociados": [
+      "Eje VI"
+    ],
+    "sinonimos_descriptores": [
+      "salud reproductiva",
+      "salud sexual",
+      "salud sexual integral",
+      "salud sexual y reproductiva",
+      "sexualidad",
+      "sexualidad humana"
+    ],
+    "total_instrumentos": 6,
+    "instrumentos": [
+      {
+        "id": "prsexdq_new1",
+        "sigla": "PRSexDQ-SALSEX",
+        "nombre": "Cuestionario de Disfunción Sexual Secundaria al Tratamiento con Psicofármacos",
+        "eje": "Eje VI",
+        "constructo": "Salud sexual (disfunción inducida por fármacos)",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sisses_new1",
+        "sigla": "SIS/SES-SF",
+        "nombre": "Sexual Inhibition/Sexual Excitation Scales — Short Form",
+        "eje": "Eje VI",
+        "constructo": "Salud sexual (propensión a inhibición/excitación)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "csfq_204",
+        "sigla": "CSFQ",
+        "nombre": "Changes in Sexual Functioning Questionnaire",
+        "eje": "Eje VI",
+        "constructo": "Funcionamiento sexual",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "iief_205",
+        "sigla": "IIEF",
+        "nombre": "Índice Internacional de Función Eréctil",
+        "eje": "Eje VI",
+        "constructo": "Función eréctil",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "mghsfq_206",
+        "sigla": "MGH-SFQ",
+        "nombre": "Massachusetts General Hospital Sexual Functioning Q.",
+        "eje": "Eje VI",
+        "constructo": "Funcionamiento sexual",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "asex_207",
+        "sigla": "ASEX",
+        "nombre": "Arizona Sexual Experience Scale",
+        "eje": "Eje VI",
+        "constructo": "Funcionamiento sexual",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Sobrecarga familiar y dinámica de cuidados",
+    "ejes_asociados": [
+      "Eje IV"
+    ],
+    "sinonimos_descriptores": [
+      "Escala de Sobrecarga del Cuidador de Zarit (ZBI)",
+      "ZBI"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "zbi_new",
+        "sigla": "ZBI",
+        "nombre": "Escala de Sobrecarga del Cuidador de Zarit (ZBI)",
+        "eje": "Eje IV",
+        "constructo": "Sobrecarga familiar y dinámica de cuidados",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "comercial"
+      }
+    ]
+  },
+  {
+    "tema": "Sueño y ritmos circadianos",
+    "ejes_asociados": [
+      "Eje VI"
+    ],
+    "sinonimos_descriptores": [
+      "desajuste circadiano",
+      "horquillas",
+      "insomnio",
+      "ritmos circadianos",
+      "somnolencia diurna",
+      "sueño"
+    ],
+    "total_instrumentos": 6,
+    "instrumentos": [
+      {
+        "id": "psqi_135",
+        "sigla": "PSQI",
+        "nombre": "Índice de Calidad de Sueño de Pittsburgh",
+        "eje": "Eje VI",
+        "constructo": "Sueño y ritmos circadianos",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "isi_136",
+        "sigla": "ISI",
+        "nombre": "Índice de Gravedad del Insomnio",
+        "eje": "Eje VI",
+        "constructo": "Sueño y ritmos circadianos",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ess_137",
+        "sigla": "ESS",
+        "nombre": "Escala de Somnolencia de Epworth",
+        "eje": "Eje VI",
+        "constructo": "Sueño y ritmos circadianos",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "meqsa_new1",
+        "sigla": "MEQ-SA",
+        "nombre": "Cuestionario de Matutinidad-Vespertinidad de Horne y Östberg (versión española)",
+        "eje": "Eje VI",
+        "constructo": "Cronotipo/ritmo circadiano",
+        "tipo_instrumento": "Rendimiento neurocognitivo / Tarea de ejecución",
+        "acceso": "abierto"
+      },
+      {
+        "id": "stopbang_new1",
+        "sigla": "STOP-Bang",
+        "nombre": "Cuestionario STOP-Bang",
+        "eje": "Eje VI",
+        "constructo": "Riesgo de apnea del sueño",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cos_203",
+        "sigla": "COS",
+        "nombre": "Cuestionario Oviedo de Calidad del Sueño",
+        "eje": "Eje VI",
+        "constructo": "Calidad del sueño",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Suicidio y autolesión",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "NSSI",
+      "autolesiones",
+      "ideación suicida",
+      "riesgo de suicidio"
+    ],
+    "total_instrumentos": 5,
+    "instrumentos": [
+      {
+        "id": "c-ssrs_46",
+        "sigla": "C-SSRS",
+        "nombre": "Escala Columbia para Evaluar el Riesgo de Suicidio",
+        "eje": "Eje I",
+        "constructo": "Ideación y Conducta suicida",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bss_47",
+        "sigla": "BSS",
+        "nombre": "Escala de Ideación Suicida de Beck",
+        "eje": "Eje I",
+        "constructo": "Ideación y Conducta suicida",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "isas_48",
+        "sigla": "ISAS",
+        "nombre": "Inventario de Declaraciones sobre Autolesiones",
+        "eje": "Eje I",
+        "constructo": "Autolesiones no suicidas",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ers_147",
+        "sigla": "ERS",
+        "nombre": "Escala para Evaluar el Riesgo Suicida",
+        "eje": "Eje I",
+        "constructo": "Riesgo suicida (desesperanza, ideacion/planeacion, aislamiento social, apoyo familiar)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "rfl_185",
+        "sigla": "RFL",
+        "nombre": "Reasons for Living Inventory (Linehan)",
+        "eje": "Eje I",
+        "constructo": "Factores protectores frente al suicidio",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Sustancias y alcoholismo",
+    "ejes_asociados": [
+      "Eje I",
+      "Eje VI"
+    ],
+    "sinonimos_descriptores": [
+      "AUDIT",
+      "abuso de drogas",
+      "adicción",
+      "consumo problemático",
+      "dependencia"
+    ],
+    "total_instrumentos": 11,
+    "instrumentos": [
+      {
+        "id": "assist_38",
+        "sigla": "ASSIST",
+        "nombre": "Prueba de Detección de Consumo de Alcohol, Tabaco y Sustancias",
+        "eje": "Eje I",
+        "constructo": "Uso problemático de sustancias",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      },
+      {
+        "id": "audit_39",
+        "sigla": "AUDIT",
+        "nombre": "Prueba de Identificación de Trastornos Relacionados con el Alcohol",
+        "eje": "Eje I",
+        "constructo": "Uso problemático de sustancias",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      },
+      {
+        "id": "dast-10_40",
+        "sigla": "DAST-10",
+        "nombre": "Prueba de Detección de Abuso de Drogas",
+        "eje": "Eje I",
+        "constructo": "Uso problemático de sustancias",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ftnd_new1",
+        "sigla": "FTND",
+        "nombre": "Test de Fagerström de Dependencia de la Nicotina",
+        "eje": "Eje VI",
+        "constructo": "Tabaco",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "malt_195",
+        "sigla": "MALT",
+        "nombre": "Münchner Alkoholismustest",
+        "eje": "Eje I",
+        "constructo": "Diagnóstico de alcoholismo",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "isca_196",
+        "sigla": "ISCA",
+        "nombre": "Interrogatorio Sistematizado de Consumos Alcohólicos",
+        "eje": "Eje I",
+        "constructo": "Consumo de alcohol",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "europasi_197",
+        "sigla": "EuropASI",
+        "nombre": "Índice Europeo de Gravedad de la Adicción",
+        "eje": "Eje I",
+        "constructo": "Gravedad multidimensional de adicción",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "sadq_198",
+        "sigla": "SADQ",
+        "nombre": "Severity of Alcohol Dependence Questionnaire",
+        "eje": "Eje I",
+        "constructo": "Severidad de dependencia alcohólica",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "eida_199",
+        "sigla": "EIDA",
+        "nombre": "Escala de la Intensidad de la Dependencia al Alcohol",
+        "eje": "Eje I",
+        "constructo": "Dependencia alcohólica",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "ocds_200",
+        "sigla": "OCDS",
+        "nombre": "Obsessive Compulsive Drinking Scale",
+        "eje": "Eje I",
+        "constructo": "Craving/compulsión por alcohol",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "bwsq_208",
+        "sigla": "BWSQ",
+        "nombre": "Benzodiazepine Withdrawal Symptom Questionnaire",
+        "eje": "Eje VI",
+        "constructo": "Abstinencia de benzodiacepinas",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      }
+    ]
+  },
+  {
+    "tema": "Síntomas somatomorfos y somatización",
+    "ejes_asociados": [
+      "Eje VI"
+    ],
+    "sinonimos_descriptores": [
+      "Othmer-DeSouza",
+      "Test de Detección de Somatización de Othmer y DeSouza"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "othmer-desouza_new",
+        "sigla": "Othmer-DeSouza",
+        "nombre": "Test de Detección de Somatización de Othmer y DeSouza",
+        "eje": "Eje VI",
+        "constructo": "Síntomas somatomorfos y somatización",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Trastorno bipolar y ciclotimia",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "BSDS",
+      "Escala Diagnóstica del Espectro Bipolar de Ghaemi"
+    ],
+    "total_instrumentos": 1,
+    "instrumentos": [
+      {
+        "id": "bsds_new",
+        "sigla": "BSDS",
+        "nombre": "Escala Diagnóstica del Espectro Bipolar de Ghaemi",
+        "eje": "Eje I",
+        "constructo": "Trastorno bipolar y ciclotimia",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Trastornos de la conducta alimentaria",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "EAT-26",
+      "EAT-40",
+      "EAT-40-SERGAS",
+      "Test de Actitudes hacia la Alimentación (40 ítems)",
+      "Test de Actitudes hacia la Alimentación (Formato SERGAS)",
+      "Test de Actitudes hacia la Alimentación - Versión Abreviada (26 ítems)"
+    ],
+    "total_instrumentos": 3,
+    "instrumentos": [
+      {
+        "id": "eat-40_new",
+        "sigla": "EAT-40",
+        "nombre": "Test de Actitudes hacia la Alimentación (40 ítems)",
+        "eje": "Eje I",
+        "constructo": "Trastornos de la conducta alimentaria",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eat-26_new",
+        "sigla": "EAT-26",
+        "nombre": "Test de Actitudes hacia la Alimentación - Versión Abreviada (26 ítems)",
+        "eje": "Eje I",
+        "constructo": "Trastornos de la conducta alimentaria",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eat-40-sergas_new",
+        "sigla": "EAT-40-SERGAS",
+        "nombre": "Test de Actitudes hacia la Alimentación (Formato SERGAS)",
+        "eje": "Eje I",
+        "constructo": "Trastornos de la conducta alimentaria",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "tema": "Trauma y estrés postraumático",
+    "ejes_asociados": [
+      "Eje I"
+    ],
+    "sinonimos_descriptores": [
+      "TEPT",
+      "disociación",
+      "estrés agudo",
+      "trauma complejo"
+    ],
+    "total_instrumentos": 11,
+    "instrumentos": [
+      {
+        "id": "pcl-5_9",
+        "sigla": "PCL-5",
+        "nombre": "Lista de Chequeo del TEPT para el DSM-5",
+        "eje": "Eje I",
+        "constructo": "Trauma y estrés postraumático",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "caps-5_10",
+        "sigla": "CAPS-5",
+        "nombre": "Escala Administrada por Clínico para el TEPT",
+        "eje": "Eje I",
+        "constructo": "Trauma y estrés postraumático",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ies-r_11",
+        "sigla": "IES-R",
+        "nombre": "Escala de Impacto del Evento Revisada",
+        "eje": "Eje I",
+        "constructo": "Trauma y estrés postraumático",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "dts_12",
+        "sigla": "DTS",
+        "nombre": "Escala de Trauma de Davidson",
+        "eje": "Eje I",
+        "constructo": "Trauma y estrés postraumático",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "jvq_50",
+        "sigla": "JVQ",
+        "nombre": "Cuestionario de Victimización Juvenil",
+        "eje": "Eje I",
+        "constructo": "Vulnerabilidad y victimización",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "aceq_93",
+        "sigla": "ACEQ",
+        "nombre": "Cuestionario de Experiencias Adversas en la Infancia",
+        "eje": "Eje I",
+        "constructo": "Trauma acumulado y Adversidad temprana",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ctq-sf_94",
+        "sigla": "CTQ-SF",
+        "nombre": "Cuestionario de Trauma Infantil - Versión Breve",
+        "eje": "Eje I",
+        "constructo": "Trauma acumulado y Adversidad temprana",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "comercial"
+      },
+      {
+        "id": "egsr_151",
+        "sigla": "EGS-R",
+        "nombre": "Escala de Gravedad de Sintomas del TEPT-Revisada",
+        "eje": "Eje I",
+        "constructo": "Gravedad de sintomas de TEPT segun DSM-5 (intrusion, evitacion, cognicion/animo, hiperactivacion, disociacion, disfuncionalidad)",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "tq_191",
+        "sigla": "TQ",
+        "nombre": "Trauma Questionnaire",
+        "eje": "Eje I",
+        "constructo": "Exposición a eventos traumáticos",
+        "tipo_instrumento": "Autoinforme",
+        "acceso": "academico"
+      },
+      {
+        "id": "dgrp_192",
+        "sigla": "DGRP",
+        "nombre": "Duke Global Rating Scale for PTSD",
+        "eje": "Eje I",
+        "constructo": "Cambio global en TEPT",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      },
+      {
+        "id": "top-8_220",
+        "sigla": "TOP-8",
+        "nombre": "Escala de 8 ítems para los Resultados del Tratamiento del TEPT",
+        "eje": "Eje I",
+        "constructo": "Respuesta al tratamiento en TEPT",
+        "tipo_instrumento": "Heteroaplicado / Entrevista clínica",
+        "acceso": "academico"
+      }
+    ]
+  }
+]

@@ -1,0 +1,271 @@
+acceso_categoria,total_instrumentos,protocolos_disponibles,id_test,sigla_test,nombre_test,eje_test,constructo,protocolo_disponible,regimen_licencia
+abierto,163,147,gad-7_2,GAD-7,Escala de Trastorno de Ansiedad Generalizada - 7,Eje I,Ansiedad y miedo,SI,Sí (Dominio público)
+abierto,163,147,dass-21_5,DASS-21,"Escalas de Depresión, Ansiedad y Estrés - 21",Eje I,"Depresión, ansiedad y estrés",SI,"Sí (Dominio público, disponible en la web de la Universidad de New South Wales)"
+abierto,163,147,pss_6,PSS,Escala de Estrés Percibido,Eje I,Estrés psicológico,SI,Sí (Dominio público para fines académicos y no comerciales)
+abierto,163,147,pcl-5_9,PCL-5,Lista de Chequeo del TEPT para el DSM-5,Eje I,Trauma y estrés postraumático,SI,Sí (Dominio público gubernamental de EE.UU. a través del National Center for PTSD)
+abierto,163,147,caps-5_10,CAPS-5,Escala Administrada por Clínico para el TEPT,Eje I,Trauma y estrés postraumático,SI,Sí (Requiere registro y credenciales clínicas para descarga en el NCPTSD)
+abierto,163,147,ies-r_11,IES-R,Escala de Impacto del Evento Revisada,Eje I,Trauma y estrés postraumático,SI,Sí
+abierto,163,147,phq-9_14,PHQ-9,Cuestionario de Salud del Paciente - 9,Eje I,Depresión y anhedonia,SI,Sí (Dominio público)
+abierto,163,147,ces-d_15,CES-D,Escala del Centro de Estudios Epidemiológicos de la Depresión,Eje I,Depresión y anhedonia,SI,Sí (Dominio público)
+abierto,163,147,shaps_16,SHAPS,Escala de Placer de Snaith-Hamilton,Eje I,Depresión y anhedonia,SI,Sí
+abierto,163,147,hdrs_17,HDRS / HAM-D,Escala de Calificación de la Depresión de Hamilton,Eje I,Depresión y anhedonia,SI,Sí (Dominio público la versión original de 17 ítems)
+abierto,163,147,y-bocs_18,Y-BOCS,Escala de Obsesiones y Compulsiones de Yale-Brown,Eje I,Obsesiones y compulsiones,SI,Sí (Dominio público para uso no comercial)
+abierto,163,147,oci-r_19,OCI-R,Inventario Obsesivo-Compulsivo Revisado,Eje I,Obsesiones y compulsiones,SI,Sí (en anexos de publicaciones originales)
+abierto,163,147,docs_21,DOCS,Escala Dimensional Obsesivo-Compulsiva,Eje I,Obsesiones y compulsiones,SI,Sí (Disponible por los autores)
+abierto,163,147,phq-15_22,PHQ-15,Cuestionario de Salud del Paciente - 15,Eje I,Somatización y ansiedad por la salud,SI,Sí (Dominio público)
+abierto,163,147,wi-7_23,WI,Índice de Whiteley,Eje I,Somatización y ansiedad por la salud,SI,"Sí — adaptación española de 14 ítems (Pilowsky 1967 / Avia 1993), verificada contra 2 fuentes clínicas independientes coincidentes."
+abierto,163,147,shai_24,SHAI,Inventario Corto de Ansiedad por la Salud,Eje I,Somatización y ansiedad por la salud,SI,Sí (Uso académico)
+abierto,163,147,bis-11_26,BIS-11,Escala de Impulsividad de Barratt,Eje I,Impulsividad,SI,Sí (Uso de investigación)
+abierto,163,147,upps-p_27,UPPS-P,Escala de Comportamiento Impulsivo UPPS-P,Eje I,Impulsividad,SI,"Sí (Dominio público, UPPS website)"
+abierto,163,147,dii_28,DII,Inventario de Impulsividad de Dickman,Eje I,Impulsividad,SI,Sí (Revistas científicas)
+abierto,163,147,aq_29,AQ,Cuestionario de Agresión,Eje I,Agresividad e ira,SI,Sí (Uso académico libre)
+abierto,163,147,rpq_31,RPQ,Cuestionario de Agresión Reactiva-Proactiva,Eje I,Agresividad e ira,SI,Sí (Uso investigativo)
+abierto,163,147,sdq_36,SDQ,Cuestionario de Capacidades y Dificultades,Eje I,Conducta disruptiva,SI,Sí
+abierto,163,147,dbd_37,DBD,Escala de Trastornos de Comportamiento Perturbador,Eje I,Conducta disruptiva,SI,Sí (Dominio público)
+abierto,163,147,assist_38,ASSIST,"Prueba de Detección de Consumo de Alcohol, Tabaco y Sustancias",Eje I,Uso problemático de sustancias,SI,"Sí (Dominio público, OMS)"
+abierto,163,147,audit_39,AUDIT,Prueba de Identificación de Trastornos Relacionados con el Alcohol,Eje I,Uso problemático de sustancias,SI,Sí
+abierto,163,147,dast-10_40,DAST-10,Prueba de Detección de Abuso de Drogas,Eje I,Uso problemático de sustancias,SI,Sí
+abierto,163,147,iat_41,IAT,Test de Adicción a Internet,Eje I,Adicciones conductuales,SI,Sí
+abierto,163,147,sogs_42,SOGS,Prueba de Detección de Juego Patológico de South Oaks,Eje I,Adicciones conductuales,SI,Sí
+abierto,163,147,pdi-21_43,PDI-21,Inventario de Delirios de Peters,Eje I,Ideación delirante,SI,Sí
+abierto,163,147,cape-42_44,CAPE-42,Evaluación Comunitaria de Experiencias Psíquicas,Eje I,Experiencias perceptivas inusuales,SI,Sí
+abierto,163,147,c-ssrs_46,C-SSRS,Escala Columbia para Evaluar el Riesgo de Suicidio,Eje I,Ideación y Conducta suicida,SI,Sí
+abierto,163,147,isas_48,ISAS,Inventario de Declaraciones sobre Autolesiones,Eje I,Autolesiones no suicidas,SI,Sí
+abierto,163,147,jvq_50,JVQ,Cuestionario de Victimización Juvenil,Eje I,Vulnerabilidad y victimización,SI,Sí
+abierto,163,147,rrs_51,RRS,Escala de Respuestas Rumiativas,Eje II,Rumiación,SI,Sí
+abierto,163,147,pswq_52,PSWQ,Cuestionario de Preocupación del Estado de Pensilvania,Eje II,Preocupación crónica,SI,Sí
+abierto,163,147,ius-12_53,IUS-12,Escala de Intolerancia a la Incertidumbre,Eje II,Intolerancia a la incertidumbre,SI,Sí
+abierto,163,147,aaq-ii_54,AAQ-II,Cuestionario de Aceptación y Acción II,Eje II,Rigidez y Flexibilidad cognitiva,SI,Sí
+abierto,163,147,cfi_55,CFI,Inventario de Flexibilidad Cognitiva,Eje II,Rigidez y Flexibilidad cognitiva,SI,Sí
+abierto,163,147,cfq_56,CFQ,Cuestionario de Fusión Cognitiva,Eje II,Fusión cognitiva,SI,Sí
+abierto,163,147,mcq-30_57,MCQ-30,Cuestionario de Metacogniciones,Eje II,Metacogniciones disfuncionales,SI,Sí
+abierto,163,147,ysq-s3_58,YSQ-S3,Cuestionario de Esquemas de Young,Eje II,Esquemas maladaptativos,NO,Sí (Versión de investigación)
+abierto,163,147,ders_59,DERS,Escala de Dificultades en la Regulación Emocional,Eje II,Regulación y Desregulación emocional,SI,Sí
+abierto,163,147,cerq_60,CERQ,Cuestionario de Regulación Cognitiva de las Emociones,Eje II,Regulación y Desregulación emocional,SI,Sí
+abierto,163,147,leas_61,LEAS,Escala de Niveles de Conciencia Emocional,Eje II,Conciencia emocional,SI,Sí (Manual disponible para investigación)
+abierto,163,147,tas-20_62,TAS-20,Escala de Alexitimia de Toronto,Eje II,Claridad emocional y Alexitimia,NO,Sí
+abierto,163,147,meaq_63,MEAQ,Cuestionario Multidimensional de Evitación Experiencial,Eje II,Evitación experiencial,NO,Sí
+abierto,163,147,bads_64,BADS,Escala de Activación Conductual para la Depresión,Eje II,Activación y Evitación conductual,SI,Sí
+abierto,163,147,eros_65,EROS,Escala de Observación de Recompensas Ambientales,Eje II,Activación y Evitación conductual,SI,Sí
+abierto,163,147,brief_cope_66,Brief COPE,Inventario Breve de Afrontamiento,Eje II,Exposición y afrontamiento,SI,Sí
+abierto,163,147,bis_68,BIS/BAS,Escalas del Sistema de Inhibición y Aproximación Conductual,Eje II,Búsqueda de recompensa,SI,Sí
+abierto,163,147,ecr-r_69,ECR-R,Experiencias en Relaciones Cercanas - Revisado,Eje II,Apego,SI,Sí
+abierto,163,147,idi_70,IDI,Inventario de Dependencia Interpersonal,Eje II,Dependencia interpersonal,NO,Sí
+abierto,163,147,rsq_71,RSQ,Cuestionario de Sensibilidad al Rechazo,Eje II,Sensibilidad al rechazo,NO,Sí
+abierto,163,147,iip-32_72,IIP-32,Inventario de Problemas Interpersonales (Versión Breve),Eje II,Comunicación interpersonal y Asertividad,NO,Sí
+abierto,163,147,ras_73,RAS,Escala de Asertividad de Rathus,Eje II,Comunicación interpersonal y Asertividad,NO,Sí
+abierto,163,147,ucla-r_74,UCLA-R,Escala de Soledad de UCLA Revisada,Eje II,Soledad y aislamiento social,SI,Sí
+abierto,163,147,djgls_75,DJGLS,Escala de Soledad de De Jong Gierveld,Eje II,Soledad y aislamiento social,SI,Sí
+abierto,163,147,bfi-2_77,BFI-2,Inventario de los Cinco Grandes 2,Eje III,"Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",SI,Sí
+abierto,163,147,hexaco-pi-r_78,HEXACO-PI-R,Inventario de Personalidad HEXACO Revisado,Eje III,"Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",SI,Sí (para uso no comercial e investigación)
+abierto,163,147,pid-5_80,PID-5,Inventario de Personalidad para el DSM-5,Eje III,"Rasgos Patológicos de Personalidad (Afectividad Negativa, Desapego, Antagonismo, Desinhibición, Psicoticismo)",SI,Sí (Disponible por la APA para uso clínico e investigación)
+abierto,163,147,sd3_81,SD3,La Tríada Oscura Corta,Eje III,Personalidad Oscura y Luminosa (Tríadas y Tétradas),SI,Sí
+abierto,163,147,sd4_82,SD4,La Tétrada Oscura Corta,Eje III,Personalidad Oscura y Luminosa (Tríadas y Tétradas),SI,Sí
+abierto,163,147,lts_83,LTS,Escala de la Tríada Luminosa,Eje III,Personalidad Oscura y Luminosa (Tríadas y Tétradas),SI,Sí
+abierto,163,147,rses_84,RSES,Escala de Autoestima de Rosenberg,Eje III,Autoestima,SI,Sí
+abierto,163,147,gse_86,GSE,Escala de Autoeficacia General,Eje III,Autoeficacia,SI,Sí
+abierto,163,147,sccs_87,SCCS,Escala de Claridad del Autoconcepto,Eje III,Claridad del self,NO,Sí
+abierto,163,147,eom-eis-2_88,EOM-EIS-2,Medida Objetiva Extendida del Estatus de Identidad del Ego,Eje III,Identidad personal,NO,Sí
+abierto,163,147,pvq_89,PVQ,Cuestionario de Valores de Retrato,Eje III,Valores personales,SI,Sí (Para investigación)
+abierto,163,147,mlq_90,MLQ,Cuestionario de Significado de la Vida,Eje III,Sentido de vida y Propósito vital,SI,Sí
+abierto,163,147,imi_91,IMI,Inventario de Motivación Intrínseca,Eje III,Motivación y Orientación a metas,SI,Sí
+abierto,163,147,agq-r_92,AGQ-R,Cuestionario de Metas de Logro Revisado,Eje III,Motivación y Orientación a metas,SI,Sí
+abierto,163,147,aceq_93,ACEQ,Cuestionario de Experiencias Adversas en la Infancia,Eje I,Trauma acumulado y Adversidad temprana,SI,Sí (Dominio público / California Surgeon General)
+abierto,163,147,meim_95,MEIM,Multigroup Ethnic Identity Measure (Medida Multigrupo de Identidad Étnica),Eje III,Identidad étnica (Exploración y Compromiso/Pertenencia),SI,Sí
+abierto,163,147,via_96,VIA,Índice de Aculturación de Vancouver,Eje III,Identidad cultural y Aculturación,NO,Sí
+abierto,163,147,ismi_98,ISMI,Escala de Estigma Internalizado de la Enfermedad Mental,Eje III,Estigma y discriminación,SI,Sí
+abierto,163,147,eod_99,EOD,Escala de Experiencias de Discriminación,Eje III,Estigma y discriminación,SI,Sí
+abierto,163,147,whodas_2.0_100,WHODAS 2.0,Cuestionario para la Evaluación de Discapacidad de la OMS 2.0,Eje IV,"Funcionamiento general, Discapacidad y Actividades de la vida diaria",SI,Sí
+abierto,163,147,indice_de_barth_101,BARTHEL,Índice de Barthel,Eje IV,"Funcionamiento general, Discapacidad y Actividades de la vida diaria",SI,Sí
+abierto,163,147,escala_de_lawton_102,Escala de Lawton,Escala de Lawton y Brody,Eje IV,"Funcionamiento general, Discapacidad y Actividades de la vida diaria",SI,Sí
+abierto,163,147,uwes_106,UWES,Escala de Engagement en el Trabajo de Utrecht,Eje IV,"Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",SI,Sí
+abierto,163,147,mos-sss_107,MOS-SSS,Cuestionario de Apoyo Social del Medical Outcomes Study,Eje IV,Apoyo social y Funcionamiento familiar,SI,Sí
+abierto,163,147,faces-iv_108,FACES-IV,Escala de Cohesión y Adaptabilidad Familiar,Eje IV,Apoyo social y Funcionamiento familiar,NO,Sí/Restringido (Manuales disponibles por el autor).
+abierto,163,147,apgar_109,APGAR,APGAR Familiar,Eje IV,Apoyo social y Funcionamiento familiar,SI,Sí
+abierto,163,147,swls_110,SWLS,Escala de Satisfacción con la Vida,Eje IV,"Bienestar subjetivo, Bienestar psicológico y Florecimiento",SI,Sí
+abierto,163,147,pwb_111,PWB,Escalas de Bienestar Psicológico,Eje IV,"Bienestar subjetivo, Bienestar psicológico y Florecimiento",SI,Sí
+abierto,163,147,fs_112,FS,Escala de Florecimiento,Eje IV,"Bienestar subjetivo, Bienestar psicológico y Florecimiento",SI,Sí
+abierto,163,147,sf-36_113,SF-36,Cuestionario de Salud SF-36,Eje IV,Calidad de vida,SI,Sí: protocolo en español publicable (formulario difundido por SECOT) y RAND-36 en inglés de dominio público. SF-36v2® comercial no incluido.
+abierto,163,147,whoqol-bref_114,WHOQOL-BREF,Cuestionario de Calidad de Vida de la OMS - Versión Breve,Eje IV,Calidad de vida,SI,Sí (Disponible por OMS)
+abierto,163,147,lot-r_116,LOT-R,Test de Orientación Vital Revisado (Optimismo),Eje III,"Resiliencia, Afrontamiento y Fortalezas",SI,Sí
+abierto,163,147,via-is_118,VIA-IS,Inventario VIA de Fortalezas Personales,Eje IV,"Resiliencia, Afrontamiento y Fortalezas",NO,Sí (Online vía VIA Institute on Character)
+abierto,163,147,tmt_122,TMT,Test del Trazo (Trail Making Test),Eje V,"Atención (Sostenida, Selectiva, Dividida y Vigilancia)",SI,"Sí (Dominio público para uso clínico y de investigación, los baremos sí pueden ser comerciales)"
+abierto,163,147,figura_de_rey_124,Figura de Rey,Test de Copia de una Figura Compleja,Eje V,"Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",SI,Sí (Lámina y criterios de dominio público académico)
+abierto,163,147,stroop_test_126,Stroop Test,Test de Colores y Palabras,Eje V,Funciones Ejecutivas,SI,Sí (Dominio público científico Stroop 1935 / Golden 1978)
+abierto,163,147,igt_127,IGT,Iowa Gambling Task,Eje V,Funciones Ejecutivas,SI,Sí (Software disponible gratuitamente en algunas plataformas académicas como PEBL).
+abierto,163,147,ifs_129,IFS,INECO Frontal Screening,Eje V,Funciones Ejecutivas,SI,Sí (Disponible en literatura científica)
+abierto,163,147,tfv_131,TFV,Test de Fluidez Verbal (FAS y Animales),Eje V,"Comprensión, Expresión y Fluidez Verbal",SI,"Sí (La tarea es de dominio público, sujeta a disponibilidad de baremos locales)."
+abierto,163,147,rmet_132,RMET,Test de Leer la Mente en los Ojos,Eje V,Cognición Social e Interocepción,NO,Sí (Disponible por el Autism Research Centre)
+abierto,163,147,maia_133,MAIA,Evaluación Multidimensional de la Conciencia Interoceptiva,Eje II,Cognición Social e Interocepción,SI,Sí
+abierto,163,147,faux_pas_test_134,Faux Pas Test,Test de Meteduras de Pata,Eje V,Cognición Social e Interocepción,NO,Sí
+abierto,163,147,psqi_135,PSQI,Índice de Calidad de Sueño de Pittsburgh,Eje VI,Sueño y ritmos circadianos,SI,Sí (Licencia abierta para uso clínico y de investigación no comercial)
+abierto,163,147,isi_136,ISI,Índice de Gravedad del Insomnio,Eje VI,Sueño y ritmos circadianos,SI,Sí (Uso clínico habitual)
+abierto,163,147,ess_137,ESS,Escala de Somnolencia de Epworth,Eje VI,Sueño y ritmos circadianos,SI,Sí
+abierto,163,147,pcs_139,PCS,Escala de Catastrofización del Dolor,Eje VI,"Dolor, fatiga y síntomas somáticos",NO,Sí
+abierto,163,147,fss_140,FSS,Escala de Gravedad de la Fatiga,Eje VI,"Dolor, fatiga y síntomas somáticos",SI,"Sí — Duarte et al. (2019), Educación Médica, acceso abierto CC BY-NC-ND."
+abierto,163,147,ipaq_141,IPAQ,Cuestionario Internacional de Actividad Física,Eje VI,Conductas de salud,SI,Sí
+abierto,163,147,mgl_o_mmas-4_142,MGL o MMAS-4,Cuestionario de Adherencia a la Medicación de Morisky-Green-Levine,Eje VI,Conductas de salud,NO,Sí (La versión original de 4 ítems; la de 8 ítems requiere licencia).
+abierto,163,147,bipq_143,BIPQ,Cuestionario Breve de Percepción de Enfermedad (incluye IPQ-R como versión anidada),Eje VI,Enfermedad médica y afrontamiento,SI,Sí
+abierto,163,147,hls-eu-q16_145,HLS-EU-Q16,Cuestionario Europeo de Alfabetización en Salud - Versión Corta,Eje VI,Alfabetización en salud y relación con el sistema,SI,Sí
+abierto,163,147,sahlsa-50_146,SAHLSA-50,Evaluación Breve de Alfabetización en Salud para Adultos de Habla Hispana,Eje VI,Alfabetización en salud y relación con el sistema,SI,Sí
+abierto,163,147,dex-sp_new1,DEX-Sp,Cuestionario Disejecutivo (versión española),Eje V,Síntomas disejecutivos conductuales,SI,Sí (uso académico/investigación)
+abierto,163,147,efeco_new1,EFECO,Escala EFECO para Valorar Funciones Ejecutivas,Eje V,Funciones ejecutivas cotidianas (autoinforme),SI,Sí
+abierto,163,147,mfe_new1,MFE,Cuestionario de Fallos de Memoria de la Vida Cotidiana,Eje V,Fallos de memoria cotidiana (metamemoria),SI,Sí
+abierto,163,147,cfq_new1,CFQ-Fallos,Cognitive Failures Questionnaire (Cuestionario de Fallos Cognitivos),Eje V,Fallos cognitivos cotidianos,SI,Sí
+abierto,163,147,prsexdq_new1,PRSexDQ-SALSEX,Cuestionario de Disfunción Sexual Secundaria al Tratamiento con Psicofármacos,Eje VI,Salud sexual (disfunción inducida por fármacos),SI,Sí
+abierto,163,147,sisses_new1,SIS/SES-SF,Sexual Inhibition/Sexual Excitation Scales — Short Form,Eje VI,Salud sexual (propensión a inhibición/excitación),SI,Sí
+abierto,163,147,meqsa_new1,MEQ-SA,Cuestionario de Matutinidad-Vespertinidad de Horne y Östberg (versión española),Eje VI,Cronotipo/ritmo circadiano,SI,Sí (uso no comercial)
+abierto,163,147,stopbang_new1,STOP-Bang,Cuestionario STOP-Bang,Eje VI,Riesgo de apnea del sueño,SI,Sí
+abierto,163,147,csi_new1,CSI,Inventario de Sensibilización Central,Eje VI,Sensibilización central y carga de síntomas,SI,Sí
+abierto,163,147,ftnd_new1,FTND,Test de Fagerström de Dependencia de la Nicotina,Eje VI,Tabaco,SI,Sí
+abierto,163,147,semcds_new1,SEMCD-S,Spanish Chronic Disease Self-Efficacy Scale,Eje VI,Autoeficacia/autocuidado en enfermedad crónica,SI,"Sí (libre uso, Stanford Self-Management Resource Center)"
+abierto,163,147,eheals_new1,eHEALS,eHealth Literacy Scale,Eje VI,Alfabetización digital en salud,SI,"Sí (CC-BY, original en inglés)"
+abierto,163,147,cremp_new1,CREM-P,Cuestionario de Relaciones Médico-Paciente (adaptación española del PDRQ),Eje VI,Relación paciente-profesional,SI,Sí (acceso abierto)
+abierto,163,147,bsq_new1,BSQ,Body Shape Questionnaire (Cuestionario sobre la Forma Corporal),Eje I,Insatisfacción con la forma y figura corporal,SI,Sí
+abierto,163,147,mba_new1,MBA,Measure of Body Apperception (Medida de Percepción del Cuerpo),Eje I,Dependencia de la autoestima respecto a la apariencia/integridad corporal,SI,Sí
+abierto,163,147,ersq_new1,ERSQ,Emotion-Regulation Skills Questionnaire (Cuestionario de Habilidades de Regulación Emocional),Eje II,Habilidades específicas de regulación emocional (modelo ACE),SI,Sí
+abierto,163,147,erq_158,ERQ,Emotion Regulation Questionnaire - Cuestionario de Autorregulacion Emocional,Eje II,"Regulacion emocional (reevaluacion cognitiva, supresion expresiva)",SI,Si (traduccion autorizada por autores originales)
+abierto,163,147,cope48_167,COPE-48,Versión española del COPE-48 (adaptación clínica del COPE Inventory),Eje II,"Afrontamiento (coping), 9 escalas clínicas",SI,Sí
+abierto,163,147,ffmq-sf_168,FFMQ-SF,Cuestionario de Cinco Facetas de Mindfulness - Forma Corta,Eje II,"Mindfulness y regulacion emocional (5 facetas: observar, describir, actuar con consciencia, no juzgar, no reactividad)",SI,"Si (Open Access, CC BY 4.0)"
+abierto,163,147,scs_169,SCS,Escala de Autocompasión (Self-Compassion Scale - Formas de 26 y 12 ítems),Eje II,Autocompasión y regulación afectiva (3 polaridades / 6 subescalas),SI,"Si (Open Access, CC BY 2.0)"
+abierto,163,147,eat-40_new,EAT-40,Test de Actitudes hacia la Alimentación (40 ítems),Eje I,Trastornos de la conducta alimentaria,SI,Sí (Investigación y clínica sin fines de lucro)
+abierto,163,147,eat-26_new,EAT-26,Test de Actitudes hacia la Alimentación - Versión Abreviada (26 ítems),Eje I,Trastornos de la conducta alimentaria,SI,Sí (Libre uso clínico e investigación)
+abierto,163,147,eat-40-sergas_new,EAT-40-SERGAS,Test de Actitudes hacia la Alimentación (Formato SERGAS),Eje I,Trastornos de la conducta alimentaria,SI,Sí (Sanitario público SNS)
+abierto,163,147,cage_new,CAGE,Cuestionario CAGE para Detección de Alcoholismo,Eje I,Consumo de alcohol y adicciones,SI,Sí (Dominio público)
+abierto,163,147,abs_new,ABS,Escala de Comportamiento Agitado de Corrigan (ABS),Eje I,Agitación psicomotriz e impulsividad aguda,SI,Sí (Libre asistencial / Ohio State Univ.)
+abierto,163,147,scps_new,SCPS,Escala Pronóstica para la Esquizofrenia de Strauss y Carpenter,Eje I,Psicosis y curso pronóstico,SI,Sí (Dominio público OMS)
+abierto,163,147,sds_new,SDS,Escala de Autoevaluación de la Depresión de Zung y Conde (SDS),Eje I,Depresión y estado de ánimo,SI,Sí (Dominio público)
+abierto,163,147,sis_new,SIS,Escala de Intencionalidad Suicida de Beck (SIS),Eje I,Riesgo y conducta suicida,SI,Sí (Uso clínico y hospitalario)
+abierto,163,147,rs-plutchik_new,RS-Plutchik,Escala de Riesgo Suicida de Plutchik,Eje I,Riesgo y conducta suicida,SI,Sí (Académico y clínico)
+abierto,163,147,bsds_new,BSDS,Escala Diagnóstica del Espectro Bipolar de Ghaemi,Eje I,Trastorno bipolar y ciclotimia,SI,Sí (Libre uso asistencial)
+abierto,163,147,hars_new,HARS,Escala de Hamilton para la Ansiedad (HAM-A),Eje I,Ansiedad psíquica y somática,SI,Sí (Dominio público)
+abierto,163,147,pas_new,PAS,Escala de Pánico y Agorafobia de Bandelow (PAS),Eje I,Pánico y agorafobia,SI,Sí (Académico e investigación clínica)
+abierto,163,147,diario-panico_new,Diario-Panico,Trastorno de Pánico: Diario del Paciente (Autorregistro TCC),Eje I,Crisis de angustia y pánico,SI,Sí (Libre uso clínico)
+abierto,163,147,lsas_new,LSAS,Escala de Ansiedad Social de Liebowitz (LSAS),Eje I,Fobia social y ansiedad de desempeño,SI,Sí (Libre investigación / Clínica)
+abierto,163,147,carroll-tag_new,Carroll-TAG,Escala de Detección del TAG de Carroll y Davidson,Eje I,Ansiedad generalizada,SI,Sí (Libre investigación)
+abierto,163,147,asq-15_new,ASQ-15,Cuestionario de Screening de Ansiedad de Wittchen (ASQ-15),Eje I,Cribado multitrastorno de ansiedad,SI,Sí (Max Planck Institute)
+abierto,163,147,empc_new,EMPC,Escala Motivacional de Pensamiento Crítico (EMPC),Eje II,Estilos de pensamiento y metacognición,SI,Sí (Libre académico)
+abierto,163,147,tsi_new,TSI,Inventario de Estilos de Pensamiento de Sternberg (TSI),Eje II,Estilos cognitivos y autogobierno mental,SI,Sí (Uso clínico y académico)
+abierto,163,147,sseit_new,SSEIT,Escala de Inteligencia Emocional de Schutte (SSEIT),Eje II,Inteligencia emocional autopercibida,SI,Sí (Dominio académico libre)
+abierto,163,147,iss_new,ISS,Inventario de Situaciones Sociales (ISS),Eje II,Afrontamiento interpersonal y asertividad,SI,Sí (Libre académico)
+abierto,163,147,hsq-24_new,HSQ-24,Cuestionario de Estilos de Humor (HSQ-24),Eje II,Regulación afectiva y mecanismos de humor,SI,Sí (Libre académico)
+abierto,163,147,crea-24_new,CREA-24,Escala de Autopercepción de Creatividad (CREA-24),Eje III,Autoconcepto y autoeficacia creativa,SI,Sí (Libre educativo y clínico)
+abierto,163,147,sss-v_new,SSS-V,Escala de Búsqueda de Sensaciones de Zuckerman (Forma V),Eje III,Rasgo disposicional de personalidad,SI,Sí (Libre investigación)
+abierto,163,147,katz_new,KATZ,Índice de Katz de Actividades Básicas de la Vida Diaria (ABVD),Eje IV,Autonomía funcional y dependencia biológica,SI,Sí (Dominio público)
+abierto,163,147,swbs_new,SWBS,Escala de Bienestar Social de Keyes,Eje IV,Bienestar social y ajuste comunitario,SI,Sí (Libre académico)
+abierto,163,147,cgi_new,CGI,Escala de Impresión Clínica Global de Guy (CGI),Eje IV,Funcionamiento global y severidad transdiagnóstica,SI,Sí (Dominio público NIMH)
+abierto,163,147,q-les-q_new,Q-LES-Q,Cuestionario de Calidad de Vida: Satisfacción y Placer de Endicott,Eje IV,Calidad de vida y satisfacción vital,SI,Sí (Uso académico y clínico)
+abierto,163,147,his_new,HIS,Escala de Isquemia de Hachinski (HIS),Eje V,Diagnóstico diferencial de demencias,SI,Sí (Dominio público)
+abierto,163,147,cfss_new,CFSS,Escala de Autoevaluación del Funcionamiento Cognitivo (CFSS),Eje V,Quejas cognitivas subjetivas cotidianas,SI,Sí (Libre clínico)
+abierto,163,147,gsqs_new,GSQS,Escala Groningen de la Calidad del Sueño (GSQS),Eje VI,Calidad de descanso e insomnio agudo,SI,Sí (Libre académico Univ. Groningen)
+abierto,163,147,othmer-desouza_new,Othmer-DeSouza,Test de Detección de Somatización de Othmer y DeSouza,Eje VI,Síntomas somatomorfos y somatización,SI,Sí (Libre clínico)
+abierto,163,147,laxitud-hdm_new,Laxitud-HdM,Criterios de Laxitud Articular del Hospital del Mar (Bulbena),Eje VI,Marcador somático de hiperlaxitud y pánico,SI,Sí (Libre científico IMIM Barcelona)
+abierto,163,147,bars_new,BARS,Escala de Acatisia de Barnes (BARS),Eje VI,Efectos extrapiramidales y farmacovigilancia,SI,Sí (Libre práctica médica)
+abierto,163,147,aims_new,AIMS,Escala de Movimientos Involuntarios Anormales de Guy (AIMS),Eje VI,Farmacovigilancia y discinesia tardía,SI,Sí (Dominio público NIMH)
+academico,71,69,tci-r_79,TCI-R,Inventario de Temperamento y Carácter Revisado,Eje III,"Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",NO,Uso bajo licencia/permiso
+academico,71,69,chte_103,CHTE,Cuestionario de Hábitos y Técnicas de Estudio,Eje IV,"Rendimiento académico, Hábitos de estudio y Adaptación escolar",NO,No
+academico,71,69,moca_120,MoCA,Evaluación Cognitiva de Montreal,Eje V,Cribado Cognitivo Global (Estado Mental),SI,"Semilibre (Uso comercial/oficial requiere certificación y pago en la actualidad, pero existen versiones de investigación)."
+academico,71,69,ers_147,ERS,Escala para Evaluar el Riesgo Suicida,Eje I,"Riesgo suicida (desesperanza, ideacion/planeacion, aislamiento social, apoyo familiar)",SI,Si
+academico,71,69,ip_148,IP,Inventario de Padua (Padua Inventory),Eje I,"Sintomatologia obsesivo-compulsiva (perdida de control mental, contaminacion, comprobacion, impulsos)",SI,Si
+academico,71,69,bsl23_149,BSL-23,Borderline Symptom List-23,Eje I,"Sintomatologia limite (TLP): afecto negativo, autoimagen, autodestruccion, impulsividad, disociacion",SI,Si
+academico,71,69,cubi18_150,CUBI-18,"Cuestionario de Urgencia, Busqueda de Sensaciones e Impulsividad-18",Eje I,"Impulsividad (urgencia compulsiva, busqueda de sensaciones, imprevision)",SI,Si
+academico,71,69,egsr_151,EGS-R,Escala de Gravedad de Sintomas del TEPT-Revisada,Eje I,"Gravedad de sintomas de TEPT segun DSM-5 (intrusion, evitacion, cognicion/animo, hiperactivacion, disociacion, disfuncionalidad)",SI,Si
+academico,71,69,sias_152,SIAS,Escala de Ansiedad ante la Interaccion Social,Eje I,Ansiedad ante la interaccion social directa,SI,Si
+academico,71,69,sads_153,SADS,Escala de Estres y Evitacion Social (Social Avoidance and Distress Scale),Eje I,Malestar subjetivo y evitacion conductual en situaciones sociales,SI,Si
+academico,71,69,pss14_155,PSS-14,Escala de Estres Percibido (version de 14 items),Eje I,"Estres psicologico percibido (incontrolabilidad, autoeficacia/afrontamiento)",SI,Si
+academico,71,69,cae_156,CAE,Cuestionario de Afrontamiento del Estres,Eje II,Estrategias de afrontamiento del estres,SI,No verificado
+academico,71,69,eas_157,EAS,Escala de Apoyo Social,Eje II,Apoyo social percibido (familiar y de amistades),SI,No verificado
+academico,71,69,fmps_159,FMPS,Escala Multidimensional de Perfeccionismo,Eje II,Perfeccionismo multidimensional,SI,No verificado
+academico,71,69,panas_161,PANAS,Escala de Afecto Positivo y Negativo,Eje II,Afecto positivo y negativo,SI,No verificado
+academico,71,69,rs14_162,RS-14,Escala de Resiliencia de 14 items,Eje II,Resiliencia,SI,No verificado (instrumento comercial)
+academico,71,69,tmms24_163,TMMS-24,Trait Meta-Mood Scale-24,Eje II,"Inteligencia emocional percibida (atencion, claridad, reparacion)",SI,No verificado
+academico,71,69,beaq_164,BEAQ,Brief Experiential Avoidance Questionnaire,Eje II,Evitacion experiencial,SI,No verificado
+academico,71,69,vq_165,VQ,Valuing Questionnaire,Eje II,Vida valiosa (Progreso vs Obstruccion) segun valores personales,SI,"Si, con restriccion de uso no comercial y sin obras derivadas"
+academico,71,69,psyflex_166,Psy-Flex,Cuestionario Psy-Flex (flexibilidad psicologica),Eje II,"Flexibilidad psicologica (presencia, apertura, defusion, yo estable, valores, compromiso)",SI,"Apertura academica declarada, licencia exacta no verificada"
+academico,71,69,ras-h_170,RAS-H,Escala de Valoración de la Relación (Relationship Assessment Scale - Hendrick),Eje IV,Satisfacción diádica y calidad de la relación de pareja,SI,Si
+academico,71,69,mec_171,MEC,Mini-Examen Cognoscitivo de Lobo,Eje V,Cribado cognitivo global,SI,"A verificar (adapt. española de MMSE, uso clínico extendido)"
+academico,71,69,adascog_172,ADAS-Cog,Alzheimer's Disease Assessment Scale - Cognitiva,Eje V,Deterioro cognitivo en demencia,SI,Restringido (uso bajo licencia en ensayos clínicos)
+academico,71,69,bprs_173,BPRS,Brief Psychiatric Rating Scale,Eje I,Psicopatología general (heteroaplicada),SI,Público (Overall & Gorham 1962)
+academico,71,69,sips_174,SIPS,Entrevista Estructurada para Síndromes Prodrómicos,Eje I,Riesgo de psicosis,SI,"Académico, requiere permiso de autores (Yale PRIME)"
+academico,71,69,sops_175,SOPS,Scale of Prodromal Syndromes,Eje I,Síntomas prodrómicos de psicosis,SI,"Académico, requiere permiso (Yale PRIME)"
+academico,71,69,sumd_176,SUMD,Scale to Assess Unawareness of Mental Disorder,Eje I,Insight/conciencia de enfermedad,SI,Académico (Amador)
+academico,71,69,oas_177,OAS,Overt Aggression Scale,Eje I,Agresividad manifiesta observada,SI,Público (Yudofsky et al. 1986)
+academico,71,69,madrs_178,MADRS,Montgomery-Asberg Depression Rating Scale,Eje I,Severidad depresiva (heteroaplicada),SI,Público/libre uso académico
+academico,71,69,gds_179,GDS,"Geriatric Depression Scale (Yesavage, 30 items)",Eje I,Depresión en adultos mayores,SI,Público
+academico,71,69,cds_180,CDS,Calgary Depression Scale for Schizophrenia,Eje I,Depresión en esquizofrenia,SI,"Académico, libre para uso clínico/investigación"
+academico,71,69,mdq_181,MDQ,Mood Disorder Questionnaire,Eje I,Cribado de espectro bipolar,SI,"Público (Hirschfeld, uso libre no comercial)"
+academico,71,69,ymrs_182,YMRS,Young Mania Rating Scale,Eje I,Severidad de manía,SI,Público/libre uso académico
+academico,71,69,evmac_183,EVMAC,Escala para la Valoración de la Manía por Clínicos,Eje I,Severidad de manía (heteroaplicada),SI,A verificar
+academico,71,69,mas_184,MAS,Escala de Manía de Bech-Rafaelsen,Eje I,Severidad de manía,SI,"Académico, libre uso"
+academico,71,69,rfl_185,RFL,Reasons for Living Inventory (Linehan),Eje I,Factores protectores frente al suicidio,SI,"Académico, libre uso investigación/clínica"
+academico,71,69,rvplutchik_186,RV-Plutchik,Escala de Riesgo de Violencia de Plutchik,Eje I,Riesgo de violencia autodirigida,SI,"Académico, libre uso"
+academico,71,69,eiplutchik_187,EI-Plutchik,Escala de Impulsividad de Plutchik,Eje I,Impulsividad,SI,"Académico, libre uso"
+academico,71,69,spin_188,SPIN,Social Phobia Inventory,Eje I,Fobia social,SI,"Académico, libre uso"
+academico,71,69,bsps_189,BSPS,Brief Social Phobia Scale (Davidson),Eje I,Fobia social (heteroaplicada),SI,"Académico, libre uso"
+academico,71,69,bsa_190,BSA,Brief Scale for Anxiety (Tyrer),Eje I,Ansiedad general (heteroaplicada),SI,Público
+academico,71,69,tq_191,TQ,Trauma Questionnaire,Eje I,Exposición a eventos traumáticos,SI,Académico
+academico,71,69,dgrp_192,DGRP,Duke Global Rating Scale for PTSD,Eje I,Cambio global en TEPT,SI,Académico
+academico,71,69,dai_193,DAI,¡OJO! Archivo etiquetado DAI contiene la PANSS completa,Eje I,Psicopatología general (positiva/negativa),SI,"Restringido (PANSS es comercial, MHS)"
+academico,71,69,bdhi_194,BDHI,Buss-Durkee Hostility Inventory,Eje I,Hostilidad/agresividad,SI,"Académico clásico, uso extendido"
+academico,71,69,malt_195,MALT,Münchner Alkoholismustest,Eje I,Diagnóstico de alcoholismo,SI,Académico
+academico,71,69,isca_196,ISCA,Interrogatorio Sistematizado de Consumos Alcohólicos,Eje I,Consumo de alcohol,SI,Académico
+academico,71,69,europasi_197,EuropASI,Índice Europeo de Gravedad de la Adicción,Eje I,Gravedad multidimensional de adicción,SI,"Académico, libre uso investigación/clínica"
+academico,71,69,sadq_198,SADQ,Severity of Alcohol Dependence Questionnaire,Eje I,Severidad de dependencia alcohólica,SI,Académico
+academico,71,69,eida_199,EIDA,Escala de la Intensidad de la Dependencia al Alcohol,Eje I,Dependencia alcohólica,SI,Académico
+academico,71,69,ocds_200,OCDS,Obsessive Compulsive Drinking Scale,Eje I,Craving/compulsión por alcohol,SI,Académico
+academico,71,69,edi2_201,EDI-2,Inventario de Trastornos de la Conducta Alimentaria-2,Eje I,Conducta alimentaria,SI,Restringido (Garner/PAR)
+academico,71,69,bite_202,BITE,Bulimic Investigatory Test Edinburgh,Eje I,Síntomas bulímicos,SI,Académico
+academico,71,69,cos_203,COS,Cuestionario Oviedo de Calidad del Sueño,Eje VI,Calidad del sueño,SI,"Académico, libre uso"
+academico,71,69,csfq_204,CSFQ,Changes in Sexual Functioning Questionnaire,Eje VI,Funcionamiento sexual,SI,Académico
+academico,71,69,iief_205,IIEF,Índice Internacional de Función Eréctil,Eje VI,Función eréctil,SI,"Académico, libre uso clínico"
+academico,71,69,mghsfq_206,MGH-SFQ,Massachusetts General Hospital Sexual Functioning Q.,Eje VI,Funcionamiento sexual,SI,Académico
+academico,71,69,asex_207,ASEX,Arizona Sexual Experience Scale,Eje VI,Funcionamiento sexual,SI,"Académico, libre uso"
+academico,71,69,bwsq_208,BWSQ,Benzodiazepine Withdrawal Symptom Questionnaire,Eje VI,Abstinencia de benzodiacepinas,SI,Académico
+academico,71,69,sas_209,SAS,Simpson-Angus Scale,Eje VI,Parkinsonismo/extrapiramidalismo inducido,SI,"Académico, libre uso clínico"
+academico,71,69,uku_210,UKU,UKU Side Effect Rating Scale,Eje VI,Efectos secundarios de psicofármacos,SI,Académico
+academico,71,69,eeaggaf_211,EEAG-GAF,Escala de Evaluación de la Actividad Global,Eje IV,Funcionamiento global (eje V del DSM-IV),SI,Público (derivado de criterios DSM)
+academico,71,69,sdi_212,SDI,Sheehan Disability Inventory,Eje IV,Discapacidad funcional,SI,"Académico, libre uso"
+academico,71,69,sass_213,SASS,Social Adaptation Self-evaluation Scale,Eje IV,Adaptación social,SI,Académico
+academico,71,69,qls_214,QLS,Quality of Life Scale (Heinrichs),Eje IV,Calidad de vida en esquizofrenia,SI,Académico
+academico,71,69,cscv_215,CSCV,Cuestionario Sevilla de Calidad de Vida,Eje IV,Calidad de vida,SI,Académico
+academico,71,69,qlds_216,QLDS,Quality of Life Depression Scale,Eje IV,Calidad de vida en depresión,SI,"Académico, licencia de autor"
+academico,71,69,adrql_217,ADRQL,Alzheimer's Disease Related Quality of Life,Eje IV,Calidad de vida en demencia,SI,Académico
+academico,71,69,npi-n_218,NPI-N,Narcissistic Personality Inventory,Eje III,Rasgos de personalidad narcisista,SI,"Académico, uso libre investigación (sin traducción española verificada)"
+academico,71,69,aim-a_219,AIM-A,Affect Intensity Measure,Eje II,Intensidad de la reactividad afectiva,SI,"Académico, uso libre investigación (sin traducción española verificada)"
+academico,71,69,top-8_220,TOP-8,Escala de 8 ítems para los Resultados del Tratamiento del TEPT,Eje I,Respuesta al tratamiento en TEPT,SI,"Académico, descarga oficial gratuita CIBERSAM"
+comercial,36,10,stai_0,STAI,Inventario de Ansiedad Estado-Rasgo,Eje I,Ansiedad y miedo,SI,"No (Sujeto a copyright, TEA Ediciones en España/Latam). Existen versiones de investigación."
+comercial,36,10,bai_1,BAI,Inventario de Ansiedad de Beck,Eje I,Ansiedad y miedo,SI,No (Copyright de Pearson). Usado ampliamente en investigación con permisos.
+comercial,36,10,isra_3,ISRA,Inventario de Situaciones y Respuestas de Ansiedad,Eje I,Ansiedad y miedo,NO,No (TEA Ediciones)
+comercial,36,10,hads_4,HADS,Escala de Ansiedad y Depresión Hospitalaria,Eje I,Ansiedad y miedo,SI,"No estricto (tiene copyright de GL Assessment), pero ampliamente reproducido en literatura de acceso abierto para fines de investigación y uso clínico sin fines de lucro."
+comercial,36,10,tics_8,TICS,Inventario de Estrés Crónico de Trier,Eje I,Estrés psicológico,NO,No (Hogrefe)
+comercial,36,10,dts_12,DTS,Escala de Trauma de Davidson,Eje I,Trauma y estrés postraumático,SI,No (Copyright MHS Assessments)
+comercial,36,10,bdi-ii_13,BDI-II,Inventario de Depresión de Beck - II,Eje I,Depresión y anhedonia,SI,No (Copyright Pearson)
+comercial,36,10,pi-wsur_20,PI-WSUR,Inventario de Padua Revisado - WSU,Eje I,Obsesiones y compulsiones,SI,"No (Depende de derechos de la publicación original, uso de investigación permitido)."
+comercial,36,10,scl-90-r_25,SCL-90-R,Inventario de Síntomas SCL-90-R (Subescala Somatización),Eje I,Somatización y ansiedad por la salud,NO,No (Pearson)
+comercial,36,10,staxi-2_30,STAXI-2,Inventario de Expresión de Ira Estado-Rasgo 2,Eje I,Agresividad e ira,NO,No (Copyright PAR / TEA Ediciones)
+comercial,36,10,pcl-r_32,PCL-R,Escala de Calificación de Psicopatía Revisada,Eje III,Conducta antisocial,NO,No (Multi-Health Systems / TEA Ediciones)
+comercial,36,10,srp-iv_33,SRP-IV,Escala de Autoinforme de Psicopatía - Versión IV,Eje III,Conducta antisocial,NO,No (MHS)
+comercial,36,10,scid-5-pd_34,SCID-5-PD,SCID-5-PD (Trastorno de la Personalidad Antisocial),Eje I,Conducta antisocial,NO,No (Copyright APA)
+comercial,36,10,cbcl_35,CBCL,Inventario de Comportamiento Infantil (Subescalas Externalizantes),Eje I,Conducta disruptiva,NO,No (Achenbach System of Empirically Based Assessment - ASEBA)
+comercial,36,10,panss_45,PANSS,Escala de los Síndromes Positivo y Negativo,Eje I,Desorganización cognitiva y conductual,SI,No (MHS)
+comercial,36,10,bss_47,BSS,Escala de Ideación Suicida de Beck,Eje I,Ideación y Conducta suicida,SI,No (Pearson)
+comercial,36,10,hcr-20_v3_49,HCR-20 v3,Guía de Evaluación del Riesgo de Violencia,Eje I,Riesgo de violencia,NO,No (Requiere manual)
+comercial,36,10,neo-pi-r_76,NEO-PI-R,Inventario de Personalidad NEO Revisado,Eje III,"Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",NO,No (Licencia comercial)
+comercial,36,10,af-5_85,AF-5,Autoconcepto Forma 5,Eje III,Autoconcepto,NO,No (TEA Ediciones)
+comercial,36,10,ctq-sf_94,CTQ-SF,Cuestionario de Trauma Infantil - Versión Breve,Eje I,Trauma acumulado y Adversidad temprana,NO,No (NCS Pearson)
+comercial,36,10,basc-3_104,BASC-3,Sistema de Evaluación de la Conducta de Niños y Adolescentes (Subescalas de Adaptación),Eje IV,"Rendimiento académico, Hábitos de estudio y Adaptación escolar",NO,No (Pearson)
+comercial,36,10,mbi_105,MBI,Inventario de Burnout de Maslach,Eje IV,"Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",NO,"No (Licencia Mind Garden), aunque a menudo usado libremente en investigación con versiones reducidas."
+comercial,36,10,cd-risc_115,CD-RISC,Escala de Resiliencia de Connor-Davidson,Eje IV,"Resiliencia, Afrontamiento y Fortalezas",NO,"No (Licencia controlada por autores), aunque la versión de 10 ítems (CD-RISC 10) es muy accesible en investigación."
+comercial,36,10,mmse_119,MMSE,Mini-Examen del Estado Cognitivo,Eje V,Cribado Cognitivo Global (Estado Mental),SI,"No (Copyright vigente de PAR Inc.), aunque históricamente usado de forma muy extendida en la práctica clínica."
+comercial,36,10,d2-r_121,d2-R,Test de Atención d2-R,Eje V,"Atención (Sostenida, Selectiva, Dividida y Vigilancia)",NO,No (Licencia comercial)
+comercial,36,10,tavec_123,TAVEC,Test de Aprendizaje Verbal de España-Complutense,Eje V,"Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",NO,No (Comercializado)
+comercial,36,10,wcst_125,WCST,Test de Clasificación de Tarjetas de Wisconsin,Eje V,Funciones Ejecutivas,NO,No (Licencia comercial)
+comercial,36,10,brief-2_128,BRIEF-2,Evaluación Conductual de la Función Ejecutiva,Eje V,Funciones Ejecutivas,NO,No (Licencia comercial)
+comercial,36,10,bnt_130,BNT,Test de Denominación de Boston,Eje V,"Comprensión, Expresión y Fluidez Verbal",NO,"No (Comercial, usualmente incluido en la Evaluación de Afasia de Boston)."
+comercial,36,10,bpi_138,BPI,Inventario Breve de Dolor,Eje VI,"Dolor, fatiga y síntomas somáticos",NO,"No (Licencia administrada por la Universidad de Texas MD Anderson Cancer Center, pero gratuita para uso clínico e investigación sin financiamiento comercial)."
+comercial,36,10,mac_144,MAC,Escala de Ajuste Mental al Cáncer,Eje VI,Enfermedad médica y afrontamiento,NO,"No (Bajo copyright de los autores originales, uso clínico restringido)."
+comercial,36,10,mini_new,MINI,Entrevista Neuropsiquiátrica Internacional (MINI 5.0.0),Eje I,Evaluación diagnóstica multiaxial DSM-IV/CIE-10,NO,No (Sujeto a copyright Harm Research / D. Sheehan)
+comercial,36,10,bhs_new,BHS,Escala de Desesperanza de Beck (BHS),Eje I,Desesperanza y riesgo suicida,NO,No (Copyright Pearson Clinical / TEA Ediciones)
+comercial,36,10,er-25_new,ER-25,Escala de Resiliencia de Wagnild y Young (25 ítems),Eje II,Resiliencia y superación de adversidades,SI,No (Copyright The Resilience Center)
+comercial,36,10,eq-5d_new,EQ-5D,Cuestionario de Salud EuroQoL-5D,Eje IV,Calidad de vida relacionada con la salud,NO,No (Copyright EuroQol Research Foundation)
+comercial,36,10,zbi_new,ZBI,Escala de Sobrecarga del Cuidador de Zarit (ZBI),Eje IV,Sobrecarga familiar y dinámica de cuidados,NO,No (Copyright Mapi Research Trust)

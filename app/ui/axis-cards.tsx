@@ -2,7 +2,7 @@
 
 import { useState, useMemo, useRef, useEffect, useCallback } from "react";
 import { ArrowRight, Check, Compass, X } from "lucide-react";
-import { AXES, catalog } from "./instrument-library";
+import { AXES, catalog, indiceData, indexThemeMap } from "./instrument-library";
 
 interface AxisCardsProps {
   onSelectAxis: (axisNum: number) => void;
@@ -22,16 +22,17 @@ export function AxisCards({ onSelectAxis, onSelectAxisAndTheme }: AxisCardsProps
     return counts;
   }, []);
 
-  // Axis primary theme counts: sum of counts === axis count
+  // Axis primary theme counts derived from indice_psicoflujo
   const axisThemesMap = useMemo(() => {
     const map: Record<number, { name: string; count: number }[]> = {};
     for (const ax of AXES) {
-      const items = catalog.filter((it) => it.eje_num === ax.num);
       const counts: Record<string, number> = {};
-      for (const it of items) {
-        const t = it.temas?.[0];
-        if (t) {
-          counts[t] = (counts[t] || 0) + 1;
+      for (const f of indiceData.familias) {
+        if (f.eje === ax.num) {
+          const tName = indexThemeMap.get(f.tema)?.nombre;
+          if (tName) {
+            counts[tName] = (counts[tName] || 0) + 1;
+          }
         }
       }
       map[ax.num] = Object.entries(counts)

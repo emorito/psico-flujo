@@ -1,0 +1,2456 @@
+[
+  {
+    "modalidad": "Autoinforme",
+    "total_instrumentos": 196,
+    "instrumentos": [
+      {
+        "id": "stai_0",
+        "sigla": "STAI",
+        "nombre": "Inventario de Ansiedad Estado-Rasgo",
+        "eje": "Eje I",
+        "constructo": "Ansiedad y miedo",
+        "tiempo": "12 a 18 minutos (40 ítems en total; aprox. 7 minutos por subescala)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "bai_1",
+        "sigla": "BAI",
+        "nombre": "Inventario de Ansiedad de Beck",
+        "eje": "Eje I",
+        "constructo": "Ansiedad y miedo",
+        "tiempo": "5 a 10 minutos en autoadministración.",
+        "acceso": "comercial"
+      },
+      {
+        "id": "gad-7_2",
+        "sigla": "GAD-7",
+        "nombre": "Escala de Trastorno de Ansiedad Generalizada - 7",
+        "eje": "Eje I",
+        "constructo": "Ansiedad y miedo",
+        "tiempo": "1 a 2 minutos en autoadministración; muy ágil para triaje clínico.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "isra_3",
+        "sigla": "ISRA",
+        "nombre": "Inventario de Situaciones y Respuestas de Ansiedad",
+        "eje": "Eje I",
+        "constructo": "Ansiedad y miedo",
+        "tiempo": "Forma completa: 30 a 50 minutos; Forma abreviada ISRA-B: 15 minutos",
+        "acceso": "comercial"
+      },
+      {
+        "id": "hads_4",
+        "sigla": "HADS",
+        "nombre": "Escala de Ansiedad y Depresión Hospitalaria",
+        "eje": "Eje I",
+        "constructo": "Ansiedad y miedo",
+        "tiempo": "4 a 6 minutos (14 reactivos tipo Likert de 4 opciones)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "dass-21_5",
+        "sigla": "DASS-21",
+        "nombre": "Escalas de Depresión, Ansiedad y Estrés - 21",
+        "eje": "Eje I",
+        "constructo": "Depresión, ansiedad y estrés",
+        "tiempo": "8 a 12 minutos (autoadministrado o aplicado en entrevista clínica guiada).",
+        "acceso": "abierto"
+      },
+      {
+        "id": "pss_6",
+        "sigla": "PSS",
+        "nombre": "Escala de Estrés Percibido",
+        "eje": "Eje I",
+        "constructo": "Estrés psicológico",
+        "tiempo": "3 a 5 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "tics_8",
+        "sigla": "TICS",
+        "nombre": "Inventario de Estrés Crónico de Trier",
+        "eje": "Eje I",
+        "constructo": "Estrés psicológico",
+        "tiempo": "10 a 15 minutos (versión estándar de 57 ítems) o 3 a 5 min (escala de cribado SSCS de 12 ítems)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "pcl-5_9",
+        "sigla": "PCL-5",
+        "nombre": "Lista de Chequeo del TEPT para el DSM-5",
+        "eje": "Eje I",
+        "constructo": "Trauma y estrés postraumático",
+        "tiempo": "5 a 10 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ies-r_11",
+        "sigla": "IES-R",
+        "nombre": "Escala de Impacto del Evento Revisada",
+        "eje": "Eje I",
+        "constructo": "Trauma y estrés postraumático",
+        "tiempo": "6 a 10 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "dts_12",
+        "sigla": "DTS",
+        "nombre": "Escala de Trauma de Davidson",
+        "eje": "Eje I",
+        "constructo": "Trauma y estrés postraumático",
+        "tiempo": "8 a 12 minutos (17 reactivos dobles: 34 valoraciones)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "bdi-ii_13",
+        "sigla": "BDI-II",
+        "nombre": "Inventario de Depresión de Beck - II",
+        "eje": "Eje I",
+        "constructo": "Depresión y anhedonia",
+        "tiempo": "5 a 10 minutos (autoadministrado o mediante lectura asistida en deterioro motor)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "phq-9_14",
+        "sigla": "PHQ-9",
+        "nombre": "Cuestionario de Salud del Paciente - 9",
+        "eje": "Eje I",
+        "constructo": "Depresión y anhedonia",
+        "tiempo": "2 a 3 minutos en autoadministración; 3 a 5 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ces-d_15",
+        "sigla": "CES-D",
+        "nombre": "Escala del Centro de Estudios Epidemiológicos de la Depresión",
+        "eje": "Eje I",
+        "constructo": "Depresión y anhedonia",
+        "tiempo": "4 a 7 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "shaps_16",
+        "sigla": "SHAPS",
+        "nombre": "Escala de Placer de Snaith-Hamilton",
+        "eje": "Eje I",
+        "constructo": "Depresión y anhedonia",
+        "tiempo": "3 a 5 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "oci-r_19",
+        "sigla": "OCI-R",
+        "nombre": "Inventario Obsesivo-Compulsivo Revisado",
+        "eje": "Eje I",
+        "constructo": "Obsesiones y compulsiones",
+        "tiempo": "3 a 5 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "pi-wsur_20",
+        "sigla": "PI-WSUR",
+        "nombre": "Inventario de Padua Revisado - WSU",
+        "eje": "Eje I",
+        "constructo": "Obsesiones y compulsiones",
+        "tiempo": "8 a 12 minutos.",
+        "acceso": "comercial"
+      },
+      {
+        "id": "docs_21",
+        "sigla": "DOCS",
+        "nombre": "Escala Dimensional Obsesivo-Compulsiva",
+        "eje": "Eje I",
+        "constructo": "Obsesiones y compulsiones",
+        "tiempo": "10 a 15 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "phq-15_22",
+        "sigla": "PHQ-15",
+        "nombre": "Cuestionario de Salud del Paciente - 15",
+        "eje": "Eje I",
+        "constructo": "Somatización y ansiedad por la salud",
+        "tiempo": "3 a 5 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "wi-7_23",
+        "sigla": "WI",
+        "nombre": "Índice de Whiteley",
+        "eje": "Eje I",
+        "constructo": "Somatización y ansiedad por la salud",
+        "tiempo": "3 a 5 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "shai_24",
+        "sigla": "SHAI",
+        "nombre": "Inventario Corto de Ansiedad por la Salud",
+        "eje": "Eje I",
+        "constructo": "Somatización y ansiedad por la salud",
+        "tiempo": "5 a 9 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "scl-90-r_25",
+        "sigla": "SCL-90-R",
+        "nombre": "Inventario de Síntomas SCL-90-R (Subescala Somatización)",
+        "eje": "Eje I",
+        "constructo": "Somatización y ansiedad por la salud",
+        "tiempo": "12 a 15 minutos (90 ítems referidos a los últimos 7 días)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "bis-11_26",
+        "sigla": "BIS-11",
+        "nombre": "Escala de Impulsividad de Barratt",
+        "eje": "Eje I",
+        "constructo": "Impulsividad",
+        "tiempo": "5 a 8 minutos (autoadministrado)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "upps-p_27",
+        "sigla": "UPPS-P",
+        "nombre": "Escala de Comportamiento Impulsivo UPPS-P",
+        "eje": "Eje I",
+        "constructo": "Impulsividad",
+        "tiempo": "5 a 8 minutos (20 ítems)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "dii_28",
+        "sigla": "DII",
+        "nombre": "Inventario de Impulsividad de Dickman",
+        "eje": "Eje I",
+        "constructo": "Impulsividad",
+        "tiempo": "4 a 6 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "aq_29",
+        "sigla": "AQ",
+        "nombre": "Cuestionario de Agresión",
+        "eje": "Eje I",
+        "constructo": "Agresividad e ira",
+        "tiempo": "8 a 12 minutos en autoadministración guiada o lectura asistida.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "staxi-2_30",
+        "sigla": "STAXI-2",
+        "nombre": "Inventario de Expresión de Ira Estado-Rasgo 2",
+        "eje": "Eje I",
+        "constructo": "Agresividad e ira",
+        "tiempo": "10 a 15 minutos (49 ítems)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "rpq_31",
+        "sigla": "RPQ",
+        "nombre": "Cuestionario de Agresión Reactiva-Proactiva",
+        "eje": "Eje I",
+        "constructo": "Agresividad e ira",
+        "tiempo": "5 a 8 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "srp-iv_33",
+        "sigla": "SRP-IV",
+        "nombre": "Escala de Autoinforme de Psicopatía - Versión IV",
+        "eje": "Eje III",
+        "constructo": "Conducta antisocial",
+        "tiempo": "15 a 20 minutos en administración individual o colectiva.",
+        "acceso": "comercial"
+      },
+      {
+        "id": "cbcl_35",
+        "sigla": "CBCL",
+        "nombre": "Inventario de Comportamiento Infantil (Subescalas Externalizantes)",
+        "eje": "Eje I",
+        "constructo": "Conducta disruptiva",
+        "tiempo": "15 a 20 minutos (autoadministrado por los progenitores)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "sdq_36",
+        "sigla": "SDQ",
+        "nombre": "Cuestionario de Capacidades y Dificultades",
+        "eje": "Eje I",
+        "constructo": "Conducta disruptiva",
+        "tiempo": "5 a 8 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "dbd_37",
+        "sigla": "DBD",
+        "nombre": "Escala de Trastornos de Comportamiento Perturbador",
+        "eje": "Eje I",
+        "constructo": "Conducta disruptiva",
+        "tiempo": "10 a 15 minutos por informante.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "iat_41",
+        "sigla": "IAT",
+        "nombre": "Test de Adicción a Internet",
+        "eje": "Eje I",
+        "constructo": "Adicciones conductuales",
+        "tiempo": "5 a 8 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "pdi-21_43",
+        "sigla": "PDI-21",
+        "nombre": "Inventario de Delirios de Peters",
+        "eje": "Eje I",
+        "constructo": "Ideación delirante",
+        "tiempo": "8 a 15 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cape-42_44",
+        "sigla": "CAPE-42",
+        "nombre": "Evaluación Comunitaria de Experiencias Psíquicas",
+        "eje": "Eje I",
+        "constructo": "Experiencias perceptivas inusuales",
+        "tiempo": "10 a 15 minutos en autoaplicación guiada.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bss_47",
+        "sigla": "BSS",
+        "nombre": "Escala de Ideación Suicida de Beck",
+        "eje": "Eje I",
+        "constructo": "Ideación y Conducta suicida",
+        "tiempo": "5 a 10 minutos (mediante entrevista clínica semiestructurada o autoinforme supervisado)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "isas_48",
+        "sigla": "ISAS",
+        "nombre": "Inventario de Declaraciones sobre Autolesiones",
+        "eje": "Eje I",
+        "constructo": "Autolesiones no suicidas",
+        "tiempo": "10 a 15 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "hcr-20_v3_49",
+        "sigla": "HCR-20 v3",
+        "nombre": "Guía de Evaluación del Riesgo de Violencia",
+        "eje": "Eje I",
+        "constructo": "Riesgo de violencia",
+        "tiempo": "1.5 a 3 horas (revisión documental exhaustiva, entrevista clínica y contraste con informantes)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "jvq_50",
+        "sigla": "JVQ",
+        "nombre": "Cuestionario de Victimización Juvenil",
+        "eje": "Eje I",
+        "constructo": "Vulnerabilidad y victimización",
+        "tiempo": "15 a 25 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "rrs_51",
+        "sigla": "RRS",
+        "nombre": "Escala de Respuestas Rumiativas",
+        "eje": "Eje II",
+        "constructo": "Rumiación",
+        "tiempo": "3 a 5 minutos en autoadministración; 6 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "pswq_52",
+        "sigla": "PSWQ",
+        "nombre": "Cuestionario de Preocupación del Estado de Pensilvania",
+        "eje": "Eje II",
+        "constructo": "Preocupación crónica",
+        "tiempo": "3 a 5 minutos en autoadministración; 6 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ius-12_53",
+        "sigla": "IUS-12",
+        "nombre": "Escala de Intolerancia a la Incertidumbre",
+        "eje": "Eje II",
+        "constructo": "Intolerancia a la incertidumbre",
+        "tiempo": "2 a 4 minutos en autoadministración; 5 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "aaq-ii_54",
+        "sigla": "AAQ-II",
+        "nombre": "Cuestionario de Aceptación y Acción II",
+        "eje": "Eje II",
+        "constructo": "Rigidez y Flexibilidad cognitiva",
+        "tiempo": "1 a 3 minutos en autoadministración; 3 a 5 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cfi_55",
+        "sigla": "CFI",
+        "nombre": "Inventario de Flexibilidad Cognitiva",
+        "eje": "Eje II",
+        "constructo": "Rigidez y Flexibilidad cognitiva",
+        "tiempo": "4 a 6 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cfq_56",
+        "sigla": "CFQ",
+        "nombre": "Cuestionario de Fusión Cognitiva",
+        "eje": "Eje II",
+        "constructo": "Fusión cognitiva",
+        "tiempo": "2 a 3 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mcq-30_57",
+        "sigla": "MCQ-30",
+        "nombre": "Cuestionario de Metacogniciones",
+        "eje": "Eje II",
+        "constructo": "Metacogniciones disfuncionales",
+        "tiempo": "5 a 8 minutos en autoadministración; 10 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ysq-s3_58",
+        "sigla": "YSQ-S3",
+        "nombre": "Cuestionario de Esquemas de Young",
+        "eje": "Eje II",
+        "constructo": "Esquemas maladaptativos",
+        "tiempo": "15 a 20 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ders_59",
+        "sigla": "DERS",
+        "nombre": "Escala de Dificultades en la Regulación Emocional",
+        "eje": "Eje II",
+        "constructo": "Regulación y Desregulación emocional",
+        "tiempo": "5 a 8 minutos en autoadministración; 10 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cerq_60",
+        "sigla": "CERQ",
+        "nombre": "Cuestionario de Regulación Cognitiva de las Emociones",
+        "eje": "Eje II",
+        "constructo": "Regulación y Desregulación emocional",
+        "tiempo": "6 a 10 minutos en autoadministración; 12 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "tas-20_62",
+        "sigla": "TAS-20",
+        "nombre": "Escala de Alexitimia de Toronto",
+        "eje": "Eje II",
+        "constructo": "Claridad emocional y Alexitimia",
+        "tiempo": "3 a 5 minutos en autoadministración; 6 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "meaq_63",
+        "sigla": "MEAQ",
+        "nombre": "Cuestionario Multidimensional de Evitación Experiencial",
+        "eje": "Eje II",
+        "constructo": "Evitación experiencial",
+        "tiempo": "12 a 15 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bads_64",
+        "sigla": "BADS",
+        "nombre": "Escala de Activación Conductual para la Depresión",
+        "eje": "Eje II",
+        "constructo": "Activación y Evitación conductual",
+        "tiempo": "5 a 8 minutos en autoadministración; 10 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eros_65",
+        "sigla": "EROS",
+        "nombre": "Escala de Observación de Recompensas Ambientales",
+        "eje": "Eje II",
+        "constructo": "Activación y Evitación conductual",
+        "tiempo": "1 a 3 minutos en autoadministración; 3 a 4 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "brief_cope_66",
+        "sigla": "Brief COPE",
+        "nombre": "Inventario Breve de Afrontamiento",
+        "eje": "Eje II",
+        "constructo": "Exposición y afrontamiento",
+        "tiempo": "4 a 7 minutos en autoadministración; 8 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bis_68",
+        "sigla": "BIS/BAS",
+        "nombre": "Escalas del Sistema de Inhibición y Aproximación Conductual",
+        "eje": "Eje II",
+        "constructo": "Búsqueda de recompensa",
+        "tiempo": "4 a 6 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ecr-r_69",
+        "sigla": "ECR-R",
+        "nombre": "Experiencias en Relaciones Cercanas - Revisado",
+        "eje": "Eje II",
+        "constructo": "Apego",
+        "tiempo": "6 a 10 minutos en autoadministración; 12 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "idi_70",
+        "sigla": "IDI",
+        "nombre": "Inventario de Dependencia Interpersonal",
+        "eje": "Eje II",
+        "constructo": "Dependencia interpersonal",
+        "tiempo": "8 a 12 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "rsq_71",
+        "sigla": "RSQ",
+        "nombre": "Cuestionario de Sensibilidad al Rechazo",
+        "eje": "Eje II",
+        "constructo": "Sensibilidad al rechazo",
+        "tiempo": "8 a 12 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "iip-32_72",
+        "sigla": "IIP-32",
+        "nombre": "Inventario de Problemas Interpersonales (Versión Breve)",
+        "eje": "Eje II",
+        "constructo": "Comunicación interpersonal y Asertividad",
+        "tiempo": "6 a 8 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ras_73",
+        "sigla": "RAS",
+        "nombre": "Escala de Asertividad de Rathus",
+        "eje": "Eje II",
+        "constructo": "Comunicación interpersonal y Asertividad",
+        "tiempo": "6 a 10 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ucla-r_74",
+        "sigla": "UCLA-R",
+        "nombre": "Escala de Soledad de UCLA Revisada",
+        "eje": "Eje II",
+        "constructo": "Soledad y aislamiento social",
+        "tiempo": "3 a 5 minutos en autoadministración; 6 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "djgls_75",
+        "sigla": "DJGLS",
+        "nombre": "Escala de Soledad de De Jong Gierveld",
+        "eje": "Eje II",
+        "constructo": "Soledad y aislamiento social",
+        "tiempo": "3 a 5 minutos (forma completa); 2 minutos (forma breve DJGLS-6).",
+        "acceso": "abierto"
+      },
+      {
+        "id": "neo-pi-r_76",
+        "sigla": "NEO-PI-R",
+        "nombre": "Inventario de Personalidad NEO Revisado",
+        "eje": "Eje III",
+        "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+        "tiempo": "35 a 50 minutos de respuesta pausada y supervisada.",
+        "acceso": "comercial"
+      },
+      {
+        "id": "bfi-2_77",
+        "sigla": "BFI-2",
+        "nombre": "Inventario de los Cinco Grandes 2",
+        "eje": "Eje III",
+        "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+        "tiempo": "8 a 12 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "hexaco-pi-r_78",
+        "sigla": "HEXACO-PI-R",
+        "nombre": "Inventario de Personalidad HEXACO Revisado",
+        "eje": "Eje III",
+        "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+        "tiempo": "8 a 12 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "tci-r_79",
+        "sigla": "TCI-R",
+        "nombre": "Inventario de Temperamento y Carácter Revisado",
+        "eje": "Eje III",
+        "constructo": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
+        "tiempo": "35 a 50 minutos de autoadministración supervisada.",
+        "acceso": "academico"
+      },
+      {
+        "id": "pid-5_80",
+        "sigla": "PID-5",
+        "nombre": "Inventario de Personalidad para el DSM-5",
+        "eje": "Eje III",
+        "constructo": "Rasgos Patológicos de Personalidad (Afectividad Negativa, Desapego, Antagonismo, Desinhibición, Psicoticismo)",
+        "tiempo": "25 a 40 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sd3_81",
+        "sigla": "SD3",
+        "nombre": "La Tríada Oscura Corta",
+        "eje": "Eje III",
+        "constructo": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+        "tiempo": "5 a 8 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sd4_82",
+        "sigla": "SD4",
+        "nombre": "La Tétrada Oscura Corta",
+        "eje": "Eje III",
+        "constructo": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+        "tiempo": "5 a 8 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "lts_83",
+        "sigla": "LTS",
+        "nombre": "Escala de la Tríada Luminosa",
+        "eje": "Eje III",
+        "constructo": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
+        "tiempo": "3 a 5 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "rses_84",
+        "sigla": "RSES",
+        "nombre": "Escala de Autoestima de Rosenberg",
+        "eje": "Eje III",
+        "constructo": "Autoestima",
+        "tiempo": "2 a 4 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "af-5_85",
+        "sigla": "AF-5",
+        "nombre": "Autoconcepto Forma 5",
+        "eje": "Eje III",
+        "constructo": "Autoconcepto",
+        "tiempo": "10 a 15 minutos en autoadministración.",
+        "acceso": "comercial"
+      },
+      {
+        "id": "gse_86",
+        "sigla": "GSE",
+        "nombre": "Escala de Autoeficacia General",
+        "eje": "Eje III",
+        "constructo": "Autoeficacia",
+        "tiempo": "2 a 4 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sccs_87",
+        "sigla": "SCCS",
+        "nombre": "Escala de Claridad del Autoconcepto",
+        "eje": "Eje III",
+        "constructo": "Claridad del self",
+        "tiempo": "3 a 5 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eom-eis-2_88",
+        "sigla": "EOM-EIS-2",
+        "nombre": "Medida Objetiva Extendida del Estatus de Identidad del Ego",
+        "eje": "Eje III",
+        "constructo": "Identidad personal",
+        "tiempo": "15 a 20 minutos de autoadministración individual o grupal.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "pvq_89",
+        "sigla": "PVQ",
+        "nombre": "Cuestionario de Valores de Retrato",
+        "eje": "Eje III",
+        "constructo": "Valores personales",
+        "tiempo": "6 a 10 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mlq_90",
+        "sigla": "MLQ",
+        "nombre": "Cuestionario de Significado de la Vida",
+        "eje": "Eje III",
+        "constructo": "Sentido de vida y Propósito vital",
+        "tiempo": "3 a 5 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "imi_91",
+        "sigla": "IMI",
+        "nombre": "Inventario de Motivación Intrínseca",
+        "eje": "Eje III",
+        "constructo": "Motivación y Orientación a metas",
+        "tiempo": "5 a 8 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "agq-r_92",
+        "sigla": "AGQ-R",
+        "nombre": "Cuestionario de Metas de Logro Revisado",
+        "eje": "Eje III",
+        "constructo": "Motivación y Orientación a metas",
+        "tiempo": "3 a 5 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "aceq_93",
+        "sigla": "ACEQ",
+        "nombre": "Cuestionario de Experiencias Adversas en la Infancia",
+        "eje": "Eje I",
+        "constructo": "Trauma acumulado y Adversidad temprana",
+        "tiempo": "Aproximadamente 3 a 5 minutos (prueba de cribado ultrarrápida y no invasiva).",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ctq-sf_94",
+        "sigla": "CTQ-SF",
+        "nombre": "Cuestionario de Trauma Infantil - Versión Breve",
+        "eje": "Eje I",
+        "constructo": "Trauma acumulado y Adversidad temprana",
+        "tiempo": "5 a 8 minutos (autoadministrado en entorno protegido y confidencial)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "meim_95",
+        "sigla": "MEIM",
+        "nombre": "Multigroup Ethnic Identity Measure (Medida Multigrupo de Identidad Étnica)",
+        "eje": "Eje III",
+        "constructo": "Identidad étnica (Exploración y Compromiso/Pertenencia)",
+        "tiempo": "3 a 5 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "via_96",
+        "sigla": "VIA",
+        "nombre": "Índice de Aculturación de Vancouver",
+        "eje": "Eje III",
+        "constructo": "Identidad cultural y Aculturación",
+        "tiempo": "5 a 8 minutos de autoadministración sencilla.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ismi_98",
+        "sigla": "ISMI",
+        "nombre": "Escala de Estigma Internalizado de la Enfermedad Mental",
+        "eje": "Eje III",
+        "constructo": "Estigma y discriminación",
+        "tiempo": "8 a 12 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eod_99",
+        "sigla": "EOD",
+        "nombre": "Escala de Experiencias de Discriminación",
+        "eje": "Eje III",
+        "constructo": "Estigma y discriminación",
+        "tiempo": "5 a 8 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "whodas_2.0_100",
+        "sigla": "WHODAS 2.0",
+        "nombre": "Cuestionario para la Evaluación de Discapacidad de la OMS 2.0",
+        "eje": "Eje IV",
+        "constructo": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+        "tiempo": "15 a 20 minutos (versión 36 ítems) o 5 minutos (versión 12 ítems).",
+        "acceso": "abierto"
+      },
+      {
+        "id": "chte_103",
+        "sigla": "CHTE",
+        "nombre": "Cuestionario de Hábitos y Técnicas de Estudio",
+        "eje": "Eje IV",
+        "constructo": "Rendimiento académico, Hábitos de estudio y Adaptación escolar",
+        "tiempo": "15 a 25 minutos de autoadministración individual o colectiva en aula.",
+        "acceso": "academico"
+      },
+      {
+        "id": "basc-3_104",
+        "sigla": "BASC-3",
+        "nombre": "Sistema de Evaluación de la Conducta de Niños y Adolescentes (Subescalas de Adaptación)",
+        "eje": "Eje IV",
+        "constructo": "Rendimiento académico, Hábitos de estudio y Adaptación escolar",
+        "tiempo": "15 a 25 minutos por cuestionario (aproximadamente 100 a 190 reactivos según forma).",
+        "acceso": "comercial"
+      },
+      {
+        "id": "mbi_105",
+        "sigla": "MBI",
+        "nombre": "Inventario de Burnout de Maslach",
+        "eje": "Eje IV",
+        "constructo": "Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",
+        "tiempo": "10 a 15 minutos en autoadministración individual o cribados laborales colectivos.",
+        "acceso": "comercial"
+      },
+      {
+        "id": "uwes_106",
+        "sigla": "UWES",
+        "nombre": "Escala de Engagement en el Trabajo de Utrecht",
+        "eje": "Eje IV",
+        "constructo": "Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",
+        "tiempo": "5 a 8 minutos (UWES-17) o 2 a 3 minutos (UWES-9).",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mos-sss_107",
+        "sigla": "MOS-SSS",
+        "nombre": "Cuestionario de Apoyo Social del Medical Outcomes Study",
+        "eje": "Eje IV",
+        "constructo": "Apoyo social y Funcionamiento familiar",
+        "tiempo": "5 a 8 minutos de autoadministración sencilla.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "faces-iv_108",
+        "sigla": "FACES-IV",
+        "nombre": "Escala de Cohesión y Adaptabilidad Familiar",
+        "eje": "Eje IV",
+        "constructo": "Apoyo social y Funcionamiento familiar",
+        "tiempo": "15 a 20 minutos de autoadministración individual por miembros de la familia.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "apgar_109",
+        "sigla": "APGAR",
+        "nombre": "APGAR Familiar",
+        "eje": "Eje IV",
+        "constructo": "Apoyo social y Funcionamiento familiar",
+        "tiempo": "2 a 3 minutos en administración autoadministrada o heteroaplicada.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "swls_110",
+        "sigla": "SWLS",
+        "nombre": "Escala de Satisfacción con la Vida",
+        "eje": "Eje IV",
+        "constructo": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+        "tiempo": "1 a 2 minutos de rápida autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "pwb_111",
+        "sigla": "PWB",
+        "nombre": "Escalas de Bienestar Psicológico",
+        "eje": "Eje IV",
+        "constructo": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+        "tiempo": "8 a 12 minutos de autoadministración guiada.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "fs_112",
+        "sigla": "FS",
+        "nombre": "Escala de Florecimiento",
+        "eje": "Eje IV",
+        "constructo": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
+        "tiempo": "2 a 4 minutos en administración autoadministrada rápida.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sf-36_113",
+        "sigla": "SF-36",
+        "nombre": "Cuestionario de Salud SF-36",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida",
+        "tiempo": "8 a 12 minutos de cumplimentación autónoma o guiada.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "whoqol-bref_114",
+        "sigla": "WHOQOL-BREF",
+        "nombre": "Cuestionario de Calidad de Vida de la OMS - Versión Breve",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida",
+        "tiempo": "8 a 12 minutos de cumplimentación autónoma.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cd-risc_115",
+        "sigla": "CD-RISC",
+        "nombre": "Escala de Resiliencia de Connor-Davidson",
+        "eje": "Eje IV",
+        "constructo": "Resiliencia, Afrontamiento y Fortalezas",
+        "tiempo": "3 a 5 minutos (CD-RISC-10) o 8 a 10 minutos (CD-RISC-25).",
+        "acceso": "comercial"
+      },
+      {
+        "id": "lot-r_116",
+        "sigla": "LOT-R",
+        "nombre": "Test de Orientación Vital Revisado (Optimismo)",
+        "eje": "Eje III",
+        "constructo": "Resiliencia, Afrontamiento y Fortalezas",
+        "tiempo": "2 a 3 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "via-is_118",
+        "sigla": "VIA-IS",
+        "nombre": "Inventario VIA de Fortalezas Personales",
+        "eje": "Eje IV",
+        "constructo": "Resiliencia, Afrontamiento y Fortalezas",
+        "tiempo": "25 a 35 minutos (versión 120 ítems) o 10 a 15 minutos (versión 72 ítems).",
+        "acceso": "abierto"
+      },
+      {
+        "id": "maia_133",
+        "sigla": "MAIA",
+        "nombre": "Evaluación Multidimensional de la Conciencia Interoceptiva",
+        "eje": "Eje II",
+        "constructo": "Cognición Social e Interocepción",
+        "tiempo": "6 a 10 minutos en autoadministración; 12 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "psqi_135",
+        "sigla": "PSQI",
+        "nombre": "Índice de Calidad de Sueño de Pittsburgh",
+        "eje": "Eje VI",
+        "constructo": "Sueño y ritmos circadianos",
+        "tiempo": "5 a 10 minutos (autoinforme estructurado con preguntas abiertas y cerradas)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "isi_136",
+        "sigla": "ISI",
+        "nombre": "Índice de Gravedad del Insomnio",
+        "eje": "Eje VI",
+        "constructo": "Sueño y ritmos circadianos",
+        "tiempo": "3 a 5 minutos (autoadministrado)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ess_137",
+        "sigla": "ESS",
+        "nombre": "Escala de Somnolencia de Epworth",
+        "eje": "Eje VI",
+        "constructo": "Sueño y ritmos circadianos",
+        "tiempo": "2 a 4 minutos (autoadministrada o heteroadministrada en consulta)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bpi_138",
+        "sigla": "BPI",
+        "nombre": "Inventario Breve de Dolor",
+        "eje": "Eje VI",
+        "constructo": "Dolor, fatiga y síntomas somáticos",
+        "tiempo": "5 a 8 minutos (autoadministrado o mediante entrevista clínica asistida)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "pcs_139",
+        "sigla": "PCS",
+        "nombre": "Escala de Catastrofización del Dolor",
+        "eje": "Eje VI",
+        "constructo": "Dolor, fatiga y síntomas somáticos",
+        "tiempo": "3 a 5 minutos (autoadministrado)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "fss_140",
+        "sigla": "FSS",
+        "nombre": "Escala de Gravedad de la Fatiga",
+        "eje": "Eje VI",
+        "constructo": "Dolor, fatiga y síntomas somáticos",
+        "tiempo": "2 a 4 minutos (autoadministrado)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ipaq_141",
+        "sigla": "IPAQ",
+        "nombre": "Cuestionario Internacional de Actividad Física",
+        "eje": "Eje VI",
+        "constructo": "Conductas de salud",
+        "tiempo": "3 a 5 minutos (autoadministrado o mediante entrevista clínica)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mgl_o_mmas-4_142",
+        "sigla": "MGL o MMAS-4",
+        "nombre": "Cuestionario de Adherencia a la Medicación de Morisky-Green-Levine",
+        "eje": "Eje VI",
+        "constructo": "Conductas de salud",
+        "tiempo": "1 a 2 minutos (administrado por médico o personal de enfermería / farmacéutico)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bipq_143",
+        "sigla": "BIPQ",
+        "nombre": "Cuestionario Breve de Percepción de Enfermedad (incluye IPQ-R como versión anidada)",
+        "eje": "Eje VI",
+        "constructo": "Enfermedad médica y afrontamiento",
+        "tiempo": "3 a 5 minutos (autoadministrado o en entrevista clínica asistida)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mac_144",
+        "sigla": "MAC",
+        "nombre": "Escala de Ajuste Mental al Cáncer",
+        "eje": "Eje VI",
+        "constructo": "Enfermedad médica y afrontamiento",
+        "tiempo": "8 a 12 minutos (versión 40 ítems) o 5 a 7 minutos (Mini-MAC de 29 ítems)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "hls-eu-q16_145",
+        "sigla": "HLS-EU-Q16",
+        "nombre": "Cuestionario Europeo de Alfabetización en Salud - Versión Corta",
+        "eje": "Eje VI",
+        "constructo": "Alfabetización en salud y relación con el sistema",
+        "tiempo": "4 a 6 minutos (autoadministrado o mediante entrevista personal o telefónica)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sahlsa-50_146",
+        "sigla": "SAHLSA-50",
+        "nombre": "Evaluación Breve de Alfabetización en Salud para Adultos de Habla Hispana",
+        "eje": "Eje VI",
+        "constructo": "Alfabetización en salud y relación con el sistema",
+        "tiempo": "3 a 6 minutos (heteroadministrado mediante prueba estructurada con tarjetas o láminas)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cfq_new1",
+        "sigla": "CFQ-Fallos",
+        "nombre": "Cognitive Failures Questionnaire (Cuestionario de Fallos Cognitivos)",
+        "eje": "Eje V",
+        "constructo": "Fallos cognitivos cotidianos",
+        "tiempo": "6 a 10 minutos de cumplimentación autónoma presencial o telemática.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sisses_new1",
+        "sigla": "SIS/SES-SF",
+        "nombre": "Sexual Inhibition/Sexual Excitation Scales — Short Form",
+        "eje": "Eje VI",
+        "constructo": "Salud sexual (propensión a inhibición/excitación)",
+        "tiempo": "5 a 7 minutos de cumplimentación autónoma presencial o telemática.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "stopbang_new1",
+        "sigla": "STOP-Bang",
+        "nombre": "Cuestionario STOP-Bang",
+        "eje": "Eje VI",
+        "constructo": "Riesgo de apnea del sueño",
+        "tiempo": "1 a 2 minutos (autoadministrado o administrado por personal sanitario)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "csi_new1",
+        "sigla": "CSI",
+        "nombre": "Inventario de Sensibilización Central",
+        "eje": "Eje VI",
+        "constructo": "Sensibilización central y carga de síntomas",
+        "tiempo": "5 a 8 minutos (autoadministrado)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ftnd_new1",
+        "sigla": "FTND",
+        "nombre": "Test de Fagerström de Dependencia de la Nicotina",
+        "eje": "Eje VI",
+        "constructo": "Tabaco",
+        "tiempo": "2 a 3 minutos de rápida cumplimentación en cualquier ámbito asistencial.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "semcds_new1",
+        "sigla": "SEMCD-S",
+        "nombre": "Spanish Chronic Disease Self-Efficacy Scale",
+        "eje": "Eje VI",
+        "constructo": "Autoeficacia/autocuidado en enfermedad crónica",
+        "tiempo": "2 a 4 minutos (autoadministrado o administrado en talleres de autocuidado)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eheals_new1",
+        "sigla": "eHEALS",
+        "nombre": "eHealth Literacy Scale",
+        "eje": "Eje VI",
+        "constructo": "Alfabetización digital en salud",
+        "tiempo": "2 a 4 minutos (autoadministrado vía telemática o presencial)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cremp_new1",
+        "sigla": "CREM-P",
+        "nombre": "Cuestionario de Relaciones Médico-Paciente (adaptación española del PDRQ)",
+        "eje": "Eje VI",
+        "constructo": "Relación paciente-profesional",
+        "tiempo": "3 a 5 minutos de cumplimentación autónoma post-consulta médica.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bsq_new1",
+        "sigla": "BSQ",
+        "nombre": "Body Shape Questionnaire (Cuestionario sobre la Forma Corporal)",
+        "eje": "Eje I",
+        "constructo": "Insatisfacción con la forma y figura corporal",
+        "tiempo": "8 a 12 minutos (autoadministrado)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mba_new1",
+        "sigla": "MBA",
+        "nombre": "Measure of Body Apperception (Medida de Percepción del Cuerpo)",
+        "eje": "Eje I",
+        "constructo": "Dependencia de la autoestima respecto a la apariencia/integridad corporal",
+        "tiempo": "3 a 5 minutos (10 reactivos estructurados)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ersq_new1",
+        "sigla": "ERSQ",
+        "nombre": "Emotion-Regulation Skills Questionnaire (Cuestionario de Habilidades de Regulación Emocional)",
+        "eje": "Eje II",
+        "constructo": "Habilidades específicas de regulación emocional (modelo ACE)",
+        "tiempo": "4 a 6 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ers_147",
+        "sigla": "ERS",
+        "nombre": "Escala para Evaluar el Riesgo Suicida",
+        "eje": "Eje I",
+        "constructo": "Riesgo suicida (desesperanza, ideacion/planeacion, aislamiento social, apoyo familiar)",
+        "tiempo": "4 a 7 minutos (20 reactivos estructurados)",
+        "acceso": "academico"
+      },
+      {
+        "id": "ip_148",
+        "sigla": "IP",
+        "nombre": "Inventario de Padua (Padua Inventory)",
+        "eje": "Eje I",
+        "constructo": "Sintomatologia obsesivo-compulsiva (perdida de control mental, contaminacion, comprobacion, impulsos)",
+        "tiempo": "15 a 20 minutos.",
+        "acceso": "academico"
+      },
+      {
+        "id": "bsl23_149",
+        "sigla": "BSL-23",
+        "nombre": "Borderline Symptom List-23",
+        "eje": "Eje I",
+        "constructo": "Sintomatologia limite (TLP): afecto negativo, autoimagen, autodestruccion, impulsividad, disociacion",
+        "tiempo": "4 a 7 minutos (autoadministrado)",
+        "acceso": "academico"
+      },
+      {
+        "id": "cubi18_150",
+        "sigla": "CUBI-18",
+        "nombre": "Cuestionario de Urgencia, Busqueda de Sensaciones e Impulsividad-18",
+        "eje": "Eje I",
+        "constructo": "Impulsividad (urgencia compulsiva, busqueda de sensaciones, imprevision)",
+        "tiempo": "4 a 7 minutos (18 ítems autoadministrados)",
+        "acceso": "academico"
+      },
+      {
+        "id": "egsr_151",
+        "sigla": "EGS-R",
+        "nombre": "Escala de Gravedad de Sintomas del TEPT-Revisada",
+        "eje": "Eje I",
+        "constructo": "Gravedad de sintomas de TEPT segun DSM-5 (intrusion, evitacion, cognicion/animo, hiperactivacion, disociacion, disfuncionalidad)",
+        "tiempo": "10 a 15 minutos (21 ítems clínicos de gravedad)",
+        "acceso": "academico"
+      },
+      {
+        "id": "sias_152",
+        "sigla": "SIAS",
+        "nombre": "Escala de Ansiedad ante la Interaccion Social",
+        "eje": "Eje I",
+        "constructo": "Ansiedad ante la interaccion social directa",
+        "tiempo": "5 a 10 minutos (20 ítems)",
+        "acceso": "academico"
+      },
+      {
+        "id": "sads_153",
+        "sigla": "SADS",
+        "nombre": "Escala de Estres y Evitacion Social (Social Avoidance and Distress Scale)",
+        "eje": "Eje I",
+        "constructo": "Malestar subjetivo y evitacion conductual en situaciones sociales",
+        "tiempo": "8 a 12 minutos (28 ítems)",
+        "acceso": "academico"
+      },
+      {
+        "id": "pss14_155",
+        "sigla": "PSS-14",
+        "nombre": "Escala de Estres Percibido (version de 14 items)",
+        "eje": "Eje I",
+        "constructo": "Estres psicologico percibido (incontrolabilidad, autoeficacia/afrontamiento)",
+        "tiempo": "5 a 8 minutos.",
+        "acceso": "academico"
+      },
+      {
+        "id": "cae_156",
+        "sigla": "CAE",
+        "nombre": "Cuestionario de Afrontamiento del Estres",
+        "eje": "Eje II",
+        "constructo": "Estrategias de afrontamiento del estres",
+        "tiempo": "8 a 12 minutos en autoadministración.",
+        "acceso": "academico"
+      },
+      {
+        "id": "eas_157",
+        "sigla": "EAS",
+        "nombre": "Escala de Apoyo Social",
+        "eje": "Eje II",
+        "constructo": "Apoyo social percibido (familiar y de amistades)",
+        "tiempo": "4 a 6 minutos en autoadministración.",
+        "acceso": "academico"
+      },
+      {
+        "id": "erq_158",
+        "sigla": "ERQ",
+        "nombre": "Emotion Regulation Questionnaire - Cuestionario de Autorregulacion Emocional",
+        "eje": "Eje II",
+        "constructo": "Regulacion emocional (reevaluacion cognitiva, supresion expresiva)",
+        "tiempo": "2 a 4 minutos en autoadministración; 5 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "fmps_159",
+        "sigla": "FMPS",
+        "nombre": "Escala Multidimensional de Perfeccionismo",
+        "eje": "Eje II",
+        "constructo": "Perfeccionismo multidimensional",
+        "tiempo": "6 a 10 minutos en autoadministración; 12 minutos asistido.",
+        "acceso": "academico"
+      },
+      {
+        "id": "panas_161",
+        "sigla": "PANAS",
+        "nombre": "Escala de Afecto Positivo y Negativo",
+        "eje": "Eje II",
+        "constructo": "Afecto positivo y negativo",
+        "tiempo": "2 a 3 minutos en autoadministración; 4 minutos asistido.",
+        "acceso": "academico"
+      },
+      {
+        "id": "rs14_162",
+        "sigla": "RS-14",
+        "nombre": "Escala de Resiliencia de 14 items",
+        "eje": "Eje II",
+        "constructo": "Resiliencia",
+        "tiempo": "3 a 5 minutos en autoadministración.",
+        "acceso": "academico"
+      },
+      {
+        "id": "tmms24_163",
+        "sigla": "TMMS-24",
+        "nombre": "Trait Meta-Mood Scale-24",
+        "eje": "Eje II",
+        "constructo": "Inteligencia emocional percibida (atencion, claridad, reparacion)",
+        "tiempo": "4 a 6 minutos en autoadministración; 7 minutos asistido.",
+        "acceso": "academico"
+      },
+      {
+        "id": "beaq_164",
+        "sigla": "BEAQ",
+        "nombre": "Brief Experiential Avoidance Questionnaire",
+        "eje": "Eje II",
+        "constructo": "Evitacion experiencial",
+        "tiempo": "2 a 4 minutos en autoadministración.",
+        "acceso": "academico"
+      },
+      {
+        "id": "vq_165",
+        "sigla": "VQ",
+        "nombre": "Valuing Questionnaire",
+        "eje": "Eje II",
+        "constructo": "Vida valiosa (Progreso vs Obstruccion) segun valores personales",
+        "tiempo": "2 a 3 minutos en autoadministración; 4 minutos asistido.",
+        "acceso": "academico"
+      },
+      {
+        "id": "psyflex_166",
+        "sigla": "Psy-Flex",
+        "nombre": "Cuestionario Psy-Flex (flexibilidad psicologica)",
+        "eje": "Eje II",
+        "constructo": "Flexibilidad psicologica (presencia, apertura, defusion, yo estable, valores, compromiso)",
+        "tiempo": "1 minuto en autoadministración; 2 minutos asistido.",
+        "acceso": "academico"
+      },
+      {
+        "id": "cope48_167",
+        "sigla": "COPE-48",
+        "nombre": "Versión española del COPE-48 (adaptación clínica del COPE Inventory)",
+        "eje": "Eje II",
+        "constructo": "Afrontamiento (coping), 9 escalas clínicas",
+        "tiempo": "10 a 14 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ffmq-sf_168",
+        "sigla": "FFMQ-SF",
+        "nombre": "Cuestionario de Cinco Facetas de Mindfulness - Forma Corta",
+        "eje": "Eje II",
+        "constructo": "Mindfulness y regulacion emocional (5 facetas: observar, describir, actuar con consciencia, no juzgar, no reactividad)",
+        "tiempo": "4 a 6 minutos en autoadministración; 7 minutos asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "scs_169",
+        "sigla": "SCS",
+        "nombre": "Escala de Autocompasión (Self-Compassion Scale - Formas de 26 y 12 ítems)",
+        "eje": "Eje II",
+        "constructo": "Autocompasión y regulación afectiva (3 polaridades / 6 subescalas)",
+        "tiempo": "SCS completa: 6 a 8 minutos; SCS-SF: 2 a 3 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "ras-h_170",
+        "sigla": "RAS-H",
+        "nombre": "Escala de Valoración de la Relación (Relationship Assessment Scale - Hendrick)",
+        "eje": "Eje IV",
+        "constructo": "Satisfacción diádica y calidad de la relación de pareja",
+        "tiempo": "2 a 3 minutos en administración autónoma expedita.",
+        "acceso": "academico"
+      },
+      {
+        "id": "gds_179",
+        "sigla": "GDS",
+        "nombre": "Geriatric Depression Scale (Yesavage, 30 items)",
+        "eje": "Eje I",
+        "constructo": "Depresión en adultos mayores",
+        "tiempo": "8 a 12 minutos (30 reactivos de respuesta dicotómica)",
+        "acceso": "academico"
+      },
+      {
+        "id": "cds_180",
+        "sigla": "CDS",
+        "nombre": "Calgary Depression Scale for Schizophrenia",
+        "eje": "Eje I",
+        "constructo": "Depresión en esquizofrenia",
+        "tiempo": "10 a 15 minutos (heteroadministrada mediante entrevista clínica guiada y observación)",
+        "acceso": "academico"
+      },
+      {
+        "id": "mdq_181",
+        "sigla": "MDQ",
+        "nombre": "Mood Disorder Questionnaire",
+        "eje": "Eje I",
+        "constructo": "Cribado de espectro bipolar",
+        "tiempo": "5 a 7 minutos.",
+        "acceso": "academico"
+      },
+      {
+        "id": "rfl_185",
+        "sigla": "RFL",
+        "nombre": "Reasons for Living Inventory (Linehan)",
+        "eje": "Eje I",
+        "constructo": "Factores protectores frente al suicidio",
+        "tiempo": "10 a 15 minutos (48 ítems autoadministrados)",
+        "acceso": "academico"
+      },
+      {
+        "id": "rvplutchik_186",
+        "sigla": "RV-Plutchik",
+        "nombre": "Escala de Riesgo de Violencia de Plutchik",
+        "eje": "Eje I",
+        "constructo": "Riesgo de violencia autodirigida",
+        "tiempo": "3 a 5 minutos (12 ítems)",
+        "acceso": "academico"
+      },
+      {
+        "id": "eiplutchik_187",
+        "sigla": "EI-Plutchik",
+        "nombre": "Escala de Impulsividad de Plutchik",
+        "eje": "Eje I",
+        "constructo": "Impulsividad",
+        "tiempo": "3 a 5 minutos (15 ítems autoadministrados)",
+        "acceso": "academico"
+      },
+      {
+        "id": "spin_188",
+        "sigla": "SPIN",
+        "nombre": "Social Phobia Inventory",
+        "eje": "Eje I",
+        "constructo": "Fobia social",
+        "tiempo": "5 a 8 minutos (17 ítems referidos a la última semana)",
+        "acceso": "academico"
+      },
+      {
+        "id": "bsps_189",
+        "sigla": "BSPS",
+        "nombre": "Brief Social Phobia Scale (Davidson)",
+        "eje": "Eje I",
+        "constructo": "Fobia social (heteroaplicada)",
+        "tiempo": "8 a 12 minutos (heteroadministrado mediante entrevista clínica semiestructurada)",
+        "acceso": "academico"
+      },
+      {
+        "id": "bsa_190",
+        "sigla": "BSA",
+        "nombre": "Brief Scale for Anxiety (Tyrer)",
+        "eje": "Eje I",
+        "constructo": "Ansiedad general (heteroaplicada)",
+        "tiempo": "10 a 15 minutos (heteroadministrada mediante entrevista clínica semiestructurada)",
+        "acceso": "academico"
+      },
+      {
+        "id": "tq_191",
+        "sigla": "TQ",
+        "nombre": "Trauma Questionnaire",
+        "eje": "Eje I",
+        "constructo": "Exposición a eventos traumáticos",
+        "tiempo": "8 a 12 minutos (18 acontecimientos traumáticos potenciales)",
+        "acceso": "academico"
+      },
+      {
+        "id": "dai_193",
+        "sigla": "DAI",
+        "nombre": "¡OJO! Archivo etiquetado DAI contiene la PANSS completa",
+        "eje": "Eje I",
+        "constructo": "Psicopatología general (positiva/negativa)",
+        "tiempo": "2 a 4 minutos (10 reactivos dicotómicos)",
+        "acceso": "academico"
+      },
+      {
+        "id": "bdhi_194",
+        "sigla": "BDHI",
+        "nombre": "Buss-Durkee Hostility Inventory",
+        "eje": "Eje I",
+        "constructo": "Hostilidad/agresividad",
+        "tiempo": "10 a 15 minutos (autoadministrado)",
+        "acceso": "academico"
+      },
+      {
+        "id": "malt_195",
+        "sigla": "MALT",
+        "nombre": "Münchner Alkoholismustest",
+        "eje": "Eje I",
+        "constructo": "Diagnóstico de alcoholismo",
+        "tiempo": "10 a 15 minutos en total (5 min parte médica, 8 min autoinforme)",
+        "acceso": "academico"
+      },
+      {
+        "id": "ocds_200",
+        "sigla": "OCDS",
+        "nombre": "Obsessive Compulsive Drinking Scale",
+        "eje": "Eje I",
+        "constructo": "Craving/compulsión por alcohol",
+        "tiempo": "5 a 8 minutos (14 reactivos tipo Likert de 5 opciones)",
+        "acceso": "academico"
+      },
+      {
+        "id": "edi2_201",
+        "sigla": "EDI-2",
+        "nombre": "Inventario de Trastornos de la Conducta Alimentaria-2",
+        "eje": "Eje I",
+        "constructo": "Conducta alimentaria",
+        "tiempo": "15 a 25 minutos (91 ítems EDI-2 o 64 ítems nucleares EDI)",
+        "acceso": "academico"
+      },
+      {
+        "id": "bite_202",
+        "sigla": "BITE",
+        "nombre": "Bulimic Investigatory Test Edinburgh",
+        "eje": "Eje I",
+        "constructo": "Síntomas bulímicos",
+        "tiempo": "8 a 12 minutos.",
+        "acceso": "academico"
+      },
+      {
+        "id": "csfq_204",
+        "sigla": "CSFQ",
+        "nombre": "Changes in Sexual Functioning Questionnaire",
+        "eje": "Eje VI",
+        "constructo": "Funcionamiento sexual",
+        "tiempo": "5 a 7 minutos de cumplimentación autónoma con instrucciones claras.",
+        "acceso": "academico"
+      },
+      {
+        "id": "iief_205",
+        "sigla": "IIEF",
+        "nombre": "Índice Internacional de Función Eréctil",
+        "eje": "Eje VI",
+        "constructo": "Función eréctil",
+        "tiempo": "8 a 10 minutos de cumplimentación autónoma presencial o telemática.",
+        "acceso": "academico"
+      },
+      {
+        "id": "mghsfq_206",
+        "sigla": "MGH-SFQ",
+        "nombre": "Massachusetts General Hospital Sexual Functioning Q.",
+        "eje": "Eje VI",
+        "constructo": "Funcionamiento sexual",
+        "tiempo": "1 a 2 minutos de respuesta ágil en la sala de espera o entrevista médica.",
+        "acceso": "academico"
+      },
+      {
+        "id": "bwsq_208",
+        "sigla": "BWSQ",
+        "nombre": "Benzodiazepine Withdrawal Symptom Questionnaire",
+        "eje": "Eje VI",
+        "constructo": "Abstinencia de benzodiacepinas",
+        "tiempo": "5 a 8 minutos de cumplimentación autónoma o guiada en consulta médica/psicológica.",
+        "acceso": "academico"
+      },
+      {
+        "id": "eeaggaf_211",
+        "sigla": "EEAG-GAF",
+        "nombre": "Escala de Evaluación de la Actividad Global",
+        "eje": "Eje IV",
+        "constructo": "Funcionamiento global (eje V del DSM-IV)",
+        "tiempo": "2 a 3 minutos de juicio profesional tras la entrevista clínica diagnóstica.",
+        "acceso": "academico"
+      },
+      {
+        "id": "sass_213",
+        "sigla": "SASS",
+        "nombre": "Social Adaptation Self-evaluation Scale",
+        "eje": "Eje IV",
+        "constructo": "Adaptación social",
+        "tiempo": "8 a 12 minutos de cumplimentación autónoma.",
+        "acceso": "academico"
+      },
+      {
+        "id": "cscv_215",
+        "sigla": "CSCV",
+        "nombre": "Cuestionario Sevilla de Calidad de Vida",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida",
+        "tiempo": "15 a 25 minutos en administración supervisada o autoadministrada asistida.",
+        "acceso": "academico"
+      },
+      {
+        "id": "qlds_216",
+        "sigla": "QLDS",
+        "nombre": "Quality of Life Depression Scale",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida en depresión",
+        "tiempo": "5 a 8 minutos de cumplimentación autónoma.",
+        "acceso": "academico"
+      },
+      {
+        "id": "npi-n_218",
+        "sigla": "NPI-N",
+        "nombre": "Narcissistic Personality Inventory",
+        "eje": "Eje III",
+        "constructo": "Rasgos de personalidad narcisista",
+        "tiempo": "10 a 15 minutos en autoadministración.",
+        "acceso": "academico"
+      },
+      {
+        "id": "aim-a_219",
+        "sigla": "AIM-A",
+        "nombre": "Affect Intensity Measure",
+        "eje": "Eje II",
+        "constructo": "Intensidad de la reactividad afectiva",
+        "tiempo": "3 a 5 minutos en autoadministración; 6 minutos asistido.",
+        "acceso": "academico"
+      },
+      {
+        "id": "eat-40_new",
+        "sigla": "EAT-40",
+        "nombre": "Test de Actitudes hacia la Alimentación (40 ítems)",
+        "eje": "Eje I",
+        "constructo": "Trastornos de la conducta alimentaria",
+        "tiempo": "10 a 15 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eat-26_new",
+        "sigla": "EAT-26",
+        "nombre": "Test de Actitudes hacia la Alimentación - Versión Abreviada (26 ítems)",
+        "eje": "Eje I",
+        "constructo": "Trastornos de la conducta alimentaria",
+        "tiempo": "5 a 8 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eat-40-sergas_new",
+        "sigla": "EAT-40-SERGAS",
+        "nombre": "Test de Actitudes hacia la Alimentación (Formato SERGAS)",
+        "eje": "Eje I",
+        "constructo": "Trastornos de la conducta alimentaria",
+        "tiempo": "7 a 10 minutos (40 reactivos tipo Likert de 6 opciones)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "cage_new",
+        "sigla": "CAGE",
+        "nombre": "Cuestionario CAGE para Detección de Alcoholismo",
+        "eje": "Eje I",
+        "constructo": "Consumo de alcohol y adicciones",
+        "tiempo": "1 a 2 minutos (administrado verbalmente en la entrevista o autoadministrado)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sds_new",
+        "sigla": "SDS",
+        "nombre": "Escala de Autoevaluación de la Depresión de Zung y Conde (SDS)",
+        "eje": "Eje I",
+        "constructo": "Depresión y estado de ánimo",
+        "tiempo": "5 a 8 minutos (20 ítems)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "rs-plutchik_new",
+        "sigla": "RS-Plutchik",
+        "nombre": "Escala de Riesgo Suicida de Plutchik",
+        "eje": "Eje I",
+        "constructo": "Riesgo y conducta suicida",
+        "tiempo": "3 a 5 minutos (15 ítems)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bsds_new",
+        "sigla": "BSDS",
+        "nombre": "Escala Diagnóstica del Espectro Bipolar de Ghaemi",
+        "eje": "Eje I",
+        "constructo": "Trastorno bipolar y ciclotimia",
+        "tiempo": "6 a 10 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "asq-15_new",
+        "sigla": "ASQ-15",
+        "nombre": "Cuestionario de Screening de Ansiedad de Wittchen (ASQ-15)",
+        "eje": "Eje I",
+        "constructo": "Cribado multitrastorno de ansiedad",
+        "tiempo": "3 a 5 minutos (autoadministrado o administrado en el triaje de enfermería)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bhs_new",
+        "sigla": "BHS",
+        "nombre": "Escala de Desesperanza de Beck (BHS)",
+        "eje": "Eje I",
+        "constructo": "Desesperanza y riesgo suicida",
+        "tiempo": "3 a 5 minutos (autoadministrado)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "empc_new",
+        "sigla": "EMPC",
+        "nombre": "Escala Motivacional de Pensamiento Crítico (EMPC)",
+        "eje": "Eje II",
+        "constructo": "Estilos de pensamiento y metacognición",
+        "tiempo": "3 a 5 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "tsi_new",
+        "sigla": "TSI",
+        "nombre": "Inventario de Estilos de Pensamiento de Sternberg (TSI)",
+        "eje": "Eje II",
+        "constructo": "Estilos cognitivos y autogobierno mental",
+        "tiempo": "15 a 20 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sseit_new",
+        "sigla": "SSEIT",
+        "nombre": "Escala de Inteligencia Emocional de Schutte (SSEIT)",
+        "eje": "Eje II",
+        "constructo": "Inteligencia emocional autopercibida",
+        "tiempo": "6 a 10 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "iss_new",
+        "sigla": "ISS",
+        "nombre": "Inventario de Situaciones Sociales (ISS)",
+        "eje": "Eje II",
+        "constructo": "Afrontamiento interpersonal y asertividad",
+        "tiempo": "6 a 10 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "hsq-24_new",
+        "sigla": "HSQ-24",
+        "nombre": "Cuestionario de Estilos de Humor (HSQ-24)",
+        "eje": "Eje II",
+        "constructo": "Regulación afectiva y mecanismos de humor",
+        "tiempo": "4 a 6 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "er-25_new",
+        "sigla": "ER-25",
+        "nombre": "Escala de Resiliencia de Wagnild y Young (25 ítems)",
+        "eje": "Eje II",
+        "constructo": "Resiliencia y superación de adversidades",
+        "tiempo": "5 a 8 minutos en autoadministración.",
+        "acceso": "comercial"
+      },
+      {
+        "id": "crea-24_new",
+        "sigla": "CREA-24",
+        "nombre": "Escala de Autopercepción de Creatividad (CREA-24)",
+        "eje": "Eje III",
+        "constructo": "Autoconcepto y autoeficacia creativa",
+        "tiempo": "5 a 8 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sss-v_new",
+        "sigla": "SSS-V",
+        "nombre": "Escala de Búsqueda de Sensaciones de Zuckerman (Forma V)",
+        "eje": "Eje III",
+        "constructo": "Rasgo disposicional de personalidad",
+        "tiempo": "10 a 15 minutos en autoadministración.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "swbs_new",
+        "sigla": "SWBS",
+        "nombre": "Escala de Bienestar Social de Keyes",
+        "eje": "Eje IV",
+        "constructo": "Bienestar social y ajuste comunitario",
+        "tiempo": "8 a 10 minutos de administración autónoma.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "q-les-q_new",
+        "sigla": "Q-LES-Q",
+        "nombre": "Cuestionario de Calidad de Vida: Satisfacción y Placer de Endicott",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida y satisfacción vital",
+        "tiempo": "3 a 5 minutos en administración breve y sencilla.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "eq-5d_new",
+        "sigla": "EQ-5D",
+        "nombre": "Cuestionario de Salud EuroQoL-5D",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida relacionada con la salud",
+        "tiempo": "2 a 4 minutos de respuesta sencilla y rápida.",
+        "acceso": "comercial"
+      },
+      {
+        "id": "gsqs_new",
+        "sigla": "GSQS",
+        "nombre": "Escala Groningen de la Calidad del Sueño (GSQS)",
+        "eje": "Eje VI",
+        "constructo": "Calidad de descanso e insomnio agudo",
+        "tiempo": "2 a 3 minutos (administración matutina inmediata)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "othmer-desouza_new",
+        "sigla": "Othmer-DeSouza",
+        "nombre": "Test de Detección de Somatización de Othmer y DeSouza",
+        "eje": "Eje VI",
+        "constructo": "Síntomas somatomorfos y somatización",
+        "tiempo": "2 a 3 minutos (heteroadministrado o autoadministrado en sala de espera)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "laxitud-hdm_new",
+        "sigla": "Laxitud-HdM",
+        "nombre": "Criterios de Laxitud Articular del Hospital del Mar (Bulbena)",
+        "eje": "Eje VI",
+        "constructo": "Marcador somático de hiperlaxitud y pánico",
+        "tiempo": "5 a 8 minutos (exploración física articular estandarizada en camilla/consulta)",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "modalidad": "Heteroaplicado / Entrevista clínica",
+    "total_instrumentos": 48,
+    "instrumentos": [
+      {
+        "id": "caps-5_10",
+        "sigla": "CAPS-5",
+        "nombre": "Escala Administrada por Clínico para el TEPT",
+        "eje": "Eje I",
+        "constructo": "Trauma y estrés postraumático",
+        "tiempo": "45 a 60 minutos (entrevista clínica estructurada integral conducida por profesional cualificado)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "hdrs_17",
+        "sigla": "HDRS / HAM-D",
+        "nombre": "Escala de Calificación de la Depresión de Hamilton",
+        "eje": "Eje I",
+        "constructo": "Depresión y anhedonia",
+        "tiempo": "20 a 30 minutos (administrada por clínico entrenado)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "y-bocs_18",
+        "sigla": "Y-BOCS",
+        "nombre": "Escala de Obsesiones y Compulsiones de Yale-Brown",
+        "eje": "Eje I",
+        "constructo": "Obsesiones y compulsiones",
+        "tiempo": "20 a 30 minutos (10 ítems clínicos nucleares precedidos por el inventario de síntomas)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "pcl-r_32",
+        "sigla": "PCL-R",
+        "nombre": "Escala de Calificación de Psicopatía Revisada",
+        "eje": "Eje III",
+        "constructo": "Conducta antisocial",
+        "tiempo": "90 a 120 minutos de entrevista clínica + revisión exhaustiva de antecedentes colaterales.",
+        "acceso": "comercial"
+      },
+      {
+        "id": "scid-5-pd_34",
+        "sigla": "SCID-5-PD",
+        "nombre": "SCID-5-PD (Trastorno de la Personalidad Antisocial)",
+        "eje": "Eje I",
+        "constructo": "Conducta antisocial",
+        "tiempo": "45 a 90 minutos (entrevista completa) o 15 a 30 min (tras cribado previo SCID-5-SPQ)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "assist_38",
+        "sigla": "ASSIST",
+        "nombre": "Prueba de Detección de Consumo de Alcohol, Tabaco y Sustancias",
+        "eje": "Eje I",
+        "constructo": "Uso problemático de sustancias",
+        "tiempo": "5 a 10 minutos (más breve si el consumo es exclusivo de una o dos sustancias).",
+        "acceso": "abierto"
+      },
+      {
+        "id": "audit_39",
+        "sigla": "AUDIT",
+        "nombre": "Prueba de Identificación de Trastornos Relacionados con el Alcohol",
+        "eje": "Eje I",
+        "constructo": "Uso problemático de sustancias",
+        "tiempo": "3 a 5 minutos en formato autoinforme o cribado breve asistido.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "dast-10_40",
+        "sigla": "DAST-10",
+        "nombre": "Prueba de Detección de Abuso de Drogas",
+        "eje": "Eje I",
+        "constructo": "Uso problemático de sustancias",
+        "tiempo": "3 a 5 minutos (10 preguntas dicotómicas)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "panss_45",
+        "sigla": "PANSS",
+        "nombre": "Escala de los Síndromes Positivo y Negativo",
+        "eje": "Eje I",
+        "constructo": "Desorganización cognitiva y conductual",
+        "tiempo": "40 a 50 minutos (30 a 40 min entrevista semiestructurada SCI-PANSS + 10 min calificación)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "c-ssrs_46",
+        "sigla": "C-SSRS",
+        "nombre": "Escala Columbia para Evaluar el Riesgo de Suicidio",
+        "eje": "Eje I",
+        "constructo": "Ideación y Conducta suicida",
+        "tiempo": "2 a 5 minutos en versión cribado (_Screener_); 10 a 15 minutos en versión completa.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mmse_119",
+        "sigla": "MMSE",
+        "nombre": "Mini-Examen del Estado Cognitivo",
+        "eje": "Eje V",
+        "constructo": "Cribado Cognitivo Global (Estado Mental)",
+        "tiempo": "8 a 10 minutos de rápida administración clínica.",
+        "acceso": "comercial"
+      },
+      {
+        "id": "rmet_132",
+        "sigla": "RMET",
+        "nombre": "Test de Leer la Mente en los Ojos",
+        "eje": "Eje V",
+        "constructo": "Cognición Social e Interocepción",
+        "tiempo": "10 a 15 minutos; incluye un glosario con definiciones breves de cada estado mental.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "faux_pas_test_134",
+        "sigla": "Faux Pas Test",
+        "nombre": "Test de Meteduras de Pata",
+        "eje": "Eje V",
+        "constructo": "Cognición Social e Interocepción",
+        "tiempo": "15 a 20 minutos de lectura compartida y preguntas de comprensión estructuradas.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "prsexdq_new1",
+        "sigla": "PRSexDQ-SALSEX",
+        "nombre": "Cuestionario de Disfunción Sexual Secundaria al Tratamiento con Psicofármacos",
+        "eje": "Eje VI",
+        "constructo": "Salud sexual (disfunción inducida por fármacos)",
+        "tiempo": "3 a 5 minutos de administración dinámica e integrada en la entrevista médica.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mec_171",
+        "sigla": "MEC",
+        "nombre": "Mini-Examen Cognoscitivo de Lobo",
+        "eje": "Eje V",
+        "constructo": "Cribado cognitivo global",
+        "tiempo": "8 a 12 minutos de rápida aplicación clínica en consulta o cabecera de cama.",
+        "acceso": "academico"
+      },
+      {
+        "id": "bprs_173",
+        "sigla": "BPRS",
+        "nombre": "Brief Psychiatric Rating Scale",
+        "eje": "Eje I",
+        "constructo": "Psicopatología general (heteroaplicada)",
+        "tiempo": "15 a 25 minutos (heteroadministrada mediante entrevista clínica y observación directa)",
+        "acceso": "academico"
+      },
+      {
+        "id": "sips_174",
+        "sigla": "SIPS",
+        "nombre": "Entrevista Estructurada para Síndromes Prodrómicos",
+        "eje": "Eje I",
+        "constructo": "Riesgo de psicosis",
+        "tiempo": "45 a 75 minutos (entrevista diagnóstica exhaustiva)",
+        "acceso": "academico"
+      },
+      {
+        "id": "sops_175",
+        "sigla": "SOPS",
+        "nombre": "Scale of Prodromal Syndromes",
+        "eje": "Eje I",
+        "constructo": "Síntomas prodrómicos de psicosis",
+        "tiempo": "30 a 45 minutos (19 ítems clínicos)",
+        "acceso": "academico"
+      },
+      {
+        "id": "sumd_176",
+        "sigla": "SUMD",
+        "nombre": "Scale to Assess Unawareness of Mental Disorder",
+        "eje": "Eje I",
+        "constructo": "Insight/conciencia de enfermedad",
+        "tiempo": "15 a 25 minutos (versión abreviada de 6 a 9 ítems) o 45 min (versión completa de 20 síntomas)",
+        "acceso": "academico"
+      },
+      {
+        "id": "oas_177",
+        "sigla": "OAS",
+        "nombre": "Overt Aggression Scale",
+        "eje": "Eje I",
+        "constructo": "Agresividad manifiesta observada",
+        "tiempo": "2 a 3 minutos por cada episodio agresivo registrado de forma inmediata",
+        "acceso": "academico"
+      },
+      {
+        "id": "madrs_178",
+        "sigla": "MADRS",
+        "nombre": "Montgomery-Asberg Depression Rating Scale",
+        "eje": "Eje I",
+        "constructo": "Severidad depresiva (heteroaplicada)",
+        "tiempo": "12 a 20 minutos (administrada por clínico entrenado)",
+        "acceso": "academico"
+      },
+      {
+        "id": "ymrs_182",
+        "sigla": "YMRS",
+        "nombre": "Young Mania Rating Scale",
+        "eje": "Eje I",
+        "constructo": "Severidad de manía",
+        "tiempo": "15 a 20 minutos (11 ítems con ponderación clínica específica)",
+        "acceso": "academico"
+      },
+      {
+        "id": "evmac_183",
+        "sigla": "EVMAC",
+        "nombre": "Escala para la Valoración de la Manía por Clínicos",
+        "eje": "Eje I",
+        "constructo": "Severidad de manía (heteroaplicada)",
+        "tiempo": "15 a 25 minutos (15 reactivos valorados por un psiquiatra o psicólogo)",
+        "acceso": "academico"
+      },
+      {
+        "id": "mas_184",
+        "sigla": "MAS",
+        "nombre": "Escala de Manía de Bech-Rafaelsen",
+        "eje": "Eje I",
+        "constructo": "Severidad de manía",
+        "tiempo": "12 a 18 minutos (cumplimentada por clínico entrenado)",
+        "acceso": "academico"
+      },
+      {
+        "id": "dgrp_192",
+        "sigla": "DGRP",
+        "nombre": "Duke Global Rating Scale for PTSD",
+        "eje": "Eje I",
+        "constructo": "Cambio global en TEPT",
+        "tiempo": "3 a 5 minutos (cumplimentada por el profesional de salud mental)",
+        "acceso": "academico"
+      },
+      {
+        "id": "isca_196",
+        "sigla": "ISCA",
+        "nombre": "Interrogatorio Sistematizado de Consumos Alcohólicos",
+        "eje": "Eje I",
+        "constructo": "Consumo de alcohol",
+        "tiempo": "2 a 3 minutos (integrado en la anamnesis clínica habitual)",
+        "acceso": "academico"
+      },
+      {
+        "id": "europasi_197",
+        "sigla": "EuropASI",
+        "nombre": "Índice Europeo de Gravedad de la Adicción",
+        "eje": "Eje I",
+        "constructo": "Gravedad multidimensional de adicción",
+        "tiempo": "45 a 60 minutos en la evaluación basal (20-30 min en seguimientos evolutivos)",
+        "acceso": "academico"
+      },
+      {
+        "id": "sadq_198",
+        "sigla": "SADQ",
+        "nombre": "Severity of Alcohol Dependence Questionnaire",
+        "eje": "Eje I",
+        "constructo": "Severidad de dependencia alcohólica",
+        "tiempo": "10 a 15 minutos (33 ítems referidos al periodo de mayor consumo en los últimos 6 meses)",
+        "acceso": "academico"
+      },
+      {
+        "id": "eida_199",
+        "sigla": "EIDA",
+        "nombre": "Escala de la Intensidad de la Dependencia al Alcohol",
+        "eje": "Eje I",
+        "constructo": "Dependencia alcohólica",
+        "tiempo": "8 a 12 minutos (30 reactivos clínicos)",
+        "acceso": "academico"
+      },
+      {
+        "id": "cos_203",
+        "sigla": "COS",
+        "nombre": "Cuestionario Oviedo de Calidad del Sueño",
+        "eje": "Eje VI",
+        "constructo": "Calidad del sueño",
+        "tiempo": "5 a 8 minutos de cumplimentación y valoración de las últimas 4 semanas de sueño.",
+        "acceso": "academico"
+      },
+      {
+        "id": "asex_207",
+        "sigla": "ASEX",
+        "nombre": "Arizona Sexual Experience Scale",
+        "eje": "Eje VI",
+        "constructo": "Funcionamiento sexual",
+        "tiempo": "2 a 3 minutos de rápida cumplimentación en consulta ambulatoria o de hospitalización.",
+        "acceso": "academico"
+      },
+      {
+        "id": "sas_209",
+        "sigla": "SAS",
+        "nombre": "Simpson-Angus Scale",
+        "eje": "Eje VI",
+        "constructo": "Parkinsonismo/extrapiramidalismo inducido",
+        "tiempo": "8 a 10 minutos de exploración física reglada en camilla y bipedestación.",
+        "acceso": "academico"
+      },
+      {
+        "id": "uku_210",
+        "sigla": "UKU",
+        "nombre": "UKU Side Effect Rating Scale",
+        "eje": "Eje VI",
+        "constructo": "Efectos secundarios de psicofármacos",
+        "tiempo": "15 a 20 minutos de revisión sistemática estructurada en consulta clínica.",
+        "acceso": "academico"
+      },
+      {
+        "id": "sdi_212",
+        "sigla": "SDI",
+        "nombre": "Sheehan Disability Inventory",
+        "eje": "Eje IV",
+        "constructo": "Discapacidad funcional",
+        "tiempo": "2 a 4 minutos de rápida cumplimentación.",
+        "acceso": "academico"
+      },
+      {
+        "id": "qls_214",
+        "sigla": "QLS",
+        "nombre": "Quality of Life Scale (Heinrichs)",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida en esquizofrenia",
+        "tiempo": "30 a 45 minutos de entrevista clínica detallada con paciente y allegados.",
+        "acceso": "academico"
+      },
+      {
+        "id": "top-8_220",
+        "sigla": "TOP-8",
+        "nombre": "Escala de 8 ítems para los Resultados del Tratamiento del TEPT",
+        "eje": "Eje I",
+        "constructo": "Respuesta al tratamiento en TEPT",
+        "tiempo": "3 a 5 minutos (8 ítems referidos a la última semana)",
+        "acceso": "academico"
+      },
+      {
+        "id": "scps_new",
+        "sigla": "SCPS",
+        "nombre": "Escala Pronóstica para la Esquizofrenia de Strauss y Carpenter",
+        "eje": "Eje I",
+        "constructo": "Psicosis y curso pronóstico",
+        "tiempo": "15 a 25 minutos (revisión de historia clínica y anamnesis de 12 dimensiones)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "sis_new",
+        "sigla": "SIS",
+        "nombre": "Escala de Intencionalidad Suicida de Beck (SIS)",
+        "eje": "Eje I",
+        "constructo": "Riesgo y conducta suicida",
+        "tiempo": "10 a 15 minutos (20 ítems puntuados de 0 a 2)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "hars_new",
+        "sigla": "HARS",
+        "nombre": "Escala de Hamilton para la Ansiedad (HAM-A)",
+        "eje": "Eje I",
+        "constructo": "Ansiedad psíquica y somática",
+        "tiempo": "15 a 20 minutos (administrada por clínico entrenado)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "pas_new",
+        "sigla": "PAS",
+        "nombre": "Escala de Pánico y Agorafobia de Bandelow (PAS)",
+        "eje": "Eje I",
+        "constructo": "Pánico y agorafobia",
+        "tiempo": "8 a 12 minutos (13 reactivos estructurados)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "lsas_new",
+        "sigla": "LSAS",
+        "nombre": "Escala de Ansiedad Social de Liebowitz (LSAS)",
+        "eje": "Eje I",
+        "constructo": "Fobia social y ansiedad de desempeño",
+        "tiempo": "15 a 25 minutos (24 reactivos pareados en miedo y evitación: 48 respuestas)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "carroll-tag_new",
+        "sigla": "Carroll-TAG",
+        "nombre": "Escala de Detección del TAG de Carroll y Davidson",
+        "eje": "Eje I",
+        "constructo": "Ansiedad generalizada",
+        "tiempo": "3 a 5 minutos (12 reactivos de cribado sintomático)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mini_new",
+        "sigla": "MINI",
+        "nombre": "Entrevista Neuropsiquiátrica Internacional (MINI 5.0.0)",
+        "eje": "Eje I",
+        "constructo": "Evaluación diagnóstica multiaxial DSM-IV/CIE-10",
+        "tiempo": "15 a 25 minutos (frente a las 2-3 horas de la SCID o CIDI)",
+        "acceso": "comercial"
+      },
+      {
+        "id": "cgi_new",
+        "sigla": "CGI",
+        "nombre": "Escala de Impresión Clínica Global de Guy (CGI)",
+        "eje": "Eje IV",
+        "constructo": "Funcionamiento global y severidad transdiagnóstica",
+        "tiempo": "1 a 2 minutos inmediatamente tras la entrevista clínica habitual.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "zbi_new",
+        "sigla": "ZBI",
+        "nombre": "Escala de Sobrecarga del Cuidador de Zarit (ZBI)",
+        "eje": "Eje IV",
+        "constructo": "Sobrecarga familiar y dinámica de cuidados",
+        "tiempo": "8 a 12 minutos de cumplimentación autónoma o guiada.",
+        "acceso": "comercial"
+      },
+      {
+        "id": "his_new",
+        "sigla": "HIS",
+        "nombre": "Escala de Isquemia de Hachinski (HIS)",
+        "eje": "Eje V",
+        "constructo": "Diagnóstico diferencial de demencias",
+        "tiempo": "5 a 10 minutos de cumplimentación tras historia clínica y examen neurológico.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bars_new",
+        "sigla": "BARS",
+        "nombre": "Escala de Acatisia de Barnes (BARS)",
+        "eje": "Eje VI",
+        "constructo": "Efectos extrapiramidales y farmacovigilancia",
+        "tiempo": "5 a 8 minutos de observación directa (sentado y de pie) y entrevista dirigida.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "aims_new",
+        "sigla": "AIMS",
+        "nombre": "Escala de Movimientos Involuntarios Anormales de Guy (AIMS)",
+        "eje": "Eje VI",
+        "constructo": "Farmacovigilancia y discinesia tardía",
+        "tiempo": "10 a 12 minutos de exploración médica neurológica interactiva en consulta.",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "modalidad": "Observacional / Registro conductual",
+    "total_instrumentos": 7,
+    "instrumentos": [
+      {
+        "id": "sogs_42",
+        "sigla": "SOGS",
+        "nombre": "Prueba de Detección de Juego Patológico de South Oaks",
+        "eje": "Eje I",
+        "constructo": "Adicciones conductuales",
+        "tiempo": "6 a 10 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "indice_de_barth_101",
+        "sigla": "BARTHEL",
+        "nombre": "Índice de Barthel",
+        "eje": "Eje IV",
+        "constructo": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+        "tiempo": "5 a 10 minutos de administración por profesional sanitario o cuidador formado.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "escala_de_lawton_102",
+        "sigla": "Escala de Lawton",
+        "nombre": "Escala de Lawton y Brody",
+        "eje": "Eje IV",
+        "constructo": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
+        "tiempo": "5 a 10 minutos de administración semiestructurada.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "adrql_217",
+        "sigla": "ADRQL",
+        "nombre": "Alzheimer's Disease Related Quality of Life",
+        "eje": "Eje IV",
+        "constructo": "Calidad de vida en demencia",
+        "tiempo": "15 a 20 minutos de administración por el cuidador primario o profesional.",
+        "acceso": "academico"
+      },
+      {
+        "id": "abs_new",
+        "sigla": "ABS",
+        "nombre": "Escala de Comportamiento Agitado de Corrigan (ABS)",
+        "eje": "Eje I",
+        "constructo": "Agitación psicomotriz e impulsividad aguda",
+        "tiempo": "5 a 15 minutos",
+        "acceso": "abierto"
+      },
+      {
+        "id": "diario-panico_new",
+        "sigla": "Diario-Panico",
+        "nombre": "Trastorno de Pánico: Diario del Paciente (Autorregistro TCC)",
+        "eje": "Eje I",
+        "constructo": "Crisis de angustia y pánico",
+        "tiempo": "2 a 3 minutos por cada crisis registrada inmediatamente tras el episodio",
+        "acceso": "abierto"
+      },
+      {
+        "id": "katz_new",
+        "sigla": "KATZ",
+        "nombre": "Índice de Katz de Actividades Básicas de la Vida Diaria (ABVD)",
+        "eje": "Eje IV",
+        "constructo": "Autonomía funcional y dependencia biológica",
+        "tiempo": "3 a 5 minutos de juicio profesional tras entrevista al paciente o cuidador.",
+        "acceso": "abierto"
+      }
+    ]
+  },
+  {
+    "modalidad": "Rendimiento neurocognitivo / Tarea de ejecución",
+    "total_instrumentos": 19,
+    "instrumentos": [
+      {
+        "id": "leas_61",
+        "sigla": "LEAS",
+        "nombre": "Escala de Niveles de Conciencia Emocional",
+        "eje": "Eje II",
+        "constructo": "Conciencia emocional",
+        "tiempo": "10 a 15 minutos (versión 10 escenarios); 20 a 25 minutos (versión 20 escenarios).",
+        "acceso": "abierto"
+      },
+      {
+        "id": "moca_120",
+        "sigla": "MoCA",
+        "nombre": "Evaluación Cognitiva de Montreal",
+        "eje": "Eje V",
+        "constructo": "Cribado Cognitivo Global (Estado Mental)",
+        "tiempo": "10 a 12 minutos de administración ágil y dinámica.",
+        "acceso": "academico"
+      },
+      {
+        "id": "d2-r_121",
+        "sigla": "d2-R",
+        "nombre": "Test de Atención d2-R",
+        "eje": "Eje V",
+        "constructo": "Atención (Sostenida, Selectiva, Dividida y Vigilancia)",
+        "tiempo": "Aproximadamente 8 minutos (20 segundos cronometrados por línea, 14 líneas consecutivas).",
+        "acceso": "comercial"
+      },
+      {
+        "id": "tmt_122",
+        "sigla": "TMT",
+        "nombre": "Test del Trazo (Trail Making Test)",
+        "eje": "Eje V",
+        "constructo": "Atención (Sostenida, Selectiva, Dividida y Vigilancia)",
+        "tiempo": "5 a 10 minutos (incluye láminas breves de entrenamiento previo para cada parte).",
+        "acceso": "abierto"
+      },
+      {
+        "id": "tavec_123",
+        "sigla": "TAVEC",
+        "nombre": "Test de Aprendizaje Verbal de España-Complutense",
+        "eje": "Eje V",
+        "constructo": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
+        "tiempo": "30 a 35 min de aplicación activa (más 20 minutos de intervalo demorado libre).",
+        "acceso": "comercial"
+      },
+      {
+        "id": "figura_de_rey_124",
+        "sigla": "Figura de Rey",
+        "nombre": "Test de Copia de una Figura Compleja",
+        "eje": "Eje V",
+        "constructo": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
+        "tiempo": "Copia: 5-15 min; Recuerdo Inm./Dem.: 3-5 min c/u; Duración total de la sesión: 35-45 minutos.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "wcst_125",
+        "sigla": "WCST",
+        "nombre": "Test de Clasificación de Tarjetas de Wisconsin",
+        "eje": "Eje V",
+        "constructo": "Funciones Ejecutivas",
+        "tiempo": "20 a 30 minutos según la velocidad de resolución y perseveración del evaluado.",
+        "acceso": "comercial"
+      },
+      {
+        "id": "stroop_test_126",
+        "sigla": "Stroop Test",
+        "nombre": "Test de Colores y Palabras",
+        "eje": "Eje V",
+        "constructo": "Funciones Ejecutivas",
+        "tiempo": "Aproximadamente 5 minutos (exactamente 45 segundos cronometrados por cada una de las 3 láminas).",
+        "acceso": "abierto"
+      },
+      {
+        "id": "igt_127",
+        "sigla": "IGT",
+        "nombre": "Iowa Gambling Task",
+        "eje": "Eje V",
+        "constructo": "Funciones Ejecutivas",
+        "tiempo": "15 a 20 minutos en formato informatizado estandarizado (o manual con barajas).",
+        "acceso": "abierto"
+      },
+      {
+        "id": "brief-2_128",
+        "sigla": "BRIEF-2",
+        "nombre": "Evaluación Conductual de la Función Ejecutiva",
+        "eje": "Eje V",
+        "constructo": "Funciones Ejecutivas",
+        "tiempo": "10 a 15 minutos por cuestionario; corrección informatizada o manual por plantilla.",
+        "acceso": "comercial"
+      },
+      {
+        "id": "ifs_129",
+        "sigla": "IFS",
+        "nombre": "INECO Frontal Screening",
+        "eje": "Eje V",
+        "constructo": "Funciones Ejecutivas",
+        "tiempo": "10 a 12 minutos de administración ágil en el examen neurológico o neuropsicológico.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "bnt_130",
+        "sigla": "BNT",
+        "nombre": "Test de Denominación de Boston",
+        "eje": "Eje V",
+        "constructo": "Comprensión, Expresión y Fluidez Verbal",
+        "tiempo": "10 a 20 minutos (forma completa) o 5 minutos (formas abreviadas).",
+        "acceso": "comercial"
+      },
+      {
+        "id": "tfv_131",
+        "sigla": "TFV",
+        "nombre": "Test de Fluidez Verbal (FAS y Animales)",
+        "eje": "Eje V",
+        "constructo": "Comprensión, Expresión y Fluidez Verbal",
+        "tiempo": "5 a 6 minutos de aplicación interactiva ágil con cronómetro en mano.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "dex-sp_new1",
+        "sigla": "DEX-Sp",
+        "nombre": "Cuestionario Disejecutivo (versión española)",
+        "eje": "Eje V",
+        "constructo": "Síntomas disejecutivos conductuales",
+        "tiempo": "5 a 8 minutos de cumplimentación autónoma o guiada por examinador.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "efeco_new1",
+        "sigla": "EFECO",
+        "nombre": "Escala EFECO para Valorar Funciones Ejecutivas",
+        "eje": "Eje V",
+        "constructo": "Funciones ejecutivas cotidianas (autoinforme)",
+        "tiempo": "12 a 15 minutos en versión completa; 6 a 8 minutos en versión abreviada.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "mfe_new1",
+        "sigla": "MFE",
+        "nombre": "Cuestionario de Fallos de Memoria de la Vida Cotidiana",
+        "eje": "Eje V",
+        "constructo": "Fallos de memoria cotidiana (metamemoria)",
+        "tiempo": "8 a 10 minutos de cumplimentación autónoma o guiada por examinador.",
+        "acceso": "abierto"
+      },
+      {
+        "id": "meqsa_new1",
+        "sigla": "MEQ-SA",
+        "nombre": "Cuestionario de Matutinidad-Vespertinidad de Horne y Östberg (versión española)",
+        "eje": "Eje VI",
+        "constructo": "Cronotipo/ritmo circadiano",
+        "tiempo": "8 a 12 minutos (autoadministrado)",
+        "acceso": "abierto"
+      },
+      {
+        "id": "adascog_172",
+        "sigla": "ADAS-Cog",
+        "nombre": "Alzheimer's Disease Assessment Scale - Cognitiva",
+        "eje": "Eje V",
+        "constructo": "Deterioro cognitivo en demencia",
+        "tiempo": "30 a 45 minutos de evaluación interactiva presencial.",
+        "acceso": "academico"
+      },
+      {
+        "id": "cfss_new",
+        "sigla": "CFSS",
+        "nombre": "Escala de Autoevaluación del Funcionamiento Cognitivo (CFSS)",
+        "eje": "Eje V",
+        "constructo": "Quejas cognitivas subjetivas cotidianas",
+        "tiempo": "3 a 5 minutos de rápida cumplimentación por el propio paciente o informante.",
+        "acceso": "abierto"
+      }
+    ]
+  }
+]

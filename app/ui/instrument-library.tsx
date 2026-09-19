@@ -18,6 +18,9 @@ import {
 } from "lucide-react";
 import rawCatalog from "../../data/catalog.json";
 import ejesData from "../../data/ejes.json";
+import rawIndice from "../../data/indice_psicoflujo.json";
+import { crearIndice, buscar } from "../../buscador_indice";
+import { claMap } from "../lib/guia";
 
 export interface CatalogItem {
   family_id: string;
@@ -50,6 +53,56 @@ export interface AxisInfo {
   por_que: string;
 }
 
+export interface IndiceTema {
+  id: string;
+  nombre: string;
+  eje: string;
+  apa?: { p: string; pn: string; s: string; sn: string };
+  hitop?: { grupo: string; detalle: string };
+  dsm5?: string;
+  confianza?: string;
+  terminos?: string[];
+}
+
+export interface IndiceFamilia {
+  id: string;
+  eje: number;
+  sigla: string;
+  alias?: string[];
+  nombre: string;
+  en?: string;
+  constructo: string;
+  tema: string;
+  sec?: string[];
+  fuente?: string;
+  franjas?: string[];
+  protocolo?: string;
+}
+
+export interface IndiceData {
+  version: string;
+  generado: string;
+  fuente: string;
+  normalizacion: string;
+  ejes: AxisInfo[];
+  temas: IndiceTema[];
+  familias: IndiceFamilia[];
+}
+
+export const indiceData = rawIndice as unknown as IndiceData;
+
+// Indice de busqueda creado una sola vez al cargar
+export const searchIndex = crearIndice(indiceData);
+
+// Mapas de acceso rapido para facetas
+export const indexFamilyMap = new Map<string, IndiceFamilia>(
+  indiceData.familias.map((f) => [f.id, f])
+);
+
+export const indexThemeMap = new Map<string, IndiceTema>(
+  indiceData.temas.map((t) => [t.id, t])
+);
+
 export const catalog = rawCatalog as CatalogItem[];
 
 export const AXES: AxisInfo[] = ejesData;
@@ -66,14 +119,6 @@ export const AGE_FRANJAS = [
   { id: "mayores", label: "Mayores (65+)" },
 ];
 
-function normalizeText(text: string): string {
-  return text
-    .toLocaleLowerCase("es")
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .trim();
-}
-
 interface InstrumentLibraryProps {
   query?: string;
   setQuery?: (q: string) => void;
@@ -83,6 +128,12 @@ interface InstrumentLibraryProps {
   setSelectedFranja?: (franja: string) => void;
   selectedTheme?: string;
   setSelectedTheme?: (theme: string) => void;
+  selectedFuncion?: string;
+  setSelectedFuncion?: (fn: string) => void;
+  selectedTipo?: string;
+  setSelectedTipo?: (tipo: string) => void;
+  selectedLibre?: boolean;
+  setSelectedLibre?: (libre: boolean) => void;
 }
 
 export function InstrumentLibrary(props: InstrumentLibraryProps) {
@@ -91,6 +142,9 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
   const [internalAxis, setInternalAxis] = useState<number | "all">("all");
   const [internalFranja, setInternalFranja] = useState<string>("all");
   const [internalTheme, setInternalTheme] = useState<string>("all");
+  const [internalFuncion, setInternalFuncion] = useState<string>("all");
+  const [internalTipo, setInternalTipo] = useState<string>("all");
+  const [internalLibre, setInternalLibre] = useState<boolean>(false);
 
   const query = props.query !== undefined ? props.query : internalQuery;
   const setQuery = props.setQuery || setInternalQuery;
@@ -104,6 +158,15 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
   const selectedTheme = props.selectedTheme !== undefined ? props.selectedTheme : internalTheme;
   const setSelectedTheme = props.setSelectedTheme || setInternalTheme;
 
+  const selectedFuncion = props.selectedFuncion !== undefined ? props.selectedFuncion : internalFuncion;
+  const setSelectedFuncion = props.setSelectedFuncion || setInternalFuncion;
+
+  const selectedTipo = props.selectedTipo !== undefined ? props.selectedTipo : internalTipo;
+  const setSelectedTipo = props.setSelectedTipo || setInternalTipo;
+
+  const selectedLibre = props.selectedLibre !== undefined ? props.selectedLibre : internalLibre;
+  const setSelectedLibre = props.setSelectedLibre || setInternalLibre;
+
   const [open, setOpen] = useState<string | null>(null);
   const [showAllThemesMobile, setShowAllThemesMobile] = useState(false);
   const [themeCloudCollapsedMobile, setThemeCloudCollapsedMobile] = useState(true);
@@ -115,62 +178,117 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
     []
   );
 
-  // List of all 39 themes with family counts by primary theme
+  // List of all 40 themes with family counts by primary theme from index
   const themeList = useMemo(() => {
     const counts: Record<string, number> = {};
-    for (const item of catalog) {
-      const primaryTheme = item.temas?.[0];
-      if (primaryTheme) {
-        counts[primaryTheme] = (counts[primaryTheme] || 0) + 1;
+    for (const t of indiceData.temas) {
+      counts[t.nombre] = 0;
+    }
+    for (const f of indiceData.familias) {
+      const tName = indexThemeMap.get(f.tema)?.nombre;
+      if (tName) {
+        counts[tName] = (counts[tName] || 0) + 1;
       }
     }
     return Object.entries(counts)
+      .filter(([_, count]) => count > 0)
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
       .map(([name, count]) => ({
         name,
         count,
-        size: count >= 8 ? "lg" : count >= 5 ? "md" : "sm",
+        size: (count >= 8 ? "lg" : count >= 5 ? "md" : "sm") as "lg" | "md" | "sm",
       }));
   }, []);
 
   // Filtered instruments
   const filtered = useMemo(() => {
-    const normalizedQuery = normalizeText(query);
-    const queryWords = normalizedQuery.split(/\s+/).filter(Boolean);
+    const trimmedQuery = query.trim();
+    let searchHitMap: Map<string, { score: number; parcial: boolean; rank: number }> | null = null;
 
-    return catalog.filter((item) => {
-      // Axis filter
-      if (selectedAxis !== "all" && item.eje_num !== selectedAxis) {
-        return false;
-      }
-      // Franja filter
-      if (selectedFranja !== "all" && !item.franjas.includes(selectedFranja)) {
-        return false;
-      }
-      // Theme filter (primary theme)
-      if (selectedTheme !== "all" && item.temas?.[0] !== selectedTheme) {
-        return false;
-      }
-      // Free search
-      if (queryWords.length > 0) {
-        const searchable = normalizeText(
-          `${item.sigla} ${item.nombre} ${item.constructo} ${item.temas?.join(" ") ?? ""} ${item.sinonimos?.join(" ") ?? ""} ${item.poblacion} ${item.description ?? ""} ${item.use ?? ""}`
-        );
-        const matchesAllWords = queryWords.every((word) => searchable.includes(word));
-        if (!matchesAllWords) {
+    if (trimmedQuery.length > 0) {
+      const results = buscar(searchIndex, trimmedQuery, { limite: catalog.length });
+      searchHitMap = new Map();
+      results.forEach((r: { id: string; score: number; parcial: boolean }, idx: number) => {
+        searchHitMap!.set(r.id, { score: r.score, parcial: r.parcial, rank: idx });
+      });
+    }
+
+    return catalog
+      .filter((item) => {
+        const famIndex = indexFamilyMap.get(item.family_id);
+
+        // Search match filter
+        if (searchHitMap && !searchHitMap.has(item.family_id)) {
           return false;
         }
-      }
-      return true;
-    });
-  }, [selectedAxis, selectedFranja, selectedTheme, query]);
+
+        // Axis filter
+        const itemEje = famIndex?.eje ?? item.eje_num;
+        if (selectedAxis !== "all" && itemEje !== selectedAxis) {
+          return false;
+        }
+
+        // Franja filter
+        if (selectedFranja !== "all" && !item.franjas.includes(selectedFranja)) {
+          return false;
+        }
+
+        // Theme filter (from index: primary and secondary themes)
+        if (selectedTheme !== "all") {
+          const primaryThemeName = indexThemeMap.get(famIndex?.tema ?? "")?.nombre;
+          const secThemeNames = (famIndex?.sec || []).map((s) => indexThemeMap.get(s)?.nombre);
+          const allThemes = [primaryThemeName, ...secThemeNames].filter(Boolean);
+          if (!allThemes.includes(selectedTheme)) {
+            return false;
+          }
+        }
+
+        // Funcion clinica filter
+        if (selectedFuncion !== "all") {
+          const claItem = claMap.get(item.family_id);
+          if (claItem?.funcion_clinica_categoria !== selectedFuncion) {
+            return false;
+          }
+        }
+
+        // Tipo instrumento / quien responde filter
+        if (selectedTipo !== "all") {
+          const claItem = claMap.get(item.family_id);
+          if (claItem?.tipo_instrumento_categoria !== selectedTipo) {
+            return false;
+          }
+        }
+
+        // Solo libre filter
+        if (selectedLibre) {
+          const claItem = claMap.get(item.family_id);
+          if (claItem?.acceso_categoria !== "abierto") {
+            return false;
+          }
+        }
+
+        return true;
+      })
+      .sort((a, b) => {
+        if (searchHitMap) {
+          const rankA = searchHitMap.get(a.family_id)?.rank ?? 9999;
+          const rankB = searchHitMap.get(b.family_id)?.rank ?? 9999;
+          if (rankA !== rankB) return rankA - rankB;
+        }
+        return a.sigla.localeCompare(b.sigla);
+      });
+  }, [selectedAxis, selectedFranja, selectedTheme, selectedFuncion, selectedTipo, selectedLibre, query]);
 
   // Group filtered results by Axis
   const groupedByAxis = useMemo(() => {
     const groups: { num: number; label: string; name: string; items: CatalogItem[] }[] = [];
     const axesToShow = selectedAxis === "all" ? [1, 2, 3, 4, 5, 6] : [selectedAxis];
     for (const num of axesToShow) {
-      const items = filtered.filter((it) => it.eje_num === num);
+      const items = filtered.filter((it) => {
+        const famIndex = indexFamilyMap.get(it.family_id);
+        const itemEje = famIndex?.eje ?? it.eje_num;
+        return itemEje === num;
+      });
       if (items.length > 0) {
         groups.push({
           num,
@@ -187,21 +305,30 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
     query !== "" ||
     selectedAxis !== "all" ||
     selectedFranja !== "all" ||
-    selectedTheme !== "all";
+    selectedTheme !== "all" ||
+    selectedFuncion !== "all" ||
+    selectedTipo !== "all" ||
+    selectedLibre;
 
   const activeFiltersCount =
     (query ? 1 : 0) +
     (selectedAxis !== "all" ? 1 : 0) +
     (selectedFranja !== "all" ? 1 : 0) +
-    (selectedTheme !== "all" ? 1 : 0);
+    (selectedTheme !== "all" ? 1 : 0) +
+    (selectedFuncion !== "all" ? 1 : 0) +
+    (selectedTipo !== "all" ? 1 : 0) +
+    (selectedLibre ? 1 : 0);
 
   const resetFilters = useCallback(() => {
     setQuery("");
     setSelectedAxis("all");
     setSelectedFranja("all");
     setSelectedTheme("all");
+    setSelectedFuncion("all");
+    setSelectedTipo("all");
+    setSelectedLibre(false);
     setOpen(null);
-  }, [setQuery, setSelectedAxis, setSelectedFranja, setSelectedTheme]);
+  }, [setQuery, setSelectedAxis, setSelectedFranja, setSelectedTheme, setSelectedFuncion, setSelectedTipo, setSelectedLibre]);
 
   // Sync URL search params on client mount
   useEffect(() => {
@@ -211,6 +338,9 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
     const ejeParam = params.get("eje");
     const edadParam = params.get("edad");
     const temaParam = params.get("tema");
+    const fnParam = params.get("fn");
+    const quienParam = params.get("quien");
+    const libreParam = params.get("libre");
 
     let hasParam = false;
     if (qParam) {
@@ -232,6 +362,18 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
       setSelectedTheme(temaParam);
       hasParam = true;
     }
+    if (fnParam) {
+      setSelectedFuncion(fnParam);
+      hasParam = true;
+    }
+    if (quienParam) {
+      setSelectedTipo(quienParam);
+      hasParam = true;
+    }
+    if (libreParam === "1" || libreParam === "true") {
+      setSelectedLibre(true);
+      hasParam = true;
+    }
 
     if (hasParam) {
       setTimeout(() => {
@@ -241,7 +383,7 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
         }
       }, 150);
     }
-  }, [setQuery, setSelectedAxis, setSelectedFranja, setSelectedTheme]);
+  }, [setQuery, setSelectedAxis, setSelectedFranja, setSelectedTheme, setSelectedFuncion, setSelectedTipo, setSelectedLibre]);
 
   // Update URL search params when filters change without reload
   const isInitialMount = useRef(true);
@@ -253,15 +395,21 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
     if (typeof window === "undefined") return;
 
     const params = new URLSearchParams();
+    const currentParams = new URLSearchParams(window.location.search);
+    if (currentParams.get("guia")) params.set("guia", currentParams.get("guia")!);
+
     if (query.trim()) params.set("q", query.trim());
     if (selectedAxis !== "all") params.set("eje", String(selectedAxis));
     if (selectedFranja !== "all") params.set("edad", selectedFranja);
     if (selectedTheme !== "all") params.set("tema", selectedTheme);
+    if (selectedFuncion !== "all") params.set("fn", selectedFuncion);
+    if (selectedTipo !== "all") params.set("quien", selectedTipo);
+    if (selectedLibre) params.set("libre", "1");
 
     const qs = params.toString();
     const newUrl = qs ? `?${qs}` : window.location.pathname;
     window.history.replaceState(null, "", newUrl);
-  }, [query, selectedAxis, selectedFranja, selectedTheme]);
+  }, [query, selectedAxis, selectedFranja, selectedTheme, selectedFuncion, selectedTipo, selectedLibre]);
 
   return (
     <section className="library-section" id="biblioteca" aria-label="Biblioteca de instrumentos de evaluación psicológica">
@@ -431,6 +579,51 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                 aria-label={`Quitar filtro de tema ${selectedTheme}`}
               >
                 <span>Tema: {selectedTheme}</span>
+                <X size={13} />
+              </button>
+            )}
+
+            {selectedFuncion !== "all" && (
+              <button
+                type="button"
+                className="active-filter-chip"
+                onClick={() => {
+                  setSelectedFuncion("all");
+                  setOpen(null);
+                }}
+                aria-label={`Quitar filtro de función clínica ${selectedFuncion}`}
+              >
+                <span>Función: {selectedFuncion}</span>
+                <X size={13} />
+              </button>
+            )}
+
+            {selectedTipo !== "all" && (
+              <button
+                type="button"
+                className="active-filter-chip"
+                onClick={() => {
+                  setSelectedTipo("all");
+                  setOpen(null);
+                }}
+                aria-label={`Quitar filtro de modalidad ${selectedTipo}`}
+              >
+                <span>Modalidad: {selectedTipo}</span>
+                <X size={13} />
+              </button>
+            )}
+
+            {selectedLibre && (
+              <button
+                type="button"
+                className="active-filter-chip"
+                onClick={() => {
+                  setSelectedLibre(false);
+                  setOpen(null);
+                }}
+                aria-label="Quitar filtro de sólo uso libre"
+              >
+                <span>Solo uso libre</span>
                 <X size={13} />
               </button>
             )}
@@ -715,7 +908,10 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
               <div className="instrument-list">
                 {group.items.map((item, index) => {
                   const isOpen = open === item.family_id;
-                  const itemTheme = item.temas?.[0];
+                  const famIndex = indexFamilyMap.get(item.family_id);
+                  const primaryThemeName = indexThemeMap.get(famIndex?.tema ?? "")?.nombre || item.temas?.[0] || "";
+                  const secThemeNames = (famIndex?.sec || []).map((s) => indexThemeMap.get(s)?.nombre).filter(Boolean) as string[];
+                  const resolvedThemes = [primaryThemeName, ...secThemeNames].filter(Boolean);
                   return (
                     <article
                       className={`instrument-row ${isOpen ? "open" : ""}`}
@@ -739,20 +935,20 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                           )}
                           <small>
                             {item.constructo}
-                            {itemTheme && (
+                            {primaryThemeName && (
                               <button
                                 type="button"
                                 className="row-theme-chip"
                                 onClick={(e) => {
                                   e.stopPropagation();
-                                  setSelectedTheme(itemTheme);
+                                  setSelectedTheme(primaryThemeName);
                                   setOpen(null);
                                 }}
-                                title={`Filtrar por tema: ${itemTheme}`}
-                                aria-label={`Filtrar por tema ${itemTheme}`}
+                                title={`Filtrar por tema: ${primaryThemeName}`}
+                                aria-label={`Filtrar por tema ${primaryThemeName}`}
                               >
                                 <Tag size={12} />
-                                <span>{itemTheme}</span>
+                                <span>{primaryThemeName}</span>
                               </button>
                             )}
                           </small>
@@ -784,11 +980,11 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                             <strong>{item.eje} · {item.constructo}</strong>
 
                             {/* Tema clínico asignado y secundarios con botones clicables */}
-                            {item.temas && item.temas.length > 0 && (
+                            {resolvedThemes.length > 0 && (
                               <div className="detail-themes-box">
                                 <span>Temas clínicos</span>
                                 <div className="detail-themes-list">
-                                  {item.temas.map((t) => (
+                                  {resolvedThemes.map((t) => (
                                     <button
                                       key={t}
                                       type="button"
@@ -843,68 +1039,75 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                             </small>
                           </div>
 
-                          <div className="file-list">
-                            {/* Ficha técnica (siempre presente para las 231 familias) */}
-                            <a
-                              href={`/instrumentos/eje-${item.eje_num}/${item.family_id}/Ficha_Tecnica.pdf`}
-                              download
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className="file-icon">
-                                <FileText size={18} />
-                              </span>
-                              <span>
-                                <strong>Ficha técnica</strong>
-                                <small>Ficha_Tecnica.pdf · PDF</small>
-                              </span>
-                              <Download size={16} />
-                            </a>
+                          {(() => {
+                            const cleanSigla = (s: string) => s.trim().replace(/[\/\\]/g, '-').replace(/\s+/g, '_');
+                            const fichaName = item.archivos?.find(a => a.toLowerCase().includes('ficha_tecnica')) || `${cleanSigla(item.sigla)}_ficha_tecnica.pdf`;
+                            const protoName = item.archivos?.find(a => a.toLowerCase().includes('protocolo')) || `${cleanSigla(item.sigla)}_protocolo.pdf`;
+                            
+                            return (
+                              <div className="file-list">
+                                {/* Ficha técnica */}
+                                <a
+                                  href={`/instrumentos/eje-${item.eje_num}/${item.family_id}/${fichaName}`}
+                                  download={fichaName}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  <span className="file-icon">
+                                    <FileText size={18} />
+                                  </span>
+                                  <span>
+                                    <strong>Ficha técnica</strong>
+                                    <small>{fichaName} · PDF</small>
+                                  </span>
+                                  <Download size={16} />
+                                </a>
 
-                            {/* Protocolo (si descargable) o Etiqueta Protocolo según condición */}
-                            {item.descargable ? (
-                              <a
-                                href={`/instrumentos/eje-${item.eje_num}/${item.family_id}/Protocolo.pdf`}
-                                download
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                <span className="file-icon">
-                                  <FileText size={18} />
-                                </span>
-                                <span>
-                                  <strong>Protocolo</strong>
-                                  <small>Protocolo.pdf · PDF</small>
-                                </span>
-                                <Download size={16} />
-                              </a>
-                            ) : (
-                              <div className="file-restricted">
-                                <span className="file-restricted-icon">
-                                  <Lock size={16} />
-                                </span>
-                                <div>
-                                  <strong className="badge-no-protocol">
-                                    {item.protocolo_etiqueta || "Protocolo no disponible"}
-                                  </strong>
-                                  <small>
-                                    Acceso restringido por licencia o verificación pendiente
-                                  </small>
-                                  {item.fuente_url && (
-                                    <a
-                                      href={item.fuente_url}
-                                      target="_blank"
-                                      rel="noopener noreferrer"
-                                      className="official-source-link"
-                                    >
-                                      <span>Fuente oficial</span>
-                                      <ExternalLink size={12} />
-                                    </a>
-                                  )}
-                                </div>
+                                {/* Protocolo (si descargable) o Etiqueta Protocolo según condición */}
+                                {item.descargable ? (
+                                  <a
+                                    href={`/instrumentos/eje-${item.eje_num}/${item.family_id}/${protoName}`}
+                                    download={protoName}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    <span className="file-icon">
+                                      <FileText size={18} />
+                                    </span>
+                                    <span>
+                                      <strong>Protocolo</strong>
+                                      <small>{protoName} · PDF</small>
+                                    </span>
+                                    <Download size={16} />
+                                  </a>
+                                ) : (
+                                  <div className="file-restricted">
+                                    <span className="file-restricted-icon">
+                                      <Lock size={16} />
+                                    </span>
+                                    <div>
+                                      <strong className="badge-no-protocol">
+                                        {item.protocolo_etiqueta || "Protocolo no disponible"}
+                                      </strong>
+                                      <small>
+                                        Acceso restringido por licencia o verificación pendiente
+                                      </small>
+                                      {item.fuente_url && (
+                                        <a
+                                          href={item.fuente_url}
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                          className="official-source-link"
+                                        >
+                                          <span>Fuente oficial</span>
+                                        </a>
+                                      )}
+                                    </div>
+                                  </div>
+                                )}
                               </div>
-                            )}
-                          </div>
+                            );
+                          })()}
                         </div>
                       )}
                     </article>

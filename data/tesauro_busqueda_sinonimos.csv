@@ -1,0 +1,704 @@
+termino_busqueda,total_coincidencias,siglas_coincidentes,ids_coincidentes
+AAQ-II,1,AAQ-II,aaq-ii_54
+ABS,1,ABS,abs_new
+Abstinencia de benzodiacepinas,1,BWSQ,bwsq_208
+abuso de drogas,11,ASSIST; AUDIT; DAST-10; FTND; MALT; ISCA; EuropASI; SADQ; EIDA; OCDS; BWSQ,assist_38; audit_39; dast-10_40; ftnd_new1; malt_195; isca_196; europasi_197; sadq_198; eida_199; ocds_200; bwsq_208
+ACEQ,1,ACEQ,aceq_93
+Activación y Evitación conductual,2,BADS; EROS,bads_64; eros_65
+adaptabilidad,12,AAQ-II; CFI; CFQ; MEAQ; WHODAS 2.0; BARTHEL; Escala de Lawton; BEAQ; Psy-Flex; FFMQ-SF; EEAG-GAF; SDI,aaq-ii_54; cfi_55; cfq_56; meaq_63; whodas_2.0_100; indice_de_barth_101; escala_de_lawton_102; beaq_164; psyflex_166; ffmq-sf_168; eeaggaf_211; sdi_212
+adaptación,12,PSS; TICS; Brief COPE; CD-RISC; LOT-R; VIA-IS; BIPQ; MAC; PSS-14; CAE; RS-14; COPE-48,pss_6; tics_8; brief_cope_66; cd-risc_115; lot-r_116; via-is_118; bipq_143; mac_144; pss14_155; cae_156; rs14_162; cope48_167
+Adaptación social,1,SASS,sass_213
+ADAS-Cog,1,ADAS-Cog,adascog_172
+adherencia terapéutica,6,IPAQ; MGL o MMAS-4; HLS-EU-Q16; SAHLSA-50; SEMCD-S; eHEALS,ipaq_141; mgl_o_mmas-4_142; hls-eu-q16_145; sahlsa-50_146; semcds_new1; eheals_new1
+Adicciones conductuales,2,IAT; SOGS,iat_41; sogs_42
+adicción,11,ASSIST; AUDIT; DAST-10; FTND; MALT; ISCA; EuropASI; SADQ; EIDA; OCDS; BWSQ,assist_38; audit_39; dast-10_40; ftnd_new1; malt_195; isca_196; europasi_197; sadq_198; eida_199; ocds_200; bwsq_208
+ADRQL,1,ADRQL,adrql_217
+AF-5,1,AF-5,af-5_85
+afasia,2,BNT; TFV,bnt_130; tfv_131
+afecto negativo,12,DASS-21; BDI-II; PHQ-9; CES-D; SHAPS; HDRS / HAM-D; BADS; EROS; MADRS; GDS; CDS; QLDS,dass-21_5; bdi-ii_13; phq-9_14; ces-d_15; shaps_16; hdrs_17; bads_64; eros_65; madrs_178; gds_179; cds_180; qlds_216
+afecto positivo,4,MLQ; SWLS; PWB; FS,mlq_90; swls_110; pwb_111; fs_112
+Afecto positivo y negativo,1,PANAS,panas_161
+"Afrontamiento (coping), 9 escalas clínicas",1,COPE-48,cope48_167
+Afrontamiento interpersonal y asertividad,1,ISS,iss_new
+Afrontamiento y resiliencia,9,Brief COPE; CD-RISC; LOT-R; VIA-IS; BIPQ; MAC; CAE; RS-14; COPE-48,brief_cope_66; cd-risc_115; lot-r_116; via-is_118; bipq_143; mac_144; cae_156; rs14_162; cope48_167
+Agitación psicomotriz e impulsividad aguda,1,ABS,abs_new
+agorafobia,14,STAI; BAI; GAD-7; ISRA; HADS; DASS-21; PSWQ; IUS-12; CSI; SIAS; SADS; SPIN; BSPS; BSA,stai_0; bai_1; gad-7_2; isra_3; hads_4; dass-21_5; pswq_52; ius-12_53; csi_new1; sias_152; sads_153; spin_188; bsps_189; bsa_190
+agotamiento laboral,2,MBI; UWES,mbi_105; uwes_106
+AGQ-R,1,AGQ-R,agq-r_92
+Agresividad e ira,3,AQ; STAXI-2; RPQ,aq_29; staxi-2_30; rpq_31
+Agresividad manifiesta observada,1,OAS,oas_177
+"Agresividad, ira y violencia",10,AQ; STAXI-2; RPQ; PCL-R; SRP-IV; SCID-5-PD; HCR-20 v3; OAS; RV-Plutchik; BDHI,aq_29; staxi-2_30; rpq_31; pcl-r_32; srp-iv_33; scid-5-pd_34; hcr-20_v3_49; oas_177; rvplutchik_186; bdhi_194
+agresión física,10,AQ; STAXI-2; RPQ; PCL-R; SRP-IV; SCID-5-PD; HCR-20 v3; OAS; RV-Plutchik; BDHI,aq_29; staxi-2_30; rpq_31; pcl-r_32; srp-iv_33; scid-5-pd_34; hcr-20_v3_49; oas_177; rvplutchik_186; bdhi_194
+AIM-A,1,AIM-A,aim-a_219
+AIMS,1,AIMS,aims_new
+Alfabetización digital en salud,1,eHEALS,eheals_new1
+Alfabetización en salud y relación con el sistema,2,HLS-EU-Q16; SAHLSA-50,hls-eu-q16_145; sahlsa-50_146
+Alfabetización y conductas de salud,6,IPAQ; MGL o MMAS-4; HLS-EU-Q16; SAHLSA-50; SEMCD-S; eHEALS,ipaq_141; mgl_o_mmas-4_142; hls-eu-q16_145; sahlsa-50_146; semcds_new1; eheals_new1
+alucinación,8,PDI-21; CAPE-42; PANSS; BPRS; SIPS; SOPS; SUMD; DAI,pdi-21_43; cape-42_44; panss_45; bprs_173; sips_174; sops_175; sumd_176; dai_193
+Alzheimer,5,MMSE; MoCA; MEC; ADAS-Cog; ADRQL,mmse_119; moca_120; mec_171; adascog_172; adrql_217
+anhedonia,12,DASS-21; BDI-II; PHQ-9; CES-D; SHAPS; HDRS / HAM-D; BADS; EROS; MADRS; GDS; CDS; QLDS,dass-21_5; bdi-ii_13; phq-9_14; ces-d_15; shaps_16; hdrs_17; bads_64; eros_65; madrs_178; gds_179; cds_180; qlds_216
+Anorexia,4,BSQ; MBA; EDI-2; BITE,bsq_new1; mba_new1; edi2_201; bite_202
+Ansiedad ante la interaccion social directa,1,SIAS,sias_152
+Ansiedad general (heteroaplicada),1,BSA,bsa_190
+Ansiedad generalizada,1,Carroll-TAG,carroll-tag_new
+Ansiedad psíquica y somática,1,HARS,hars_new
+Ansiedad y fobia,13,STAI; BAI; GAD-7; ISRA; HADS; PSWQ; IUS-12; CSI; SIAS; SADS; SPIN; BSPS; BSA,stai_0; bai_1; gad-7_2; isra_3; hads_4; pswq_52; ius-12_53; csi_new1; sias_152; sads_153; spin_188; bsps_189; bsa_190
+Ansiedad y miedo,5,STAI; BAI; GAD-7; ISRA; HADS,stai_0; bai_1; gad-7_2; isra_3; hads_4
+Apego,1,ECR-R,ecr-r_69
+apego ansioso,7,ECR-R; IDI; RSQ; IIP-32; RAS; CREM-P; RAS-H,ecr-r_69; idi_70; rsq_71; iip-32_72; ras_73; cremp_new1; ras-h_170
+apego evitativo,7,ECR-R; IDI; RSQ; IIP-32; RAS; CREM-P; RAS-H,ecr-r_69; idi_70; rsq_71; iip-32_72; ras_73; cremp_new1; ras-h_170
+Apego y relaciones interpersonales,7,ECR-R; IDI; RSQ; IIP-32; RAS; CREM-P; RAS-H,ecr-r_69; idi_70; rsq_71; iip-32_72; ras_73; cremp_new1; ras-h_170
+APGAR,1,APGAR,apgar_109
+Apoyo social percibido (familiar y de amistades),1,EAS,eas_157
+Apoyo social y familia,9,UCLA-R; DJGLS; ISMI; EOD; MOS-SSS; FACES-IV; APGAR; EAS; SASS,ucla-r_74; djgls_75; ismi_98; eod_99; mos-sss_107; faces-iv_108; apgar_109; eas_157; sass_213
+Apoyo social y Funcionamiento familiar,3,MOS-SSS; FACES-IV; APGAR,mos-sss_107; faces-iv_108; apgar_109
+aptitud académica,2,CHTE; BASC-3,chte_103; basc-3_104
+apuestas,2,IAT; SOGS,iat_41; sogs_42
+AQ,1,AQ,aq_29
+asertividad,7,ECR-R; IDI; RSQ; IIP-32; RAS; CREM-P; RAS-H,ecr-r_69; idi_70; rsq_71; iip-32_72; ras_73; cremp_new1; ras-h_170
+ASEX,1,ASEX,asex_207
+ASQ-15,1,ASQ-15,asq-15_new
+ASSIST,1,ASSIST,assist_38
+"Atención (Sostenida, Selectiva, Dividida y Vigilancia)",2,d2-R; TMT,d2-r_121; tmt_122
+atención dividida,2,d2-R; TMT,d2-r_121; tmt_122
+atención plena,7,AAQ-II; CFI; CFQ; MEAQ; BEAQ; Psy-Flex; FFMQ-SF,aaq-ii_54; cfi_55; cfq_56; meaq_63; beaq_164; psyflex_166; ffmq-sf_168
+Atención social,3,RMET; MAIA; Faux Pas Test,rmet_132; maia_133; faux_pas_test_134
+atención sostenida,2,d2-R; TMT,d2-r_121; tmt_122
+Atención y concentración,2,d2-R; TMT,d2-r_121; tmt_122
+AUDIT,11,ASSIST; AUDIT; DAST-10; FTND; MALT; ISCA; EuropASI; SADQ; EIDA; OCDS; BWSQ,assist_38; audit_39; dast-10_40; ftnd_new1; malt_195; isca_196; europasi_197; sadq_198; eida_199; ocds_200; bwsq_208
+Autocompasión y regulación afectiva (3 polaridades / 6 subescalas),1,SCS,scs_169
+autoconcepto,9,AF-5; SCCS; EOM-EIS-2; PVQ; IMI; AGQ-R; MEIM; VIA; VQ,af-5_85; sccs_87; eom-eis-2_88; pvq_89; imi_91; agq-r_92; meim_95; via_96; vq_165
+Autoconcepto y autoeficacia creativa,1,CREA-24,crea-24_new
+autocuidado,6,IPAQ; MGL o MMAS-4; HLS-EU-Q16; SAHLSA-50; SEMCD-S; eHEALS,ipaq_141; mgl_o_mmas-4_142; hls-eu-q16_145; sahlsa-50_146; semcds_new1; eheals_new1
+Autoeficacia,4,RSES; AF-5; GSE; GSE,rses_84; af-5_85; gse_86; gse_86
+Autoeficacia/autocuidado en enfermedad crónica,1,SEMCD-S,semcds_new1
+autoestima,9,RSES; SCCS; EOM-EIS-2; PVQ; IMI; AGQ-R; MEIM; VIA; VQ,rses_84; sccs_87; eom-eis-2_88; pvq_89; imi_91; agq-r_92; meim_95; via_96; vq_165
+Autoestima y autoconcepto,3,RSES; AF-5; GSE,rses_84; af-5_85; gse_86
+Autoimagen,7,RSES; AF-5; GSE; BSQ; MBA; EDI-2; BITE,rses_84; af-5_85; gse_86; bsq_new1; mba_new1; edi2_201; bite_202
+autolesiones,5,C-SSRS; BSS; ISAS; ERS; RFL,c-ssrs_46; bss_47; isas_48; ers_147; rfl_185
+Autolesiones no suicidas,1,ISAS,isas_48
+autonomía,5,WHODAS 2.0; BARTHEL; Escala de Lawton; EEAG-GAF; SDI,whodas_2.0_100; indice_de_barth_101; escala_de_lawton_102; eeaggaf_211; sdi_212
+Autonomía funcional y dependencia biológica,1,KATZ,katz_new
+BADS,1,BADS,bads_64
+BAI,1,BAI,bai_1
+BARS,1,BARS,bars_new
+BARTHEL,1,BARTHEL,indice_de_barth_101
+BASC-3,1,BASC-3,basc-3_104
+BDHI,1,BDHI,bdhi_194
+BDI-II,1,BDI-II,bdi-ii_13
+BEAQ,1,BEAQ,beaq_164
+BFI-2,1,BFI-2,bfi-2_77
+BHS,1,BHS,bhs_new
+Bienestar,4,SF-36; WHOQOL-BREF; QLS; CSCV,sf-36_113; whoqol-bref_114; qls_214; cscv_215
+Bienestar social y ajuste comunitario,1,SWBS,swbs_new
+"Bienestar subjetivo, Bienestar psicológico y Florecimiento",3,SWLS; PWB; FS,swls_110; pwb_111; fs_112
+Bienestar y satisfacción vital,4,MLQ; SWLS; PWB; FS,mlq_90; swls_110; pwb_111; fs_112
+Bipolar disorder,4,MDQ; YMRS; EVMAC; MAS,mdq_181; ymrs_182; evmac_183; mas_184
+Bipolaridad y manía,4,MDQ; YMRS; EVMAC; MAS,mdq_181; ymrs_182; evmac_183; mas_184
+BIPQ,1,BIPQ,bipq_143
+BIS-11,1,BIS-11,bis-11_26
+BIS/BAS,1,BIS/BAS,bis_68
+BITE,1,BITE,bite_202
+BNT,1,BNT,bnt_130
+BPI,1,BPI,bpi_138
+BPRS,1,BPRS,bprs_173
+Brief COPE,1,Brief COPE,brief_cope_66
+BRIEF-2,1,BRIEF-2,brief-2_128
+BSA,1,BSA,bsa_190
+BSDS,1,BSDS,bsds_new
+BSL-23,1,BSL-23,bsl23_149
+BSPS,1,BSPS,bsps_189
+BSQ,1,BSQ,bsq_new1
+BSS,1,BSS,bss_47
+Bulimia,4,BSQ; MBA; EDI-2; BITE,bsq_new1; mba_new1; edi2_201; bite_202
+BWSQ,1,BWSQ,bwsq_208
+Búsqueda de recompensa,1,BIS/BAS,bis_68
+C-SSRS,1,C-SSRS,c-ssrs_46
+CAE,1,CAE,cae_156
+CAGE,1,CAGE,cage_new
+Calidad de descanso e insomnio agudo,1,GSQS,gsqs_new
+Calidad de vida,4,SF-36; WHOQOL-BREF; QLS; CSCV,sf-36_113; whoqol-bref_114; qls_214; cscv_215
+Calidad de vida en demencia,1,ADRQL,adrql_217
+Calidad de vida en depresión,1,QLDS,qlds_216
+Calidad de vida en esquizofrenia,1,QLS,qls_214
+Calidad de vida relacionada con la salud,1,EQ-5D,eq-5d_new
+Calidad de vida y satisfacción vital,1,Q-LES-Q,q-les-q_new
+Calidad del sueño,1,COS,cos_203
+Cambio global en TEPT,1,DGRP,dgrp_192
+CAPE-42,1,CAPE-42,cape-42_44
+CAPS-5,1,CAPS-5,caps-5_10
+Carroll-TAG,1,Carroll-TAG,carroll-tag_new
+CBCL,1,CBCL,cbcl_35
+CD-RISC,1,CD-RISC,cd-risc_115
+CDS,1,CDS,cds_180
+CERQ,1,CERQ,cerq_60
+CES-D,1,CES-D,ces-d_15
+CFI,1,CFI,cfi_55
+CFQ,1,CFQ,cfq_56
+CFQ-Fallos,1,CFQ-Fallos,cfq_new1
+CFSS,1,CFSS,cfss_new
+CGI,1,CGI,cgi_new
+CHTE,1,CHTE,chte_103
+Ciclotimia,4,MDQ; YMRS; EVMAC; MAS,mdq_181; ymrs_182; evmac_183; mas_184
+Claridad del self,1,SCCS,sccs_87
+Claridad emocional y Alexitimia,1,TAS-20,tas-20_62
+Cognición social,3,RMET; MAIA; Faux Pas Test,rmet_132; maia_133; faux_pas_test_134
+Cognición Social e Interocepción,3,RMET; MAIA; Faux Pas Test,rmet_132; maia_133; faux_pas_test_134
+Cognitive screening,5,MMSE; MoCA; MEC; ADAS-Cog; ADRQL,mmse_119; moca_120; mec_171; adascog_172; adrql_217
+"Comprensión, Expresión y Fluidez Verbal",2,BNT; TFV,bnt_130; tfv_131
+comprobación,5,Y-BOCS; OCI-R; PI-WSUR; DOCS; IP,y-bocs_18; oci-r_19; pi-wsur_20; docs_21; ip_148
+Comunicación interpersonal y Asertividad,2,IIP-32; RAS,iip-32_72; ras_73
+Comunicación social,3,RMET; MAIA; Faux Pas Test,rmet_132; maia_133; faux_pas_test_134
+concentración,2,d2-R; TMT,d2-r_121; tmt_122
+Conciencia emocional,1,LEAS,leas_61
+conducta agresiva,9,BIS-11; UPPS-P; DII; CBCL; SDQ; DBD; BIS/BAS; CUBI-18; EI-Plutchik,bis-11_26; upps-p_27; dii_28; cbcl_35; sdq_36; dbd_37; bis_68; cubi18_150; eiplutchik_187
+Conducta alimentaria,4,BSQ; MBA; EDI-2; BITE,bsq_new1; mba_new1; edi2_201; bite_202
+Conducta alimentaria e imagen corporal,4,BSQ; MBA; EDI-2; BITE,bsq_new1; mba_new1; edi2_201; bite_202
+Conducta alimentaria patológica,4,BSQ; MBA; EDI-2; BITE,bsq_new1; mba_new1; edi2_201; bite_202
+conducta antisocial,12,BIS-11; UPPS-P; DII; PCL-R; SRP-IV; SCID-5-PD; CBCL; SDQ; DBD; BIS/BAS; CUBI-18; EI-Plutchik,bis-11_26; upps-p_27; dii_28; pcl-r_32; srp-iv_33; scid-5-pd_34; cbcl_35; sdq_36; dbd_37; bis_68; cubi18_150; eiplutchik_187
+conducta disruptiva,12,BIS-11; UPPS-P; DII; CBCL; CBCL; SDQ; SDQ; DBD; DBD; BIS/BAS; CUBI-18; EI-Plutchik,bis-11_26; upps-p_27; dii_28; cbcl_35; cbcl_35; sdq_36; sdq_36; dbd_37; dbd_37; bis_68; cubi18_150; eiplutchik_187
+conducta inadecuada,9,BIS-11; UPPS-P; DII; CBCL; SDQ; DBD; BIS/BAS; CUBI-18; EI-Plutchik,bis-11_26; upps-p_27; dii_28; cbcl_35; sdq_36; dbd_37; bis_68; cubi18_150; eiplutchik_187
+conducta violenta,10,AQ; STAXI-2; RPQ; PCL-R; SRP-IV; SCID-5-PD; HCR-20 v3; OAS; RV-Plutchik; BDHI,aq_29; staxi-2_30; rpq_31; pcl-r_32; srp-iv_33; scid-5-pd_34; hcr-20_v3_49; oas_177; rvplutchik_186; bdhi_194
+conductas de salud,8,IPAQ; IPAQ; MGL o MMAS-4; MGL o MMAS-4; HLS-EU-Q16; SAHLSA-50; SEMCD-S; eHEALS,ipaq_141; ipaq_141; mgl_o_mmas-4_142; mgl_o_mmas-4_142; hls-eu-q16_145; sahlsa-50_146; semcds_new1; eheals_new1
+Consumo de alcohol,1,ISCA,isca_196
+Consumo de alcohol y adicciones,1,CAGE,cage_new
+consumo problemático,11,ASSIST; AUDIT; DAST-10; FTND; MALT; ISCA; EuropASI; SADQ; EIDA; OCDS; BWSQ,assist_38; audit_39; dast-10_40; ftnd_new1; malt_195; isca_196; europasi_197; sadq_198; eida_199; ocds_200; bwsq_208
+contaminación,5,Y-BOCS; OCI-R; PI-WSUR; DOCS; IP,y-bocs_18; oci-r_19; pi-wsur_20; docs_21; ip_148
+control de la atención,7,WCST; Stroop Test; IGT; BRIEF-2; IFS; DEX-Sp; EFECO,wcst_125; stroop_test_126; igt_127; brief-2_128; ifs_129; dex-sp_new1; efeco_new1
+control emocional,10,DERS; CERQ; LEAS; TAS-20; ERSQ; ERQ; PANAS; TMMS-24; SCS; AIM-A,ders_59; cerq_60; leas_61; tas-20_62; ersq_new1; erq_158; panas_161; tmms24_163; scs_169; aim-a_219
+COPE-48,1,COPE-48,cope48_167
+coping,12,PSS; TICS; Brief COPE; CD-RISC; LOT-R; VIA-IS; BIPQ; MAC; PSS-14; CAE; RS-14; COPE-48,pss_6; tics_8; brief_cope_66; cd-risc_115; lot-r_116; via-is_118; bipq_143; mac_144; pss14_155; cae_156; rs14_162; cope48_167
+COS,1,COS,cos_203
+Craving/compulsión por alcohol,1,OCDS,ocds_200
+CREA-24,1,CREA-24,crea-24_new
+creencias centrales,3,RRS; MCQ-30; YSQ-S3,rrs_51; mcq-30_57; ysq-s3_58
+CREM-P,1,CREM-P,cremp_new1
+Cribado cognitivo,5,MMSE; MoCA; MEC; ADAS-Cog; ADRQL,mmse_119; moca_120; mec_171; adascog_172; adrql_217
+Cribado cognitivo global,1,MEC,mec_171
+Cribado Cognitivo Global (Estado Mental),2,MMSE; MoCA,mmse_119; moca_120
+Cribado cognitivo y demencias,5,MMSE; MoCA; MEC; ADAS-Cog; ADRQL,mmse_119; moca_120; mec_171; adascog_172; adrql_217
+Cribado de espectro bipolar,1,MDQ,mdq_181
+Cribado multitrastorno de ansiedad,1,ASQ-15,asq-15_new
+crisis de angustia,14,STAI; BAI; GAD-7; ISRA; HADS; DASS-21; PSWQ; IUS-12; CSI; SIAS; SADS; SPIN; BSPS; BSA,stai_0; bai_1; gad-7_2; isra_3; hads_4; dass-21_5; pswq_52; ius-12_53; csi_new1; sias_152; sads_153; spin_188; bsps_189; bsa_190
+Crisis de angustia y pánico,1,Diario-Panico,diario-panico_new
+Criterios de Laxitud Articular del Hospital del Mar (Bulbena),1,Laxitud-HdM,laxitud-hdm_new
+Cronotipo/ritmo circadiano,1,MEQ-SA,meqsa_new1
+CSCV,1,CSCV,cscv_215
+CSFQ,1,CSFQ,csfq_204
+CSI,1,CSI,csi_new1
+CTQ-SF,1,CTQ-SF,ctq-sf_94
+CUBI-18,1,CUBI-18,cubi18_150
+Cuestionario CAGE para Detección de Alcoholismo,1,CAGE,cage_new
+Cuestionario de Calidad de Vida: Satisfacción y Placer de Endicott,1,Q-LES-Q,q-les-q_new
+Cuestionario de Estilos de Humor (HSQ-24),1,HSQ-24,hsq-24_new
+Cuestionario de Salud EuroQoL-5D,1,EQ-5D,eq-5d_new
+Cuestionario de Screening de Ansiedad de Wittchen (ASQ-15),1,ASQ-15,asq-15_new
+d2-R,1,d2-R,d2-r_121
+DAI,1,DAI,dai_193
+DASS-21,1,DASS-21,dass-21_5
+DAST-10,1,DAST-10,dast-10_40
+DBD,1,DBD,dbd_37
+delirio,8,PDI-21; CAPE-42; PANSS; BPRS; SIPS; SOPS; SUMD; DAI,pdi-21_43; cape-42_44; panss_45; bprs_173; sips_174; sops_175; sumd_176; dai_193
+Demencia,5,MMSE; MoCA; MEC; ADAS-Cog; ADRQL,mmse_119; moca_120; mec_171; adascog_172; adrql_217
+denominación,2,BNT; TFV,bnt_130; tfv_131
+dependencia,11,ASSIST; AUDIT; DAST-10; FTND; MALT; ISCA; EuropASI; SADQ; EIDA; OCDS; BWSQ,assist_38; audit_39; dast-10_40; ftnd_new1; malt_195; isca_196; europasi_197; sadq_198; eida_199; ocds_200; bwsq_208
+Dependencia alcohólica,1,EIDA,eida_199
+Dependencia de la autoestima respecto a la apariencia/integridad corporal,1,MBA,mba_new1
+dependencia emocional,7,ECR-R; IDI; RSQ; IIP-32; RAS; CREM-P; RAS-H,ecr-r_69; idi_70; rsq_71; iip-32_72; ras_73; cremp_new1; ras-h_170
+Dependencia interpersonal,1,IDI,idi_70
+Depresión en adultos mayores,1,GDS,gds_179
+Depresión en esquizofrenia,1,CDS,cds_180
+depresión mayor,12,DASS-21; BDI-II; PHQ-9; CES-D; SHAPS; HDRS / HAM-D; BADS; EROS; MADRS; GDS; CDS; QLDS,dass-21_5; bdi-ii_13; phq-9_14; ces-d_15; shaps_16; hdrs_17; bads_64; eros_65; madrs_178; gds_179; cds_180; qlds_216
+Depresión y anhedonia,5,BDI-II; PHQ-9; CES-D; SHAPS; HDRS / HAM-D,bdi-ii_13; phq-9_14; ces-d_15; shaps_16; hdrs_17
+Depresión y estado de ánimo,13,DASS-21; BDI-II; PHQ-9; CES-D; SHAPS; HDRS / HAM-D; BADS; EROS; MADRS; GDS; CDS; QLDS; SDS,dass-21_5; bdi-ii_13; phq-9_14; ces-d_15; shaps_16; hdrs_17; bads_64; eros_65; madrs_178; gds_179; cds_180; qlds_216; sds_new
+"Depresión, ansiedad y estrés",1,DASS-21,dass-21_5
+DERS,1,DERS,ders_59
+desajuste circadiano,6,PSQI; ISI; ESS; MEQ-SA; STOP-Bang; COS,psqi_135; isi_136; ess_137; meqsa_new1; stopbang_new1; cos_203
+desapego,6,PID-5; SD3; SD4; LTS; BSL-23; NPI-N,pid-5_80; sd3_81; sd4_82; lts_83; bsl23_149; npi-n_218
+desempeño académico,2,CHTE; BASC-3,chte_103; basc-3_104
+Desempeño laboral y burnout,2,MBI; UWES,mbi_105; uwes_106
+"Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",2,MBI; UWES,mbi_105; uwes_106
+Desesperanza y riesgo suicida,1,BHS,bhs_new
+Desorganización cognitiva y conductual,1,PANSS,panss_45
+Deterioro cognitivo,5,MMSE; MoCA; MEC; ADAS-Cog; ADRQL,mmse_119; moca_120; mec_171; adascog_172; adrql_217
+Deterioro cognitivo en demencia,1,ADAS-Cog,adascog_172
+DEX-Sp,1,DEX-Sp,dex-sp_new1
+DGRP,1,DGRP,dgrp_192
+Diagnóstico de alcoholismo,1,MALT,malt_195
+Diagnóstico diferencial de demencias,1,HIS,his_new
+Diario-Panico,1,Diario-Panico,diario-panico_new
+DII,1,DII,dii_28
+dinámica de pareja,9,UCLA-R; DJGLS; ISMI; EOD; MOS-SSS; FACES-IV; APGAR; EAS; SASS,ucla-r_74; djgls_75; ismi_98; eod_99; mos-sss_107; faces-iv_108; apgar_109; eas_157; sass_213
+Discapacidad funcional,1,SDI,sdi_212
+discapacidad física,5,WHODAS 2.0; BARTHEL; Escala de Lawton; EEAG-GAF; SDI,whodas_2.0_100; indice_de_barth_101; escala_de_lawton_102; eeaggaf_211; sdi_212
+discapacidad intelectual,5,WHODAS 2.0; BARTHEL; Escala de Lawton; EEAG-GAF; SDI,whodas_2.0_100; indice_de_barth_101; escala_de_lawton_102; eeaggaf_211; sdi_212
+discapacidad psíquica,5,WHODAS 2.0; BARTHEL; Escala de Lawton; EEAG-GAF; SDI,whodas_2.0_100; indice_de_barth_101; escala_de_lawton_102; eeaggaf_211; sdi_212
+disfunción emocional,10,DERS; CERQ; LEAS; TAS-20; ERSQ; ERQ; PANAS; TMMS-24; SCS; AIM-A,ders_59; cerq_60; leas_61; tas-20_62; ersq_new1; erq_158; panas_161; tmms24_163; scs_169; aim-a_219
+disociación,13,PSS; TICS; PCL-5; CAPS-5; IES-R; DTS; JVQ; ACEQ; CTQ-SF; EGS-R; TQ; DGRP; TOP-8,pss_6; tics_8; pcl-5_9; caps-5_10; ies-r_11; dts_12; jvq_50; aceq_93; ctq-sf_94; egsr_151; tq_191; dgrp_192; top-8_220
+Disortodinia,4,BSQ; MBA; EDI-2; BITE,bsq_new1; mba_new1; edi2_201; bite_202
+distimia,12,DASS-21; BDI-II; PHQ-9; CES-D; SHAPS; HDRS / HAM-D; BADS; EROS; MADRS; GDS; CDS; QLDS,dass-21_5; bdi-ii_13; phq-9_14; ces-d_15; shaps_16; hdrs_17; bads_64; eros_65; madrs_178; gds_179; cds_180; qlds_216
+distorsiones cognitivas,3,RRS; MCQ-30; YSQ-S3,rrs_51; mcq-30_57; ysq-s3_58
+DJGLS,1,DJGLS,djgls_75
+DOCS,1,DOCS,docs_21
+dolor crónico,7,PHQ-15; WI; SHAI; SCL-90-R; BPI; PCS; FSS,phq-15_22; wi-7_23; shai_24; scl-90-r_25; bpi_138; pcs_139; fss_140
+Dolor y síntomas somáticos,7,PHQ-15; WI; SHAI; SCL-90-R; BPI; PCS; FSS,phq-15_22; wi-7_23; shai_24; scl-90-r_25; bpi_138; pcs_139; fss_140
+"Dolor, fatiga y síntomas somáticos",3,BPI; PCS; FSS,bpi_138; pcs_139; fss_140
+DTS,1,DTS,dts_12
+dudas obsesivas,5,Y-BOCS; OCI-R; PI-WSUR; DOCS; IP,y-bocs_18; oci-r_19; pi-wsur_20; docs_21; ip_148
+EAS,1,EAS,eas_157
+EAT-26,1,EAT-26,eat-26_new
+EAT-40,1,EAT-40,eat-40_new
+EAT-40-SERGAS,1,EAT-40-SERGAS,eat-40-sergas_new
+Eating behavior,4,BSQ; MBA; EDI-2; BITE,bsq_new1; mba_new1; edi2_201; bite_202
+ECR-R,1,ECR-R,ecr-r_69
+EDI-2,1,EDI-2,edi2_201
+EEAG-GAF,1,EEAG-GAF,eeaggaf_211
+EFECO,1,EFECO,efeco_new1
+Efectos de psicofármacos,2,SAS; UKU,sas_209; uku_210
+Efectos extrapiramidales y farmacovigilancia,1,BARS,bars_new
+efectos secundarios,2,SAS; UKU,sas_209; uku_210
+Efectos secundarios de psicofármacos,1,UKU,uku_210
+EGS-R,1,EGS-R,egsr_151
+eHEALS,1,eHEALS,eheals_new1
+EI-Plutchik,1,EI-Plutchik,eiplutchik_187
+EIDA,1,EIDA,eida_199
+EMPC,1,EMPC,empc_new
+Enfermedad de Alzheimer,5,MMSE; MoCA; MEC; ADAS-Cog; ADRQL,mmse_119; moca_120; mec_171; adascog_172; adrql_217
+Enfermedad médica y afrontamiento,2,BIPQ; MAC,bipq_143; mac_144
+engagement,2,MBI; UWES,mbi_105; uwes_106
+Entrevista Neuropsiquiátrica Internacional (MINI 5.0.0),1,MINI,mini_new
+EOD,1,EOD,eod_99
+EOM-EIS-2,1,EOM-EIS-2,eom-eis-2_88
+EQ-5D,1,EQ-5D,eq-5d_new
+ER-25,1,ER-25,er-25_new
+EROS,1,EROS,eros_65
+ERQ,1,ERQ,erq_158
+ERS,1,ERS,ers_147
+ERSQ,1,ERSQ,ersq_new1
+Escala de Acatisia de Barnes (BARS),1,BARS,bars_new
+Escala de Ansiedad Social de Liebowitz (LSAS),1,LSAS,lsas_new
+Escala de Autoevaluación de la Depresión de Zung y Conde (SDS),1,SDS,sds_new
+Escala de Autoevaluación del Funcionamiento Cognitivo (CFSS),1,CFSS,cfss_new
+Escala de Autopercepción de Creatividad (CREA-24),1,CREA-24,crea-24_new
+Escala de Bienestar Social de Keyes,1,SWBS,swbs_new
+Escala de Búsqueda de Sensaciones de Zuckerman (Forma V),1,SSS-V,sss-v_new
+Escala de Comportamiento Agitado de Corrigan (ABS),1,ABS,abs_new
+Escala de Desesperanza de Beck (BHS),1,BHS,bhs_new
+Escala de Detección del TAG de Carroll y Davidson,1,Carroll-TAG,carroll-tag_new
+Escala de Hamilton para la Ansiedad (HAM-A),1,HARS,hars_new
+Escala de Impresión Clínica Global de Guy (CGI),1,CGI,cgi_new
+Escala de Inteligencia Emocional de Schutte (SSEIT),1,SSEIT,sseit_new
+Escala de Intencionalidad Suicida de Beck (SIS),1,SIS,sis_new
+Escala de Isquemia de Hachinski (HIS),1,HIS,his_new
+Escala de Lawton,1,Escala de Lawton,escala_de_lawton_102
+Escala de Movimientos Involuntarios Anormales de Guy (AIMS),1,AIMS,aims_new
+Escala de Pánico y Agorafobia de Bandelow (PAS),1,PAS,pas_new
+Escala de Resiliencia de Wagnild y Young (25 ítems),1,ER-25,er-25_new
+Escala de Riesgo Suicida de Plutchik,1,RS-Plutchik,rs-plutchik_new
+Escala de Sobrecarga del Cuidador de Zarit (ZBI),1,ZBI,zbi_new
+Escala Diagnóstica del Espectro Bipolar de Ghaemi,1,BSDS,bsds_new
+Escala Groningen de la Calidad del Sueño (GSQS),1,GSQS,gsqs_new
+Escala Motivacional de Pensamiento Crítico (EMPC),1,EMPC,empc_new
+Escala Pronóstica para la Esquizofrenia de Strauss y Carpenter,1,SCPS,scps_new
+Esquemas maladaptativos,1,YSQ-S3,ysq-s3_58
+Esquemas y procesos cognitivos,3,RRS; MCQ-30; YSQ-S3,rrs_51; mcq-30_57; ysq-s3_58
+esquizofrenia,8,PDI-21; CAPE-42; PANSS; BPRS; SIPS; SOPS; SUMD; DAI,pdi-21_43; cape-42_44; panss_45; bprs_173; sips_174; sops_175; sumd_176; dai_193
+ESS,1,ESS,ess_137
+estabilidad emocional,10,DERS; CERQ; LEAS; TAS-20; ERSQ; ERQ; PANAS; TMMS-24; SCS; AIM-A,ders_59; cerq_60; leas_61; tas-20_62; ersq_new1; erq_158; panas_161; tmms24_163; scs_169; aim-a_219
+Estigma y discriminación,2,ISMI; EOD,ismi_98; eod_99
+Estilos cognitivos y autogobierno mental,1,TSI,tsi_new
+Estilos de pensamiento y metacognición,1,EMPC,empc_new
+Estrategias de afrontamiento del estres,1,CAE,cae_156
+"Estres psicologico percibido (incontrolabilidad, autoeficacia/afrontamiento)",1,PSS-14,pss14_155
+estrés,4,DASS-21; PSS; TICS; PSS-14,dass-21_5; pss_6; tics_8; pss14_155
+estrés agudo,13,PSS; TICS; PCL-5; CAPS-5; IES-R; DTS; JVQ; ACEQ; CTQ-SF; EGS-R; TQ; DGRP; TOP-8,pss_6; tics_8; pcl-5_9; caps-5_10; ies-r_11; dts_12; jvq_50; aceq_93; ctq-sf_94; egsr_151; tq_191; dgrp_192; top-8_220
+estrés crónico,4,DASS-21; PSS; TICS; PSS-14,dass-21_5; pss_6; tics_8; pss14_155
+estrés laboral,2,MBI; UWES,mbi_105; uwes_106
+estrés percibido,4,DASS-21; PSS; TICS; PSS-14,dass-21_5; pss_6; tics_8; pss14_155
+Estrés psicológico,2,PSS; TICS,pss_6; tics_8
+Estrés y estrés percibido,3,PSS; TICS; PSS-14,pss_6; tics_8; pss14_155
+EuropASI,1,EuropASI,europasi_197
+Evaluación cognitiva,5,MMSE; MoCA; MEC; ADAS-Cog; ADRQL,mmse_119; moca_120; mec_171; adascog_172; adrql_217
+Evaluación diagnóstica multiaxial DSM-IV/CIE-10,1,MINI,mini_new
+Evitacion experiencial,1,BEAQ,beaq_164
+Evitación experiencial,1,MEAQ,meaq_63
+EVMAC,1,EVMAC,evmac_183
+Experiencias perceptivas inusuales,1,CAPE-42,cape-42_44
+Exposición a eventos traumáticos,1,TQ,tq_191
+Exposición y afrontamiento,1,Brief COPE,brief_cope_66
+expresión verbal,2,BNT; TFV,bnt_130; tfv_131
+extrapiramidalismo,2,SAS; UKU,sas_209; uku_210
+FACES-IV,1,FACES-IV,faces-iv_108
+Factores protectores frente al suicidio,1,RFL,rfl_185
+Fallos cognitivos cotidianos,1,CFQ-Fallos,cfq_new1
+Fallos de memoria cotidiana (metamemoria),1,MFE,mfe_new1
+Farmacovigilancia y discinesia tardía,1,AIMS,aims_new
+fatiga crónica,7,PHQ-15; WI; SHAI; SCL-90-R; BPI; PCS; FSS,phq-15_22; wi-7_23; shai_24; scl-90-r_25; bpi_138; pcs_139; fss_140
+Faux Pas Test,1,Faux Pas Test,faux_pas_test_134
+felicidad,4,MLQ; SWLS; PWB; FS,mlq_90; swls_110; pwb_111; fs_112
+FFMQ-SF,1,FFMQ-SF,ffmq-sf_168
+fibromialgia,7,PHQ-15; WI; SHAI; SCL-90-R; BPI; PCS; FSS,phq-15_22; wi-7_23; shai_24; scl-90-r_25; bpi_138; pcs_139; fss_140
+Figura de Rey,1,Figura de Rey,figura_de_rey_124
+flexibilidad cognitiva,14,AAQ-II; CFI; CFQ; MEAQ; WCST; Stroop Test; IGT; BRIEF-2; IFS; DEX-Sp; EFECO; BEAQ; Psy-Flex; FFMQ-SF,aaq-ii_54; cfi_55; cfq_56; meaq_63; wcst_125; stroop_test_126; igt_127; brief-2_128; ifs_129; dex-sp_new1; efeco_new1; beaq_164; psyflex_166; ffmq-sf_168
+"Flexibilidad psicologica (presencia, apertura, defusion, yo estable, valores, compromiso)",1,Psy-Flex,psyflex_166
+Flexibilidad psicológica y mindfulness,7,AAQ-II; CFI; CFQ; MEAQ; BEAQ; Psy-Flex; FFMQ-SF,aaq-ii_54; cfi_55; cfq_56; meaq_63; beaq_164; psyflex_166; ffmq-sf_168
+florecimiento,4,MLQ; SWLS; PWB; FS,mlq_90; swls_110; pwb_111; fs_112
+fluidez verbal,2,BNT; TFV,bnt_130; tfv_131
+FMPS,1,FMPS,fmps_159
+fobia social,15,STAI; BAI; GAD-7; ISRA; HADS; DASS-21; PSWQ; IUS-12; CSI; SIAS; SADS; SPIN; SPIN; BSPS; BSA,stai_0; bai_1; gad-7_2; isra_3; hads_4; dass-21_5; pswq_52; ius-12_53; csi_new1; sias_152; sads_153; spin_188; spin_188; bsps_189; bsa_190
+Fobia social (heteroaplicada),1,BSPS,bsps_189
+Fobia social y ansiedad de desempeño,1,LSAS,lsas_new
+FS,1,FS,fs_112
+FSS,1,FSS,fss_140
+FTND,1,FTND,ftnd_new1
+funcionalidad,5,WHODAS 2.0; BARTHEL; Escala de Lawton; EEAG-GAF; SDI,whodas_2.0_100; indice_de_barth_101; escala_de_lawton_102; eeaggaf_211; sdi_212
+funcionamiento familiar,9,UCLA-R; DJGLS; ISMI; EOD; MOS-SSS; FACES-IV; APGAR; EAS; SASS,ucla-r_74; djgls_75; ismi_98; eod_99; mos-sss_107; faces-iv_108; apgar_109; eas_157; sass_213
+"Funcionamiento general, Discapacidad y Actividades de la vida diaria",3,WHODAS 2.0; BARTHEL; Escala de Lawton,whodas_2.0_100; indice_de_barth_101; escala_de_lawton_102
+Funcionamiento global (eje V del DSM-IV),1,EEAG-GAF,eeaggaf_211
+Funcionamiento global y severidad transdiagnóstica,1,CGI,cgi_new
+Funcionamiento sexual,3,CSFQ; MGH-SFQ; ASEX,csfq_204; mghsfq_206; asex_207
+Funcionamiento y discapacidad,5,WHODAS 2.0; BARTHEL; Escala de Lawton; EEAG-GAF; SDI,whodas_2.0_100; indice_de_barth_101; escala_de_lawton_102; eeaggaf_211; sdi_212
+Funciones ejecutivas,12,WCST; WCST; Stroop Test; Stroop Test; IGT; IGT; BRIEF-2; BRIEF-2; IFS; IFS; DEX-Sp; EFECO,wcst_125; wcst_125; stroop_test_126; stroop_test_126; igt_127; igt_127; brief-2_128; brief-2_128; ifs_129; ifs_129; dex-sp_new1; efeco_new1
+Funciones ejecutivas cotidianas (autoinforme),1,EFECO,efeco_new1
+Función eréctil,1,IIEF,iief_205
+Fusión cognitiva,1,CFQ,cfq_56
+GAD-7,1,GAD-7,gad-7_2
+GDS,1,GDS,gds_179
+"Gravedad de sintomas de TEPT segun DSM-5 (intrusion, evitacion, cognicion/animo, hiperactivacion, disociacion, disfuncionalidad)",1,EGS-R,egsr_151
+Gravedad multidimensional de adicción,1,EuropASI,europasi_197
+GSE,1,GSE,gse_86
+GSQS,1,GSQS,gsqs_new
+Habilidades específicas de regulación emocional (modelo ACE),1,ERSQ,ersq_new1
+HADS,1,HADS,hads_4
+HARS,1,HARS,hars_new
+HCR-20 v3,1,HCR-20 v3,hcr-20_v3_49
+HDRS / HAM-D,1,HDRS / HAM-D,hdrs_17
+HEXACO-PI-R,1,HEXACO-PI-R,hexaco-pi-r_78
+HIS,1,HIS,his_new
+HLS-EU-Q16,1,HLS-EU-Q16,hls-eu-q16_145
+homeostasis emocional,10,DERS; CERQ; LEAS; TAS-20; ERSQ; ERQ; PANAS; TMMS-24; SCS; AIM-A,ders_59; cerq_60; leas_61; tas-20_62; ersq_new1; erq_158; panas_161; tmms24_163; scs_169; aim-a_219
+horquillas,6,PSQI; ISI; ESS; MEQ-SA; STOP-Bang; COS,psqi_135; isi_136; ess_137; meqsa_new1; stopbang_new1; cos_203
+hostilidad,10,AQ; STAXI-2; RPQ; PCL-R; SRP-IV; SCID-5-PD; HCR-20 v3; OAS; RV-Plutchik; BDHI,aq_29; staxi-2_30; rpq_31; pcl-r_32; srp-iv_33; scid-5-pd_34; hcr-20_v3_49; oas_177; rvplutchik_186; bdhi_194
+Hostilidad/agresividad,1,BDHI,bdhi_194
+HSQ-24,1,HSQ-24,hsq-24_new
+IAT,1,IAT,iat_41
+Ideación delirante,1,PDI-21,pdi-21_43
+ideación suicida,5,C-SSRS; BSS; ISAS; ERS; RFL,c-ssrs_46; bss_47; isas_48; ers_147; rfl_185
+Ideación y Conducta suicida,2,C-SSRS; BSS,c-ssrs_46; bss_47
+Identidad cultural y Aculturación,1,VIA,via_96
+identidad de género,8,SCCS; EOM-EIS-2; PVQ; IMI; AGQ-R; MEIM; VIA; VQ,sccs_87; eom-eis-2_88; pvq_89; imi_91; agq-r_92; meim_95; via_96; vq_165
+identidad personal,9,SCCS; EOM-EIS-2; EOM-EIS-2; PVQ; IMI; AGQ-R; MEIM; VIA; VQ,sccs_87; eom-eis-2_88; eom-eis-2_88; pvq_89; imi_91; agq-r_92; meim_95; via_96; vq_165
+identidad social,8,SCCS; EOM-EIS-2; PVQ; IMI; AGQ-R; MEIM; VIA; VQ,sccs_87; eom-eis-2_88; pvq_89; imi_91; agq-r_92; meim_95; via_96; vq_165
+Identidad y valores,8,SCCS; EOM-EIS-2; PVQ; IMI; AGQ-R; MEIM; VIA; VQ,sccs_87; eom-eis-2_88; pvq_89; imi_91; agq-r_92; meim_95; via_96; vq_165
+Identidad étnica (Exploración y Compromiso/Pertenencia),1,MEIM,meim_95
+IDI,1,IDI,idi_70
+IES-R,1,IES-R,ies-r_11
+IFS,1,IFS,ifs_129
+IGT,1,IGT,igt_127
+IIEF,1,IIEF,iief_205
+IIP-32,1,IIP-32,iip-32_72
+Imagen corporal,4,BSQ; MBA; EDI-2; BITE,bsq_new1; mba_new1; edi2_201; bite_202
+IMI,1,IMI,imi_91
+Impulsividad,13,BIS-11; BIS-11; UPPS-P; UPPS-P; DII; DII; CBCL; SDQ; DBD; BIS/BAS; CUBI-18; EI-Plutchik; EI-Plutchik,bis-11_26; bis-11_26; upps-p_27; upps-p_27; dii_28; dii_28; cbcl_35; sdq_36; dbd_37; bis_68; cubi18_150; eiplutchik_187; eiplutchik_187
+"Impulsividad (urgencia compulsiva, busqueda de sensaciones, imprevision)",1,CUBI-18,cubi18_150
+Impulsividad y conducta disruptiva,9,BIS-11; UPPS-P; DII; CBCL; SDQ; DBD; BIS/BAS; CUBI-18; EI-Plutchik,bis-11_26; upps-p_27; dii_28; cbcl_35; sdq_36; dbd_37; bis_68; cubi18_150; eiplutchik_187
+inhibición,7,WCST; Stroop Test; IGT; BRIEF-2; IFS; DEX-Sp; EFECO,wcst_125; stroop_test_126; igt_127; brief-2_128; ifs_129; dex-sp_new1; efeco_new1
+Insatisfacción con la forma y figura corporal,1,BSQ,bsq_new1
+Insight/conciencia de enfermedad,1,SUMD,sumd_176
+insomnio,6,PSQI; ISI; ESS; MEQ-SA; STOP-Bang; COS,psqi_135; isi_136; ess_137; meqsa_new1; stopbang_new1; cos_203
+Inteligencia emocional autopercibida,1,SSEIT,sseit_new
+"Inteligencia emocional percibida (atencion, claridad, reparacion)",1,TMMS-24,tmms24_163
+Intensidad de la reactividad afectiva,1,AIM-A,aim-a_219
+Interacción social,3,RMET; MAIA; Faux Pas Test,rmet_132; maia_133; faux_pas_test_134
+Intolerancia a la incertidumbre,1,IUS-12,ius-12_53
+Inventario de Estilos de Pensamiento de Sternberg (TSI),1,TSI,tsi_new
+Inventario de Situaciones Sociales (ISS),1,ISS,iss_new
+IP,1,IP,ip_148
+IPAQ,1,IPAQ,ipaq_141
+ISAS,1,ISAS,isas_48
+ISCA,1,ISCA,isca_196
+ISI,1,ISI,isi_136
+ISMI,1,ISMI,ismi_98
+ISRA,1,ISRA,isra_3
+ISS,1,ISS,iss_new
+IUS-12,1,IUS-12,ius-12_53
+juego patológico,2,IAT; SOGS,iat_41; sogs_42
+JVQ,1,JVQ,jvq_50
+KATZ,1,KATZ,katz_new
+Laxitud-HdM,1,Laxitud-HdM,laxitud-hdm_new
+LEAS,1,LEAS,leas_61
+Lenguaje y comunicación verbal,2,BNT; TFV,bnt_130; tfv_131
+LOT-R,1,LOT-R,lot-r_116
+LSAS,1,LSAS,lsas_new
+LTS,1,LTS,lts_83
+ludopatía,2,IAT; SOGS,iat_41; sogs_42
+MAC,1,MAC,mac_144
+MADRS,1,MADRS,madrs_178
+MAIA,1,MAIA,maia_133
+Malestar subjetivo y evitacion conductual en situaciones sociales,1,SADS,sads_153
+MALT,1,MALT,malt_195
+Manic episode,4,MDQ; YMRS; EVMAC; MAS,mdq_181; ymrs_182; evmac_183; mas_184
+Manía,4,MDQ; YMRS; EVMAC; MAS,mdq_181; ymrs_182; evmac_183; mas_184
+Marcador somático de hiperlaxitud y pánico,1,Laxitud-HdM,laxitud-hdm_new
+MAS,1,MAS,mas_184
+MBA,1,MBA,mba_new1
+MBI,1,MBI,mbi_105
+MCQ-30,1,MCQ-30,mcq-30_57
+MDQ,1,MDQ,mdq_181
+MEAQ,1,MEAQ,meaq_63
+MEC,1,MEC,mec_171
+MEIM,1,MEIM,meim_95
+"Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",2,TAVEC; Figura de Rey,tavec_123; figura_de_rey_124
+memoria de trabajo,11,TAVEC; Figura de Rey; WCST; Stroop Test; IGT; BRIEF-2; IFS; DEX-Sp; EFECO; MFE; CFQ-Fallos,tavec_123; figura_de_rey_124; wcst_125; stroop_test_126; igt_127; brief-2_128; ifs_129; dex-sp_new1; efeco_new1; mfe_new1; cfq_new1
+memoria episódica,4,TAVEC; Figura de Rey; MFE; CFQ-Fallos,tavec_123; figura_de_rey_124; mfe_new1; cfq_new1
+Memoria y aprendizaje,4,TAVEC; Figura de Rey; MFE; CFQ-Fallos,tavec_123; figura_de_rey_124; mfe_new1; cfq_new1
+MEQ-SA,1,MEQ-SA,meqsa_new1
+Metacogniciones disfuncionales,1,MCQ-30,mcq-30_57
+metamemoria,4,TAVEC; Figura de Rey; MFE; CFQ-Fallos,tavec_123; figura_de_rey_124; mfe_new1; cfq_new1
+MFE,1,MFE,mfe_new1
+MGH-SFQ,1,MGH-SFQ,mghsfq_206
+MGL o MMAS-4,1,MGL o MMAS-4,mgl_o_mmas-4_142
+mindfulness,7,AAQ-II; CFI; CFQ; MEAQ; BEAQ; Psy-Flex; FFMQ-SF,aaq-ii_54; cfi_55; cfq_56; meaq_63; beaq_164; psyflex_166; ffmq-sf_168
+"Mindfulness y regulacion emocional (5 facetas: observar, describir, actuar con consciencia, no juzgar, no reactividad)",1,FFMQ-SF,ffmq-sf_168
+MINI,1,MINI,mini_new
+MLQ,1,MLQ,mlq_90
+MMSE,1,MMSE,mmse_119
+MoCA,1,MoCA,moca_120
+MOS-SSS,1,MOS-SSS,mos-sss_107
+Motivación y Orientación a metas,2,IMI; AGQ-R,imi_91; agq-r_92
+narcisismo,6,PID-5; SD3; SD4; LTS; BSL-23; NPI-N,pid-5_80; sd3_81; sd4_82; lts_83; bsl23_149; npi-n_218
+NEO-PI-R,1,NEO-PI-R,neo-pi-r_76
+NPI-N,1,NPI-N,npi-n_218
+NSSI,5,C-SSRS; BSS; ISAS; ERS; RFL,c-ssrs_46; bss_47; isas_48; ers_147; rfl_185
+OAS,1,OAS,oas_177
+Obsesiones y compulsiones,5,Y-BOCS; OCI-R; PI-WSUR; DOCS; IP,y-bocs_18; oci-r_19; pi-wsur_20; docs_21; ip_148
+OCDS,1,OCDS,ocds_200
+OCI-R,1,OCI-R,oci-r_19
+olvidos,4,TAVEC; Figura de Rey; MFE; CFQ-Fallos,tavec_123; figura_de_rey_124; mfe_new1; cfq_new1
+organización,7,WCST; Stroop Test; IGT; BRIEF-2; IFS; DEX-Sp; EFECO,wcst_125; stroop_test_126; igt_127; brief-2_128; ifs_129; dex-sp_new1; efeco_new1
+Othmer-DeSouza,1,Othmer-DeSouza,othmer-desouza_new
+PANAS,1,PANAS,panas_161
+PANSS,1,PANSS,panss_45
+Parkinsonismo/extrapiramidalismo inducido,1,SAS,sas_209
+PAS,1,PAS,pas_new
+PCL-5,1,PCL-5,pcl-5_9
+PCL-R,1,PCL-R,pcl-r_32
+PCS,1,PCS,pcs_139
+PDI-21,1,PDI-21,pdi-21_43
+percepción positiva,7,AAQ-II; CFI; CFQ; MEAQ; BEAQ; Psy-Flex; FFMQ-SF,aaq-ii_54; cfi_55; cfq_56; meaq_63; beaq_164; psyflex_166; ffmq-sf_168
+Perfeccionismo multidimensional,1,FMPS,fmps_159
+personalidad,5,NEO-PI-R; BFI-2; HEXACO-PI-R; TCI-R; FMPS,neo-pi-r_76; bfi-2_77; hexaco-pi-r_78; tci-r_79; fmps_159
+personalidad antisocial,5,NEO-PI-R; BFI-2; HEXACO-PI-R; TCI-R; FMPS,neo-pi-r_76; bfi-2_77; hexaco-pi-r_78; tci-r_79; fmps_159
+personalidad borderline,5,NEO-PI-R; BFI-2; HEXACO-PI-R; TCI-R; FMPS,neo-pi-r_76; bfi-2_77; hexaco-pi-r_78; tci-r_79; fmps_159
+Personalidad Oscura y Luminosa (Tríadas y Tétradas),3,SD3; SD4; LTS,sd3_81; sd4_82; lts_83
+Personalidad patológica,6,PID-5; SD3; SD4; LTS; BSL-23; NPI-N,pid-5_80; sd3_81; sd4_82; lts_83; bsl23_149; npi-n_218
+PHQ-15,1,PHQ-15,phq-15_22
+PHQ-9,1,PHQ-9,phq-9_14
+PI-WSUR,1,PI-WSUR,pi-wsur_20
+PID-5,1,PID-5,pid-5_80
+planificación,7,WCST; Stroop Test; IGT; BRIEF-2; IFS; DEX-Sp; EFECO,wcst_125; stroop_test_126; igt_127; brief-2_128; ifs_129; dex-sp_new1; efeco_new1
+preocupación,3,RRS; MCQ-30; YSQ-S3,rrs_51; mcq-30_57; ysq-s3_58
+Preocupación crónica,1,PSWQ,pswq_52
+Procesamiento social,3,RMET; MAIA; Faux Pas Test,rmet_132; maia_133; faux_pas_test_134
+PRSexDQ-SALSEX,1,PRSexDQ-SALSEX,prsexdq_new1
+Prueba cognitiva,5,MMSE; MoCA; MEC; ADAS-Cog; ADRQL,mmse_119; moca_120; mec_171; adascog_172; adrql_217
+Psicopatología general (heteroaplicada),1,BPRS,bprs_173
+Psicopatología general (positiva/negativa),1,DAI,dai_193
+psicopatía,6,PID-5; SD3; SD4; LTS; BSL-23; NPI-N,pid-5_80; sd3_81; sd4_82; lts_83; bsl23_149; npi-n_218
+Psicosis bipolar,4,MDQ; YMRS; EVMAC; MAS,mdq_181; ymrs_182; evmac_183; mas_184
+Psicosis maníca,4,MDQ; YMRS; EVMAC; MAS,mdq_181; ymrs_182; evmac_183; mas_184
+Psicosis y curso pronóstico,1,SCPS,scps_new
+Psicosis y experiencias delirantes,8,PDI-21; CAPE-42; PANSS; BPRS; SIPS; SOPS; SUMD; DAI,pdi-21_43; cape-42_44; panss_45; bprs_173; sips_174; sops_175; sumd_176; dai_193
+PSQI,1,PSQI,psqi_135
+PSS,1,PSS,pss_6
+PSS-14,1,PSS-14,pss14_155
+PSWQ,1,PSWQ,pswq_52
+Psy-Flex,1,Psy-Flex,psyflex_166
+PVQ,1,PVQ,pvq_89
+PWB,1,PWB,pwb_111
+pánico,14,STAI; BAI; GAD-7; ISRA; HADS; DASS-21; PSWQ; IUS-12; CSI; SIAS; SADS; SPIN; BSPS; BSA,stai_0; bai_1; gad-7_2; isra_3; hads_4; dass-21_5; pswq_52; ius-12_53; csi_new1; sias_152; sads_153; spin_188; bsps_189; bsa_190
+Pánico y agorafobia,1,PAS,pas_new
+Q-LES-Q,1,Q-LES-Q,q-les-q_new
+QLDS,1,QLDS,qlds_216
+QLS,1,QLS,qls_214
+QoL,4,SF-36; WHOQOL-BREF; QLS; CSCV,sf-36_113; whoqol-bref_114; qls_214; cscv_215
+Quality of life,4,SF-36; WHOQOL-BREF; QLS; CSCV,sf-36_113; whoqol-bref_114; qls_214; cscv_215
+Quejas cognitivas subjetivas cotidianas,1,CFSS,cfss_new
+rabia,10,AQ; STAXI-2; RPQ; PCL-R; SRP-IV; SCID-5-PD; HCR-20 v3; OAS; RV-Plutchik; BDHI,aq_29; staxi-2_30; rpq_31; pcl-r_32; srp-iv_33; scid-5-pd_34; hcr-20_v3_49; oas_177; rvplutchik_186; bdhi_194
+RAS,1,RAS,ras_73
+RAS-H,1,RAS-H,ras-h_170
+Rasgo disposicional de personalidad,1,SSS-V,sss-v_new
+rasgos de personalidad,10,NEO-PI-R; NEO-PI-R; BFI-2; BFI-2; HEXACO-PI-R; HEXACO-PI-R; TCI-R; TCI-R; FMPS; FMPS,neo-pi-r_76; neo-pi-r_76; bfi-2_77; bfi-2_77; hexaco-pi-r_78; hexaco-pi-r_78; tci-r_79; tci-r_79; fmps_159; fmps_159
+"Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",4,NEO-PI-R; BFI-2; HEXACO-PI-R; TCI-R,neo-pi-r_76; bfi-2_77; hexaco-pi-r_78; tci-r_79
+Rasgos de personalidad narcisista,1,NPI-N,npi-n_218
+"Rasgos Patológicos de Personalidad (Afectividad Negativa, Desapego, Antagonismo, Desinhibición, Psicoticismo)",1,PID-5,pid-5_80
+red de apoyo,9,UCLA-R; DJGLS; ISMI; EOD; MOS-SSS; FACES-IV; APGAR; EAS; SASS,ucla-r_74; djgls_75; ismi_98; eod_99; mos-sss_107; faces-iv_108; apgar_109; eas_157; sass_213
+"Regulacion emocional (reevaluacion cognitiva, supresion expresiva)",1,ERQ,erq_158
+regulación afectiva,10,DERS; CERQ; LEAS; TAS-20; ERSQ; ERQ; PANAS; TMMS-24; SCS; AIM-A,ders_59; cerq_60; leas_61; tas-20_62; ersq_new1; erq_158; panas_161; tmms24_163; scs_169; aim-a_219
+Regulación afectiva y mecanismos de humor,1,HSQ-24,hsq-24_new
+Regulación emocional,20,DERS; DERS; CERQ; CERQ; LEAS; LEAS; TAS-20; TAS-20; ERSQ; ERSQ; ERQ; ERQ; PANAS; PANAS; TMMS-24; TMMS-24; SCS; SCS; AIM-A; AIM-A,ders_59; ders_59; cerq_60; cerq_60; leas_61; leas_61; tas-20_62; tas-20_62; ersq_new1; ersq_new1; erq_158; erq_158; panas_161; panas_161; tmms24_163; tmms24_163; scs_169; scs_169; aim-a_219; aim-a_219
+Regulación y Desregulación emocional,2,DERS; CERQ,ders_59; cerq_60
+Relación paciente-profesional,1,CREM-P,cremp_new1
+rendimiento académico,4,CHTE; CHTE; BASC-3; BASC-3,chte_103; chte_103; basc-3_104; basc-3_104
+"Rendimiento académico, Hábitos de estudio y Adaptación escolar",2,CHTE; BASC-3,chte_103; basc-3_104
+rendimiento cognitivo,2,CHTE; BASC-3,chte_103; basc-3_104
+rendimiento escolar,2,CHTE; BASC-3,chte_103; basc-3_104
+rendimiento intelectual,2,CHTE; BASC-3,chte_103; basc-3_104
+resiliencia,20,PSS; TICS; AAQ-II; CFI; CFQ; MEAQ; Brief COPE; CD-RISC; LOT-R; VIA-IS; BIPQ; MAC; PSS-14; CAE; RS-14; RS-14; BEAQ; Psy-Flex; COPE-48; FFMQ-SF,pss_6; tics_8; aaq-ii_54; cfi_55; cfq_56; meaq_63; brief_cope_66; cd-risc_115; lot-r_116; via-is_118; bipq_143; mac_144; pss14_155; cae_156; rs14_162; rs14_162; beaq_164; psyflex_166; cope48_167; ffmq-sf_168
+Resiliencia y superación de adversidades,1,ER-25,er-25_new
+"Resiliencia, Afrontamiento y Fortalezas",3,CD-RISC; LOT-R; VIA-IS,cd-risc_115; lot-r_116; via-is_118
+resolución de problemas,7,WCST; Stroop Test; IGT; BRIEF-2; IFS; DEX-Sp; EFECO,wcst_125; stroop_test_126; igt_127; brief-2_128; ifs_129; dex-sp_new1; efeco_new1
+Respuesta al tratamiento en TEPT,1,TOP-8,top-8_220
+RFL,1,RFL,rfl_185
+Riesgo de apnea del sueño,1,STOP-Bang,stopbang_new1
+Riesgo de psicosis,1,SIPS,sips_174
+riesgo de suicidio,5,C-SSRS; BSS; ISAS; ERS; RFL,c-ssrs_46; bss_47; isas_48; ers_147; rfl_185
+Riesgo de violencia,1,HCR-20 v3,hcr-20_v3_49
+Riesgo de violencia autodirigida,1,RV-Plutchik,rvplutchik_186
+"Riesgo suicida (desesperanza, ideacion/planeacion, aislamiento social, apoyo familiar)",1,ERS,ers_147
+Riesgo y conducta suicida,2,SIS; RS-Plutchik,sis_new; rs-plutchik_new
+Rigidez y Flexibilidad cognitiva,2,AAQ-II; CFI,aaq-ii_54; cfi_55
+ritmos circadianos,6,PSQI; ISI; ESS; MEQ-SA; STOP-Bang; COS,psqi_135; isi_136; ess_137; meqsa_new1; stopbang_new1; cos_203
+rituales,5,Y-BOCS; OCI-R; PI-WSUR; DOCS; IP,y-bocs_18; oci-r_19; pi-wsur_20; docs_21; ip_148
+RMET,1,RMET,rmet_132
+RPQ,1,RPQ,rpq_31
+RRS,1,RRS,rrs_51
+RS-14,1,RS-14,rs14_162
+RS-Plutchik,1,RS-Plutchik,rs-plutchik_new
+RSES,1,RSES,rses_84
+RSQ,1,RSQ,rsq_71
+rumiación,4,RRS; RRS; MCQ-30; YSQ-S3,rrs_51; rrs_51; mcq-30_57; ysq-s3_58
+RV-Plutchik,1,RV-Plutchik,rvplutchik_186
+SADQ,1,SADQ,sadq_198
+SADS,1,SADS,sads_153
+SAHLSA-50,1,SAHLSA-50,sahlsa-50_146
+Salud física,4,SF-36; WHOQOL-BREF; QLS; CSCV,sf-36_113; whoqol-bref_114; qls_214; cscv_215
+Salud mental,4,SF-36; WHOQOL-BREF; QLS; CSCV,sf-36_113; whoqol-bref_114; qls_214; cscv_215
+salud reproductiva,6,PRSexDQ-SALSEX; SIS/SES-SF; CSFQ; IIEF; MGH-SFQ; ASEX,prsexdq_new1; sisses_new1; csfq_204; iief_205; mghsfq_206; asex_207
+salud sexual,12,PRSexDQ-SALSEX; PRSexDQ-SALSEX; SIS/SES-SF; SIS/SES-SF; CSFQ; CSFQ; IIEF; IIEF; MGH-SFQ; MGH-SFQ; ASEX; ASEX,prsexdq_new1; prsexdq_new1; sisses_new1; sisses_new1; csfq_204; csfq_204; iief_205; iief_205; mghsfq_206; mghsfq_206; asex_207; asex_207
+Salud sexual (disfunción inducida por fármacos),1,PRSexDQ-SALSEX,prsexdq_new1
+Salud sexual (propensión a inhibición/excitación),1,SIS/SES-SF,sisses_new1
+salud sexual integral,6,PRSexDQ-SALSEX; SIS/SES-SF; CSFQ; IIEF; MGH-SFQ; ASEX,prsexdq_new1; sisses_new1; csfq_204; iief_205; mghsfq_206; asex_207
+salud sexual y reproductiva,6,PRSexDQ-SALSEX; SIS/SES-SF; CSFQ; IIEF; MGH-SFQ; ASEX,prsexdq_new1; sisses_new1; csfq_204; iief_205; mghsfq_206; asex_207
+SAS,1,SAS,sas_209
+SASS,1,SASS,sass_213
+Satisfacción diádica y calidad de la relación de pareja,1,RAS-H,ras-h_170
+satisfacción vital,4,MLQ; SWLS; PWB; FS,mlq_90; swls_110; pwb_111; fs_112
+SCCS,1,SCCS,sccs_87
+SCID-5-PD,1,SCID-5-PD,scid-5-pd_34
+SCL-90-R,1,SCL-90-R,scl-90-r_25
+SCPS,1,SCPS,scps_new
+SCS,1,SCS,scs_169
+SD3,1,SD3,sd3_81
+SD4,1,SD4,sd4_82
+SDI,1,SDI,sdi_212
+SDQ,1,SDQ,sdq_36
+SDS,1,SDS,sds_new
+sedación,2,SAS; UKU,sas_209; uku_210
+SEMCD-S,1,SEMCD-S,semcds_new1
+Sensibilidad al rechazo,1,RSQ,rsq_71
+Sensibilización central y carga de síntomas,1,CSI,csi_new1
+Sentido de vida y Propósito vital,1,MLQ,mlq_90
+Severidad de dependencia alcohólica,1,SADQ,sadq_198
+Severidad de manía,2,YMRS; MAS,ymrs_182; mas_184
+Severidad de manía (heteroaplicada),1,EVMAC,evmac_183
+Severidad depresiva (heteroaplicada),1,MADRS,madrs_178
+sexualidad,6,PRSexDQ-SALSEX; SIS/SES-SF; CSFQ; IIEF; MGH-SFQ; ASEX,prsexdq_new1; sisses_new1; csfq_204; iief_205; mghsfq_206; asex_207
+sexualidad humana,6,PRSexDQ-SALSEX; SIS/SES-SF; CSFQ; IIEF; MGH-SFQ; ASEX,prsexdq_new1; sisses_new1; csfq_204; iief_205; mghsfq_206; asex_207
+SF-36,1,SF-36,sf-36_113
+SHAI,1,SHAI,shai_24
+SHAPS,1,SHAPS,shaps_16
+SIAS,1,SIAS,sias_152
+"Sintomatologia limite (TLP): afecto negativo, autoimagen, autodestruccion, impulsividad, disociacion",1,BSL-23,bsl23_149
+"Sintomatologia obsesivo-compulsiva (perdida de control mental, contaminacion, comprobacion, impulsos)",1,IP,ip_148
+SIPS,1,SIPS,sips_174
+SIS,1,SIS,sis_new
+SIS/SES-SF,1,SIS/SES-SF,sisses_new1
+sobrecarga,4,DASS-21; PSS; TICS; PSS-14,dass-21_5; pss_6; tics_8; pss14_155
+Sobrecarga familiar y dinámica de cuidados,1,ZBI,zbi_new
+Social cognition,3,RMET; MAIA; Faux Pas Test,rmet_132; maia_133; faux_pas_test_134
+SOGS,1,SOGS,sogs_42
+Soledad y aislamiento social,2,UCLA-R; DJGLS,ucla-r_74; djgls_75
+somatización,7,PHQ-15; WI; SHAI; SCL-90-R; BPI; PCS; FSS,phq-15_22; wi-7_23; shai_24; scl-90-r_25; bpi_138; pcs_139; fss_140
+Somatización y ansiedad por la salud,4,PHQ-15; WI; SHAI; SCL-90-R,phq-15_22; wi-7_23; shai_24; scl-90-r_25
+somnolencia diurna,6,PSQI; ISI; ESS; MEQ-SA; STOP-Bang; COS,psqi_135; isi_136; ess_137; meqsa_new1; stopbang_new1; cos_203
+SOPS,1,SOPS,sops_175
+SPIN,1,SPIN,spin_188
+SRP-IV,1,SRP-IV,srp-iv_33
+SSEIT,1,SSEIT,sseit_new
+SSS-V,1,SSS-V,sss-v_new
+STAI,1,STAI,stai_0
+STAXI-2,1,STAXI-2,staxi-2_30
+STOP-Bang,1,STOP-Bang,stopbang_new1
+Stroop Test,1,Stroop Test,stroop_test_126
+sueño,6,PSQI; ISI; ESS; MEQ-SA; STOP-Bang; COS,psqi_135; isi_136; ess_137; meqsa_new1; stopbang_new1; cos_203
+Sueño y ritmos circadianos,6,PSQI; ISI; ESS; MEQ-SA; STOP-Bang; COS,psqi_135; isi_136; ess_137; meqsa_new1; stopbang_new1; cos_203
+Suicidio y autolesión,5,C-SSRS; BSS; ISAS; ERS; RFL,c-ssrs_46; bss_47; isas_48; ers_147; rfl_185
+SUMD,1,SUMD,sumd_176
+Sustancias y alcoholismo,11,ASSIST; AUDIT; DAST-10; FTND; MALT; ISCA; EuropASI; SADQ; EIDA; OCDS; BWSQ,assist_38; audit_39; dast-10_40; ftnd_new1; malt_195; isca_196; europasi_197; sadq_198; eida_199; ocds_200; bwsq_208
+SWBS,1,SWBS,swbs_new
+SWLS,1,SWLS,swls_110
+Síntomas bulímicos,1,BITE,bite_202
+Síntomas disejecutivos conductuales,1,DEX-Sp,dex-sp_new1
+síntomas positivos,8,PDI-21; CAPE-42; PANSS; BPRS; SIPS; SOPS; SUMD; DAI,pdi-21_43; cape-42_44; panss_45; bprs_173; sips_174; sops_175; sumd_176; dai_193
+Síntomas prodrómicos de psicosis,1,SOPS,sops_175
+Síntomas somatomorfos y somatización,1,Othmer-DeSouza,othmer-desouza_new
+Tabaco,1,FTND,ftnd_new1
+TAG,14,STAI; BAI; GAD-7; ISRA; HADS; DASS-21; PSWQ; IUS-12; CSI; SIAS; SADS; SPIN; BSPS; BSA,stai_0; bai_1; gad-7_2; isra_3; hads_4; dass-21_5; pswq_52; ius-12_53; csi_new1; sias_152; sads_153; spin_188; bsps_189; bsa_190
+TAS-20,1,TAS-20,tas-20_62
+TAVEC,1,TAVEC,tavec_123
+TCI-R,1,TCI-R,tci-r_79
+TDAH,9,BIS-11; UPPS-P; DII; CBCL; SDQ; DBD; BIS/BAS; CUBI-18; EI-Plutchik,bis-11_26; upps-p_27; dii_28; cbcl_35; sdq_36; dbd_37; bis_68; cubi18_150; eiplutchik_187
+temblor,2,SAS; UKU,sas_209; uku_210
+tensión,4,DASS-21; PSS; TICS; PSS-14,dass-21_5; pss_6; tics_8; pss14_155
+TEPT,13,PSS; TICS; PCL-5; CAPS-5; IES-R; DTS; JVQ; ACEQ; CTQ-SF; EGS-R; TQ; DGRP; TOP-8,pss_6; tics_8; pcl-5_9; caps-5_10; ies-r_11; dts_12; jvq_50; aceq_93; ctq-sf_94; egsr_151; tq_191; dgrp_192; top-8_220
+Test de Actitudes hacia la Alimentación (40 ítems),1,EAT-40,eat-40_new
+Test de Actitudes hacia la Alimentación (Formato SERGAS),1,EAT-40-SERGAS,eat-40-sergas_new
+Test de Actitudes hacia la Alimentación - Versión Abreviada (26 ítems),1,EAT-26,eat-26_new
+Test de Detección de Somatización de Othmer y DeSouza,1,Othmer-DeSouza,othmer-desouza_new
+TFV,1,TFV,tfv_131
+TICS,1,TICS,tics_8
+TLP,6,PID-5; SD3; SD4; LTS; BSL-23; NPI-N,pid-5_80; sd3_81; sd4_82; lts_83; bsl23_149; npi-n_218
+TMMS-24,1,TMMS-24,tmms24_163
+TMT,1,TMT,tmt_122
+TOC,5,Y-BOCS; OCI-R; PI-WSUR; DOCS; IP,y-bocs_18; oci-r_19; pi-wsur_20; docs_21; ip_148
+tolerancia a la frustración,12,PSS; TICS; Brief COPE; CD-RISC; LOT-R; VIA-IS; BIPQ; MAC; PSS-14; CAE; RS-14; COPE-48,pss_6; tics_8; brief_cope_66; cd-risc_115; lot-r_116; via-is_118; bipq_143; mac_144; pss14_155; cae_156; rs14_162; cope48_167
+TOP-8,1,TOP-8,top-8_220
+TQ,1,TQ,tq_191
+Trastorno bipolar y ciclotimia,1,BSDS,bsds_new
+trastorno de déficit de atención e hiperactividad,9,BIS-11; UPPS-P; DII; CBCL; SDQ; DBD; BIS/BAS; CUBI-18; EI-Plutchik,bis-11_26; upps-p_27; dii_28; cbcl_35; sdq_36; dbd_37; bis_68; cubi18_150; eiplutchik_187
+trastorno de personalidad,5,NEO-PI-R; BFI-2; HEXACO-PI-R; TCI-R; FMPS,neo-pi-r_76; bfi-2_77; hexaco-pi-r_78; tci-r_79; fmps_159
+Trastorno de Pánico: Diario del Paciente (Autorregistro TCC),1,Diario-Panico,diario-panico_new
+Trastornos de la conducta alimentaria,3,EAT-40; EAT-26; EAT-40-SERGAS,eat-40_new; eat-26_new; eat-40-sergas_new
+Trauma acumulado y Adversidad temprana,2,ACEQ; CTQ-SF,aceq_93; ctq-sf_94
+trauma complejo,13,PSS; TICS; PCL-5; CAPS-5; IES-R; DTS; JVQ; ACEQ; CTQ-SF; EGS-R; TQ; DGRP; TOP-8,pss_6; tics_8; pcl-5_9; caps-5_10; ies-r_11; dts_12; jvq_50; aceq_93; ctq-sf_94; egsr_151; tq_191; dgrp_192; top-8_220
+Trauma y estrés postraumático,11,PCL-5; CAPS-5; IES-R; DTS; JVQ; ACEQ; CTQ-SF; EGS-R; TQ; DGRP; TOP-8,pcl-5_9; caps-5_10; ies-r_11; dts_12; jvq_50; aceq_93; ctq-sf_94; egsr_151; tq_191; dgrp_192; top-8_220
+tríada oscura,6,PID-5; SD3; SD4; LTS; BSL-23; NPI-N,pid-5_80; sd3_81; sd4_82; lts_83; bsl23_149; npi-n_218
+TSI,1,TSI,tsi_new
+UCLA-R,1,UCLA-R,ucla-r_74
+UKU,1,UKU,uku_210
+UPPS-P,1,UPPS-P,upps-p_27
+uso de internet,2,IAT; SOGS,iat_41; sogs_42
+Uso problemático de sustancias,3,ASSIST; AUDIT; DAST-10,assist_38; audit_39; dast-10_40
+UWES,1,UWES,uwes_106
+valores morales,8,SCCS; EOM-EIS-2; PVQ; IMI; AGQ-R; MEIM; VIA; VQ,sccs_87; eom-eis-2_88; pvq_89; imi_91; agq-r_92; meim_95; via_96; vq_165
+Valores personales,1,PVQ,pvq_89
+valores éticos,8,SCCS; EOM-EIS-2; PVQ; IMI; AGQ-R; MEIM; VIA; VQ,sccs_87; eom-eis-2_88; pvq_89; imi_91; agq-r_92; meim_95; via_96; vq_165
+valía personal,3,RSES; AF-5; GSE,rses_84; af-5_85; gse_86
+VIA,1,VIA,via_96
+VIA-IS,1,VIA-IS,via-is_118
+Vida diaria,4,SF-36; WHOQOL-BREF; QLS; CSCV,sf-36_113; whoqol-bref_114; qls_214; cscv_215
+Vida valiosa (Progreso vs Obstruccion) segun valores personales,1,VQ,vq_165
+vigilancia,2,d2-R; TMT,d2-r_121; tmt_122
+VQ,1,VQ,vq_165
+Vulnerabilidad y victimización,1,JVQ,jvq_50
+WCST,1,WCST,wcst_125
+WHODAS 2.0,1,WHODAS 2.0,whodas_2.0_100
+WHOQOL-BREF,1,WHOQOL-BREF,whoqol-bref_114
+WI,1,WI,wi-7_23
+Y-BOCS,1,Y-BOCS,y-bocs_18
+YMRS,1,YMRS,ymrs_182
+YSQ-S3,1,YSQ-S3,ysq-s3_58
+ZBI,1,ZBI,zbi_new
+ánimo bajo,12,DASS-21; BDI-II; PHQ-9; CES-D; SHAPS; HDRS / HAM-D; BADS; EROS; MADRS; GDS; CDS; QLDS,dass-21_5; bdi-ii_13; phq-9_14; ces-d_15; shaps_16; hdrs_17; bads_64; eros_65; madrs_178; gds_179; cds_180; qlds_216
+Índice de Katz de Actividades Básicas de la Vida Diaria (ABVD),1,KATZ,katz_new
