@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "node buscador_indice.js data/indice_psicoflujo.json --probar && node scripts/test_search.js && node scripts/test_hero_search.js && node scripts/test_guia.js"
   },
   "dependencies": {
     "lucide-react": "^1.18.0",
@@ -22,6 +23,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
+    "puppeteer-core": "^24.43.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
