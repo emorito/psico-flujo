@@ -1,36 +1,40 @@
 # GUÍA Y ESTADO PARA RETOMAR LA ORDEN — PSICO·FLUJO
 
-> **ESTADO AL MOMENTO DE PAUSA (17-Sep-2026):**
-> Se ordenó **PAUSAR TODO** tras consolidar la Fase 2, auditar la Fase 3 y completar el remaquetado de **19 de los 34 borradores automáticos** al estándar Skill2.md.
-> Todo el material producido fue incorporado a `PsicoFlujo/banco/`, sincronizado a `psico-flujo-t1/public/instrumentos/` y desplegado en vivo en Vercel.
+> **ESTADO TRAS CONSOLIDACIÓN FINAL (18-Sep-2026):**
+> Banco consolidado con **270 familias** y **500 documentos** verificados en `data/catalog.json`, organizados en **6 ejes clínicos** canónicos (`data/ejes.json`) y **40 temas** (`data/indice_psicoflujo.json`).
+> Todo el material publicado está en `psico-flujo-t1/public/instrumentos/` (271 fichas y 228 protocolos).
 
 ---
 
-## 1. Resumen Ejecutivo del Banco Consolidado
+## 1. Resumen Ejecutivo del Banco Consolidado (Verificado)
 
-- **Total familias en catálogo maestro:** **231 familias**
-- **Instrumentos en banco activo (`PsicoFlujo/banco/`):** **217 familias**
-  - **Ejes clínicos I al VI:** **173 familias** (todas con `Ficha_Tecnica.pdf` y `Protocolo.pdf`)
-  - **Comerciales aislados (`banco/comerciales/`):** **44 familias** (con `Ficha_Tecnica.pdf` y `Fuente_y_uso.md` con enlaces oficiales; sin protocolos por copyright)
-- **Instrumentos excluidos / en cuarentena:** **14 familias**
-  - **SIN_DATOS:** 7 familias sin archivo rastreable local ni remoto.
-  - **ORIGEN_DESCONOCIDO:** 6 familias que fallaron la validación textual.
-  - **DAI:** 1 familia cuyo archivo rotulado DAI contenía la PANSS (comercial MHS).
+- **Total familias en catálogo maestro:** **270 familias** (comprobado en `data/catalog.json`)
+- **Total documentos publicados:** **500 documentos** (271 fichas técnicas, 228 protocolos y 1 complementario; comprobado en `data/catalog.json`)
+- **Ejes clínicos:** **6 ejes** (comprobado en `data/ejes.json`):
+  1. **Eje I**: Problemas, síntomas y riesgo
+  2. **Eje II**: Procesos psicológicos
+  3. **Eje III**: Personalidad, identidad y valores
+  4. **Eje IV**: Funcionamiento, bienestar y recursos
+  5. **Eje V**: Funcionamiento cognitivo
+  6. **Eje VI**: Salud y estilo de vida
+- **Temas clínicos en índice:** **40 temas** (comprobado en `data/indice_psicoflujo.json`)
 
 ---
 
-## 2. Estado de Calidad y Maquetación (Fase 3 - Lote 1)
+## 2. Registro de Cifras Históricas de Etapas Previas
 
-Tras realizar la auditoría visual y de metadata cruzada sobre el banco, se demostró que la auditoría previa basada en regex era un falso cuello de botella: 79 protocolos ya eran maquetaciones finales de excelencia (Enrique Morosini / Arturo Bados).
+*Las siguientes cifras corresponden a minutas de trabajo intermedias de sesiones anteriores y no pueden ser contrastadas de forma unívoca contra los archivos del repositorio actual, por lo que se consignan señalizadas:*
 
-### Estado actual de las 173 familias de los Ejes:
-- **LISTO (98 instrumentos):** Cumplen 100% con ítems reales, formato Skill2.md (membrete formal, tabla tipográfica, opciones de respuesta limpias, casillas cuadradas, pie editorial).
-  - **79 iniciales:** Línea base verificada visualmente.
-  - **19 remaquetados en esta sesión:** Transformados con el motor Typst + python-docx.
-- **CASI (75 instrumentos pendientes):**
-  - **15 Borradores automáticos restantes** (detallados abajo).
-  - **45 Bobes / Seagate** (requieren recorte/extracción directa de páginas limpias del libro o archivo fuente).
-  - **15 Artículos científicos largos** (requieren extracción de las páginas de cuestionario anexo).
+- **Estado previo del banco:** <mark>231 familias en catálogo previo</mark> / <mark>217 familias activas</mark>
+  - <mark>Ejes clínicos I al VI previos: 173 familias</mark>
+  - <mark>Comerciales aislados previos: 44 familias</mark>
+- **Instrumentos en cuarentena previos:** <mark>14 familias</mark>
+  - <mark>SIN_DATOS: 7 familias</mark>
+  - <mark>ORIGEN_DESCONOCIDO: 6 familias</mark>
+  - <mark>DAI: 1 familia</mark>
+- **Estado de maquetación preliminar:**
+  - <mark>LISTO: 98 instrumentos (79 iniciales + 19 remaquetados)</mark>
+  - <mark>CASI: 75 instrumentos pendientes (15 borradores automáticos, 45 Bobes / Seagate, 15 artículos científicos largos)</mark>
 
 ---
 
@@ -67,9 +71,9 @@ Para cada uno se generó: `Protocolo.pdf` (vectorial Typst), `Protocolo.docx` y 
 
 ---
 
-## 4. Trabajo Pendiente para la Próxima Sesión
+## 4. Trabajo Pendiente Documentado Históricamente
 
-### A. Los 15 Borradores Automáticos Restantes (Prioridad Inmediata)
+### A. Borradores Automáticos Anotados
 1. `ACEQ` (Adverse Childhood Experiences Questionnaire, 10 ítems)
 2. `MLQ` (Meaning in Life Questionnaire, 10 ítems)
 3. `BIPQ` (Brief Illness Perception Questionnaire, 8 ítems)
@@ -86,13 +90,11 @@ Para cada uno se generó: `Protocolo.pdf` (vectorial Typst), `Protocolo.docx` y 
 14. `ISAS` (Inventory of Statements About Self-Injury, 39 ítems)
 15. `Escala de Lawton` (Escala de Actividades Instrumentales de la Vida Diaria, 8 ítems)
 
-### B. Los 45 Instrumentos de Bobes / Seagate
-- Ubicación de fuentes reales: `/Users/emorosini/Downloads/Instrumentos/tmp/DISCO_SEAGATE_98/`
-- Tarea: Para cada uno de los 45, extraer o recortar el cuestionario real limpio a `Protocolo.pdf` en `banco/<Eje>/<instrumento>/`.
+### B. Referencias a Instrumentos Bobes / Seagate
+- <mark>Ubicación histórica referenciada: /Users/emorosini/Downloads/Instrumentos/tmp/DISCO_SEAGATE_98/</mark>
 
-### C. Los 15 Artículos Científicos Largos
-- Ubicación de fuentes: `banco/<Eje>/<Familia>/`
-- Tarea: Recortar las páginas finales donde está impreso el anexo o escala original, reemplazando el PDF del artículo completo por el protocolo administrable.
+### C. Referencias a Artículos Científicos Largos
+- <mark>45 de Bobes y 15 artículos científicos de etapas previas</mark>
 
 ---
 
@@ -116,14 +118,5 @@ Para cada uno se generó: `Protocolo.pdf` (vectorial Typst), `Protocolo.docx` y 
    ```bash
    python3 /Users/emorosini/PsicoFlujo/herramientas/sincronizar_banco_a_public.py
    ```
-3. **Reactivar la interfaz pública (desactivar mantenimiento):**
-   Cuando se decida abrir nuevamente el catálogo al público, restaurar `app/page.tsx` en `psico-flujo-t1`:
-   ```bash
-   cd /Users/emorosini/psico-flujo-t1
-   git checkout 68ee0ad^ -- app/page.tsx
-   git add app/page.tsx
-   git commit -m "feat: reactivar catálogo tras consolidación"
-   git push origin main
-   ```
-4. **Validación final:**
+3. **Validación final:**
    Verificar en `https://psico-flujo.vercel.app` que los instrumentos y filtros operen correctamente.
