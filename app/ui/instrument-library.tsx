@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useEffect, useRef, useCallback } from "react";
+import { useMemo, useState, useEffect, useRef, useCallback, useDeferredValue } from "react";
 import {
   ChevronDown,
   Download,
@@ -148,6 +148,7 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
 
   const query = props.query !== undefined ? props.query : internalQuery;
   const setQuery = props.setQuery || setInternalQuery;
+  const deferredQuery = useDeferredValue(query);
 
   const selectedAxis = props.selectedAxis !== undefined ? props.selectedAxis : internalAxis;
   const setSelectedAxis = props.setSelectedAxis || setInternalAxis;
@@ -202,7 +203,7 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
 
   // Filtered instruments
   const filtered = useMemo(() => {
-    const trimmedQuery = query.trim();
+    const trimmedQuery = deferredQuery.trim();
     let searchHitMap: Map<string, { score: number; parcial: boolean; rank: number }> | null = null;
 
     if (trimmedQuery.length > 0) {
@@ -277,7 +278,7 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
         }
         return a.sigla.localeCompare(b.sigla);
       });
-  }, [selectedAxis, selectedFranja, selectedTheme, selectedFuncion, selectedTipo, selectedLibre, query]);
+  }, [selectedAxis, selectedFranja, selectedTheme, selectedFuncion, selectedTipo, selectedLibre, deferredQuery]);
 
   // Group filtered results by Axis
   const groupedByAxis = useMemo(() => {

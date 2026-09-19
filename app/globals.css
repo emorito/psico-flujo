@@ -1139,6 +1139,10 @@ nav a:hover {
   overflow: hidden;
   background: var(--surface);
 }
+.instrument-row {
+  content-visibility: auto;
+  contain-intrinsic-size: 65px;
+}
 .instrument-row + .instrument-row {
   border-top: 1px solid var(--line);
 }
