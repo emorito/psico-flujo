@@ -111,6 +111,7 @@ nav a {
   justify-content: center;
   padding: 0 14px;
   border-radius: 999px;
+  white-space: nowrap;
   transition: background 0.16s ease, color 0.16s ease;
 }
 nav a:hover {
@@ -1650,7 +1651,7 @@ nav a:hover {
 
 /* Responsive Media Queries */
 @media (max-width: 980px) {
-  .axes-cards-grid { grid-template-columns: repeat(2, 1fr); }
+  .axes-cards-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .about-grid { grid-template-columns: 1fr; }
   .section-intro { grid-template-columns: 1fr; gap: 16px; }
   .instrument-main { grid-template-columns: 32px 76px 1fr 70px 30px; }
@@ -1717,7 +1718,7 @@ nav a:hover {
   }
 
   .axes-cards-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 6px;
   }
   .axis-card-trigger {
