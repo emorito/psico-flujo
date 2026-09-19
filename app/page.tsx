@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useDeferredValue } from "react";
 import { Search, ShieldCheck, X, ArrowDown } from "lucide-react";
 import { InstrumentLibrary, catalog, indiceData, searchIndex } from "./ui/instrument-library";
 import { buscar } from "../buscador_indice";
@@ -16,6 +16,7 @@ export default function Home() {
     }
     return "";
   });
+  const deferredQuery = useDeferredValue(query);
   const [selectedAxis, setSelectedAxis] = useState<number | "all">("all");
   const [selectedFranja, setSelectedFranja] = useState<string>("all");
   const [selectedTheme, setSelectedTheme] = useState<string>("all");
@@ -41,12 +42,13 @@ export default function Home() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const heroSearchCount = useMemo(() => {
-    const trimmed = query.trim();
+  const searchResults = useMemo(() => {
+    const trimmed = deferredQuery.trim();
     if (!trimmed) return null;
-    const hits = buscar(searchIndex, trimmed, { limite: catalog.length });
-    return hits.length;
-  }, [query]);
+    return buscar(searchIndex, trimmed, { limite: catalog.length });
+  }, [deferredQuery]);
+
+  const heroSearchCount = searchResults ? searchResults.length : null;
 
   const handleHeroSearchSubmit = (event?: React.FormEvent) => {
     if (event) event.preventDefault();
@@ -154,7 +156,7 @@ export default function Home() {
                     handleHeroSearchSubmit();
                   }
                 }}
-                placeholder="Buscar por sigla, nombre, constructo o tema (ej. PHQ, BDI, TOC, TEPT, ansiedad, depresión)…"
+                placeholder="Buscar por sigla, nombre o tema (ej. PHQ, BDI, ansiedad)…"
                 aria-label="Buscar instrumentos en catálogo"
               />
               {query && (
@@ -223,6 +225,7 @@ export default function Home() {
       <InstrumentLibrary
         query={query}
         setQuery={setQuery}
+        searchResults={searchResults}
         selectedAxis={selectedAxis}
         setSelectedAxis={setSelectedAxis}
         selectedFranja={selectedFranja}

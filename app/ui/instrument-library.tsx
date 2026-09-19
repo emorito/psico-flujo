@@ -121,6 +121,7 @@ export const AGE_FRANJAS = [
 interface InstrumentLibraryProps {
   query?: string;
   setQuery?: (q: string) => void;
+  searchResults?: { id: string; score: number; parcial: boolean }[] | null;
   selectedAxis?: number | "all";
   setSelectedAxis?: (axis: number | "all") => void;
   selectedFranja?: string;
@@ -202,15 +203,24 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
 
   // Filtered instruments
   const filtered = useMemo(() => {
-    const trimmedQuery = deferredQuery.trim();
     let searchHitMap: Map<string, { score: number; parcial: boolean; rank: number }> | null = null;
 
-    if (trimmedQuery.length > 0) {
-      const results = buscar(searchIndex, trimmedQuery, { limite: catalog.length });
-      searchHitMap = new Map();
-      results.forEach((r: { id: string; score: number; parcial: boolean }, idx: number) => {
-        searchHitMap!.set(r.id, { score: r.score, parcial: r.parcial, rank: idx });
-      });
+    if (props.searchResults !== undefined) {
+      if (props.searchResults !== null) {
+        searchHitMap = new Map();
+        props.searchResults.forEach((r: { id: string; score: number; parcial: boolean }, idx: number) => {
+          searchHitMap!.set(r.id, { score: r.score, parcial: r.parcial, rank: idx });
+        });
+      }
+    } else {
+      const trimmedQuery = deferredQuery.trim();
+      if (trimmedQuery.length > 0) {
+        const results = buscar(searchIndex, trimmedQuery, { limite: catalog.length });
+        searchHitMap = new Map();
+        results.forEach((r: { id: string; score: number; parcial: boolean }, idx: number) => {
+          searchHitMap!.set(r.id, { score: r.score, parcial: r.parcial, rank: idx });
+        });
+      }
     }
 
     return catalog
@@ -277,7 +287,7 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
         }
         return a.sigla.localeCompare(b.sigla);
       });
-  }, [selectedAxis, selectedFranja, selectedTheme, selectedFuncion, selectedTipo, selectedLibre, deferredQuery]);
+  }, [selectedAxis, selectedFranja, selectedTheme, selectedFuncion, selectedTipo, selectedLibre, deferredQuery, props.searchResults]);
 
   // Group filtered results by Axis
   const groupedByAxis = useMemo(() => {
@@ -431,7 +441,7 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
             <input
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Buscar por sigla, nombre, constructo o tema (ej. PHQ, BDI, TOC, TEPT, ansiedad, depresión)…"
+              placeholder="Buscar por sigla, nombre o tema (ej. PHQ, BDI, ansiedad)…"
               aria-label="Buscar instrumentos"
             />
             {query && (
