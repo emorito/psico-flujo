@@ -85,8 +85,8 @@ server.listen(3459, async () => {
 
     const resetSummary = await page.$eval('.catalog-summary span:first-child', el => el.innerText.trim());
     console.log('✓ [OK] Catalog summary after clear:', resetSummary);
-    if (!resetSummary.startsWith('270')) {
-      throw new Error('Catalog did not reset to 270 instruments: ' + resetSummary);
+    if (!resetSummary.startsWith('275')) {
+      throw new Error('Catalog did not reset to 275 instruments: ' + resetSummary);
     }
 
     // Test typing in hero search with accent insensitive query
@@ -100,8 +100,8 @@ server.listen(3459, async () => {
 
     const depSummary = await page.$eval('.catalog-summary span:first-child', el => el.innerText.trim());
     console.log('✓ [OK] Depresión catalog summary:', depSummary);
-    if (!depSummary.startsWith('55')) {
-      throw new Error('Expected 55 instruments for depresión, got: ' + depSummary);
+    if (!depSummary.startsWith('56')) {
+      throw new Error('Expected 56 instruments for depresión, got: ' + depSummary);
     }
 
     console.log('\n=========================================');

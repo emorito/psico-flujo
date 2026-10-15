@@ -54,8 +54,8 @@ server.listen(PORT, async () => {
 
     const totalSummaryText = await page.$eval('.catalog-summary span:first-child', el => el.innerText.trim());
     console.log(`  - Resumen catálogo: "${totalSummaryText}"`);
-    if (!totalSummaryText.includes('270')) {
-      throw new Error(`Se esperaban 270 instrumentos en vista general, pero se obtuvo: ${totalSummaryText}`);
+    if (!totalSummaryText.includes('275')) {
+      throw new Error(`Se esperaban 275 instrumentos en vista general, pero se obtuvo: ${totalSummaryText}`);
     }
 
     // Verificar presencia de los 6 ejes canónicos
@@ -98,14 +98,14 @@ server.listen(PORT, async () => {
     }
     console.log(`  ✓ [OK] .library-heading ("Encuentra el instrumento adecuado") ausente con éxito en portal educativo.`);
 
-    // Contar instrumentos en educativo (80)
+    // Contar instrumentos en educativo (81)
     const edSummaryText = await page.$eval('.catalog-summary span:first-child', el => el.innerText.trim());
     const edCount = parseInt(edSummaryText.split(' ')[0], 10);
     console.log(`  - Conteo instrumentos en educativo: ${edCount}`);
-    if (edCount !== 80) {
-      throw new Error(`Se esperaban 80 instrumentos en educativo, obtenidos: ${edCount}`);
+    if (edCount !== 81) {
+      throw new Error(`Se esperaban 81 instrumentos en educativo, obtenidos: ${edCount}`);
     }
-    console.log(`  ✓ [OK] Catálogo acotado estrictamente a 80 instrumentos educativos.`);
+    console.log(`  ✓ [OK] Catálogo acotado estrictamente a 81 instrumentos educativos.`);
 
     // Verificar AUSENCIA de ruido clínico (Cero nube de temas, cero selector de ejes, cero AmbitoSelector duplicado)
     const hasThemeSection = await page.$('.theme-section');
@@ -210,8 +210,8 @@ server.listen(PORT, async () => {
     const vocSummaryText = await page.$eval('.catalog-summary span:first-child', el => el.innerText.trim());
     const vocCount = parseInt(vocSummaryText.split(' ')[0], 10);
     console.log(`  - Conteo instrumentos vocacionales: ${vocCount}`);
-    if (vocCount !== 18) {
-      throw new Error(`Se esperaban 18 instrumentos vocacionales, obtenidos: ${vocCount}`);
+    if (vocCount !== 19) {
+      throw new Error(`Se esperaban 19 instrumentos vocacionales, obtenidos: ${vocCount}`);
     }
 
     const vocCardsCount = await page.$$eval('.decision-card', els => els.length);
@@ -219,7 +219,7 @@ server.listen(PORT, async () => {
     if (vocCardsCount !== 4) {
       throw new Error(`Se esperaban 4 tarjetas de decisión vocacional, obtenidas: ${vocCardsCount}`);
     }
-    console.log(`  ✓ [OK] Portal independiente de Orientación Vocacional verificado con 18 instrumentos y 4 dimensiones.`);
+    console.log(`  ✓ [OK] Portal independiente de Orientación Vocacional verificado con 19 instrumentos y 4 dimensiones.`);
 
     // 6. Verificando Botón de Retorno a Vista General
     console.log('\n6. Verificando Botón de Retorno a Vista General desde /vocacional/...');
@@ -231,8 +231,8 @@ server.listen(PORT, async () => {
     console.log(`  - URL tras clic en retorno: ${currentUrl}`);
     const generalSummary = await page.$eval('.catalog-summary span:first-child', el => el.innerText.trim());
     console.log(`  - Resumen catálogo tras retorno: "${generalSummary}"`);
-    if (!generalSummary.includes('270')) {
-      throw new Error(`Se esperaban 270 instrumentos tras volver a general, obtenidos: ${generalSummary}`);
+    if (!generalSummary.includes('275')) {
+      throw new Error(`Se esperaban 275 instrumentos tras volver a general, obtenidos: ${generalSummary}`);
     }
 
     // Comprobar que en Vista General la nube de 40 temas SÍ está presente
@@ -240,7 +240,7 @@ server.listen(PORT, async () => {
     if (!generalThemeSection) {
       throw new Error(`La nube de temas clínicos debe estar presente en la vista general.`);
     }
-    console.log(`  ✓ [OK] Vista general canónica 100% íntegra (270 instrumentos, 6 ejes y 40 temas clínicos).`);
+    console.log(`  ✓ [OK] Vista general canónica 100% íntegra (275 instrumentos, 6 ejes y 40 temas clínicos).`);
 
     console.log('\n================================================================');
     console.log('TODAS LAS PRUEBAS DE ÁMBITOS Y SECCIONES SE SUPERARON CON ÉXITO!');

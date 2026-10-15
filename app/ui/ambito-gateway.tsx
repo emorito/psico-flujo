@@ -21,15 +21,15 @@ interface AmbitoGatewayProps {
 }
 
 const AMBITO_LINKS = [
-  { id: "all", href: "/", label: "General · Multieje", short: "General", count: 270, icon: LayoutGrid },
-  { id: "clinico", href: "/clinico", label: "Clínica y Psicoterapia", short: "Clínica", count: 229, icon: Stethoscope },
-  { id: "educativo", href: "/educativa", label: "Psicología Educativa", short: "Educativa", count: 80, icon: GraduationCap },
-  { id: "vocacional", href: "/vocacional", label: "Orientación Vocacional", short: "Vocacional", count: 18, icon: Compass },
-  { id: "salud", href: "/salud", label: "Salud y Neuropsicología", short: "Salud", count: 76, icon: Activity },
-  { id: "laboral", href: "/laboral", label: "Laboral y Organizacional", short: "Laboral", count: 40, icon: Briefcase },
-  { id: "juridico", href: "/forense", label: "Jurídica y Forense", short: "Forense", count: 36, icon: Scale },
+  { id: "all", href: "/", label: "General · Multieje", short: "General", count: 275, icon: LayoutGrid },
+  { id: "clinico", href: "/clinico", label: "Clínica y Psicoterapia", short: "Clínica", count: 233, icon: Stethoscope },
+  { id: "educativo", href: "/educativa", label: "Psicología Educativa", short: "Educativa", count: 81, icon: GraduationCap },
+  { id: "vocacional", href: "/vocacional", label: "Orientación Vocacional", short: "Vocacional", count: 19, icon: Compass },
+  { id: "salud", href: "/salud", label: "Salud y Neuropsicología", short: "Salud", count: 78, icon: Activity },
+  { id: "laboral", href: "/laboral", label: "Laboral y Organizacional", short: "Laboral", count: 42, icon: Briefcase },
+  { id: "juridico", href: "/forense", label: "Jurídica y Forense", short: "Forense", count: 37, icon: Scale },
   { id: "deporte", href: "/deporte", label: "Deporte y Rendimiento", short: "Deporte", count: 9, icon: Trophy },
-  { id: "cultural", href: "/cultural", label: "Cultural y Comunitaria", short: "Cultural", count: 8, icon: Globe2 },
+  { id: "cultural", href: "/cultural", label: "Cultural y Comunitaria", short: "Cultural", count: 9, icon: Globe2 },
 ];
 
 export function AmbitoGateway({ currentAmbito }: AmbitoGatewayProps) {

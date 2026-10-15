@@ -128,13 +128,13 @@ async function runAllTests() {
   console.log('1. Verificando reglas de conteo y referencias:');
 
   const countNinez = contarDirecto({ edad: 'niños' });
-  assertTest(countNinez === 22, `Conteo de niñez coincide con referencia: ${countNinez} (esperado: 22)`);
+  assertTest(countNinez === 24, `Conteo de niñez coincide con referencia: ${countNinez} (esperado: 24)`);
 
   const countNinezCog = contarDirecto({ edad: 'niños', eje: 5 });
-  assertTest(countNinezCog === 10, `Conteo de niñez + funcionamiento cognitivo (Eje V) = ${countNinezCog} (esperado: 10)`);
+  assertTest(countNinezCog === 11, `Conteo de niñez + funcionamiento cognitivo (Eje V) = ${countNinezCog} (esperado: 11)`);
 
   const countAdolEje1 = contarDirecto({ edad: 'adolescentes', eje: 1 });
-  assertTest(countAdolEje1 === 32, `Conteo de adolescencia + Eje I = ${countAdolEje1} (esperado: 32)`);
+  assertTest(countAdolEje1 === 41, `Conteo de adolescencia + Eje I = ${countAdolEje1} (esperado: 41)`);
 
   // Niñez + salud y hábitos (Eje VI) debe ser 0 y la opción debe estar AUSENTE
   const countNinezSalud = contarDirecto({ edad: 'niños', eje: 6 });
@@ -210,17 +210,17 @@ async function runAllTests() {
       const found = btns.find(b => b.innerText.includes('Niñez'));
       return found ? found.innerText : null;
     });
-    assertTest(btnNinezText && btnNinezText.includes('22'), `Botón Niñez muestra el conteo correcto: 22`);
+    assertTest(btnNinezText && btnNinezText.includes('24'), `Botón Niñez muestra el conteo correcto: 24`);
 
     // C. Deep link: abrir URL con filtros reproduce el estado exacto
     console.log('   - Comprobando enlace profundo (?guia=1&edad=niños&eje=5)...');
     await page.goto(`http://localhost:${PORT}/?guia=1&edad=niños&eje=5`, { waitUntil: 'networkidle0' });
     await page.waitForSelector('.guia-orientacion-container');
 
-    // Verificar que el botón "Ver N instrumentos" muestra 10
+    // Verificar que el botón "Ver N instrumentos" muestra 11
     const btnVer = await page.waitForSelector('.guia-btn-ver-instrumentos');
     const textVer = await page.evaluate(el => el.innerText, btnVer);
-    assertTest(textVer.includes('10'), `Enlace profundo muestra "Ver 10 instrumentos" (esperado: 10)`);
+    assertTest(textVer.includes('11'), `Enlace profundo muestra "Ver 11 instrumentos" (esperado: 11)`);
 
     // Verificar chips activos
     const chipTexts = await page.$$eval('.guia-chip span:first-child', els => els.map(e => e.innerText));

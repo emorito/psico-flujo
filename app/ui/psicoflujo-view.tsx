@@ -20,27 +20,27 @@ interface PsicoflujoViewProps {
 const HERO_HEROIC_TITLES: Record<string, { title: string; subtitle?: string }> = {
   educativo: {
     title: "Evaluar en la escuela es trazar caminos de apoyo y aprendizaje.",
-    subtitle: "80 instrumentos psicopedagógicos para decisiones de ajuste razonable, funciones ejecutivas y desarrollo socioemocional."
+    subtitle: "81 instrumentos psicopedagógicos para decisiones de ajuste razonable, funciones ejecutivas y desarrollo socioemocional."
   },
   vocacional: {
     title: "Construir proyectos de vida con evidencia, sentido y autoconocimiento.",
-    subtitle: "18 instrumentos especializados en intereses ocupacionales (RIASEC), hábitos de estudio y autoeficacia vocacional."
+    subtitle: "19 instrumentos especializados en intereses ocupacionales (RIASEC), hábitos de estudio y autoeficacia vocacional."
   },
   salud: {
     title: "Evaluar el impacto de la salud en la cognición y la adaptación.",
-    subtitle: "76 instrumentos para cribado neuropsicológico, adherencia al tratamiento médico y calidad de vida."
+    subtitle: "78 instrumentos para cribado neuropsicológico, adherencia al tratamiento médico y calidad de vida."
   },
   laboral: {
     title: "Evaluar con validez, equidad y rigor en las organizaciones.",
-    subtitle: "40 instrumentos para evaluación del desempeño, clima laboral, competencias y bienestar en el trabajo."
+    subtitle: "42 instrumentos para evaluación del desempeño, clima laboral, competencias y bienestar en el trabajo."
   },
   juridico: {
     title: "Rigor psicométrico para la evaluación pericial y forense.",
-    subtitle: "36 instrumentos para evaluación pericial, capacidad civil, credibilidad del testimonio y valoración de secuelas."
+    subtitle: "37 instrumentos para evaluación pericial, capacidad civil, credibilidad del testimonio y valoración de secuelas."
   },
   clinico: {
     title: "Evaluar es trazar un mapa para comprender el malestar y orientar el cambio.",
-    subtitle: "229 instrumentos para evaluación dimensional de severidad, psicopatología, trauma y personalidad estructural."
+    subtitle: "233 instrumentos para evaluación dimensional de severidad, psicopatología, trauma y personalidad estructural."
   },
   deporte: {
     title: "Optimizar el rendimiento psicológico y el bienestar atlético.",
@@ -48,7 +48,7 @@ const HERO_HEROIC_TITLES: Record<string, { title: string; subtitle?: string }> =
   },
   cultural: {
     title: "Comprender la vivencia psicológica en su entramado cultural y comunitario.",
-    subtitle: "8 instrumentos para redes de apoyo, bienestar social, vivencia transcultural y bilingüismo."
+    subtitle: "9 instrumentos para redes de apoyo, bienestar social, vivencia transcultural y bilingüismo."
   }
 };
 
