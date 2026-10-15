@@ -3303,6 +3303,149 @@ nav a:hover {
   --theme-context-bg: rgba(136, 19, 55, 0.45);
 }
 
+/* ==========================================================================
+   Metamorfosis Visual Completa por Ámbito (Header, Fondo, Filtros y Catálogo)
+   ========================================================================== */
+
+/* 1. Fondo atmosférico de página completa */
+.psicoflujo-main-wrapper[data-theme="educativo"],
+.psicoflujo-main-wrapper[data-theme="educativa"] {
+  background-color: #f5fbf7;
+}
+.psicoflujo-main-wrapper[data-theme="vocacional"] {
+  background-color: #fdfaf4;
+}
+.psicoflujo-main-wrapper[data-theme="salud"] {
+  background-color: #f2fbfc;
+}
+.psicoflujo-main-wrapper[data-theme="laboral"] {
+  background-color: #fdfbf5;
+}
+.psicoflujo-main-wrapper[data-theme="juridico"],
+.psicoflujo-main-wrapper[data-theme="forense"] {
+  background-color: #f8f6fd;
+}
+.psicoflujo-main-wrapper[data-theme="clinico"],
+.psicoflujo-main-wrapper[data-theme="clinica"] {
+  background-color: #f7f8fd;
+}
+.psicoflujo-main-wrapper[data-theme="deporte"] {
+  background-color: #f4f8fd;
+}
+.psicoflujo-main-wrapper[data-theme="cultural"] {
+  background-color: #fdf5f7;
+}
+
+/* 2. Encabezado principal del sitio teñido con el matiz nocturno del ámbito */
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .site-header {
+  background: color-mix(in srgb, var(--theme-hero-bg, #04241a) 88%, rgba(10, 10, 15, 0.95));
+  border-bottom: 1px solid var(--theme-border, rgba(255, 255, 255, 0.12));
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .brand-ambito-pill {
+  background: var(--theme-primary);
+  color: #ffffff;
+  border: 1px solid var(--theme-border);
+}
+
+/* 3. Barra contextual de orientación superior */
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .gateway-context-bar {
+  background: color-mix(in srgb, var(--theme-light) 65%, var(--surface));
+  border-color: var(--theme-border);
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .gateway-active-badge {
+  background: var(--theme-primary);
+  color: #ffffff;
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .gateway-return-btn {
+  border-color: var(--theme-border);
+  color: var(--theme-primary-hover, var(--theme-primary));
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .gateway-return-btn:hover {
+  background: var(--theme-light);
+  border-color: var(--theme-primary);
+}
+
+/* 4. Barra fija de controles y filtros (Sticky) */
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .catalog-controls-v1 {
+  background: var(--surface);
+  border: 1px solid var(--theme-border);
+  box-shadow: 0 4px 20px color-mix(in srgb, var(--theme-primary) 12%, rgba(0, 0, 0, 0.04));
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .search-box {
+  border-color: var(--theme-border);
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .search-box:focus-within {
+  border-color: var(--theme-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--theme-primary) 22%, transparent);
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .filter-select {
+  border-color: var(--theme-border);
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .filter-select:focus {
+  border-color: var(--theme-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--theme-primary) 22%, transparent);
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .filter-btn-toggle.active {
+  background: var(--theme-primary);
+  border-color: var(--theme-primary);
+  color: #ffffff;
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .active-filter-chip {
+  background: var(--theme-light);
+  color: var(--theme-primary-hover, var(--theme-primary));
+  border-color: var(--theme-border);
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .active-filter-chip svg {
+  color: var(--theme-primary);
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .active-filter-chip.clear-all {
+  color: #e11d48;
+  background: #fff1f2;
+  border-color: #fecdd3;
+}
+
+/* 5. Resumen del catálogo y tabla de instrumentos */
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .catalog-summary {
+  background: var(--theme-light);
+  border: 1px solid var(--theme-border);
+  color: var(--theme-primary-hover, var(--theme-primary));
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .catalog-summary strong {
+  color: var(--theme-primary-hover, var(--theme-primary));
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .summary-reset-btn {
+  color: var(--theme-primary);
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .code-badge {
+  background: var(--theme-light);
+  color: var(--theme-primary);
+  border: 1px solid var(--theme-border);
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .instrument-row:hover {
+  background: color-mix(in srgb, var(--theme-light) 35%, var(--surface));
+}
+
+[data-theme]:not([data-theme="all"]):not([data-theme="general"]) .instrument-card.open .instrument-row {
+  background: color-mix(in srgb, var(--theme-light) 45%, var(--surface));
+  border-left: 3px solid var(--theme-primary);
+}
+
 /* Dimensión disciplinar en vista especializada de ámbito */
 .row-eje.row-ambito-dim {
   background: var(--theme-light, #ecfdf5);

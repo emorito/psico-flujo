@@ -91,12 +91,12 @@ server.listen(PORT, async () => {
       throw new Error(`Se esperaban 7 tarjetas de decisión escolar, obtenidas: ${decisionCardsCount}`);
     }
 
-    // Encabezado de biblioteca especializada
-    const edOverline = await page.$eval('.library-heading .overline', el => el.innerText.trim());
-    console.log(`  - Overline biblioteca: "${edOverline}"`);
-    if (!edOverline.toLowerCase().includes('educativa')) {
-      throw new Error(`Overline debe indicar Psicología Educativa, obtenido: ${edOverline}`);
+    // Verificar que library-heading desaparece por completo en la vista de ámbito (requerimiento explícito del usuario)
+    const hasLibraryHeading = await page.$('.library-heading');
+    if (hasLibraryHeading !== null) {
+      throw new Error(`La sección .library-heading ("Encuentra el instrumento adecuado") debe desaparecer en la vista de ámbito.`);
     }
+    console.log(`  ✓ [OK] .library-heading ("Encuentra el instrumento adecuado") ausente con éxito en portal educativo.`);
 
     // Contar instrumentos en educativo (80)
     const edSummaryText = await page.$eval('.catalog-summary span:first-child', el => el.innerText.trim());

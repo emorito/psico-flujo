@@ -52,11 +52,23 @@ const HERO_HEROIC_TITLES: Record<string, { title: string; subtitle?: string }> =
   }
 };
 
+export function normalizeAmbito(id?: string | null): string {
+  if (!id || id === "all" || id === "general") return "all";
+  const clean = id.trim().toLowerCase();
+  if (clean === "educativa") return "educativo";
+  if (clean === "forense") return "juridico";
+  if (clean === "clinica") return "clinico";
+  return clean;
+}
+
 export function PsicoflujoView({ initialAmbito = "all" }: PsicoflujoViewProps) {
+  const normalizedInitial = normalizeAmbito(initialAmbito);
+
   const [selectedAmbito, setSelectedAmbito] = useState<string>(() => {
-    if (initialAmbito && initialAmbito !== "all") return initialAmbito;
+    if (normalizedInitial && normalizedInitial !== "all") return normalizedInitial;
     if (typeof window !== "undefined") {
-      return new URLSearchParams(window.location.search).get("ambito") || "all";
+      const param = new URLSearchParams(window.location.search).get("ambito");
+      return normalizeAmbito(param);
     }
     return "all";
   });
@@ -67,6 +79,13 @@ export function PsicoflujoView({ initialAmbito = "all" }: PsicoflujoViewProps) {
     }
     return "all";
   });
+
+  // Sincronizar initialAmbito cuando cambie la ruta dinámica o prop
+  useEffect(() => {
+    const norm = normalizeAmbito(initialAmbito);
+    setSelectedAmbito(norm);
+    setSelectedSeccion("all");
+  }, [initialAmbito]);
 
   const [query, setQuery] = useState<string>(() => {
     if (typeof window !== "undefined") {
@@ -103,13 +122,12 @@ export function PsicoflujoView({ initialAmbito = "all" }: PsicoflujoViewProps) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const isCustomAmbito = selectedAmbito !== "all";
+  const normalizedCurrentAmbito = normalizeAmbito(selectedAmbito);
+  const isCustomAmbito = normalizedCurrentAmbito !== "all";
   const activeAmbitoData = useMemo(() => {
     if (!isCustomAmbito) return null;
-    return ambitosData.find(
-      (a) => a.id === selectedAmbito || (selectedAmbito === "forense" && a.id === "juridico")
-    );
-  }, [isCustomAmbito, selectedAmbito]);
+    return ambitosData.find((a) => a.id === normalizedCurrentAmbito) || null;
+  }, [isCustomAmbito, normalizedCurrentAmbito]);
 
   const searchResults = useMemo(() => {
     const trimmed = deferredQuery.trim();

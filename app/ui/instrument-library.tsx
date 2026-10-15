@@ -188,11 +188,20 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
   const selectedSeccion = props.selectedSeccion !== undefined ? props.selectedSeccion : internalSeccion;
   const setSelectedSeccion = props.setSelectedSeccion || setInternalSeccion;
 
-  const isAmbitoActive = selectedAmbito !== "all" && selectedAmbito !== "general";
+  const normalizedAmbitoId = useMemo(() => {
+    if (!selectedAmbito || selectedAmbito === "all" || selectedAmbito === "general") return "all";
+    const clean = selectedAmbito.trim().toLowerCase();
+    if (clean === "educativa") return "educativo";
+    if (clean === "forense") return "juridico";
+    if (clean === "clinica") return "clinico";
+    return clean;
+  }, [selectedAmbito]);
+
+  const isAmbitoActive = normalizedAmbitoId !== "all";
   const activeAmbito = useMemo(() => {
     if (!isAmbitoActive) return null;
-    return AMBITOS.find((a) => a.id === selectedAmbito || (selectedAmbito === "forense" && a.id === "juridico")) || null;
-  }, [isAmbitoActive, selectedAmbito]);
+    return AMBITOS.find((a) => a.id === normalizedAmbitoId) || null;
+  }, [isAmbitoActive, normalizedAmbitoId]);
 
   const scopedBaseCatalog = useMemo(() => {
     if (!isAmbitoActive || !activeAmbito) return catalog;
@@ -581,25 +590,19 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
 
   return (
     <section className="library-section" id="biblioteca" data-ambito={selectedAmbito} aria-label="Biblioteca de instrumentos de evaluación psicológica">
-      <div className="library-heading">
-        <div>
-          <span className="overline">
-            {isAmbitoActive && activeAmbito
-              ? `Catálogo Especializado · ${activeAmbito.nombre}`
-              : "Catálogo General de Instrumentos"}
+      {/* Encabezado general del catálogo: sólo visible en la Vista General canónica.
+          En páginas de ámbito especializado se oculta por completo según indicación del usuario para eliminar redundancia y dar paso directo a los filtros */}
+      {!isAmbitoActive && (
+        <div className="library-heading">
+          <div>
+            <span className="overline">Catálogo General de Instrumentos</span>
+            <h2>Encuentra el instrumento adecuado.</h2>
+          </div>
+          <span className="catalog-count">
+            {catalog.length} instrumentos · {totalDocuments} documentos · 6 ejes · {themeList.length} temas
           </span>
-          <h2>
-            {isAmbitoActive && activeAmbito
-              ? `Instrumentos de ${activeAmbito.nombre_corto}`
-              : "Encuentra el instrumento adecuado."}
-          </h2>
         </div>
-        <span className="catalog-count">
-          {isAmbitoActive && activeAmbito
-            ? `${filtered.length} ${filtered.length === 1 ? "instrumento disponible" : "instrumentos disponibles"} · ${activeAmbito.secciones?.length || 0} dimensiones · ${scopedTotalDocs} documentos`
-            : `${catalog.length} instrumentos · ${totalDocuments} documentos · 6 ejes · ${themeList.length} temas`}
-        </span>
-      </div>
+      )}
 
       {/* Barra única de búsqueda y filtros (Sticky) */}
       <div className="catalog-controls-v1 library-sticky-bar">
