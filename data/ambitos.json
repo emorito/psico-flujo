@@ -1,0 +1,268 @@
+[
+  {
+    "id": "clinico",
+    "nombre": "Psicología Clínica y de la Salud Mental",
+    "pregunta_rectora": "¿Qué le pasa, cuánto y qué lo mantiene?",
+    "descripcion": "Evaluación diagnóstica, psicopatológica, procesos de mantenimiento y respuesta a tratamiento en salud mental.",
+    "color_tema": {
+      "primary": "#4338ca",
+      "primary_dark": "#27226f",
+      "primary_light": "#eeedfc",
+      "badge_bg": "#e0e7ff",
+      "badge_text": "#3730a3"
+    },
+    "secciones": [
+      {
+        "id": "sintomas_ansiedad_animo",
+        "titulo": "Síntomas afectivos, ansiedad y estado de ánimo",
+        "criterio": "Depresión, ansiedad generalizada, pánico, fobias, obsesiones y afecto negativo."
+      },
+      {
+        "id": "trauma_estres",
+        "titulo": "Trauma, estrés y riesgo agudo",
+        "criterio": "Estrés postraumático, disociación, estrés percibido e ideación o riesgo suicida."
+      },
+      {
+        "id": "adicciones_impulsividad",
+        "titulo": "Consumo de sustancias, adicciones conductuales e impulsividad",
+        "criterio": "Alcohol, tabaco, sustancias, juego patológico y descontrol de impulsos."
+      },
+      {
+        "id": "psicosis_bipolaridad",
+        "titulo": "Espectro psicótico y trastornos bipolares",
+        "criterio": "Síntomas psicóticos positivos/negativos, pródromos, manía y ciclotimia."
+      },
+      {
+        "id": "procesos_psicologicos",
+        "titulo": "Procesos psicológicos y regulación emocional",
+        "criterio": "Evitación experiencial, metacognición, mindfulness, fusión cognitiva y desregulación emocional."
+      },
+      {
+        "id": "personalidad_recursos",
+        "titulo": "Personalidad, bienestar y funcionamiento",
+        "criterio": "Rasgos de personalidad, autoestima, satisfacción vital, calidad de vida y discapacidad."
+      }
+    ],
+    "filtros_por_defecto": {
+      "franjas": ["todos"],
+      "ejes": ["todos"]
+    },
+    "advertencia": "La plataforma no puntúa ni diagnostica; los instrumentos son recursos de apoyo psicométrico para profesionales de la salud mental colegiados o habilitados.",
+    "instrumentos_destacados": []
+  },
+  {
+    "id": "educativo",
+    "nombre": "Psicología Educativa y Psicopedagogía",
+    "pregunta_rectora": "¿Qué decisión de apoyo hay que tomar?",
+    "descripcion": "Evaluación de necesidades de apoyo educativo, desarrollo cognitivo, funciones ejecutivas, conducta y aprendizaje escolar.",
+    "color_tema": {
+      "primary": "#047857",
+      "primary_dark": "#064e3b",
+      "primary_light": "#ecfdf5",
+      "badge_bg": "#d1fae5",
+      "badge_text": "#065f46"
+    },
+    "secciones": [
+      {
+        "id": "dificultades_emocionales_conducta",
+        "titulo": "Dificultades emocionales y de conducta en el entorno escolar",
+        "criterio": "Sintomatología emocional, ansiedad ante exámenes, rechazo escolar, conductas disruptivas y somatizaciones en niños y adolescentes."
+      },
+      {
+        "id": "atencion_funciones_ejecutivas",
+        "titulo": "Atención, funciones ejecutivas y autorregulación",
+        "criterio": "Atención sostenida y selectiva, memoria de trabajo, impulsividad, flexibilidad y control ejecutivo (orientado a sospecha de TDAH y rendimiento académico)."
+      },
+      {
+        "id": "lectura_aprendizajes",
+        "titulo": "Lectura, lenguaje y procesos de aprendizaje",
+        "criterio": "Habilidades metalingüísticas, pragmática de la comunicación, procesos de lectura y comprensión, y rendimiento académico."
+      },
+      {
+        "id": "conducta_adaptativa",
+        "titulo": "Conducta adaptativa, autonomía y vida diaria",
+        "criterio": "Autonomía en actividades de la vida diaria, habilidades conceptuales, sociales y funcionales en la escuela y el hogar."
+      },
+      {
+        "id": "capacidad_cognitiva",
+        "titulo": "Capacidad cognitiva, desarrollo y organización visomotora",
+        "criterio": "Madurez perceptivo-visomotora, habilidades de copia gráfica, razonamiento no verbal y desarrollo cognitivo global."
+      },
+      {
+        "id": "indicios_autismo",
+        "titulo": "Indicios del espectro autista y comunicación social",
+        "criterio": "Cribado de comunicación social temprana, interacción con pares, reciprocidad y conductas repetitivas o restringidas."
+      },
+      {
+        "id": "contexto_familiar_escolar",
+        "titulo": "Contexto familiar, clima escolar y apoyo psicosocial",
+        "criterio": "Funcionamiento y apoyo familiar (APGAR), estrés parental, clima relacional, aculturación y factores protectores del entorno."
+      }
+    ],
+    "filtros_por_defecto": {
+      "franjas": ["ninos", "adolescentes"],
+      "ejes": ["todos"]
+    },
+    "advertencia": "Esta herramienta apoya la evaluación psicopedagógica y la toma de decisiones educativas. Los instrumentos son recursos de cribado y apoyo profesional; no emiten dictámenes automáticos ni reemplazan la evaluación integral interdisciplinaria en el centro escolar.",
+    "instrumentos_destacados": []
+  },
+  {
+    "id": "laboral",
+    "nombre": "Psicología del Trabajo y de las Organizaciones",
+    "pregunta_rectora": "¿Es válido y justo para decidir sobre una persona en el trabajo?",
+    "descripcion": "Evaluación del clima organizacional, bienestar laboral, estrés ocupacional, desgaste profesional (burnout) y rasgos de personalidad.",
+    "color_tema": {
+      "primary": "#b45309",
+      "primary_dark": "#78350f",
+      "primary_light": "#fffbeb",
+      "badge_bg": "#fef3c7",
+      "badge_text": "#92400e"
+    },
+    "secciones": [
+      {
+        "id": "estres_desgaste_laboral",
+        "titulo": "Estrés ocupacional, desgaste (burnout) y fatiga",
+        "criterio": "Agotamiento emocional, despersonalización, autoeficacia profesional (MBI) y severidad de fatiga laboral."
+      },
+      {
+        "id": "engagement_motivacion",
+        "titulo": "Compromiso laboral (engagement), motivación y valores",
+        "criterio": "Vigor, dedicación y absorción en el trabajo (UWES), metas de logro, valores personales e identificación."
+      },
+      {
+        "id": "personalidad_laboral",
+        "titulo": "Personalidad y patrones interpersonales en el trabajo",
+        "criterio": "Modelo de Cinco Grandes (BFI-2), Tríada Oscura (SD3/SD4), asertividad y habilidades de interacción sociolaboral."
+      },
+      {
+        "id": "salud_ocupacional",
+        "titulo": "Salud física, hábitos de descanso y funcionalidad del trabajador",
+        "criterio": "Higiene y calidad del sueño (PSQI, ISI), salud general en el trabajo (SF-36, GHQ) y actividad física."
+      }
+    ],
+    "filtros_por_defecto": {
+      "franjas": ["adultos"],
+      "ejes": ["todos"]
+    },
+    "advertencia": "Esta herramienta no recomienda decisiones automatizadas de contratación, ascenso ni desvinculación laboral. La aplicación de instrumentos en entornos organizacionales debe cumplir estándares deontológicos de justicia y validez predictiva.",
+    "instrumentos_destacados": []
+  },
+  {
+    "id": "juridico",
+    "nombre": "Psicología Jurídica y Forense",
+    "pregunta_rectora": "¿Es creíble la respuesta, qué riesgo hay y qué capacidad?",
+    "descripcion": "Evaluación pericial psicológica, estimación de riesgo de violencia, capacidad civil/procesal, trauma y validez de autoinformes.",
+    "color_tema": {
+      "primary": "#6d28d9",
+      "primary_dark": "#4c1d95",
+      "primary_light": "#f5f3ff",
+      "badge_bg": "#ede9fe",
+      "badge_text": "#5b21b6"
+    },
+    "secciones": [
+      {
+        "id": "validez_respuesta_simulacion",
+        "titulo": "Validez de la respuesta, simulación y consistencia",
+        "criterio": "Control de respuesta inconsistente o exagerada, sospecha de sobresimulación o minimización de síntomas en contexto judicial."
+      },
+      {
+        "id": "riesgo_violencia_impulsividad",
+        "titulo": "Evaluación de riesgo de violencia, agresión e impulsividad",
+        "criterio": "Agresión física/verbal, hostilidad (AQ), impulsividad motora/planificada (BIS-11), psicopatía y descontrol conductual."
+      },
+      {
+        "id": "impacto_trauma_victimizacion",
+        "titulo": "Impacto psíquico, trauma acumulado y daño moral",
+        "criterio": "TEPT (PCL-5, TOP-8), trauma infantil y experiencias adversas tempranas (CTQ, ACEQ) y consecuencias psicopatológicas del delito."
+      },
+      {
+        "id": "capacidad_cognitiva_competencia",
+        "titulo": "Capacidad civil, deterioro cognitivo y competencia legal",
+        "criterio": "Screening cognitivo de capacidad de juicio y toma de decisiones (MMSE, MoCA, MEC, IFS) y actividades de la vida diaria."
+      }
+    ],
+    "filtros_por_defecto": {
+      "franjas": ["todos"],
+      "ejes": ["todos"]
+    },
+    "advertencia": "Esta herramienta no emite dictámenes periciales ni conclusiones de imputabilidad o daño forense. Los informes periciales exigen perito habilitado, evaluación multimétodo y contrastación documental rigurosa.",
+    "instrumentos_destacados": []
+  },
+  {
+    "id": "salud",
+    "nombre": "Psicología de la Salud y Neuropsicología",
+    "pregunta_rectora": "¿Cómo afectan la condición médica o el deterioro a la cognición y la adaptación?",
+    "descripcion": "Evaluación del impacto de enfermedades crónicas, dolor, sueño, adhesión terapéutica y deterioro cognitivo/neuropsicológico.",
+    "color_tema": {
+      "primary": "#0e7490",
+      "primary_dark": "#155e75",
+      "primary_light": "#ecfeff",
+      "badge_bg": "#cffafe",
+      "badge_text": "#155e75"
+    },
+    "secciones": [
+      {
+        "id": "deterioro_cognitivo_neuropsicologia",
+        "titulo": "Deterioro cognitivo, demencias y perfil neuropsicológico",
+        "criterio": "Cribado cognitivo general (MoCA, MMSE), memoria verbal y episódica (TAVEC, RBMT), funciones ejecutivas y atención."
+      },
+      {
+        "id": "dolor_fatiga_sensibilidad",
+        "titulo": "Dolor crónico, fatiga y sensibilidad central",
+        "criterio": "Intensidad e interferencia del dolor (BPI), catastrofismo (PCS), sensibilidad central (CSI) y severidad de fatiga (FSS)."
+      },
+      {
+        "id": "sueno_ritmos",
+        "titulo": "Calidad del sueño, insomnio y apnea",
+        "criterio": "Insomnio (ISI), calidad de descanso (PSQI), somnolencia (ESS), riesgo de apnea (STOP-Bang) y cronotipo (MEQ-SA)."
+      },
+      {
+        "id": "adhesion_afrontamiento_medico",
+        "titulo": "Adhesión al tratamiento, autoeficacia y afrontamiento médico",
+        "criterio": "Creencias sobre medicamentos (CREM-P), adherencia (MMAS), percepción de enfermedad (BIPQ) y autoeficacia crónica (SEMCD-S)."
+      }
+    ],
+    "filtros_por_defecto": {
+      "franjas": ["adultos", "mayores"],
+      "ejes": ["todos"]
+    },
+    "advertencia": "Los instrumentos evalúan sintomatología psicológica, calidad de vida y funciones cognitivas en el contexto de salud; no sustituyen el diagnóstico médico ni el examen neurológico formal.",
+    "instrumentos_destacados": []
+  },
+  {
+    "id": "cultural",
+    "nombre": "Psicología Cultural, Identidad y Comunidad",
+    "pregunta_rectora": "¿Cómo influyen las pautas, valores e identidad cultural en la vivencia y expresión del consultante?",
+    "descripcion": "Evaluación de procesos de aculturación, identidad étnica, discriminación percibida y capital social comunitario.",
+    "color_tema": {
+      "primary": "#be123c",
+      "primary_dark": "#881337",
+      "primary_light": "#fff1f2",
+      "badge_bg": "#ffe4e6",
+      "badge_text": "#9f1239"
+    },
+    "secciones": [
+      {
+        "id": "identidad_aculturacion",
+        "titulo": "Identidad étnica, aculturación y migración",
+        "criterio": "Identidad étnica multigrupo (MEIM), estrategias de aculturación (VIA), lenguaje e integración sociocultural."
+      },
+      {
+        "id": "capital_social_comunidad",
+        "titulo": "Capital social, apoyo comunitario y redes",
+        "criterio": "Capital social cognitivo (ECSC-5), apoyo social percibido (MOS-SSS) y cohesión comunitaria."
+      },
+      {
+        "id": "salud_cultural_alfabetizacion",
+        "titulo": "Alfabetización en salud y competencia cultural",
+        "criterio": "Alfabetización en salud (SAHLSA-50, HLS-EU-Q16) y equidad comunicativa en salud."
+      }
+    ],
+    "filtros_por_defecto": {
+      "franjas": ["todos"],
+      "ejes": ["todos"]
+    },
+    "advertencia": "La evaluación transcultural requiere cautela en la interpretación de baremos e instrumentos no validados localmente. Respeta la diversidad lingüística y las pautas culturales de cada comunidad.",
+    "instrumentos_destacados": []
+  }
+]
