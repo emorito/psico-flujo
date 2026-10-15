@@ -2818,6 +2818,485 @@ nav a:hover {
   letter-spacing: 0.2px;
 }
 
+/* Brand Ambito Pill en cabecera */
+.brand-ambito-pill {
+  font-size: 11px;
+  font-weight: 750;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  margin-left: 4px;
+}
+
+/* Gateway Superior de Ámbitos (Justo bajo la cabecera fija) */
+.ambito-gateway {
+  margin-top: 64px;
+  background: #090e29;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+  z-index: 20;
+}
+
+.gateway-context-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px clamp(20px, 5vw, 78px);
+  background: var(--theme-context-bg, rgba(6, 78, 59, 0.45));
+  border-bottom: 1px solid var(--theme-border, rgba(16, 185, 129, 0.25));
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gateway-context-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.gateway-active-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--theme-primary, #059669);
+  color: white;
+  letter-spacing: 0.3px;
+}
+
+.gateway-context-hint {
+  font-size: 12.5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.gateway-return-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  transition: all 0.16s ease;
+  white-space: nowrap;
+}
+
+.gateway-return-btn:hover {
+  background: white;
+  color: #0c1337;
+  border-color: white;
+  transform: translateX(-2px);
+}
+
+.gateway-nav-container {
+  padding: 12px clamp(20px, 5vw, 78px);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.gateway-prompt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gateway-prompt-label {
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.gateway-pills-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.gateway-pill {
+  min-height: 38px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 12px;
+  font-weight: 650;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.gateway-pill:hover {
+  background: rgba(255, 255, 255, 0.14);
+  color: white;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.gateway-pill.active {
+  background: var(--theme-primary, #4f46e5);
+  color: white;
+  border-color: var(--theme-primary, #4f46e5);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.gateway-pill-count {
+  font-size: 10.5px;
+  font-weight: 800;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  color: white;
+}
+
+/* Tarjetas de Decisión Específicas por Ámbito */
+.decision-cards-section {
+  padding: 38px clamp(20px, 5vw, 78px) 24px;
+  background: #f8fafc;
+  border-bottom: 1px solid var(--line);
+}
+
+.decision-cards-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.decision-pre-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--theme-primary, #059669);
+  margin-bottom: 6px;
+}
+
+.decision-title-group h2 {
+  font-family: var(--font-display), Arial, sans-serif;
+  font-size: clamp(20px, 3vw, 26px);
+  font-weight: 750;
+  color: #0f172a;
+  letter-spacing: -0.5px;
+  margin: 0 0 6px 0;
+}
+
+.decision-lead {
+  font-size: 14.5px;
+  color: #475569;
+  max-width: 720px;
+  margin: 0;
+  font-style: italic;
+}
+
+.decision-summary-meta {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #64748b;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.decision-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 16px;
+}
+
+.decision-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+}
+
+.decision-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  border-color: var(--theme-border, #cbd5e1);
+}
+
+.decision-card.is-selected {
+  border-color: var(--theme-primary, #059669);
+  box-shadow: 0 0 0 2px var(--theme-primary, #059669);
+  background: #fafdfb;
+}
+
+.decision-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.decision-card-num {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--theme-primary, #059669);
+  background: var(--theme-light, #ecfdf5);
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.decision-card-count {
+  font-size: 11.5px;
+  font-weight: 750;
+  color: #64748b;
+}
+
+.decision-card-title {
+  font-family: var(--font-display), Arial, sans-serif;
+  font-size: 15.5px;
+  font-weight: 750;
+  line-height: 1.35;
+  color: #0f172a;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.2px;
+}
+
+.decision-card-desc {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #475569;
+  margin: 0 0 16px 0;
+  flex-grow: 1;
+}
+
+.decision-card-footer {
+  padding-top: 12px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.decision-card-action {
+  font-size: 12px;
+  font-weight: 750;
+  color: var(--theme-primary, #059669);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: gap 0.15s ease;
+}
+
+.decision-card:hover .decision-card-action {
+  gap: 10px;
+}
+
+/* ==========================================================================
+   6. Temas Inmersivos por Ámbito (Metamorfosis de Página Completa)
+   ========================================================================== */
+
+/* Tema Educativo (Verde Esmeralda Académico) */
+[data-theme="educativo"], [data-theme="educativa"] {
+  --theme-primary: #059669;
+  --theme-primary-hover: #047857;
+  --theme-light: #ecfdf5;
+  --theme-border: #a7f3d0;
+  --theme-context-bg: rgba(6, 78, 59, 0.45);
+  --theme-hero-bg: #04241a;
+}
+[data-theme="educativo"] .hero, [data-theme="educativa"] .hero {
+  background: #04241a;
+}
+[data-theme="educativo"] .hero-backdrop, [data-theme="educativa"] .hero-backdrop {
+  background:
+    radial-gradient(circle at 80% 25%, rgba(16, 185, 129, 0.22) 0%, transparent 60%),
+    linear-gradient(90deg, rgba(4, 30, 22, 0.98) 0%, rgba(6, 44, 32, 0.9) 45%, rgba(6, 44, 32, 0.5) 100%),
+    url("/hero-psicoflujo.jpg") center/cover no-repeat;
+}
+[data-theme="educativo"] .brand-symbol:after, [data-theme="educativa"] .brand-symbol:after {
+  background: #34d399;
+  box-shadow: 0 0 10px #34d399;
+}
+[data-theme="educativo"] .brand > span:last-child > span, [data-theme="educativa"] .brand > span:last-child > span {
+  color: #34d399;
+}
+[data-theme="educativo"] .hero-search-submit-btn, [data-theme="educativa"] .hero-search-submit-btn {
+  background: #059669;
+}
+[data-theme="educativo"] .hero-search-submit-btn:hover, [data-theme="educativa"] .hero-search-submit-btn:hover {
+  background: #047857;
+}
+
+/* Tema Vocacional (Ámbar Cálido / Terracota) */
+[data-theme="vocacional"] {
+  --theme-primary: #d97706;
+  --theme-primary-hover: #b45309;
+  --theme-light: #fef3c7;
+  --theme-border: #fcd34d;
+  --theme-context-bg: rgba(120, 53, 15, 0.45);
+  --theme-hero-bg: #231405;
+}
+[data-theme="vocacional"] .hero {
+  background: #231405;
+}
+[data-theme="vocacional"] .hero-backdrop {
+  background:
+    radial-gradient(circle at 80% 25%, rgba(245, 158, 11, 0.22) 0%, transparent 60%),
+    linear-gradient(90deg, rgba(35, 20, 5, 0.98) 0%, rgba(48, 26, 6, 0.9) 45%, rgba(48, 26, 6, 0.5) 100%),
+    url("/hero-psicoflujo.jpg") center/cover no-repeat;
+}
+[data-theme="vocacional"] .brand-symbol:after {
+  background: #fbbf24;
+  box-shadow: 0 0 10px #fbbf24;
+}
+[data-theme="vocacional"] .brand > span:last-child > span {
+  color: #fbbf24;
+}
+[data-theme="vocacional"] .hero-search-submit-btn {
+  background: #d97706;
+}
+[data-theme="vocacional"] .hero-search-submit-btn:hover {
+  background: #b45309;
+}
+
+/* Tema Salud / Neuropsicología (Cian Médico) */
+[data-theme="salud"] {
+  --theme-primary: #0891b2;
+  --theme-primary-hover: #0e7490;
+  --theme-light: #cffafe;
+  --theme-border: #67e8f9;
+  --theme-context-bg: rgba(22, 78, 99, 0.45);
+  --theme-hero-bg: #08202b;
+}
+[data-theme="salud"] .hero {
+  background: #08202b;
+}
+[data-theme="salud"] .hero-backdrop {
+  background:
+    radial-gradient(circle at 80% 25%, rgba(6, 182, 212, 0.22) 0%, transparent 60%),
+    linear-gradient(90deg, rgba(8, 32, 43, 0.98) 0%, rgba(12, 48, 64, 0.9) 45%, rgba(12, 48, 64, 0.5) 100%),
+    url("/hero-psicoflujo.jpg") center/cover no-repeat;
+}
+[data-theme="salud"] .brand-symbol:after {
+  background: #22d3ee;
+  box-shadow: 0 0 10px #22d3ee;
+}
+[data-theme="salud"] .brand > span:last-child > span {
+  color: #22d3ee;
+}
+[data-theme="salud"] .hero-search-submit-btn {
+  background: #0891b2;
+}
+
+/* Tema Laboral (Dorado Tabaco Organizacional) */
+[data-theme="laboral"] {
+  --theme-primary: #b45309;
+  --theme-primary-hover: #92400e;
+  --theme-light: #fef3c7;
+  --theme-border: #fcd34d;
+  --theme-context-bg: rgba(69, 26, 3, 0.45);
+  --theme-hero-bg: #211306;
+}
+[data-theme="laboral"] .hero {
+  background: #211306;
+}
+[data-theme="laboral"] .hero-backdrop {
+  background:
+    radial-gradient(circle at 80% 25%, rgba(217, 119, 6, 0.22) 0%, transparent 60%),
+    linear-gradient(90deg, rgba(33, 19, 6, 0.98) 0%, rgba(45, 26, 8, 0.9) 45%, rgba(45, 26, 8, 0.5) 100%),
+    url("/hero-psicoflujo.jpg") center/cover no-repeat;
+}
+[data-theme="laboral"] .brand-symbol:after {
+  background: #f59e0b;
+  box-shadow: 0 0 10px #f59e0b;
+}
+[data-theme="laboral"] .brand > span:last-child > span {
+  color: #f59e0b;
+}
+[data-theme="laboral"] .hero-search-submit-btn {
+  background: #b45309;
+}
+
+/* Tema Jurídico / Forense (Violeta Pericial) */
+[data-theme="juridico"], [data-theme="forense"] {
+  --theme-primary: #7c3aed;
+  --theme-primary-hover: #6d28d9;
+  --theme-light: #ede9fe;
+  --theme-border: #c4b5fd;
+  --theme-context-bg: rgba(76, 29, 149, 0.45);
+  --theme-hero-bg: #190e2d;
+}
+[data-theme="juridico"] .hero, [data-theme="forense"] .hero {
+  background: #190e2d;
+}
+[data-theme="juridico"] .hero-backdrop, [data-theme="forense"] .hero-backdrop {
+  background:
+    radial-gradient(circle at 80% 25%, rgba(139, 92, 246, 0.22) 0%, transparent 60%),
+    linear-gradient(90deg, rgba(25, 14, 45, 0.98) 0%, rgba(35, 19, 64, 0.9) 45%, rgba(35, 19, 64, 0.5) 100%),
+    url("/hero-psicoflujo.jpg") center/cover no-repeat;
+}
+[data-theme="juridico"] .brand-symbol:after, [data-theme="forense"] .brand-symbol:after {
+  background: #a78bfa;
+  box-shadow: 0 0 10px #a78bfa;
+}
+[data-theme="juridico"] .brand > span:last-child > span, [data-theme="forense"] .brand > span:last-child > span {
+  color: #a78bfa;
+}
+[data-theme="juridico"] .hero-search-submit-btn, [data-theme="forense"] .hero-search-submit-btn {
+  background: #7c3aed;
+}
+
+/* Tema Clínica (Índigo Clásico) */
+[data-theme="clinico"], [data-theme="clinica"] {
+  --theme-primary: #4338ca;
+  --theme-primary-hover: #3730a3;
+  --theme-light: #eeedfc;
+  --theme-border: #c7d2fe;
+  --theme-context-bg: rgba(39, 34, 111, 0.45);
+}
+
+/* Tema Deporte (Azul Atlético) */
+[data-theme="deporte"] {
+  --theme-primary: #2563eb;
+  --theme-primary-hover: #1d4ed8;
+  --theme-light: #dbeafe;
+  --theme-border: #93c5fd;
+  --theme-context-bg: rgba(30, 58, 138, 0.45);
+}
+
+/* Tema Cultural (Rosa / Carmesí Transcultural) */
+[data-theme="cultural"] {
+  --theme-primary: #be123c;
+  --theme-primary-hover: #9f1239;
+  --theme-light: #ffe4e6;
+  --theme-border: #fecdd3;
+  --theme-context-bg: rgba(136, 19, 55, 0.45);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   * { transition: none !important; animation: none !important; }

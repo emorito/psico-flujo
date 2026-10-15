@@ -4,18 +4,34 @@ const path = require('path');
 const puppeteer = require('puppeteer-core');
 
 const outDir = path.join(process.cwd(), 'out');
+const mimeTypes = {
+  '.html': 'text/html; charset=utf-8',
+  '.js': 'application/javascript; charset=utf-8',
+  '.css': 'text/css; charset=utf-8',
+  '.json': 'application/json; charset=utf-8',
+  '.png': 'image/png',
+  '.jpg': 'image/jpeg',
+  '.svg': 'image/svg+xml',
+  '.woff2': 'font/woff2'
+};
+
 const server = http.createServer((req, res) => {
   let reqPath = req.url.split('?')[0];
-  if (reqPath === '/') reqPath = '/index.html';
-  const filePath = path.join(outDir, reqPath);
+  let filePath = path.join(outDir, reqPath);
+
+  if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
+    filePath = path.join(filePath, 'index.html');
+  } else if (!fs.existsSync(filePath) && fs.existsSync(filePath + '.html')) {
+    filePath = filePath + '.html';
+  }
+
   if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
-    res.writeHead(200);
+    const ext = path.extname(filePath).toLowerCase();
+    const contentType = mimeTypes[ext] || 'application/octet-stream';
+    res.writeHead(200, { 'Content-Type': contentType });
     fs.createReadStream(filePath).pipe(res);
-  } else if (fs.existsSync(filePath + '.html')) {
-    res.writeHead(200, { 'Content-Type': 'text/html' });
-    fs.createReadStream(filePath + '.html').pipe(res);
   } else {
-    res.writeHead(404);
+    res.writeHead(404, { 'Content-Type': 'text/plain' });
     res.end('Not found');
   }
 });
@@ -153,6 +169,50 @@ server.listen(PORT, async () => {
       throw new Error(`Se esperaban 18 instrumentos vocacionales, obtenidos: ${vocCount}`);
     }
     console.log(`  ✓ [OK] Ámbito independiente de Orientación Vocacional verificado con 18 instrumentos.`);
+
+    // 6. Verificando Ruta Estática Dedicada /educativa/ (Opción C)
+    console.log('\n6. Verificando Ruta Estática Dedicada (/educativa/)...');
+    await page.goto(`http://localhost:${PORT}/educativa/`, { waitUntil: 'networkidle0' });
+
+    const edTitleTag = await page.title();
+    console.log(`  - Título de pestaña: "${edTitleTag}"`);
+    if (!edTitleTag.toLowerCase().includes('educativa')) {
+      throw new Error(`Título de pestaña no contiene 'Educativa': ${edTitleTag}`);
+    }
+
+    const edThemeAttr = await page.$eval('.psicoflujo-main-wrapper', el => el.getAttribute('data-theme'));
+    console.log(`  - Atributo data-theme en wrapper: "${edThemeAttr}"`);
+    if (edThemeAttr !== 'educativo' && edThemeAttr !== 'educativa') {
+      throw new Error(`Se esperaba data-theme="educativo", obtenido: ${edThemeAttr}`);
+    }
+
+    const edHeroH1 = await page.$eval('.hero-content h1', el => el.innerText.trim());
+    console.log(`  - Titular Hero temático: "${edHeroH1}"`);
+    if (!edHeroH1.includes('escuela')) {
+      throw new Error(`Titular hero no está recontextualizado para escuela: ${edHeroH1}`);
+    }
+
+    const decisionCardsCount = await page.$$eval('.decision-card', els => els.length);
+    console.log(`  - Tarjetas de decisión escolar renderizadas: ${decisionCardsCount}`);
+    if (decisionCardsCount !== 7) {
+      throw new Error(`Se esperaban 7 tarjetas de decisión escolar, obtenidas: ${decisionCardsCount}`);
+    }
+    console.log(`  ✓ [OK] Ruta estática /educativa/ renderiza titular contextual, tema esmeralda y 7 tarjetas de decisión.`);
+
+    // 7. Verificando Botón de Retorno a Vista General
+    console.log('\n7. Verificando Botón de Retorno a Vista General desde /educativa/...');
+    const returnBtn = await page.waitForSelector('.gateway-return-btn');
+    await returnBtn.evaluate(b => b.click());
+    await page.waitForNavigation({ waitUntil: 'networkidle0' });
+
+    const currentUrl = page.url();
+    console.log(`  - URL tras clic en retorno: ${currentUrl}`);
+    const generalSummary = await page.$eval('.catalog-summary span:first-child', el => el.innerText.trim());
+    console.log(`  - Resumen catálogo tras retorno: "${generalSummary}"`);
+    if (!generalSummary.includes('270')) {
+      throw new Error(`Se esperaban 270 instrumentos tras volver a general, obtenidos: ${generalSummary}`);
+    }
+    console.log(`  ✓ [OK] Botón de retorno navega limpiamente a la vista general con los 6 ejes y 270 instrumentos.`);
 
     console.log('\n================================================================');
     console.log('TODAS LAS PRUEBAS DE ÁMBITOS Y SECCIONES SE SUPERARON CON ÉXITO!');
