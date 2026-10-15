@@ -24,7 +24,7 @@ const HERO_HEROIC_TITLES: Record<string, { title: string; subtitle?: string }> =
   },
   vocacional: {
     title: "Construir proyectos de vida con evidencia, sentido y autoconocimiento.",
-    subtitle: "19 instrumentos especializados en intereses ocupacionales (RIASEC), hábitos de estudio y autoeficacia vocacional."
+    subtitle: "21 instrumentos especializados en intereses ocupacionales (RIASEC), hábitos de estudio y autoeficacia vocacional."
   },
   salud: {
     title: "Evaluar el impacto de la salud en la cognición y la adaptación.",

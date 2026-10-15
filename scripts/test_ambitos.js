@@ -210,8 +210,8 @@ server.listen(PORT, async () => {
     const vocSummaryText = await page.$eval('.catalog-summary span:first-child', el => el.innerText.trim());
     const vocCount = parseInt(vocSummaryText.split(' ')[0], 10);
     console.log(`  - Conteo instrumentos vocacionales: ${vocCount}`);
-    if (vocCount !== 19) {
-      throw new Error(`Se esperaban 19 instrumentos vocacionales, obtenidos: ${vocCount}`);
+    if (vocCount !== 21) {
+      throw new Error(`Se esperaban 21 instrumentos vocacionales, obtenidos: ${vocCount}`);
     }
 
     const vocCardsCount = await page.$$eval('.decision-card', els => els.length);
@@ -219,7 +219,7 @@ server.listen(PORT, async () => {
     if (vocCardsCount !== 4) {
       throw new Error(`Se esperaban 4 tarjetas de decisión vocacional, obtenidas: ${vocCardsCount}`);
     }
-    console.log(`  ✓ [OK] Portal independiente de Orientación Vocacional verificado con 19 instrumentos y 4 dimensiones.`);
+    console.log(`  ✓ [OK] Portal independiente de Orientación Vocacional verificado con 21 instrumentos y 4 dimensiones.`);
 
     // 6. Verificando Botón de Retorno a Vista General
     console.log('\n6. Verificando Botón de Retorno a Vista General desde /vocacional/...');

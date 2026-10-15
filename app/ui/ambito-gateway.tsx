@@ -24,7 +24,7 @@ const AMBITO_LINKS = [
   { id: "all", href: "/", label: "General · Multieje", short: "General", count: 275, icon: LayoutGrid },
   { id: "clinico", href: "/clinico", label: "Clínica y Psicoterapia", short: "Clínica", count: 233, icon: Stethoscope },
   { id: "educativo", href: "/educativa", label: "Psicología Educativa", short: "Educativa", count: 81, icon: GraduationCap },
-  { id: "vocacional", href: "/vocacional", label: "Orientación Vocacional", short: "Vocacional", count: 19, icon: Compass },
+  { id: "vocacional", href: "/vocacional", label: "Orientación Vocacional", short: "Vocacional", count: 21, icon: Compass },
   { id: "salud", href: "/salud", label: "Salud y Neuropsicología", short: "Salud", count: 78, icon: Activity },
   { id: "laboral", href: "/laboral", label: "Laboral y Organizacional", short: "Laboral", count: 42, icon: Briefcase },
   { id: "juridico", href: "/forense", label: "Jurídica y Forense", short: "Forense", count: 37, icon: Scale },

@@ -3687,15 +3687,18 @@
     "use": "Adultos",
     "ambitos": [
       "clinico",
-      "laboral"
+      "laboral",
+      "vocacional"
     ],
     "rol_en_ambito": [
       "clinico:evaluacion_procesos",
-      "laboral:ajuste_organizacional"
+      "laboral:ajuste_organizacional",
+      "vocacional:intereses_y_aptitudes"
     ],
     "secciones": {
       "clinico": "personalidad_recursos",
-      "laboral": "personalidad_laboral"
+      "laboral": "personalidad_laboral",
+      "vocacional": "personalidad_autoeficacia_proyecto"
     },
     "metodo": "autoinforme",
     "nivel_uso": "diagnostico",
@@ -3794,15 +3797,18 @@
     "use": "Adultos y universitarios",
     "ambitos": [
       "clinico",
-      "laboral"
+      "laboral",
+      "vocacional"
     ],
     "rol_en_ambito": [
       "clinico:evaluacion_procesos",
-      "laboral:ajuste_organizacional"
+      "laboral:ajuste_organizacional",
+      "vocacional:intereses_y_aptitudes"
     ],
     "secciones": {
       "clinico": "personalidad_recursos",
-      "laboral": "personalidad_laboral"
+      "laboral": "personalidad_laboral",
+      "vocacional": "personalidad_autoeficacia_proyecto"
     },
     "metodo": "autoinforme",
     "nivel_uso": "diagnostico",
@@ -13466,7 +13472,7 @@
     ],
     "secciones": {
       "laboral": "competencias_ajuste_puesto",
-      "vocacional": "personalidad_estilos_trabajo"
+      "vocacional": "personalidad_autoeficacia_proyecto"
     },
     "metodo": "autoinforme",
     "nivel_uso": "cribado",
