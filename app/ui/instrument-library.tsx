@@ -20,7 +20,7 @@ import ejesData from "../../data/ejes.json";
 import rawIndice from "../../data/indice_psicoflujo.json";
 import { crearIndice, buscar } from "../../buscador_indice";
 import { claMap } from "../lib/guia";
-import { AmbitoSelector, AMBITOS } from "./ambito-selector";
+import { AMBITOS } from "./ambito-selector";
 
 export interface CatalogItem {
   family_id: string;
@@ -188,6 +188,22 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
   const selectedSeccion = props.selectedSeccion !== undefined ? props.selectedSeccion : internalSeccion;
   const setSelectedSeccion = props.setSelectedSeccion || setInternalSeccion;
 
+  const isAmbitoActive = selectedAmbito !== "all" && selectedAmbito !== "general";
+  const activeAmbito = useMemo(() => {
+    if (!isAmbitoActive) return null;
+    return AMBITOS.find((a) => a.id === selectedAmbito || (selectedAmbito === "forense" && a.id === "juridico")) || null;
+  }, [isAmbitoActive, selectedAmbito]);
+
+  const scopedBaseCatalog = useMemo(() => {
+    if (!isAmbitoActive || !activeAmbito) return catalog;
+    const targetId = activeAmbito.id;
+    return catalog.filter((it) => it.ambitos?.includes(targetId));
+  }, [isAmbitoActive, activeAmbito]);
+
+  const scopedTotalDocs = useMemo(() => {
+    return scopedBaseCatalog.reduce((acc, item) => acc + item.archivos.length, 0);
+  }, [scopedBaseCatalog]);
+
   const [open, setOpen] = useState<string | null>(null);
   const [showAllThemesMobile, setShowAllThemesMobile] = useState(false);
   const [themeCloudCollapsedMobile, setThemeCloudCollapsedMobile] = useState(true);
@@ -221,23 +237,14 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
       }));
   }, []);
 
-  // Conteo de instrumentos por ámbito
-  const catalogCountsByAmbito = useMemo(() => {
-    const counts: Record<string, number> = {};
-    for (const amb of AMBITOS) {
-      counts[amb.id] = catalog.filter((it) => it.ambitos?.includes(amb.id)).length;
-    }
-    return counts;
-  }, []);
-
   // Filtered instruments
   const filtered = useMemo(() => {
-    let searchHitMap: Map<string, { score: number; parcial: boolean; rank: number }> | null = null;
+    let searchHitMap: Map<string, { score: number; parcial?: boolean; rank: number }> | null = null;
 
     if (props.searchResults !== undefined) {
       if (props.searchResults !== null) {
         searchHitMap = new Map();
-        props.searchResults.forEach((r: { id: string; score: number; parcial: boolean }, idx: number) => {
+        props.searchResults.forEach((r: { id: string; score: number; parcial?: boolean }, idx: number) => {
           searchHitMap!.set(r.id, { score: r.score, parcial: r.parcial, rank: idx });
         });
       }
@@ -246,24 +253,20 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
       if (trimmedQuery.length > 0) {
         const results = buscar(searchIndex, trimmedQuery, { limite: catalog.length });
         searchHitMap = new Map();
-        results.forEach((r: { id: string; score: number; parcial: boolean }, idx: number) => {
+        results.forEach((r: { id: string; score: number; parcial?: boolean }, idx: number) => {
           searchHitMap!.set(r.id, { score: r.score, parcial: r.parcial, rank: idx });
         });
       }
     }
 
-    return catalog
+    return scopedBaseCatalog
       .filter((item) => {
         const famIndex = indexFamilyMap.get(item.family_id);
 
-        // Ámbito filter
-        if (selectedAmbito !== "all" && selectedAmbito !== "general") {
-          if (!item.ambitos || !item.ambitos.includes(selectedAmbito)) {
-            return false;
-          }
-          // Sección filter dentro del ámbito
+        // Ámbito activo: filtrar por dimensión seleccionada dentro del ámbito
+        if (isAmbitoActive && activeAmbito) {
           if (selectedSeccion !== "all") {
-            const itemSec = item.secciones?.[selectedAmbito];
+            const itemSec = item.secciones?.[activeAmbito.id];
             if (itemSec !== selectedSeccion) {
               return false;
             }
@@ -275,47 +278,51 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
           return false;
         }
 
-        // Axis filter
-        const itemEje = famIndex?.eje ?? item.eje_num;
-        if (selectedAxis !== "all" && itemEje !== selectedAxis) {
-          return false;
+        // Filtros exclusivos de la Vista General (Ejes, Temas clínicos, Función, Tipo)
+        if (!isAmbitoActive) {
+          // Axis filter
+          const itemEje = famIndex?.eje ?? item.eje_num;
+          if (selectedAxis !== "all" && itemEje !== selectedAxis) {
+            return false;
+          }
+
+          // Theme filter (from index: primary and secondary themes)
+          if (selectedTheme !== "all") {
+            const primaryThemeName = indexThemeMap.get(famIndex?.tema ?? "")?.nombre;
+            const secThemeNames = (famIndex?.sec || []).map((s) => indexThemeMap.get(s)?.nombre);
+            const allThemes = [primaryThemeName, ...secThemeNames].filter(Boolean);
+            if (!allThemes.includes(selectedTheme)) {
+              return false;
+            }
+          }
+
+          // Funcion clinica filter
+          if (selectedFuncion !== "all") {
+            const claItem = claMap.get(item.family_id);
+            if (claItem?.funcion_clinica_categoria !== selectedFuncion) {
+              return false;
+            }
+          }
+
+          // Tipo instrumento / quien responde filter
+          if (selectedTipo !== "all") {
+            const claItem = claMap.get(item.family_id);
+            if (claItem?.tipo_instrumento_categoria !== selectedTipo) {
+              return false;
+            }
+          }
         }
 
-        // Franja filter
+        // Franja filter (aplica en ambos modos)
         if (selectedFranja !== "all" && !item.franjas.includes(selectedFranja)) {
           return false;
         }
 
-        // Theme filter (from index: primary and secondary themes)
-        if (selectedTheme !== "all") {
-          const primaryThemeName = indexThemeMap.get(famIndex?.tema ?? "")?.nombre;
-          const secThemeNames = (famIndex?.sec || []).map((s) => indexThemeMap.get(s)?.nombre);
-          const allThemes = [primaryThemeName, ...secThemeNames].filter(Boolean);
-          if (!allThemes.includes(selectedTheme)) {
-            return false;
-          }
-        }
-
-        // Funcion clinica filter
-        if (selectedFuncion !== "all") {
-          const claItem = claMap.get(item.family_id);
-          if (claItem?.funcion_clinica_categoria !== selectedFuncion) {
-            return false;
-          }
-        }
-
-        // Tipo instrumento / quien responde filter
-        if (selectedTipo !== "all") {
-          const claItem = claMap.get(item.family_id);
-          if (claItem?.tipo_instrumento_categoria !== selectedTipo) {
-            return false;
-          }
-        }
-
-        // Solo libre filter
+        // Solo libre filter (aplica en ambos modos)
         if (selectedLibre) {
           const claItem = claMap.get(item.family_id);
-          if (claItem?.acceso_categoria !== "abierto") {
+          const isAbierto = claItem?.acceso_categoria === "abierto" || item.descargable;
+          if (!isAbierto) {
             return false;
           }
         }
@@ -330,14 +337,24 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
         }
         return a.sigla.localeCompare(b.sigla);
       });
-  }, [selectedAxis, selectedFranja, selectedTheme, selectedFuncion, selectedTipo, selectedLibre, selectedAmbito, selectedSeccion, deferredQuery, props.searchResults]);
+  }, [
+    scopedBaseCatalog,
+    isAmbitoActive,
+    activeAmbito,
+    selectedAxis,
+    selectedFranja,
+    selectedTheme,
+    selectedFuncion,
+    selectedTipo,
+    selectedLibre,
+    selectedSeccion,
+    deferredQuery,
+    props.searchResults,
+  ]);
 
   // Group filtered results by Axis (General) OR by Section (Active Ámbito)
   const groupedResults = useMemo(() => {
-    const isAmbitoActive = selectedAmbito !== "all" && selectedAmbito !== "general";
-    const activeAmbito = isAmbitoActive ? AMBITOS.find((a) => a.id === selectedAmbito) : null;
-
-    if (activeAmbito && activeAmbito.secciones && activeAmbito.secciones.length > 0) {
+    if (isAmbitoActive && activeAmbito && activeAmbito.secciones && activeAmbito.secciones.length > 0) {
       // Agrupación por las secciones del ámbito activo
       const groups: {
         id: string;
@@ -355,8 +372,8 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
         if (selectedSeccion !== "all" && selectedSeccion !== sec.id) {
           continue;
         }
-        const items = filtered.filter((it) => it.secciones?.[selectedAmbito] === sec.id);
-        if (items.length > 0 || (selectedAmbito === "educativo" && selectedSeccion === "all")) {
+        const items = filtered.filter((it) => it.secciones?.[activeAmbito.id] === sec.id);
+        if (items.length > 0 || selectedSeccion === sec.id) {
           groups.push({
             id: sec.id,
             isSection: true,
@@ -383,7 +400,7 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
       return groups;
     }
 
-    // Agrupación canónica por Ejes (Eje I a Eje VI)
+    // Agrupación canónica por Ejes (Eje I a Eje VI) para Vista General
     const groups: {
       id: string;
       isSection: boolean;
@@ -413,42 +430,58 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
       }
     }
     return groups;
-  }, [filtered, selectedAxis, selectedAmbito, selectedSeccion]);
+  }, [filtered, selectedAxis, isAmbitoActive, activeAmbito, selectedSeccion]);
 
-  const hasActiveFilters =
-    query !== "" ||
-    selectedAxis !== "all" ||
-    selectedFranja !== "all" ||
-    selectedTheme !== "all" ||
-    selectedFuncion !== "all" ||
-    selectedTipo !== "all" ||
-    selectedLibre ||
-    (selectedAmbito !== "all" && selectedAmbito !== "general") ||
-    selectedSeccion !== "all";
+  const hasActiveFilters = isAmbitoActive
+    ? query !== "" || selectedSeccion !== "all" || selectedFranja !== "all" || selectedLibre
+    : query !== "" ||
+      selectedAxis !== "all" ||
+      selectedFranja !== "all" ||
+      selectedTheme !== "all" ||
+      selectedFuncion !== "all" ||
+      selectedTipo !== "all" ||
+      selectedLibre;
 
-  const activeFiltersCount =
-    (query ? 1 : 0) +
-    (selectedAxis !== "all" ? 1 : 0) +
-    (selectedFranja !== "all" ? 1 : 0) +
-    (selectedTheme !== "all" ? 1 : 0) +
-    (selectedFuncion !== "all" ? 1 : 0) +
-    (selectedTipo !== "all" ? 1 : 0) +
-    (selectedLibre ? 1 : 0) +
-    (selectedAmbito !== "all" && selectedAmbito !== "general" ? 1 : 0) +
-    (selectedSeccion !== "all" ? 1 : 0);
+  const activeFiltersCount = isAmbitoActive
+    ? (query ? 1 : 0) +
+      (selectedSeccion !== "all" ? 1 : 0) +
+      (selectedFranja !== "all" ? 1 : 0) +
+      (selectedLibre ? 1 : 0)
+    : (query ? 1 : 0) +
+      (selectedAxis !== "all" ? 1 : 0) +
+      (selectedFranja !== "all" ? 1 : 0) +
+      (selectedTheme !== "all" ? 1 : 0) +
+      (selectedFuncion !== "all" ? 1 : 0) +
+      (selectedTipo !== "all" ? 1 : 0) +
+      (selectedLibre ? 1 : 0);
 
   const resetFilters = useCallback(() => {
     setQuery("");
-    setSelectedAxis("all");
     setSelectedFranja("all");
-    setSelectedTheme("all");
-    setSelectedFuncion("all");
-    setSelectedTipo("all");
     setSelectedLibre(false);
-    setSelectedAmbito("all");
-    setSelectedSeccion("all");
+    if (isAmbitoActive) {
+      setSelectedSeccion("all");
+    } else {
+      setSelectedAxis("all");
+      setSelectedTheme("all");
+      setSelectedFuncion("all");
+      setSelectedTipo("all");
+      setSelectedAmbito("all");
+      setSelectedSeccion("all");
+    }
     setOpen(null);
-  }, [setQuery, setSelectedAxis, setSelectedFranja, setSelectedTheme, setSelectedFuncion, setSelectedTipo, setSelectedLibre, setSelectedAmbito, setSelectedSeccion]);
+  }, [
+    isAmbitoActive,
+    setQuery,
+    setSelectedFranja,
+    setSelectedLibre,
+    setSelectedSeccion,
+    setSelectedAxis,
+    setSelectedTheme,
+    setSelectedFuncion,
+    setSelectedTipo,
+    setSelectedAmbito,
+  ]);
 
   // Sync URL search params on client mount
   useEffect(() => {
@@ -550,23 +583,23 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
     <section className="library-section" id="biblioteca" data-ambito={selectedAmbito} aria-label="Biblioteca de instrumentos de evaluación psicológica">
       <div className="library-heading">
         <div>
-          <span className="overline">Catálogo General de Instrumentos</span>
-          <h2>Encuentra el instrumento adecuado.</h2>
+          <span className="overline">
+            {isAmbitoActive && activeAmbito
+              ? `Catálogo Especializado · ${activeAmbito.nombre}`
+              : "Catálogo General de Instrumentos"}
+          </span>
+          <h2>
+            {isAmbitoActive && activeAmbito
+              ? `Instrumentos de ${activeAmbito.nombre_corto}`
+              : "Encuentra el instrumento adecuado."}
+          </h2>
         </div>
         <span className="catalog-count">
-          {catalog.length} instrumentos · {totalDocuments} documentos · 6 ejes · {themeList.length} temas
+          {isAmbitoActive && activeAmbito
+            ? `${filtered.length} ${filtered.length === 1 ? "instrumento disponible" : "instrumentos disponibles"} · ${activeAmbito.secciones?.length || 0} dimensiones · ${scopedTotalDocs} documentos`
+            : `${catalog.length} instrumentos · ${totalDocuments} documentos · 6 ejes · ${themeList.length} temas`}
         </span>
       </div>
-
-      {/* Selector de Ámbitos y Enfoques de Decisión Disciplinar */}
-      <AmbitoSelector
-        selectedAmbito={selectedAmbito}
-        onSelectAmbito={setSelectedAmbito}
-        selectedSeccion={selectedSeccion}
-        onSelectSeccion={setSelectedSeccion}
-        catalogCounts={catalogCountsByAmbito}
-        totalCount={catalog.length}
-      />
 
       {/* Barra única de búsqueda y filtros (Sticky) */}
       <div className="catalog-controls-v1 library-sticky-bar">
@@ -576,7 +609,11 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
             <input
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Buscar por sigla, nombre o tema (ej. PHQ, BDI, ansiedad)…"
+              placeholder={
+                isAmbitoActive && activeAmbito
+                  ? `Buscar en ${activeAmbito.nombre_corto} (ej. ${activeAmbito.id === 'educativo' ? 'BRIEF, EFECO, lectura' : 'sigla, nombre o constructo'})…`
+                  : "Buscar por sigla, nombre o tema (ej. PHQ, BDI, ansiedad)…"
+              }
               aria-label="Buscar instrumentos"
             />
             {query && (
@@ -593,62 +630,137 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
 
           {/* Selectores en escritorio */}
           <div className="desktop-filters" role="group" aria-label="Filtros del catálogo">
-            <div className="select-wrapper">
-              <select
-                className="filter-select"
-                value={selectedAxis}
-                onChange={(e) => {
-                  const val = e.target.value;
-                  setSelectedAxis(val === "all" ? "all" : Number(val));
-                  setOpen(null);
-                }}
-                aria-label="Filtrar por eje clínico"
-              >
-                <option value="all">Eje: Todos los ejes</option>
-                {AXES.map((ax) => (
-                  <option key={ax.num} value={ax.num}>
-                    {ax.label} · {ax.nombre}
-                  </option>
-                ))}
-              </select>
-            </div>
+            {isAmbitoActive && activeAmbito ? (
+              <>
+                {/* 1. Selector de Dimensión de este Ámbito */}
+                <div className="select-wrapper">
+                  <select
+                    className="filter-select"
+                    value={selectedSeccion}
+                    onChange={(e) => {
+                      setSelectedSeccion(e.target.value);
+                      setOpen(null);
+                    }}
+                    aria-label="Filtrar por dimensión"
+                  >
+                    <option value="all">Dimensión: Todas las dimensiones ({activeAmbito.secciones.length})</option>
+                    {activeAmbito.secciones.map((sec, idx) => {
+                      const count = scopedBaseCatalog.filter(
+                        (it) => it.secciones?.[activeAmbito.id] === sec.id
+                      ).length;
+                      return (
+                        <option key={sec.id} value={sec.id}>
+                          {idx + 1}. {sec.titulo} ({count})
+                        </option>
+                      );
+                    })}
+                  </select>
+                </div>
 
-            <div className="select-wrapper">
-              <select
-                className="filter-select"
-                value={selectedFranja}
-                onChange={(e) => {
-                  setSelectedFranja(e.target.value);
-                  setOpen(null);
-                }}
-                aria-label="Filtrar por franja de edad"
-              >
-                {AGE_FRANJAS.map((fr) => (
-                  <option key={fr.id} value={fr.id}>
-                    Edad: {fr.label}
-                  </option>
-                ))}
-              </select>
-            </div>
+                {/* 2. Selector de Franja de Edad adaptado al ámbito */}
+                <div className="select-wrapper">
+                  <select
+                    className="filter-select"
+                    value={selectedFranja}
+                    onChange={(e) => {
+                      setSelectedFranja(e.target.value);
+                      setOpen(null);
+                    }}
+                    aria-label="Filtrar por franja de edad"
+                  >
+                    <option value="all">Edad: Todas las edades ({scopedBaseCatalog.length})</option>
+                    {AGE_FRANJAS.filter((fr) => fr.id !== "all").map((fr) => {
+                      const count = scopedBaseCatalog.filter((it) => it.franjas.includes(fr.id)).length;
+                      return (
+                        <option key={fr.id} value={fr.id} disabled={count === 0}>
+                          Edad: {fr.label} ({count})
+                        </option>
+                      );
+                    })}
+                  </select>
+                </div>
 
-            <div className="select-wrapper">
-              <select
-                className="filter-select"
-                value={selectedTheme}
-                onChange={(e) => {
-                  setSelectedTheme(e.target.value);
-                  setOpen(null);
-                }}
-                aria-label="Filtrar por tema clínico"
-              >
-                <option value="all">Tema: Todos los temas ({themeList.length})</option>
-                {themeList.map((t) => (
-                  <option key={t.name} value={t.name}>
-                    {t.name} ({t.count})
-                  </option>
-                ))}
-              </select>
-            </div>
+                {/* 3. Selector de Condición de Acceso */}
+                <div className="select-wrapper">
+                  <select
+                    className="filter-select"
+                    value={selectedLibre ? "libre" : "all"}
+                    onChange={(e) => {
+                      setSelectedLibre(e.target.value === "libre");
+                      setOpen(null);
+                    }}
+                    aria-label="Filtrar por condición de acceso"
+                  >
+                    <option value="all">Acceso: Todos ({scopedBaseCatalog.length})</option>
+                    <option value="libre">
+                      Solo uso libre ({scopedBaseCatalog.filter((it) => {
+                        const claItem = claMap.get(it.family_id);
+                        return claItem?.acceso_categoria === "abierto" || it.descargable;
+                      }).length})
+                    </option>
+                  </select>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="select-wrapper">
+                  <select
+                    className="filter-select"
+                    value={selectedAxis}
+                    onChange={(e) => {
+                      const val = e.target.value;
+                      setSelectedAxis(val === "all" ? "all" : Number(val));
+                      setOpen(null);
+                    }}
+                    aria-label="Filtrar por eje clínico"
+                  >
+                    <option value="all">Eje: Todos los ejes</option>
+                    {AXES.map((ax) => (
+                      <option key={ax.num} value={ax.num}>
+                        {ax.label} · {ax.nombre}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                <div className="select-wrapper">
+                  <select
+                    className="filter-select"
+                    value={selectedFranja}
+                    onChange={(e) => {
+                      setSelectedFranja(e.target.value);
+                      setOpen(null);
+                    }}
+                    aria-label="Filtrar por franja de edad"
+                  >
+                    {AGE_FRANJAS.map((fr) => (
+                      <option key={fr.id} value={fr.id}>
+                        Edad: {fr.label}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                <div className="select-wrapper">
+                  <select
+                    className="filter-select"
+                    value={selectedTheme}
+                    onChange={(e) => {
+                      setSelectedTheme(e.target.value);
+                      setOpen(null);
+                    }}
+                    aria-label="Filtrar por tema clínico"
+                  >
+                    <option value="all">Tema: Todos los temas ({themeList.length})</option>
+                    {themeList.map((t) => (
+                      <option key={t.name} value={t.name}>
+                        {t.name} ({t.count})
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </>
+            )}
 
             {hasActiveFilters && (
               <button
@@ -683,94 +795,148 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
         {hasActiveFilters && (
           <div className="active-filters-bar" role="group" aria-label="Filtros aplicados actualmente">
             <span className="active-filters-label">Filtros activos:</span>
-            {selectedAxis !== "all" && (
-              <button
-                type="button"
-                className="active-filter-chip"
-                onClick={() => {
-                  setSelectedAxis("all");
-                  setOpen(null);
-                }}
-                aria-label={`Quitar filtro de eje ${AXIS_MAP[selectedAxis]?.name}`}
-              >
-                <span>{AXIS_MAP[selectedAxis]?.label}: {AXIS_MAP[selectedAxis]?.name}</span>
-                <X size={13} />
-              </button>
-            )}
 
-            {selectedFranja !== "all" && (
-              <button
-                type="button"
-                className="active-filter-chip"
-                onClick={() => {
-                  setSelectedFranja("all");
-                  setOpen(null);
-                }}
-                aria-label={`Quitar filtro de edad ${AGE_FRANJAS.find((f) => f.id === selectedFranja)?.label}`}
-              >
-                <span>Edad: {AGE_FRANJAS.find((f) => f.id === selectedFranja)?.label}</span>
-                <X size={13} />
-              </button>
-            )}
+            {isAmbitoActive ? (
+              <>
+                {selectedSeccion !== "all" && (
+                  <button
+                    type="button"
+                    className="active-filter-chip"
+                    onClick={() => {
+                      setSelectedSeccion("all");
+                      setOpen(null);
+                    }}
+                    aria-label="Quitar filtro de dimensión"
+                  >
+                    <span>
+                      Dimensión: {activeAmbito?.secciones?.find((s) => s.id === selectedSeccion)?.titulo || selectedSeccion}
+                    </span>
+                    <X size={13} />
+                  </button>
+                )}
 
-            {selectedTheme !== "all" && (
-              <button
-                type="button"
-                className="active-filter-chip"
-                onClick={() => {
-                  setSelectedTheme("all");
-                  setOpen(null);
-                }}
-                aria-label={`Quitar filtro de tema ${selectedTheme}`}
-              >
-                <span>Tema: {selectedTheme}</span>
-                <X size={13} />
-              </button>
-            )}
+                {selectedFranja !== "all" && (
+                  <button
+                    type="button"
+                    className="active-filter-chip"
+                    onClick={() => {
+                      setSelectedFranja("all");
+                      setOpen(null);
+                    }}
+                    aria-label={`Quitar filtro de edad ${AGE_FRANJAS.find((f) => f.id === selectedFranja)?.label}`}
+                  >
+                    <span>Edad: {AGE_FRANJAS.find((f) => f.id === selectedFranja)?.label}</span>
+                    <X size={13} />
+                  </button>
+                )}
 
-            {selectedFuncion !== "all" && (
-              <button
-                type="button"
-                className="active-filter-chip"
-                onClick={() => {
-                  setSelectedFuncion("all");
-                  setOpen(null);
-                }}
-                aria-label={`Quitar filtro de función clínica ${selectedFuncion}`}
-              >
-                <span>Función: {selectedFuncion}</span>
-                <X size={13} />
-              </button>
-            )}
+                {selectedLibre && (
+                  <button
+                    type="button"
+                    className="active-filter-chip"
+                    onClick={() => {
+                      setSelectedLibre(false);
+                      setOpen(null);
+                    }}
+                    aria-label="Quitar filtro de sólo uso libre"
+                  >
+                    <span>Solo uso libre</span>
+                    <X size={13} />
+                  </button>
+                )}
+              </>
+            ) : (
+              <>
+                {selectedAxis !== "all" && (
+                  <button
+                    type="button"
+                    className="active-filter-chip"
+                    onClick={() => {
+                      setSelectedAxis("all");
+                      setOpen(null);
+                    }}
+                    aria-label={`Quitar filtro de eje ${AXIS_MAP[selectedAxis]?.name}`}
+                  >
+                    <span>{AXIS_MAP[selectedAxis]?.label}: {AXIS_MAP[selectedAxis]?.name}</span>
+                    <X size={13} />
+                  </button>
+                )}
 
-            {selectedTipo !== "all" && (
-              <button
-                type="button"
-                className="active-filter-chip"
-                onClick={() => {
-                  setSelectedTipo("all");
-                  setOpen(null);
-                }}
-                aria-label={`Quitar filtro de modalidad ${selectedTipo}`}
-              >
-                <span>Modalidad: {selectedTipo}</span>
-                <X size={13} />
-              </button>
-            )}
+                {selectedFranja !== "all" && (
+                  <button
+                    type="button"
+                    className="active-filter-chip"
+                    onClick={() => {
+                      setSelectedFranja("all");
+                      setOpen(null);
+                    }}
+                    aria-label={`Quitar filtro de edad ${AGE_FRANJAS.find((f) => f.id === selectedFranja)?.label}`}
+                  >
+                    <span>Edad: {AGE_FRANJAS.find((f) => f.id === selectedFranja)?.label}</span>
+                    <X size={13} />
+                  </button>
+                )}
 
-            {selectedLibre && (
-              <button
-                type="button"
-                className="active-filter-chip"
-                onClick={() => {
-                  setSelectedLibre(false);
-                  setOpen(null);
-                }}
-                aria-label="Quitar filtro de sólo uso libre"
-              >
-                <span>Solo uso libre</span>
-                <X size={13} />
-              </button>
+                {selectedTheme !== "all" && (
+                  <button
+                    type="button"
+                    className="active-filter-chip"
+                    onClick={() => {
+                      setSelectedTheme("all");
+                      setOpen(null);
+                    }}
+                    aria-label={`Quitar filtro de tema ${selectedTheme}`}
+                  >
+                    <span>Tema: {selectedTheme}</span>
+                    <X size={13} />
+                  </button>
+                )}
+
+                {selectedFuncion !== "all" && (
+                  <button
+                    type="button"
+                    className="active-filter-chip"
+                    onClick={() => {
+                      setSelectedFuncion("all");
+                      setOpen(null);
+                    }}
+                    aria-label={`Quitar filtro de función clínica ${selectedFuncion}`}
+                  >
+                    <span>Función: {selectedFuncion}</span>
+                    <X size={13} />
+                  </button>
+                )}
+
+                {selectedTipo !== "all" && (
+                  <button
+                    type="button"
+                    className="active-filter-chip"
+                    onClick={() => {
+                      setSelectedTipo("all");
+                      setOpen(null);
+                    }}
+                    aria-label={`Quitar filtro de modalidad ${selectedTipo}`}
+                  >
+                    <span>Modalidad: {selectedTipo}</span>
+                    <X size={13} />
+                  </button>
+                )}
+
+                {selectedLibre && (
+                  <button
+                    type="button"
+                    className="active-filter-chip"
+                    onClick={() => {
+                      setSelectedLibre(false);
+                      setOpen(null);
+                    }}
+                    aria-label="Quitar filtro de sólo uso libre"
+                  >
+                    <span>Solo uso libre</span>
+                    <X size={13} />
+                  </button>
+                )}
+              </>
             )}
 
             {query.trim() !== "" && (
@@ -822,63 +988,143 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
             </div>
 
             <div className="drawer-body">
-              {/* Filtro Eje */}
-              <div className="drawer-section">
-                <span className="drawer-section-label">Eje clínico</span>
-                <div className="drawer-pills">
-                  <button
-                    type="button"
-                    className={`drawer-pill ${selectedAxis === "all" ? "active" : ""}`}
-                    onClick={() => setSelectedAxis("all")}
-                  >
-                    Todos los ejes
-                  </button>
-                  {AXES.map((ax) => (
-                    <button
-                      key={ax.num}
-                      type="button"
-                      className={`drawer-pill ${selectedAxis === ax.num ? "active" : ""}`}
-                      onClick={() => setSelectedAxis(ax.num)}
-                    >
-                      {ax.label} · {ax.nombre}
-                    </button>
-                  ))}
-                </div>
-              </div>
+              {isAmbitoActive && activeAmbito ? (
+                <>
+                  {/* Filtro Dimensión */}
+                  <div className="drawer-section">
+                    <span className="drawer-section-label">Dimensión / Área de Evaluación</span>
+                    <div className="drawer-pills">
+                      <button
+                        type="button"
+                        className={`drawer-pill ${selectedSeccion === "all" ? "active" : ""}`}
+                        onClick={() => setSelectedSeccion("all")}
+                      >
+                        Todas las dimensiones ({scopedBaseCatalog.length})
+                      </button>
+                      {activeAmbito.secciones.map((sec, idx) => {
+                        const count = scopedBaseCatalog.filter(
+                          (it) => it.secciones?.[activeAmbito.id] === sec.id
+                        ).length;
+                        return (
+                          <button
+                            key={sec.id}
+                            type="button"
+                            className={`drawer-pill ${selectedSeccion === sec.id ? "active" : ""}`}
+                            onClick={() => setSelectedSeccion(sec.id)}
+                          >
+                            {idx + 1}. {sec.titulo} ({count})
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
 
-              {/* Filtro Edad */}
-              <div className="drawer-section">
-                <span className="drawer-section-label">Franja de edad</span>
-                <div className="drawer-pills">
-                  {AGE_FRANJAS.map((fr) => (
-                    <button
-                      key={fr.id}
-                      type="button"
-                      className={`drawer-pill ${selectedFranja === fr.id ? "active" : ""}`}
-                      onClick={() => setSelectedFranja(fr.id)}
-                    >
-                      {fr.label}
-                    </button>
-                  ))}
-                </div>
-              </div>
+                  {/* Filtro Edad */}
+                  <div className="drawer-section">
+                    <span className="drawer-section-label">Franja de edad</span>
+                    <div className="drawer-pills">
+                      {AGE_FRANJAS.map((fr) => {
+                        const count = scopedBaseCatalog.filter(
+                          (it) => fr.id === "all" || it.franjas.includes(fr.id)
+                        ).length;
+                        return (
+                          <button
+                            key={fr.id}
+                            type="button"
+                            className={`drawer-pill ${selectedFranja === fr.id ? "active" : ""}`}
+                            onClick={() => setSelectedFranja(fr.id)}
+                            disabled={count === 0}
+                          >
+                            {fr.label} ({count})
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
 
-              {/* Filtro Tema */}
-              <div className="drawer-section">
-                <span className="drawer-section-label">Tema clínico ({themeList.length})</span>
-                <select
-                  className="filter-select drawer-select"
-                  value={selectedTheme}
-                  onChange={(e) => setSelectedTheme(e.target.value)}
-                >
-                  <option value="all">Todos los temas ({themeList.length})</option>
-                  {themeList.map((t) => (
-                    <option key={t.name} value={t.name}>
-                      {t.name} ({t.count})
-                    </option>
-                  ))}
-                </select>
-              </div>
+                  {/* Filtro Acceso */}
+                  <div className="drawer-section">
+                    <span className="drawer-section-label">Condición de acceso</span>
+                    <div className="drawer-pills">
+                      <button
+                        type="button"
+                        className={`drawer-pill ${!selectedLibre ? "active" : ""}`}
+                        onClick={() => setSelectedLibre(false)}
+                      >
+                        Todos ({scopedBaseCatalog.length})
+                      </button>
+                      <button
+                        type="button"
+                        className={`drawer-pill ${selectedLibre ? "active" : ""}`}
+                        onClick={() => setSelectedLibre(true)}
+                      >
+                        Solo uso libre ({scopedBaseCatalog.filter((it) => {
+                          const claItem = claMap.get(it.family_id);
+                          return claItem?.acceso_categoria === "abierto" || it.descargable;
+                        }).length})
+                      </button>
+                    </div>
+                  </div>
+                </>
+              ) : (
+                <>
+                  {/* Filtros Canónicos para Vista General */}
+                  <div className="drawer-section">
+                    <span className="drawer-section-label">Eje clínico</span>
+                    <div className="drawer-pills">
+                      <button
+                        type="button"
+                        className={`drawer-pill ${selectedAxis === "all" ? "active" : ""}`}
+                        onClick={() => setSelectedAxis("all")}
+                      >
+                        Todos los ejes
+                      </button>
+                      {AXES.map((ax) => (
+                        <button
+                          key={ax.num}
+                          type="button"
+                          className={`drawer-pill ${selectedAxis === ax.num ? "active" : ""}`}
+                          onClick={() => setSelectedAxis(ax.num)}
+                        >
+                          {ax.label} · {ax.nombre}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="drawer-section">
+                    <span className="drawer-section-label">Franja de edad</span>
+                    <div className="drawer-pills">
+                      {AGE_FRANJAS.map((fr) => (
+                        <button
+                          key={fr.id}
+                          type="button"
+                          className={`drawer-pill ${selectedFranja === fr.id ? "active" : ""}`}
+                          onClick={() => setSelectedFranja(fr.id)}
+                        >
+                          {fr.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="drawer-section">
+                    <span className="drawer-section-label">Tema clínico ({themeList.length})</span>
+                    <select
+                      className="filter-select drawer-select"
+                      value={selectedTheme}
+                      onChange={(e) => setSelectedTheme(e.target.value)}
+                    >
+                      <option value="all">Todos los temas ({themeList.length})</option>
+                      {themeList.map((t) => (
+                        <option key={t.name} value={t.name}>
+                          {t.name} ({t.count})
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                </>
+              )}
             </div>
 
             <div className="drawer-footer">
@@ -903,84 +1149,86 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
         </div>
       )}
 
-      {/* Bloque Explorar por tema (39 temas cerrados) */}
-      <section className="theme-section" aria-label="Explorar por tema clínico">
-        <div className="theme-header">
-          <div className="theme-title">
-            <Sparkles size={14} />
-            <span>Explorar por tema clínico ({themeList.length})</span>
+      {/* Bloque Explorar por tema (40 temas) - SOLO en Vista General */}
+      {!isAmbitoActive && (
+        <section className="theme-section" aria-label="Explorar por tema clínico">
+          <div className="theme-header">
+            <div className="theme-title">
+              <Sparkles size={14} />
+              <span>Explorar por tema clínico ({themeList.length})</span>
+            </div>
+            {/* Botón en celular para desplegar la nube */}
+            <button
+              type="button"
+              className="theme-collapse-mobile-btn"
+              onClick={() => setThemeCloudCollapsedMobile((prev) => !prev)}
+              aria-expanded={!themeCloudCollapsedMobile}
+            >
+              <span>{themeCloudCollapsedMobile ? `Explorar por tema (${themeList.length})` : "Ocultar nube de temas"}</span>
+              <ChevronDown size={14} className={!themeCloudCollapsedMobile ? "rotate-180" : ""} />
+            </button>
+            {selectedTheme !== "all" && (
+              <span className="theme-active-indicator">
+                Tema activo: {selectedTheme}
+              </span>
+            )}
           </div>
-          {/* Botón en celular para desplegar la nube */}
-          <button
-            type="button"
-            className="theme-collapse-mobile-btn"
-            onClick={() => setThemeCloudCollapsedMobile((prev) => !prev)}
-            aria-expanded={!themeCloudCollapsedMobile}
-          >
-            <span>{themeCloudCollapsedMobile ? `Explorar por tema (${themeList.length})` : "Ocultar nube de temas"}</span>
-            <ChevronDown size={14} className={!themeCloudCollapsedMobile ? "rotate-180" : ""} />
-          </button>
-          {selectedTheme !== "all" && (
-            <span className="theme-active-indicator">
-              Tema activo: {selectedTheme}
-            </span>
-          )}
-        </div>
 
-        <div
-          className={`theme-cloud ${showAllThemesMobile ? "expanded" : ""} ${themeCloudCollapsedMobile ? "mobile-collapsed" : ""}`}
-          role="group"
-          aria-label="Temas clínicos disponibles"
-        >
-          <button
-            type="button"
-            className={`theme-tag size-lg ${selectedTheme === "all" ? "active" : ""}`}
-            onClick={() => {
-              setSelectedTheme("all");
-              setOpen(null);
-            }}
-            aria-pressed={selectedTheme === "all"}
+          <div
+            className={`theme-cloud ${showAllThemesMobile ? "expanded" : ""} ${themeCloudCollapsedMobile ? "mobile-collapsed" : ""}`}
+            role="group"
+            aria-label="Temas clínicos disponibles"
           >
-            <span>Todos los temas</span>
-            <small>{catalog.length}</small>
-          </button>
-          {themeList.map((theme) => {
-            const isSelected = selectedTheme === theme.name;
-            return (
-              <button
-                key={theme.name}
-                type="button"
-                className={`theme-tag size-${theme.size} ${isSelected ? "active" : ""}`}
-                onClick={() => {
-                  setSelectedTheme(isSelected ? "all" : theme.name);
-                  setOpen(null);
-                }}
-                aria-pressed={isSelected}
-                title={`${theme.name} (${theme.count} ${theme.count === 1 ? "instrumento" : "instrumentos"})`}
-              >
-                <span>{theme.name}</span>
-                <small>{theme.count}</small>
-              </button>
-            );
-          })}
-        </div>
+            <button
+              type="button"
+              className={`theme-tag size-lg ${selectedTheme === "all" ? "active" : ""}`}
+              onClick={() => {
+                setSelectedTheme("all");
+                setOpen(null);
+              }}
+              aria-pressed={selectedTheme === "all"}
+            >
+              <span>Todos los temas</span>
+              <small>{catalog.length}</small>
+            </button>
+            {themeList.map((theme) => {
+              const isSelected = selectedTheme === theme.name;
+              return (
+                <button
+                  key={theme.name}
+                  type="button"
+                  className={`theme-tag size-${theme.size} ${isSelected ? "active" : ""}`}
+                  onClick={() => {
+                    setSelectedTheme(isSelected ? "all" : theme.name);
+                    setOpen(null);
+                  }}
+                  aria-pressed={isSelected}
+                  title={`${theme.name} (${theme.count} ${theme.count === 1 ? "instrumento" : "instrumentos"})`}
+                >
+                  <span>{theme.name}</span>
+                  <small>{theme.count}</small>
+                </button>
+              );
+            })}
+          </div>
 
-        <div className="theme-toggle-container">
-          <button
-            type="button"
-            className="theme-toggle-btn"
-            onClick={() => setShowAllThemesMobile((prev) => !prev)}
-            aria-expanded={showAllThemesMobile}
-          >
-            <Layers size={13} />
-            <span>
-              {showAllThemesMobile
-                ? "Mostrar solo temas principales"
-                : `Ver todos los temas (${themeList.length})`}
-            </span>
-          </button>
-        </div>
-      </section>
+          <div className="theme-toggle-container">
+            <button
+              type="button"
+              className="theme-toggle-btn"
+              onClick={() => setShowAllThemesMobile((prev) => !prev)}
+              aria-expanded={showAllThemesMobile}
+            >
+              <Layers size={13} />
+              <span>
+                {showAllThemesMobile
+                  ? "Mostrar solo temas principales"
+                  : `Ver todos los temas (${themeList.length})`}
+              </span>
+            </button>
+          </div>
+        </section>
+      )}
 
       {/* Banner clínico para personas mayores (Franja Mayores) */}
       {selectedFranja === "mayores" && (
@@ -997,14 +1245,28 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
 
       {/* Resumen de resultados activos */}
       <div className="catalog-summary">
-        <span>{filtered.length} {filtered.length === 1 ? "instrumento encontrado" : "instrumentos encontrados"}</span>
+        <span>{filtered.length} {filtered.length === 1 ? "instrumento disponible" : "instrumentos disponibles"}</span>
         <div className="catalog-summary-right">
           <span>
-            {selectedAxis === "all" ? "Todos los ejes" : `Eje ${selectedAxis}`} ·{" "}
-            {selectedFranja === "all"
-              ? "Todas las edades"
-              : AGE_FRANJAS.find((f) => f.id === selectedFranja)?.label}
-            {selectedTheme !== "all" ? ` · Tema: ${selectedTheme}` : ""}
+            {isAmbitoActive && activeAmbito ? (
+              <>
+                {selectedSeccion === "all"
+                  ? "Todas las dimensiones"
+                  : activeAmbito.secciones.find((s) => s.id === selectedSeccion)?.titulo || selectedSeccion} ·{" "}
+                {selectedFranja === "all"
+                  ? "Todas las edades"
+                  : AGE_FRANJAS.find((f) => f.id === selectedFranja)?.label}
+                {selectedLibre ? " · Solo uso libre" : ""}
+              </>
+            ) : (
+              <>
+                {selectedAxis === "all" ? "Todos los ejes" : `Eje ${selectedAxis}`} ·{" "}
+                {selectedFranja === "all"
+                  ? "Todas las edades"
+                  : AGE_FRANJAS.find((f) => f.id === selectedFranja)?.label}
+                {selectedTheme !== "all" ? ` · Tema: ${selectedTheme}` : ""}
+              </>
+            )}
           </span>
           {hasActiveFilters && (
             <button
@@ -1075,6 +1337,9 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                   const primaryThemeName = indexThemeMap.get(famIndex?.tema ?? "")?.nombre || item.temas?.[0] || "";
                   const secThemeNames = (famIndex?.sec || []).map((s) => indexThemeMap.get(s)?.nombre).filter(Boolean) as string[];
                   const resolvedThemes = [primaryThemeName, ...secThemeNames].filter(Boolean);
+                  const itemSecId = isAmbitoActive && activeAmbito ? item.secciones?.[activeAmbito.id] : undefined;
+                  const secIndex = isAmbitoActive && activeAmbito && itemSecId ? activeAmbito.secciones?.findIndex((s) => s.id === itemSecId) : -1;
+                  const secMeta = secIndex >= 0 && activeAmbito ? activeAmbito.secciones[secIndex] : undefined;
                   return (
                     <article
                       className={`instrument-row ${isOpen ? "open" : ""}`}
@@ -1098,7 +1363,7 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                           )}
                           <small>
                             {item.constructo}
-                            {primaryThemeName && (
+                            {!isAmbitoActive && primaryThemeName && (
                               <span
                                 role="button"
                                 tabIndex={0}
@@ -1132,7 +1397,14 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                             </span>
                           </div>
                         </div>
-                        <span className="row-eje">{item.eje}</span>
+                        <span
+                          className={`row-eje ${isAmbitoActive ? "row-ambito-dim" : ""}`}
+                          title={isAmbitoActive && secMeta ? `Dimensión ${secIndex + 1}: ${secMeta.titulo}` : item.eje}
+                        >
+                          {isAmbitoActive
+                            ? (secIndex >= 0 ? `Dim. ${secIndex + 1}` : activeAmbito?.nombre_corto || "Ámbito")
+                            : item.eje}
+                        </span>
                         <span className="row-poblacion desktop-only" title={item.poblacion}>
                           {item.poblacion || "Población general"}
                         </span>
@@ -1148,11 +1420,22 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                       {isOpen && (
                         <div className="instrument-detail">
                           <div className="detail-context">
-                            <span>Eje y constructo</span>
-                            <strong>{item.eje} · {item.constructo}</strong>
+                            {isAmbitoActive && activeAmbito && secMeta ? (
+                              <div className="detail-dimension-box">
+                                <span className="detail-meta-label">Dimensión Disciplinar ({activeAmbito.nombre_corto})</span>
+                                <p className="detail-dimension-desc">
+                                  <strong>{secMeta.titulo}</strong> — {secMeta.criterio}
+                                </p>
+                              </div>
+                            ) : (
+                              <>
+                                <span>Eje y constructo</span>
+                                <strong>{item.eje} · {item.constructo}</strong>
+                              </>
+                            )}
 
-                            {/* Tema clínico asignado y secundarios con botones clicables */}
-                            {resolvedThemes.length > 0 && (
+                            {/* Tema clínico asignado y secundarios con botones clicables (solo en Vista General) */}
+                            {!isAmbitoActive && resolvedThemes.length > 0 && (
                               <div className="detail-themes-box">
                                 <span>Temas clínicos</span>
                                 <div className="detail-themes-list">

@@ -67,39 +67,78 @@ server.listen(PORT, async () => {
     }
     console.log(`  ✓ [OK] Los 6 ejes canónicos están presentes y activos en vista general.`);
 
-    // 2. Vista Educativa (?ambito=educativo)
-    console.log('\n2. Verificando Vista de Psicología Educativa (?ambito=educativo)...');
-    await page.goto(`http://localhost:${PORT}/?ambito=educativo`, { waitUntil: 'networkidle0' });
+    // 2. Vista Educativa Dedicada (/educativa/)
+    console.log('\n2. Verificando Ruta Especializada de Psicología Educativa (/educativa/)...');
+    await page.goto(`http://localhost:${PORT}/educativa/`, { waitUntil: 'networkidle0' });
 
-    // Verificar que el banner de orientación disciplinar está presente
-    const orientationTitle = await page.$eval('.ambito-card-title-group h3', el => el.innerText.trim());
-    console.log(`  - Título del ámbito: "${orientationTitle}"`);
-    if (!orientationTitle.toLowerCase().includes('educativa')) {
-      throw new Error(`Se esperaba ámbito Educativa, obtenido: ${orientationTitle}`);
+    // Titular Hero y Tema
+    const edHeroH1 = await page.$eval('.hero-content h1', el => el.innerText.trim());
+    console.log(`  - Titular Hero temático: "${edHeroH1}"`);
+    if (!edHeroH1.includes('escuela')) {
+      throw new Error(`Titular hero no está recontextualizado para escuela: ${edHeroH1}`);
     }
 
-    const questionQuote = await page.$eval('.ambito-question-quote', el => el.innerText.trim());
-    console.log(`  - Pregunta rectora: "${questionQuote}"`);
-    if (!questionQuote.includes('decisión de apoyo')) {
-      throw new Error(`Pregunta rectora no coincide con la taxonomia esperada.`);
+    const edThemeAttr = await page.$eval('.psicoflujo-main-wrapper', el => el.getAttribute('data-theme'));
+    console.log(`  - Atributo data-theme en wrapper: "${edThemeAttr}"`);
+    if (edThemeAttr !== 'educativo' && edThemeAttr !== 'educativa') {
+      throw new Error(`Se esperaba data-theme="educativo", obtenido: ${edThemeAttr}`);
     }
 
-    const warningText = await page.$eval('.ambito-card-warning p', el => el.innerText.trim());
-    console.log(`  - Advertencia ética: "${warningText.substring(0, 60)}..."`);
-    if (!warningText.includes('evaluación psicopedagógica')) {
-      throw new Error(`Advertencia ética no coincide.`);
+    // 7 Tarjetas de decisión escolar
+    const decisionCardsCount = await page.$$eval('.decision-card', els => els.length);
+    console.log(`  - Tarjetas de decisión escolar renderizadas: ${decisionCardsCount}`);
+    if (decisionCardsCount !== 7) {
+      throw new Error(`Se esperaban 7 tarjetas de decisión escolar, obtenidas: ${decisionCardsCount}`);
     }
 
-    // Contar instrumentos en educativo
+    // Encabezado de biblioteca especializada
+    const edOverline = await page.$eval('.library-heading .overline', el => el.innerText.trim());
+    console.log(`  - Overline biblioteca: "${edOverline}"`);
+    if (!edOverline.toLowerCase().includes('educativa')) {
+      throw new Error(`Overline debe indicar Psicología Educativa, obtenido: ${edOverline}`);
+    }
+
+    // Contar instrumentos en educativo (80)
     const edSummaryText = await page.$eval('.catalog-summary span:first-child', el => el.innerText.trim());
     const edCount = parseInt(edSummaryText.split(' ')[0], 10);
     console.log(`  - Conteo instrumentos en educativo: ${edCount}`);
     if (edCount !== 80) {
       throw new Error(`Se esperaban 80 instrumentos en educativo, obtenidos: ${edCount}`);
     }
-    console.log(`  ✓ [OK] Catálogo filtrado exactamente a 80 instrumentos educativos.`);
+    console.log(`  ✓ [OK] Catálogo acotado estrictamente a 80 instrumentos educativos.`);
 
-    // Verificar que aparecen las 7 secciones rectoras de Psicología Educativa
+    // Verificar AUSENCIA de ruido clínico (Cero nube de temas, cero selector de ejes, cero AmbitoSelector duplicado)
+    const hasThemeSection = await page.$('.theme-section');
+    if (hasThemeSection !== null) {
+      throw new Error(`La nube de 40 temas clínicos NO debe aparecer en la página educativa.`);
+    }
+    console.log(`  ✓ [OK] Nube de temas clínicos (40 temas) completamente ausente en portal educativo.`);
+
+    const hasAxisSelect = await page.$('select[aria-label="Filtrar por eje clínico"]');
+    if (hasAxisSelect !== null) {
+      throw new Error(`El selector de ejes clínicos no debe aparecer en la página educativa.`);
+    }
+    console.log(`  ✓ [OK] Selector de ejes clínicos reemplazado por selector de dimensiones.`);
+
+    const hasAmbitoSelectorDup = await page.$('.ambito-selector-wrapper');
+    if (hasAmbitoSelectorDup !== null) {
+      throw new Error(`No debe existir selector duplicado de ámbitos en el cuerpo de la biblioteca.`);
+    }
+    console.log(`  ✓ [OK] Cero selectores redundantes o superposiciones en biblioteca.`);
+
+    // Selector de dimensión específico presente
+    const dimensionSelect = await page.$('select[aria-label="Filtrar por dimensión"]');
+    if (!dimensionSelect) {
+      throw new Error(`Debe existir selector específico de dimensión para este ámbito.`);
+    }
+    const dimOptionsCount = await page.$$eval('select[aria-label="Filtrar por dimensión"] option', opts => opts.length);
+    console.log(`  - Opciones en selector de dimensión: ${dimOptionsCount} (1 "Todas" + 7 dimensiones)`);
+    if (dimOptionsCount !== 8) {
+      throw new Error(`Se esperaban 8 opciones en selector de dimensión, obtenidas: ${dimOptionsCount}`);
+    }
+    console.log(`  ✓ [OK] Selector de dimensiones escolares con 7 opciones temáticas.`);
+
+    // Verificar que aparecen las 7 secciones rectoras de Psicología Educativa en el catálogo
     const edSections = await page.$$eval('.instrument-group .group-heading h3', els => els.map(e => e.innerText.trim()));
     console.log(`  - Secciones renderizadas en educativo (${edSections.length}):`);
     edSections.forEach(s => console.log(`      * ${s}`));
@@ -108,23 +147,23 @@ server.listen(PORT, async () => {
     }
     console.log(`  ✓ [OK] Las 7 secciones rectoras de decisión educativa se renderizan en orden.`);
 
-    // 3. Verificación de interactividad: Selección de sección específica por click
-    console.log('\n3. Verificando filtrado por sección específica (Atención y funciones ejecutivas)...');
-    const secPills = await page.$$('.section-pill');
-    // Pill 0 = "Todos en Educativa", Pill 1 = Dificultades, Pill 2 = Atención y FE
-    await secPills[2].click();
+    // 3. Verificación de interactividad: Selección de dimensión por Decision Card
+    console.log('\n3. Verificando filtrado por dimensión específica (Atención y funciones ejecutivas)...');
+    const decisionCards = await page.$$('.decision-card');
+    // Card 1 = Atención, funciones ejecutivas y autorregulación (índice 1 en array 0-based)
+    await decisionCards[1].click();
     await new Promise(r => setTimeout(r, 200));
 
     const feSummaryText = await page.$eval('.catalog-summary span:first-child', el => el.innerText.trim());
     const feCount = parseInt(feSummaryText.split(' ')[0], 10);
-    console.log(`  - Conteo en sección Funciones Ejecutivas: ${feCount} instrumentos`);
+    console.log(`  - Conteo en dimensión Funciones Ejecutivas: ${feCount} instrumentos`);
     if (feCount !== 11) {
       throw new Error(`Se esperaban 11 instrumentos en funciones ejecutivas, obtenidos: ${feCount}`);
     }
-    console.log(`  ✓ [OK] Filtrado por sección específica funciona con precisión psicométrica.`);
+    console.log(`  ✓ [OK] Filtrado por dimensión escolar funciona con precisión psicométrica.`);
 
     // 4. Detalle de instrumento y metadatos verificados
-    console.log('\n4. Verificando detalle de tarjeta y metadatos de instrumento...');
+    console.log('\n4. Verificando detalle de tarjeta y dimensión disciplinar...');
     const firstRowButton = await page.waitForSelector('.instrument-main');
     await firstRowButton.evaluate(b => b.click());
     await page.waitForFunction(() => {
@@ -132,9 +171,12 @@ server.listen(PORT, async () => {
       return el && el.textContent.trim().length > 0;
     }, { timeout: 4000 });
 
-    // Verificar metadatos dentro de .instrument-detail
-    const metodoNivel = await page.$eval('.detail-meta-value', el => el.textContent.trim());
-    console.log(`  - Método y Nivel: "${metodoNivel}"`);
+    // Verificar caja de dimensión disciplinar en vez de ejes clínicos
+    const dimBoxDesc = await page.$eval('.detail-dimension-desc', el => el.textContent.trim());
+    console.log(`  - Dimensión disciplinar en detalle: "${dimBoxDesc.substring(0, 60)}..."`);
+    if (!dimBoxDesc.toLowerCase().includes('funciones ejecutivas')) {
+      throw new Error(`Detalle debe contextualizar la dimensión educativa`);
+    }
 
     const cualificacion = await page.$eval('.detail-meta-badge', el => el.textContent.trim());
     console.log(`  - Cualificación: "${cualificacion}"`);
@@ -150,17 +192,20 @@ server.listen(PORT, async () => {
     if (ambitosPills.length < 1) {
       throw new Error(`Debe mostrarse al menos un ámbito aplicable en la tarjeta.`);
     }
-    console.log(`  ✓ [OK] Tarjeta expandida muestra metadatos, cualificación y baremos no verificado.`);
+    console.log(`  ✓ [OK] Tarjeta expandida muestra dimensión escolar, cualificación y baremos no verificado.`);
 
-    // 5. Vista Vocacional (?ambito=vocacional)
-    console.log('\n5. Verificando ámbito independiente de Orientación Vocacional (?ambito=vocacional)...');
-    await page.goto(`http://localhost:${PORT}/?ambito=vocacional`, { waitUntil: 'networkidle0' });
+    // 5. Vista Vocacional (/vocacional/)
+    console.log('\n5. Verificando portal independiente de Orientación Vocacional (/vocacional/)...');
+    await page.goto(`http://localhost:${PORT}/vocacional/`, { waitUntil: 'networkidle0' });
 
-    const vocTitle = await page.$eval('.ambito-card-title-group h3', el => el.innerText.trim());
-    console.log(`  - Título vocacional: "${vocTitle}"`);
-    if (!vocTitle.toLowerCase().includes('vocacional')) {
-      throw new Error(`Ámbito vocacional no coincide.`);
+    const vocTitleTag = await page.title();
+    console.log(`  - Título pestaña vocacional: "${vocTitleTag}"`);
+    if (!vocTitleTag.toLowerCase().includes('vocacional')) {
+      throw new Error(`Página vocacional no coincide.`);
     }
+
+    const vocHeroH1 = await page.$eval('.hero-content h1', el => el.innerText.trim());
+    console.log(`  - Titular vocacional: "${vocHeroH1}"`);
 
     const vocSummaryText = await page.$eval('.catalog-summary span:first-child', el => el.innerText.trim());
     const vocCount = parseInt(vocSummaryText.split(' ')[0], 10);
@@ -168,39 +213,16 @@ server.listen(PORT, async () => {
     if (vocCount !== 18) {
       throw new Error(`Se esperaban 18 instrumentos vocacionales, obtenidos: ${vocCount}`);
     }
-    console.log(`  ✓ [OK] Ámbito independiente de Orientación Vocacional verificado con 18 instrumentos.`);
 
-    // 6. Verificando Ruta Estática Dedicada /educativa/ (Opción C)
-    console.log('\n6. Verificando Ruta Estática Dedicada (/educativa/)...');
-    await page.goto(`http://localhost:${PORT}/educativa/`, { waitUntil: 'networkidle0' });
-
-    const edTitleTag = await page.title();
-    console.log(`  - Título de pestaña: "${edTitleTag}"`);
-    if (!edTitleTag.toLowerCase().includes('educativa')) {
-      throw new Error(`Título de pestaña no contiene 'Educativa': ${edTitleTag}`);
+    const vocCardsCount = await page.$$eval('.decision-card', els => els.length);
+    console.log(`  - Tarjetas vocacionales: ${vocCardsCount}`);
+    if (vocCardsCount !== 4) {
+      throw new Error(`Se esperaban 4 tarjetas de decisión vocacional, obtenidas: ${vocCardsCount}`);
     }
+    console.log(`  ✓ [OK] Portal independiente de Orientación Vocacional verificado con 18 instrumentos y 4 dimensiones.`);
 
-    const edThemeAttr = await page.$eval('.psicoflujo-main-wrapper', el => el.getAttribute('data-theme'));
-    console.log(`  - Atributo data-theme en wrapper: "${edThemeAttr}"`);
-    if (edThemeAttr !== 'educativo' && edThemeAttr !== 'educativa') {
-      throw new Error(`Se esperaba data-theme="educativo", obtenido: ${edThemeAttr}`);
-    }
-
-    const edHeroH1 = await page.$eval('.hero-content h1', el => el.innerText.trim());
-    console.log(`  - Titular Hero temático: "${edHeroH1}"`);
-    if (!edHeroH1.includes('escuela')) {
-      throw new Error(`Titular hero no está recontextualizado para escuela: ${edHeroH1}`);
-    }
-
-    const decisionCardsCount = await page.$$eval('.decision-card', els => els.length);
-    console.log(`  - Tarjetas de decisión escolar renderizadas: ${decisionCardsCount}`);
-    if (decisionCardsCount !== 7) {
-      throw new Error(`Se esperaban 7 tarjetas de decisión escolar, obtenidas: ${decisionCardsCount}`);
-    }
-    console.log(`  ✓ [OK] Ruta estática /educativa/ renderiza titular contextual, tema esmeralda y 7 tarjetas de decisión.`);
-
-    // 7. Verificando Botón de Retorno a Vista General
-    console.log('\n7. Verificando Botón de Retorno a Vista General desde /educativa/...');
+    // 6. Verificando Botón de Retorno a Vista General
+    console.log('\n6. Verificando Botón de Retorno a Vista General desde /vocacional/...');
     const returnBtn = await page.waitForSelector('.gateway-return-btn');
     await returnBtn.evaluate(b => b.click());
     await page.waitForNavigation({ waitUntil: 'networkidle0' });
@@ -212,7 +234,13 @@ server.listen(PORT, async () => {
     if (!generalSummary.includes('270')) {
       throw new Error(`Se esperaban 270 instrumentos tras volver a general, obtenidos: ${generalSummary}`);
     }
-    console.log(`  ✓ [OK] Botón de retorno navega limpiamente a la vista general con los 6 ejes y 270 instrumentos.`);
+
+    // Comprobar que en Vista General la nube de 40 temas SÍ está presente
+    const generalThemeSection = await page.$('.theme-section');
+    if (!generalThemeSection) {
+      throw new Error(`La nube de temas clínicos debe estar presente en la vista general.`);
+    }
+    console.log(`  ✓ [OK] Vista general canónica 100% íntegra (270 instrumentos, 6 ejes y 40 temas clínicos).`);
 
     console.log('\n================================================================');
     console.log('TODAS LAS PRUEBAS DE ÁMBITOS Y SECCIONES SE SUPERARON CON ÉXITO!');

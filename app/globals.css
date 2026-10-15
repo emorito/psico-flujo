@@ -3303,6 +3303,38 @@ nav a:hover {
   --theme-context-bg: rgba(136, 19, 55, 0.45);
 }
 
+/* Dimensión disciplinar en vista especializada de ámbito */
+.row-eje.row-ambito-dim {
+  background: var(--theme-light, #ecfdf5);
+  color: var(--theme-primary, #047857);
+  border: 1px solid var(--theme-border, #a7f3d0);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 6px;
+  border-radius: 4px;
+  text-align: center;
+  justify-self: center;
+  min-width: 52px;
+  max-width: 72px;
+  white-space: nowrap;
+}
+
+.detail-dimension-box {
+  background: var(--theme-light, #f8fafc);
+  border: 1px solid var(--theme-border, #e2e8f0);
+  border-left: 4px solid var(--theme-primary, #047857);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+}
+
+.detail-dimension-desc {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: #1e293b;
+  line-height: 1.45;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   * { transition: none !important; animation: none !important; }

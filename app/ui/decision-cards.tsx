@@ -55,7 +55,7 @@ export function DecisionCards({ ambitoId, onSelectSeccion, selectedSeccion }: De
             <Layers size={14} />
             <span>Dimensiones de Decisión Profesional</span>
           </span>
-          <h2>Ejes Rectoras para {currentAmbito.nombre}</h2>
+          <h2>Dimensiones Rectoras para {currentAmbito.nombre}</h2>
           <p className="decision-lead">
             {currentAmbito.pregunta_rectora}
           </p>

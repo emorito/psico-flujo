@@ -122,6 +122,21 @@ const server = http.createServer((req, res) => {
     });
     console.log('   ✓ Guardada: 5_vista_orientacion_vocacional.png');
 
+    // 6. Catálogo Especializado Limpio en /educativa/ (Filtros de dimensión, sin nube clínica)
+    console.log('\n6. Capturando Biblioteca Limpia en /educativa/ (Catálogo Especializado)...');
+    await page.goto(`http://localhost:${PORT}/educativa/`, { waitUntil: 'networkidle0' });
+    await new Promise(r => setTimeout(r, 400));
+    await page.evaluate(() => {
+      const el = document.getElementById('biblioteca');
+      if (el) el.scrollIntoView({ behavior: 'instant', block: 'start' });
+    });
+    await new Promise(r => setTimeout(r, 350));
+    await page.screenshot({
+      path: path.join(OUT_DIR, '6_biblioteca_limpia_educativa.png'),
+      fullPage: false
+    });
+    console.log('   ✓ Guardada: 6_biblioteca_limpia_educativa.png');
+
     console.log(`\nTodas las capturas se guardaron exitosamente en:\n${OUT_DIR}\n`);
     await browser.close();
   } catch (err) {

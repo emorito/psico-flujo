@@ -103,11 +103,25 @@ export function PsicoflujoView({ initialAmbito = "all" }: PsicoflujoViewProps) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const isCustomAmbito = selectedAmbito !== "all";
+  const activeAmbitoData = useMemo(() => {
+    if (!isCustomAmbito) return null;
+    return ambitosData.find(
+      (a) => a.id === selectedAmbito || (selectedAmbito === "forense" && a.id === "juridico")
+    );
+  }, [isCustomAmbito, selectedAmbito]);
+
   const searchResults = useMemo(() => {
     const trimmed = deferredQuery.trim();
     if (!trimmed) return null;
-    return buscar(searchIndex, trimmed, { limite: catalog.length });
-  }, [deferredQuery]);
+    const raw = buscar(searchIndex, trimmed, { limite: catalog.length });
+    if (!activeAmbitoData) return raw;
+    const aid = activeAmbitoData.id;
+    return raw.filter((r) => {
+      const catItem = catalog.find((c) => c.family_id === r.id);
+      return catItem?.ambitos?.includes(aid);
+    });
+  }, [deferredQuery, activeAmbitoData]);
 
   const heroSearchCount = searchResults ? searchResults.length : null;
 
@@ -118,14 +132,6 @@ export function PsicoflujoView({ initialAmbito = "all" }: PsicoflujoViewProps) {
       el.scrollIntoView({ behavior: "smooth" });
     }
   };
-
-  const isCustomAmbito = selectedAmbito !== "all";
-  const activeAmbitoData = useMemo(() => {
-    if (!isCustomAmbito) return null;
-    return ambitosData.find(
-      (a) => a.id === selectedAmbito || (selectedAmbito === "forense" && a.id === "juridico")
-    );
-  }, [isCustomAmbito, selectedAmbito]);
 
   const totalFamilies = catalog.length;
   const totalDocs = catalog.reduce((acc, item) => acc + item.archivos.length, 0);
