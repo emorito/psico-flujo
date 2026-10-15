@@ -2410,6 +2410,414 @@ nav a:hover {
   .brand { font-size: 16px; }
 }
 
+/* ==========================================================================
+   5. Sistema de Ámbitos y Enfoques de Decisión Disciplinar (v2)
+   ========================================================================== */
+.ambito-master-container {
+  margin: 22px 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ambito-nav-wrapper {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 14px 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.ambito-nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.ambito-label-tag {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  color: var(--muted);
+}
+
+.ambito-hint {
+  font-size: 11.5px;
+  color: #717188;
+}
+
+.ambito-pills-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.ambito-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 13px;
+  border-radius: 999px;
+  background: #f4f4f8;
+  border: 1px solid #e2e2ec;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.16s ease;
+  flex-shrink: 0;
+}
+
+.ambito-pill:hover {
+  background: #eaeaf2;
+  color: var(--ink);
+  border-color: #d0d0e0;
+}
+
+.ambito-pill.active {
+  background: var(--current-bg, #eeedfc);
+  border-color: var(--current-border, #b7b2fc);
+  color: var(--current-text, var(--indigo));
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.ambito-pill.active.general {
+  background: #eeedfc;
+  border-color: #b7b2fc;
+  color: var(--indigo);
+}
+
+.ambito-pill-icon {
+  display: flex;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.ambito-pill-title {
+  letter-spacing: -0.2px;
+}
+
+.ambito-pill-badge {
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.06);
+  font-weight: 700;
+}
+
+.ambito-pill.active .ambito-pill-badge {
+  background: rgba(0, 0, 0, 0.09);
+}
+
+/* Tarjeta / Banner de Orientación Disciplinar del Ámbito Activo */
+.ambito-orientation-card {
+  background: var(--current-bg, #f8faff);
+  border: 1px solid var(--current-border, #c7d2fe);
+  border-radius: 14px;
+  padding: 18px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.03);
+  animation: fadeInAmbito 0.22s ease-out;
+}
+
+@keyframes fadeInAmbito {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.ambito-card-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.ambito-card-title-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ambito-icon-badge {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: var(--current-badge-bg, #e0e7ff);
+  color: var(--current-accent, var(--indigo));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.ambito-card-title-group h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: -0.3px;
+}
+
+.ambito-count-indicator {
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 500;
+  display: block;
+  margin-top: 2px;
+}
+
+.ambito-card-close-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.ambito-card-close-btn:hover {
+  background: #ffffff;
+  color: var(--ink);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Pregunta Rectora */
+.ambito-question-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--current-border, #e0e7ff);
+  border-radius: 10px;
+  padding: 12px 16px;
+}
+
+.ambito-question-icon {
+  color: var(--current-accent, var(--indigo));
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.ambito-question-content {
+  flex: 1;
+}
+
+.ambito-question-lead {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--muted);
+  display: block;
+  margin-bottom: 3px;
+}
+
+.ambito-question-quote {
+  margin: 0;
+  font-size: 13.5px;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.45;
+}
+
+/* Sub-secciones / Preguntas de Decisión */
+.ambito-sections-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ambito-sections-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--muted);
+}
+
+.ambito-sections-pills {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.section-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--current-border, #e0e7ff);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.section-pill:hover {
+  background: #ffffff;
+  color: var(--ink);
+  border-color: var(--current-accent, var(--indigo));
+}
+
+.section-pill.active {
+  background: var(--current-accent, var(--indigo));
+  border-color: var(--current-accent, var(--indigo));
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-pill-num {
+  font-size: 10.5px;
+  font-weight: 700;
+  opacity: 0.85;
+}
+
+/* Advertencia Ética y Deontológica */
+.ambito-card-warning {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 9px 12px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.03);
+  color: #555566;
+  font-size: 11.5px;
+  line-height: 1.45;
+}
+
+.ambito-card-warning svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+  color: #b45309;
+}
+
+.ambito-card-warning p {
+  margin: 0;
+}
+
+/* Encabezados de grupo de sección en listado */
+.group-heading.ambito-section-heading {
+  align-items: flex-start;
+}
+
+.group-criterio {
+  margin: 3px 0 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+/* Metadatos dentro del detalle de instrumento */
+.detail-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin: 12px 0;
+  padding: 10px 14px;
+  background: #f7f7fb;
+  border-radius: 9px;
+  border: 1px solid #eaeaef;
+}
+
+.detail-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.detail-meta-label {
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: var(--muted);
+}
+
+.detail-meta-value {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.detail-meta-badge {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 5px;
+  font-size: 11.5px;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.cualificacion-libre {
+  background: #eef8f2;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+}
+
+.cualificacion-formacion_especifica {
+  background: #fefce8;
+  color: #854d0e;
+  border: 1px solid #fef08a;
+}
+
+.cualificacion-restringido {
+  background: #fef2f2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+.baremos-alerta {
+  color: #64748b;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.detail-ambitos-box {
+  margin: 10px 0;
+}
+
+.detail-ambitos-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 5px;
+}
+
+.detail-ambito-pill {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: var(--badge-bg, #f1f5f9);
+  color: var(--badge-text, #334155);
+  border: 1px solid var(--badge-border, #cbd5e1);
+  letter-spacing: 0.2px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   * { transition: none !important; animation: none !important; }

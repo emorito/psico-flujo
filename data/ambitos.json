@@ -1,13 +1,15 @@
 [
   {
     "id": "clinico",
-    "nombre": "Psicología Clínica y de la Salud Mental",
-    "pregunta_rectora": "¿Qué le pasa, cuánto y qué lo mantiene?",
-    "descripcion": "Evaluación diagnóstica, psicopatológica, procesos de mantenimiento y respuesta a tratamiento en salud mental.",
+    "nombre": "Psicología Clínica y Psicoterapia",
+    "nombre_corto": "Clínica",
+    "pregunta_rectora": "¿Qué le pasa, cuánto y qué factores originaron y sostienen su malestar?",
+    "descripcion": "Evaluación dimensional de severidad, psicopatología, trauma, personalidad estructural y monitoreo de tratamiento.",
     "color_tema": {
       "primary": "#4338ca",
       "primary_dark": "#27226f",
       "primary_light": "#eeedfc",
+      "accent_border": "#c7d2fe",
       "badge_bg": "#e0e7ff",
       "badge_text": "#3730a3"
     },
@@ -52,13 +54,15 @@
   },
   {
     "id": "educativo",
-    "nombre": "Psicología Educativa y Psicopedagogía",
-    "pregunta_rectora": "¿Qué decisión de apoyo hay que tomar?",
-    "descripcion": "Evaluación de necesidades de apoyo educativo, desarrollo cognitivo, funciones ejecutivas, conducta y aprendizaje escolar.",
+    "nombre": "Psicología Educativa y del Desarrollo Escolar",
+    "nombre_corto": "Educativa",
+    "pregunta_rectora": "¿Qué decisión de apoyo y ajuste educativo razonable requiere el estudiante?",
+    "descripcion": "Evaluación de necesidades de apoyo escolar, neurodesarrollo, funciones ejecutivas, aprendizaje y adaptación.",
     "color_tema": {
       "primary": "#047857",
       "primary_dark": "#064e3b",
       "primary_light": "#ecfdf5",
+      "accent_border": "#a7f3d0",
       "badge_bg": "#d1fae5",
       "badge_text": "#065f46"
     },
@@ -107,14 +111,59 @@
     "instrumentos_destacados": []
   },
   {
+    "id": "vocacional",
+    "nombre": "Orientación Vocacional y Proyecto de Vida",
+    "nombre_corto": "Vocacional",
+    "pregunta_rectora": "¿Cuáles son los intereses, aptitudes, valores y madurez para construir un proyecto educativo y laboral viable?",
+    "descripcion": "Exploración de intereses profesionales, metas de logro, aptitudes cognitivas, técnicas de estudio y autoeficacia decisional.",
+    "color_tema": {
+      "primary": "#0284c7",
+      "primary_dark": "#0369a1",
+      "primary_light": "#f0f9ff",
+      "accent_border": "#bae6fd",
+      "badge_bg": "#e0f2fe",
+      "badge_text": "#0369a1"
+    },
+    "secciones": [
+      {
+        "id": "intereses_metas_motivacion",
+        "titulo": "Intereses vocacionales, metas de logro y motivación",
+        "criterio": "Metas académicas (AGQ-R), motivación intrínseca (IMI) y preferencias vocacionales."
+      },
+      {
+        "id": "habitos_estudio_rendimiento",
+        "titulo": "Hábitos de estudio, aprendizaje y rendimiento",
+        "criterio": "Técnicas de estudio, organización del tiempo, actitud hacia el aprendizaje (CHTE) y autoconcepto académico."
+      },
+      {
+        "id": "aptitudes_cognitivas_ejecutivas",
+        "titulo": "Aptitudes cognitivas y funciones ejecutivas",
+        "criterio": "Capacidad de razonamiento, atención y control inhibitorio aplicados al estudio superior (TMT, d2-R, Stroop)."
+      },
+      {
+        "id": "personalidad_autoeficacia_proyecto",
+        "titulo": "Personalidad, fortalezas y autoeficacia en la toma de decisiones",
+        "criterio": "Rasgos de personalidad (BFI-2), autoeficacia general (GSE), optimismo (LOT-R) y claridad del autoconcepto."
+      }
+    ],
+    "filtros_por_defecto": {
+      "franjas": ["adolescentes", "adultos"],
+      "ejes": ["todos"]
+    },
+    "advertencia": "La orientación vocacional acompaña un proceso de autoconocimiento y elección informada. Las pruebas psicotécnicas son disparadores de reflexión y diálogo, nunca dictámenes deterministas de destino profesional.",
+    "instrumentos_destacados": []
+  },
+  {
     "id": "laboral",
     "nombre": "Psicología del Trabajo y de las Organizaciones",
-    "pregunta_rectora": "¿Es válido y justo para decidir sobre una persona en el trabajo?",
+    "nombre_corto": "Laboral",
+    "pregunta_rectora": "¿Qué método predice el desempeño laboral con equidad y qué factores generan riesgo psicosocial o desgaste?",
     "descripcion": "Evaluación del clima organizacional, bienestar laboral, estrés ocupacional, desgaste profesional (burnout) y rasgos de personalidad.",
     "color_tema": {
       "primary": "#b45309",
       "primary_dark": "#78350f",
       "primary_light": "#fffbeb",
+      "accent_border": "#fde68a",
       "badge_bg": "#fef3c7",
       "badge_text": "#92400e"
     },
@@ -150,12 +199,14 @@
   {
     "id": "juridico",
     "nombre": "Psicología Jurídica y Forense",
-    "pregunta_rectora": "¿Es creíble la respuesta, qué riesgo hay y qué capacidad?",
+    "nombre_corto": "Forense",
+    "pregunta_rectora": "¿Es creíble la respuesta, qué riesgo hay y qué capacidad civil o secuela psíquica existe?",
     "descripcion": "Evaluación pericial psicológica, estimación de riesgo de violencia, capacidad civil/procesal, trauma y validez de autoinformes.",
     "color_tema": {
       "primary": "#6d28d9",
       "primary_dark": "#4c1d95",
       "primary_light": "#f5f3ff",
+      "accent_border": "#ddd6fe",
       "badge_bg": "#ede9fe",
       "badge_text": "#5b21b6"
     },
@@ -190,13 +241,15 @@
   },
   {
     "id": "salud",
-    "nombre": "Psicología de la Salud y Neuropsicología",
-    "pregunta_rectora": "¿Cómo afectan la condición médica o el deterioro a la cognición y la adaptación?",
+    "nombre": "Psicología de la Salud, Neuropsicología y Envejecimiento",
+    "nombre_corto": "Salud",
+    "pregunta_rectora": "¿El declive corresponde a envejecimiento normal, DCL o demencia? ¿Cómo repercute la condición médica en la autonomía?",
     "descripcion": "Evaluación del impacto de enfermedades crónicas, dolor, sueño, adhesión terapéutica y deterioro cognitivo/neuropsicológico.",
     "color_tema": {
       "primary": "#0e7490",
       "primary_dark": "#155e75",
       "primary_light": "#ecfeff",
+      "accent_border": "#a5f3fc",
       "badge_bg": "#cffafe",
       "badge_text": "#155e75"
     },
@@ -230,14 +283,54 @@
     "instrumentos_destacados": []
   },
   {
+    "id": "deporte",
+    "nombre": "Psicología del Deporte y Rendimiento Atlético",
+    "nombre_corto": "Deporte",
+    "pregunta_rectora": "¿Qué factores modulan el rendimiento atlético bajo presión competitiva y cómo potenciar la adherencia deportiva?",
+    "descripcion": "Evaluación de ansiedad competitiva, habilidades psicológicas de afrontamiento, motivación de logro y burnout atlético.",
+    "color_tema": {
+      "primary": "#c2410c",
+      "primary_dark": "#9a3412",
+      "primary_light": "#fff7ed",
+      "accent_border": "#fed7aa",
+      "badge_bg": "#ffedd5",
+      "badge_text": "#9a3412"
+    },
+    "secciones": [
+      {
+        "id": "ansiedad_competitiva_autocontrol",
+        "titulo": "Ansiedad competitiva, estado y autoconfianza",
+        "criterio": "Ansiedad somática, ansiedad cognitiva, autoconfianza y manejo de la activación precompetitiva."
+      },
+      {
+        "id": "motivacion_metas_deportivas",
+        "titulo": "Motivación de logro, esfuerzo y metas",
+        "criterio": "Metas de logro (AGQ-R), motivación intrínseca (IMI) y orientación al rendimiento."
+      },
+      {
+        "id": "fatiga_recuperacion_habitos",
+        "titulo": "Fatiga deportiva, recuperación, sueño y estilo de vida",
+        "criterio": "Severidad de fatiga (FSS), calidad de sueño (PSQI, ISI), actividad física (IPAQ) y sobreentrenamiento."
+      }
+    ],
+    "filtros_por_defecto": {
+      "franjas": ["adolescentes", "adultos"],
+      "ejes": ["todos"]
+    },
+    "advertencia": "La evaluación en psicología del deporte orienta el entrenamiento mental y el bienestar del atleta; respeta las particularidades de cada disciplina deportiva y no emite exclusiones competitivas automáticas.",
+    "instrumentos_destacados": []
+  },
+  {
     "id": "cultural",
-    "nombre": "Psicología Cultural, Identidad y Comunidad",
+    "nombre": "Psicología Cultural, Comunitaria y Bilingüismo",
+    "nombre_corto": "Cultural",
     "pregunta_rectora": "¿Cómo influyen las pautas, valores e identidad cultural en la vivencia y expresión del consultante?",
-    "descripcion": "Evaluación de procesos de aculturación, identidad étnica, discriminación percibida y capital social comunitario.",
+    "descripcion": "Evaluación de procesos de aculturación, identidad étnica, discriminación percibida, bilingüismo y capital social.",
     "color_tema": {
       "primary": "#be123c",
       "primary_dark": "#881337",
       "primary_light": "#fff1f2",
+      "accent_border": "#fecdd3",
       "badge_bg": "#ffe4e6",
       "badge_text": "#9f1239"
     },
@@ -262,7 +355,7 @@
       "franjas": ["todos"],
       "ejes": ["todos"]
     },
-    "advertencia": "La evaluación transcultural requiere cautela en la interpretación de baremos e instrumentos no validados localmente. Respeta la diversidad lingüística y las pautas culturales de cada comunidad.",
+    "advertencia": "La evaluación transcultural requiere cautela en la interpretación de baremos no validados localmente. En Paraguay, se debe considerar el bilingüismo guaraní-castellano (Ley 5136/2013 y Ley 4251/2010) y descartar interferencia idiomática antes de concluir cualquier diagnóstico.",
     "instrumentos_destacados": []
   }
 ]

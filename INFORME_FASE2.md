@@ -16,13 +16,13 @@
 |---|---|---|---|
 | **Clínico y Salud Mental** | **229** | ¿Qué le pasa, cuánto y qué lo mantiene? | Índigo clásico (#4338ca) |
 | **Educativo y Psicopedagogía** | **80** | ¿Qué decisión de apoyo hay que tomar? | Verde bosque (#047857) |
-| **Salud y Neuropsicología** | **77** | ¿Cómo afectan la condición médica o el deterioro a la cognición y la adaptación? | Cian médico (#0e7490) |
+| **Salud y Neuropsicología** | **76** | ¿Cómo afectan la condición médica o el deterioro a la cognición y la adaptación? | Cian médico (#0e7490) |
 | **Laboral y Organizacional** | **40** | ¿Es válido y justo para decidir sobre una persona en el trabajo? | Ámbar organizacional (#b45309) |
 | **Jurídico y Forense** | **36** | ¿Es creíble la respuesta, qué riesgo hay y qué capacidad? | Violeta pericial (#6d28d9) |
 | **Cultural y Comunitario** | **8** | ¿Cómo influyen las pautas, valores e identidad cultural en la vivencia del consultante? | Rosa transcultural (#be123c) |
 
 - **Familias sin ámbito:** **0** (el 100% de las 270 familias tiene al menos un ámbito asignado).
-- **Familias con más de un ámbito:** **152** (refleja la aplicabilidad transversal de herramientas cognitivas, de personalidad y cribado socioemocional).
+- **Familias con más de un ámbito:** **156** (refleja la aplicabilidad transversal de herramientas cognitivas, de personalidad y cribado socioemocional).
 - **Familias en estado revisar=SI:** **0** (todas las familias fueron resueltas por reglas deterministas validadas).
 
 ---
@@ -51,19 +51,19 @@ Los 80 instrumentos del ámbito educativo se articulan en torno a las 7 pregunta
 | 5 | `escala_de_lawton_102` | **Escala de Lawton** | Escala de Lawton y Brody | Eje IV | `clinico;salud` | autoinforme | cribado | libre |
 | 6 | `mgl_o_mmas-4_142` | **MGL o MMAS-4** | Cuestionario de Adherencia a la Medicación de Morisky-Green-Levine | Eje VI | `salud` | autoinforme | seguimiento | libre |
 | 7 | `sass_213` | **SASS** | Social Adaptation Self-evaluation Scale | Eje IV | `clinico;laboral` | autoinforme | cribado | libre |
-| 8 | `rses_84` | **RSES** | Escala de Autoestima de Rosenberg | Eje III | `clinico;educativo;laboral` | autoinforme | cribado | libre |
+| 8 | `rses_84` | **RSES** | Escala de Autoestima de Rosenberg | Eje III | `clinico;educativo;laboral;vocacional` | autoinforme | cribado | libre |
 | 9 | `mdq_181` | **MDQ** | Mood Disorder Questionnaire | Eje I | `clinico` | autoinforme | cribado | restringido |
 | 10 | `bads_64` | **BADS** | Escala de Activación Conductual para la Depresión | Eje II | `clinico` | autoinforme | cribado | libre |
 | 11 | `eeaggaf_211` | **EEAG-GAF** | Escala de Evaluación de la Actividad Global | Eje IV | `clinico` | autoinforme | cribado | libre |
-| 12 | `ess_137` | **ESS** | Escala de Somnolencia de Epworth | Eje VI | `salud;laboral;salud` | autoinforme | cribado | libre |
-| 13 | `imi_91` | **IMI** | Inventario de Motivación Intrínseca | Eje III | `educativo;laboral` | autoinforme | diagnostico | libre |
+| 12 | `ess_137` | **ESS** | Escala de Somnolencia de Epworth | Eje VI | `salud;laboral;deporte` | autoinforme | cribado | libre |
+| 13 | `imi_91` | **IMI** | Inventario de Motivación Intrínseca | Eje III | `educativo;vocacional;laboral;deporte` | autoinforme | diagnostico | libre |
 | 14 | `ismi_98` | **ISMI** | Escala de Estigma Internalizado de la Enfermedad Mental | Eje III | `clinico` | autoinforme | cribado | libre |
 | 15 | `mec_171` | **MEC** | Mini-Examen Cognoscitivo de Lobo | Eje V | `salud;clinico;juridico` | autoinforme | cribado | libre |
 | 16 | `bss_47` | **BSS** | Escala de Ideación Suicida de Beck | Eje I | `clinico;educativo` | autoinforme | cribado | restringido |
 | 17 | `edi2_201` | **EDI-2** | Inventario de Trastornos de la Conducta Alimentaria-2 | Eje I | `clinico` | autoinforme | diagnostico | libre |
 | 18 | `swbs_new` | **SWBS** | Escala de Bienestar Social de Keyes | Eje IV | `cultural;laboral;clinico` | autoinforme | cribado | libre |
-| 19 | `sccs_87` | **SCCS** | Escala de Claridad del Autoconcepto | Eje III | `clinico` | autoinforme | cribado | libre |
-| 20 | `bfi-2_77` | **BFI-2** | Inventario de los Cinco Grandes 2 | Eje III | `laboral;clinico;educativo` | autoinforme | diagnostico | libre |
+| 19 | `sccs_87` | **SCCS** | Escala de Claridad del Autoconcepto | Eje III | `clinico;vocacional` | autoinforme | cribado | libre |
+| 20 | `bfi-2_77` | **BFI-2** | Inventario de los Cinco Grandes 2 | Eje III | `laboral;clinico;educativo;vocacional` | autoinforme | diagnostico | libre |
 
 ---
 

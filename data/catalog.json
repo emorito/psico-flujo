@@ -31,7 +31,23 @@
       "STAI_ficha_tecnica.pdf"
     ],
     "description": "Ansiedad y miedo",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "bai_1",
@@ -65,7 +81,23 @@
       "BAI_ficha_tecnica.pdf"
     ],
     "description": "Estima la intensidad de síntomas de ansiedad, con énfasis en manifestaciones somáticas.",
-    "use": "Severidad de ansiedad"
+    "use": "Severidad de ansiedad",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "gad-7_2",
@@ -100,7 +132,23 @@
       "GAD-7_protocolo.pdf"
     ],
     "description": "Detecta y gradúa síntomas centrales de ansiedad generalizada durante las últimas dos semanas.",
-    "use": "Tamizaje breve"
+    "use": "Tamizaje breve",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "isra_3",
@@ -134,7 +182,23 @@
       "ISRA_ficha_tecnica.pdf"
     ],
     "description": "Ansiedad y miedo",
-    "use": "Adolescentes (>16 años) y adultos"
+    "use": "Adolescentes (>16 años) y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "hads_4",
@@ -167,7 +231,20 @@
       "HADS_ficha_tecnica.pdf"
     ],
     "description": "Ansiedad y miedo",
-    "use": "Adultos (originalmente en contexto hospitalario/médico, luego general)"
+    "use": "Adultos (originalmente en contexto hospitalario/médico, luego general)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "dass-21_5",
@@ -216,7 +293,23 @@
       "DASS-42_protocolo.pdf"
     ],
     "description": "Ofrece una medida breve de tres dimensiones de malestar emocional.",
-    "use": "Perfil de malestar"
+    "use": "Perfil de malestar",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "trauma_estres",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "pss_6",
@@ -261,7 +354,23 @@
       "PSS_protocolo.pdf"
     ],
     "description": "Reúne versiones para valorar cuánto se perciben las situaciones recientes como impredecibles o desbordantes.",
-    "use": "Estrés percibido"
+    "use": "Estrés percibido",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "trauma_estres",
+      "educativo": "conducta_adaptativa"
+    }
   },
   {
     "family_id": "tics_8",
@@ -304,7 +413,20 @@
       "TICS_ficha_tecnica.pdf"
     ],
     "description": "Estrés psicológico",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "trauma_estres"
+    }
   },
   {
     "family_id": "pcl-5_9",
@@ -337,7 +459,23 @@
       "PCL-5_protocolo.pdf"
     ],
     "description": "Explora los grupos sintomáticos del trastorno de estrés postraumático según DSM-5.",
-    "use": "Tamizaje de TEPT"
+    "use": "Tamizaje de TEPT",
+    "ambitos": [
+      "juridico",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "juridico:riesgo_y_secuelas",
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "juridico": "impacto_trauma_victimizacion",
+      "clinico": "trauma_estres"
+    }
   },
   {
     "family_id": "caps-5_10",
@@ -370,7 +508,23 @@
       "CAPS-5_protocolo.pdf"
     ],
     "description": "Trauma y estrés postraumático",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:riesgo_y_secuelas"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "trauma_estres",
+      "juridico": "impacto_trauma_victimizacion"
+    }
   },
   {
     "family_id": "ies-r_11",
@@ -403,7 +557,23 @@
       "IES-R_protocolo.pdf"
     ],
     "description": "Trauma y estrés postraumático",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:riesgo_y_secuelas"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "trauma_estres",
+      "juridico": "impacto_trauma_victimizacion"
+    }
   },
   {
     "family_id": "dts_12",
@@ -435,7 +605,23 @@
       "DTS_ficha_tecnica.pdf"
     ],
     "description": "Mide frecuencia y gravedad de síntomas postraumáticos.",
-    "use": "Severidad postraumática"
+    "use": "Severidad postraumática",
+    "ambitos": [
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:riesgo_y_secuelas"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "trauma_estres",
+      "juridico": "impacto_trauma_victimizacion"
+    }
   },
   {
     "family_id": "bdi-ii_13",
@@ -471,7 +657,23 @@
       "BDI-21_protocolo.pdf"
     ],
     "description": "Valora la presencia y severidad de síntomas cognitivos, afectivos y somáticos de depresión.",
-    "use": "Severidad depresiva"
+    "use": "Severidad depresiva",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "phq-9_14",
@@ -506,7 +708,23 @@
       "PHQ-9_protocolo.pdf"
     ],
     "description": "Detecta síntomas depresivos y permite seguir su severidad en las últimas dos semanas.",
-    "use": "Tamizaje depresivo"
+    "use": "Tamizaje depresivo",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "ces-d_15",
@@ -541,7 +759,23 @@
       "CES-D_protocolo.pdf"
     ],
     "description": "Detecta frecuencia reciente de síntomas depresivos en población general.",
-    "use": "Tamizaje depresivo"
+    "use": "Tamizaje depresivo",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "shaps_16",
@@ -575,7 +809,20 @@
       "SHAPS_protocolo.pdf"
     ],
     "description": "Evalúa la capacidad para experimentar placer y detectar anhedonia.",
-    "use": "Medición de anhedonia"
+    "use": "Medición de anhedonia",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "hdrs_17",
@@ -609,7 +856,20 @@
       "HDRS_-_HAM-D_protocolo.pdf"
     ],
     "description": "Depresión y anhedonia",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "y-bocs_18",
@@ -644,7 +904,23 @@
       "Y-BOCS_protocolo.pdf"
     ],
     "description": "Cuantifica severidad, interferencia, malestar, resistencia y control de obsesiones y compulsiones.",
-    "use": "Severidad de TOC"
+    "use": "Severidad de TOC",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "oci-r_19",
@@ -678,7 +954,20 @@
       "OCI-R_protocolo.pdf"
     ],
     "description": "Mide malestar asociado a seis grupos frecuentes de síntomas obsesivo-compulsivos.",
-    "use": "Tamizaje de TOC"
+    "use": "Tamizaje de TOC",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "pi-wsur_20",
@@ -711,7 +1000,20 @@
       "PI-WSUR_ficha_tecnica.pdf"
     ],
     "description": "Obsesiones y compulsiones",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "docs_21",
@@ -745,7 +1047,20 @@
       "DOCS_protocolo.pdf"
     ],
     "description": "Valora gravedad de contaminación, responsabilidad, pensamientos inaceptables y simetría.",
-    "use": "Severidad de TOC"
+    "use": "Severidad de TOC",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "phq-15_22",
@@ -778,7 +1093,20 @@
       "PHQ-15_protocolo.pdf"
     ],
     "description": "Cuantifica la carga de síntomas somáticos frecuentes y su severidad.",
-    "use": "Tamizaje somático"
+    "use": "Tamizaje somático",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "wi-7_23",
@@ -811,7 +1139,20 @@
       "WI_protocolo.pdf"
     ],
     "description": "Somatización y ansiedad por la salud",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "shai_24",
@@ -844,7 +1185,20 @@
       "SHAI_protocolo.pdf"
     ],
     "description": "Somatización y ansiedad por la salud",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "scl-90-r_25",
@@ -877,7 +1231,23 @@
       "SCL-90-R_ficha_tecnica.pdf"
     ],
     "description": "Somatización y ansiedad por la salud",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "bis-11_26",
@@ -914,7 +1284,26 @@
       "BIS-11_protocolo.pdf"
     ],
     "description": "Evalúa impulsividad atencional, motora y no planificada.",
-    "use": "Perfil de impulsividad"
+    "use": "Perfil de impulsividad",
+    "ambitos": [
+      "juridico",
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "juridico:capacidad_civil",
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "juridico": "riesgo_violencia_impulsividad",
+      "clinico": "adicciones_impulsividad",
+      "educativo": "contexto_familiar_escolar"
+    }
   },
   {
     "family_id": "upps-p_27",
@@ -951,7 +1340,26 @@
       "UPPS-P_protocolo.pdf"
     ],
     "description": "Perfila urgencia, falta de perseverancia, falta de premeditación y búsqueda de sensaciones.",
-    "use": "Perfil de impulsividad"
+    "use": "Perfil de impulsividad",
+    "ambitos": [
+      "clinico",
+      "educativo",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "educativo": "dificultades_emocionales_conducta",
+      "juridico": "riesgo_violencia_impulsividad"
+    }
   },
   {
     "family_id": "dii_28",
@@ -987,7 +1395,23 @@
       "DII_protocolo.pdf"
     ],
     "description": "Evalúa intensidad, frecuencia y expresión problemática de la ira.",
-    "use": "Perfil de ira"
+    "use": "Perfil de ira",
+    "ambitos": [
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "juridico": "riesgo_violencia_impulsividad"
+    }
   },
   {
     "family_id": "aq_29",
@@ -1021,7 +1445,26 @@
       "AQ_protocolo.pdf"
     ],
     "description": "Agresividad e ira",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "juridico",
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "juridico:riesgo_y_secuelas",
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "juridico": "riesgo_violencia_impulsividad",
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "contexto_familiar_escolar"
+    }
   },
   {
     "family_id": "staxi-2_30",
@@ -1054,7 +1497,26 @@
       "STAXI-2_ficha_tecnica.pdf"
     ],
     "description": "Agresividad e ira",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional",
+      "juridico:riesgo_y_secuelas"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta",
+      "juridico": "riesgo_violencia_impulsividad"
+    }
   },
   {
     "family_id": "rpq_31",
@@ -1089,7 +1551,26 @@
       "RPQ_protocolo.pdf"
     ],
     "description": "Agresividad e ira",
-    "use": "Niños, adolescentes y jóvenes adultos"
+    "use": "Niños, adolescentes y jóvenes adultos",
+    "ambitos": [
+      "clinico",
+      "educativo",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional",
+      "juridico:riesgo_y_secuelas"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta",
+      "juridico": "riesgo_violencia_impulsividad"
+    }
   },
   {
     "family_id": "pcl-r_32",
@@ -1121,7 +1602,20 @@
       "PCL-R_ficha_tecnica.pdf"
     ],
     "description": "Conducta antisocial",
-    "use": "Adultos (contexto clínico y forense)"
+    "use": "Adultos (contexto clínico y forense)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "srp-iv_33",
@@ -1153,7 +1647,20 @@
       "SRP-IV_ficha_tecnica.pdf"
     ],
     "description": "Conducta antisocial",
-    "use": "Adultos (general y clínica no reclusa)"
+    "use": "Adultos (general y clínica no reclusa)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "scid-5-pd_34",
@@ -1185,7 +1692,20 @@
       "SCID-5-PD_ficha_tecnica.pdf"
     ],
     "description": "Conducta antisocial",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "entrevista",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "cbcl_35",
@@ -1221,7 +1741,23 @@
       "CBCL_ficha_tecnica.pdf"
     ],
     "description": "Conducta disruptiva",
-    "use": "Niños y adolescentes (1.5-5 años y 6-18 años)"
+    "use": "Niños y adolescentes (1.5-5 años y 6-18 años)",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "sdq_36",
@@ -1258,7 +1794,23 @@
       "SDQ_protocolo.pdf"
     ],
     "description": "Ofrece un perfil breve de dificultades emocionales y conductuales, pares y conducta prosocial.",
-    "use": "Tamizaje infantojuvenil"
+    "use": "Tamizaje infantojuvenil",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "dbd_37",
@@ -1295,7 +1847,23 @@
       "DBD_protocolo.pdf"
     ],
     "description": "Explora síntomas de inatención, hiperactividad, oposicionismo y problemas de conducta.",
-    "use": "Tamizaje infantojuvenil"
+    "use": "Tamizaje infantojuvenil",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "assist_38",
@@ -1329,7 +1897,23 @@
       "ASSIST_protocolo.pdf"
     ],
     "description": "Explora el consumo y el riesgo asociado a distintas sustancias psicoactivas.",
-    "use": "Tamizaje de consumo"
+    "use": "Tamizaje de consumo",
+    "ambitos": [
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "juridico": "riesgo_violencia_impulsividad"
+    }
   },
   {
     "family_id": "audit_39",
@@ -1364,7 +1948,26 @@
       "AUDIT_protocolo.pdf"
     ],
     "description": "Detecta patrones de consumo de alcohol de riesgo, perjudicial o con posible dependencia.",
-    "use": "Tamizaje de alcohol"
+    "use": "Tamizaje de alcohol",
+    "ambitos": [
+      "clinico",
+      "juridico",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:capacidad_civil",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "juridico": "riesgo_violencia_impulsividad",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "dast-10_40",
@@ -1399,7 +2002,23 @@
       "DAST-20_protocolo.pdf"
     ],
     "description": "Identifica consecuencias y problemas relacionados con el uso de drogas distintas del alcohol.",
-    "use": "Tamizaje de drogas"
+    "use": "Tamizaje de drogas",
+    "ambitos": [
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "juridico": "riesgo_violencia_impulsividad"
+    }
   },
   {
     "family_id": "iat_41",
@@ -1433,7 +2052,23 @@
       "IAT_protocolo.pdf"
     ],
     "description": "Explora uso problemático de Internet y su interferencia en la vida cotidiana.",
-    "use": "Conducta adictiva"
+    "use": "Conducta adictiva",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "sogs_42",
@@ -1466,7 +2101,20 @@
       "SOGS_protocolo.pdf"
     ],
     "description": "Detecta patrones problemáticos de juego y sus consecuencias.",
-    "use": "Tamizaje de juego"
+    "use": "Tamizaje de juego",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad"
+    }
   },
   {
     "family_id": "pdi-21_43",
@@ -1499,7 +2147,20 @@
       "PDI-21_protocolo.pdf"
     ],
     "description": "Evalúa experiencias de tipo delirante y su malestar, preocupación y convicción asociados.",
-    "use": "Experiencias delirantes"
+    "use": "Experiencias delirantes",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad"
+    }
   },
   {
     "family_id": "cape-42_44",
@@ -1533,7 +2194,23 @@
       "CAPE-42_protocolo.pdf"
     ],
     "description": "Explora experiencias psicóticas positivas, negativas y depresivas en población general.",
-    "use": "Tamizaje dimensional"
+    "use": "Tamizaje dimensional",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "panss_45",
@@ -1565,7 +2242,20 @@
       "PANSS_ficha_tecnica.pdf"
     ],
     "description": "Valora síntomas positivos, negativos y psicopatología general en trastornos psicóticos.",
-    "use": "Perfil psicótico"
+    "use": "Perfil psicótico",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad"
+    }
   },
   {
     "family_id": "c-ssrs_46",
@@ -1601,7 +2291,20 @@
       "C-SSRS_protocolo.pdf"
     ],
     "description": "Explora ideación, intensidad, conducta suicida y nivel de riesgo en distintos momentos clínicos.",
-    "use": "Evaluación de riesgo"
+    "use": "Evaluación de riesgo",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "bss_47",
@@ -1635,7 +2338,23 @@
       "BSS_ficha_tecnica.pdf"
     ],
     "description": "Ideación y Conducta suicida",
-    "use": "Población general"
+    "use": "Población general",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "isas_48",
@@ -1669,7 +2388,23 @@
       "ISAS_protocolo.pdf"
     ],
     "description": "Indaga frecuencia, métodos y funciones de las autolesiones no suicidas.",
-    "use": "Evaluación de autolesión"
+    "use": "Evaluación de autolesión",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "hcr-20_v3_49",
@@ -1701,7 +2436,23 @@
       "HCR-20_v3_ficha_tecnica.pdf"
     ],
     "description": "Riesgo de violencia",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "juridico": "riesgo_violencia_impulsividad"
+    }
   },
   {
     "family_id": "jvq_50",
@@ -1735,7 +2486,23 @@
       "JVQ_protocolo.pdf"
     ],
     "description": "Registra múltiples formas de victimización y exposición a violencia en jóvenes.",
-    "use": "Historia de victimización"
+    "use": "Historia de victimización",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "trauma_estres",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "rrs_51",
@@ -1769,7 +2536,23 @@
       "RRS_protocolo.pdf"
     ],
     "description": "Rumiación",
-    "use": "Adultos y adolescentes"
+    "use": "Adultos y adolescentes",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "pswq_52",
@@ -1803,7 +2586,23 @@
       "PSWQ_protocolo.pdf"
     ],
     "description": "Preocupación crónica",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "ius-12_53",
@@ -1837,7 +2636,20 @@
       "IUS-12_protocolo.pdf"
     ],
     "description": "Intolerancia a la incertidumbre",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "aaq-ii_54",
@@ -1872,7 +2684,20 @@
       "AAQ-II_protocolo.pdf"
     ],
     "description": "Rigidez y Flexibilidad cognitiva",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "cfi_55",
@@ -1907,7 +2732,20 @@
       "CFI_protocolo.pdf"
     ],
     "description": "Rigidez y Flexibilidad cognitiva",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "cfq_56",
@@ -1942,7 +2780,20 @@
       "CFQ_protocolo.pdf"
     ],
     "description": "Fusión cognitiva",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "mcq-30_57",
@@ -1975,7 +2826,20 @@
       "MCQ-30_protocolo.pdf"
     ],
     "description": "Metacogniciones disfuncionales",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "ysq-s3_58",
@@ -2007,7 +2871,20 @@
       "YSQ-S3_ficha_tecnica.pdf"
     ],
     "description": "Esquemas maladaptativos",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "ders_59",
@@ -2043,7 +2920,23 @@
       "DERS_protocolo.pdf"
     ],
     "description": "Regulación y Desregulación emocional",
-    "use": "Adultos y adolescentes"
+    "use": "Adultos y adolescentes",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "cerq_60",
@@ -2080,7 +2973,23 @@
       "CERQ_protocolo.pdf"
     ],
     "description": "Regulación y Desregulación emocional",
-    "use": "Adultos, adolescentes y niños"
+    "use": "Adultos, adolescentes y niños",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "leas_61",
@@ -2115,7 +3024,20 @@
       "LEAS_protocolo.pdf"
     ],
     "description": "Conciencia emocional",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "tas-20_62",
@@ -2149,7 +3071,20 @@
       "TAS-20_ficha_tecnica.pdf"
     ],
     "description": "Claridad emocional y Alexitimia",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "meaq_63",
@@ -2183,7 +3118,20 @@
       "MEAQ_ficha_tecnica.pdf"
     ],
     "description": "Evitación experiencial",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "bads_64",
@@ -2217,7 +3165,20 @@
       "BADS_protocolo.pdf"
     ],
     "description": "Activación y Evitación conductual",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "eros_65",
@@ -2251,7 +3212,20 @@
       "EROS_protocolo.pdf"
     ],
     "description": "Activación y Evitación conductual",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "observacion",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "brief_cope_66",
@@ -2284,7 +3258,20 @@
       "Brief_COPE_protocolo.pdf"
     ],
     "description": "Exposición y afrontamiento",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "bis_68",
@@ -2320,7 +3307,20 @@
       "BIS-BAS_protocolo.pdf"
     ],
     "description": "Búsqueda de recompensa",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "ecr-r_69",
@@ -2353,7 +3353,20 @@
       "ECR-R_protocolo.pdf"
     ],
     "description": "Apego",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "idi_70",
@@ -2385,7 +3398,20 @@
       "IDI_ficha_tecnica.pdf"
     ],
     "description": "Dependencia interpersonal",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "rsq_71",
@@ -2417,7 +3443,23 @@
       "RSQ_ficha_tecnica.pdf"
     ],
     "description": "Sensibilidad al rechazo",
-    "use": "Adultos y universitarios"
+    "use": "Adultos y universitarios",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "iip-32_72",
@@ -2449,7 +3491,20 @@
       "IIP-32_ficha_tecnica.pdf"
     ],
     "description": "Comunicación interpersonal y Asertividad",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "ras_73",
@@ -2482,7 +3537,23 @@
       "RAS_ficha_tecnica.pdf"
     ],
     "description": "Comunicación interpersonal y Asertividad",
-    "use": "Adultos y adolescentes"
+    "use": "Adultos y adolescentes",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "conducta_adaptativa"
+    }
   },
   {
     "family_id": "ucla-r_74",
@@ -2515,7 +3586,23 @@
       "UCLA-R_protocolo.pdf"
     ],
     "description": "Soledad y aislamiento social",
-    "use": "Adultos y adolescentes"
+    "use": "Adultos y adolescentes",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "contexto_familiar_escolar"
+    }
   },
   {
     "family_id": "djgls_75",
@@ -2548,7 +3635,20 @@
       "DJGLS_protocolo.pdf"
     ],
     "description": "Soledad y aislamiento social",
-    "use": "Adultos (especialmente mayores)"
+    "use": "Adultos (especialmente mayores)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "neo-pi-r_76",
@@ -2581,7 +3681,23 @@
       "NEO-PI-R_ficha_tecnica.pdf"
     ],
     "description": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico",
+      "laboral"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "personalidad_laboral"
+    }
   },
   {
     "family_id": "bfi-2_77",
@@ -2617,7 +3733,29 @@
       "BFI-44_protocolo.pdf"
     ],
     "description": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "laboral",
+      "clinico",
+      "educativo",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "laboral:ajuste_organizacional",
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "laboral": "personalidad_laboral",
+      "clinico": "personalidad_recursos",
+      "educativo": "dificultades_emocionales_conducta",
+      "vocacional": "personalidad_autoeficacia_proyecto"
+    }
   },
   {
     "family_id": "hexaco-pi-r_78",
@@ -2654,7 +3792,23 @@
       "IPIP-R-50_protocolo.pdf"
     ],
     "description": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
-    "use": "Adultos y universitarios"
+    "use": "Adultos y universitarios",
+    "ambitos": [
+      "clinico",
+      "laboral"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "personalidad_laboral"
+    }
   },
   {
     "family_id": "tci-r_79",
@@ -2687,7 +3841,23 @@
       "TCI-R_ficha_tecnica.pdf"
     ],
     "description": "Rasgos de Personalidad (Neuroticismo, Extraversión, Apertura, Amabilidad, Responsabilidad)",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico",
+      "laboral"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "personalidad_laboral"
+    }
   },
   {
     "family_id": "pid-5_80",
@@ -2722,7 +3892,23 @@
       "PID-5_protocolo.pdf"
     ],
     "description": "Rasgos Patológicos de Personalidad (Afectividad Negativa, Desapego, Antagonismo, Desinhibición, Psicoticismo)",
-    "use": "Adultos (existe versión PID-5-IRF para adolescentes)"
+    "use": "Adultos (existe versión PID-5-IRF para adolescentes)",
+    "ambitos": [
+      "clinico",
+      "laboral"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "personalidad_laboral"
+    }
   },
   {
     "family_id": "sd3_81",
@@ -2756,7 +3942,26 @@
       "SD3_protocolo.pdf"
     ],
     "description": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "laboral",
+      "juridico",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "laboral:ajuste_organizacional",
+      "juridico:capacidad_civil",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "laboral": "personalidad_laboral",
+      "juridico": "validez_respuesta_simulacion",
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "sd4_82",
@@ -2790,7 +3995,26 @@
       "SD4_protocolo.pdf"
     ],
     "description": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "laboral",
+      "juridico",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "laboral:ajuste_organizacional",
+      "juridico:capacidad_civil",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "laboral": "personalidad_laboral",
+      "juridico": "validez_respuesta_simulacion",
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "lts_83",
@@ -2824,7 +4048,23 @@
       "LTS_protocolo.pdf"
     ],
     "description": "Personalidad Oscura y Luminosa (Tríadas y Tétradas)",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico",
+      "laboral"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "personalidad_laboral"
+    }
   },
   {
     "family_id": "rses_84",
@@ -2857,7 +4097,29 @@
       "RSES_protocolo.pdf"
     ],
     "description": "Autoestima",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo",
+      "laboral",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional",
+      "laboral:ajuste_organizacional",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "educativo": "conducta_adaptativa",
+      "laboral": "salud_ocupacional",
+      "vocacional": "personalidad_autoeficacia_proyecto"
+    }
   },
   {
     "family_id": "af-5_85",
@@ -2890,7 +4152,20 @@
       "AF-5_ficha_tecnica.pdf"
     ],
     "description": "Autoconcepto",
-    "use": "Niños, adolescentes y adultos"
+    "use": "Niños, adolescentes y adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "gse_86",
@@ -2923,7 +4198,29 @@
       "GSE_protocolo.pdf"
     ],
     "description": "Autoeficacia",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "laboral",
+      "salud",
+      "clinico",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "laboral:ajuste_organizacional",
+      "salud:impacto_medico",
+      "clinico:evaluacion_procesos",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "laboral": "salud_ocupacional",
+      "salud": "adhesion_afrontamiento_medico",
+      "clinico": "personalidad_recursos",
+      "vocacional": "personalidad_autoeficacia_proyecto"
+    }
   },
   {
     "family_id": "sccs_87",
@@ -2958,7 +4255,23 @@
       "SCCS_ficha_tecnica.pdf"
     ],
     "description": "Claridad del self",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "vocacional": "intereses_metas_motivacion"
+    }
   },
   {
     "family_id": "eom-eis-2_88",
@@ -2994,7 +4307,20 @@
       "EOM-EIS-2_ficha_tecnica.pdf"
     ],
     "description": "Identidad personal",
-    "use": "Adolescentes y adultos jóvenes"
+    "use": "Adolescentes y adultos jóvenes",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "pvq_89",
@@ -3031,7 +4357,20 @@
       "PVQ_protocolo.pdf"
     ],
     "description": "Valores personales",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "mlq_90",
@@ -3064,7 +4403,23 @@
       "MLQ_protocolo.pdf"
     ],
     "description": "Sentido de vida y Propósito vital",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "vocacional": "intereses_metas_motivacion"
+    }
   },
   {
     "family_id": "imi_91",
@@ -3103,7 +4458,29 @@
       "IMI_protocolo.pdf"
     ],
     "description": "Motivación y Orientación a metas",
-    "use": "Todas las edades"
+    "use": "Todas las edades",
+    "ambitos": [
+      "educativo",
+      "vocacional",
+      "laboral",
+      "deporte"
+    ],
+    "rol_en_ambito": [
+      "educativo:apoyo_aprendizaje",
+      "vocacional:intereses_y_aptitudes",
+      "laboral:ajuste_organizacional",
+      "deporte:rendimiento_y_habitos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "lectura_aprendizajes",
+      "vocacional": "intereses_metas_motivacion",
+      "laboral": "engagement_motivacion",
+      "deporte": "motivacion_metas_deportivas"
+    }
   },
   {
     "family_id": "agq-r_92",
@@ -3141,7 +4518,29 @@
       "AGQ-R_protocolo.pdf"
     ],
     "description": "Motivación y Orientación a metas",
-    "use": "Población general"
+    "use": "Población general",
+    "ambitos": [
+      "educativo",
+      "vocacional",
+      "laboral",
+      "deporte"
+    ],
+    "rol_en_ambito": [
+      "educativo:apoyo_aprendizaje",
+      "vocacional:intereses_y_aptitudes",
+      "laboral:ajuste_organizacional",
+      "deporte:rendimiento_y_habitos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "lectura_aprendizajes",
+      "vocacional": "intereses_metas_motivacion",
+      "laboral": "engagement_motivacion",
+      "deporte": "motivacion_metas_deportivas"
+    }
   },
   {
     "family_id": "aceq_93",
@@ -3174,7 +4573,26 @@
       "ACEQ_protocolo.pdf"
     ],
     "description": "Trauma acumulado y Adversidad temprana",
-    "use": "Adultos (retrospectivo)"
+    "use": "Adultos (retrospectivo)",
+    "ambitos": [
+      "clinico",
+      "educativo",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional",
+      "juridico:riesgo_y_secuelas"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "trauma_estres",
+      "educativo": "contexto_familiar_escolar",
+      "juridico": "impacto_trauma_victimizacion"
+    }
   },
   {
     "family_id": "ctq-sf_94",
@@ -3207,7 +4625,26 @@
       "CTQ-SF_ficha_tecnica.pdf"
     ],
     "description": "Trauma acumulado y Adversidad temprana",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional",
+      "juridico:riesgo_y_secuelas"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "trauma_estres",
+      "educativo": "contexto_familiar_escolar",
+      "juridico": "impacto_trauma_victimizacion"
+    }
   },
   {
     "family_id": "meim_95",
@@ -3243,7 +4680,23 @@
       "MEIM_protocolo.pdf"
     ],
     "description": "Identidad étnica (Exploración y Compromiso/Pertenencia)",
-    "use": "Adolescentes y jóvenes"
+    "use": "Adolescentes y jóvenes",
+    "ambitos": [
+      "cultural",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "cultural:identidad_y_comunidad",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "cultural": "identidad_aculturacion",
+      "educativo": "contexto_familiar_escolar"
+    }
   },
   {
     "family_id": "via_96",
@@ -3278,7 +4731,20 @@
       "VIA_ficha_tecnica.pdf"
     ],
     "description": "Identidad cultural y Aculturación",
-    "use": "Migrantes y minorías étnicas"
+    "use": "Migrantes y minorías étnicas",
+    "ambitos": [
+      "cultural"
+    ],
+    "rol_en_ambito": [
+      "cultural:identidad_y_comunidad"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "cultural": "identidad_aculturacion"
+    }
   },
   {
     "family_id": "ismi_98",
@@ -3310,7 +4776,20 @@
       "ISMI_protocolo.pdf"
     ],
     "description": "Estigma y discriminación",
-    "use": "Pacientes con trastornos psiquiátricos"
+    "use": "Pacientes con trastornos psiquiátricos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "eod_99",
@@ -3342,7 +4821,20 @@
       "EOD_protocolo.pdf"
     ],
     "description": "Estigma y discriminación",
-    "use": "Adultos y minorías"
+    "use": "Adultos y minorías",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "whodas_2.0_100",
@@ -3378,7 +4870,23 @@
       "WHODAS-II-36_protocolo.pdf"
     ],
     "description": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
-    "use": "Adultos (≥18 años)"
+    "use": "Adultos (≥18 años)",
+    "ambitos": [
+      "clinico",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "indice_de_barth_101",
@@ -3413,7 +4921,23 @@
       "BARTHEL_protocolo.pdf"
     ],
     "description": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
-    "use": "Pacientes geriátricos o con afectación neurológica"
+    "use": "Pacientes geriátricos o con afectación neurológica",
+    "ambitos": [
+      "clinico",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "escala_de_lawton_102",
@@ -3448,7 +4972,23 @@
       "Escala_de_Lawton_protocolo.pdf"
     ],
     "description": "Funcionamiento general, Discapacidad y Actividades de la vida diaria",
-    "use": "Mayores y pacientes cognitivos"
+    "use": "Mayores y pacientes cognitivos",
+    "ambitos": [
+      "clinico",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "chte_103",
@@ -3483,7 +5023,23 @@
       "CHTE_ficha_tecnica.pdf"
     ],
     "description": "Rendimiento académico, Hábitos de estudio y Adaptación escolar",
-    "use": "Estudiantes (Primaria a Secundaria)"
+    "use": "Estudiantes (Primaria a Secundaria)",
+    "ambitos": [
+      "educativo",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "educativo:cribado_socioemocional",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "lectura_aprendizajes",
+      "vocacional": "habitos_estudio_rendimiento"
+    }
   },
   {
     "family_id": "basc-3_104",
@@ -3518,7 +5074,23 @@
       "BASC-3_ficha_tecnica.pdf"
     ],
     "description": "Rendimiento académico, Hábitos de estudio y Adaptación escolar",
-    "use": "3 a 18 años"
+    "use": "3 a 18 años",
+    "ambitos": [
+      "educativo",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "educativo:cribado_socioemocional",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "dificultades_emocionales_conducta",
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "mbi_105",
@@ -3549,7 +5121,23 @@
       "MBI_ficha_tecnica.pdf"
     ],
     "description": "Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",
-    "use": "Trabajadores"
+    "use": "Trabajadores",
+    "ambitos": [
+      "laboral",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "laboral:clima_desgaste",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "laboral": "estres_desgaste_laboral",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "uwes_106",
@@ -3581,7 +5169,20 @@
       "UWES_protocolo.pdf"
     ],
     "description": "Desempeño laboral, Burnout, Engagement y Adaptación ocupacional",
-    "use": "Trabajadores"
+    "use": "Trabajadores",
+    "ambitos": [
+      "laboral"
+    ],
+    "rol_en_ambito": [
+      "laboral:clima_desgaste"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "laboral": "estres_desgaste_laboral"
+    }
   },
   {
     "family_id": "mos-sss_107",
@@ -3613,7 +5214,29 @@
       "MOS-SSS_protocolo.pdf"
     ],
     "description": "Apoyo social y Funcionamiento familiar",
-    "use": "Adultos (frecuente en pacientes crónicos)"
+    "use": "Adultos (frecuente en pacientes crónicos)",
+    "ambitos": [
+      "cultural",
+      "salud",
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "cultural:identidad_y_comunidad",
+      "salud:impacto_medico",
+      "clinico:evaluacion_procesos",
+      "educativo:evaluacion_neuropsicologica_escolar"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "cultural": "capital_social_comunidad",
+      "salud": "adhesion_afrontamiento_medico",
+      "clinico": "personalidad_recursos",
+      "educativo": "contexto_familiar_escolar"
+    }
   },
   {
     "family_id": "faces-iv_108",
@@ -3645,7 +5268,20 @@
       "FACES-IV_ficha_tecnica.pdf"
     ],
     "description": "Apoyo social y Funcionamiento familiar",
-    "use": "Familias (padres, adolescentes)"
+    "use": "Familias (padres, adolescentes)",
+    "ambitos": [
+      "cultural"
+    ],
+    "rol_en_ambito": [
+      "cultural:identidad_y_comunidad"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "cultural": "salud_cultural_alfabetizacion"
+    }
   },
   {
     "family_id": "apgar_109",
@@ -3678,7 +5314,26 @@
       "APGAR_protocolo.pdf"
     ],
     "description": "Apoyo social y Funcionamiento familiar",
-    "use": "Familias, adultos y adolescentes"
+    "use": "Familias, adultos y adolescentes",
+    "ambitos": [
+      "educativo",
+      "clinico",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "educativo:evaluacion_neuropsicologica_escolar",
+      "clinico:evaluacion_procesos",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "contexto_familiar_escolar",
+      "clinico": "personalidad_recursos",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "swls_110",
@@ -3712,7 +5367,29 @@
       "SWLS_protocolo.pdf"
     ],
     "description": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
-    "use": "Adultos y adolescentes"
+    "use": "Adultos y adolescentes",
+    "ambitos": [
+      "laboral",
+      "salud",
+      "clinico",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "laboral:ajuste_organizacional",
+      "salud:impacto_medico",
+      "clinico:evaluacion_procesos",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "laboral": "salud_ocupacional",
+      "salud": "adhesion_afrontamiento_medico",
+      "clinico": "personalidad_recursos",
+      "vocacional": "personalidad_autoeficacia_proyecto"
+    }
   },
   {
     "family_id": "pwb_111",
@@ -3745,7 +5422,26 @@
       "PWB_protocolo.pdf"
     ],
     "description": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico",
+      "laboral",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "salud_ocupacional",
+      "vocacional": "personalidad_autoeficacia_proyecto"
+    }
   },
   {
     "family_id": "fs_112",
@@ -3778,7 +5474,26 @@
       "FS_protocolo.pdf"
     ],
     "description": "Bienestar subjetivo, Bienestar psicológico y Florecimiento",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico",
+      "laboral",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "salud_ocupacional",
+      "vocacional": "personalidad_autoeficacia_proyecto"
+    }
   },
   {
     "family_id": "sf-36_113",
@@ -3814,7 +5529,26 @@
       "SF-36_protocolo.pdf"
     ],
     "description": "Calidad de vida",
-    "use": "Adultos (general y pacientes médicos/psiquiátricos)"
+    "use": "Adultos (general y pacientes médicos/psiquiátricos)",
+    "ambitos": [
+      "salud",
+      "laboral",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "laboral:ajuste_organizacional",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico",
+      "laboral": "salud_ocupacional",
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "whoqol-bref_114",
@@ -3850,7 +5584,26 @@
       "WHOQOL-BREF_protocolo.pdf"
     ],
     "description": "Calidad de vida",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "salud",
+      "clinico",
+      "laboral"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico",
+      "clinico": "personalidad_recursos",
+      "laboral": "salud_ocupacional"
+    }
   },
   {
     "family_id": "cd-risc_115",
@@ -3883,7 +5636,29 @@
       "CD-RISC_ficha_tecnica.pdf"
     ],
     "description": "Resiliencia, Afrontamiento y Fortalezas",
-    "use": "Adultos y adolescentes"
+    "use": "Adultos y adolescentes",
+    "ambitos": [
+      "clinico",
+      "laboral",
+      "educativo",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional",
+      "educativo:cribado_socioemocional",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "salud_ocupacional",
+      "educativo": "conducta_adaptativa",
+      "vocacional": "personalidad_autoeficacia_proyecto"
+    }
   },
   {
     "family_id": "lot-r_116",
@@ -3916,7 +5691,29 @@
       "LOT-R_protocolo.pdf"
     ],
     "description": "Resiliencia, Afrontamiento y Fortalezas",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "laboral",
+      "salud",
+      "clinico",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "laboral:ajuste_organizacional",
+      "salud:impacto_medico",
+      "clinico:evaluacion_procesos",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "laboral": "salud_ocupacional",
+      "salud": "adhesion_afrontamiento_medico",
+      "clinico": "personalidad_recursos",
+      "vocacional": "personalidad_autoeficacia_proyecto"
+    }
   },
   {
     "family_id": "via-is_118",
@@ -3949,7 +5746,29 @@
       "VIA-IS_ficha_tecnica.pdf"
     ],
     "description": "Resiliencia, Afrontamiento y Fortalezas",
-    "use": "Adultos (existe versión VIA-Youth para jóvenes)"
+    "use": "Adultos (existe versión VIA-Youth para jóvenes)",
+    "ambitos": [
+      "clinico",
+      "laboral",
+      "educativo",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional",
+      "educativo:cribado_socioemocional",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "salud_ocupacional",
+      "educativo": "conducta_adaptativa",
+      "vocacional": "personalidad_autoeficacia_proyecto"
+    }
   },
   {
     "family_id": "mmse_119",
@@ -3986,7 +5805,26 @@
       "MMSE_ficha_tecnica.pdf"
     ],
     "description": "Cribado Cognitivo Global (Estado Mental)",
-    "use": "Adultos y adultos mayores"
+    "use": "Adultos y adultos mayores",
+    "ambitos": [
+      "salud",
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "salud:perfil_neuropsicologico",
+      "clinico:evaluacion_procesos",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "deterioro_cognitivo_neuropsicologia",
+      "clinico": "sintomas_ansiedad_animo",
+      "juridico": "capacidad_cognitiva_competencia"
+    }
   },
   {
     "family_id": "moca_120",
@@ -4026,7 +5864,26 @@
       "MoCA-8.3_protocolo.pdf"
     ],
     "description": "Cribado Cognitivo Global (Estado Mental)",
-    "use": "Adultos y adultos mayores"
+    "use": "Adultos y adultos mayores",
+    "ambitos": [
+      "salud",
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "salud:perfil_neuropsicologico",
+      "clinico:evaluacion_procesos",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "deterioro_cognitivo_neuropsicologia",
+      "clinico": "sintomas_ansiedad_animo",
+      "juridico": "capacidad_cognitiva_competencia"
+    }
   },
   {
     "family_id": "d2-r_121",
@@ -4061,7 +5918,29 @@
       "d2-R_ficha_tecnica.pdf"
     ],
     "description": "Atención (Sostenida, Selectiva, Dividida y Vigilancia)",
-    "use": "8 a 80 años"
+    "use": "8 a 80 años",
+    "ambitos": [
+      "educativo",
+      "laboral",
+      "clinico",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "educativo:evaluacion_neuropsicologica_escolar",
+      "laboral:ajuste_organizacional",
+      "clinico:evaluacion_procesos",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "prueba_ejecucion",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "atencion_funciones_ejecutivas",
+      "laboral": "salud_ocupacional",
+      "clinico": "sintomas_ansiedad_animo",
+      "vocacional": "aptitudes_cognitivas_ejecutivas"
+    }
   },
   {
     "family_id": "tmt_122",
@@ -4096,7 +5975,32 @@
       "TMT_protocolo.pdf"
     ],
     "description": "Atención (Sostenida, Selectiva, Dividida y Vigilancia)",
-    "use": "Niños, adultos y mayores"
+    "use": "Niños, adultos y mayores",
+    "ambitos": [
+      "educativo",
+      "clinico",
+      "salud",
+      "laboral",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "educativo:evaluacion_neuropsicologica_escolar",
+      "clinico:evaluacion_procesos",
+      "salud:perfil_neuropsicologico",
+      "laboral:ajuste_organizacional",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "prueba_ejecucion",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "atencion_funciones_ejecutivas",
+      "clinico": "sintomas_ansiedad_animo",
+      "salud": "deterioro_cognitivo_neuropsicologia",
+      "laboral": "salud_ocupacional",
+      "vocacional": "aptitudes_cognitivas_ejecutivas"
+    }
   },
   {
     "family_id": "tavec_123",
@@ -4129,7 +6033,23 @@
       "TAVEC_ficha_tecnica.pdf"
     ],
     "description": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "salud",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "salud:perfil_neuropsicologico",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "prueba_ejecucion",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "deterioro_cognitivo_neuropsicologia",
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "figura_de_rey_124",
@@ -4164,7 +6084,29 @@
       "Tarjetas_Estimulo.pdf"
     ],
     "description": "Memoria (Trabajo, Episódica, Semántica, Visual, Aprendizaje)",
-    "use": "Niños (figura B) y adultos (figura A)"
+    "use": "Niños (figura B) y adultos (figura A)",
+    "ambitos": [
+      "educativo",
+      "clinico",
+      "salud",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "educativo:evaluacion_neuropsicologica_escolar",
+      "clinico:evaluacion_procesos",
+      "salud:perfil_neuropsicologico",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "prueba_ejecucion",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "capacidad_cognitiva",
+      "clinico": "sintomas_ansiedad_animo",
+      "salud": "deterioro_cognitivo_neuropsicologia",
+      "vocacional": "aptitudes_cognitivas_ejecutivas"
+    }
   },
   {
     "family_id": "wcst_125",
@@ -4202,7 +6144,26 @@
       "WCST_ficha_tecnica.pdf"
     ],
     "description": "Funciones Ejecutivas",
-    "use": "6 a 89 años"
+    "use": "6 a 89 años",
+    "ambitos": [
+      "educativo",
+      "clinico",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "educativo:evaluacion_neuropsicologica_escolar",
+      "clinico:evaluacion_procesos",
+      "salud:perfil_neuropsicologico"
+    ],
+    "metodo": "prueba_ejecucion",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "atencion_funciones_ejecutivas",
+      "clinico": "sintomas_ansiedad_animo",
+      "salud": "deterioro_cognitivo_neuropsicologia"
+    }
   },
   {
     "family_id": "stroop_test_126",
@@ -4239,7 +6200,29 @@
       "Stroop_Test_protocolo.pdf"
     ],
     "description": "Funciones Ejecutivas",
-    "use": "Niños y adultos"
+    "use": "Niños y adultos",
+    "ambitos": [
+      "educativo",
+      "clinico",
+      "salud",
+      "vocacional"
+    ],
+    "rol_en_ambito": [
+      "educativo:evaluacion_neuropsicologica_escolar",
+      "clinico:evaluacion_procesos",
+      "salud:perfil_neuropsicologico",
+      "vocacional:intereses_y_aptitudes"
+    ],
+    "metodo": "prueba_ejecucion",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "atencion_funciones_ejecutivas",
+      "clinico": "sintomas_ansiedad_animo",
+      "salud": "deterioro_cognitivo_neuropsicologia",
+      "vocacional": "aptitudes_cognitivas_ejecutivas"
+    }
   },
   {
     "family_id": "igt_127",
@@ -4275,7 +6258,23 @@
       "IGT_protocolo.pdf"
     ],
     "description": "Funciones Ejecutivas",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "educativo",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "educativo:evaluacion_neuropsicologica_escolar",
+      "salud:perfil_neuropsicologico"
+    ],
+    "metodo": "prueba_ejecucion",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "atencion_funciones_ejecutivas",
+      "salud": "deterioro_cognitivo_neuropsicologia"
+    }
   },
   {
     "family_id": "brief-2_128",
@@ -4312,7 +6311,23 @@
       "BRIEF-2_ficha_tecnica.pdf"
     ],
     "description": "Funciones Ejecutivas",
-    "use": "5 a 18 años (versión adulto disponible: BRIEF-A)"
+    "use": "5 a 18 años (versión adulto disponible: BRIEF-A)",
+    "ambitos": [
+      "educativo",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "educativo:evaluacion_neuropsicologica_escolar",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "informe_terceros",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "atencion_funciones_ejecutivas",
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "ifs_129",
@@ -4349,7 +6364,26 @@
       "IFS_protocolo.pdf"
     ],
     "description": "Funciones Ejecutivas",
-    "use": "Adultos y adultos mayores"
+    "use": "Adultos y adultos mayores",
+    "ambitos": [
+      "salud",
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "salud:perfil_neuropsicologico",
+      "clinico:evaluacion_procesos",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "deterioro_cognitivo_neuropsicologia",
+      "clinico": "sintomas_ansiedad_animo",
+      "juridico": "capacidad_cognitiva_competencia"
+    }
   },
   {
     "family_id": "bnt_130",
@@ -4383,7 +6417,23 @@
       "BNT_ficha_tecnica.pdf"
     ],
     "description": "Comprensión, Expresión y Fluidez Verbal",
-    "use": "Niños, adultos y mayores"
+    "use": "Niños, adultos y mayores",
+    "ambitos": [
+      "salud",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "salud:perfil_neuropsicologico",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "prueba_ejecucion",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "deterioro_cognitivo_neuropsicologia",
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "tfv_131",
@@ -4419,7 +6469,23 @@
       "TFV_protocolo.pdf"
     ],
     "description": "Comprensión, Expresión y Fluidez Verbal",
-    "use": "Todas las edades"
+    "use": "Todas las edades",
+    "ambitos": [
+      "salud",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "salud:perfil_neuropsicologico",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "prueba_ejecucion",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "deterioro_cognitivo_neuropsicologia",
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "rmet_132",
@@ -4455,7 +6521,23 @@
       "RMET_ficha_tecnica.pdf"
     ],
     "description": "Cognición Social e Interocepción",
-    "use": "Adultos y adolescentes (existe versión infantil)"
+    "use": "Adultos y adolescentes (existe versión infantil)",
+    "ambitos": [
+      "educativo",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "educativo:cribado_socioemocional",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "indicios_autismo",
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "maia_133",
@@ -4490,7 +6572,20 @@
       "MAIA_protocolo.pdf"
     ],
     "description": "Cognición Social e Interocepción",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "faux_pas_test_134",
@@ -4525,7 +6620,23 @@
       "Faux_Pas_Test_ficha_tecnica.pdf"
     ],
     "description": "Cognición Social e Interocepción",
-    "use": "Niños (versión infantil) y adultos"
+    "use": "Niños (versión infantil) y adultos",
+    "ambitos": [
+      "educativo",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "educativo:cribado_socioemocional",
+      "salud:perfil_neuropsicologico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "indicios_autismo",
+      "salud": "deterioro_cognitivo_neuropsicologia"
+    }
   },
   {
     "family_id": "psqi_135",
@@ -4562,7 +6673,29 @@
       "PSQI_protocolo.pdf"
     ],
     "description": "Sueño y ritmos circadianos",
-    "use": "Adultos, adultos mayores y adolescentes"
+    "use": "Adultos, adultos mayores y adolescentes",
+    "ambitos": [
+      "salud",
+      "clinico",
+      "laboral",
+      "deporte"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional",
+      "deporte:rendimiento_y_habitos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "sueno_ritmos",
+      "clinico": "sintomas_ansiedad_animo",
+      "laboral": "salud_ocupacional",
+      "deporte": "fatiga_recuperacion_habitos"
+    }
   },
   {
     "family_id": "isi_136",
@@ -4598,7 +6731,29 @@
       "ISI_protocolo.pdf"
     ],
     "description": "Sueño y ritmos circadianos",
-    "use": "Adultos y adultos mayores"
+    "use": "Adultos y adultos mayores",
+    "ambitos": [
+      "salud",
+      "clinico",
+      "laboral",
+      "deporte"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional",
+      "deporte:rendimiento_y_habitos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "sueno_ritmos",
+      "clinico": "sintomas_ansiedad_animo",
+      "laboral": "salud_ocupacional",
+      "deporte": "fatiga_recuperacion_habitos"
+    }
   },
   {
     "family_id": "ess_137",
@@ -4633,7 +6788,26 @@
       "ESS_protocolo.pdf"
     ],
     "description": "Sueño y ritmos circadianos",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "salud",
+      "laboral",
+      "deporte"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "laboral:ajuste_organizacional",
+      "deporte:rendimiento_y_habitos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "sueno_ritmos",
+      "laboral": "salud_ocupacional",
+      "deporte": "fatiga_recuperacion_habitos"
+    }
   },
   {
     "family_id": "bpi_138",
@@ -4665,7 +6839,26 @@
       "BPI_ficha_tecnica.pdf"
     ],
     "description": "Dolor, fatiga y síntomas somáticos",
-    "use": "Adultos con dolor clínico o crónico"
+    "use": "Adultos con dolor clínico o crónico",
+    "ambitos": [
+      "salud",
+      "clinico",
+      "deporte"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "clinico:evaluacion_procesos",
+      "deporte:rendimiento_y_habitos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "dolor_fatiga_sensibilidad",
+      "clinico": "sintomas_ansiedad_animo",
+      "deporte": "ansiedad_competitiva_autocontrol"
+    }
   },
   {
     "family_id": "pcs_139",
@@ -4697,7 +6890,26 @@
       "PCS_ficha_tecnica.pdf"
     ],
     "description": "Dolor, fatiga y síntomas somáticos",
-    "use": "Adultos (población clínica y sana)"
+    "use": "Adultos (población clínica y sana)",
+    "ambitos": [
+      "salud",
+      "clinico",
+      "deporte"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "clinico:evaluacion_procesos",
+      "deporte:rendimiento_y_habitos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "dolor_fatiga_sensibilidad",
+      "clinico": "sintomas_ansiedad_animo",
+      "deporte": "ansiedad_competitiva_autocontrol"
+    }
   },
   {
     "family_id": "fss_140",
@@ -4730,7 +6942,29 @@
       "FSS_protocolo.pdf"
     ],
     "description": "Dolor, fatiga y síntomas somáticos",
-    "use": "Adultos con condiciones médicas (EM, Lupus, fibromialgia, etc.)"
+    "use": "Adultos con condiciones médicas (EM, Lupus, fibromialgia, etc.)",
+    "ambitos": [
+      "salud",
+      "laboral",
+      "clinico",
+      "deporte"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "laboral:ajuste_organizacional",
+      "clinico:evaluacion_procesos",
+      "deporte:rendimiento_y_habitos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "dolor_fatiga_sensibilidad",
+      "laboral": "estres_desgaste_laboral",
+      "clinico": "sintomas_ansiedad_animo",
+      "deporte": "fatiga_recuperacion_habitos"
+    }
   },
   {
     "family_id": "ipaq_141",
@@ -4763,7 +6997,23 @@
       "IPAQ_protocolo.pdf"
     ],
     "description": "Conductas de salud",
-    "use": "Adolescentes y adultos (15-69 años)"
+    "use": "Adolescentes y adultos (15-69 años)",
+    "ambitos": [
+      "salud",
+      "deporte"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "deporte:rendimiento_y_habitos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico",
+      "deporte": "fatiga_recuperacion_habitos"
+    }
   },
   {
     "family_id": "mgl_o_mmas-4_142",
@@ -4794,7 +7044,20 @@
       "MGL_o_MMAS-4_ficha_tecnica.pdf"
     ],
     "description": "Conductas de salud",
-    "use": "Adultos con patología crónica"
+    "use": "Adultos con patología crónica",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "bipq_143",
@@ -4828,7 +7091,23 @@
       "BIPQ_protocolo.pdf"
     ],
     "description": "Enfermedad médica y afrontamiento",
-    "use": "Pacientes con enfermedades agudas o crónicas"
+    "use": "Pacientes con enfermedades agudas o crónicas",
+    "ambitos": [
+      "salud",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico",
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "mac_144",
@@ -4861,7 +7140,20 @@
       "MAC_ficha_tecnica.pdf"
     ],
     "description": "Enfermedad médica y afrontamiento",
-    "use": "Pacientes oncológicos (y adaptaciones para otras enfermedades crónicas)"
+    "use": "Pacientes oncológicos (y adaptaciones para otras enfermedades crónicas)",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "hls-eu-q16_145",
@@ -4893,7 +7185,23 @@
       "HLS-EU-Q16_protocolo.pdf"
     ],
     "description": "Alfabetización en salud y relación con el sistema",
-    "use": "Adultos (Población general y clínica)"
+    "use": "Adultos (Población general y clínica)",
+    "ambitos": [
+      "cultural",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "cultural:identidad_y_comunidad",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "cultural": "salud_cultural_alfabetizacion",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "sahlsa-50_146",
@@ -4925,7 +7233,23 @@
       "SAHLSA-50_protocolo.pdf"
     ],
     "description": "Alfabetización en salud y relación con el sistema",
-    "use": "Adultos hispanohablantes"
+    "use": "Adultos hispanohablantes",
+    "ambitos": [
+      "cultural",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "cultural:identidad_y_comunidad",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "cultural": "salud_cultural_alfabetizacion",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "dex-sp_new1",
@@ -4961,7 +7285,26 @@
       "DEX-Sp_protocolo.pdf"
     ],
     "description": "Síntomas disejecutivos conductuales",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "educativo",
+      "clinico",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "educativo:cribado_socioemocional",
+      "clinico:evaluacion_procesos",
+      "salud:perfil_neuropsicologico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "atencion_funciones_ejecutivas",
+      "clinico": "sintomas_ansiedad_animo",
+      "salud": "deterioro_cognitivo_neuropsicologia"
+    }
   },
   {
     "family_id": "efeco_new1",
@@ -4997,7 +7340,23 @@
       "EFECO_protocolo.pdf"
     ],
     "description": "Funciones ejecutivas cotidianas (autoinforme)",
-    "use": "Adultos hispanohablantes"
+    "use": "Adultos hispanohablantes",
+    "ambitos": [
+      "educativo",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "educativo:evaluacion_neuropsicologica_escolar",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "informe_terceros",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "atencion_funciones_ejecutivas",
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "mfe_new1",
@@ -5030,7 +7389,20 @@
       "MFE_protocolo.pdf"
     ],
     "description": "Fallos de memoria cotidiana (metamemoria)",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:perfil_neuropsicologico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "deterioro_cognitivo_neuropsicologia"
+    }
   },
   {
     "family_id": "cfq_new1",
@@ -5063,7 +7435,20 @@
       "CFQ-Fallos_protocolo.pdf"
     ],
     "description": "Fallos cognitivos cotidianos",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:perfil_neuropsicologico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "deterioro_cognitivo_neuropsicologia"
+    }
   },
   {
     "family_id": "prsexdq_new1",
@@ -5098,7 +7483,20 @@
       "PRSexDQ-SALSEX_protocolo.pdf"
     ],
     "description": "Salud sexual (disfunción inducida por fármacos)",
-    "use": "Adultos en tratamiento psicofarmacológico"
+    "use": "Adultos en tratamiento psicofarmacológico",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "sisses_new1",
@@ -5133,7 +7531,20 @@
       "SIS-SES-SF_protocolo.pdf"
     ],
     "description": "Salud sexual (propensión a inhibición/excitación)",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "meqsa_new1",
@@ -5168,7 +7579,20 @@
       "MEQ-SA_protocolo.pdf"
     ],
     "description": "Cronotipo/ritmo circadiano",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "sueno_ritmos"
+    }
   },
   {
     "family_id": "stopbang_new1",
@@ -5203,7 +7627,23 @@
       "STOP-Bang_protocolo.pdf"
     ],
     "description": "Riesgo de apnea del sueño",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "salud",
+      "laboral"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "laboral:ajuste_organizacional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "sueno_ritmos",
+      "laboral": "salud_ocupacional"
+    }
   },
   {
     "family_id": "csi_new1",
@@ -5237,7 +7677,23 @@
       "CSI_protocolo.pdf"
     ],
     "description": "Sensibilización central y carga de síntomas",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "salud",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "dolor_fatiga_sensibilidad",
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "ftnd_new1",
@@ -5271,7 +7727,20 @@
       "FTND_protocolo.pdf"
     ],
     "description": "Tabaco",
-    "use": "Adultos fumadores"
+    "use": "Adultos fumadores",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "semcds_new1",
@@ -5303,7 +7772,23 @@
       "SEMCD-S_protocolo.pdf"
     ],
     "description": "Autoeficacia/autocuidado en enfermedad crónica",
-    "use": "Adultos con enfermedad crónica"
+    "use": "Adultos con enfermedad crónica",
+    "ambitos": [
+      "salud",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico",
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "eheals_new1",
@@ -5335,7 +7820,20 @@
       "eHEALS_protocolo.pdf"
     ],
     "description": "Alfabetización digital en salud",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "cremp_new1",
@@ -5368,7 +7866,23 @@
       "CREM-P_protocolo.pdf"
     ],
     "description": "Relación paciente-profesional",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "salud",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico",
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "bsq_new1",
@@ -5405,7 +7919,20 @@
       "BSQ_protocolo.pdf"
     ],
     "description": "Insatisfacción con la forma y figura corporal",
-    "use": "Adultas (validación original en mujeres)"
+    "use": "Adultas (validación original en mujeres)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "mba_new1",
@@ -5442,7 +7969,20 @@
       "MBA_protocolo.pdf"
     ],
     "description": "Dependencia de la autoestima respecto a la apariencia/integridad corporal",
-    "use": "Adultos (desarrollado en mujeres con cáncer de mama en etapa temprana)"
+    "use": "Adultos (desarrollado en mujeres con cáncer de mama en etapa temprana)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "ersq_new1",
@@ -5477,7 +8017,20 @@
       "ERSQ_protocolo.pdf"
     ],
     "description": "Habilidades específicas de regulación emocional (modelo ACE)",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "ers_147",
@@ -5511,7 +8064,23 @@
       "ERS_protocolo.pdf"
     ],
     "description": "Apoya la exploración estructurada de factores asociados al riesgo de conducta violenta.",
-    "use": "Valoración de riesgo"
+    "use": "Valoración de riesgo",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:contexto_familiar"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "contexto_familiar_escolar"
+    }
   },
   {
     "family_id": "ip_148",
@@ -5546,7 +8115,23 @@
       "IP_protocolo.pdf"
     ],
     "description": "Evalúa pensamientos intrusivos, impulsos, comprobación, contaminación y compulsiones.",
-    "use": "Síntomas obsesivos"
+    "use": "Síntomas obsesivos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "bsl23_149",
@@ -5581,7 +8166,26 @@
       "BSL-23_protocolo.pdf"
     ],
     "description": "Cuantifica el malestar y los síntomas asociados al trastorno límite de la personalidad.",
-    "use": "Monitoreo sintomático"
+    "use": "Monitoreo sintomático",
+    "ambitos": [
+      "clinico",
+      "educativo",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "educativo": "dificultades_emocionales_conducta",
+      "juridico": "validez_respuesta_simulacion"
+    }
   },
   {
     "family_id": "cubi18_150",
@@ -5617,7 +8221,23 @@
       "CUBI-18_protocolo.pdf"
     ],
     "description": "Indaga experiencias vinculadas con intimidación, victimización y violencia entre pares.",
-    "use": "Detección de bullying"
+    "use": "Detección de bullying",
+    "ambitos": [
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "juridico": "validez_respuesta_simulacion"
+    }
   },
   {
     "family_id": "egsr_151",
@@ -5650,7 +8270,20 @@
       "EGS-R_protocolo.pdf"
     ],
     "description": "Explora síntomas de estrés postraumático y afectación asociada tras un evento traumático.",
-    "use": "Evaluación postraumática"
+    "use": "Evaluación postraumática",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "trauma_estres"
+    }
   },
   {
     "family_id": "sias_152",
@@ -5685,7 +8318,23 @@
       "SIAS_protocolo.pdf"
     ],
     "description": "Mide temor y malestar durante interacciones y encuentros sociales.",
-    "use": "Ansiedad social"
+    "use": "Ansiedad social",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "sads_153",
@@ -5720,7 +8369,23 @@
       "SADS_protocolo.pdf"
     ],
     "description": "Explora malestar y evitación en situaciones de interacción social.",
-    "use": "Ansiedad social"
+    "use": "Ansiedad social",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "pss14_155",
@@ -5760,7 +8425,23 @@
       "PSS-14_protocolo.pdf"
     ],
     "description": "Evalúa estrés percibido mediante la versión extensa de catorce reactivos.",
-    "use": "Evaluación de estrés"
+    "use": "Evaluación de estrés",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "trauma_estres",
+      "educativo": "conducta_adaptativa"
+    }
   },
   {
     "family_id": "cae_156",
@@ -5793,7 +8474,20 @@
       "CAE_protocolo.pdf"
     ],
     "description": "Estrategias de afrontamiento del estres",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "eas_157",
@@ -5826,7 +8520,26 @@
       "EAS_protocolo.pdf"
     ],
     "description": "Apoyo social percibido (familiar y de amistades)",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo",
+      "cultural"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:contexto_familiar",
+      "cultural:identidad_y_comunidad"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "contexto_familiar_escolar",
+      "cultural": "capital_social_comunidad"
+    }
   },
   {
     "family_id": "erq_158",
@@ -5861,7 +8574,20 @@
       "ERQ_protocolo.pdf"
     ],
     "description": "Regulacion emocional (reevaluacion cognitiva, supresion expresiva)",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "fmps_159",
@@ -5895,7 +8621,20 @@
       "FMPS_protocolo.pdf"
     ],
     "description": "Perfeccionismo multidimensional",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "panas_161",
@@ -5930,7 +8669,20 @@
       "PANAS_protocolo.pdf"
     ],
     "description": "Afecto positivo y negativo",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "rs14_162",
@@ -5963,7 +8715,20 @@
       "RS-14_protocolo.pdf"
     ],
     "description": "Resiliencia",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "tmms24_163",
@@ -5999,7 +8764,23 @@
       "TMMS-24_protocolo.pdf"
     ],
     "description": "Inteligencia emocional percibida (atencion, claridad, reparacion)",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:evaluacion_neuropsicologica_escolar"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "atencion_funciones_ejecutivas"
+    }
   },
   {
     "family_id": "beaq_164",
@@ -6034,7 +8815,20 @@
       "BEAQ_protocolo.pdf"
     ],
     "description": "Evitacion experiencial",
-    "use": "Adultos (muestra clinica de validacion)"
+    "use": "Adultos (muestra clinica de validacion)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "vq_165",
@@ -6070,7 +8864,20 @@
       "VQ_protocolo.pdf"
     ],
     "description": "Vida valiosa (Progreso vs Obstruccion) segun valores personales",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "psyflex_166",
@@ -6105,7 +8912,20 @@
       "Psy-Flex_protocolo.pdf"
     ],
     "description": "Flexibilidad psicologica (presencia, apertura, defusion, yo estable, valores, compromiso)",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "cope48_167",
@@ -6139,7 +8959,20 @@
       "COPE-24_protocolo.pdf"
     ],
     "description": "Afrontamiento (coping), 9 escalas clínicas",
-    "use": "Adultos (validado en población psiquiátrica ambulatoria)"
+    "use": "Adultos (validado en población psiquiátrica ambulatoria)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "ffmq-sf_168",
@@ -6174,7 +9007,20 @@
       "FFMQ-SF_protocolo.pdf"
     ],
     "description": "Mindfulness y regulacion emocional (5 facetas: observar, describir, actuar con consciencia, no juzgar, no reactividad)",
-    "use": "Adultos (poblacion general y laboral)"
+    "use": "Adultos (poblacion general y laboral)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "scs_169",
@@ -6209,7 +9055,23 @@
       "SCS_protocolo.pdf"
     ],
     "description": "Autocompasión y regulación afectiva (3 polaridades / 6 subescalas)",
-    "use": "Adultos (universitarios y profesionales sanitarios)"
+    "use": "Adultos (universitarios y profesionales sanitarios)",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "conducta_adaptativa"
+    }
   },
   {
     "family_id": "ras-h_170",
@@ -6242,7 +9104,20 @@
       "RAS-H_protocolo.pdf"
     ],
     "description": "Satisfacción diádica y calidad de la relación de pareja",
-    "use": "Adultos en pareja (matrimonio o unión libre)"
+    "use": "Adultos en pareja (matrimonio o unión libre)",
+    "ambitos": [
+      "laboral"
+    ],
+    "rol_en_ambito": [
+      "laboral:ajuste_organizacional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "laboral": "salud_ocupacional"
+    }
   },
   {
     "family_id": "mec_171",
@@ -6279,7 +9154,26 @@
       "MEC_protocolo.pdf"
     ],
     "description": "Cribado cognitivo global",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "salud",
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "salud:perfil_neuropsicologico",
+      "clinico:evaluacion_procesos",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "deterioro_cognitivo_neuropsicologia",
+      "clinico": "sintomas_ansiedad_animo",
+      "juridico": "capacidad_cognitiva_competencia"
+    }
   },
   {
     "family_id": "adascog_172",
@@ -6316,7 +9210,23 @@
       "ADAS-Cog_protocolo.pdf"
     ],
     "description": "Deterioro cognitivo en demencia",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "salud",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "salud:perfil_neuropsicologico",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "deterioro_cognitivo_neuropsicologia",
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "bprs_173",
@@ -6349,7 +9259,20 @@
       "BPRS_protocolo.pdf"
     ],
     "description": "Psicopatología general (heteroaplicada)",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "observacion",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad"
+    }
   },
   {
     "family_id": "sips_174",
@@ -6382,7 +9305,20 @@
       "SIPS_protocolo.pdf"
     ],
     "description": "Riesgo de psicosis",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "entrevista",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad"
+    }
   },
   {
     "family_id": "sops_175",
@@ -6415,7 +9351,20 @@
       "SOPS_protocolo.pdf"
     ],
     "description": "Síntomas prodrómicos de psicosis",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad"
+    }
   },
   {
     "family_id": "sumd_176",
@@ -6448,7 +9397,23 @@
       "SUMD_protocolo.pdf"
     ],
     "description": "Insight/conciencia de enfermedad",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "oas_177",
@@ -6481,7 +9446,23 @@
       "OAS_protocolo.pdf"
     ],
     "description": "Agresividad manifiesta observada",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "juridico",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "juridico:riesgo_y_secuelas",
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "observacion",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "juridico": "riesgo_violencia_impulsividad",
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "madrs_178",
@@ -6515,7 +9496,20 @@
       "MADRS_protocolo.pdf"
     ],
     "description": "Severidad depresiva (heteroaplicada)",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "observacion",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "gds_179",
@@ -6549,7 +9543,20 @@
       "GDS_protocolo.pdf"
     ],
     "description": "Depresión en adultos mayores",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "cds_180",
@@ -6583,7 +9590,20 @@
       "CDS_protocolo.pdf"
     ],
     "description": "Depresión en esquizofrenia",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad"
+    }
   },
   {
     "family_id": "mdq_181",
@@ -6618,7 +9638,20 @@
       "MDQ_protocolo.pdf"
     ],
     "description": "Cribado de espectro bipolar",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad"
+    }
   },
   {
     "family_id": "ymrs_182",
@@ -6653,7 +9686,20 @@
       "YMRS_protocolo.pdf"
     ],
     "description": "Severidad de manía",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "observacion",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad"
+    }
   },
   {
     "family_id": "evmac_183",
@@ -6688,7 +9734,20 @@
       "EVMAC_protocolo.pdf"
     ],
     "description": "Severidad de manía (heteroaplicada)",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad"
+    }
   },
   {
     "family_id": "mas_184",
@@ -6723,7 +9782,20 @@
       "MAS_protocolo.pdf"
     ],
     "description": "Severidad de manía",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad"
+    }
   },
   {
     "family_id": "rfl_185",
@@ -6756,7 +9828,20 @@
       "RFL_protocolo.pdf"
     ],
     "description": "Factores protectores frente al suicidio",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "rvplutchik_186",
@@ -6789,7 +9874,23 @@
       "RV-Plutchik_protocolo.pdf"
     ],
     "description": "Riesgo de violencia autodirigida",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "juridico": "riesgo_violencia_impulsividad"
+    }
   },
   {
     "family_id": "eiplutchik_187",
@@ -6825,7 +9926,23 @@
       "EI-Plutchik_protocolo.pdf"
     ],
     "description": "Impulsividad",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "juridico": "riesgo_violencia_impulsividad"
+    }
   },
   {
     "family_id": "spin_188",
@@ -6859,7 +9976,20 @@
       "SPIN_protocolo.pdf"
     ],
     "description": "Fobia social",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "bsps_189",
@@ -6893,7 +10023,20 @@
       "BSPS_protocolo.pdf"
     ],
     "description": "Fobia social (heteroaplicada)",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "bsa_190",
@@ -6927,7 +10070,20 @@
       "BSA_protocolo.pdf"
     ],
     "description": "Ansiedad general (heteroaplicada)",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "tq_191",
@@ -6960,7 +10116,20 @@
       "TQ_protocolo.pdf"
     ],
     "description": "Exposición a eventos traumáticos",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "trauma_estres"
+    }
   },
   {
     "family_id": "dgrp_192",
@@ -6993,7 +10162,20 @@
       "DGRP_protocolo.pdf"
     ],
     "description": "Cambio global en TEPT",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "trauma_estres"
+    }
   },
   {
     "family_id": "dai_193",
@@ -7026,7 +10208,20 @@
       "DAI_protocolo.pdf"
     ],
     "description": "Psicopatología general (positiva/negativa)",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad"
+    }
   },
   {
     "family_id": "bdhi_194",
@@ -7059,7 +10254,23 @@
       "BDHI_protocolo.pdf"
     ],
     "description": "Hostilidad/agresividad",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "juridico",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "juridico:riesgo_y_secuelas",
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "juridico": "riesgo_violencia_impulsividad",
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "malt_195",
@@ -7093,7 +10304,23 @@
       "MALT_protocolo.pdf"
     ],
     "description": "Diagnóstico de alcoholismo",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "juridico": "riesgo_violencia_impulsividad"
+    }
   },
   {
     "family_id": "isca_196",
@@ -7127,7 +10354,23 @@
       "ISCA_protocolo.pdf"
     ],
     "description": "Consumo de alcohol",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "juridico": "riesgo_violencia_impulsividad"
+    }
   },
   {
     "family_id": "europasi_197",
@@ -7161,7 +10404,20 @@
       "EuropASI_protocolo.pdf"
     ],
     "description": "Gravedad multidimensional de adicción",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad"
+    }
   },
   {
     "family_id": "sadq_198",
@@ -7195,7 +10451,20 @@
       "SADQ_protocolo.pdf"
     ],
     "description": "Severidad de dependencia alcohólica",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad"
+    }
   },
   {
     "family_id": "eida_199",
@@ -7229,7 +10498,20 @@
       "EIDA_protocolo.pdf"
     ],
     "description": "Dependencia alcohólica",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad"
+    }
   },
   {
     "family_id": "ocds_200",
@@ -7263,7 +10545,23 @@
       "OCDS_protocolo.pdf"
     ],
     "description": "Craving/compulsión por alcohol",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "juridico": "riesgo_violencia_impulsividad"
+    }
   },
   {
     "family_id": "edi2_201",
@@ -7300,7 +10598,20 @@
       "EDI-2_protocolo.pdf"
     ],
     "description": "Conducta alimentaria",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "bite_202",
@@ -7337,7 +10648,20 @@
       "BITE_protocolo.pdf"
     ],
     "description": "Síntomas bulímicos",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "cos_203",
@@ -7372,7 +10696,20 @@
       "COS_protocolo.pdf"
     ],
     "description": "Calidad del sueño",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "sueno_ritmos"
+    }
   },
   {
     "family_id": "csfq_204",
@@ -7407,7 +10744,20 @@
       "CSFQ_protocolo.pdf"
     ],
     "description": "Funcionamiento sexual",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "iief_205",
@@ -7442,7 +10792,20 @@
       "IIEF_protocolo.pdf"
     ],
     "description": "Función eréctil",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "mghsfq_206",
@@ -7477,7 +10840,20 @@
       "MGH-SFQ_protocolo.pdf"
     ],
     "description": "Funcionamiento sexual",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "asex_207",
@@ -7512,7 +10888,20 @@
       "ASEX_protocolo.pdf"
     ],
     "description": "Funcionamiento sexual",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "bwsq_208",
@@ -7546,7 +10935,20 @@
       "BWSQ_protocolo.pdf"
     ],
     "description": "Abstinencia de benzodiacepinas",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "sas_209",
@@ -7579,7 +10981,20 @@
       "SAS_protocolo.pdf"
     ],
     "description": "Parkinsonismo/extrapiramidalismo inducido",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "uku_210",
@@ -7612,7 +11027,20 @@
       "UKU_protocolo.pdf"
     ],
     "description": "Efectos secundarios de psicofármacos",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "observacion",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "eeaggaf_211",
@@ -7647,7 +11075,20 @@
       "EEAG-GAF_protocolo.pdf"
     ],
     "description": "Funcionamiento global (eje V del DSM-IV)",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "sdi_212",
@@ -7682,7 +11123,23 @@
       "SDI_protocolo.pdf"
     ],
     "description": "Discapacidad funcional",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "sass_213",
@@ -7714,7 +11171,23 @@
       "SASS_protocolo.pdf"
     ],
     "description": "Adaptación social",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico",
+      "laboral"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "personalidad_laboral"
+    }
   },
   {
     "family_id": "qls_214",
@@ -7750,7 +11223,26 @@
       "QLS_protocolo.pdf"
     ],
     "description": "Calidad de vida en esquizofrenia",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico",
+      "laboral",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "salud_ocupacional",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "cscv_215",
@@ -7786,7 +11278,26 @@
       "CSCV_protocolo.pdf"
     ],
     "description": "Calidad de vida",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico",
+      "laboral",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "salud_ocupacional",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "qlds_216",
@@ -7820,7 +11331,26 @@
       "QLDS_protocolo.pdf"
     ],
     "description": "Calidad de vida en depresión",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico",
+      "laboral",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "salud_ocupacional",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "adrql_217",
@@ -7857,7 +11387,29 @@
       "ADRQL_protocolo.pdf"
     ],
     "description": "Calidad de vida en demencia",
-    "use": "Adultos (ver Ficha_Tecnica)"
+    "use": "Adultos (ver Ficha_Tecnica)",
+    "ambitos": [
+      "clinico",
+      "laboral",
+      "juridico",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional",
+      "juridico:capacidad_civil",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "salud_ocupacional",
+      "juridico": "capacidad_cognitiva_competencia",
+      "salud": "deterioro_cognitivo_neuropsicologia"
+    }
   },
   {
     "family_id": "npi-n_218",
@@ -7891,7 +11443,23 @@
       "NPI-N_protocolo.pdf"
     ],
     "description": "Rasgos de personalidad narcisista",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico",
+      "laboral"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "personalidad_laboral"
+    }
   },
   {
     "family_id": "aim-a_219",
@@ -7926,7 +11494,20 @@
       "AIM-A_protocolo.pdf"
     ],
     "description": "Intensidad de la reactividad afectiva",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos"
+    }
   },
   {
     "family_id": "top-8_220",
@@ -7959,7 +11540,23 @@
       "TOP-8_protocolo.pdf"
     ],
     "description": "Respuesta al tratamiento en TEPT",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "juridico",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "juridico:capacidad_civil",
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "juridico": "impacto_trauma_victimizacion",
+      "clinico": "trauma_estres"
+    }
   },
   {
     "family_id": "eat-40_new",
@@ -7990,7 +11587,23 @@
       "EAT-40_protocolo.pdf"
     ],
     "description": "Trastornos de la conducta alimentaria",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "eat-26_new",
@@ -8021,7 +11634,23 @@
       "EAT-26_protocolo.pdf"
     ],
     "description": "Trastornos de la conducta alimentaria",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "eat-40-sergas_new",
@@ -8052,7 +11681,23 @@
       "EAT-40-SERGAS_protocolo.pdf"
     ],
     "description": "Trastornos de la conducta alimentaria",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "cage_new",
@@ -8083,7 +11728,26 @@
       "CAGE_protocolo.pdf"
     ],
     "description": "Consumo de alcohol y adicciones",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "educativo": "dificultades_emocionales_conducta",
+      "juridico": "riesgo_violencia_impulsividad"
+    }
   },
   {
     "family_id": "abs_new",
@@ -8114,7 +11778,23 @@
       "ABS_protocolo.pdf"
     ],
     "description": "Agitación psicomotriz e impulsividad aguda",
-    "use": "Pacientes hospitalizados y adultos"
+    "use": "Pacientes hospitalizados y adultos",
+    "ambitos": [
+      "clinico",
+      "juridico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "juridico:capacidad_civil"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "adicciones_impulsividad",
+      "juridico": "riesgo_violencia_impulsividad"
+    }
   },
   {
     "family_id": "scps_new",
@@ -8145,7 +11825,20 @@
       "SCPS_protocolo.pdf"
     ],
     "description": "Psicosis y curso pronóstico",
-    "use": "Adultos con esquizofrenia"
+    "use": "Adultos con esquizofrenia",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad"
+    }
   },
   {
     "family_id": "sds_new",
@@ -8176,7 +11869,23 @@
       "SDS_protocolo.pdf"
     ],
     "description": "Depresión y estado de ánimo",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "sis_new",
@@ -8207,7 +11916,20 @@
       "SIS_protocolo.pdf"
     ],
     "description": "Riesgo y conducta suicida",
-    "use": "Pacientes con tentativas autolíticas"
+    "use": "Pacientes con tentativas autolíticas",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "rs-plutchik_new",
@@ -8238,7 +11960,23 @@
       "RS-Plutchik_protocolo.pdf"
     ],
     "description": "Riesgo y conducta suicida",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "bsds_new",
@@ -8269,7 +12007,20 @@
       "BSDS_protocolo.pdf"
     ],
     "description": "Trastorno bipolar y ciclotimia",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "psicosis_bipolaridad"
+    }
   },
   {
     "family_id": "hars_new",
@@ -8300,7 +12051,23 @@
       "HARS_protocolo.pdf"
     ],
     "description": "Ansiedad psíquica y somática",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "pas_new",
@@ -8331,7 +12098,20 @@
       "PAS_protocolo.pdf"
     ],
     "description": "Pánico y agorafobia",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "diario-panico_new",
@@ -8362,7 +12142,20 @@
       "Diario-Panico_protocolo.pdf"
     ],
     "description": "Crisis de angustia y pánico",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "lsas_new",
@@ -8393,7 +12186,23 @@
       "LSAS_protocolo.pdf"
     ],
     "description": "Fobia social y ansiedad de desempeño",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "carroll-tag_new",
@@ -8424,7 +12233,23 @@
       "Carroll-TAG_protocolo.pdf"
     ],
     "description": "Ansiedad generalizada",
-    "use": "Adultos en atención médica primaria"
+    "use": "Adultos en atención médica primaria",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "asq-15_new",
@@ -8455,7 +12280,20 @@
       "ASQ-15_protocolo.pdf"
     ],
     "description": "Cribado multitrastorno de ansiedad",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "mini_new",
@@ -8485,7 +12323,20 @@
       "MINI_ficha_tecnica.pdf"
     ],
     "description": "Evaluación diagnóstica multiaxial DSM-IV/CIE-10",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica"
+    ],
+    "metodo": "entrevista",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo"
+    }
   },
   {
     "family_id": "bhs_new",
@@ -8515,7 +12366,23 @@
       "BHS_ficha_tecnica.pdf"
     ],
     "description": "Desesperanza y riesgo suicida",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_sintomatica",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "sintomas_ansiedad_animo",
+      "educativo": "dificultades_emocionales_conducta"
+    }
   },
   {
     "family_id": "empc_new",
@@ -8546,7 +12413,23 @@
       "EMPC_protocolo.pdf"
     ],
     "description": "Estilos de pensamiento y metacognición",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "conducta_adaptativa"
+    }
   },
   {
     "family_id": "tsi_new",
@@ -8577,7 +12460,23 @@
       "TSI_protocolo.pdf"
     ],
     "description": "Estilos cognitivos y autogobierno mental",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "atencion_funciones_ejecutivas"
+    }
   },
   {
     "family_id": "sseit_new",
@@ -8608,7 +12507,23 @@
       "SSEIT_protocolo.pdf"
     ],
     "description": "Inteligencia emocional autopercibida",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "conducta_adaptativa"
+    }
   },
   {
     "family_id": "iss_new",
@@ -8639,7 +12554,23 @@
       "ISS_protocolo.pdf"
     ],
     "description": "Afrontamiento interpersonal y asertividad",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "diagnostico",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "conducta_adaptativa"
+    }
   },
   {
     "family_id": "hsq-24_new",
@@ -8670,7 +12601,23 @@
       "HSQ-24_protocolo.pdf"
     ],
     "description": "Regulación afectiva y mecanismos de humor",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "conducta_adaptativa"
+    }
   },
   {
     "family_id": "er-25_new",
@@ -8700,7 +12647,23 @@
       "ER-25_ficha_tecnica.pdf"
     ],
     "description": "Resiliencia y superación de adversidades",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "educativo"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "educativo:cribado_socioemocional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "procesos_psicologicos",
+      "educativo": "conducta_adaptativa"
+    }
   },
   {
     "family_id": "crea-24_new",
@@ -8731,7 +12694,20 @@
       "CREA-24_protocolo.pdf"
     ],
     "description": "Autoconcepto y autoeficacia creativa",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "sss-v_new",
@@ -8762,7 +12738,23 @@
       "SSS-V_protocolo.pdf"
     ],
     "description": "Rasgo disposicional de personalidad",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "clinico",
+      "laboral"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "personalidad_laboral"
+    }
   },
   {
     "family_id": "katz_new",
@@ -8793,7 +12785,20 @@
       "KATZ_protocolo.pdf"
     ],
     "description": "Autonomía funcional y dependencia biológica",
-    "use": "Adultos mayores y pacientes neurológicos"
+    "use": "Adultos mayores y pacientes neurológicos",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "swbs_new",
@@ -8824,7 +12829,26 @@
       "SWBS_protocolo.pdf"
     ],
     "description": "Bienestar social y ajuste comunitario",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "cultural",
+      "laboral",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "cultural:identidad_y_comunidad",
+      "laboral:ajuste_organizacional",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "cultural": "salud_cultural_alfabetizacion",
+      "laboral": "personalidad_laboral",
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "cgi_new",
@@ -8855,7 +12879,20 @@
       "CGI_protocolo.pdf"
     ],
     "description": "Funcionamiento global y severidad transdiagnóstica",
-    "use": "Población clínica general"
+    "use": "Población clínica general",
+    "ambitos": [
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "q-les-q_new",
@@ -8886,7 +12923,26 @@
       "Q-LES-Q_protocolo.pdf"
     ],
     "description": "Calidad de vida y satisfacción vital",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "clinico",
+      "laboral",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "salud_ocupacional",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "eq-5d_new",
@@ -8916,7 +12972,26 @@
       "EQ-5D_ficha_tecnica.pdf"
     ],
     "description": "Calidad de vida relacionada con la salud",
-    "use": "Población general y clínica"
+    "use": "Población general y clínica",
+    "ambitos": [
+      "clinico",
+      "laboral",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "clinico:evaluacion_procesos",
+      "laboral:ajuste_organizacional",
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "clinico": "personalidad_recursos",
+      "laboral": "salud_ocupacional",
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "zbi_new",
@@ -8946,7 +13021,23 @@
       "ZBI_ficha_tecnica.pdf"
     ],
     "description": "Sobrecarga familiar y dinámica de cuidados",
-    "use": "Cuidadores principales informales"
+    "use": "Cuidadores principales informales",
+    "ambitos": [
+      "salud",
+      "clinico"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico",
+      "clinico:evaluacion_procesos"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "restringido",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico",
+      "clinico": "personalidad_recursos"
+    }
   },
   {
     "family_id": "his_new",
@@ -8977,7 +13068,23 @@
       "HIS_protocolo.pdf"
     ],
     "description": "Diagnóstico diferencial de demencias",
-    "use": "Adultos mayores con sospecha de demencia"
+    "use": "Adultos mayores con sospecha de demencia",
+    "ambitos": [
+      "juridico",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "juridico:capacidad_civil",
+      "salud:perfil_neuropsicologico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "juridico": "capacidad_cognitiva_competencia",
+      "salud": "deterioro_cognitivo_neuropsicologia"
+    }
   },
   {
     "family_id": "cfss_new",
@@ -9008,7 +13115,23 @@
       "CFSS_protocolo.pdf"
     ],
     "description": "Quejas cognitivas subjetivas cotidianas",
-    "use": "Adolescentes y adultos"
+    "use": "Adolescentes y adultos",
+    "ambitos": [
+      "educativo",
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "educativo:cribado_socioemocional",
+      "salud:perfil_neuropsicologico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "educativo": "atencion_funciones_ejecutivas",
+      "salud": "deterioro_cognitivo_neuropsicologia"
+    }
   },
   {
     "family_id": "gsqs_new",
@@ -9039,7 +13162,20 @@
       "GSQS_protocolo.pdf"
     ],
     "description": "Calidad de descanso e insomnio agudo",
-    "use": "Adultos"
+    "use": "Adultos",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "sueno_ritmos"
+    }
   },
   {
     "family_id": "othmer-desouza_new",
@@ -9070,7 +13206,20 @@
       "Othmer-DeSouza_protocolo.pdf"
     ],
     "description": "Síntomas somatomorfos y somatización",
-    "use": "Adultos policonsultantes"
+    "use": "Adultos policonsultantes",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "laxitud-hdm_new",
@@ -9101,7 +13250,20 @@
       "Laxitud-HdM_protocolo.pdf"
     ],
     "description": "Marcador somático de hiperlaxitud y pánico",
-    "use": "Población general y clínica de ansiedad"
+    "use": "Población general y clínica de ansiedad",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "seguimiento",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "bars_new",
@@ -9132,7 +13294,20 @@
       "BARS_protocolo.pdf"
     ],
     "description": "Efectos extrapiramidales y farmacovigilancia",
-    "use": "Pacientes bajo psicofármacos"
+    "use": "Pacientes bajo psicofármacos",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "autoinforme",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   },
   {
     "family_id": "aims_new",
@@ -9163,6 +13338,19 @@
       "AIMS_protocolo.pdf"
     ],
     "description": "Farmacovigilancia y discinesia tardía",
-    "use": "Pacientes bajo antipsicóticos"
+    "use": "Pacientes bajo antipsicóticos",
+    "ambitos": [
+      "salud"
+    ],
+    "rol_en_ambito": [
+      "salud:impacto_medico"
+    ],
+    "metodo": "observacion",
+    "nivel_uso": "cribado",
+    "cualificacion": "libre",
+    "baremos_locales": "no verificado",
+    "secciones": {
+      "salud": "adhesion_afrontamiento_medico"
+    }
   }
 ]

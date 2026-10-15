@@ -20,6 +20,7 @@ import ejesData from "../../data/ejes.json";
 import rawIndice from "../../data/indice_psicoflujo.json";
 import { crearIndice, buscar } from "../../buscador_indice";
 import { claMap } from "../lib/guia";
+import { AmbitoSelector, AMBITOS } from "./ambito-selector";
 
 export interface CatalogItem {
   family_id: string;
@@ -41,6 +42,13 @@ export interface CatalogItem {
   archivos: string[];
   description?: string;
   use?: string;
+  ambitos?: string[];
+  rol_en_ambito?: string[];
+  secciones?: Record<string, string | undefined>;
+  metodo?: string;
+  nivel_uso?: string;
+  cualificacion?: string;
+  baremos_locales?: string;
 }
 
 export interface AxisInfo {
@@ -102,7 +110,7 @@ export const indexThemeMap = new Map<string, IndiceTema>(
   indiceData.temas.map((t) => [t.id, t])
 );
 
-export const catalog = rawCatalog as CatalogItem[];
+export const catalog = rawCatalog as unknown as CatalogItem[];
 
 export const AXES: AxisInfo[] = ejesData;
 
@@ -134,6 +142,10 @@ interface InstrumentLibraryProps {
   setSelectedTipo?: (tipo: string) => void;
   selectedLibre?: boolean;
   setSelectedLibre?: (libre: boolean) => void;
+  selectedAmbito?: string;
+  setSelectedAmbito?: (ambito: string) => void;
+  selectedSeccion?: string;
+  setSelectedSeccion?: (sec: string) => void;
 }
 
 export function InstrumentLibrary(props: InstrumentLibraryProps) {
@@ -145,6 +157,8 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
   const [internalFuncion, setInternalFuncion] = useState<string>("all");
   const [internalTipo, setInternalTipo] = useState<string>("all");
   const [internalLibre, setInternalLibre] = useState<boolean>(false);
+  const [internalAmbito, setInternalAmbito] = useState<string>("all");
+  const [internalSeccion, setInternalSeccion] = useState<string>("all");
 
   const query = props.query !== undefined ? props.query : internalQuery;
   const setQuery = props.setQuery || setInternalQuery;
@@ -167,6 +181,12 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
 
   const selectedLibre = props.selectedLibre !== undefined ? props.selectedLibre : internalLibre;
   const setSelectedLibre = props.setSelectedLibre || setInternalLibre;
+
+  const selectedAmbito = props.selectedAmbito !== undefined ? props.selectedAmbito : internalAmbito;
+  const setSelectedAmbito = props.setSelectedAmbito || setInternalAmbito;
+
+  const selectedSeccion = props.selectedSeccion !== undefined ? props.selectedSeccion : internalSeccion;
+  const setSelectedSeccion = props.setSelectedSeccion || setInternalSeccion;
 
   const [open, setOpen] = useState<string | null>(null);
   const [showAllThemesMobile, setShowAllThemesMobile] = useState(false);
@@ -201,6 +221,15 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
       }));
   }, []);
 
+  // Conteo de instrumentos por ámbito
+  const catalogCountsByAmbito = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const amb of AMBITOS) {
+      counts[amb.id] = catalog.filter((it) => it.ambitos?.includes(amb.id)).length;
+    }
+    return counts;
+  }, []);
+
   // Filtered instruments
   const filtered = useMemo(() => {
     let searchHitMap: Map<string, { score: number; parcial: boolean; rank: number }> | null = null;
@@ -226,6 +255,20 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
     return catalog
       .filter((item) => {
         const famIndex = indexFamilyMap.get(item.family_id);
+
+        // Ámbito filter
+        if (selectedAmbito !== "all" && selectedAmbito !== "general") {
+          if (!item.ambitos || !item.ambitos.includes(selectedAmbito)) {
+            return false;
+          }
+          // Sección filter dentro del ámbito
+          if (selectedSeccion !== "all") {
+            const itemSec = item.secciones?.[selectedAmbito];
+            if (itemSec !== selectedSeccion) {
+              return false;
+            }
+          }
+        }
 
         // Search match filter
         if (searchHitMap && !searchHitMap.has(item.family_id)) {
@@ -287,11 +330,70 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
         }
         return a.sigla.localeCompare(b.sigla);
       });
-  }, [selectedAxis, selectedFranja, selectedTheme, selectedFuncion, selectedTipo, selectedLibre, deferredQuery, props.searchResults]);
+  }, [selectedAxis, selectedFranja, selectedTheme, selectedFuncion, selectedTipo, selectedLibre, selectedAmbito, selectedSeccion, deferredQuery, props.searchResults]);
 
-  // Group filtered results by Axis
-  const groupedByAxis = useMemo(() => {
-    const groups: { num: number; label: string; name: string; items: CatalogItem[] }[] = [];
+  // Group filtered results by Axis (General) OR by Section (Active Ámbito)
+  const groupedResults = useMemo(() => {
+    const isAmbitoActive = selectedAmbito !== "all" && selectedAmbito !== "general";
+    const activeAmbito = isAmbitoActive ? AMBITOS.find((a) => a.id === selectedAmbito) : null;
+
+    if (activeAmbito && activeAmbito.secciones && activeAmbito.secciones.length > 0) {
+      // Agrupación por las secciones del ámbito activo
+      const groups: {
+        id: string;
+        isSection: boolean;
+        titulo: string;
+        criterio?: string;
+        num?: number;
+        label?: string;
+        name?: string;
+        items: CatalogItem[];
+      }[] = [];
+
+      for (let i = 0; i < activeAmbito.secciones.length; i++) {
+        const sec = activeAmbito.secciones[i];
+        if (selectedSeccion !== "all" && selectedSeccion !== sec.id) {
+          continue;
+        }
+        const items = filtered.filter((it) => it.secciones?.[selectedAmbito] === sec.id);
+        if (items.length > 0 || (selectedAmbito === "educativo" && selectedSeccion === "all")) {
+          groups.push({
+            id: sec.id,
+            isSection: true,
+            titulo: `${i + 1}. ${sec.titulo}`,
+            criterio: sec.criterio,
+            items,
+          });
+        }
+      }
+
+      // Añadir items no asignados si los hubiese
+      const assignedIds = new Set(groups.flatMap((g) => g.items.map((it) => it.family_id)));
+      const unassignedItems = filtered.filter((it) => !assignedIds.has(it.family_id));
+      if (unassignedItems.length > 0 && selectedSeccion === "all") {
+        groups.push({
+          id: "otros",
+          isSection: true,
+          titulo: "Otros instrumentos de este ámbito",
+          criterio: "Instrumentos complementarios catalogados en esta área",
+          items: unassignedItems,
+        });
+      }
+
+      return groups;
+    }
+
+    // Agrupación canónica por Ejes (Eje I a Eje VI)
+    const groups: {
+      id: string;
+      isSection: boolean;
+      titulo?: string;
+      criterio?: string;
+      num?: number;
+      label?: string;
+      name?: string;
+      items: CatalogItem[];
+    }[] = [];
     const axesToShow = selectedAxis === "all" ? [1, 2, 3, 4, 5, 6] : [selectedAxis];
     for (const num of axesToShow) {
       const items = filtered.filter((it) => {
@@ -301,6 +403,8 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
       });
       if (items.length > 0) {
         groups.push({
+          id: `axis-${num}`,
+          isSection: false,
           num,
           label: AXIS_MAP[num].label,
           name: AXIS_MAP[num].name,
@@ -309,7 +413,7 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
       }
     }
     return groups;
-  }, [filtered, selectedAxis]);
+  }, [filtered, selectedAxis, selectedAmbito, selectedSeccion]);
 
   const hasActiveFilters =
     query !== "" ||
@@ -318,7 +422,9 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
     selectedTheme !== "all" ||
     selectedFuncion !== "all" ||
     selectedTipo !== "all" ||
-    selectedLibre;
+    selectedLibre ||
+    (selectedAmbito !== "all" && selectedAmbito !== "general") ||
+    selectedSeccion !== "all";
 
   const activeFiltersCount =
     (query ? 1 : 0) +
@@ -327,7 +433,9 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
     (selectedTheme !== "all" ? 1 : 0) +
     (selectedFuncion !== "all" ? 1 : 0) +
     (selectedTipo !== "all" ? 1 : 0) +
-    (selectedLibre ? 1 : 0);
+    (selectedLibre ? 1 : 0) +
+    (selectedAmbito !== "all" && selectedAmbito !== "general" ? 1 : 0) +
+    (selectedSeccion !== "all" ? 1 : 0);
 
   const resetFilters = useCallback(() => {
     setQuery("");
@@ -337,8 +445,10 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
     setSelectedFuncion("all");
     setSelectedTipo("all");
     setSelectedLibre(false);
+    setSelectedAmbito("all");
+    setSelectedSeccion("all");
     setOpen(null);
-  }, [setQuery, setSelectedAxis, setSelectedFranja, setSelectedTheme, setSelectedFuncion, setSelectedTipo, setSelectedLibre]);
+  }, [setQuery, setSelectedAxis, setSelectedFranja, setSelectedTheme, setSelectedFuncion, setSelectedTipo, setSelectedLibre, setSelectedAmbito, setSelectedSeccion]);
 
   // Sync URL search params on client mount
   useEffect(() => {
@@ -351,10 +461,20 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
     const fnParam = params.get("fn");
     const quienParam = params.get("quien");
     const libreParam = params.get("libre");
+    const ambitoParam = params.get("ambito");
+    const secParam = params.get("sec");
 
     let hasParam = false;
     if (qParam) {
       setQuery(qParam);
+      hasParam = true;
+    }
+    if (ambitoParam && ambitoParam !== "all") {
+      setSelectedAmbito(ambitoParam);
+      hasParam = true;
+    }
+    if (secParam && secParam !== "all") {
+      setSelectedSeccion(secParam);
       hasParam = true;
     }
     if (ejeParam) {
@@ -393,7 +513,7 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
         }
       }, 150);
     }
-  }, [setQuery, setSelectedAxis, setSelectedFranja, setSelectedTheme, setSelectedFuncion, setSelectedTipo, setSelectedLibre]);
+  }, [setQuery, setSelectedAxis, setSelectedFranja, setSelectedTheme, setSelectedFuncion, setSelectedTipo, setSelectedLibre, setSelectedAmbito, setSelectedSeccion]);
 
   // Update URL search params when filters change without reload
   const isInitialMount = useRef(true);
@@ -408,6 +528,11 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
     const currentParams = new URLSearchParams(window.location.search);
     if (currentParams.get("guia")) params.set("guia", currentParams.get("guia")!);
 
+    if (selectedAmbito !== "all" && selectedAmbito !== "general") {
+      params.set("ambito", selectedAmbito);
+      if (selectedSeccion !== "all") params.set("sec", selectedSeccion);
+    }
+
     if (query.trim()) params.set("q", query.trim());
     if (selectedAxis !== "all") params.set("eje", String(selectedAxis));
     if (selectedFranja !== "all") params.set("edad", selectedFranja);
@@ -419,10 +544,10 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
     const qs = params.toString();
     const newUrl = qs ? `?${qs}` : window.location.pathname;
     window.history.replaceState(null, "", newUrl);
-  }, [query, selectedAxis, selectedFranja, selectedTheme, selectedFuncion, selectedTipo, selectedLibre]);
+  }, [query, selectedAxis, selectedFranja, selectedTheme, selectedFuncion, selectedTipo, selectedLibre, selectedAmbito, selectedSeccion]);
 
   return (
-    <section className="library-section" id="biblioteca" aria-label="Biblioteca de instrumentos de evaluación psicológica">
+    <section className="library-section" id="biblioteca" data-ambito={selectedAmbito} aria-label="Biblioteca de instrumentos de evaluación psicológica">
       <div className="library-heading">
         <div>
           <span className="overline">Catálogo General de Instrumentos</span>
@@ -432,6 +557,16 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
           {catalog.length} instrumentos · {totalDocuments} documentos · 6 ejes · {themeList.length} temas
         </span>
       </div>
+
+      {/* Selector de Ámbitos y Enfoques de Decisión Disciplinar */}
+      <AmbitoSelector
+        selectedAmbito={selectedAmbito}
+        onSelectAmbito={setSelectedAmbito}
+        selectedSeccion={selectedSeccion}
+        onSelectSeccion={setSelectedSeccion}
+        catalogCounts={catalogCountsByAmbito}
+        totalCount={catalog.length}
+      />
 
       {/* Barra única de búsqueda y filtros (Sticky) */}
       <div className="catalog-controls-v1 library-sticky-bar">
@@ -896,27 +1031,45 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
         </div>
       </details>
 
-      {/* Listado de instrumentos agrupados por Eje */}
+      {/* Listado de instrumentos agrupados por Eje o por Sección de Ámbito */}
       {filtered.length ? (
         <div className="instrument-groups">
-          {groupedByAxis.map((group) => (
-            <section
-              className="instrument-group"
-              aria-labelledby={`axis-${group.num}`}
-              key={group.num}
-            >
-              <div className="group-heading">
-                <span className="group-marker" />
-                <h3 id={`axis-${group.num}`}>
-                  {group.label} · {group.name}
-                </h3>
-                <span>
-                  {group.items.length}{" "}
-                  {group.items.length === 1 ? "instrumento" : "instrumentos"}
-                </span>
-              </div>
-              <div className="instrument-list">
-                {group.items.map((item, index) => {
+          {groupedResults.map((group) => {
+            const activeAmbitoMeta =
+              selectedAmbito !== "all" && selectedAmbito !== "general"
+                ? AMBITOS.find((a) => a.id === selectedAmbito)
+                : null;
+            return (
+              <section
+                className="instrument-group"
+                aria-labelledby={group.isSection ? `section-${group.id}` : `axis-${group.num}`}
+                key={group.id}
+              >
+                <div className={`group-heading ${group.isSection ? "ambito-section-heading" : ""}`}>
+                  <span
+                    className="group-marker"
+                    style={
+                      group.isSection && activeAmbitoMeta
+                        ? { background: activeAmbitoMeta.color_tema.primary }
+                        : undefined
+                    }
+                  />
+                  <div>
+                    <h3 id={group.isSection ? `section-${group.id}` : `axis-${group.num}`}>
+                      {group.isSection ? group.titulo : `${group.label} · ${group.name}`}
+                    </h3>
+                    {group.isSection && group.criterio && (
+                      <p className="group-criterio">{group.criterio}</p>
+                    )}
+                  </div>
+                  <span>
+                    {group.items.length}{" "}
+                    {group.items.length === 1 ? "instrumento" : "instrumentos"}
+                  </span>
+                </div>
+                {group.items.length > 0 ? (
+                  <div className="instrument-list">
+                    {group.items.map((item, index) => {
                   const isOpen = open === item.family_id;
                   const famIndex = indexFamilyMap.get(item.family_id);
                   const primaryThemeName = indexThemeMap.get(famIndex?.tema ?? "")?.nombre || item.temas?.[0] || "";
@@ -1056,6 +1209,62 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                             <small className="detail-acceso-text">
                               {item.acceso}
                             </small>
+
+                            {/* Metadatos de Cualificación, Uso y Baremos */}
+                            <div className="detail-meta-grid">
+                              <div className="detail-meta-item">
+                                <span className="detail-meta-label">Método y Nivel</span>
+                                <span className="detail-meta-value">
+                                  {item.metodo ? item.metodo.replace(/_/g, " ") : "Autoinforme"} · {item.nivel_uso ? item.nivel_uso.replace(/_/g, " ") : "Cribado"}
+                                </span>
+                              </div>
+
+                              <div className="detail-meta-item">
+                                <span className="detail-meta-label">Cualificación requerida</span>
+                                <span className={`detail-meta-badge cualificacion-${item.cualificacion || "libre"}`}>
+                                  {item.cualificacion === "restringido"
+                                    ? "Restringido (Cualificación requerida)"
+                                    : item.cualificacion === "formacion_especifica"
+                                    ? "Formación específica requerida"
+                                    : "Libre uso profesional"}
+                                </span>
+                              </div>
+
+                              <div className="detail-meta-item">
+                                <span className="detail-meta-label">Baremos locales</span>
+                                <span className="detail-meta-value baremos-alerta">
+                                  {item.baremos_locales ? `Baremos locales: ${item.baremos_locales}` : "Baremos locales: no verificado"}
+                                </span>
+                              </div>
+                            </div>
+
+                            {/* Áreas de Aplicación Interdisciplinar */}
+                            {item.ambitos && item.ambitos.length > 0 && (
+                              <div className="detail-ambitos-box">
+                                <span className="detail-meta-label">Áreas de aplicación interdisciplinar</span>
+                                <div className="detail-ambitos-list">
+                                  {item.ambitos.map((ambId) => {
+                                    const ambMeta = AMBITOS.find((a) => a.id === ambId);
+                                    if (!ambMeta) return null;
+                                    return (
+                                      <span
+                                        key={ambId}
+                                        className="detail-ambito-pill"
+                                        style={
+                                          {
+                                            "--badge-bg": ambMeta.color_tema.badge_bg,
+                                            "--badge-text": ambMeta.color_tema.badge_text,
+                                            "--badge-border": ambMeta.color_tema.accent_border,
+                                          } as React.CSSProperties
+                                        }
+                                      >
+                                        {ambMeta.nombre_corto || ambMeta.nombre}
+                                      </span>
+                                    );
+                                  })}
+                                </div>
+                              </div>
+                            )}
                           </div>
 
                           {(() => {
@@ -1133,8 +1342,14 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                   );
                 })}
               </div>
+              ) : (
+                <div className="empty-section-notice" style={{ padding: "14px 20px", color: "var(--muted)", fontStyle: "italic", fontSize: "12px" }}>
+                  No hay instrumentos en esta sección para los filtros activos.
+                </div>
+              )}
             </section>
-          ))}
+          );
+        })}
         </div>
       ) : (
         <div className="empty-state">

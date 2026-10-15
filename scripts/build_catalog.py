@@ -258,6 +258,32 @@ def main():
     #     shutil.rmtree(pub_inst)
     os.makedirs(pub_inst, exist_ok=True)
     
+    # Cargar ambitos_propuesta.csv si existe
+    ambitos_map = {}
+    amb_prop_file = os.path.join(REPO_DIR, '..', 'banco', 'ambitos_propuesta.csv')
+    if not os.path.exists(amb_prop_file):
+        amb_prop_file = os.path.join(BASE_DIR, 'ambitos_propuesta.csv')
+    if os.path.exists(amb_prop_file):
+        with open(amb_prop_file, 'r', encoding='utf-8') as f:
+            for row_a in csv.DictReader(f):
+                fid_a = row_a['family_id'].strip()
+                sec_dict = {}
+                if 'secciones' in row_a and row_a['secciones']:
+                    for pair in row_a['secciones'].split(';'):
+                        if ':' in pair:
+                            ak, sk = pair.split(':', 1)
+                            sec_dict[ak.strip()] = sk.strip()
+                ambitos_map[fid_a] = {
+                    'ambitos': [a.strip() for a in row_a['ambitos'].split(';') if a.strip()],
+                    'rol_en_ambito': [r.strip() for r in row_a['rol_en_ambito'].split(';') if r.strip()],
+                    'secciones': sec_dict,
+                    'metodo': row_a['metodo'].strip(),
+                    'nivel_uso': row_a['nivel_uso'].strip(),
+                    'cualificacion': row_a['cualificacion'].strip(),
+                    'baremos_locales': row_a['baremos_locales'].strip()
+                }
+        print(f'Mapeo de ámbitos cargado: {len(ambitos_map)} familias.')
+
     catalog_items = []
     copied_fichas = 0
     copied_protocolos = 0
@@ -360,6 +386,7 @@ def main():
                 if s_clean and s_clean not in sin_list:
                     sin_list.append(s_clean)
         
+        amb_data = ambitos_map.get(fid, {})
         catalog_items.append({
             'family_id': fid,
             'eje': eje_raw,
@@ -379,7 +406,14 @@ def main():
             'fuente_url': fuente_url,
             'archivos': archivos,
             'description': description,
-            'use': use
+            'use': use,
+            'ambitos': amb_data.get('ambitos', ['clinico']),
+            'rol_en_ambito': amb_data.get('rol_en_ambito', ['clinico:general']),
+            'secciones': amb_data.get('secciones', {}),
+            'metodo': amb_data.get('metodo', 'autoinforme'),
+            'nivel_uso': amb_data.get('nivel_uso', 'cribado'),
+            'cualificacion': amb_data.get('cualificacion', 'libre'),
+            'baremos_locales': amb_data.get('baremos_locales', 'no verificado')
         })
         
     catalog_json_path = os.path.join(REPO_DIR, 'data', 'catalog.json')

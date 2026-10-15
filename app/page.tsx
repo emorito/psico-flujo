@@ -23,6 +23,18 @@ export default function Home() {
   const [selectedFuncion, setSelectedFuncion] = useState<string>("all");
   const [selectedTipo, setSelectedTipo] = useState<string>("all");
   const [selectedLibre, setSelectedLibre] = useState<boolean>(false);
+  const [selectedAmbito, setSelectedAmbito] = useState<string>(() => {
+    if (typeof window !== "undefined") {
+      return new URLSearchParams(window.location.search).get("ambito") || "all";
+    }
+    return "all";
+  });
+  const [selectedSeccion, setSelectedSeccion] = useState<string>(() => {
+    if (typeof window !== "undefined") {
+      return new URLSearchParams(window.location.search).get("sec") || "all";
+    }
+    return "all";
+  });
   const [showGuia] = useState<boolean>(() => {
     if (typeof window !== "undefined") {
       return new URLSearchParams(window.location.search).get("guia") === "1";
@@ -66,11 +78,15 @@ export default function Home() {
   const handleSelectAxis = (axisNum: number) => {
     setSelectedAxis(axisNum);
     setSelectedTheme("all");
+    setSelectedAmbito("all");
+    setSelectedSeccion("all");
   };
 
   const handleSelectAxisAndTheme = (axisNum: number, theme: string) => {
     setSelectedAxis(axisNum);
     setSelectedTheme(theme);
+    setSelectedAmbito("all");
+    setSelectedSeccion("all");
   };
 
   const filtrosActuales: FiltrosGuia = {
@@ -110,6 +126,8 @@ export default function Home() {
     setSelectedFuncion("all");
     setSelectedTipo("all");
     setSelectedLibre(false);
+    setSelectedAmbito("all");
+    setSelectedSeccion("all");
     setQuery("");
   };
 
@@ -238,6 +256,10 @@ export default function Home() {
         setSelectedTipo={setSelectedTipo}
         selectedLibre={selectedLibre}
         setSelectedLibre={setSelectedLibre}
+        selectedAmbito={selectedAmbito}
+        setSelectedAmbito={setSelectedAmbito}
+        selectedSeccion={selectedSeccion}
+        setSelectedSeccion={setSelectedSeccion}
       />
 
       {showGuia && (
