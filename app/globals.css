@@ -149,7 +149,7 @@ nav a:hover {
   align-items: center;
   color: white;
   background: #0c1337;
-  padding-top: 64px;
+  padding-top: 24px;
 }
 .hero-backdrop {
   position: absolute;
@@ -2839,6 +2839,12 @@ nav a:hover {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   position: relative;
   z-index: 20;
+}
+
+@media (max-width: 640px) {
+  .ambito-gateway {
+    margin-top: 56px;
+  }
 }
 
 .gateway-context-bar {

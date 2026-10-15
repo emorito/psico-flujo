@@ -249,7 +249,6 @@ export function PsicoflujoView({ initialAmbito = "all" }: PsicoflujoViewProps) {
       {/* Capa de Orientación por Ámbitos (justo debajo del encabezado) */}
       <AmbitoGateway
         currentAmbito={selectedAmbito}
-        onSelectAmbito={initialAmbito === "all" ? setSelectedAmbito : undefined}
         instrumentCount={currentAmbitoInstrumentsCount}
       />
 

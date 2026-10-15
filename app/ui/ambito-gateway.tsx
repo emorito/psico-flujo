@@ -17,7 +17,6 @@ import ambitosData from "../../data/ambitos.json";
 
 interface AmbitoGatewayProps {
   currentAmbito: string;
-  onSelectAmbito?: (ambitoId: string) => void;
   instrumentCount?: number;
 }
 
@@ -33,7 +32,7 @@ const AMBITO_LINKS = [
   { id: "cultural", href: "/cultural", label: "Cultural y Comunitaria", short: "Cultural", count: 8, icon: Globe2 },
 ];
 
-export function AmbitoGateway({ currentAmbito, onSelectAmbito }: AmbitoGatewayProps) {
+export function AmbitoGateway({ currentAmbito }: AmbitoGatewayProps) {
   const isCustomAmbito = currentAmbito && currentAmbito !== "all";
   const activeData = ambitosData.find(
     (a) => a.id === currentAmbito || (currentAmbito === "forense" && a.id === "juridico")
@@ -74,23 +73,6 @@ export function AmbitoGateway({ currentAmbito, onSelectAmbito }: AmbitoGatewayPr
           {AMBITO_LINKS.map((item) => {
             const IconComponent = item.icon;
             const isActive = currentAmbito === item.id || (item.id === "juridico" && currentAmbito === "forense");
-
-            if (onSelectAmbito) {
-              return (
-                <button
-                  key={item.id}
-                  type="button"
-                  onClick={() => onSelectAmbito(item.id)}
-                  className={`gateway-pill ${isActive ? "active" : ""}`}
-                  data-ambito-btn={item.id}
-                  aria-pressed={isActive}
-                >
-                  <IconComponent size={14} className="gateway-pill-icon" />
-                  <span className="gateway-pill-name">{item.short}</span>
-                  <span className="gateway-pill-count">{item.count}</span>
-                </button>
-              );
-            }
 
             return (
               <Link
