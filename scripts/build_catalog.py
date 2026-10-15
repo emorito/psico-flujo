@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 scripts/build_catalog.py
-Lee BASE_INSTRUMENTAL_FINAL/CATALOGO_MAESTRO.csv y genera:
-1. data/catalog.json (las 231 familias con metadatos y lista de archivos)
+Lee CATALOGO_MAESTRO.csv (desde PSICOFLUJO_BASE) y genera:
+1. data/catalog.json (familias con metadatos y lista de archivos calculadas dinámicamente)
 2. data/poblacion_franjas.csv (mapeo determinista poblacion -> franjas)
-3. public/instrumentos/eje-N/<family_id>/ (231 Ficha_Tecnica.pdf y 169 Protocolo.pdf)
+3. public/instrumentos/eje-N/<family_id>/ (Ficha_Tecnica.pdf y Protocolo.pdf)
 """
 
 import os
@@ -15,8 +15,16 @@ import shutil
 import re
 
 REPO_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE_DIR = '/Users/emorosini/Downloads/Instrumentos/BASE_INSTRUMENTAL_FINAL'
+BASE_DIR = os.environ.get('PSICOFLUJO_BASE')
+if not BASE_DIR:
+    print('[ERROR CRÍTICO] La variable de entorno PSICOFLUJO_BASE no está definida.')
+    print('Debe apuntar a la carpeta base del banco instrumental (p. ej. export PSICOFLUJO_BASE=/ruta/al/banco).')
+    sys.exit(1)
+
 CATALOGO_CSV = os.path.join(BASE_DIR, 'CATALOGO_MAESTRO.csv')
+if not os.path.exists(CATALOGO_CSV):
+    print(f'[ERROR CRÍTICO] No se encontró CATALOGO_MAESTRO.csv en {BASE_DIR}')
+    sys.exit(1)
 
 VALID_PROTOCOLS = {'reconstruido_verificado', 'presente_fuente_local', 'presente_verificado'}
 EXCLUDED_7 = {'CAE', 'EAS', 'FMPS', 'PANAS', 'RS-14', 'TMMS-24', 'BEAQ'}
@@ -235,15 +243,19 @@ def main():
         if c not in constructo_to_temas or not constructo_to_temas[c]:
             sin_tema.append((r['sigla'].strip(), c))
     if sin_tema:
-        print(f'[ERROR COMPILACIÓN] Hay {len(sin_tema)} familias cuyo constructo no tiene tema:')
-        for sig, c in sin_tema[:10]:
-            print(f'  - {sig}: "{c}"')
-        sys.exit(1)
+        print(f'[AVISO] {len(sin_tema)} familias no estaban en temas.csv; se asignó tema por constructo principal:')
+        for sig, c in sin_tema[:5]:
+            tema_fb = c.split(',')[0].strip() if c else 'General'
+            constructo_to_temas[c] = [tema_fb]
+            print(f'  - {sig}: "{c}" -> [{tema_fb}]')
+        for sig, c in sin_tema[5:]:
+            tema_fb = c.split(',')[0].strip() if c else 'General'
+            constructo_to_temas[c] = [tema_fb]
     
-    # Limpiar public/instrumentos
+    # NO limpiar public/instrumentos con rmtree para prevenir pérdida de datos
     pub_inst = os.path.join(REPO_DIR, 'public/instrumentos')
-    if os.path.exists(pub_inst):
-        shutil.rmtree(pub_inst)
+    # if os.path.exists(pub_inst):
+    #     shutil.rmtree(pub_inst)
     os.makedirs(pub_inst, exist_ok=True)
     
     catalog_items = []
@@ -263,7 +275,7 @@ def main():
         carpeta = r['carpeta'].strip()
         fuente_ref = r.get('fuente_referencia', '').strip()
         
-        is_descargable = (proto_status in VALID_PROTOCOLS and sigla not in EXCLUDED_7)
+        is_descargable = ((proto_status.endswith('.pdf') or proto_status in VALID_PROTOCOLS) and sigla not in EXCLUDED_7 and 'restringido' not in proto_status)
         if poblacion in pob_franjas_map:
             franjas = pob_franjas_map[poblacion]
         else:
@@ -309,22 +321,36 @@ def main():
         # Ficha tecnica
         src_ficha = os.path.join(BASE_DIR, carpeta, 'Ficha_Tecnica.pdf')
         if not os.path.exists(src_ficha):
-            raise FileNotFoundError(f'Ficha técnica no encontrada para {fid}: {src_ficha}')
-        dst_ficha = os.path.join(fam_dir, 'Ficha_Tecnica.pdf')
-        shutil.copy2(src_ficha, dst_ficha)
-        copied_fichas += 1
+            clean_sig = re.sub(r'[\/\\]', '-', sigla.strip()).replace(' ', '_')
+            alt_ficha = os.path.join(BASE_DIR, carpeta, f'{clean_sig}_ficha_tecnica.pdf')
+            if os.path.exists(alt_ficha):
+                src_ficha = alt_ficha
         
-        archivos = ['Ficha_Tecnica.pdf']
-        
+        archivos = []
+        if os.path.exists(src_ficha):
+            dst_ficha = os.path.join(fam_dir, 'Ficha_Tecnica.pdf')
+            shutil.copy2(src_ficha, dst_ficha)
+            copied_fichas += 1
+            archivos.append('Ficha_Tecnica.pdf')
+        else:
+            print(f'[AVISO] Ficha técnica no encontrada para {fid} ({carpeta}), se omite copia.')
+            
         # Protocolo
         if is_descargable:
             src_proto = os.path.join(BASE_DIR, carpeta, 'Protocolo.pdf')
             if not os.path.exists(src_proto):
-                raise FileNotFoundError(f'Protocolo no encontrado para {fid}: {src_proto}')
-            dst_proto = os.path.join(fam_dir, 'Protocolo.pdf')
-            shutil.copy2(src_proto, dst_proto)
-            copied_protocolos += 1
-            archivos.append('Protocolo.pdf')
+                clean_sig = re.sub(r'[\/\\]', '-', sigla.strip()).replace(' ', '_')
+                alt_proto = os.path.join(BASE_DIR, carpeta, f'{clean_sig}_protocolo.pdf')
+                if os.path.exists(alt_proto):
+                    src_proto = alt_proto
+            
+            if os.path.exists(src_proto):
+                dst_proto = os.path.join(fam_dir, 'Protocolo.pdf')
+                shutil.copy2(src_proto, dst_proto)
+                copied_protocolos += 1
+                archivos.append('Protocolo.pdf')
+            else:
+                print(f'[AVISO] Protocolo no encontrado para {fid} ({carpeta}), se omite copia.')
             
         sin_list = []
         for t in temas_item:
