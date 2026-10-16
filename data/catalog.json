@@ -649,13 +649,12 @@
       "adultos"
     ],
     "acceso": "No (Copyright Pearson)",
-    "descargable": true,
-    "protocolo_estado": "BDI-II_protocolo.pdf",
-    "protocolo_etiqueta": "",
+    "descargable": false,
+    "protocolo_estado": "restringido_licencia",
+    "protocolo_etiqueta": "Protocolo con derechos reservados",
     "fuente_url": "",
     "archivos": [
-      "Ficha_Tecnica.pdf",
-      "Protocolo.pdf"
+      "Ficha_Tecnica.pdf"
     ],
     "description": "Valora la presencia y severidad de síntomas cognitivos, afectivos y somáticos de depresión.",
     "use": "Severidad depresiva",
