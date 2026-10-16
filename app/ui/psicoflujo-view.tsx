@@ -83,6 +83,7 @@ export function PsicoflujoView({ initialAmbito = "all" }: PsicoflujoViewProps) {
   // Sincronizar initialAmbito cuando cambie la ruta dinámica o prop
   useEffect(() => {
     const norm = normalizeAmbito(initialAmbito);
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSelectedAmbito(norm);
     setSelectedSeccion("all");
   }, [initialAmbito]);

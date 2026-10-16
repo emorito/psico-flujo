@@ -209,10 +209,6 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
     return catalog.filter((it) => it.ambitos?.includes(targetId));
   }, [isAmbitoActive, activeAmbito]);
 
-  const scopedTotalDocs = useMemo(() => {
-    return scopedBaseCatalog.reduce((acc, item) => acc + item.archivos.length, 0);
-  }, [scopedBaseCatalog]);
-
   const [open, setOpen] = useState<string | null>(null);
   const [showAllThemesMobile, setShowAllThemesMobile] = useState(false);
   const [themeCloudCollapsedMobile, setThemeCloudCollapsedMobile] = useState(true);
