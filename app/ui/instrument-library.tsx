@@ -1419,89 +1419,21 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                       {isOpen && (
                         <div className="instrument-detail">
                           <div className="detail-context">
-                            {isAmbitoActive && activeAmbito && secMeta ? (
-                              <div className="detail-dimension-box">
-                                <span className="detail-meta-label">Dimensión Disciplinar ({activeAmbito.nombre_corto})</span>
-                                <p className="detail-dimension-desc">
-                                  <strong>{secMeta.titulo}</strong> — {secMeta.criterio}
-                                </p>
-                              </div>
-                            ) : (
-                              <>
-                                <span>Eje y constructo</span>
-                                <strong>{item.eje} · {item.constructo}</strong>
-                              </>
-                            )}
-
-                            {/* Tema clínico asignado y secundarios con botones clicables (solo en Vista General) */}
-                            {!isAmbitoActive && resolvedThemes.length > 0 && (
-                              <div className="detail-themes-box">
-                                <span>Temas clínicos</span>
-                                <div className="detail-themes-list">
-                                  {resolvedThemes.map((t) => (
-                                    <button
-                                      key={t}
-                                      type="button"
-                                      className={`theme-badge-btn ${selectedTheme === t ? "active" : ""}`}
-                                      onClick={() => {
-                                        setSelectedTheme(t);
-                                      }}
-                                      title={`Filtrar catálogo por tema: ${t}`}
-                                    >
-                                      <Tag size={12} />
-                                      <span>{t}</span>
-                                      <small>{selectedTheme === t ? "Filtro activo" : "Filtrar"}</small>
-                                    </button>
-                                  ))}
-                                </div>
-                              </div>
-                            )}
-
-                            <span className="detail-section-title">Población objetivo</span>
-                            <p className="detail-text">
-                              {item.poblacion || "Población general"}
-                            </p>
-
-                            <div className="detail-franjas-list">
-                              {item.franjas.map((fr) => (
+                            <div className="detail-decision-grid">
+                              <div className="detail-decision-item">
+                                <span className="detail-meta-label">Condición de acceso</span>
                                 <span
-                                  key={fr}
-                                  className="detail-franja-chip"
+                                  className={`detail-decision-badge ${
+                                    item.acceso.trim().toLowerCase().startsWith("sí")
+                                      ? "acceso-libre"
+                                      : "acceso-restringido"
+                                  }`}
                                 >
-                                  {fr}
-                                </span>
-                              ))}
-                            </div>
-
-                            {item.description && item.description !== item.constructo && (
-                              <>
-                                <span className="detail-section-title">Descripción</span>
-                                <p className="detail-text">{item.description}</p>
-                              </>
-                            )}
-
-                            {item.use && item.use !== item.poblacion && item.use !== item.constructo && (
-                              <>
-                                <span className="detail-section-title">Uso sugerido</span>
-                                <p className="detail-text">{item.use}</p>
-                              </>
-                            )}
-
-                            <span className="detail-section-title">Condición de acceso</span>
-                            <small className="detail-acceso-text">
-                              {item.acceso}
-                            </small>
-
-                            {/* Metadatos de Cualificación, Uso y Baremos */}
-                            <div className="detail-meta-grid">
-                              <div className="detail-meta-item">
-                                <span className="detail-meta-label">Método y Nivel</span>
-                                <span className="detail-meta-value">
-                                  {item.metodo ? item.metodo.replace(/_/g, " ") : "Autoinforme"} · {item.nivel_uso ? item.nivel_uso.replace(/_/g, " ") : "Cribado"}
+                                  {item.acceso}
                                 </span>
                               </div>
 
-                              <div className="detail-meta-item">
+                              <div className="detail-decision-item">
                                 <span className="detail-meta-label">Cualificación requerida</span>
                                 <span className={`detail-meta-badge cualificacion-${item.cualificacion || "libre"}`}>
                                   {item.cualificacion === "restringido"
@@ -1511,42 +1443,124 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                                     : "Libre uso profesional"}
                                 </span>
                               </div>
+                            </div>
+
+                            {isAmbitoActive && activeAmbito && secMeta ? (
+                              <div className="detail-dimension-box">
+                                <span className="detail-meta-label">Dimensión Disciplinar ({activeAmbito.nombre_corto})</span>
+                                <p className="detail-dimension-desc">
+                                  <strong>{secMeta.titulo}</strong> — {secMeta.criterio}
+                                </p>
+                              </div>
+                            ) : null}
+
+                            <div className="detail-meta-grid">
+                              <div className="detail-meta-item">
+                                <span className="detail-meta-label">Eje y constructo</span>
+                                <span className="detail-meta-value">{item.eje} · {item.constructo}</span>
+                              </div>
+
+                              {resolvedThemes.length > 0 && (
+                                <div className="detail-meta-item detail-meta-item-wide">
+                                  <span className="detail-meta-label">Temas clínicos</span>
+                                  <div className="detail-themes-list">
+                                    {resolvedThemes.map((t) =>
+                                      isAmbitoActive ? (
+                                        <span key={t} className="detail-topic-pill">
+                                          <Tag size={12} />
+                                          {t}
+                                        </span>
+                                      ) : (
+                                        <button
+                                          key={t}
+                                          type="button"
+                                          className={`theme-badge-btn ${selectedTheme === t ? "active" : ""}`}
+                                          onClick={() => {
+                                            setSelectedTheme(t);
+                                          }}
+                                          title={`Filtrar catálogo por tema: ${t}`}
+                                        >
+                                          <Tag size={12} />
+                                          <span>{t}</span>
+                                          <small>{selectedTheme === t ? "Filtro activo" : "Filtrar"}</small>
+                                        </button>
+                                      )
+                                    )}
+                                  </div>
+                                </div>
+                              )}
+
+                              <div className="detail-meta-item">
+                                <span className="detail-meta-label">Población objetivo</span>
+                                <span className="detail-meta-value">{item.poblacion || "Población general"}</span>
+                                <div className="detail-franjas-list">
+                                  {item.franjas.map((fr) => (
+                                    <span key={fr} className="detail-franja-chip">
+                                      {fr}
+                                    </span>
+                                  ))}
+                                </div>
+                              </div>
+
+                              <div className="detail-meta-item">
+                                <span className="detail-meta-label">Método y nivel</span>
+                                <span className="detail-meta-value">
+                                  {item.metodo ? item.metodo.replace(/_/g, " ") : "Autoinforme"} · {item.nivel_uso ? item.nivel_uso.replace(/_/g, " ") : "Cribado"}
+                                </span>
+                              </div>
 
                               <div className="detail-meta-item">
                                 <span className="detail-meta-label">Baremos locales</span>
                                 <span className="detail-meta-value baremos-alerta">
-                                  {item.baremos_locales ? `Baremos locales: ${item.baremos_locales}` : "Baremos locales: no verificado"}
+                                  {item.baremos_locales || "No verificado"}
                                 </span>
                               </div>
+
+                              {item.ambitos && item.ambitos.length > 0 && (
+                                <div className="detail-meta-item detail-meta-item-wide">
+                                  <span className="detail-meta-label">Áreas de aplicación</span>
+                                  <div className="detail-ambitos-list">
+                                    {item.ambitos.map((ambId) => {
+                                      const ambMeta = AMBITOS.find((a) => a.id === ambId);
+                                      if (!ambMeta) return null;
+                                      return (
+                                        <span
+                                          key={ambId}
+                                          className="detail-ambito-pill"
+                                          style={
+                                            {
+                                              "--badge-bg": ambMeta.color_tema.badge_bg,
+                                              "--badge-text": ambMeta.color_tema.badge_text,
+                                              "--badge-border": ambMeta.color_tema.accent_border,
+                                            } as React.CSSProperties
+                                          }
+                                        >
+                                          {ambMeta.nombre_corto || ambMeta.nombre}
+                                        </span>
+                                      );
+                                    })}
+                                  </div>
+                                </div>
+                              )}
                             </div>
 
-                            {/* Áreas de Aplicación Interdisciplinar */}
-                            {item.ambitos && item.ambitos.length > 0 && (
-                              <div className="detail-ambitos-box">
-                                <span className="detail-meta-label">Áreas de aplicación interdisciplinar</span>
-                                <div className="detail-ambitos-list">
-                                  {item.ambitos.map((ambId) => {
-                                    const ambMeta = AMBITOS.find((a) => a.id === ambId);
-                                    if (!ambMeta) return null;
-                                    return (
-                                      <span
-                                        key={ambId}
-                                        className="detail-ambito-pill"
-                                        style={
-                                          {
-                                            "--badge-bg": ambMeta.color_tema.badge_bg,
-                                            "--badge-text": ambMeta.color_tema.badge_text,
-                                            "--badge-border": ambMeta.color_tema.accent_border,
-                                          } as React.CSSProperties
-                                        }
-                                      >
-                                        {ambMeta.nombre_corto || ambMeta.nombre}
-                                      </span>
-                                    );
-                                  })}
-                                </div>
+                            {(item.description && item.description !== item.constructo) ||
+                            (item.use && item.use !== item.poblacion && item.use !== item.constructo) ? (
+                              <div className="detail-notes-grid">
+                                {item.description && item.description !== item.constructo && (
+                                  <div>
+                                    <span className="detail-section-title">Descripción</span>
+                                    <p className="detail-text">{item.description}</p>
+                                  </div>
+                                )}
+                                {item.use && item.use !== item.poblacion && item.use !== item.constructo && (
+                                  <div>
+                                    <span className="detail-section-title">Uso sugerido</span>
+                                    <p className="detail-text">{item.use}</p>
+                                  </div>
+                                )}
                               </div>
-                            )}
+                            ) : null}
                           </div>
 
                           {(() => {
@@ -1555,22 +1569,24 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                             const protoName = item.archivos?.find(a => a.toLowerCase().includes('protocolo')) || `${cleanSigla(item.sigla)}_protocolo.pdf`;
                             
                             return (
-                              <div className="file-list">
+                              <div className="file-list" aria-label="Documentos disponibles">
                                 {/* Ficha técnica */}
                                 <a
                                   href={`/instrumentos/eje-${item.eje_num}/${item.family_id}/${fichaName}`}
                                   download={fichaName}
                                   target="_blank"
                                   rel="noopener noreferrer"
+                                  className="file-chip"
+                                  title={`${fichaName} · PDF`}
                                 >
                                   <span className="file-icon">
                                     <FileText size={18} />
                                   </span>
-                                  <span>
-                                    <strong>Ficha técnica</strong>
-                                    <small>{fichaName} · PDF</small>
+                                  <strong>Ficha técnica</strong>
+                                  <span className="file-chip-action">
+                                    <Download size={15} />
+                                    Descargar
                                   </span>
-                                  <Download size={16} />
                                 </a>
 
                                 {/* Protocolo (si descargable) o Etiqueta Protocolo según condición */}
@@ -1580,28 +1596,26 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                                     download={protoName}
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    className="file-chip"
+                                    title={`${protoName} · PDF`}
                                   >
                                     <span className="file-icon">
                                       <FileText size={18} />
                                     </span>
-                                    <span>
-                                      <strong>Protocolo</strong>
-                                      <small>{protoName} · PDF</small>
+                                    <strong>Protocolo</strong>
+                                    <span className="file-chip-action">
+                                      <Download size={15} />
+                                      Descargar
                                     </span>
-                                    <Download size={16} />
                                   </a>
                                 ) : (
-                                  <div className="file-restricted">
+                                  <div className="file-restricted file-chip" aria-disabled="true">
                                     <span className="file-restricted-icon">
                                       <Lock size={16} />
                                     </span>
-                                    <div>
-                                      <strong className="badge-no-protocol">
-                                        {item.protocolo_etiqueta || "Protocolo no disponible"}
-                                      </strong>
-                                      <small>
-                                        Acceso restringido por licencia o verificación pendiente
-                                      </small>
+                                    <div className="file-chip-copy">
+                                      <strong>Protocolo</strong>
+                                      <small>{item.protocolo_etiqueta || "No disponible para descarga"}</small>
                                       {item.fuente_url && (
                                         <a
                                           href={item.fuente_url}
@@ -1609,7 +1623,7 @@ export function InstrumentLibrary(props: InstrumentLibraryProps) {
                                           rel="noopener noreferrer"
                                           className="official-source-link"
                                         >
-                                          <span>Fuente oficial</span>
+                                          Fuente oficial
                                         </a>
                                       )}
                                     </div>
